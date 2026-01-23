@@ -1,0 +1,15 @@
+services:
+  web-gallery:
+    image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/nginx:alpine
+    container_name: snowy-web-gallery
+    restart: always
+    network_mode: bridge
+    # 暴力解决 403 权限问题：让容器以 root 身份运行
+    user: root
+    command: ["/bin/sh", "-c", "sed -i 's/user  nginx;/user  root;/g' /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
+    ports:
+      - "6973:80"
+    volumes:
+      - "/vol2/1000/SnowyGallery/web_gallery:/usr/share/nginx/html:ro"
+    environment:
+      - TZ=Asia/Shanghai

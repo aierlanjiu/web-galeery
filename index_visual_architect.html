@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISUAL ARCHITECT | Automotive AI Prompt Dictionary</title>
+    <style>
+        :root {
+            /* 视觉架构师配色方案 - 钛白/深石墨/莫兰迪 */
+            --bg-base: #E8EAE6;        /* 钛白灰基底 */
+            --bg-card: #F4F6F2;        /* 略亮卡片底 */
+            --text-primary: #2C3E50;   /* 深石墨 */
+            --text-secondary: #7F8C8D; /* 中灰 */
+            --accent-main: #607D8B;    /* 莫兰迪蓝灰 */
+            --accent-highlight: #D4AC0D; /* 工程黄点缀 */
+            --border-color: #D5DBDB;
+            
+            --font-display: "DIN Alternate", "Oswald", sans-serif; /* 工业感标题 */
+            --font-body: "Helvetica Neue", "PingFang SC", sans-serif;
+            --font-mono: "JetBrains Mono", "Fira Code", monospace;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            margin: 0;
+            padding: 0;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px);
+            background-size: 40px 40px; /* 工程网格背景 */
+        }
+
+        /* --- Header: Bento Grid Style --- */
+        header {
+            max-width: 1440px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .header-main {
+            background: #fff;
+            padding: 40px;
+            border: 1px solid var(--text-primary); /* 硬边框 */
+            position: relative;
+        }
+
+        .header-main::after {
+            content: "ZONE 01";
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            padding: 2px 5px;
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            margin: 0;
+            letter-spacing: 2px;
+            line-height: 1;
+        }
+
+        h2 {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header-stats {
+            background: var(--text-primary);
+            color: #fff;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+
+        .stat-item {
+            margin-bottom: 15px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 5px;
+        }
+
+        /* --- Filter Bar: Technical Tab --- */
+        .filter-container {
+            max-width: 1440px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+            display: flex;
+            gap: 10px;
+            font-family: var(--font-mono);
+        }
+
+        .filter-btn {
+            background: rgba(255,255,255,0.8);
+            border: 1px solid var(--text-primary);
+            padding: 10px 20px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .filter-btn::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 4px; height: 100%;
+            background: var(--accent-highlight);
+            transform: scaleY(0);
+            transition: transform 0.2s;
+        }
+
+        .filter-btn:hover::before, .filter-btn.active::before {
+            transform: scaleY(1);
+        }
+
+        .filter-btn.active {
+            background: var(--text-primary);
+            color: #fff;
+        }
+
+        /* --- Gallery: Masonry / Bento Grid --- */
+        .gallery-grid {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 20px 60px;
+            column-count: 3; /* Masonry Effect */
+            column-gap: 20px;
+        }
+
+        @media (max-width: 1024px) { .gallery-grid { column-count: 2; } }
+        @media (max-width: 600px) { .gallery-grid { column-count: 1; } }
+
+        .card {
+            break-inside: avoid;
+            background: #fff;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            position: relative;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.1); /* Hard shadow */
+            border-color: var(--text-primary);
+        }
+
+        /* Visual Architect Corner Decors */
+        .card::before {
+            content: "";
+            position: absolute;
+            top: -1px; left: -1px; width: 10px; height: 10px;
+            border-top: 2px solid var(--text-primary);
+            border-left: 2px solid var(--text-primary);
+            z-index: 10;
+        }
+        .card::after {
+            content: "";
+            position: absolute;
+            bottom: -1px; right: -1px; width: 10px; height: 10px;
+            border-bottom: 2px solid var(--text-primary);
+            border-right: 2px solid var(--text-primary);
+            z-index: 10;
+        }
+
+        .card-img-container {
+            position: relative;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .card-img {
+            width: 100%;
+            display: block;
+            filter: grayscale(20%); /* Artistic touch */
+            transition: filter 0.3s;
+        }
+
+        .card:hover .card-img {
+            filter: grayscale(0%);
+        }
+
+        .card-meta {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: #fff;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            padding: 2px 6px;
+            backdrop-filter: blur(4px);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-id {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--accent-main);
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .card-title {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+            line-height: 1.2;
+        }
+
+        /* Code Block - Dark Mode Terminal */
+        .prompt-terminal {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .prompt-terminal::before {
+            content: "PROMPT_EXEC";
+            position: absolute;
+            top: 0; right: 0;
+            background: #333;
+            color: #aaa;
+            font-size: 9px;
+            padding: 2px 6px;
+        }
+
+        .prompt-content {
+            max-height: 100px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            scrollbar-width: thin;
+            scrollbar-color: #555 #1e1e1e;
+        }
+
+        .action-bar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .btn-copy {
+            background: transparent;
+            border: 1px solid var(--text-primary);
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            padding: 5px 15px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .btn-copy:hover {
+            background: var(--text-primary);
+            color: #fff;
+        }
+
+        /* --- Footer --- */
+        footer {
+            border-top: 1px solid var(--text-primary);
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-main">
+        <h1>Visual<br>Architect</h1>
+        <h2>Automotive AI Prompt Dictionary v1.0</h2>
+    </div>
+    <div class="header-stats">
+        <div class="stat-item">
+            <span>TOTAL ASSETS</span>
+            <span id="total-count">00</span>
+        </div>
+        <div class="stat-item">
+            <span>LAST UPDATE</span>
+            <span>2026.01.22</span>
+        </div>
+        <div class="stat-item">
+            <span>AUTHOR</span>
+            <span>SNOWY</span>
+        </div>
+        <div style="margin-top: auto; font-family: var(--font-display); font-size: 3rem; opacity: 0.2; align-self: flex-end;">
+            V.A.
+        </div>
+    </div>
+</header>
+
+<div class="filter-container">
+    <button class="filter-btn active" onclick="filterData('all')">All Systems</button>
+    <button class="filter-btn" onclick="filterData('chassis')">Chassis</button>
+    <button class="filter-btn" onclick="filterData('powertrain')">Powertrain</button>
+    <button class="filter-btn" onclick="filterData('design')">Design</button>
+</div>
+
+<div class="gallery-grid" id="gallery">
+    <!-- Cards Injected Here -->
+</div>
+
+<footer>
+    <p>ENGINEERING VISUALIZATION DATABASE // RESTRICTED ACCESS</p>
+    <p>&copy; 2026 VISUAL ARCHITECT LABS</p>
+</footer>
+
+<script>
+    // Will be populated by Python script
+    let dbData = [];
+
+    // Fetch the JSON generated by Python script
+    fetch('../scripts/web_data.json')
+        .then(res => res.json())
+        .then(data => {
+            dbData = data;
+            document.getElementById('total-count').innerText = data.length.toString().padStart(2, '0');
+            renderGallery(data);
+        })
+        .catch(err => {
+            console.error("Failed to load data", err);
+            // Fallback for demo
+            document.getElementById('gallery').innerHTML = `<div style="padding:20px;">[SYSTEM ERROR] Data stream disconnected. Run 'scripts/generate_web_data.py' to restore connection.</div>`;
+        });
+
+    const gallery = document.getElementById('gallery');
+
+    function renderGallery(items) {
+        gallery.innerHTML = '';
+        items.forEach((item, index) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            
+            // Format ID like 01, 02...
+            const displayId = (index + 1).toString().padStart(2, '0');
+            
+            // Truncate prompt
+            const cleanPrompt = item.prompt;
+
+            card.innerHTML = `
+                <div class="card-img-container">
+                    <img src="${item.image_path}" class="card-img" alt="${item.title}" onerror="this.src='https://placehold.co/600x800/E8EAE6/2C3E50?text=NO+SIGNAL'">
+                    <div class="card-meta">IMG_${displayId} // RAW</div>
+                </div>
+                <div class="card-body">
+                    <span class="card-id">ITEM // ${displayId}</span>
+                    <h3 class="card-title">${item.title}</h3>
+                    <div class="prompt-terminal">
+                        <div class="prompt-content">${cleanPrompt}</div>
+                    </div>
+                    <div class="action-bar">
+                        <button class="btn-copy" onclick="copyPrompt('${cleanPrompt.replace(/'/g, "\'")}', this)">Copy CMD</button>
+                    </div>
+                </div>
+            `;
+            gallery.appendChild(card);
+        });
+    }
+
+    function filterData(cat) {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        event.target.classList.add('active');
+
+        if(cat === 'all') {
+            renderGallery(dbData);
+        } else {
+            // Simple keyword filtering for now
+            const filtered = dbData.filter(item => {
+                const searchStr = (item.title + item.prompt).toLowerCase();
+                return searchStr.includes(cat);
+            });
+            renderGallery(filtered);
+        }
+    }
+
+    function copyPrompt(text, btn) {
+        navigator.clipboard.writeText(text).then(() => {
+            const original = btn.innerText;
+            btn.innerText = "COPIED";
+            btn.style.background = "#2C3E50";
+            btn.style.color = "#fff";
+            setTimeout(() => {
+                btn.innerText = original;
+                btn.style.background = "";
+                btn.style.color = "";
+            }, 1500);
+        });
+    }
+</script>
+
+</body>
+</html>

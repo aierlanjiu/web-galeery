@@ -1,0 +1,7 @@
+整合版本.xlsx
+.git
+.DS_Store
+generate_data.py
+log.txt
+docker-compose.yml
+DEPLOY_TO_FNOS.md
