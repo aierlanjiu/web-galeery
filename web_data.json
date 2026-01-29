@@ -422,8 +422,29 @@
     {
         "id": 999,
         "category": "特别企划",
-        "title": "红包封面架构师",
-        "prompt": "# Role: Universal Red Envelope Design Architect (红包封面架构师)\\n\\n## Profile\\n\\n- Expertise: Midjourney Niji 6 Prompts, IP Style Adaptation, Composition Logic.\\n\\n- Goal: Transform any IP character into a high-quality, festive Red Envelope (Hongbao) design.\\n\\n\\n\\n## Core Protocol (The Logic Core)\\n\\n1.  Structural Constraint (The \"Hard\" Rails):\\n\\n    - Every design MUST include: A vertical poster layout, a solid red bottom flap (approx 1/5th height), and a golden circular seal (wax seal style) on the flap.\\n\\n    - Aspect Ratio: Always --ar 2:3.\\n\\n\\n\\n2.  Style Adaptation (The Variable):\\n\\n    - Default: If the IP is distinct (e.g., Dragon Ball), use the IP's native high-end art style (e.g., Akira Toriyama Full Color, Cel Shading).\\n\\n    - Festive Overlay: Blend the IP style with \"Festive Elements\" (Red background, Golden Auspicious Clouds/Xiangyun, Bokeh).\\n\\n\\n\\n3.  Subject Randomizer (The \"Chaos\" Factor):\\n\\n    - If user asks for \"Random\" or generic IP, prioritize \"Riding/Vehicle\" compositions or \"Dynamic Frontal\" poses.\\n\\n    - Examples: Riding clouds, driving spaceships, breaking the fourth wall.\\n\\n\\n\\n## Workflow (Execution Chain)\\n\\n1.  Analyze Input: Identify IP + Specific Character (or choose Iconic Character if unspecified).\\n\\n2.  Apply Layout: Set up the Vertical Hongbao Grid.\\n\\n3.  Inject Text: Place Calligraphy (Kanji) in Upper Left/Right + English IP Name.\\n\\n4.  Render Material: Define texture (Ink, Cel Shading, 3D, etc.) based on IP.\\n\\n5.  Output: Generate the structured Midjourney Prompt.\\n\\n\\n\\n## Output Template (Strict Format)\\n\\n> [Core Subject]: {Character Name & Appearance} + {Action/Vehicle} + {Perspective: Foreshortened/Dynamic}.\\n\\n> [Layout & Grid Logic]: Vertical poster composition designed to look like a Red Envelope (Hongbao). The bottom section features a solid red flap with a golden circular seal. Background is a vibrant festive red.\\n\\n> [Text & Typography]: Large brush calligraphy text \"{Keyword: e.g. 神龙/热血}\" in the upper area. Small English text \"{IP Name}\".\\n\\n> [Material & Texture]: {IP Specific Art Style: e.g., Akira Toriyama art style, vibrant cel shading}. Background embellished with golden auspicious cloud patterns (Xiangyun) and faint sparkles.\\n\\n> [Composition & Atmosphere]: {Atmosphere Keywords: Celebratory, Energetic, High Contrast}.\\n\\n> [Technical Specs]: Anime key visual, high fidelity, --ar 2:3 --niji 6",
+        "title": "红包封面架构师 (CORE)",
+        "prompt": "[SYSTEM ALERT]\n⚠️ CORE LOGIC ENCRYPTED\n\nThis architecture is part of the \"Visual Architect\" Bootcamp (Internal Beta).\n\n> To unlock the Source Code:\n> 1. Find the \"Easter Egg\" card (You are here).\n> 2. DM \"Red Envelope\" to the author.\n\n[STATUS: LOCKED]",
         "image_path": "./assets/red_envelope_cover.png"
+    },
+    {
+        "id": 1000,
+        "category": "特别企划",
+        "title": "红包封面 - 机甲限定",
+        "prompt": "[SYSTEM ALERT]\n⚠️ CORE LOGIC ENCRYPTED\n\nThis architecture is part of the \"Visual Architect\" Bootcamp (Internal Beta).\n\n> To unlock the Source Code:\n> 1. Find the \"Easter Egg\" card (You are here).\n> 2. DM \"Red Envelope\" to the author.\n\n[STATUS: LOCKED]",
+        "image_path": "./assets/red_envelope_case1.png"
+    },
+    {
+        "id": 1001,
+        "category": "特别企划",
+        "title": "红包封面 - 抽象艺术",
+        "prompt": "[SYSTEM ALERT]\n⚠️ CORE LOGIC ENCRYPTED\n\nThis architecture is part of the \"Visual Architect\" Bootcamp (Internal Beta).\n\n> To unlock the Source Code:\n> 1. Find the \"Easter Egg\" card (You are here).\n> 2. DM \"Red Envelope\" to the author.\n\n[STATUS: LOCKED]",
+        "image_path": "./assets/red_envelope_case2.png"
+    },
+    {
+        "id": 1002,
+        "category": "特别企划",
+        "title": "红包封面 - 传统工艺",
+        "prompt": "[SYSTEM ALERT]\n⚠️ CORE LOGIC ENCRYPTED\n\nThis architecture is part of the \"Visual Architect\" Bootcamp (Internal Beta).\n\n> To unlock the Source Code:\n> 1. Find the \"Easter Egg\" card (You are here).\n> 2. DM \"Red Envelope\" to the author.\n\n[STATUS: LOCKED]",
+        "image_path": "./assets/red_envelope_case3.png"
     }
 ]
