@@ -191,6 +191,287 @@
             );
         };
 
+        const CoCreationModal = ({ isOpen, onClose }) => {
+            const [wechatCopied, setWechatCopied] = useState(false);
+            if (!isOpen) return null;
+
+            const handleCopyWechat = () => {
+                navigator.clipboard.writeText('oaoa5yt');
+                setWechatCopied(true);
+                setTimeout(() => setWechatCopied(false), 2000);
+            };
+
+            return (
+                <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed inset-0 z-[110] flex items-center justify-center p-4 md:p-8 bg-black/95 backdrop-blur-xl"
+                >
+                    <motion.div 
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        className="bg-va-card dark:bg-slate-900 w-full max-w-[1400px] h-[85vh] rounded-[3rem] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-va-dark/20 dark:border-white/10"
+                    >
+                        {/* Sidebar/Image Area */}
+                        <div className="md:w-[30%] bg-va-dark p-12 text-white flex flex-col justify-between relative overflow-hidden">
+                            <div className="relative z-10">
+                                <div className="text-va-gold font-mono text-sm mb-4 tracking-[0.3em]">PROJECT // 001</div>
+                                <h2 className="font-display text-5xl mb-8 leading-[0.9]">VISUAL<br/><span className="text-va-gold">ARCHITECT</span></h2>
+                                <div className="space-y-6 opacity-80 font-mono text-xs leading-relaxed uppercase tracking-widest">
+                                    <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-gold rounded-full"></span> Status: Precipitating (沉淀中)</p>
+                                    <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-gold rounded-full"></span> Publisher: Mechanical Industry Press</p>
+                                    <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-gold rounded-full"></span> Target: 300 Hardcore Creators</p>
+                                </div>
+                            </div>
+                            
+                            {/* Coffee Support Section inside Sidebar */}
+                            <div className="relative z-10 bg-white/5 p-6 rounded-3xl border border-white/10 mt-auto">
+                                <p className="font-mono text-[10px] text-va-gold mb-4 uppercase tracking-widest">Support the Creator</p>
+                                <div className="flex items-center gap-4">
+                                    <img src="./images/coffe.jpg" alt="Coffee" className="w-20 h-20 rounded-xl shadow-lg border border-white/10" />
+                                    <div>
+                                        <p className="font-bold text-sm leading-tight text-white">赞赏与支持</p>
+                                        <p className="text-[10px] opacity-50 font-mono mt-1">SUPPORT VIA QR</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="absolute -bottom-10 -left-10 text-[15rem] font-display opacity-5 pointer-events-none select-none">V.A.</div>
+                        </div>
+
+                        {/* Content Area */}
+                        <div className="md:w-[70%] p-12 md:p-16 overflow-y-auto custom-scrollbar flex flex-col">
+                            <div className="flex justify-between items-start mb-12">
+                                <div>
+                                    <h3 className="font-display text-3xl text-va-dark dark:text-white mb-2 tracking-tight">图书共创项目看板</h3>
+                                    <p className="font-mono text-xs text-va-accent tracking-[0.4em] uppercase">THE CO-CREATION DASHBOARD</p>
+                                </div>
+                                <button onClick={onClose} className="p-3 hover:bg-black/5 dark:hover:bg-white/10 rounded-full transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-va-dark dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div className="space-y-12 flex-grow">
+                                <section>
+                                    <h4 className="font-mono text-xl font-bold text-va-gold mb-8 flex items-center gap-4 tracking-widest uppercase">
+                                        <span className="w-4 h-4 rounded-full bg-va-gold animate-pulse"></span>
+                                        入群验证说明 (VERIFICATION)
+                                    </h4>
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                        {[
+                                            { title: "作品提交", desc: "提交你的 AI 汽车可视化作品或个人 Portfolio" },
+                                            { title: "身份认证", desc: "汽车行业从业者 / 设计专业学生 / AI 开发者" },
+                                            { title: "防伪门槛", desc: "发送 0.01 元验证红包 (旨在过滤低质流量/机器人)" }
+                                        ].map((item, i) => (
+                                            <div key={i} className="p-8 bg-va-base/40 dark:bg-white/5 rounded-[2.5rem] border border-va-dark/10 dark:border-white/5 hover:border-va-gold/30 transition-colors group">
+                                                <div className="font-mono text-sm text-va-gold mb-4 opacity-50">#0{i+1}</div>
+                                                <div className="font-bold text-xl text-va-dark dark:text-white mb-3 group-hover:text-va-gold transition-colors">{item.title}</div>
+                                                <div className="text-sm text-va-dark/60 dark:text-white/40 leading-relaxed">{item.desc}</div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </section>
+
+                                <section>
+                                    <h4 className="font-mono text-xl font-bold text-va-gold mb-8 flex items-center gap-4 tracking-widest uppercase">
+                                        <span className="w-4 h-4 rounded-full bg-va-gold animate-pulse"></span>
+                                        共创愿景 (VISION)
+                                    </h4>
+                                    <p className="text-2xl text-va-dark/80 dark:text-slate-200 font-body leading-relaxed md:pr-12">
+                                        我们拒绝快餐式的信息堆砌。在这里，我们深耕 <strong className="text-va-dark dark:text-white font-bold">“汽车底座 + AI 表达”</strong> 的专业交集。作为首批共创者，你将深度参与《Visual Architect》的内容打磨，并获得图书首发权益及核心社区的长期准入权。
+                                    </p>
+                                </section>
+                            </div>
+
+                            <div className="mt-16 pt-10 border-t border-va-dark/10 dark:border-white/10 flex flex-col md:flex-row items-center justify-between gap-8">
+                                <div className="flex items-center gap-6">
+                                    <div className="w-16 h-16 bg-va-gold/10 flex items-center justify-center rounded-2xl border border-va-gold/30 relative overflow-hidden group">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-va-gold group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p className="font-bold text-va-dark dark:text-white text-lg mb-1">联系作者申请入群</p>
+                                        <button 
+                                            onClick={handleCopyWechat}
+                                            className="flex items-center gap-2 group"
+                                        >
+                                            <span className="font-mono text-sm text-va-gold font-bold tracking-wider group-hover:underline">ID: oaoa5yt</span>
+                                            {wechatCopied ? (
+                                                <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} className="text-[10px] bg-green-500 text-white px-2 py-0.5 rounded-full font-mono uppercase tracking-tighter">COPIED</motion.span>
+                                            ) : (
+                                                <span className="text-[10px] text-va-dark/40 dark:text-white/30 font-mono group-hover:text-va-gold transition-colors">CLICK TO COPY</span>
+                                            )}
+                                        </button>
+                                    </div>
+                                </div>
+                                <button 
+                                    className="px-10 py-4 bg-va-dark/5 dark:bg-white/5 text-va-dark/30 dark:text-white/20 font-bold font-mono text-xs rounded-[1.5rem] cursor-not-allowed border border-va-dark/5 dark:border-white/5 whitespace-nowrap tracking-widest"
+                                    disabled
+                                >
+                                    知识库建设中 (WIKI COMING SOON)
+                                </button>
+                            </div>
+                        </div>
+                    </motion.div>
+                </motion.div>
+            );
+        };
+
+        const CoCreationWidget = ({ onOpen }) => {
+            return (
+                <motion.div 
+                    initial={{ x: -50, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    whileHover={{ x: 10 }}
+                    className="fixed left-0 top-1/2 -translate-y-1/2 z-50 hidden md:block"
+                >
+                    <button 
+                        onClick={onOpen}
+                        className="bg-[#E8EAE6]/90 dark:bg-va-dark/90 backdrop-blur-md text-va-dark dark:text-white py-8 px-3 rounded-r-[2rem] border-y border-r border-va-dark/10 dark:border-white/10 shadow-2xl flex flex-col items-center gap-6 group transition-colors"
+                    >
+                        <span className="font-display text-xl tracking-[0.3em] [writing-mode:vertical-lr] font-bold">CO-CREATION</span>
+                        <div className="w-1.5 h-12 bg-va-gold group-hover:h-16 transition-all rounded-full"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-va-gold group-hover:rotate-12 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5S19.832 5.477 21 6.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </button>
+                </motion.div>
+            );
+        };
+
+        const PromptEditor = ({ isOpen, onClose, initialPrompt, onSave }) => {
+            const [sections, setSections] = useState([]);
+            const [fullPrompt, setFullPrompt] = useState(initialPrompt || '');
+            const [copied, setCopied] = useState(false);
+
+            useEffect(() => {
+                if (isOpen) {
+                    document.body.style.overflow = 'hidden';
+                    if (initialPrompt) parsePrompt(initialPrompt);
+                } else {
+                    document.body.style.overflow = 'unset';
+                }
+                return () => { document.body.style.overflow = 'unset'; };
+            }, [isOpen, initialPrompt]);
+
+            const parsePrompt = (text) => {
+                // Split by section headers: // --- SECTION NAME ---
+                const sectionRegex = /(\/\/ --- .+ ---)/g;
+                const parts = text.split(sectionRegex);
+                
+                let parsedSections = [];
+                let currentHeader = "PREAMBLE";
+                
+                for (let i = 0; i < parts.length; i++) {
+                    const part = parts[i].trim();
+                    if (!part) continue;
+                    
+                    if (part.startsWith("// ---")) {
+                        currentHeader = part;
+                    } else {
+                        parsedSections.push({
+                            header: currentHeader,
+                            content: part
+                        });
+                    }
+                }
+                setSections(parsedSections);
+                setFullPrompt(text);
+            };
+
+            const handleSectionChange = (index, newContent) => {
+                const updatedSections = [...sections];
+                updatedSections[index].content = newContent;
+                setSections(updatedSections);
+                
+                // Reconstruct full prompt
+                const newFullPrompt = updatedSections.map(s => `${s.header}\n\n${s.content}`).join('\n\n');
+                setFullPrompt(newFullPrompt);
+            };
+
+            const handleCopy = () => {
+                navigator.clipboard.writeText(fullPrompt);
+                setCopied(true);
+                setTimeout(() => setCopied(false), 2000);
+            };
+
+            if (!isOpen) return null;
+
+            return (
+                <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8 bg-black/80 backdrop-blur-xl"
+                >
+                    <motion.div 
+                        initial={{ scale: 0.9, y: 20 }}
+                        animate={{ scale: 1, y: 0 }}
+                        className="bg-white dark:bg-slate-900 w-full max-w-5xl h-[90vh] rounded-[2.5rem] overflow-hidden flex flex-col shadow-2xl border border-white/10"
+                    >
+                        {/* Header */}
+                        <div className="p-6 border-b border-va-dark/10 dark:border-white/10 flex justify-between items-center bg-va-card dark:bg-slate-800">
+                            <div>
+                                <h2 className="font-display text-2xl text-va-dark dark:text-white">PROMPT <span className="text-va-gold">ARCHITECT</span></h2>
+                                <p className="font-mono text-[10px] text-va-dark/50 dark:text-white/40 tracking-tighter">STRUCTURAL DECOMPOSITION & CUSTOMIZATION</p>
+                            </div>
+                            <button onClick={onClose} className="p-2 hover:bg-black/5 dark:hover:bg-white/10 rounded-full transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-va-dark dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        {/* Editor Body */}
+                        <div className="flex-grow overflow-y-auto p-6 space-y-8 custom-scrollbar">
+                            {sections.map((section, idx) => (
+                                <div key={idx} className="space-y-3">
+                                    <div className="flex items-center gap-2">
+                                        <div className="h-px flex-grow bg-va-dark/10 dark:bg-white/10"></div>
+                                        <span className="font-mono text-[10px] font-bold text-va-gold uppercase tracking-widest">{section.header.replace(/\/\/ --- | ---/g, '')}</span>
+                                        <div className="h-px flex-grow bg-va-dark/10 dark:bg-white/10"></div>
+                                    </div>
+                                    <textarea 
+                                        value={section.content}
+                                        onChange={(e) => handleSectionChange(idx, e.target.value)}
+                                        className="w-full bg-va-base/30 dark:bg-slate-950/50 border border-va-dark/10 dark:border-white/5 rounded-2xl p-4 font-mono text-sm text-va-dark dark:text-slate-300 focus:ring-2 focus:ring-va-gold outline-none transition-all min-h-[120px] resize-none"
+                                        spellCheck="false"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Footer / Actions */}
+                        <div className="p-6 border-t border-va-dark/10 dark:border-white/10 bg-va-card dark:bg-slate-800 flex flex-col md:flex-row gap-4 items-center">
+                            <div className="flex-grow w-full">
+                                <p className="font-mono text-[10px] text-va-dark/40 dark:text-white/30 mb-2">FINAL OUTPUT STREAM</p>
+                                <div className="bg-black/5 dark:bg-black/20 p-3 rounded-xl border border-va-dark/5 dark:border-white/5 font-mono text-[10px] text-va-dark/60 dark:text-slate-400 line-clamp-2">
+                                    {fullPrompt}
+                                </div>
+                            </div>
+                            <div className="flex gap-3 w-full md:w-auto">
+                                <button 
+                                    onClick={handleCopy}
+                                    className={`
+                                        w-full md:w-48 px-8 py-3 font-bold font-mono text-sm rounded-2xl hover:scale-105 transition-all
+                                        ${copied 
+                                            ? 'bg-green-600 text-white' 
+                                            : 'bg-va-dark dark:bg-white text-white dark:text-slate-900'}
+                                    `}
+                                >
+                                    {copied ? 'COPIED' : 'COPY PROMPT'}
+                                </button>
+                            </div>
+                        </div>
+                    </motion.div>
+                </motion.div>
+            );
+        };
+
         const FilterBar = ({ activeFilter, setFilter, categories }) => {
             return (
                 <div className="max-w-7xl mx-auto px-4 md:px-5 mb-10 overflow-x-auto pb-4 md:pb-0 custom-scrollbar">
@@ -357,7 +638,7 @@
             );
         };
 
-        const Card = ({ item, index, isMobile }) => {
+        const Card = ({ item, index, isMobile, onEdit }) => {
             const [copied, setCopied] = useState(false);
 
             const handleCopy = () => {
@@ -417,17 +698,26 @@
                                     </div>
                                 </div>
 
-                                <div className="flex justify-end">
+                                <div className="flex gap-2">
                                     <button
                                         onClick={handleCopy}
                                         className={`
-                                            font-mono text-[10px] uppercase tracking-wider px-4 py-2 border transition-all duration-300 w-full md:w-auto rounded-xl
+                                            font-mono text-[10px] uppercase tracking-wider px-4 py-2 border transition-all duration-300 flex-grow rounded-xl
                                             ${copied
                                                 ? 'bg-va-dark text-white border-va-dark dark:bg-white dark:text-slate-900 dark:border-white'
                                                 : 'bg-transparent text-va-dark border-va-dark hover:bg-va-dark hover:text-white dark:text-slate-300 dark:border-slate-500 dark:hover:bg-slate-700 dark:hover:text-white'}
                                         `}
                                     >
                                         {copied ? '已复制指令 (COPIED)' : '复制提示词 (COPY CMD)'}
+                                    </button>
+                                    <button
+                                        onClick={() => onEdit(item.prompt)}
+                                        className="bg-va-gold text-white p-2 rounded-xl hover:scale-105 transition-transform border border-va-gold"
+                                        title="结构化编辑"
+                                    >
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -475,6 +765,51 @@
                 <p className="font-mono text-xs text-va-dark dark:text-slate-400">&copy; 2026 雪沐江南 (SNOWY) LABS</p>
             </footer>
         );
+
+        const BackToTopButton = () => {
+            const [isVisible, setIsVisible] = useState(false);
+
+            useEffect(() => {
+                const toggleVisibility = () => {
+                    if (window.scrollY > 300) {
+                        setIsVisible(true);
+                    } else {
+                        setIsVisible(false);
+                    }
+                };
+
+                window.addEventListener("scroll", toggleVisibility);
+                return () => window.removeEventListener("scroll", toggleVisibility);
+            }, []);
+
+            const scrollToTop = () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            };
+
+            return (
+                <AnimatePresence>
+                    {isVisible && (
+                        <motion.button
+                            initial={{ opacity: 0, scale: 0.5 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.5 }}
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            onClick={scrollToTop}
+                            className="fixed bottom-28 right-8 z-40 p-3 bg-white/80 dark:bg-slate-700/80 backdrop-blur-md text-va-dark dark:text-white rounded-full shadow-lg border border-va-dark/10 dark:border-white/10 hover:shadow-xl transition-all group"
+                            title="Back to Top"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 group-hover:-translate-y-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                            </svg>
+                        </motion.button>
+                    )}
+                </AnimatePresence>
+            );
+        };
 
         const CoffeeButton = () => {
             const [showQR, setShowQR] = useState(false);
@@ -524,8 +859,16 @@
             const [categories, setCategories] = useState([]);
             const [isMobile, setIsMobile] = useState(false);
             const [isDarkMode, setIsDarkMode] = useState(false);
+            const [editorOpen, setEditorOpen] = useState(false);
+            const [editingPrompt, setEditingPrompt] = useState('');
+            const [isCoCreationOpen, setIsCoCreationOpen] = useState(false);
 
             const toggleTheme = () => setIsDarkMode(!isDarkMode);
+
+            const openEditor = (prompt) => {
+                setEditingPrompt(prompt);
+                setEditorOpen(true);
+            };
 
             useEffect(() => {
                 // Check mobile
@@ -591,6 +934,17 @@
                                                             isDarkMode={isDarkMode} 
                                                             toggleTheme={toggleTheme} 
                                                         />
+
+                                                        <CoCreationWidget onOpen={() => setIsCoCreationOpen(true)} />
+                                                        
+                                                        <AnimatePresence>
+                                                            {isCoCreationOpen && (
+                                                                <CoCreationModal 
+                                                                    isOpen={isCoCreationOpen} 
+                                                                    onClose={() => setIsCoCreationOpen(false)} 
+                                                                />
+                                                            )}
+                                                        </AnimatePresence>
                                                         
                                                         <Toolbox isDarkMode={isDarkMode} />
                                                         
@@ -614,29 +968,49 @@
                                                         
                                                                                             <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
                                                         
-                                                                                                <AnimatePresence>
-                                                        
-                                                                                                    {filteredData.map((item, index) => (
-                                                        
-                                                                                                        <Card key={`${item.title}-${index}`} item={item} index={index} isMobile={isMobile} />
-                                                        
-                                                                                                    ))}
-                                                        
-                                                                                                </AnimatePresence>
-                                                        
-                                                                                            </div>
-                                                        
-                                                                                        )}
-                                                        
-                                                                                                                        </main>
-                                                                                    
+                                                                                                                                                                                                <AnimatePresence>
+                                                                                                                                                        
+                                                                                                                                                                                                    {filteredData.map((item, index) => (
+                                                                                                                                                        
+                                                                                                                                                                                                        <Card 
+                                                                                                                                                                                                            key={`${item.title}-${index}`} 
+                                                                                                                                                                                                            item={item} 
+                                                                                                                                                                                                            index={index} 
+                                                                                                                                                                                                            isMobile={isMobile} 
+                                                                                                                                                                                                            onEdit={openEditor}
+                                                                                                                                                                                                        />
+                                                                                                                                                        
+                                                                                                                                                                                                    ))}
+                                                                                                                                                        
+                                                                                                                                                                                                </AnimatePresence>
+                                                                                                                                                        
+                                                                                                                                                                                            </div>
+                                                                                                                                                        
+                                                                                                                                                                                        )}
+                                                                                                                                                        
+                                                                                                                                                                                    </main>
+                                                                                                                                                                                    
+                                                                                                                                                                                    <AnimatePresence>
+                                                                                                                                                                                        {editorOpen && (
+                                                                                                                                                                                            <PromptEditor 
+                                                                                                                                                                                                isOpen={editorOpen} 
+                                                                                                                                                                                                onClose={() => setEditorOpen(false)} 
+                                                                                                                                                                                                initialPrompt={editingPrompt}
+                                                                                                                                                                                                onSave={(newPrompt) => {
+                                                                                                                                                                                                    // For now, we just copy to clipboard and close
+                                                                                                                                                                                                    navigator.clipboard.writeText(newPrompt);
+                                                                                                                                                                                                    setEditorOpen(false);
+                                                                                                                                                                                                }}
+                                                                                                                                                                                            />
+                                                                                                                                                                                        )}
+                                                                                                                                                                                    </AnimatePresence>                                                                                    
                                                                                                                         <PromotionBanner />
                                                                                     
-                                                                                                                        <Footer />                                                        
-                                                                                    <CoffeeButton />
-                                                        
-                                                                                </div>
-                                                        
+                                                                                                                                                                                <Footer />                                                        
+                                                                                                                                                                                <BackToTopButton />
+                                                                                                                                                                                <CoffeeButton />
+                                                                                                                                                                                
+                                                                                                                                                                                                        </div>                                                        
                                                                             </div>
                                                         
                                                                         </div>
