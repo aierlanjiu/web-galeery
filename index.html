@@ -185,12 +185,23 @@
                                                     <span>渲染引擎 (ENGINE)</span>
                                                     <span>REACT.CORE</span>
                                                 </div>
-                                                <div className="pt-2 mt-2 border-t border-va-dark/10 dark:border-white/10">
-                                                    <a href="news.html" className="flex items-center justify-between group hover:text-va-gold transition-colors cursor-pointer">
-                                                        <span className="font-bold">今日前沿 (DAILY NEWS)</span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                                        </svg>
+                                                <div className="pt-4 mt-2 border-t border-va-dark/10 dark:border-white/10">
+                                                    <a href="news.html" className="relative overflow-hidden block group">
+                                                        <div className="bg-va-dark dark:bg-white text-white dark:text-slate-900 p-4 rounded-xl flex items-center justify-between shadow-lg hover:shadow-xl transition-all border border-va-dark/10 dark:border-white/10 group-hover:scale-[1.02] relative z-10">
+                                                            <div className="flex flex-col">
+                                                                <span className="font-mono text-[10px] text-va-gold uppercase tracking-widest mb-1 flex items-center gap-2">
+                                                                    <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+                                                                    LIVE FEED // 每日更新
+                                                                </span>
+                                                                <span className="font-display text-xl font-bold tracking-wide">今日前沿 · DAILY NEWS</span>
+                                                            </div>
+                                                            <div className="w-10 h-10 bg-white/10 dark:bg-black/10 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-va-gold group-hover:text-white transition-colors">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div className="absolute inset-0 bg-va-gold/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-xl z-0"></div>
                                                     </a>
                                                 </div>
                                             </div>
