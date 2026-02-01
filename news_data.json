@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-01_1769904244",
+    "date": "2026-02-01",
+    "poster": "./assets/news/news_2026-02-01_1769904244.png",
+    "items": [
+      {
+        "title": "首款完全仿生机器人Moya发布",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=首款完全仿生机器人Moya发布"
+      },
+      {
+        "title": "2025新能源车险保费增30%",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=2025新能源车险保费增30%"
+      },
+      {
+        "title": "波音无人加油机MQ-25A首测",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=波音无人加油机MQ-25A首测"
+      },
+      {
+        "title": "芯动发布120通道PCIe5芯片",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=芯动发布120通道PCIe5芯片"
+      },
+      {
+        "title": "全球手机均价突破400美元",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=全球手机均价突破400美元"
+      },
+      {
+        "title": "三星Galaxy S26外观参数揭晓",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=三星Galaxy S26外观参数揭晓"
+      },
+      {
+        "title": "NASA雅典娜超级计算机上线",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=NASA雅典娜超级计算机上线"
+      },
+      {
+        "title": "台四季度经济增速创38年新高",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=台四季度经济增速创38年新高"
+      },
+      {
+        "title": "闻泰科技2025预亏135亿",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=闻泰科技2025预亏135亿"
+      },
+      {
+        "title": "自制无人机时速657公里破纪录",
+        "source": "CnBeta",
+        "link": "https://www.google.com/search?q=自制无人机时速657公里破纪录"
+      }
+    ]
+  },
+  {
     "id": "2026-01-31_1769817798",
     "date": "2026-01-31",
     "poster": "./assets/news/news_2026-01-31_1769817798.webp",
