@@ -1,230 +1,231 @@
 [
-  {
-    "id": "2026-02-02_1769988170",
-    "date": "2026-02-02",
-    "poster": "./assets/news/news_2026-02-02_1769988170.png",
-    "items": [
-      {
-        "title": "Chinese NEV startup sales ranking, HIMA: 57,915, Xiaomi: 39,000+, January 2025",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/"
-      },
-      {
-        "title": "Horizon Robotics and Nvidia are key players in China’s advanced driving chip market share rankings in 2025",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/01/horizon-robotics-and-nvidia-are-key-players-in-chinas-advanced-driving-chip-market-share-rankings-in-2025/"
-      },
-      {
-        "title": "Ford, Xiaomi deny reports of U.S. EV joint venture talks",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/01/xiaomi-and-ford-deny-reports-of-electric-vehicle-joint-venture-talks-in-the-united-states/"
-      },
-      {
-        "title": "前四个都不是Kimi!月之暗面公开喊话百度搜索 后者悄然优化“Kimi官网”检索结果",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548066.htm"
-      },
-      {
-        "title": "小米否认与福特合作传闻 称相关报道均为虚假信息",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548068.htm"
-      },
-      {
-        "title": "SSD涨价近3倍 8TB固态硬盘价格近2万 够装一台高端游戏PC",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548070.htm"
-      },
-      {
-        "title": "150万AI Agents在Moltbook“发疯”",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548072.htm"
-      },
-      {
-        "title": "机器人商场走猫步摔倒被嘲笑 小鹏总裁回应",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548074.htm"
-      },
-      {
-        "title": "Anthropic掌门人Amodei长文预警：AI竞争愈加激烈 难以重视自主性风险",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548076.htm"
-      },
-      {
-        "title": "90后数学天才韦东奕新身份公布 正式获聘北大长聘副教授",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548078.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-02_1769987821",
-    "date": "2026-02-02",
-    "poster": "./assets/news/news_2026-02-02_1769987821_custom.jpg",
-    "items": [
-      {
-        "title": "Chinese NEV startup sales ranking, HIMA: 57,915, Xiaomi: 39,000+, January 2025",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/"
-      },
-      {
-        "title": "Horizon Robotics and Nvidia are key players in China’s advanced driving chip market share rankings in 2025",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/01/horizon-robotics-and-nvidia-are-key-players-in-chinas-advanced-driving-chip-market-share-rankings-in-2025/"
-      },
-      {
-        "title": "Ford, Xiaomi deny reports of U.S. EV joint venture talks",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/01/xiaomi-and-ford-deny-reports-of-electric-vehicle-joint-venture-talks-in-the-united-states/"
-      },
-      {
-        "title": "前四个都不是Kimi!月之暗面公开喊话百度搜索 后者悄然优化“Kimi官网”检索结果",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548066.htm"
-      },
-      {
-        "title": "小米否认与福特合作传闻 称相关报道均为虚假信息",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548068.htm"
-      },
-      {
-        "title": "SSD涨价近3倍 8TB固态硬盘价格近2万 够装一台高端游戏PC",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548070.htm"
-      },
-      {
-        "title": "150万AI Agents在Moltbook“发疯”",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548072.htm"
-      },
-      {
-        "title": "机器人商场走猫步摔倒被嘲笑 小鹏总裁回应",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548074.htm"
-      },
-      {
-        "title": "Anthropic掌门人Amodei长文预警：AI竞争愈加激烈 难以重视自主性风险",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548076.htm"
-      },
-      {
-        "title": "90后数学天才韦东奕新身份公布 正式获聘北大长聘副教授",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548078.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-01_1769904244",
-    "date": "2026-02-01",
-    "poster": "./assets/news/news_2026-02-01_1769904244.png",
-    "items": [
-      {
-        "title": "首款完全仿生机器人Moya发布",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=首款完全仿生机器人Moya发布"
-      },
-      {
-        "title": "2025新能源车险保费增30%",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=2025新能源车险保费增30%"
-      },
-      {
-        "title": "波音无人加油机MQ-25A首测",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=波音无人加油机MQ-25A首测"
-      },
-      {
-        "title": "芯动发布120通道PCIe5芯片",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=芯动发布120通道PCIe5芯片"
-      },
-      {
-        "title": "全球手机均价突破400美元",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=全球手机均价突破400美元"
-      },
-      {
-        "title": "三星Galaxy S26外观参数揭晓",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=三星Galaxy S26外观参数揭晓"
-      },
-      {
-        "title": "NASA雅典娜超级计算机上线",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=NASA雅典娜超级计算机上线"
-      },
-      {
-        "title": "台四季度经济增速创38年新高",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=台四季度经济增速创38年新高"
-      },
-      {
-        "title": "闻泰科技2025预亏135亿",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=闻泰科技2025预亏135亿"
-      },
-      {
-        "title": "自制无人机时速657公里破纪录",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=自制无人机时速657公里破纪录"
-      }
-    ]
-  },
-  {
-    "id": "2026-01-31_1769817798",
-    "date": "2026-01-31",
-    "poster": "./assets/news/news_2026-01-31_1769817798.webp",
-    "items": [
-      {
-        "title": "宁德时代钠电池量产上车",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547464.htm"
-      },
-      {
-        "title": "新款奔驰S级全球首发",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547842.htm"
-      },
-      {
-        "title": "特斯拉Robotaxi事故率曝光",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547848.htm"
-      },
-      {
-        "title": "小米SU7获华尔街日报好评",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=小米SU7获华尔街日报好评"
-      },
-      {
-        "title": "日产测试车载太阳能充电",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547834.htm"
-      },
-      {
-        "title": "DeepSeek获批采购H200",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547892.htm"
-      },
-      {
-        "title": "电动车24万公里续航91%",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547844.htm"
-      },
-      {
-        "title": "丰田卡罗拉概念车官图",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547898.htm"
-      },
-      {
-        "title": "奔驰CEO拒绝迁址美国",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547866.htm"
-      },
-      {
-        "title": "央视曝光车企网络黑产",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547852.htm"
-      }
-    ]
-  }
+    {
+        "id": "2026-02-02_1769988170",
+        "date": "2026-02-02",
+        "poster": "./assets/news/news_2026-02-02_1769988170.png",
+        "items": [
+            {
+                "title": "Chinese NEV startup sales ranking, HIMA: 57,915, Xiaomi: 39,000+, January 2025",
+                "source": "CarNewsChina (China EV & Auto)",
+                "link": "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/"
+            },
+            {
+                "title": "Horizon Robotics and Nvidia are key players in China’s advanced driving chip market share rankings in 2025",
+                "source": "CarNewsChina (China EV & Auto)",
+                "link": "https://carnewschina.com/2026/02/01/horizon-robotics-and-nvidia-are-key-players-in-chinas-advanced-driving-chip-market-share-rankings-in-2025/"
+            },
+            {
+                "title": "Ford, Xiaomi deny reports of U.S. EV joint venture talks",
+                "source": "CarNewsChina (China EV & Auto)",
+                "link": "https://carnewschina.com/2026/02/01/xiaomi-and-ford-deny-reports-of-electric-vehicle-joint-venture-talks-in-the-united-states/"
+            },
+            {
+                "title": "前四个都不是Kimi!月之暗面公开喊话百度搜索 后者悄然优化“Kimi官网”检索结果",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548066.htm"
+            },
+            {
+                "title": "小米否认与福特合作传闻 称相关报道均为虚假信息",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548068.htm"
+            },
+            {
+                "title": "SSD涨价近3倍 8TB固态硬盘价格近2万 够装一台高端游戏PC",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548070.htm"
+            },
+            {
+                "title": "150万AI Agents在Moltbook“发疯”",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548072.htm"
+            },
+            {
+                "title": "机器人商场走猫步摔倒被嘲笑 小鹏总裁回应",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548074.htm"
+            },
+            {
+                "title": "Anthropic掌门人Amodei长文预警：AI竞争愈加激烈 难以重视自主性风险",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548076.htm"
+            },
+            {
+                "title": "90后数学天才韦东奕新身份公布 正式获聘北大长聘副教授",
+                "source": "CnBeta (TW Mirror - Accessible)",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548078.htm"
+            }
+        ]
+    },
+    {
+        "id": "2026-02-02_1769987821",
+        "date": "2026-02-02",
+        "poster": "./assets/news/news_2026-02-02_1769987821_custom.jpg",
+        "items": [
+            {
+                "title": "1. 新一代小米SU7量产在即 (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/307.htm"
+            },
+            {
+                "title": "2. 苹果CarPlay Ultra下半年落地 (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/326.htm"
+            },
+            {
+                "title": "3. 比亚迪蝉联新能源销冠 (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/323.htm"
+            },
+            {
+                "title": "4. 特斯拉Robotaxi战略揭秘 (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/249.htm"
+            },
+            {
+                "title": "5. 优必选开源机器人Thinker大脑 (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/299.htm"
+            },
+            {
+                "title": "6. 印尼解除Grok AI封禁 (via CnBeta)",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548142.htm"
+            },
+            {
+                "title": "7. 小米YU7车外语音需声纹 (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/308.htm"
+            },
+            {
+                "title": "8. SpaceX拟建百万卫星网络 (via CnBeta)",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1548062.htm"
+            },
+            {
+                "title": "9. 蔚来1月交付同比增96% (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/258.htm"
+            },
+            {
+                "title": "10. 苹果探索翻盖折叠iPhone (via IT之家)",
+                "source": "IT之家",
+                "link": "https://www.ithome.com/0/918/325.htm"
+            }
+        ],
+        "title": "今日·前沿 - 2026.02.02 (Updated)"
+    },
+    {
+        "id": "2026-02-01_1769904244",
+        "date": "2026-02-01",
+        "poster": "./assets/news/news_2026-02-01_1769904244.png",
+        "items": [
+            {
+                "title": "首款完全仿生机器人Moya发布",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=首款完全仿生机器人Moya发布"
+            },
+            {
+                "title": "2025新能源车险保费增30%",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=2025新能源车险保费增30%"
+            },
+            {
+                "title": "波音无人加油机MQ-25A首测",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=波音无人加油机MQ-25A首测"
+            },
+            {
+                "title": "芯动发布120通道PCIe5芯片",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=芯动发布120通道PCIe5芯片"
+            },
+            {
+                "title": "全球手机均价突破400美元",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=全球手机均价突破400美元"
+            },
+            {
+                "title": "三星Galaxy S26外观参数揭晓",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=三星Galaxy S26外观参数揭晓"
+            },
+            {
+                "title": "NASA雅典娜超级计算机上线",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=NASA雅典娜超级计算机上线"
+            },
+            {
+                "title": "台四季度经济增速创38年新高",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=台四季度经济增速创38年新高"
+            },
+            {
+                "title": "闻泰科技2025预亏135亿",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=闻泰科技2025预亏135亿"
+            },
+            {
+                "title": "自制无人机时速657公里破纪录",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=自制无人机时速657公里破纪录"
+            }
+        ]
+    },
+    {
+        "id": "2026-01-31_1769817798",
+        "date": "2026-01-31",
+        "poster": "./assets/news/news_2026-01-31_1769817798.webp",
+        "items": [
+            {
+                "title": "宁德时代钠电池量产上车",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547464.htm"
+            },
+            {
+                "title": "新款奔驰S级全球首发",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547842.htm"
+            },
+            {
+                "title": "特斯拉Robotaxi事故率曝光",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547848.htm"
+            },
+            {
+                "title": "小米SU7获华尔街日报好评",
+                "source": "CnBeta",
+                "link": "https://www.baidu.com/s?wd=小米SU7获华尔街日报好评"
+            },
+            {
+                "title": "日产测试车载太阳能充电",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547834.htm"
+            },
+            {
+                "title": "DeepSeek获批采购H200",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547892.htm"
+            },
+            {
+                "title": "电动车24万公里续航91%",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547844.htm"
+            },
+            {
+                "title": "丰田卡罗拉概念车官图",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547898.htm"
+            },
+            {
+                "title": "奔驰CEO拒绝迁址美国",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547866.htm"
+            },
+            {
+                "title": "央视曝光车企网络黑产",
+                "source": "CnBeta",
+                "link": "https://www.cnbeta.com.tw/articles/tech/1547852.htm"
+            }
+        ]
+    }
 ]
