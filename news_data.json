@@ -5,9 +5,54 @@
     "poster": "./assets/news/news_2026-02-02_1769988170.png",
     "items": [
       {
-        "title": "Daily News",
-        "source": "Xuemu Lab",
-        "link": "#"
+        "title": "Chinese NEV startup sales ranking, HIMA: 57,915, Xiaomi: 39,000+, January 2025",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/"
+      },
+      {
+        "title": "Horizon Robotics and Nvidia are key players in China’s advanced driving chip market share rankings in 2025",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/01/horizon-robotics-and-nvidia-are-key-players-in-chinas-advanced-driving-chip-market-share-rankings-in-2025/"
+      },
+      {
+        "title": "Ford, Xiaomi deny reports of U.S. EV joint venture talks",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/01/xiaomi-and-ford-deny-reports-of-electric-vehicle-joint-venture-talks-in-the-united-states/"
+      },
+      {
+        "title": "前四个都不是Kimi!月之暗面公开喊话百度搜索 后者悄然优化“Kimi官网”检索结果",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548066.htm"
+      },
+      {
+        "title": "小米否认与福特合作传闻 称相关报道均为虚假信息",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548068.htm"
+      },
+      {
+        "title": "SSD涨价近3倍 8TB固态硬盘价格近2万 够装一台高端游戏PC",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548070.htm"
+      },
+      {
+        "title": "150万AI Agents在Moltbook“发疯”",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548072.htm"
+      },
+      {
+        "title": "机器人商场走猫步摔倒被嘲笑 小鹏总裁回应",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548074.htm"
+      },
+      {
+        "title": "Anthropic掌门人Amodei长文预警：AI竞争愈加激烈 难以重视自主性风险",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548076.htm"
+      },
+      {
+        "title": "90后数学天才韦东奕新身份公布 正式获聘北大长聘副教授",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548078.htm"
       }
     ]
   },
@@ -17,9 +62,54 @@
     "poster": "./assets/news/news_2026-02-02_1769987821.png",
     "items": [
       {
-        "title": "Daily News",
-        "source": "Xuemu Lab",
-        "link": "#"
+        "title": "Chinese NEV startup sales ranking, HIMA: 57,915, Xiaomi: 39,000+, January 2025",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/"
+      },
+      {
+        "title": "Horizon Robotics and Nvidia are key players in China’s advanced driving chip market share rankings in 2025",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/01/horizon-robotics-and-nvidia-are-key-players-in-chinas-advanced-driving-chip-market-share-rankings-in-2025/"
+      },
+      {
+        "title": "Ford, Xiaomi deny reports of U.S. EV joint venture talks",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/01/xiaomi-and-ford-deny-reports-of-electric-vehicle-joint-venture-talks-in-the-united-states/"
+      },
+      {
+        "title": "前四个都不是Kimi!月之暗面公开喊话百度搜索 后者悄然优化“Kimi官网”检索结果",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548066.htm"
+      },
+      {
+        "title": "小米否认与福特合作传闻 称相关报道均为虚假信息",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548068.htm"
+      },
+      {
+        "title": "SSD涨价近3倍 8TB固态硬盘价格近2万 够装一台高端游戏PC",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548070.htm"
+      },
+      {
+        "title": "150万AI Agents在Moltbook“发疯”",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548072.htm"
+      },
+      {
+        "title": "机器人商场走猫步摔倒被嘲笑 小鹏总裁回应",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548074.htm"
+      },
+      {
+        "title": "Anthropic掌门人Amodei长文预警：AI竞争愈加激烈 难以重视自主性风险",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548076.htm"
+      },
+      {
+        "title": "90后数学天才韦东奕新身份公布 正式获聘北大长聘副教授",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548078.htm"
       }
     ]
   },
