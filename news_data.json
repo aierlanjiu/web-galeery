@@ -5,9 +5,54 @@
     "poster": "./assets/news/news_2026-02-03_1770075767.png",
     "items": [
       {
-        "title": "Daily News",
-        "source": "Xuemu Lab",
-        "link": "#"
+        "title": "1. Waymo获160亿融资拓无人驾驶 (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/918/612.htm"
+      },
+      {
+        "title": "2. 特斯拉三代人形机器人将亮相 (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.baidu.com/s?wd=特斯拉三代人形机器人将亮相"
+      },
+      {
+        "title": "3. SpaceX收购xAI建太空数据中心 (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/918/603.htm"
+      },
+      {
+        "title": "4. 苹果年底进军智能眼镜市场 (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/918/590.htm"
+      },
+      {
+        "title": "5. 长安联手宁德发布钠电战略 (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.baidu.com/s?wd=长安联手宁德发布钠电战略"
+      },
+      {
+        "title": "6. 三星S27 Ultra搭载Polar ID (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/918/588.htm"
+      },
+      {
+        "title": "7. 小米首款增程SUV YU9曝光 (via 爱范儿)",
+        "source": "爱范儿",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548148.htm"
+      },
+      {
+        "title": "8. 比亚迪发布1500kW兆瓦级超充 (via CNC)",
+        "source": "CNC",
+        "link": "https://www.baidu.com/s?wd=比亚迪发布1500kW兆瓦级超充"
+      },
+      {
+        "title": "9. 2026年Q1内存价格或翻倍 (via CnBeta)",
+        "source": "CnBeta",
+        "link": "https://www.baidu.com/s?wd=2026年Q1内存价格或翻倍"
+      },
+      {
+        "title": "10. 世嘉土星游戏机实现光追 (via IT之家)",
+        "source": "IT之家",
+        "link": "https://www.baidu.com/s?wd=世嘉土星游戏机实现光追"
       }
     ]
   },
