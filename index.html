@@ -33,11 +33,11 @@
             theme: {
                 extend: {
                     colors: {
-                        'va-base': '#E8EAE6',
-                        'va-card': '#F4F6F2',
-                        'va-dark': '#2C3E50',
-                        'va-accent': '#607D8B',
-                        'va-gold': '#D4AC0D',
+                        'va-base': '#0f172a',
+                        'va-card': '#1e293b',
+                        'va-dark': '#020617',
+                        'va-accent': '#38bdf8',
+                        'va-gold': '#f59e0b',
                     },
                     fontFamily: {
                         display: ['Oswald', 'sans-serif'],
@@ -60,8 +60,8 @@
 
     <style>
         body {
-            background-color: #E8EAE6;
-            color: #2C3E50;
+            background-color: #0f172a;
+            color: #E2E8F0;
             font-family: 'Noto Sans SC', sans-serif;
             overflow-x: hidden;
         }
@@ -74,11 +74,10 @@
             width: 100%;
             height: 100%;
             background-image:
-                linear-gradient(rgba(44, 62, 80, 0.05) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(44, 62, 80, 0.05) 1px, transparent 1px);
+                linear-gradient(rgba(56, 189, 248, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(56, 189, 248, 0.03) 1px, transparent 1px);
             background-size: 40px 40px;
             z-index: -1;
-            /* Animation added via class */
         }
 
         .cyber-grid::after {
@@ -88,7 +87,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at 50% 50%, transparent 20%, #E8EAE6 100%);
+            background: radial-gradient(circle at 50% 50%, transparent 20%, #0f172a 100%);
             pointer-events: none;
         }
 
@@ -153,7 +152,7 @@
                         </div>
                     </div>
 
-                                        <div className="bg-[#ffedd5]/90 dark:bg-slate-800/80 backdrop-blur-md border border-va-dark dark:border-slate-600 text-va-dark dark:text-white p-6 md:p-10 flex flex-col justify-center relative shadow-sm transition-colors duration-500 rounded-[2rem]">
+                                        <div className="bg-slate-900/80 backdrop-blur-xl border border-white/5 text-white p-6 md:p-10 flex flex-col justify-center relative shadow-2xl transition-colors duration-500 rounded-[2rem]">
                                             <button 
                                                 onClick={toggleTheme}
                                                 className="absolute top-3 right-3 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors z-20"
@@ -204,23 +203,31 @@
                                                         <div className="absolute inset-0 bg-va-gold/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-xl z-0"></div>
                                                     </a>
 
-                                                    <a href="./assets/camp_brochure.pdf" target="_blank" className="relative overflow-hidden block group">
-                                                        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-4 rounded-xl flex items-center justify-between shadow-lg hover:shadow-2xl transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
-                                                            <div className="flex flex-col">
-                                                                <span className="font-mono text-[10px] text-white/80 uppercase tracking-widest mb-1 flex items-center gap-2">
-                                                                    <span className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></span>
-                                                                    LIMITED ACCESS // 仅余4席
-                                                                </span>
-                                                                <span className="font-display text-xl font-bold tracking-wide">光影特训营 · 招生简章</span>
+                                                    <div className="grid grid-cols-2 gap-3">
+                                                        <a href="student_showcase.html" className="relative overflow-hidden block group">
+                                                            <div className="bg-slate-800 dark:bg-slate-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-2xl transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
+                                                                <span className="font-mono text-[8px] text-slate-400 uppercase tracking-widest mb-1">SHOWCASE</span>
+                                                                <span className="font-display text-base font-bold leading-tight">学员作品展</span>
+                                                                <div className="mt-2 self-end opacity-50 group-hover:rotate-12 transition-transform">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                                    </svg>
+                                                                </div>
                                                             </div>
-                                                            <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-white group-hover:text-indigo-600 transition-colors">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:-translate-y-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                                </svg>
+                                                        </a>
+
+                                                        <a href="./assets/camp_brochure.pdf" target="_blank" className="relative overflow-hidden block group">
+                                                            <div className="bg-gradient-to-br from-indigo-600 to-purple-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-2xl transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
+                                                                <span className="font-mono text-[8px] text-white/60 uppercase tracking-widest mb-1">ENROLL</span>
+                                                                <span className="font-display text-base font-bold leading-tight">特训营简章</span>
+                                                                <div className="mt-2 self-end opacity-50 group-hover:-translate-y-1 transition-transform">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                                    </svg>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="absolute inset-0 bg-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-xl z-0"></div>
-                                                    </a>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div className="hidden md:block mt-auto self-end opacity-5 font-display text-5xl text-va-dark dark:text-white">V.A.</div>
@@ -518,8 +525,8 @@
                                                     className={`
                                                         relative px-5 py-2 md:px-6 md:py-3 uppercase tracking-wider transition-all duration-300 overflow-hidden group border border-va-dark dark:border-slate-600 rounded-2xl
                                                         ${activeFilter === 'all' 
-                                                            ? 'bg-va-dark dark:bg-slate-700 text-white shadow-lg scale-105' 
-                                                            : 'bg-[#ffedd5]/60 dark:bg-slate-800/60 text-va-dark dark:text-slate-300 hover:bg-white dark:hover:bg-slate-800'}
+                                                            ? 'bg-va-dark dark:bg-slate-700 text-white shadow-[0_0_20px_rgba(56,189,248,0.3)] scale-105' 
+                                                            : 'bg-white/5 dark:bg-slate-800/40 text-va-dark dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700'}
                                                     `}
                                                 >
                             <span className="relative z-10">全部系统</span>
@@ -545,9 +552,9 @@
 
                                                             ${activeFilter === cat 
 
-                                                                ? 'bg-va-dark dark:bg-slate-700 text-white shadow-lg scale-105' 
+                                                                ? 'bg-va-dark dark:bg-slate-700 text-white shadow-[0_0_20px_rgba(56,189,248,0.3)] scale-105' 
 
-                                                                : 'bg-[#ffedd5]/60 dark:bg-slate-800/60 text-va-dark dark:text-slate-300 hover:bg-white dark:hover:bg-slate-800'}
+                                                                : 'bg-white/5 dark:bg-slate-800/40 text-va-dark dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700'}
 
                                                         `}
 
@@ -619,12 +626,12 @@
                     transition={{ delay: 0.2 }}
                     className="max-w-7xl mx-auto px-4 md:px-5 mb-8"
                 >
-                    <div className="bg-[#ffedd5]/60 dark:bg-slate-800/60 backdrop-blur-md border border-va-dark/10 dark:border-slate-600/50 p-4 rounded-[1.5rem] flex flex-col gap-4 transition-all duration-300">
+                    <div className="bg-slate-900/60 backdrop-blur-xl border border-white/5 p-4 rounded-[1.5rem] flex flex-col gap-4 transition-all duration-300 shadow-2xl">
                         {/* Tab Switcher */}
-                        <div className="flex flex-wrap items-center gap-2 border-b border-va-dark/5 dark:border-white/5 pb-2">
+                        <div className="flex flex-wrap items-center gap-2 border-b border-white/5 pb-2">
                             <div className="flex items-center gap-2 px-2 opacity-50 mr-2">
-                                <svg className="w-4 h-4 text-va-dark dark:text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <span className="font-mono text-xs text-va-dark dark:text-slate-300 tracking-widest hidden md:block">工具箱 // TOOLBOX</span>
+                                <svg className="w-4 h-4 text-va-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                <span className="font-mono text-xs text-slate-400 tracking-widest hidden md:block">工具箱 // TOOLBOX</span>
                             </div>
                             
                             {Object.entries(categories).map(([key, cat]) => (
@@ -634,8 +641,8 @@
                                     className={`
                                         px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-300 flex items-center gap-2
                                         ${activeTab === key 
-                                            ? 'bg-va-dark dark:bg-white text-white dark:text-slate-900 shadow-md' 
-                                            : 'bg-white/40 dark:bg-white/5 text-va-dark dark:text-slate-400 hover:bg-white/80 dark:hover:bg-white/10'}
+                                            ? 'bg-va-accent text-white shadow-[0_0_15px_rgba(56,189,248,0.4)]' 
+                                            : 'bg-white/5 text-slate-400 hover:bg-white/10'}
                                     `}
                                 >
                                     <span>{cat.icon}</span>
@@ -658,14 +665,14 @@
                                         href={tool.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex items-center gap-3 px-5 py-2.5 bg-[#fff7ed] dark:bg-slate-700/50 hover:bg-white dark:hover:bg-slate-600 border border-va-dark/5 dark:border-slate-500/30 rounded-2xl transition-all hover:scale-105 hover:shadow-lg relative overflow-hidden flex-shrink-0"
+                                        className="group flex items-center gap-3 px-5 py-2.5 bg-slate-800/40 hover:bg-slate-700/60 border border-white/5 rounded-2xl transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(56,189,248,0.1)] relative overflow-hidden flex-shrink-0"
                                     >
                                         <span className="text-lg relative z-10 group-hover:scale-110 transition-transform">{tool.icon}</span>
                                         <div className="flex flex-col relative z-10">
-                                            <span className="text-xs font-bold text-va-dark dark:text-white leading-tight">{tool.name}</span>
-                                            <span className="text-[10px] text-va-dark/60 dark:text-slate-400 font-mono scale-95 origin-left">{tool.desc}</span>
+                                            <span className="text-xs font-bold text-slate-200 leading-tight">{tool.name}</span>
+                                            <span className="text-[10px] text-slate-500 font-mono scale-95 origin-left">{tool.desc}</span>
                                         </div>
-                                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
                                     </motion.a>
                                 ))}
                             </AnimatePresence>
@@ -696,23 +703,23 @@
                     className="mb-8 break-inside-avoid"
                 >
                     <TiltCard isMobile={isMobile} options={{ max: 5, speed: 400, glare: true, "max-glare": 0.2, scale: 1.02 }}>
-                        <div className="bg-[#ffedd5] dark:bg-slate-900 border border-gray-200 dark:border-slate-700 relative h-full transition-all duration-300 hover:border-va-dark dark:hover:border-slate-500 shadow-sm hover:shadow-2xl group rounded-[2rem] overflow-hidden">
+                        <div className="bg-slate-900/80 backdrop-blur-sm dark:bg-slate-900 border border-white/5 dark:border-slate-700 relative h-full transition-all duration-300 hover:border-va-accent/50 dark:hover:border-slate-500 shadow-xl hover:shadow-[0_0_30px_rgba(56,189,248,0.1)] group rounded-[2rem] overflow-hidden">
 
                             {/* Corner Decors (Desktop Only) */}
-                            <div className="hidden md:block absolute top-4 left-4 w-3 h-3 border-t-2 border-l-2 border-va-dark dark:border-white z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-tl-lg"></div>
-                            <div className="hidden md:block absolute bottom-4 right-4 w-3 h-3 border-b-2 border-r-2 border-va-dark dark:border-white z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-br-lg"></div>
+                            <div className="hidden md:block absolute top-4 left-4 w-3 h-3 border-t-2 border-l-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-tl-lg"></div>
+                            <div className="hidden md:block absolute bottom-4 right-4 w-3 h-3 border-b-2 border-r-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-br-lg"></div>
 
                             {/* Image Section */}
-                            <div className="relative border-b border-gray-100 dark:border-slate-800 overflow-hidden bg-gray-100 dark:bg-slate-800">
-                                <div className="absolute top-2 right-2 z-10 bg-black/70 backdrop-blur-sm text-white text-[10px] font-mono px-2 py-1 rounded-full">
+                            <div className="relative border-b border-white/5 dark:border-slate-800 overflow-hidden bg-slate-800 dark:bg-slate-800">
+                                <div className="absolute top-2 right-2 z-10 bg-black/70 backdrop-blur-sm text-white text-[10px] font-mono px-2 py-1 rounded-full border border-white/10">
                                     IMG_{displayId} // RAW
                                 </div>
                                 <img
                                     src={item.image_path}
                                     alt={item.title}
                                     loading="lazy"
-                                    className="w-full h-auto object-cover filter grayscale-[10%] group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
-                                    onError={(e) => { e.target.src = 'https://placehold.co/600x800/E8EAE6/2C3E50?text=NO+SIGNAL'; }}
+                                    className="w-full h-auto object-cover filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
+                                    onError={(e) => { e.target.src = 'https://placehold.co/600x800/0f172a/38bdf8?text=NO+SIGNAL'; }}
                                 />
                             </div>
 
@@ -720,16 +727,16 @@
                             <div className="p-5 md:p-6">
                                 <div className="flex justify-between items-start mb-2">
                                     <span className="font-mono text-[10px] text-va-accent dark:text-slate-400 block">ITEM // {displayId}</span>
-                                    <span className="font-mono text-[10px] bg-[#fed7aa] dark:bg-slate-800 px-2 py-0.5 text-va-dark dark:text-slate-300 border border-gray-300 dark:border-slate-600 rounded-full">
+                                    <span className="font-mono text-[10px] bg-white/5 dark:bg-slate-800 px-2 py-0.5 text-va-accent dark:text-slate-300 border border-white/10 dark:border-slate-600 rounded-full">
                                         {item.category || "未分类"}
                                     </span>
                                 </div>
 
-                                <h3 className="font-display text-lg md:text-xl font-bold text-va-dark dark:text-white mb-4 leading-tight">{item.title}</h3>
+                                <h3 className="font-display text-lg md:text-xl font-bold text-white dark:text-white mb-4 leading-tight group-hover:text-va-accent transition-colors">{item.title}</h3>
 
                                 {/* Glassmorphism Terminal */}
-                                <div className="bg-gray-900/95 text-gray-400 p-4 rounded-2xl text-xs font-mono relative overflow-hidden mb-4 backdrop-blur-sm shadow-inner group-hover:bg-gray-900 transition-colors">
-                                    <div className="absolute top-0 right-0 bg-gray-800 text-[8px] px-2 py-0.5 text-gray-500 rounded-bl-lg">PROMPT_EXEC</div>
+                                <div className="bg-black/40 text-slate-400 p-4 rounded-2xl text-xs font-mono relative overflow-hidden mb-4 backdrop-blur-md shadow-inner group-hover:bg-black/60 transition-colors border border-white/5">
+                                    <div className="absolute top-0 right-0 bg-slate-800 text-[8px] px-2 py-0.5 text-va-accent rounded-bl-lg">PROMPT_EXEC</div>
                                     <div className="max-h-24 overflow-y-auto pr-2 custom-scrollbar whitespace-pre-wrap leading-relaxed">
                                         {item.prompt}
                                     </div>
@@ -741,15 +748,15 @@
                                         className={`
                                             font-mono text-[10px] uppercase tracking-wider px-4 py-2 border transition-all duration-300 flex-grow rounded-xl
                                             ${copied
-                                                ? 'bg-va-dark text-white border-va-dark dark:bg-white dark:text-slate-900 dark:border-white'
-                                                : 'bg-transparent text-va-dark border-va-dark hover:bg-va-dark hover:text-white dark:text-slate-300 dark:border-slate-500 dark:hover:bg-slate-700 dark:hover:text-white'}
+                                                ? 'bg-va-accent text-white border-va-accent'
+                                                : 'bg-white/5 text-slate-300 border-white/10 hover:bg-va-accent hover:text-white hover:border-va-accent'}
                                         `}
                                     >
                                         {copied ? '已复制指令 (COPIED)' : '复制提示词 (COPY CMD)'}
                                     </button>
                                     <button
                                         onClick={() => onEdit(item.prompt)}
-                                        className="bg-va-gold text-white p-2 rounded-xl hover:scale-105 transition-transform border border-va-gold"
+                                        className="bg-va-gold/20 text-va-gold p-2 rounded-xl hover:bg-va-gold hover:text-white transition-all border border-va-gold/30"
                                         title="结构化编辑"
                                     >
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -770,22 +777,22 @@
                     href="https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=pwy21djx" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="block group relative overflow-hidden rounded-2xl border border-va-dark/10 dark:border-white/10 hover:border-va-gold/50 transition-all duration-300 shadow-sm hover:shadow-md"
+                    className="block group relative overflow-hidden rounded-2xl border border-white/5 hover:border-va-accent/50 transition-all duration-300 shadow-2xl"
                 >
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#ffedd5]/80 to-white/80 dark:from-slate-800/80 dark:to-slate-900/80 backdrop-blur-md transition-colors"></div>
+                    <div className="absolute inset-0 bg-slate-900/80 backdrop-blur-xl transition-colors"></div>
                     <div className="relative z-10 p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
                         <div className="flex-1 text-center md:text-left">
-                            <h3 className="font-display text-2xl text-va-dark dark:text-white mb-2 flex items-center justify-center md:justify-start gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-va-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <h3 className="font-display text-2xl text-white mb-2 flex items-center justify-center md:justify-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-va-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                                 </svg>
-                                <span>DEPLOY <span className="text-va-gold">DIGITAL GARAGE</span></span>
+                                <span>DEPLOY <span className="text-va-accent">DIGITAL GARAGE</span></span>
                             </h3>
-                            <p className="font-mono text-sm text-va-dark/60 dark:text-white/60">
+                            <p className="font-mono text-sm text-slate-400">
                                 CLOUD INFRASTRUCTURE FOR ENGINEERS // 部署你的数字基地
                             </p>
                         </div>
-                        <div className="px-6 py-3 bg-va-dark dark:bg-white text-white dark:text-slate-900 font-bold font-mono text-sm rounded-full group-hover:scale-105 transition-transform flex items-center gap-2">
+                        <div className="px-6 py-3 bg-va-accent text-white font-bold font-mono text-sm rounded-full group-hover:scale-105 group-hover:shadow-[0_0_20px_rgba(56,189,248,0.5)] transition-all flex items-center gap-2">
                             <span>INITIATE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -797,9 +804,9 @@
         );
 
         const Footer = () => (
-            <footer className="mt-10 md:mt-20 border-t border-va-dark dark:border-slate-700 bg-[#ffedd5] dark:bg-slate-900 py-8 md:py-12 text-center transition-colors duration-500">
-                <p className="font-mono text-xs text-va-accent dark:text-slate-500 tracking-widest mb-2">ENGINEERING VISUALIZATION DATABASE // RESTRICTED ACCESS</p>
-                <p className="font-mono text-xs text-va-dark dark:text-slate-400">&copy; 2026 雪沐江南 (SNOWY) LABS</p>
+            <footer className="mt-10 md:mt-20 border-t border-white/5 bg-slate-900/50 py-8 md:py-12 text-center transition-colors duration-500">
+                <p className="font-mono text-xs text-va-accent tracking-widest mb-2 opacity-50">ENGINEERING VISUALIZATION DATABASE // RESTRICTED ACCESS</p>
+                <p className="font-mono text-xs text-slate-500">&copy; 2026 雪沐江南 (SNOWY) LABS</p>
             </footer>
         );
 
@@ -895,7 +902,7 @@
             const [loading, setLoading] = useState(true);
             const [categories, setCategories] = useState([]);
             const [isMobile, setIsMobile] = useState(false);
-            const [isDarkMode, setIsDarkMode] = useState(false);
+            const [isDarkMode, setIsDarkMode] = useState(true);
             const [editorOpen, setEditorOpen] = useState(false);
             const [editingPrompt, setEditingPrompt] = useState('');
             const [isCoCreationOpen, setIsCoCreationOpen] = useState(false);
@@ -948,21 +955,21 @@
                         {/* Dynamic Image Background */}
                         <div className="fixed inset-0 z-0 transition-opacity duration-1000">
                             <img
-                                src={isDarkMode ? './images/bg-night.png' : './images/bg-day.png'}
+                                src={isDarkMode ? './images/bg-night.png' : './images/bg-night.png'}
                                 alt="Background"
-                                className="w-full h-full object-cover opacity-80 blur-[2px] scale-105"
+                                className="w-full h-full object-cover opacity-40 blur-[4px] scale-110"
                             />
-                            <div className={`absolute inset-0 bg-[#fdba74]/50 dark:bg-[#0f172a]/70`}></div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/90 via-[#0f172a]/80 to-[#020617]"></div>
                         </div>
 
                         {/* Animated Background Grid (Overlay) */}
-                        <div className={`cyber-grid animate-grid-flow transition-opacity duration-500 absolute inset-0 z-0 pointer-events-none ${isDarkMode ? 'opacity-20' : 'opacity-10'}`}></div>
+                        <div className={`cyber-grid animate-grid-flow transition-opacity duration-500 absolute inset-0 z-0 pointer-events-none opacity-20`}></div>
 
                         {/* Ambient Orbs (Atmosphere) */}
                         <div className="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
-                            <div className="absolute top-[-10%] left-[-10%] w-[40rem] h-[40rem] bg-purple-300/30 dark:bg-indigo-900/20 rounded-full blur-[100px] animate-pulse mix-blend-multiply dark:mix-blend-screen"></div>
-                            <div className="absolute top-[20%] right-[-10%] w-[35rem] h-[35rem] bg-blue-300/30 dark:bg-blue-900/20 rounded-full blur-[100px] animate-pulse mix-blend-multiply dark:mix-blend-screen" style={{ animationDelay: '2s' }}></div>
-                            <div className="absolute bottom-[-10%] left-[20%] w-[45rem] h-[45rem] bg-teal-300/20 dark:bg-teal-900/10 rounded-full blur-[100px] animate-pulse mix-blend-multiply dark:mix-blend-screen" style={{ animationDelay: '4s' }}></div>
+                            <div className="absolute top-[-10%] left-[-10%] w-[40rem] h-[40rem] bg-indigo-900/30 rounded-full blur-[120px] animate-pulse mix-blend-screen"></div>
+                            <div className="absolute top-[20%] right-[-10%] w-[35rem] h-[35rem] bg-blue-900/20 rounded-full blur-[120px] animate-pulse mix-blend-screen" style={{ animationDelay: '2s' }}></div>
+                            <div className="absolute bottom-[-10%] left-[20%] w-[45rem] h-[45rem] bg-va-accent/10 rounded-full blur-[120px] animate-pulse mix-blend-screen" style={{ animationDelay: '4s' }}></div>
                         </div>
 
                         <div className="relative z-10">
