@@ -46,11 +46,16 @@
                     },
                     animation: {
                         'grid-flow': 'gridMove 20s linear infinite',
+                        'marquee': 'marquee 25s linear infinite',
                     },
                     keyframes: {
                         gridMove: {
                             '0%': { backgroundPosition: '0 0' },
                             '100%': { backgroundPosition: '40px 40px' },
+                        },
+                        marquee: {
+                            '0%': { transform: 'translateX(0%)' },
+                            '100%': { transform: 'translateX(-50%)' },
                         }
                     }
                 }
@@ -133,7 +138,7 @@
             return <div ref={tiltRef} className="h-full">{children}</div>;
         };
 
-        const Header = ({ totalCount, isDarkMode, toggleTheme }) => {
+        const Header = ({ totalCount, isDarkMode, toggleTheme, latestNews }) => {
             return (
                 <motion.header
                     initial={{ opacity: 0, y: -20 }}
@@ -187,14 +192,36 @@
                                                 <div className="pt-4 mt-2 border-t border-va-dark/10 dark:border-white/10 space-y-3">
                                                     <a href="news.html" className="relative overflow-hidden block group">
                                                         <div className="bg-white dark:bg-va-dark text-va-dark dark:text-white p-4 rounded-xl flex items-center justify-between shadow-lg hover:shadow-xl transition-all border border-va-dark/10 dark:border-white/10 group-hover:scale-[1.02] relative z-10">
-                                                            <div className="flex flex-col">
+                                                            <div className="flex flex-col w-full overflow-hidden">
                                                                 <span className="font-mono text-[10px] text-va-gold uppercase tracking-widest mb-1 flex items-center gap-2">
                                                                     <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
-                                                                    LIVE FEED // 每日更新
+                                                                    LIVE FEED // {latestNews ? latestNews.date : 'LOADING...'}
                                                                 </span>
-                                                                <span className="font-display text-xl font-bold tracking-wide">今日前沿 · DAILY NEWS</span>
+                                                                
+                                                                {/* Dynamic News Ticker */}
+                                                                <div className="relative h-8 overflow-hidden w-full">
+                                                                    {latestNews ? (
+                                                                        <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-sm font-bold tracking-wide absolute">
+                                                                            {latestNews.items.slice(0, 5).map((news, i) => (
+                                                                                <span key={i} className="flex items-center gap-2">
+                                                                                    <span className="text-va-accent text-[10px]">▶</span>
+                                                                                    {news.title}
+                                                                                </span>
+                                                                            ))}
+                                                                            {/* Duplicate for seamless loop */}
+                                                                            {latestNews.items.slice(0, 5).map((news, i) => (
+                                                                                <span key={`dup-${i}`} className="flex items-center gap-2">
+                                                                                    <span className="text-va-accent text-[10px]">▶</span>
+                                                                                    {news.title}
+                                                                                </span>
+                                                                            ))}
+                                                                        </div>
+                                                                    ) : (
+                                                                        <span className="font-display text-xl font-bold tracking-wide">今日前沿 · DAILY NEWS</span>
+                                                                    )}
+                                                                </div>
                                                             </div>
-                                                            <div className="w-10 h-10 bg-va-dark/5 dark:bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-va-gold group-hover:text-white transition-colors">
+                                                            <div className="w-10 h-10 bg-va-dark/5 dark:bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-va-gold group-hover:text-white transition-colors flex-shrink-0 ml-2">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                                 </svg>
@@ -906,6 +933,7 @@
             const [editorOpen, setEditorOpen] = useState(false);
             const [editingPrompt, setEditingPrompt] = useState('');
             const [isCoCreationOpen, setIsCoCreationOpen] = useState(false);
+            const [latestNews, setLatestNews] = useState(null);
 
             const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
@@ -920,7 +948,7 @@
                 checkMobile();
                 window.addEventListener('resize', checkMobile);
 
-                // Fetch data
+                // Fetch asset data
                 fetch('./web_data.json')
                     .then(res => res.json())
                     .then(jsonData => {
@@ -937,6 +965,17 @@
                         console.error("Failed to load data", err);
                         setLoading(false);
                     });
+
+                // Fetch news data for ticker
+                fetch('./news_data.json')
+                    .then(res => res.json())
+                    .then(newsData => {
+                        if (newsData && newsData.length > 0) {
+                            setLatestNews(newsData[0]);
+                        }
+                    })
+                    .catch(err => console.error("Failed to load news", err));
+
                 return () => window.removeEventListener('resize', checkMobile);
             }, []);
 
@@ -977,6 +1016,7 @@
                                                             totalCount={data.length.toString().padStart(2, '0')} 
                                                             isDarkMode={isDarkMode} 
                                                             toggleTheme={toggleTheme} 
+                                                            latestNews={latestNews}
                                                         />
 
                                                         <CoCreationWidget onOpen={() => setIsCoCreationOpen(true)} />
