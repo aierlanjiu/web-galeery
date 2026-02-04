@@ -43,37 +43,30 @@
   },
   {
     "id": 7,
-    "src": "./assets/student_works/work_007.jpg",
-    "original_name": "8f33cd71304996db0e155156395ee68a.png",
+    "src": "./assets/student_works/work_008.jpg",
+    "original_name": "Gemini_Generated_Image_etjmwcetjmwcetjm.png",
     "title": "Student Work #7",
     "description": "Demonstrating the power of the Visual Architect System."
   },
   {
     "id": 8,
-    "src": "./assets/student_works/work_008.jpg",
-    "original_name": "Gemini_Generated_Image_etjmwcetjmwcetjm.png",
+    "src": "./assets/student_works/work_009.jpg",
+    "original_name": "Gemini_Generated_Image_o8i92so8i92so8i9.png",
     "title": "Student Work #8",
     "description": "Demonstrating the power of the Visual Architect System."
   },
   {
     "id": 9,
-    "src": "./assets/student_works/work_009.jpg",
-    "original_name": "Gemini_Generated_Image_o8i92so8i92so8i9.png",
+    "src": "./assets/student_works/work_010.jpg",
+    "original_name": "Gemini_Generated_Image_wxogx6wxogx6wxog.png",
     "title": "Student Work #9",
     "description": "Demonstrating the power of the Visual Architect System."
   },
   {
     "id": 10,
-    "src": "./assets/student_works/work_010.jpg",
-    "original_name": "Gemini_Generated_Image_wxogx6wxogx6wxog.png",
-    "title": "Student Work #10",
-    "description": "Demonstrating the power of the Visual Architect System."
-  },
-  {
-    "id": 11,
     "src": "./assets/student_works/work_011.jpg",
     "original_name": "photo_2026-02-04_06-48-17.jpg",
-    "title": "Student Work #11",
+    "title": "Student Work #10",
     "description": "Demonstrating the power of the Visual Architect System."
   }
 ]
