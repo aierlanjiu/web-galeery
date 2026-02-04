@@ -160,7 +160,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                fetch('student_works.json')
+                fetch('student_works.json?v=' + new Date().getTime())
                     .then(res => res.json())
                     .then(data => {
                         setWorks(data);
