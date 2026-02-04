@@ -138,7 +138,7 @@
             return <div ref={tiltRef} className="h-full">{children}</div>;
         };
 
-        const Header = ({ totalCount, isDarkMode, toggleTheme, latestNews }) => {
+        const Header = ({ totalCount, isDarkMode, toggleTheme, latestNews, wechatData, onOpenData }) => {
             return (
                 <motion.header
                     initial={{ opacity: 0, y: -20 }}
@@ -185,10 +185,29 @@
                                                         在线
                                                     </span>
                                                 </div>
-                                                <div className="flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1">
-                                                    <span>渲染引擎 (ENGINE)</span>
-                                                    <span>REACT.CORE</span>
-                                                </div>
+                                                <button 
+                                                    onClick={onOpenData}
+                                                    className="w-full flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1 hover:bg-white/5 transition-colors text-left group"
+                                                >
+                                                    <span className="group-hover:text-va-accent transition-colors flex items-center gap-2">
+                                                        社区订阅 (SUBSCRIBERS)
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 opacity-0 group-hover:opacity-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        {wechatData ? (
+                                                            <span className="flex items-center gap-2">
+                                                                <span className="font-bold text-white group-hover:scale-110 transition-transform block">{wechatData.total_followers}</span>
+                                                                {wechatData.daily_growth > 0 && (
+                                                                    <span className="text-green-400 text-[10px] bg-green-400/10 px-1 rounded animate-pulse">+{wechatData.daily_growth}</span>
+                                                                )}
+                                                            </span>
+                                                        ) : (
+                                                            <span className="opacity-50">SYNCING...</span>
+                                                        )}
+                                                    </span>
+                                                </button>
                                                 <div className="pt-4 mt-2 border-t border-va-dark/10 dark:border-white/10 space-y-3">
                                                     <a href="news.html" className="relative overflow-hidden block group">
                                                         <div className="bg-white dark:bg-va-dark text-va-dark dark:text-white p-4 rounded-xl flex items-center justify-between shadow-lg hover:shadow-xl transition-all border border-va-dark/10 dark:border-white/10 group-hover:scale-[1.02] relative z-10">
@@ -232,10 +251,10 @@
 
                                                     <div className="grid grid-cols-2 gap-3">
                                                         <a href="student_showcase.html" className="relative overflow-hidden block group">
-                                                            <div className="bg-slate-800 dark:bg-slate-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-2xl transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
-                                                                <span className="font-mono text-[8px] text-slate-400 uppercase tracking-widest mb-1">SHOWCASE</span>
-                                                                <span className="font-display text-base font-bold leading-tight">学员作品展</span>
-                                                                <div className="mt-2 self-end opacity-50 group-hover:rotate-12 transition-transform">
+                                                            <div className="bg-gradient-to-br from-sky-600 to-blue-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.5)] transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
+                                                                <span className="font-mono text-[8px] text-white/80 uppercase tracking-widest mb-1">SHOWCASE</span>
+                                                                <span className="font-display text-base font-bold leading-tight group-hover:text-white transition-colors">学员作品展</span>
+                                                                <div className="mt-2 self-end opacity-50 group-hover:opacity-100 group-hover:rotate-12 transition-all text-white">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                                     </svg>
@@ -244,10 +263,13 @@
                                                         </a>
 
                                                         <a href="./assets/camp_brochure.pdf" target="_blank" className="relative overflow-hidden block group">
-                                                            <div className="bg-gradient-to-br from-indigo-600 to-purple-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-2xl transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
-                                                                <span className="font-mono text-[8px] text-white/60 uppercase tracking-widest mb-1">仅余2席</span>
+                                                            <div className="bg-gradient-to-br from-indigo-600 to-purple-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
+                                                                <span className="font-mono text-[10px] text-yellow-300 font-bold uppercase tracking-widest mb-1 animate-pulse flex items-center gap-1">
+                                                                    <span className="w-1.5 h-1.5 bg-yellow-300 rounded-full inline-block"></span>
+                                                                    仅剩1席位
+                                                                </span>
                                                                 <span className="font-display text-base font-bold leading-tight">特训营简章</span>
-                                                                <div className="mt-2 self-end opacity-50 group-hover:-translate-y-1 transition-transform">
+                                                                <div className="mt-2 self-end opacity-50 group-hover:opacity-100 group-hover:-translate-y-1 transition-all">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                                                     </svg>
@@ -730,14 +752,14 @@
                     className="mb-8 break-inside-avoid"
                 >
                     <TiltCard isMobile={isMobile} options={{ max: 5, speed: 400, glare: true, "max-glare": 0.2, scale: 1.02 }}>
-                        <div className="bg-slate-900/80 backdrop-blur-sm dark:bg-slate-900 border border-white/5 dark:border-slate-700 relative h-full transition-all duration-300 hover:border-va-accent/50 dark:hover:border-slate-500 shadow-xl hover:shadow-[0_0_30px_rgba(56,189,248,0.1)] group rounded-[2rem] overflow-hidden">
+                        <div className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700 relative h-full transition-all duration-300 hover:border-va-accent/50 dark:hover:border-slate-500 shadow-xl hover:shadow-[0_0_30px_rgba(56,189,248,0.1)] group rounded-[2rem] overflow-hidden">
 
                             {/* Corner Decors (Desktop Only) */}
                             <div className="hidden md:block absolute top-4 left-4 w-3 h-3 border-t-2 border-l-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-tl-lg"></div>
                             <div className="hidden md:block absolute bottom-4 right-4 w-3 h-3 border-b-2 border-r-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-br-lg"></div>
 
                             {/* Image Section */}
-                            <div className="relative border-b border-white/5 dark:border-slate-800 overflow-hidden bg-slate-800 dark:bg-slate-800">
+                            <div className="relative border-b border-slate-100 dark:border-slate-800 overflow-hidden bg-slate-100 dark:bg-slate-800">
                                 <div className="absolute top-2 right-2 z-10 bg-black/70 backdrop-blur-sm text-white text-[10px] font-mono px-2 py-1 rounded-full border border-white/10">
                                     IMG_{displayId} // RAW
                                 </div>
@@ -753,17 +775,17 @@
                             {/* Content Section */}
                             <div className="p-5 md:p-6">
                                 <div className="flex justify-between items-start mb-2">
-                                    <span className="font-mono text-[10px] text-va-accent dark:text-slate-400 block">ITEM // {displayId}</span>
-                                    <span className="font-mono text-[10px] bg-white/5 dark:bg-slate-800 px-2 py-0.5 text-va-accent dark:text-slate-300 border border-white/10 dark:border-slate-600 rounded-full">
+                                    <span className="font-mono text-[10px] text-slate-500 dark:text-slate-400 block">ITEM // {displayId}</span>
+                                    <span className="font-mono text-[10px] bg-slate-100 dark:bg-slate-800 px-2 py-0.5 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 rounded-full">
                                         {item.category || "未分类"}
                                     </span>
                                 </div>
 
-                                <h3 className="font-display text-lg md:text-xl font-bold text-white dark:text-white mb-4 leading-tight group-hover:text-va-accent transition-colors">{item.title}</h3>
+                                <h3 className="font-display text-lg md:text-xl font-bold text-slate-800 dark:text-white mb-4 leading-tight group-hover:text-va-accent transition-colors">{item.title}</h3>
 
                                 {/* Glassmorphism Terminal */}
-                                <div className="bg-black/40 text-slate-400 p-4 rounded-2xl text-xs font-mono relative overflow-hidden mb-4 backdrop-blur-md shadow-inner group-hover:bg-black/60 transition-colors border border-white/5">
-                                    <div className="absolute top-0 right-0 bg-slate-800 text-[8px] px-2 py-0.5 text-va-accent rounded-bl-lg">PROMPT_EXEC</div>
+                                <div className="bg-slate-100 dark:bg-black/40 text-slate-600 dark:text-slate-400 p-4 rounded-2xl text-xs font-mono relative overflow-hidden mb-4 backdrop-blur-md shadow-inner group-hover:bg-slate-200 dark:group-hover:bg-black/60 transition-colors border border-slate-200 dark:border-white/5">
+                                    <div className="absolute top-0 right-0 bg-slate-200 dark:bg-slate-800 text-[8px] px-2 py-0.5 text-slate-600 dark:text-va-accent rounded-bl-lg">PROMPT_EXEC</div>
                                     <div className="max-h-24 overflow-y-auto pr-2 custom-scrollbar whitespace-pre-wrap leading-relaxed">
                                         {item.prompt}
                                     </div>
@@ -776,14 +798,14 @@
                                             font-mono text-[10px] uppercase tracking-wider px-4 py-2 border transition-all duration-300 flex-grow rounded-xl
                                             ${copied
                                                 ? 'bg-va-accent text-white border-va-accent'
-                                                : 'bg-white/5 text-slate-300 border-white/10 hover:bg-va-accent hover:text-white hover:border-va-accent'}
+                                                : 'bg-slate-100 dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10 hover:bg-va-accent hover:text-white hover:border-va-accent'}
                                         `}
                                     >
                                         {copied ? '已复制指令 (COPIED)' : '复制提示词 (COPY CMD)'}
                                     </button>
                                     <button
                                         onClick={() => onEdit(item.prompt)}
-                                        className="bg-va-gold/20 text-va-gold p-2 rounded-xl hover:bg-va-gold hover:text-white transition-all border border-va-gold/30"
+                                        className="bg-va-gold/10 text-va-gold p-2 rounded-xl hover:bg-va-gold hover:text-white transition-all border border-va-gold/30"
                                         title="结构化编辑"
                                     >
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -794,6 +816,130 @@
                             </div>
                         </div>
                     </TiltCard>
+                </motion.div>
+            );
+        };
+
+        const DataDashboard = ({ isOpen, onClose }) => {
+            const [growthData, setGrowthData] = useState([]);
+            const [maxGrowth, setMaxGrowth] = useState(1);
+            const [hoverIdx, setHoverIdx] = useState(null);
+
+            useEffect(() => {
+                if (isOpen) {
+                    fetch('./user_growth.json')
+                        .then(res => res.json())
+                        .then(data => {
+                            // Take last 14 days
+                            const recent = data.slice(-14);
+                            setGrowthData(recent);
+                            const max = Math.max(...recent.map(d => d.net_growth), 10);
+                            setMaxGrowth(max);
+                        })
+                        .catch(err => console.error("Failed to load growth data", err));
+                }
+            }, [isOpen]);
+
+            if (!isOpen) return null;
+
+            return (
+                <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed inset-0 z-[120] flex items-center justify-center p-4 md:p-8 bg-black/60 dark:bg-black/90 backdrop-blur-xl"
+                >
+                    <motion.div 
+                        initial={{ scale: 0.95, y: 20 }}
+                        animate={{ scale: 1, y: 0 }}
+                        className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-va-accent/30 w-full max-w-5xl h-auto max-h-[90vh] rounded-[2.5rem] overflow-hidden flex flex-col relative shadow-2xl"
+                    >
+                        {/* Header */}
+                        <div className="p-6 md:p-10 border-b border-slate-100 dark:border-white/5 flex justify-between items-center bg-slate-50/50 dark:bg-slate-800/50">
+                            <div>
+                                <h2 className="font-display text-3xl md:text-4xl text-slate-800 dark:text-white mb-1">GROWTH <span className="text-va-accent">METRICS</span></h2>
+                                <p className="font-mono text-[10px] text-va-gold tracking-[0.3em] uppercase">
+                                    社区增长动态看板 // GROWTH ANALYTICS
+                                </p>
+                            </div>
+                            <button onClick={onClose} className="p-3 hover:bg-slate-200 dark:hover:bg-white/10 rounded-full transition-colors group">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-slate-400 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        {/* Chart Stage */}
+                        <div className="p-6 md:p-12 flex-grow overflow-hidden flex flex-col">
+                            <div className="flex-grow relative h-64 md:h-80 flex items-end justify-between gap-1 md:gap-3 border-b border-slate-200 dark:border-white/10 pb-2">
+                                {/* Y-Axis Helper Lines */}
+                                <div className="absolute inset-0 flex flex-col justify-between pointer-events-none opacity-20 dark:opacity-10">
+                                    {[0, 1, 2, 3].map(i => <div key={i} className="w-full h-px bg-slate-400 dark:bg-va-accent"></div>)}
+                                </div>
+
+                                {growthData.map((item, index) => {
+                                    const heightPercent = Math.max((item.net_growth / maxGrowth) * 100, 4);
+                                    const isHovered = hoverIdx === index;
+                                    return (
+                                        <div 
+                                            key={index} 
+                                            className="relative flex-1 group flex flex-col items-center"
+                                            onMouseEnter={() => setHoverIdx(index)}
+                                            onMouseLeave={() => setHoverIdx(null)}
+                                        >
+                                            {/* Bar */}
+                                            <motion.div 
+                                                initial={{ height: 0 }}
+                                                animate={{ height: `${heightPercent}%` }}
+                                                transition={{ duration: 0.8, delay: index * 0.03, type: "spring" }}
+                                                className={`w-full max-w-[40px] rounded-t-lg transition-all duration-300 relative
+                                                    ${isHovered ? 'bg-va-accent shadow-[0_0_20px_rgba(56,189,248,0.4)]' : 'bg-gradient-to-t from-sky-500/80 to-va-accent/60 dark:from-sky-600/40 dark:to-va-accent/80'}
+                                                `}
+                                            >
+                                                {/* Tooltip */}
+                                                <AnimatePresence>
+                                                    {isHovered && (
+                                                        <motion.div 
+                                                            initial={{ opacity: 0, y: 10, scale: 0.8 }}
+                                                            animate={{ opacity: 1, y: -40, scale: 1 }}
+                                                            exit={{ opacity: 0, y: 10, scale: 0.8 }}
+                                                            className="absolute -top-2 left-1/2 -translate-x-1/2 z-30 bg-slate-800 text-white px-3 py-1.5 rounded-lg text-[10px] font-mono whitespace-nowrap shadow-xl border border-white/10"
+                                                        >
+                                                            <span className="text-va-accent">{item.date}</span><br/>
+                                                            <span className="font-bold text-sm">+{item.net_growth}</span>
+                                                        </motion.div>
+                                                    )}
+                                                </AnimatePresence>
+                                            </motion.div>
+                                            
+                                            {/* X-Label */}
+                                            <span className={`mt-3 text-[9px] font-mono transition-colors duration-300 transform -rotate-45 md:rotate-0
+                                                ${isHovered ? 'text-va-accent font-bold' : 'text-slate-400 dark:text-slate-500'}
+                                            `}>
+                                                {item.date.slice(5)}
+                                            </span>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+
+                        {/* Summary Footer */}
+                        <div className="p-8 md:p-10 border-t border-slate-100 dark:border-white/5 grid grid-cols-3 gap-4 bg-slate-50/30 dark:bg-slate-900/50">
+                            <div className="text-center border-r border-slate-200 dark:border-white/10">
+                                <p className="text-2xl md:text-4xl font-display text-slate-800 dark:text-white">{growthData.reduce((acc, curr) => acc + curr.new_followers, 0)}</p>
+                                <p className="text-[9px] md:text-[10px] font-mono text-slate-500 uppercase tracking-widest">New Subs</p>
+                            </div>
+                             <div className="text-center border-r border-slate-200 dark:border-white/10">
+                                <p className="text-2xl md:text-4xl font-display text-va-gold">{growthData.reduce((acc, curr) => acc + curr.net_growth, 0)}</p>
+                                <p className="text-[9px] md:text-[10px] font-mono text-slate-500 uppercase tracking-widest">Net Growth</p>
+                            </div>
+                             <div className="text-center">
+                                <p className="text-2xl md:text-4xl font-display text-va-accent">{growthData.length > 0 ? growthData[growthData.length-1].total_followers : 0}</p>
+                                <p className="text-[9px] md:text-[10px] font-mono text-slate-500 uppercase tracking-widest">Total Community</p>
+                            </div>
+                        </div>
+                    </motion.div>
                 </motion.div>
             );
         };
@@ -933,7 +1079,9 @@
             const [editorOpen, setEditorOpen] = useState(false);
             const [editingPrompt, setEditingPrompt] = useState('');
             const [isCoCreationOpen, setIsCoCreationOpen] = useState(false);
+            const [isDataOpen, setIsDataOpen] = useState(false);
             const [latestNews, setLatestNews] = useState(null);
+            const [wechatData, setWechatData] = useState(null);
             const [visibleCount, setVisibleCount] = useState(12);
 
             const toggleTheme = () => setIsDarkMode(!isDarkMode);
@@ -976,6 +1124,14 @@
                         }
                     })
                     .catch(err => console.error("Failed to load news", err));
+                
+                // Fetch WeChat data
+                fetch('./wechat_data.json')
+                    .then(res => res.json())
+                    .then(wxData => {
+                        setWechatData(wxData);
+                    })
+                    .catch(err => console.error("Failed to load wechat data", err));
 
                 return () => window.removeEventListener('resize', checkMobile);
             }, []);
@@ -996,11 +1152,11 @@
                         {/* Dynamic Image Background */}
                         <div className="fixed inset-0 z-0 transition-opacity duration-1000">
                             <img
-                                src={isDarkMode ? './images/bg-night.png' : './images/bg-night.png'}
+                                src={isDarkMode ? './images/bg-night.png' : './images/bg-day.png'}
                                 alt="Background"
                                 className="w-full h-full object-cover opacity-40 blur-[4px] scale-110"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/90 via-[#0f172a]/80 to-[#020617]"></div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/90 via-[#0f172a]/80 to-[#020617] dark:from-[#0f172a]/90 dark:via-[#0f172a]/80 dark:to-[#020617] from-white/80 via-white/50 to-slate-100/90"></div>
                         </div>
 
                         {/* Animated Background Grid (Overlay) */}
@@ -1019,6 +1175,8 @@
                                                             isDarkMode={isDarkMode} 
                                                             toggleTheme={toggleTheme} 
                                                             latestNews={latestNews}
+                                                            wechatData={wechatData}
+                                                            onOpenData={() => setIsDataOpen(true)}
                                                         />
 
                                                         <CoCreationWidget onOpen={() => setIsCoCreationOpen(true)} />
@@ -1028,6 +1186,15 @@
                                                                 <CoCreationModal 
                                                                     isOpen={isCoCreationOpen} 
                                                                     onClose={() => setIsCoCreationOpen(false)} 
+                                                                />
+                                                            )}
+                                                        </AnimatePresence>
+
+                                                        <AnimatePresence>
+                                                            {isDataOpen && (
+                                                                <DataDashboard 
+                                                                    isOpen={isDataOpen} 
+                                                                    onClose={() => setIsDataOpen(false)} 
                                                                 />
                                                             )}
                                                         </AnimatePresence>
