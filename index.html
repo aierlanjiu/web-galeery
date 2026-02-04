@@ -934,6 +934,7 @@
             const [editingPrompt, setEditingPrompt] = useState('');
             const [isCoCreationOpen, setIsCoCreationOpen] = useState(false);
             const [latestNews, setLatestNews] = useState(null);
+            const [visibleCount, setVisibleCount] = useState(12);
 
             const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
@@ -980,6 +981,7 @@
             }, []);
 
             useEffect(() => {
+                setVisibleCount(12); // Reset pagination on filter change
                 if (filter === 'all') {
                     setFilteredData(data);
                 } else {
@@ -1038,42 +1040,56 @@
                                                         
                                                         
                                                         
-                                                                                    <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
-                                                        
-                                                                                        {loading ? (
-                                                        
-                                                                                            <div className="flex justify-center items-center h-64 font-mono text-va-accent animate-pulse">
-                                                        
-                                                                                                数据流加载中 (INITIALIZING)...
-                                                        
-                                                                                            </div>
-                                                        
-                                                                                        ) : (
-                                                        
-                                                                                            <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-                                                        
-                                                                                                                                                                                                <AnimatePresence>
-                                                                                                                                                        
-                                                                                                                                                                                                    {filteredData.map((item, index) => (
-                                                                                                                                                        
-                                                                                                                                                                                                        <Card 
-                                                                                                                                                                                                            key={`${item.title}-${index}`} 
-                                                                                                                                                                                                            item={item} 
-                                                                                                                                                                                                            index={index} 
-                                                                                                                                                                                                            isMobile={isMobile} 
-                                                                                                                                                                                                            onEdit={openEditor}
-                                                                                                                                                                                                        />
-                                                                                                                                                        
-                                                                                                                                                                                                    ))}
-                                                                                                                                                        
-                                                                                                                                                                                                </AnimatePresence>
-                                                                                                                                                        
-                                                                                                                                                                                            </div>
-                                                                                                                                                        
-                                                                                                                                                                                        )}
-                                                                                                                                                        
-                                                                                                                                                                                    </main>
-                                                                                                                                                                                    
+                                                                                                                                        <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
+                                                                                                                    
+                                                                                                                                            {loading ? (
+                                                                                                            
+                                                                                                                                                <div className="flex justify-center items-center h-64 font-mono text-va-accent animate-pulse">
+                                                                                                            
+                                                                                                                                                    数据流加载中 (INITIALIZING)...
+                                                                                                            
+                                                                                                                                                </div>
+                                                                                                            
+                                                                                                                                            ) : (
+                                                                                                                                                <>
+                                                                                                                                                    <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+                                                                                                                                                                                                                                                                                    <AnimatePresence mode="popLayout">
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                        {filteredData.slice(0, visibleCount).map((item, index) => (
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                            <Card 
+                                                                                                                                                                                                                                                                                                key={`${item.title}-${index}`} 
+                                                                                                                                                                                                                                                                                                item={item} 
+                                                                                                                                                                                                                                                                                                index={index} 
+                                                                                                                                                                                                                                                                                                isMobile={isMobile} 
+                                                                                                                                                                                                                                                                                                onEdit={openEditor}
+                                                                                                                                                                                                                                                                                            />
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                        ))}
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                    </AnimatePresence>
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                </div>
+                                                                                    
+                                                                                                                                                    {visibleCount < filteredData.length && (
+                                                                                                                                                        <div className="flex justify-center mt-12 mb-8">
+                                                                                                                                                            <button 
+                                                                                                                                                                onClick={() => setVisibleCount(prev => prev + 12)}
+                                                                                                                                                                className="group relative px-8 py-3 bg-va-card dark:bg-slate-800 border border-va-dark/10 dark:border-white/10 rounded-full font-mono text-xs font-bold text-va-dark dark:text-slate-300 tracking-widest hover:bg-va-dark hover:text-white dark:hover:bg-white dark:hover:text-va-dark transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                                                                                                                                                            >
+                                                                                                                                                                <span className="flex items-center gap-2">
+                                                                                                                                                                    加载更多 // LOAD MORE [{filteredData.length - visibleCount}]
+                                                                                                                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                                                                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                                                                                                                                                                    </svg>
+                                                                                                                                                                </span>
+                                                                                                                                                            </button>
+                                                                                                                                                        </div>
+                                                                                                                                                    )}
+                                                                                                                                                </>
+                                                                                                                                            )}
+                                                                                                                                            
+                                                                                                                                        </main>                                                                                                                                                                                    
                                                                                                                                                                                     <AnimatePresence>
                                                                                                                                                                                         {editorOpen && (
                                                                                                                                                                                             <PromptEditor 
