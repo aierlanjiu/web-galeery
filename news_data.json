@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-05_1770244670",
+    "date": "2026-02-05",
+    "poster": "./assets/news/news_2026-02-05_1770244670.png",
+    "items": [
+      {
+        "title": "SpaceX收购xAI：1.25万亿超级独角兽诞生",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/02/375614.html"
+      },
+      {
+        "title": "阿维塔06T旅行车：首搭华为新一代激光雷达",
+        "source": "CarNewsChina",
+        "link": "https://www.baidu.com/s?wd=阿维塔06T旅行车：首搭华为新一代激光雷达"
+      },
+      {
+        "title": "华为问界M6官图：鸿蒙座舱5.0+ADS 4.0",
+        "source": "CarNewsChina",
+        "link": "https://www.baidu.com/s?wd=华为问界M6官图：鸿蒙座舱5.0+ADS 4.0"
+      },
+      {
+        "title": "小米SU7电池实测：26.5万公里健康度94.5%",
+        "source": "CarNewsChina",
+        "link": "https://www.baidu.com/s?wd=小米SU7电池实测：26.5万公里健康度94.5%"
+      },
+      {
+        "title": "特斯拉4680电池：干电极工艺突破量产",
+        "source": "CnBeta",
+        "link": "https://www.baidu.com/s?wd=特斯拉4680电池：干电极工艺突破量产"
+      },
+      {
+        "title": "中国安全新规：汽车必须配备机械开门装置",
+        "source": "CarNewsChina",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548428.htm"
+      },
+      {
+        "title": "宁德时代钠离子电池：长安汽车率先极寒试错",
+        "source": "CarNewsChina",
+        "link": "https://www.baidu.com/s?wd=宁德时代钠离子电池：长安汽车率先极寒试错"
+      },
+      {
+        "title": "美版Model Y大降价：全轮驱动版跌破30万",
+        "source": "CnBeta",
+        "link": "https://www.baidu.com/s?wd=美版Model Y大降价：全轮驱动版跌破30万"
+      },
+      {
+        "title": "魏牌V9X旗舰SUV：全尺寸插混即将上市",
+        "source": "CarNewsChina",
+        "link": "https://www.baidu.com/s?wd=魏牌V9X旗舰SUV：全尺寸插混即将上市"
+      },
+      {
+        "title": "三星SK海力士扩产：NAND存储迎AI超级周期",
+        "source": "CnBeta",
+        "link": "https://www.baidu.com/s?wd=三星SK海力士扩产：NAND存储迎AI超级周期"
+      }
+    ]
+  },
+  {
     "id": "2026-02-05_1770244297",
     "date": "2026-02-05",
     "poster": "./assets/news/news_2026-02-05_1770244297.png",
