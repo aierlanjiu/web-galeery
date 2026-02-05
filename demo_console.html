@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computational Aesthetics Engine v1.0.2</title>
+    <style>
+        :root {
+            --neon-blue: #00f3ff;
+            --neon-purple: #bc13fe;
+            --bg-dark: #0a0a0f;
+            --panel-bg: rgba(20, 20, 30, 0.8);
+            --text-main: #e0e0e0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Segoe UI', 'Roboto', monospace;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        /* Left Control Panel */
+        .control-panel {
+            width: 320px;
+            background: var(--panel-bg);
+            border-right: 1px solid #333;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            backdrop-filter: blur(10px);
+            z-index: 10;
+        }
+        
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--neon-blue);
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--neon-blue);
+            padding-bottom: 10px;
+        }
+
+        .param-group {
+            margin-bottom: 25px;
+        }
+        
+        .param-label {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .slider-container {
+            position: relative;
+            height: 4px;
+            background: #333;
+            border-radius: 2px;
+            margin-top: 10px;
+        }
+        
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100%;
+            background: transparent;
+            position: absolute;
+            top: -6px;
+        }
+        
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: var(--neon-blue);
+            cursor: pointer;
+            box-shadow: 0 0 10px var(--neon-blue);
+            margin-top: -6px; /* Adjust for track height */
+        }
+        
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 4px;
+            cursor: pointer;
+            background: transparent;
+        }
+
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .toggle-btn {
+            width: 40px;
+            height: 20px;
+            background: #333;
+            border-radius: 10px;
+            margin-right: 10px;
+            position: relative;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .toggle-btn.active {
+            background: var(--neon-purple);
+        }
+        
+        .toggle-btn::after {
+            content: '';
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            width: 16px;
+            height: 16px;
+            background: #fff;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+        
+        .toggle-btn.active::after {
+            left: 22px;
+        }
+
+        .generate-btn {
+            margin-top: auto;
+            background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+            border: none;
+            color: #fff;
+            padding: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 0.3s;
+            clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+        }
+        
+        .generate-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 243, 255, 0.3);
+        }
+
+        /* Right Preview Area */
+        .preview-area {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a24 0%, #000 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .grid-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+        }
+
+        .image-container {
+            width: 80%;
+            height: 70%;
+            background: #000;
+            border: 1px solid #333;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .placeholder-text {
+            color: #444;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        /* Overlay UI Elements */
+        .overlay-ui {
+            position: absolute;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 0.7rem;
+            color: var(--neon-blue);
+            pointer-events: none;
+        }
+        
+        .top-left { top: 20px; left: 20px; border-left: 2px solid var(--neon-blue); padding-left: 10px; }
+        .top-right { top: 20px; right: 20px; text-align: right; }
+        .bottom-left { bottom: 20px; left: 20px; }
+        .bottom-right { bottom: 20px; right: 20px; text-align: right; }
+
+        /* Loading Animation */
+        .loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 4px;
+            background: #222;
+            display: none;
+        }
+        
+        .loader-bar {
+            height: 100%;
+            background: var(--neon-blue);
+            width: 0%;
+            animation: load 2s ease-in-out infinite;
+        }
+        
+        @keyframes load {
+            0% { width: 0%; opacity: 1; }
+            50% { width: 100%; opacity: 1; }
+            100% { width: 100%; opacity: 0; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="control-panel">
+        <div class="logo">COMPUTATIONAL<br>AESTHETICS <span style="font-size:0.6em; color:#666;">v1.0.2</span></div>
+        
+        <div class="param-group">
+            <div class="param-label">
+                <span>STRUCTURAL INTEGRITY</span>
+                <span id="val-structure">85%</span>
+            </div>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="85" oninput="updateVal('structure', this.value)">
+            </div>
+        </div>
+        
+        <div class="param-group">
+            <div class="param-label">
+                <span>FLOW DYNAMICS</span>
+                <span id="val-flow">42%</span>
+            </div>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="42" oninput="updateVal('flow', this.value)">
+            </div>
+        </div>
+
+        <div class="param-group">
+            <div class="param-label">
+                <span>DIGITAL NOISE</span>
+                <span id="val-noise">12%</span>
+            </div>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="12" oninput="updateVal('noise', this.value)">
+            </div>
+        </div>
+
+        <div style="margin: 30px 0; border-top: 1px solid #333; padding-top: 20px;">
+            <div class="toggle-switch" onclick="toggleSwitch(this)">
+                <div class="toggle-btn active"></div>
+                <span>Auto-Refinement</span>
+            </div>
+            <div class="toggle-switch" onclick="toggleSwitch(this)">
+                <div class="toggle-btn"></div>
+                <span>Export High-Res (8K)</span>
+            </div>
+            <div class="toggle-switch" onclick="toggleSwitch(this)">
+                <div class="toggle-btn active"></div>
+                <span>History Log</span>
+            </div>
+        </div>
+
+        <div style="flex:1;"></div>
+        
+        <button class="generate-btn" onclick="generate()">INITIALIZE RENDER</button>
+    </div>
+
+    <div class="preview-area">
+        <div class="grid-overlay"></div>
+        
+        <div class="top-left">
+            SYSTEM: ONLINE<br>
+            GPU: RT-X CORE ACTIVE<br>
+            MEM: 24GB / 128GB
+        </div>
+        <div class="top-right">
+            PROJECT: TIANAN_SMART_TRAFFIC<br>
+            SCENE: CROSSROAD_04<br>
+            CAM: ISO_85mm
+        </div>
+        <div class="bottom-left">
+            LATENCY: 12ms<br>
+            SEED: 8493021
+        </div>
+        <div class="bottom-right">
+            OUTPUT: 3840x2160<br>
+            FMT: PNG (Raw)
+        </div>
+
+        <div class="image-container" id="display-screen">
+            <div class="placeholder-text">
+                [ WAITING FOR INPUT ]<br>
+                <span style="font-size:0.8rem; color:#666;">Select parameters to generate visual preview</span>
+            </div>
+            <div class="loader" id="loader"><div class="loader-bar"></div></div>
+            <img id="result-img" src="" style="width:100%; height:100%; object-fit:cover; display:none;">
+        </div>
+    </div>
+
+    <script>
+        function updateVal(id, val) {
+            document.getElementById('val-' + id).innerText = val + '%';
+        }
+
+        function toggleSwitch(el) {
+            el.querySelector('.toggle-btn').classList.toggle('active');
+        }
+
+        function generate() {
+            const screen = document.getElementById('display-screen');
+            const loader = document.getElementById('loader');
+            const img = document.getElementById('result-img');
+            const text = document.querySelector('.placeholder-text');
+
+            text.style.display = 'none';
+            img.style.display = 'none';
+            loader.style.display = 'block';
+
+            // Simulate "Computing"
+            setTimeout(() => {
+                loader.style.display = 'none';
+                
+                // Here we would swap the image source based on logic in a real app
+                // For demo, we just show a placeholder or a real image if available
+                // I'll set it to a reliable placeholder color block for now if image fails
+                img.src = 'https://via.placeholder.com/1920x1080/111/00f3ff?text=RENDER_COMPLETE_V1.0.2'; 
+                // If the user puts real images in 'assets/', they can replace this path
+                
+                img.style.display = 'block';
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
