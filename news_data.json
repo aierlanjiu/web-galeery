@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-06_1770324564",
+    "date": "2026-02-06",
+    "poster": "./assets/news/news_2026-02-06_1770324564.png",
+    "items": [
+      {
+        "title": "中国汽车占全球份额35.6%创纪录",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/china-accounted-for-35-6-of-the-global-automotive-market-in-2025-a-new-record-high/"
+      },
+      {
+        "title": "蔚来迎11年来首个季度盈利",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/nio-to-achieve-historic-first-quarterly-profit-in-11-years/"
+      },
+      {
+        "title": "长安/宁德时代首发钠离子量产车",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/changan-and-catl-unveil-worlds-first-mass-produced-sodium-ion-passenger-ev/"
+      },
+      {
+        "title": "吉利将借福特欧洲工厂造车",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/04/geely-will-use-ford-factory-in-europe-to-produce-vehicles-in-the-region/"
+      },
+      {
+        "title": "中国强制规范汽车隐藏式门把手",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548500.htm"
+      },
+      {
+        "title": "小鹏GX增程旗舰SUV外观曝光",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/xpeng-gx-flagship-erev-crossover-broke-covers-in-china-resembling-range-rover/"
+      },
+      {
+        "title": "蜂巢能源实现电池“火电分离”",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/04/svolt-claimed-battery-achieved-fire-and-electricity-separation-for-the-first-time-fire-never-reaches-passenger-compartment/"
+      },
+      {
+        "title": "零跑目标2026年销量破百万",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/leapmotor-aims-to-break-1-million-units-sales-in-2026-coo-shared/"
+      },
+      {
+        "title": "阿维塔06T猎装版官图发布",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/avatr-06t-station-wagon-with-huaweis-new-gen-lidar-official-images-revealed/"
+      },
+      {
+        "title": "小米回应SU7 Ultra团队调整",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548506.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-05_1770244670",
     "date": "2026-02-05",
     "poster": "./assets/news/news_2026-02-05_1770244670.png",
