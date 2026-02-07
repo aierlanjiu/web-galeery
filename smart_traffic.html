@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART TRAFFIC CONSOLE | 智慧交通视觉控制台</title>
+
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Framer Motion -->
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Oswald:wght@400;700&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'va-base': '#020617',
+                        'va-card': '#0f172a',
+                        'va-accent': '#00ffff',
+                        'va-gold': '#f59e0b',
+                    },
+                    fontFamily: {
+                        display: ['Oswald', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                        body: ['Noto Sans SC', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #020617;
+            color: #E2E8F0;
+            font-family: 'Noto Sans SC', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .cyber-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: -1;
+        }
+
+        .cyber-grid::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, transparent 20%, #020617 100%);
+            pointer-events: none;
+        }
+
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+        }
+
+        .text-glow {
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        .image-glow:hover {
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cyber-grid"></div>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { motion, AnimatePresence } = FramerMotion;
+
+        const App = () => {
+            const modules = [
+                {
+                    id: "01",
+                    title: "轨迹实时指标看板",
+                    desc: "基于 WebGL 引擎的微缩模型质感渲染，实时监控车流轨迹与延误率。",
+                    img: "../08_交付文件/05_智慧交通/元素/整体效果/1.png",
+                    tags: ["Three.js", "Tilt-shift", "High Key"]
+                },
+                {
+                    id: "02",
+                    title: "综合评价驾驶舱",
+                    desc: "多维数据交互体系，Dark Mode 基底配合霓虹功能色，直观呈现枢纽运行状态。",
+                    img: "../08_交付文件/05_智慧交通/元素/整体效果/2.png",
+                    tags: ["Dark Mode", "Data Viz", "Motion Design"]
+                },
+                {
+                    id: "03",
+                    title: "优化对比分析系统",
+                    desc: "双屏联动视口矩阵，直观对比现状与优化方案的通行效率增益。",
+                    img: "../08_交付文件/05_智慧交通/元素/整体效果/3.png",
+                    tags: ["Split View", "Gain Viz", "Optimization"]
+                }
+            ];
+
+            return (
+                <div className="min-h-screen p-4 md:p-8">
+                    {/* Header */}
+                    <header className="max-w-7xl mx-auto mb-12 flex flex-col md:flex-row justify-between items-end border-b border-va-accent/30 pb-6">
+                        <div>
+                            <motion.h1 
+                                initial={{ opacity: 0, y: -20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                className="font-display text-4xl md:text-6xl font-bold text-va-accent text-glow"
+                            >
+                                SMART TRAFFIC CONSOLE
+                            </motion.h1>
+                            <p className="mt-2 text-va-accent/60 font-mono tracking-widest uppercase">Computational Aesthetics Engine v1.02 // Prototype Showcase</p>
+                        </div>
+                        <div className="text-right mt-4 md:mt-0 font-mono text-xs text-va-accent/40 bg-va-accent/5 p-3 rounded-lg border border-va-accent/10">
+                            <p>LOCAL_NODE: 大江南 (Close2000bot)</p>
+                            <p>REMOTE_GATEWAY: 小雪沐 (zedassistant01_bot)</p>
+                            <p>PROJECT: 智慧交通数字孪生驾驶舱</p>
+                        </div>
+                    </header>
+
+                    {/* Hero Section */}
+                    <section className="max-w-7xl mx-auto mb-16">
+                        <motion.div 
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            className="relative rounded-2xl overflow-hidden glass-panel p-2 group"
+                        >
+                            <div className="absolute top-4 left-4 z-10 bg-va-accent text-va-base px-3 py-1 font-bold text-xs rounded">MAIN VIEWPORT</div>
+                            <img 
+                                src="../08_交付文件/05_智慧交通/元素/整体效果/大图.png" 
+                                className="w-full h-auto rounded-xl grayscale group-hover:grayscale-0 transition-all duration-700" 
+                                alt="Traffic Overview"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-va-base via-transparent to-transparent opacity-60"></div>
+                            <div className="absolute bottom-8 left-8">
+                                <h2 className="text-3xl font-bold">全域流量实时态势总览</h2>
+                                <p className="text-va-accent/80 max-w-xl mt-2 italic">基于高精地图引擎与视觉增强算法，实现从微观轨迹到宏观路网的无缝切换。</p>
+                            </div>
+                        </motion.div>
+                    </section>
+
+                    {/* Module Matrix */}
+                    <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+                        {modules.map((m, idx) => (
+                            <motion.div
+                                key={m.id}
+                                initial={{ opacity: 0, y: 30 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: idx * 0.2 }}
+                                className="glass-panel rounded-xl overflow-hidden flex flex-col group cursor-pointer image-glow"
+                                data-tilt
+                            >
+                                <div className="h-48 overflow-hidden relative">
+                                    <div className="absolute top-2 right-2 z-10 bg-va-base/80 text-va-accent px-2 py-1 font-mono text-[10px] border border-va-accent/30 rounded">MOD_{m.id}</div>
+                                    <img src={m.img} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt={m.title} />
+                                </div>
+                                <div className="p-6 flex-grow flex flex-col">
+                                    <h3 className="text-xl font-bold mb-3 text-va-accent">{m.title}</h3>
+                                    <p className="text-sm text-slate-400 mb-6 leading-relaxed">{m.desc}</p>
+                                    <div className="mt-auto flex flex-wrap gap-2">
+                                        {m.tags.map(tag => (
+                                            <span key={tag} className="text-[10px] font-mono border border-va-accent/20 px-2 py-0.5 rounded text-va-accent/50 uppercase">{tag}</span>
+                                        ))}
+                                    </div>
+                                </div>
+                            </motion.div>
+                        ))}
+                    </section>
+
+                    {/* Tech Footer */}
+                    <footer className="max-w-7xl mx-auto border-t border-va-accent/10 pt-8 pb-12 flex flex-col md:flex-row justify-between items-center text-va-accent/30 text-xs font-mono">
+                        <div className="mb-4 md:mb-0">
+                            &copy; 2026 XUEMU_LAB ARCHITECTS. ALL RIGHTS RESERVED.
+                        </div>
+                        <div className="flex gap-6">
+                            <span className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-va-accent animate-pulse"></span> SYSTEM_STABLE</span>
+                            <span className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-va-gold animate-pulse"></span> RENDERING_V3_ACTIVE</span>
+                            <span className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> COLLABORATION_CONNECTED</span>
+                        </div>
+                    </footer>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+
+        // Initialize Tilt
+        setTimeout(() => {
+            VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
+                max: 15,
+                speed: 400,
+                glare: true,
+                "max-glare": 0.2,
+            });
+        }, 500);
+    </script>
+</body>
+
+</html>

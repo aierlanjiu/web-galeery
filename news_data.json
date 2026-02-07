@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-07_1770424349",
+    "date": "2026-02-07",
+    "poster": "./assets/news/news_2026-02-07_1770424349.png",
+    "items": [
+      {
+        "title": "吉利利用福特工厂进军欧洲",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/04/geely-will-use-ford-factory-in-europe-to-produce-vehicles-in-the-region/"
+      },
+      {
+        "title": "蜂巢能源发布火电分离电池",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/04/svolt-claimed-battery-achieved-fire-and-electricity-separation-for-the-first-time-fire-never-reaches-passenger-compartment/"
+      },
+      {
+        "title": "小鹏旗舰增程GX外观亮相",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/xpeng-gx-flagship-erev-crossover-broke-covers-in-china-resembling-range-rover/"
+      },
+      {
+        "title": "追觅发布星辰汽车品牌",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/dreame-unveils-star-motor-ev-brand-with-three-suvs-ceo-predicts-teslas-exit-in-20-years/"
+      },
+      {
+        "title": "长安宁德量产钠离子新车",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/changan-and-catl-unveil-worlds-first-mass-produced-sodium-ion-passenger-ev/"
+      },
+      {
+        "title": "阿维塔06T搭载华为雷达",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/avatr-06t-station-wagon-with-huaweis-new-gen-lidar-official-images-revealed/"
+      },
+      {
+        "title": "小米回应SU7近期起火事件",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/xiaomi-officials-responded-to-the-latest-su7-sedan-fire-in-china/"
+      },
+      {
+        "title": "零跑2026年挑战百万销量",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/leapmotor-aims-to-break-1-million-units-sales-in-2026-coo-shared/"
+      },
+      {
+        "title": "蔚来预计实现季度盈利",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/nio-to-achieve-historic-first-quarterly-profit-in-11-years/"
+      },
+      {
+        "title": "中国车市份额创全球新高",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3670377231491976?f=rss"
+      }
+    ]
+  },
+  {
     "id": "2026-02-06_1770324564",
     "date": "2026-02-06",
     "poster": "./assets/news/news_2026-02-06_1770324564.png",

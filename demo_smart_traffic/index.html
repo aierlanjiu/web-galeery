@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智慧交通 AI 视觉架构 Demo - Xuemu_Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #050505;
+            color: #e0e0e0;
+        }
+        .glass {
+            background: rgba(20, 20, 20, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .accent-border {
+            border-left: 4px solid #00ffff;
+        }
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .online { background-color: #00ff00; box-shadow: 0 0 10px #00ff00; }
+        .blink { animation: blinker 1.5s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Header / Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass p-4 flex justify-between items-center px-8">
+        <div class="flex items-center space-x-4">
+            <span class="text-2xl font-bold tracking-tighter text-cyan-400">XUEMU_LAB</span>
+            <span class="text-xs border border-cyan-400 px-2 py-0.5 rounded text-cyan-400">V2.0 DEMO</span>
+        </div>
+        <div class="flex space-x-6 text-sm uppercase tracking-widest">
+            <div class="flex items-center">
+                <span class="status-dot online"></span>
+                <span>大江南 (LOCAL)</span>
+            </div>
+            <div class="flex items-center">
+                <span class="status-dot online blink"></span>
+                <span>小雪沐 (REMOTE)</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-8 max-w-7xl mx-auto">
+        <h1 class="text-6xl font-bold mb-4 animate__animated animate__fadeInDown">智慧交通视觉架构控制台</h1>
+        <p class="text-gray-400 max-w-2xl text-lg accent-border pl-6 animate__animated animate__fadeInUp">
+            基于分布式 AI 算力集群开发的下一代交通数字孪生交互系统。由本地架构师“大江南”与远程算力网关“小雪沐”协同交付。
+        </p>
+    </header>
+
+    <!-- Main Content: Gallery -->
+    <main class="px-8 max-w-7xl mx-auto pb-32">
+        
+        <!-- Module Showcase -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Item 1 -->
+            <div class="glass p-6 rounded-xl hover:scale-[1.02] transition-transform duration-500">
+                <div class="mb-4 overflow-hidden rounded-lg aspect-video bg-zinc-900 flex items-center justify-center">
+                    <img src="../../08_交付文件/05_智慧交通/raw/1.png" alt="Trajectory" class="w-full h-full object-cover">
+                </div>
+                <h3 class="text-xl font-bold mb-2">01 | 轨迹实时指标看板</h3>
+                <p class="text-sm text-gray-500 mb-4">基于 WebGL 的实时轨迹追踪系统。渲染架构：移轴摄影视角 + 高光比布光。</p>
+                <div class="flex space-x-2">
+                    <span class="text-[10px] bg-cyan-900/50 text-cyan-400 px-2 py-1 rounded">THREE.JS</span>
+                    <span class="text-[10px] bg-zinc-800 text-gray-400 px-2 py-1 rounded">REAL-TIME</span>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="glass p-6 rounded-xl hover:scale-[1.02] transition-transform duration-500">
+                <div class="mb-4 overflow-hidden rounded-lg aspect-video bg-zinc-900 flex items-center justify-center">
+                    <img src="../../08_交付文件/05_智慧交通/raw/2.png" alt="Evaluation" class="w-full h-full object-cover">
+                </div>
+                <h3 class="text-xl font-bold mb-2">02 | 综合评价驾驶舱</h3>
+                <p class="text-sm text-gray-500 mb-4">多维度交叉口评价系统。视觉风格：Swiss Style 极简网格布局。</p>
+                <div class="flex space-x-2">
+                    <span class="text-[10px] bg-cyan-900/50 text-cyan-400 px-2 py-1 rounded">DATA VIZ</span>
+                    <span class="text-[10px] bg-zinc-800 text-gray-400 px-2 py-1 rounded">B2B STANDARD</span>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="glass p-6 rounded-xl hover:scale-[1.02] transition-transform duration-500">
+                <div class="mb-4 overflow-hidden rounded-lg aspect-video bg-zinc-900 flex items-center justify-center">
+                    <img src="../../08_交付文件/05_智慧交通/raw/3.png" alt="Comparison" class="w-full h-full object-cover">
+                </div>
+                <h3 class="text-xl font-bold mb-2">03 | 优化前后对比分析</h3>
+                <p class="text-sm text-gray-500 mb-4">双屏联动对比逻辑。渲染引擎：Computational Aesthetics Engine v1.02。</p>
+                <div class="flex space-x-2">
+                    <span class="text-[10px] bg-cyan-900/50 text-cyan-400 px-2 py-1 rounded">SPLIT VIEW</span>
+                    <span class="text-[10px] bg-zinc-800 text-gray-400 px-2 py-1 rounded">AI RENDER</span>
+                </div>
+            </div>
+
+            <!-- Item 4 (Placeholder for new output) -->
+            <div class="glass p-6 rounded-xl border-dashed border-cyan-500/30 border-2 flex flex-col items-center justify-center text-center opacity-70">
+                <div class="mb-4 w-16 h-16 rounded-full border-4 border-cyan-500/30 border-t-cyan-500 animate-spin"></div>
+                <h3 class="text-xl font-bold mb-2 text-cyan-500">小雪沐 正在实时渲染...</h3>
+                <p class="text-sm text-gray-500 px-8">正在从远程节点 (100.120.221.114) 调度 GPU 资源生成新的智慧交通场景图。</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass py-8 px-8 text-center text-xs text-gray-600 tracking-widest uppercase">
+        <p>&copy; 2026 XUEMU_LAB | Local: 大江南 | Remote: 小雪沐 | Status: All Systems Operational</p>
+    </footer>
+
+</body>
+</html>
