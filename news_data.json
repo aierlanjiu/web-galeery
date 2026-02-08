@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-08_1770512259",
+    "date": "2026-02-08",
+    "poster": "./assets/news/news_2026-02-08_1770512259.png",
+    "items": [
+      {
+        "title": "吉利将用福特欧洲工厂",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/04/geely-will-use-ford-factory-in-europe-to-produce-vehicles-in-the-region/"
+      },
+      {
+        "title": "蜂巢能源首创电池火电分离",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/04/svolt-claimed-battery-achieved-fire-and-electricity-separation-for-the-first-time-fire-never-reaches-passenger-compartment/"
+      },
+      {
+        "title": "小鹏GX旗舰增程车曝光",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/xpeng-gx-flagship-erev-crossover-broke-covers-in-china-resembling-range-rover/"
+      },
+      {
+        "title": "追觅发布星云汽车品牌",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/dreame-unveils-star-motor-ev-brand-with-three-suvs-ceo-predicts-teslas-exit-in-20-years/"
+      },
+      {
+        "title": "长安宁德首款钠离子车",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/changan-and-catl-unveil-worlds-first-mass-produced-sodium-ion-passenger-ev/"
+      },
+      {
+        "title": "阿维塔06T搭载华为雷达",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/avatr-06t-station-wagon-with-huaweis-new-gen-lidar-official-images-revealed/"
+      },
+      {
+        "title": "零跑2026冲刺百万销量",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/leapmotor-aims-to-break-1-million-units-sales-in-2026-coo-shared/"
+      },
+      {
+        "title": "蔚来迎首个季度盈利",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/nio-to-achieve-historic-first-quarterly-profit-in-11-years/"
+      },
+      {
+        "title": "中国汽车全球份额创新高",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/05/china-accounted-for-35-6-of-the-global-automotive-market-in-2025-a-new-record-high/"
+      },
+      {
+        "title": "特斯拉Model Y事故引关注",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548630.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-07_1770424349",
     "date": "2026-02-07",
     "poster": "./assets/news/news_2026-02-07_1770424349.png",
