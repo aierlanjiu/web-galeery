@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-09_1770587182",
+    "date": "2026-02-09",
+    "poster": "./assets/news/news_2026-02-09_1770587182.png",
+    "items": [
+      {
+        "title": "小米 YU7：千匹性能 SUV",
+        "source": "爱范儿",
+        "link": "https://www.ifanr.com/1654502?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "title": "星途 EX7：首发 EMB 线控制动",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/118.htm"
+      },
+      {
+        "title": "特斯拉：加大在华 AI 投入",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/112.htm"
+      },
+      {
+        "title": "尊界 S800：三电机增程升级",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/huaweis-updated-maextro-s800-luxury-sedan-features-upgraded-range-extender-with-three-motors/"
+      },
+      {
+        "title": "小鹏 GX：旗舰五秒超充 SUV",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/128.htm"
+      },
+      {
+        "title": "方程豹：端到端智驾 OTA",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/149.htm"
+      },
+      {
+        "title": "理想汽车：超充站实况显示",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/123.htm"
+      },
+      {
+        "title": "银河星舰 6：甲醇插混版曝光",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/methanol-meets-mainstream-geely-galaxy-starshine-6-hybrid-packs-93-kw-engine/"
+      },
+      {
+        "title": "长城炮：2.0T 混动皮卡现身",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/gwm-cannon-phev-pickup-with-2-0t-hybrid-power-spotted-in-regulatory-filings/"
+      },
+      {
+        "title": "奇瑞 QQ3：经典纯电版回归",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/all-new-chery-qq3-hatchback-ev-is-back-pre-order-opened-with-up-to-401-km-range/"
+      }
+    ]
+  },
+  {
     "id": "2026-02-08_1770513361",
     "date": "2026-02-08",
     "poster": "./assets/news/news_2026-02-08_1770513361.png",
