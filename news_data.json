@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-08_1770513361",
+    "date": "2026-02-08",
+    "poster": "./assets/news/news_2026-02-08_1770513361.png",
+    "items": [
+      {
+        "title": "奇瑞星途EX7首发电子机械制动",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/cherys-exeed-ex7-to-be-worlds-first-mass-production-car-with-electronic-mechanical-braking/"
+      },
+      {
+        "title": "特斯拉加大中国AI与能源投入",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548876.htm"
+      },
+      {
+        "title": "比亚迪腾势Z9 GT新款官图发布",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/updated-byd-denza-z9-gt-wagon-with-up-to-1140-hp-official-images-released/"
+      },
+      {
+        "title": "华为尊界S800搭载三电机增程",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/huaweis-updated-maextro-s800-luxury-sedan-features-upgraded-range-extender-with-three-motors/"
+      },
+      {
+        "title": "小米YU7 GT千匹马力申报完成",
+        "source": "爱范儿",
+        "link": "https://www.ifanr.com/1654502?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "title": "小马智行联手摩尔线程打造智驾",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548750.htm"
+      },
+      {
+        "title": "吉利银河A7推出纯电版车型",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/geely-galaxy-a7-goes-all-electric-160-kw-sedan-filing-confirmed/"
+      },
+      {
+        "title": "保时捷纯电卡宴投产标配大电池",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548778.htm"
+      },
+      {
+        "title": "新AI模型50次循环预测电池寿命",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/science/1548852.htm"
+      },
+      {
+        "title": "马斯克：SpaceX将成最大太空数据中心",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548820.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-08_1770512259",
     "date": "2026-02-08",
     "poster": "./assets/news/news_2026-02-08_1770512259.png",
