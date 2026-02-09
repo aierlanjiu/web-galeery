@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-10_1770670886",
+    "date": "2026-02-10",
+    "poster": "./assets/news/news_2026-02-10_1770670886.png",
+    "items": [
+      {
+        "title": "奇瑞星途EX7首搭EMB电子机械制动",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/cherys-exeed-ex7-to-be-worlds-first-mass-production-car-with-electronic-mechanical-braking/"
+      },
+      {
+        "title": "比亚迪方程豹泰7新增纯电版车型",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/byd-adds-bev-variant-to-fang-cheng-baos-best-selling-tai-7-suv/"
+      },
+      {
+        "title": "华为尊界S800升级三电机增程系统",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/huaweis-updated-maextro-s800-luxury-sedan-features-upgraded-range-extender-with-three-motors/"
+      },
+      {
+        "title": "吉利银河星舰6搭载甲醇混动系统",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/07/methanol-meets-mainstream-geely-galaxy-starshine-6-hybrid-packs-93-kw-engine/"
+      },
+      {
+        "title": "特斯拉确认FSD入华及AI训练中心布局",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548876.htm"
+      },
+      {
+        "title": "保时捷纯电卡宴量产配113kWh电池",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1548778.htm"
+      },
+      {
+        "title": "小米YU7 GT申报：千匹马力纽北调校",
+        "source": "爱范儿",
+        "link": "https://www.ifanr.com/1654502?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "title": "小鹏大六座旗舰SUV GX预计五月上市",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/128.htm"
+      },
+      {
+        "title": "奔驰AMG纯电SUV曝光：千匹马力800V",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/920/106.htm"
+      },
+      {
+        "title": "中国新能源车占全球份额近七成",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3671836244190083?f=rss"
+      }
+    ]
+  },
+  {
     "id": "2026-02-09_1770587182",
     "date": "2026-02-09",
     "poster": "./assets/news/news_2026-02-09_1770587182.png",
