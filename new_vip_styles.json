@@ -1,0 +1,47 @@
+[
+  {
+    "id": "crystal_slate",
+    "name": "晶体工程 (Crystal Slate)",
+    "description": "透明极简，全息蓝图，适合精密机械结构展示。",
+    "color": "#E0F7FA",
+    "icon": "💎",
+    "logicType": "sliders",
+    "prompt": "A high-density 'Crystal Slate' technical visualization of '[TOPIC]'. [VERSION: CRYSTAL PRO 21.0] [Perspective]: Strict 90° Top-Down Flat-Lay. [Object]: Integrated Smart Glass Slate. [Style]: Dynamic Physics Simulation. [Color Palette]: Titanium White + [THEME COLOR] + Deep Graphite. [Decor]: Holographic Icons. --v 6.1 --stylize 300"
+  },
+  {
+    "id": "titanium_mag",
+    "name": "钛金杂志 (Titanium Editorial)",
+    "description": "高端纸媒质感，混合现实，Kinfolk 遇上 Braun 设计。",
+    "color": "#F5F5DC",
+    "icon": "📰",
+    "logicType": "text-input",
+    "prompt": "A high-quality [ORIENTATION] industrial design magazine spread, featuring '[TOPIC]'. [VERSION: TITANIUM PAPER 9.1] [Style]: High-end Editorial Photography, Mixed Reality. [Background]: Full-Frame High-texture Matte Art Paper. [Lighting]: Hard Sunlight. [Color Palette]: Charcoal Grey + Prussian Blue + Silver/Chrome. --v 6.1 --stylize 350"
+  },
+  {
+    "id": "holo_flux",
+    "name": "电光全息 (Holo-Flux)",
+    "description": "Y2K 酸性设计，镭射银箔，高对比度工业风。",
+    "color": "#CCFF00",
+    "icon": "💿",
+    "logicType": "toggles",
+    "prompt": "A high-impact [ORIENTATION] industrial design spread, featuring '[TOPIC]'. [VERSION: HOLO-FLUX v10.0] [Style]: Acid Graphics, Cyber-Industrial, Y2K. [Background]: Full-Frame Holographic Silver Foil Paper. [Color Palette]: Metallic Silver + Deep Black + Acid Green. [Decor]: Caution Tape, Glitch artifacts. --v 6.1 --stylize 500"
+  },
+  {
+    "id": "dimension_breaker",
+    "name": "维度冲击 (Dimension Breaker)",
+    "description": "重工业美学，打破次元壁，撕裂纸张的真实感。",
+    "color": "#FF4500",
+    "icon": "💥",
+    "logicType": "sliders",
+    "prompt": "A high-impact [ORIENTATION] industrial design spread, featuring '[TOPIC]'. [VERSION: DIMENSION BREAKER v10.1] [Style]: Hyper-realistic Industrial Photography, Trompe-l'œil. [Background]: Pristine White Paper physically torn/crushed by Heavy Machinery. [Lighting]: Dramatic Volumetric. [Color Palette]: Matte White + Industrial Orange + Deep Gunmetal. --v 6.1 --stylize 400"
+  },
+  {
+    "id": "blackboard_pro",
+    "name": "黑板工程 (Blackboard Pro)",
+    "description": "学术极简，深色黑板，粉笔与金属的碰撞。",
+    "color": "#2F4F4F",
+    "icon": "📐",
+    "logicType": "text-input",
+    "prompt": "A high-precision engineering education visualization of '[TOPIC]'. [VERSION: BLACKBOARD PRO 11.0] [Style]: Hyper-realistic Mixed Reality, Academic Minimalism. [Background]: Deep Matte Digital Blackboard (Dark Slate). [Lighting]: Studio Spotlight. [Color Palette]: Chalk White + Stainless Steel + Brass. --v 6.1 --stylize 400"
+  }
+]

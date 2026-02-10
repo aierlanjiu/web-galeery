@@ -215,5 +215,12 @@
     "unfollows": 3,
     "net_growth": 170,
     "total_followers": 5850
+  },
+  {
+    "date": "2026-02-10",
+    "new_followers": 531,
+    "unfollows": 0,
+    "net_growth": 531,
+    "total_followers": 6381
   }
 ]

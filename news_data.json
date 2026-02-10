@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-11_1770764257",
+    "date": "2026-02-11",
+    "poster": "./assets/news/news_2026-02-11_1770764257.png",
+    "items": [
+      {
+        "title": "极狐首发：全球首款配备防滚架MPV",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/arcfox-debuted-worlds-first-mpv-with-roll-cage-and-magnetorheological-adaptive-suspension-system/"
+      },
+      {
+        "title": "小米YU7 Max：690马力SUV现身美国",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/xiaomis-690hp-yu7-max-suv-spotted-on-u-s-highway-ceo-responds/"
+      },
+      {
+        "title": "腾势Z9/Z9GT：申报续航达1068公里",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/byds-denza-z9-z9gt-declared-with-up-to-1068-km-range-and-up-to-1140-horsepower/"
+      },
+      {
+        "title": "比亚迪诉讼：挑战美国关税政策",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/byd-lawsuit-challenges-u-s-tariffs-as-supreme-court-weighs-emergency-powers/"
+      },
+      {
+        "title": "比亚迪宋Ultra：王朝网首款B级纯电SUV",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/byd-song-ultra-will-have-up-to-710-km-range-dynasty-series-first-b-segment-electric-suv/"
+      },
+      {
+        "title": "零跑A10：续航505公里Q1上市",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/leapmotor-a10-range-information-403-and-505-km-unveiled-ahead-of-q1-launch/"
+      },
+      {
+        "title": "蔚来ES9：中国最大纯电SUV续航曝光",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/nio-es9-range-information-revealed-chinas-largest-electric-suv/"
+      },
+      {
+        "title": "线控刹车：中国供应商备战2026量产",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/chinas-brake-by-wire-leap-electronic-mechanical-braking-suppliers-gear-up-for-2026-mass-production-push/"
+      },
+      {
+        "title": "新小米SU7：续航902公里现身门店",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/new-xiaomi-su7-with-up-to-902km-range-spotted-in-dealership-to-be-lauched-in-march/"
+      },
+      {
+        "title": "一汽突破：142度液固态电池续航千公里",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/10/faw-pioneers-142-kwh-li-mn-liquid-solid-state-battery-integration-unlocking-1000-km-ev-range/"
+      }
+    ]
+  },
+  {
     "id": "2026-02-10_1770670886",
     "date": "2026-02-10",
     "poster": "./assets/news/news_2026-02-10_1770670886.png",
