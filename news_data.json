@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-12_1770852277",
+    "date": "2026-02-12",
+    "poster": "./assets/news/news_2026-02-12_1770852277.png",
+    "items": [
+      {
+        "title": "比亚迪元PLUS海外升级800V平台",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/byd-atto-3-evo-revealed-with-800v-system-4wd-and-faster-charging/"
+      },
+      {
+        "title": "蔚来发行全球首单动力电池REITs",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/nios-battery-management-company-successfully-issues-worlds-first-power-battery-reits/"
+      },
+      {
+        "title": "中国定于7月发布固态电池标准",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/china-to-release-solid-state-battery-standard-in-july-2026/"
+      },
+      {
+        "title": "中科院：液固态电池-34℃容量85%",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/breakthrough-liquid-solid-state-lithium-battery-retains-85-capacity-at-34-c/"
+      },
+      {
+        "title": "字节跳动自研AI芯片洽谈三星代工",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549438.htm"
+      },
+      {
+        "title": "长征十号+梦舟飞船首飞成功",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/science/1549440.htm"
+      },
+      {
+        "title": "丰田逆势在美国推纯电汉兰达",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549450.htm"
+      },
+      {
+        "title": "Intel ZAM内存原型功耗降50%",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549460.htm"
+      },
+      {
+        "title": "三星S26定档2月26日首发2nm",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549462.htm"
+      },
+      {
+        "title": "福特CEO：中国车企改变游戏规则",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549514.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-11_1770764257",
     "date": "2026-02-11",
     "poster": "./assets/news/news_2026-02-11_1770764257.png",
