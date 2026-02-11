@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-12_1770853587",
+    "date": "2026-02-12",
+    "poster": "./assets/news/news_2026-02-12_1770853587.png",
+    "items": [
+      {
+        "title": "小米SU7一代停产 4月迎改款",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/over-380000-units-sold-xiaomi-discontinues-first-gen-su7-as-new-model-approaches/"
+      },
+      {
+        "title": "比亚迪霸榜 1000km续航独占",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/byd-leads-chinas-ev-range-rankings-as-only-brand-with-1000-km-models/"
+      },
+      {
+        "title": "中国固态电池标准 7月发布",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/11/china-to-release-solid-state-battery-standard-in-july-2026/"
+      },
+      {
+        "title": "字节跳动自研芯片 三星代工",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549438.htm"
+      },
+      {
+        "title": "马斯克画饼 月球建AI卫星厂",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549412.htm"
+      },
+      {
+        "title": "南航C919首航 执飞京湘线",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/197.htm"
+      },
+      {
+        "title": "智谱GLM-5发布 编程能力强",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/216.htm"
+      },
+      {
+        "title": "本田连亏四季 重估电车战略",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/209.htm"
+      },
+      {
+        "title": "苹果F1电影 确认制作续集",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/229.htm"
+      },
+      {
+        "title": "英特尔Nova Lake 芯片面积曝",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/213.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-12_1770852277",
     "date": "2026-02-12",
     "poster": "./assets/news/news_2026-02-12_1770852277.png",
