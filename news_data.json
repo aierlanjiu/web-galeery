@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-13_1770942601",
+    "date": "2026-02-13",
+    "poster": "./assets/news/news_2026-02-13_1770942601.png",
+    "items": [
+      {
+        "title": "小米汽车交付超60万辆",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/547.htm"
+      },
+      {
+        "title": "苹果AI版Siri年内推出",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/544.htm"
+      },
+      {
+        "title": "谷歌升级Gemini 3深度思考",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/530.htm"
+      },
+      {
+        "title": "地平线HSD首次OTA推送",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/490.htm"
+      },
+      {
+        "title": "深圳支持14nm车规芯片替代",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/493.htm"
+      },
+      {
+        "title": "保时捷新款Taycan实车曝光",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/501.htm"
+      },
+      {
+        "title": "港中大卫星搭载DeepSeek",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/489.htm"
+      },
+      {
+        "title": "字节发布Seedance 2.0模型",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/movie/1549644.htm"
+      },
+      {
+        "title": "MINI确认保留车内实体按键",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/494.htm"
+      },
+      {
+        "title": "脑虎科技脑机接口新突破",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/506.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-12_1770853587",
     "date": "2026-02-12",
     "poster": "./assets/news/news_2026-02-12_1770853587.png",
@@ -53,63 +110,6 @@
         "title": "英特尔Nova Lake 芯片面积曝",
         "source": "IT之家",
         "link": "https://www.ithome.com/0/921/213.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-12_1770852277",
-    "date": "2026-02-12",
-    "poster": "./assets/news/news_2026-02-12_1770852277.png",
-    "items": [
-      {
-        "title": "比亚迪元PLUS海外升级800V平台",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/byd-atto-3-evo-revealed-with-800v-system-4wd-and-faster-charging/"
-      },
-      {
-        "title": "蔚来发行全球首单动力电池REITs",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/nios-battery-management-company-successfully-issues-worlds-first-power-battery-reits/"
-      },
-      {
-        "title": "中国定于7月发布固态电池标准",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/china-to-release-solid-state-battery-standard-in-july-2026/"
-      },
-      {
-        "title": "中科院：液固态电池-34℃容量85%",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/breakthrough-liquid-solid-state-lithium-battery-retains-85-capacity-at-34-c/"
-      },
-      {
-        "title": "字节跳动自研AI芯片洽谈三星代工",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549438.htm"
-      },
-      {
-        "title": "长征十号+梦舟飞船首飞成功",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/science/1549440.htm"
-      },
-      {
-        "title": "丰田逆势在美国推纯电汉兰达",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549450.htm"
-      },
-      {
-        "title": "Intel ZAM内存原型功耗降50%",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549460.htm"
-      },
-      {
-        "title": "三星S26定档2月26日首发2nm",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549462.htm"
-      },
-      {
-        "title": "福特CEO：中国车企改变游戏规则",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549514.htm"
       }
     ]
   },
