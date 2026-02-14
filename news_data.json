@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-14_1771028026",
+    "date": "2026-02-14",
+    "poster": "./assets/news/news_2026-02-14_1771028026.png",
+    "items": [
+      {
+        "title": "小米汽车交付破60万台，2026目标55万",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/13/xiaomi-hits-600000-deliveries-in-22-months-sets-550000-unit-2026-target/"
+      },
+      {
+        "title": "特斯拉上海招聘智驾测试，赛车手优先",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/741.htm"
+      },
+      {
+        "title": "DeepSeek内测1M长文本，API保持V3.2",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3681692303158914?f=rss"
+      },
+      {
+        "title": "奥迪E7X量产版曝光，续航751公里",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549778.htm"
+      },
+      {
+        "title": "Waymo部署第六代智驾系统，吉利造车",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549742.htm"
+      },
+      {
+        "title": "蚂蚁开源万亿参数思考模型Ring-2.5",
+        "source": "雷锋网",
+        "link": "https://www.leiphone.com/category/industrynews/t3CiJyrkzQTfru1E.html"
+      },
+      {
+        "title": "加拿大发布3D打印底盘概念车Vector",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/722.htm"
+      },
+      {
+        "title": "尊界S800夺得1月豪华轿车销量冠军",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/13/maextro-s800-is-the-bestselling-luxury-sedan-of-january-2026-in-china/"
+      },
+      {
+        "title": "三星抢跑HBM4量产，英伟达放宽要求",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/737.htm"
+      },
+      {
+        "title": "工信部拟禁止半幅方向盘，新国标报批",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/824.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-13_1770942601",
     "date": "2026-02-13",
     "poster": "./assets/news/news_2026-02-13_1770942601.png",
