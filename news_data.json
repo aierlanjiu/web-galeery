@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-15_1771114832",
+    "date": "2026-02-15",
+    "poster": "./assets/news/news_2026-02-15_1771114832.png",
+    "items": [
+      {
+        "title": "吉利超越比亚迪成乘用车销冠",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/14/geely-overtook-byd-in-passenger-vehicle-sales-huaweis-hima-emerged-among-top-10-in-china-january-2026/"
+      },
+      {
+        "title": "字节跳动发布豆包大模型2.0",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549960.htm"
+      },
+      {
+        "title": "福特CEO商讨与中国车企合资",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549908.htm"
+      },
+      {
+        "title": "外卖员跑腿帮Waymo无人车关门",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/02/380166.html"
+      },
+      {
+        "title": "GPT-5.2改写粒子物理教科书",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/02/380154.html"
+      },
+      {
+        "title": "智谱GLM-5超强代码与工具调用",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/02/380216.html"
+      },
+      {
+        "title": "美光量产全球首款PCIe 6.0 SSD",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549940.htm"
+      },
+      {
+        "title": "蚂蚁阿福登顶App Store总榜",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549934.htm"
+      },
+      {
+        "title": "人形机器人放无人机上天入海",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/02/380236.html"
+      },
+      {
+        "title": "铠侠2026年NAND产能已售罄",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1549916.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-14_1771028026",
     "date": "2026-02-14",
     "poster": "./assets/news/news_2026-02-14_1771028026.png",
