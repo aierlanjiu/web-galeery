@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-15_1771144789",
+    "date": "2026-02-15",
+    "poster": "./assets/news/news_2026-02-15_1771144789.png",
+    "items": [
+      {
+        "title": "新国标拟强制汽车保留实体按键",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/989.htm"
+      },
+      {
+        "title": "尊界S800一月销量超越迈巴赫S",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/965.htm"
+      },
+      {
+        "title": "华为乾崑加持东风奕派008曝光",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/953.htm"
+      },
+      {
+        "title": "吉利一月销量超越比亚迪夺冠",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/14/geely-overtook-byd-in-passenger-vehicle-sales-huaweis-hima-emerged-among-top-10-in-china-january-2026/"
+      },
+      {
+        "title": "小米汽车22个月交付破60万台",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/13/xiaomi-hits-600000-deliveries-in-22-months-sets-550000-unit-2026-target/"
+      },
+      {
+        "title": "北京增发8万个新能源汽车指标",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/958.htm"
+      },
+      {
+        "title": "宝马ALPINA发布全新独立品牌标",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550008.htm"
+      },
+      {
+        "title": "南京网约车新规取消户籍限制",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/984.htm"
+      },
+      {
+        "title": "吉利奇瑞加速固态电池2027商用",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/12/chinas-automakers-accelerate-solid-state-battery-timelines-geely-and-chery-target-vehicle-demonstrations-by-2027/"
+      },
+      {
+        "title": "中国车企争夺墨西哥汽车工厂",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/13/byd-chery-gwm-battle-for-nissan-mercedes-mexicos-230000-unit-plant/"
+      }
+    ]
+  },
+  {
     "id": "2026-02-15_1771115421",
     "date": "2026-02-15",
     "poster": "./assets/news/news_2026-02-15_1771115421.png",
