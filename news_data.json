@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-17_1771285382",
+    "date": "2026-02-17",
+    "poster": "./assets/news/news_2026-02-17_1771285382.png",
+    "items": [
+      {
+        "title": "中国点燃固态电池竞赛：2026 扩大生产",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/16/china-ignites-solid-state-battery-race-production-expands-in-2026-vehicle-demonstrations-by-2027/"
+      },
+      {
+        "title": "工信部拟强制要求汽车保留物理按键",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/16/china-to-require-physical-controls-for-vehicle-functions-reducing-reliance-on-central-control-screen/"
+      },
+      {
+        "title": "苹果官宣春季发布会定档 3 月 4 日",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550148.htm"
+      },
+      {
+        "title": "OpenClaw 之父宣布加入 OpenAI",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550082.htm"
+      },
+      {
+        "title": "蔚来春节单日换电量创历史新高",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/16/nio-sets-new-battery-daily-swap-record-during-chinese-new-year-travel-rush/"
+      },
+      {
+        "title": "比亚迪海狮 06 PHEV 将于 2026 上市",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/16/byd-to-launch-sealion-06-phev-with-175-kw-motor-220-km-ev-range-lidar-option-in-2026/"
+      },
+      {
+        "title": "微信上线“金色朋友圈”春节彩蛋",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550080.htm"
+      },
+      {
+        "title": "台积电拟在美新建四座晶圆厂",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550158.htm"
+      },
+      {
+        "title": "三星 S26 Ultra 将搭载隐私防窥屏",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550152.htm"
+      },
+      {
+        "title": "工信部新国标严查汽车隐藏式门把手",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550122.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-16_1771201086",
     "date": "2026-02-16",
     "poster": "./assets/news/news_2026-02-16_1771201086.png",
