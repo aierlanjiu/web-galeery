@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-16_1771201086",
+    "date": "2026-02-16",
+    "poster": "./assets/news/news_2026-02-16_1771201086.png",
+    "items": [
+      {
+        "title": "问界M9再登春晚",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/048.htm"
+      },
+      {
+        "title": "宝马M3雷霆版停产",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/029.htm"
+      },
+      {
+        "title": "右舵版阿维塔07抵泰",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/027.htm"
+      },
+      {
+        "title": "特斯拉适配CarPlay",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/034.htm"
+      },
+      {
+        "title": "FSD美国转订阅制",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/020.htm"
+      },
+      {
+        "title": "新国标拟增实体键",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/921/989.htm"
+      },
+      {
+        "title": "OpenClaw创始人入OpenAI",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/044.htm"
+      },
+      {
+        "title": "龙芯跑通OpenClaw",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550064.htm"
+      },
+      {
+        "title": "Grok 4.20下周发布",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/007.htm"
+      },
+      {
+        "title": "长三角直升机航线",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/040.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-15_1771144789",
     "date": "2026-02-15",
     "poster": "./assets/news/news_2026-02-15_1771144789.png",
