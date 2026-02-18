@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-18_1771375079",
+    "date": "2026-02-18",
+    "poster": "./assets/news/news_2026-02-18_1771375079.png",
+    "items": [
+      {
+        "title": "比亚迪领汇e7官图发布",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/254.htm"
+      },
+      {
+        "title": "宇树机器人春晚花絮",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/233.htm"
+      },
+      {
+        "title": "特斯拉Robotaxi效率低",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550166.htm"
+      },
+      {
+        "title": "丰田RAV4支持苹果钥匙",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/272.htm"
+      },
+      {
+        "title": "苹果部署M5云端算力",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/288.htm"
+      },
+      {
+        "title": "华为出行适配鸿蒙五界",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/247.htm"
+      },
+      {
+        "title": "三星S26 AI相机预热",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/283.htm"
+      },
+      {
+        "title": "谷歌I/O 2026定档五月",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/275.htm"
+      },
+      {
+        "title": "英伟达出售ARM股份",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/285.htm"
+      },
+      {
+        "title": "越疆机器人登上央视春晚",
+        "source": "雷锋网",
+        "link": "https://www.leiphone.com/category/industrynews/drLUgS9YeGmaTHrB.html"
+      }
+    ]
+  },
+  {
     "id": "2026-02-17_1771285382",
     "date": "2026-02-17",
     "poster": "./assets/news/news_2026-02-17_1771285382.png",
