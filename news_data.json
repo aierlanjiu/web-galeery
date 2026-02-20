@@ -113,64 +113,7 @@
       }
     ]
   },
-  {
-    "id": "2026-02-19_1771459499",
-    "date": "2026-02-19",
-    "poster": "./assets/news/news_2026-02-19_1771459499.png",
-    "items": [
-      {
-        "title": "特斯拉Cybercab量产下线",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550270.htm"
-      },
-      {
-        "title": "保时捷最强Taycan曝光",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550300.htm"
-      },
-      {
-        "title": "福特3万美元电动皮卡",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/304.htm"
-      },
-      {
-        "title": "极星Polestar 4越野版",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/372.htm"
-      },
-      {
-        "title": "奔驰纯电小G越野测试",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/373.htm"
-      },
-      {
-        "title": "CarPlay支持第三方AI",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/396.htm"
-      },
-      {
-        "title": "吉利推进英国本地生产",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/361.htm"
-      },
-      {
-        "title": "特斯拉规避加州禁令",
-        "source": "36Kr",
-        "link": "https://36kr.com/newsflashes/3688141213724296"
-      },
-      {
-        "title": "阿达尼千亿建AI中心",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/388.htm"
-      },
-      {
-        "title": "AI PC渗透率将超50%",
-        "source": "ITHome",
-        "link": "https://www.ithome.com/0/922/329.htm"
-      }
-    ]
-  },
-  {
+   {
     "id": "2026-02-18_1771375079",
     "date": "2026-02-18",
     "poster": "./assets/news/news_2026-02-18_1771375079.png",
