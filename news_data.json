@@ -1,115 +1,58 @@
 [
   {
-    "id": "2026-02-21_1771636029",
+    "id": "2026-02-21_1771651928",
     "date": "2026-02-21",
-    "poster": "./assets/news/news_2026-02-21_1771636029.png",
+    "poster": "./assets/news/news_2026-02-21_1771651928.png",
     "items": [
       {
-        "title": "It took Nio two days to set a new daily battery swap record as Chinese travel rush continues",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/19/it-took-nio-two-days-to-set-a-new-daily-battery-swap-record-as-chinese-travel-rush-continues/"
+        "title": "伏尔加借长安之力重生",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/642.htm"
       },
       {
-        "title": "Updated Geely Galaxy Starshine 6 PHEV with larger battery pack exposed",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/19/updated-geely-galaxy-starshine-6-phev-with-larger-battery-pack-exposed/"
+        "title": "兰博基尼最强SUV曝光 (剑指850马力)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/693.htm"
       },
       {
-        "title": "GWM chairman warns China auto industry still trails top global automakers",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/19/gwm-chairman-warns-china-auto-industry-still-trails-top-global-automakers/"
+        "title": "2027款宝马X5路测 (小翼门把手)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/691.htm"
       },
       {
-        "title": "Geely-backed Horse Powertrain reveals renewable hybrid engine, targets 40% lower fuel use",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/19/geely-backed-horse-powertrain-reveals-renewable-hybrid-engine-targets-40-lower-fuel-use/"
+        "title": "特斯拉App可晒FSD数据",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/667.htm"
       },
       {
-        "title": "Meta据悉重启智能手表项目 计划今年发布首款产品",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550386.htm"
+        "title": "插混实测油耗高3倍 (官方数据遭疑)",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550604.htm"
       },
       {
-        "title": "扎克伯格称曾与库克讨论青少年和儿童福祉问题",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550388.htm"
+        "title": "大众新途观R路测 (329马力四出排气)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/695.htm"
       },
       {
-        "title": "英国将要求科技公司48小时内删除未经同意发布的私密图片",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550390.htm"
+        "title": "OpenAI首款硬件曝光 (智能音箱2027上市)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/632.htm"
       },
       {
-        "title": "扎克伯格作证：公司的目标不是让用户上瘾 会捐出大部分财富",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550392.htm"
+        "title": "Win11记事本支持插图 (变身轻量Word)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/654.htm"
       },
       {
-        "title": "李飞飞初创公司World Labs融资10亿美元 估值50亿美元",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550394.htm"
+        "title": "中国科学家观测量子预热化 (庄子2.0芯片)",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/922/648.htm"
       },
       {
-        "title": "FDA局长抱怨：美国在早期药物研发方面正落后于中国",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550396.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-21_1771635070",
-    "date": "2026-02-21",
-    "poster": "./assets/news/news_2026-02-21_1771635070.png",
-    "items": [
-      {
-        "title": "蔚来换电单日破16万次，五天三破纪录",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/543.htm"
-      },
-      {
-        "title": "雷诺：与吉利合作关键，但也具备独立能力",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/517.htm"
-      },
-      {
-        "title": "2026款奥迪RS5发布：630马力混动系统",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/499.htm"
-      },
-      {
-        "title": "吉利雷诺合资浩思动力推出3.3L低油耗引擎",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/488.htm"
-      },
-      {
-        "title": "速腾聚创预告首次单季度盈利超6000万",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/478.htm"
-      },
-      {
-        "title": "奔驰预告豪华纯电MPV VLE：支持后轮转向",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/477.htm"
-      },
-      {
-        "title": "奔驰发布概念车致敬传奇赛车'红猪'",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550418.htm"
-      },
-      {
-        "title": "长城董事长警告：中国汽车产业仍有差距",
-        "source": "CarNewsChina (China EV & Auto)",
-        "link": "https://carnewschina.com/2026/02/19/gwm-chairman-warns-china-auto-industry-still-trails-top-global-automakers/"
-      },
-      {
-        "title": "比亚迪日本专属K-Car'海獭'内饰曝光",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550416.htm"
-      },
-      {
-        "title": "纽约叫停自动驾驶出租车扩张，Waymo失望",
-        "source": "IT之家 (ITHome)",
-        "link": "https://www.ithome.com/0/922/537.htm"
+        "title": "OpenAI下调算力支出 (至6000亿美元)",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3692381581078146?f=rss"
       }
     ]
   },
