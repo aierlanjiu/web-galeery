@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-02-21_1771635070",
+    "date": "2026-02-21",
+    "poster": "./assets/news/news_2026-02-21_1771635070.png",
+    "items": [
+      {
+        "title": "蔚来换电单日破16万次，五天三破纪录",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/543.htm"
+      },
+      {
+        "title": "雷诺：与吉利合作关键，但也具备独立能力",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/517.htm"
+      },
+      {
+        "title": "2026款奥迪RS5发布：630马力混动系统",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/499.htm"
+      },
+      {
+        "title": "吉利雷诺合资浩思动力推出3.3L低油耗引擎",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/488.htm"
+      },
+      {
+        "title": "速腾聚创预告首次单季度盈利超6000万",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/478.htm"
+      },
+      {
+        "title": "奔驰预告豪华纯电MPV VLE：支持后轮转向",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/477.htm"
+      },
+      {
+        "title": "奔驰发布概念车致敬传奇赛车'红猪'",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550418.htm"
+      },
+      {
+        "title": "长城董事长警告：中国汽车产业仍有差距",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/19/gwm-chairman-warns-china-auto-industry-still-trails-top-global-automakers/"
+      },
+      {
+        "title": "比亚迪日本专属K-Car'海獭'内饰曝光",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550416.htm"
+      },
+      {
+        "title": "纽约叫停自动驾驶出租车扩张，Waymo失望",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/537.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-20_1771555100",
     "date": "2026-02-20",
     "poster": "./assets/news/news_2026-02-20_1771555100.png",
@@ -113,7 +170,7 @@
       }
     ]
   },
-   {
+  {
     "id": "2026-02-18_1771375079",
     "date": "2026-02-18",
     "poster": "./assets/news/news_2026-02-18_1771375079.png",
