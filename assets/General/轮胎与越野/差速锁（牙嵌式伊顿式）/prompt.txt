@@ -1,0 +1,83 @@
+/imagine prompt: A high-precision engineering education visualization of "差速锁".
+
+[VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "差速锁" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "MECHANICAL LOCKING DIFFERENTIAL (DOG CLUTCH TYPE)" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a cutaway differential housing showing the dog clutch mechanism fully engaged between the side gear and the case, floating slightly in front, casting soft shadow.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon for Gear Teeth Meshing] + Label: "牙嵌啮合" (Handwritten Chinese)
+
+[Icon for Parallel Arrows denoting same speed] + Label: "转速同步" (Handwritten Chinese)
+
+[Icon for Mountain/Mud tire] + Label: "极限脱困" (Handwritten Chinese)
+
+[Icon for Rigid Chain Link] + Label: "刚性连接" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks drawn in fine chalk.
+
+Block 1: Hand-written Math Formula "ω_left = ω_right (Locked State)"
+
+Block 2: Parameter Limit "Δω_trigger > 100 RPM (Auto Type)"
+
+Block 3: Standard Ref "Ref: QC/T 533-1999"
+
+// --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT LOGIC: VERTICAL (3:4) - SINGLE COLUMN STACK ***
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS.
+
+Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative.
+
+Item 1: [Macro 3D Render of Side Gear with Dog Teeth] + Chalk Text: "1. 半轴齿轮（带牙）：特殊设计的侧齿轮，端面带有高强度啮合牙，连接半轴输出动力，承受主要扭矩。"
+
+Item 2: [Macro 3D Render of Sliding Dog Clutch Ring] + Chalk Text: "2. 滑动锁环（牙嵌离合器）：可轴向移动的带有对应牙型的锁环。移动后与半轴齿轮刚性互锁，消除转速差。"
+
+Item 3: [Macro 3D Render of Actuator Mechanism (Flyweight Governor & Cam plate for Eaton style)] + Chalk Text: "3. 触发机构（伊顿式）：利用飞块调速器感应两侧转速差。当转速差超过阈值时，离心力触发凸轮机构推动锁环啮合。"
+
+Item 4: [Macro 3D Render of Differential Case Cutaway showing assembly] + Chalk Text: "4. 差速器壳体总成：承载整个行星齿轮组与锁止机构。锁止状态下，壳体转速直接传递给两侧半轴。"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Torque Flow Diagram showing red chalk arrows indicating 100% torque bypass to the wheel with traction, with fine white chalk vectors and nodes.
+
+Right: Spectrum Graph drawn in chalk representing engagement shock vs. time + Explicit Handwritten Checklist:
+
+Text "1. 瞬时锁止响应 √" (Ensure explicit Chinese text rendering)
+
+Text "2. 100%扭矩传递 √" (Ensure explicit Chinese text rendering)
+
+Text "3. 抗冲击齿形设计 √" (Ensure explicit Chinese text rendering)
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

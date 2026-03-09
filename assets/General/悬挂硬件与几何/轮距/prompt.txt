@@ -1,0 +1,63 @@
+/imagine prompt:A high-quality Vertical industrial design magazine spread, featuring "轮距". [VERSION: TITANIUM paper-textured background 9.1] // --- 1. GLOBAL SETTINGS (THE paper-textured background AESTHETIC) --- [Style]: High-end Editorial Photography, Mixed Reality (2D paper-textured background vs 3D Metal), "Kinfolk" meets "Braun Design". [Background]: Full-Frame High-texture Matte Art paper-textured background (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper-textured background IS the background. [Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper-textured background. [Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts). [Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper-textured background content. // --- 2. HEADER SECTION (The Title Block) --- [Top Area]:
+
+Title: "轮距" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "TRACK WIDTH" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of a complete automotive Front Axle Assembly with wheels and tires, sitting physically ON the paper-textured background, casting a hard shadow over the title. A prominent dimension line with arrows indicates the distance between the tire centerlines.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper-textured background. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) --- [Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper-textured background.
+
+Content:
+
+[Ink Sketch of two wheels connected by a dimension line] Label: "横向跨度 (Lateral Span)"
+
+[Ink Sketch of a car leaning in a turn] Label: "侧向稳定性 (Lateral Stability)"
+
+[Ink Sketch of Roll Center diagram relative to track width] Label: "侧倾中心 (Roll Center)"
+
+[Ink Sketch showing forces shifting during cornering] Label: "载荷转移 (Load Transfer)"
+
+[Ink Sketch of top-down turning path] Label: "转向半径 (Turning Radius)" // --- 4. SECTION 2 - AXIOMS (The Data Blocks) --- [Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: Vertical Stack.
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper-textured background.
+
+Block 1: Typography Math "ΔFz = (m · ay · H) / T"
+
+Block 2: Data Highlight "Stability Index ∝ T / (2H)"
+
+Block 3: Standard Stamp "执行标准 GB/T 3730.1-2001" (Look like a red/blue approval stamp). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - UNCHANGED LOGIC) --- [Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)". // *** ADAPTIVE LAYOUT SWITCH *** // IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [Real Wheel Cutaway showing Centerline] + "1. 轮系中心线 (Wheel Centerline)：测量基准，指轮胎接地沿车辆纵向对称平面的交线，是定义轮距的几何原点。"
+
+Item 2: [Real Wheel Hub & Knuckle Assembly] + "2. 轮毂/转向节 (Hub & Knuckle)：物理连接点，其安装位置直接决定了两侧车轮的物理间距。"
+
+Item 3: [Real Wheel Rim Cross-section showing Offset/ET] + "3. 轮毂偏距 (Wheel Offset / ET)：轮圈安装面与中心线的距离，通过改变ET值可直接微调最终轮距。"
+
+Item 4: [Real Subframe/Axle Structure] + "4. 车桥/副车架 (Axle / Subframe)：横向结构件，承载悬挂系统并限定了左右车轮的基本跨度范围。" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Logic Flowchart (Hand-drawn pencil style schematic connecting "Wider Track" to "Lower Load Transfer" to "Increased Stability").
+
+Right: [Graph showing Lateral Acceleration vs. Body Roll for Narrow and Wide Track printed on paper-textured background] + 3 [Translucent Tracing paper-textured background overlays] showing X-Ray details of suspension geometry.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams

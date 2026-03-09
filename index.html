@@ -2,6 +2,8 @@
 <html lang="zh-CN">
 
 <head>
+    <script defer src="https://cloud.umami.is/script.js"
+        data-website-id="4c8af0ff-2c1f-44b7-8be6-e10b40863459"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VISUAL ARCHITECT PRO | 动态版</title>
@@ -157,130 +159,130 @@
                         </div>
                     </div>
 
-                                        <div className="bg-slate-900/80 backdrop-blur-xl border border-white/5 text-white p-6 md:p-10 flex flex-col justify-center relative shadow-2xl transition-colors duration-500 rounded-[2rem]">
-                                            <button 
-                                                onClick={toggleTheme}
-                                                className="absolute top-3 right-3 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors z-20"
-                                                title="Toggle Theme"
-                                            >
-                                                {isDarkMode ? (
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                                                    </svg>
-                                                ) : (
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-600 dark:text-blue-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                                                    </svg>
-                                                )}
-                                            </button>
-                                            <div className="space-y-4 font-mono text-xs relative z-10">
-                                                <div className="flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1">
-                                                    <span>资产总数 (TOTAL)</span>
-                                                    <span className="text-va-gold font-bold">{totalCount}</span>
-                                                </div>
-                                                <div className="flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1">
-                                                    <span>系统状态 (STATUS)</span>
-                                                    <span className="flex items-center gap-2">
-                                                        <span className="w-2 h-2 rounded-full bg-green-500 dark:bg-green-400 animate-pulse"></span>
-                                                        在线
-                                                    </span>
-                                                </div>
-                                                <button 
-                                                    onClick={onOpenData}
-                                                    className="w-full flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1 hover:bg-white/5 transition-colors text-left group"
-                                                >
-                                                    <span className="group-hover:text-va-accent transition-colors flex items-center gap-2">
-                                                        社区订阅 (SUBSCRIBERS)
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 opacity-0 group-hover:opacity-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                                                        </svg>
-                                                    </span>
-                                                    <span>
-                                                        {wechatData ? (
-                                                            <span className="flex items-center gap-2">
-                                                                <span className="font-bold text-white group-hover:scale-110 transition-transform block">{wechatData.total_followers}</span>
-                                                                {wechatData.daily_growth > 0 && (
-                                                                    <span className="text-green-400 text-[10px] bg-green-400/10 px-1 rounded animate-pulse">+{wechatData.daily_growth}</span>
-                                                                )}
+                    <div className="bg-slate-900/80 backdrop-blur-xl border border-white/5 text-white p-6 md:p-10 flex flex-col justify-center relative shadow-2xl transition-colors duration-500 rounded-[2rem]">
+                        <button
+                            onClick={toggleTheme}
+                            className="absolute top-3 right-3 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors z-20"
+                            title="Toggle Theme"
+                        >
+                            {isDarkMode ? (
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                                </svg>
+                            ) : (
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-600 dark:text-blue-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                                </svg>
+                            )}
+                        </button>
+                        <div className="space-y-4 font-mono text-xs relative z-10">
+                            <div className="flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1">
+                                <span>资产总数 (TOTAL)</span>
+                                <span className="text-va-gold font-bold">{totalCount}</span>
+                            </div>
+                            <div className="flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1">
+                                <span>系统状态 (STATUS)</span>
+                                <span className="flex items-center gap-2">
+                                    <span className="w-2 h-2 rounded-full bg-green-500 dark:bg-green-400 animate-pulse"></span>
+                                    在线
+                                </span>
+                            </div>
+                            <button
+                                onClick={onOpenData}
+                                className="w-full flex justify-between border-b border-va-dark/10 dark:border-white/10 pb-1 hover:bg-white/5 transition-colors text-left group"
+                            >
+                                <span className="group-hover:text-va-accent transition-colors flex items-center gap-2">
+                                    社区订阅 (SUBSCRIBERS)
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 opacity-0 group-hover:opacity-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                    </svg>
+                                </span>
+                                <span>
+                                    {wechatData ? (
+                                        <span className="flex items-center gap-2">
+                                            <span className="font-bold text-white group-hover:scale-110 transition-transform block">{wechatData.total_followers}</span>
+                                            {wechatData.daily_growth > 0 && (
+                                                <span className="text-green-400 text-[10px] bg-green-400/10 px-1 rounded animate-pulse">+{wechatData.daily_growth}</span>
+                                            )}
+                                        </span>
+                                    ) : (
+                                        <span className="opacity-50">SYNCING...</span>
+                                    )}
+                                </span>
+                            </button>
+                            <div className="pt-4 mt-2 border-t border-va-dark/10 dark:border-white/10 space-y-3">
+                                <a href="news.html" className="relative overflow-hidden block group">
+                                    <div className="bg-white dark:bg-va-dark text-va-dark dark:text-white p-4 rounded-xl flex items-center justify-between shadow-lg hover:shadow-xl transition-all border border-va-dark/10 dark:border-white/10 group-hover:scale-[1.02] relative z-10">
+                                        <div className="flex flex-col w-full overflow-hidden">
+                                            <span className="font-mono text-[10px] text-va-gold uppercase tracking-widest mb-1 flex items-center gap-2">
+                                                <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+                                                LIVE FEED // {latestNews ? latestNews.date : 'LOADING...'}
+                                            </span>
+
+                                            {/* Dynamic News Ticker */}
+                                            <div className="relative h-8 overflow-hidden w-full">
+                                                {latestNews ? (
+                                                    <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-sm font-bold tracking-wide absolute">
+                                                        {latestNews.items.slice(0, 5).map((news, i) => (
+                                                            <span key={i} className="flex items-center gap-2">
+                                                                <span className="text-va-accent text-[10px]">▶</span>
+                                                                {news.title}
                                                             </span>
-                                                        ) : (
-                                                            <span className="opacity-50">SYNCING...</span>
-                                                        )}
-                                                    </span>
-                                                </button>
-                                                <div className="pt-4 mt-2 border-t border-va-dark/10 dark:border-white/10 space-y-3">
-                                                    <a href="news.html" className="relative overflow-hidden block group">
-                                                        <div className="bg-white dark:bg-va-dark text-va-dark dark:text-white p-4 rounded-xl flex items-center justify-between shadow-lg hover:shadow-xl transition-all border border-va-dark/10 dark:border-white/10 group-hover:scale-[1.02] relative z-10">
-                                                            <div className="flex flex-col w-full overflow-hidden">
-                                                                <span className="font-mono text-[10px] text-va-gold uppercase tracking-widest mb-1 flex items-center gap-2">
-                                                                    <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
-                                                                    LIVE FEED // {latestNews ? latestNews.date : 'LOADING...'}
-                                                                </span>
-                                                                
-                                                                {/* Dynamic News Ticker */}
-                                                                <div className="relative h-8 overflow-hidden w-full">
-                                                                    {latestNews ? (
-                                                                        <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-sm font-bold tracking-wide absolute">
-                                                                            {latestNews.items.slice(0, 5).map((news, i) => (
-                                                                                <span key={i} className="flex items-center gap-2">
-                                                                                    <span className="text-va-accent text-[10px]">▶</span>
-                                                                                    {news.title}
-                                                                                </span>
-                                                                            ))}
-                                                                            {/* Duplicate for seamless loop */}
-                                                                            {latestNews.items.slice(0, 5).map((news, i) => (
-                                                                                <span key={`dup-${i}`} className="flex items-center gap-2">
-                                                                                    <span className="text-va-accent text-[10px]">▶</span>
-                                                                                    {news.title}
-                                                                                </span>
-                                                                            ))}
-                                                                        </div>
-                                                                    ) : (
-                                                                        <span className="font-display text-xl font-bold tracking-wide">今日前沿 · DAILY NEWS</span>
-                                                                    )}
-                                                                </div>
-                                                            </div>
-                                                            <div className="w-10 h-10 bg-va-dark/5 dark:bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-va-gold group-hover:text-white transition-colors flex-shrink-0 ml-2">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                                </svg>
-                                                            </div>
-                                                        </div>
-                                                        <div className="absolute inset-0 bg-va-gold/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-xl z-0"></div>
-                                                    </a>
-
-                                                    <div className="grid grid-cols-2 gap-3">
-                                                        <a href="student_showcase.html" className="relative overflow-hidden block group">
-                                                            <div className="bg-gradient-to-br from-sky-600 to-blue-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.5)] transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
-                                                                <span className="font-mono text-[8px] text-white/80 uppercase tracking-widest mb-1">SHOWCASE</span>
-                                                                <span className="font-display text-base font-bold leading-tight group-hover:text-white transition-colors">学员作品展</span>
-                                                                <div className="mt-2 self-end opacity-50 group-hover:opacity-100 group-hover:rotate-12 transition-all text-white">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="./assets/camp_brochure.pdf" target="_blank" className="relative overflow-hidden block group">
-                                                            <div className="bg-gradient-to-br from-indigo-600 to-purple-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
-                                                                <span className="font-mono text-[10px] text-yellow-300 font-bold uppercase tracking-widest mb-1 flex items-center gap-1">
-                                                                    <span className="w-1.5 h-1.5 bg-yellow-300 rounded-full inline-block"></span>
-                                                                    本期已满员
-                                                                </span>
-                                                                <span className="font-display text-base font-bold leading-tight">特训营简章</span>
-                                                                <div className="mt-2 self-end opacity-50 group-hover:opacity-100 group-hover:-translate-y-1 transition-all">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </div>
-                                                        </a>
+                                                        ))}
+                                                        {/* Duplicate for seamless loop */}
+                                                        {latestNews.items.slice(0, 5).map((news, i) => (
+                                                            <span key={`dup-${i}`} className="flex items-center gap-2">
+                                                                <span className="text-va-accent text-[10px]">▶</span>
+                                                                {news.title}
+                                                            </span>
+                                                        ))}
                                                     </div>
-                                                </div>
+                                                ) : (
+                                                    <span className="font-display text-xl font-bold tracking-wide">今日前沿 · DAILY NEWS</span>
+                                                )}
                                             </div>
-                                            <div className="hidden md:block mt-auto self-end opacity-5 font-display text-5xl text-va-dark dark:text-white">V.A.</div>
-                                        </div>                </motion.header>
+                                        </div>
+                                        <div className="w-10 h-10 bg-va-dark/5 dark:bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-va-gold group-hover:text-white transition-colors flex-shrink-0 ml-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="absolute inset-0 bg-va-gold/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-xl z-0"></div>
+                                </a>
+
+                                <div className="grid grid-cols-2 gap-3">
+                                    <a href="student_showcase.html" className="relative overflow-hidden block group">
+                                        <div className="bg-gradient-to-br from-sky-600 to-blue-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.5)] transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
+                                            <span className="font-mono text-[8px] text-white/80 uppercase tracking-widest mb-1">SHOWCASE</span>
+                                            <span className="font-display text-base font-bold leading-tight group-hover:text-white transition-colors">学员作品展</span>
+                                            <div className="mt-2 self-end opacity-50 group-hover:opacity-100 group-hover:rotate-12 transition-all text-white">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="./assets/camp_brochure.pdf" target="_blank" className="relative overflow-hidden block group">
+                                        <div className="bg-gradient-to-br from-indigo-600 to-purple-700 text-white p-3 rounded-xl flex flex-col justify-between h-full shadow-lg hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all border border-transparent group-hover:scale-[1.02] relative z-10">
+                                            <span className="font-mono text-[10px] text-yellow-300 font-bold uppercase tracking-widest mb-1 flex items-center gap-1">
+                                                <span className="w-1.5 h-1.5 bg-yellow-300 rounded-full inline-block"></span>
+                                                本期已满员
+                                            </span>
+                                            <span className="font-display text-base font-bold leading-tight">特训营简章</span>
+                                            <div className="mt-2 self-end opacity-50 group-hover:opacity-100 group-hover:-translate-y-1 transition-all">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hidden md:block mt-auto self-end opacity-5 font-display text-5xl text-va-dark dark:text-white">V.A.</div>
+                    </div>                </motion.header>
             );
         };
 
@@ -295,13 +297,13 @@
             };
 
             return (
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     className="fixed inset-0 z-[110] flex items-center justify-center p-4 md:p-8 bg-black/95 backdrop-blur-xl"
                 >
-                    <motion.div 
+                    <motion.div
                         initial={{ scale: 0.9, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
                         className="bg-va-card dark:bg-slate-900 w-full max-w-[1400px] h-[85vh] rounded-[3rem] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-va-dark/20 dark:border-white/10"
@@ -310,14 +312,14 @@
                         <div className="md:w-[30%] bg-va-dark p-12 text-white flex flex-col justify-between relative overflow-hidden">
                             <div className="relative z-10">
                                 <div className="text-va-gold font-mono text-sm mb-4 tracking-[0.3em]">PROJECT // 001</div>
-                                <h2 className="font-display text-5xl mb-8 leading-[0.9]">VISUAL<br/><span className="text-va-gold">ARCHITECT</span></h2>
+                                <h2 className="font-display text-5xl mb-8 leading-[0.9]">VISUAL<br /><span className="text-va-gold">ARCHITECT</span></h2>
                                 <div className="space-y-6 opacity-80 font-mono text-xs leading-relaxed uppercase tracking-widest">
                                     <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-gold rounded-full"></span> Status: Precipitating (沉淀中)</p>
                                     <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-gold rounded-full"></span> Publisher: Mechanical Industry Press</p>
                                     <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-gold rounded-full"></span> Target: 300 Hardcore Creators</p>
                                 </div>
                             </div>
-                            
+
                             {/* Coffee Support Section inside Sidebar */}
                             <div className="relative z-10 bg-white/5 p-6 rounded-3xl border border-white/10 mt-auto">
                                 <p className="font-mono text-[10px] text-va-gold mb-4 uppercase tracking-widest">Support the Creator</p>
@@ -360,7 +362,7 @@
                                             { title: "防伪门槛", desc: "发送 0.01 元验证红包 (旨在过滤低质流量/机器人)" }
                                         ].map((item, i) => (
                                             <div key={i} className="p-8 bg-va-base/40 dark:bg-white/5 rounded-[2.5rem] border border-va-dark/10 dark:border-white/5 hover:border-va-gold/30 transition-colors group">
-                                                <div className="font-mono text-sm text-va-gold mb-4 opacity-50">#0{i+1}</div>
+                                                <div className="font-mono text-sm text-va-gold mb-4 opacity-50">#0{i + 1}</div>
                                                 <div className="font-bold text-xl text-va-dark dark:text-white mb-3 group-hover:text-va-gold transition-colors">{item.title}</div>
                                                 <div className="text-sm text-va-dark/60 dark:text-white/40 leading-relaxed">{item.desc}</div>
                                             </div>
@@ -388,7 +390,7 @@
                                     </div>
                                     <div>
                                         <p className="font-bold text-va-dark dark:text-white text-lg mb-1">联系作者申请入群</p>
-                                        <button 
+                                        <button
                                             onClick={handleCopyWechat}
                                             className="flex items-center gap-2 group"
                                         >
@@ -401,7 +403,7 @@
                                         </button>
                                     </div>
                                 </div>
-                                <button 
+                                <button
                                     className="px-10 py-4 bg-va-dark/5 dark:bg-white/5 text-va-dark/30 dark:text-white/20 font-bold font-mono text-xs rounded-[1.5rem] cursor-not-allowed border border-va-dark/5 dark:border-white/5 whitespace-nowrap tracking-widest"
                                     disabled
                                 >
@@ -416,13 +418,13 @@
 
         const CoCreationWidget = ({ onOpen }) => {
             return (
-                <motion.div 
+                <motion.div
                     initial={{ x: -50, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     whileHover={{ x: 10 }}
                     className="fixed left-0 top-1/2 -translate-y-1/2 z-50 hidden md:block"
                 >
-                    <button 
+                    <button
                         onClick={onOpen}
                         className="bg-[#E8EAE6]/90 dark:bg-va-dark/90 backdrop-blur-md text-va-dark dark:text-white py-8 px-3 rounded-r-[2rem] border-y border-r border-va-dark/10 dark:border-white/10 shadow-2xl flex flex-col items-center gap-6 group transition-colors"
                     >
@@ -455,14 +457,14 @@
                 // Split by section headers: // --- SECTION NAME ---
                 const sectionRegex = /(\/\/ --- .+ ---)/g;
                 const parts = text.split(sectionRegex);
-                
+
                 let parsedSections = [];
                 let currentHeader = "PREAMBLE";
-                
+
                 for (let i = 0; i < parts.length; i++) {
                     const part = parts[i].trim();
                     if (!part) continue;
-                    
+
                     if (part.startsWith("// ---")) {
                         currentHeader = part;
                     } else {
@@ -480,7 +482,7 @@
                 const updatedSections = [...sections];
                 updatedSections[index].content = newContent;
                 setSections(updatedSections);
-                
+
                 // Reconstruct full prompt
                 const newFullPrompt = updatedSections.map(s => `${s.header}\n\n${s.content}`).join('\n\n');
                 setFullPrompt(newFullPrompt);
@@ -495,13 +497,13 @@
             if (!isOpen) return null;
 
             return (
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8 bg-black/80 backdrop-blur-xl"
                 >
-                    <motion.div 
+                    <motion.div
                         initial={{ scale: 0.9, y: 20 }}
                         animate={{ scale: 1, y: 0 }}
                         className="bg-white dark:bg-slate-900 w-full max-w-5xl h-[90vh] rounded-[2.5rem] overflow-hidden flex flex-col shadow-2xl border border-white/10"
@@ -528,7 +530,7 @@
                                         <span className="font-mono text-[10px] font-bold text-va-gold uppercase tracking-widest">{section.header.replace(/\/\/ --- | ---/g, '')}</span>
                                         <div className="h-px flex-grow bg-va-dark/10 dark:bg-white/10"></div>
                                     </div>
-                                    <textarea 
+                                    <textarea
                                         value={section.content}
                                         onChange={(e) => handleSectionChange(idx, e.target.value)}
                                         className="w-full bg-va-base/30 dark:bg-slate-950/50 border border-va-dark/10 dark:border-white/5 rounded-2xl p-4 font-mono text-sm text-va-dark dark:text-slate-300 focus:ring-2 focus:ring-va-gold outline-none transition-all min-h-[120px] resize-none"
@@ -547,12 +549,12 @@
                                 </div>
                             </div>
                             <div className="flex gap-3 w-full md:w-auto">
-                                <button 
+                                <button
                                     onClick={handleCopy}
                                     className={`
                                         w-full md:w-48 px-8 py-3 font-bold font-mono text-sm rounded-2xl hover:scale-105 transition-all
-                                        ${copied 
-                                            ? 'bg-green-600 text-white' 
+                                        ${copied
+                                            ? 'bg-green-600 text-white'
                                             : 'bg-va-dark dark:bg-white text-white dark:text-slate-900'}
                                     `}
                                 >
@@ -567,52 +569,43 @@
 
         const FilterBar = ({ activeFilter, setFilter, categories }) => {
             return (
-                <div className="max-w-7xl mx-auto px-4 md:px-5 mb-10 overflow-x-auto pb-4 md:pb-0 custom-scrollbar">
-                    <div className="flex gap-3 font-mono text-xs min-w-max">
-                                                <button
-                                                    onClick={() => setFilter('all')}
-                                                    className={`
-                                                        relative px-5 py-2 md:px-6 md:py-3 uppercase tracking-wider transition-all duration-300 overflow-hidden group border border-va-dark dark:border-slate-600 rounded-2xl
-                                                        ${activeFilter === 'all' 
-                                                            ? 'bg-va-dark dark:bg-slate-700 text-white shadow-[0_0_20px_rgba(56,189,248,0.3)] scale-105' 
-                                                            : 'bg-white/5 dark:bg-slate-800/40 text-va-dark dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700'}
-                                                    `}
-                                                >
-                            <span className="relative z-10">全部系统</span>
+                <div className="max-w-7xl mx-auto px-4 md:px-5 mb-10 pb-4 md:pb-0">
+                    <div className="flex flex-wrap gap-3 font-mono text-xs justify-center lg:justify-start">
+                        <button
+                            onClick={() => setFilter('all')}
+                            className={`
+                                relative px-5 py-2 md:px-6 md:py-2.5 uppercase tracking-wider transition-all duration-300 overflow-hidden group border border-va-dark dark:border-slate-600 rounded-full
+                                ${activeFilter === 'all'
+                                    ? 'bg-va-dark dark:bg-slate-700 text-white shadow-[0_0_20px_rgba(56,189,248,0.3)] scale-105'
+                                    : 'bg-white/5 dark:bg-slate-800/40 text-va-dark dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700'}
+                            `}
+                        >
+                            <span className="relative z-10 font-bold">全部图谱</span>
                             {activeFilter === 'all' && (
                                 <motion.div
                                     layoutId="activeTab"
                                     className="absolute inset-0 bg-va-dark dark:bg-slate-700 z-0"
+                                    transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                                 />
                             )}
                         </button>
-
-                                                {categories.map((cat) => (
-
-                                                    <button
-
-                                                        key={cat}
-
-                                                        onClick={() => setFilter(cat)}
-
-                                                        className={`
-
-                                                            relative px-5 py-2 md:px-6 md:py-3 uppercase tracking-wider transition-all duration-300 overflow-hidden group border border-va-dark dark:border-slate-600 rounded-2xl
-
-                                                            ${activeFilter === cat 
-
-                                                                ? 'bg-va-dark dark:bg-slate-700 text-white shadow-[0_0_20px_rgba(56,189,248,0.3)] scale-105' 
-
-                                                                : 'bg-white/5 dark:bg-slate-800/40 text-va-dark dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700'}
-
-                                                        `}
-
-                                                    >
-                                <span className="relative z-10">{cat}</span>
+                        {categories.map((cat) => (
+                            <button
+                                key={cat}
+                                onClick={() => setFilter(cat)}
+                                className={`
+                                    relative px-5 py-2 md:px-6 md:py-2.5 uppercase tracking-wider transition-all duration-300 overflow-hidden group border border-va-dark dark:border-slate-600 rounded-full
+                                    ${activeFilter === cat
+                                        ? 'bg-va-dark dark:bg-slate-700 text-white shadow-[0_0_20px_rgba(56,189,248,0.3)] scale-105'
+                                        : 'bg-white/5 dark:bg-slate-800/40 text-va-dark dark:text-slate-400 hover:bg-white dark:hover:bg-slate-700'}
+                                `}
+                            >
+                                <span className="relative z-10 font-bold">{cat}</span>
                                 {activeFilter === cat && (
                                     <motion.div
                                         layoutId="activeTab"
                                         className="absolute inset-0 bg-va-dark dark:bg-slate-700 z-0"
+                                        transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                                     />
                                 )}
                             </button>
@@ -653,7 +646,6 @@
                     label: "演示中心",
                     icon: "📺",
                     items: [
-                        { name: "智慧交通控制台", icon: "🚥", url: "./smart_traffic.html", desc: "B2B 数字化展厅 v1.02" },
                         { name: "计算美学实验室", icon: "🧪", url: "./demo_computational_aesthetics", desc: "底层逻辑验证" },
                         { name: "每日资讯看板", icon: "🗞️", url: "./news.html", desc: "自动化资讯流" },
                         { name: "学员作品集", icon: "🎓", url: "./student_showcase.html", desc: "特训营成果展示" },
@@ -679,7 +671,7 @@
             const displayItems = isExpanded ? currentItems : currentItems.slice(0, 8); // Collapse logic if list is very long
 
             return (
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
@@ -692,15 +684,15 @@
                                 <svg className="w-4 h-4 text-va-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                                 <span className="font-mono text-xs text-slate-400 tracking-widest hidden md:block">工具箱 // TOOLBOX</span>
                             </div>
-                            
+
                             {Object.entries(categories).map(([key, cat]) => (
                                 <button
                                     key={key}
                                     onClick={() => setActiveTab(key)}
                                     className={`
                                         px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-300 flex items-center gap-2
-                                        ${activeTab === key 
-                                            ? 'bg-va-accent text-white shadow-[0_0_15px_rgba(56,189,248,0.4)]' 
+                                        ${activeTab === key
+                                            ? 'bg-va-accent text-white shadow-[0_0_15px_rgba(56,189,248,0.4)]'
                                             : 'bg-white/5 text-slate-400 hover:bg-white/10'}
                                     `}
                                 >
@@ -709,12 +701,12 @@
                                 </button>
                             ))}
                         </div>
-                        
+
                         {/* Tool Grid */}
                         <div className="flex flex-wrap justify-center md:justify-start gap-3 w-full min-h-[80px]">
                             <AnimatePresence mode="wait">
                                 {displayItems.map((tool, idx) => (
-                                    <motion.a 
+                                    <motion.a
                                         key={tool.name}
                                         layout
                                         initial={{ opacity: 0, scale: 0.9 }}
@@ -755,38 +747,38 @@
             return (
                 <motion.div
                     layout
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.9 }}
-                    transition={{ duration: 0.5, delay: index * 0.05 }}
+                    initial={{ opacity: 0, scale: 0.9, y: 30 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.9, y: 30 }}
+                    transition={{ duration: 0.4, ease: "easeOut" }}
                     className="mb-8 break-inside-avoid"
                 >
                     <TiltCard isMobile={isMobile} options={{ max: 5, speed: 400, glare: true, "max-glare": 0.2, scale: 1.02 }}>
-                        <div className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700 relative h-full transition-all duration-300 hover:border-va-accent/50 dark:hover:border-slate-500 shadow-xl hover:shadow-[0_0_30px_rgba(56,189,248,0.1)] group rounded-[2rem] overflow-hidden">
+                        <div className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700 relative h-full transition-all duration-300 hover:border-va-accent/50 dark:hover:border-slate-500 shadow-xl hover:shadow-[0_0_30px_rgba(56,189,248,0.15)] group rounded-[2rem] overflow-hidden flex flex-col">
 
                             {/* Corner Decors (Desktop Only) */}
-                            <div className="hidden md:block absolute top-4 left-4 w-3 h-3 border-t-2 border-l-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-tl-lg"></div>
-                            <div className="hidden md:block absolute bottom-4 right-4 w-3 h-3 border-b-2 border-r-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity rounded-br-lg"></div>
+                            <div className="hidden md:block absolute top-4 left-4 w-3 h-3 border-t-2 border-l-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-tl-lg"></div>
+                            <div className="hidden md:block absolute bottom-4 right-4 w-3 h-3 border-b-2 border-r-2 border-va-accent z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-br-lg"></div>
 
                             {/* Image Section */}
                             <div className="relative border-b border-slate-100 dark:border-slate-800 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                <div className="absolute top-2 right-2 z-10 bg-black/70 backdrop-blur-sm text-white text-[10px] font-mono px-2 py-1 rounded-full border border-white/10">
-                                    IMG_{displayId} // RAW
-                                </div>
                                 <img
                                     src={item.image_path}
                                     alt={item.title}
                                     loading="lazy"
-                                    className="w-full h-auto object-cover filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
+                                    className="w-full h-auto object-cover filter grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
                                     onError={(e) => { e.target.src = 'https://placehold.co/600x800/0f172a/38bdf8?text=NO+SIGNAL'; }}
                                 />
+                                <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
                             </div>
 
                             {/* Content Section */}
-                            <div className="p-5 md:p-6">
-                                <div className="flex justify-between items-start mb-2">
-                                    <span className="font-mono text-[10px] text-slate-500 dark:text-slate-400 block">ITEM // {displayId}</span>
+                            <div className="p-5 md:p-6 flex flex-col flex-grow">
+                                <div className="flex flex-wrap gap-2 items-center mb-3">
                                     <span className="font-mono text-[10px] bg-slate-100 dark:bg-slate-800 px-2 py-0.5 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 rounded-full">
+                                        IMG // {displayId}
+                                    </span>
+                                    <span className="font-mono text-[10px] bg-va-dark dark:bg-va-accent/20 px-2.5 py-0.5 text-white dark:text-va-accent border border-transparent dark:border-va-accent/30 rounded-full font-bold">
                                         {item.category || "未分类"}
                                     </span>
                                 </div>
@@ -794,9 +786,9 @@
                                 <h3 className="font-display text-lg md:text-xl font-bold text-slate-800 dark:text-white mb-4 leading-tight group-hover:text-va-accent transition-colors">{item.title}</h3>
 
                                 {/* Glassmorphism Terminal */}
-                                <div className="bg-slate-100 dark:bg-black/40 text-slate-600 dark:text-slate-400 p-4 rounded-2xl text-xs font-mono relative overflow-hidden mb-4 backdrop-blur-md shadow-inner group-hover:bg-slate-200 dark:group-hover:bg-black/60 transition-colors border border-slate-200 dark:border-white/5">
-                                    <div className="absolute top-0 right-0 bg-slate-200 dark:bg-slate-800 text-[8px] px-2 py-0.5 text-slate-600 dark:text-va-accent rounded-bl-lg">PROMPT_EXEC</div>
-                                    <div className="max-h-24 overflow-y-auto pr-2 custom-scrollbar whitespace-pre-wrap leading-relaxed">
+                                <div className="bg-slate-100 dark:bg-black/50 text-slate-600 dark:text-slate-400 p-4 rounded-2xl text-xs font-mono relative overflow-hidden mb-4 backdrop-blur-md shadow-inner group-hover:bg-slate-200 dark:group-hover:bg-black/80 transition-colors border border-slate-200 dark:border-white/5 mt-auto">
+                                    <div className="absolute top-0 right-0 bg-slate-200 dark:bg-slate-800 text-[8px] px-2 py-0.5 text-slate-600 dark:text-va-accent rounded-bl-lg font-bold tracking-widest">PROMPT_EXEC</div>
+                                    <div className="max-h-24 overflow-y-auto pr-2 custom-scrollbar whitespace-pre-wrap leading-relaxed opacity-60 group-hover:opacity-100 transition-opacity duration-500">
                                         {item.prompt}
                                     </div>
                                 </div>
@@ -853,13 +845,13 @@
             if (!isOpen) return null;
 
             return (
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     className="fixed inset-0 z-[120] flex items-center justify-center p-4 md:p-8 bg-black/60 dark:bg-black/90 backdrop-blur-xl"
                 >
-                    <motion.div 
+                    <motion.div
                         initial={{ scale: 0.95, y: 20 }}
                         animate={{ scale: 1, y: 0 }}
                         className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-va-accent/30 w-full max-w-5xl h-auto max-h-[90vh] rounded-[2.5rem] overflow-hidden flex flex-col relative shadow-2xl"
@@ -891,14 +883,14 @@
                                     const heightPercent = Math.max((item.net_growth / maxGrowth) * 100, 4);
                                     const isHovered = hoverIdx === index;
                                     return (
-                                        <div 
-                                            key={index} 
+                                        <div
+                                            key={index}
                                             className="relative flex-1 group flex flex-col items-center h-full justify-end"
                                             onMouseEnter={() => setHoverIdx(index)}
                                             onMouseLeave={() => setHoverIdx(null)}
                                         >
                                             {/* Bar */}
-                                            <motion.div 
+                                            <motion.div
                                                 initial={{ height: 0 }}
                                                 animate={{ height: `${heightPercent}%` }}
                                                 transition={{ duration: 0.8, delay: index * 0.03, type: "spring" }}
@@ -909,19 +901,19 @@
                                                 {/* Tooltip */}
                                                 <AnimatePresence>
                                                     {isHovered && (
-                                                        <motion.div 
+                                                        <motion.div
                                                             initial={{ opacity: 0, y: 10, scale: 0.8 }}
                                                             animate={{ opacity: 1, y: -40, scale: 1 }}
                                                             exit={{ opacity: 0, y: 10, scale: 0.8 }}
                                                             className="absolute -top-2 left-1/2 -translate-x-1/2 z-30 bg-slate-800 text-white px-3 py-1.5 rounded-lg text-[10px] font-mono whitespace-nowrap shadow-xl border border-white/10"
                                                         >
-                                                            <span className="text-va-accent">{item.date}</span><br/>
+                                                            <span className="text-va-accent">{item.date}</span><br />
                                                             <span className="font-bold text-sm">+{item.net_growth}</span>
                                                         </motion.div>
                                                     )}
                                                 </AnimatePresence>
                                             </motion.div>
-                                            
+
                                             {/* X-Label */}
                                             <span className={`mt-3 text-[9px] font-mono transition-colors duration-300 transform -rotate-45 md:rotate-0
                                                 ${isHovered ? 'text-va-accent font-bold' : 'text-slate-400 dark:text-slate-500'}
@@ -940,12 +932,12 @@
                                 <p className="text-2xl md:text-4xl font-display text-slate-800 dark:text-white">{growthData.reduce((acc, curr) => acc + curr.new_followers, 0)}</p>
                                 <p className="text-[9px] md:text-[10px] font-mono text-slate-500 uppercase tracking-widest">New Subs</p>
                             </div>
-                             <div className="text-center border-r border-slate-200 dark:border-white/10">
+                            <div className="text-center border-r border-slate-200 dark:border-white/10">
                                 <p className="text-2xl md:text-4xl font-display text-va-gold">{growthData.reduce((acc, curr) => acc + curr.net_growth, 0)}</p>
                                 <p className="text-[9px] md:text-[10px] font-mono text-slate-500 uppercase tracking-widest">Net Growth</p>
                             </div>
-                             <div className="text-center">
-                                <p className="text-2xl md:text-4xl font-display text-va-accent">{growthData.length > 0 ? growthData[growthData.length-1].total_followers : 0}</p>
+                            <div className="text-center">
+                                <p className="text-2xl md:text-4xl font-display text-va-accent">{growthData.length > 0 ? growthData[growthData.length - 1].total_followers : 0}</p>
                                 <p className="text-[9px] md:text-[10px] font-mono text-slate-500 uppercase tracking-widest">Total Community</p>
                             </div>
                         </div>
@@ -956,9 +948,9 @@
 
         const PromotionBanner = () => (
             <div className="max-w-7xl mx-auto px-4 md:px-5 mt-16 mb-8">
-                <a 
-                    href="https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=pwy21djx" 
-                    target="_blank" 
+                <a
+                    href="https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=pwy21djx"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="block group relative overflow-hidden rounded-2xl border border-white/5 hover:border-va-accent/50 transition-all duration-300 shadow-2xl"
                 >
@@ -1051,9 +1043,9 @@
                                 exit={{ opacity: 0, scale: 0.8, y: 10 }}
                                 className="mb-4 bg-white dark:bg-slate-800 p-2 rounded-2xl shadow-2xl border border-va-dark/10 dark:border-white/10"
                             >
-                                <img 
-                                    src="./images/coffe.jpg" 
-                                    alt="Buy me a coffee" 
+                                <img
+                                    src="./images/coffe.jpg"
+                                    alt="Buy me a coffee"
                                     className="w-48 h-auto rounded-xl"
                                 />
                                 <div className="text-center mt-2 pb-1 text-xs font-mono text-va-dark/70 dark:text-slate-400">
@@ -1062,7 +1054,7 @@
                             </motion.div>
                         )}
                     </AnimatePresence>
-                    
+
                     <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
@@ -1108,7 +1100,7 @@
                 window.addEventListener('resize', checkMobile);
 
                 // Fetch asset data
-                fetch('./web_data.json')
+                fetch(`./web_data.json?t=${new Date().getTime()}`)
                     .then(res => res.json())
                     .then(jsonData => {
                         setData(jsonData);
@@ -1134,7 +1126,7 @@
                         }
                     })
                     .catch(err => console.error("Failed to load news", err));
-                
+
                 // Fetch WeChat data
                 fetch('./wechat_data.json')
                     .then(res => res.json())
@@ -1180,121 +1172,121 @@
                         </div>
 
                         <div className="relative z-10">
-                                                        <Header 
-                                                            totalCount={data.length.toString().padStart(2, '0')} 
-                                                            isDarkMode={isDarkMode} 
-                                                            toggleTheme={toggleTheme} 
-                                                            latestNews={latestNews}
-                                                            wechatData={wechatData}
-                                                            onOpenData={() => setIsDataOpen(true)}
-                                                        />
+                            <Header
+                                totalCount={data.length.toString().padStart(2, '0')}
+                                isDarkMode={isDarkMode}
+                                toggleTheme={toggleTheme}
+                                latestNews={latestNews}
+                                wechatData={wechatData}
+                                onOpenData={() => setIsDataOpen(true)}
+                            />
 
-                                                        <CoCreationWidget onOpen={() => setIsCoCreationOpen(true)} />
-                                                        
-                                                        <AnimatePresence>
-                                                            {isCoCreationOpen && (
-                                                                <CoCreationModal 
-                                                                    isOpen={isCoCreationOpen} 
-                                                                    onClose={() => setIsCoCreationOpen(false)} 
-                                                                />
-                                                            )}
-                                                        </AnimatePresence>
+                            <CoCreationWidget onOpen={() => setIsCoCreationOpen(true)} />
 
-                                                        <AnimatePresence>
-                                                            {isDataOpen && (
-                                                                <DataDashboard 
-                                                                    isOpen={isDataOpen} 
-                                                                    onClose={() => setIsDataOpen(false)} 
-                                                                />
-                                                            )}
-                                                        </AnimatePresence>
-                                                        
-                                                        <Toolbox isDarkMode={isDarkMode} />
-                                                        
-                                                                                    
-                                                        
-                                                                                    <FilterBar activeFilter={filter} setFilter={setFilter} categories={categories} />
-                                                        
-                                                        
-                                                        
-                                                                                                                                        <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
-                                                                                                                    
-                                                                                                                                            {loading ? (
-                                                                                                            
-                                                                                                                                                <div className="flex justify-center items-center h-64 font-mono text-va-accent animate-pulse">
-                                                                                                            
-                                                                                                                                                    数据流加载中 (INITIALIZING)...
-                                                                                                            
-                                                                                                                                                </div>
-                                                                                                            
-                                                                                                                                            ) : (
-                                                                                                                                                <>
-                                                                                                                                                    <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-                                                                                                                                                                                                                                                                                    <AnimatePresence mode="popLayout">
-                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                        {filteredData.slice(0, visibleCount).map((item, index) => (
-                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                            <Card 
-                                                                                                                                                                                                                                                                                                key={`${item.title}-${index}`} 
-                                                                                                                                                                                                                                                                                                item={item} 
-                                                                                                                                                                                                                                                                                                index={index} 
-                                                                                                                                                                                                                                                                                                isMobile={isMobile} 
-                                                                                                                                                                                                                                                                                                onEdit={openEditor}
-                                                                                                                                                                                                                                                                                            />
-                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                        ))}
-                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                    </AnimatePresence>
-                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                </div>
-                                                                                    
-                                                                                                                                                    {visibleCount < filteredData.length && (
-                                                                                                                                                        <div className="flex justify-center mt-12 mb-8">
-                                                                                                                                                            <button 
-                                                                                                                                                                onClick={() => setVisibleCount(prev => prev + 12)}
-                                                                                                                                                                className="group relative px-8 py-3 bg-va-card dark:bg-slate-800 border border-va-dark/10 dark:border-white/10 rounded-full font-mono text-xs font-bold text-va-dark dark:text-slate-300 tracking-widest hover:bg-va-dark hover:text-white dark:hover:bg-white dark:hover:text-va-dark transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-                                                                                                                                                            >
-                                                                                                                                                                <span className="flex items-center gap-2">
-                                                                                                                                                                    加载更多 // LOAD MORE [{filteredData.length - visibleCount}]
-                                                                                                                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                                                                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                                                                                                                                                                    </svg>
-                                                                                                                                                                </span>
-                                                                                                                                                            </button>
-                                                                                                                                                        </div>
-                                                                                                                                                    )}
-                                                                                                                                                </>
-                                                                                                                                            )}
-                                                                                                                                            
-                                                                                                                                        </main>                                                                                                                                                                                    
-                                                                                                                                                                                    <AnimatePresence>
-                                                                                                                                                                                        {editorOpen && (
-                                                                                                                                                                                            <PromptEditor 
-                                                                                                                                                                                                isOpen={editorOpen} 
-                                                                                                                                                                                                onClose={() => setEditorOpen(false)} 
-                                                                                                                                                                                                initialPrompt={editingPrompt}
-                                                                                                                                                                                                onSave={(newPrompt) => {
-                                                                                                                                                                                                    // For now, we just copy to clipboard and close
-                                                                                                                                                                                                    navigator.clipboard.writeText(newPrompt);
-                                                                                                                                                                                                    setEditorOpen(false);
-                                                                                                                                                                                                }}
-                                                                                                                                                                                            />
-                                                                                                                                                                                        )}
-                                                                                                                                                                                    </AnimatePresence>                                                                                    
-                                                                                                                        <PromotionBanner />
-                                                                                    
-                                                                                                                                                                                <Footer />                                                        
-                                                                                                                                                                                <BackToTopButton />
-                                                                                                                                                                                <CoffeeButton />
-                                                                                                                                                                                
-                                                                                                                                                                                                        </div>                                                        
-                                                                            </div>
-                                                        
-                                                                        </div>
-                                                        
-                                                                    );
-                                                        
-                                                                };
+                            <AnimatePresence>
+                                {isCoCreationOpen && (
+                                    <CoCreationModal
+                                        isOpen={isCoCreationOpen}
+                                        onClose={() => setIsCoCreationOpen(false)}
+                                    />
+                                )}
+                            </AnimatePresence>
+
+                            <AnimatePresence>
+                                {isDataOpen && (
+                                    <DataDashboard
+                                        isOpen={isDataOpen}
+                                        onClose={() => setIsDataOpen(false)}
+                                    />
+                                )}
+                            </AnimatePresence>
+
+                            <Toolbox isDarkMode={isDarkMode} />
+
+
+
+                            <FilterBar activeFilter={filter} setFilter={setFilter} categories={categories} />
+
+
+
+                            <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
+
+                                {loading ? (
+
+                                    <div className="flex justify-center items-center h-64 font-mono text-va-accent animate-pulse">
+
+                                        数据流加载中 (INITIALIZING)...
+
+                                    </div>
+
+                                ) : (
+                                    <>
+                                        <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+                                            <AnimatePresence mode="popLayout">
+
+                                                {filteredData.slice(0, visibleCount).map((item, index) => (
+
+                                                    <Card
+                                                        key={`${item.title}-${index}`}
+                                                        item={item}
+                                                        index={index}
+                                                        isMobile={isMobile}
+                                                        onEdit={openEditor}
+                                                    />
+
+                                                ))}
+
+                                            </AnimatePresence>
+
+                                        </div>
+
+                                        {visibleCount < filteredData.length && (
+                                            <div className="flex justify-center mt-12 mb-8">
+                                                <button
+                                                    onClick={() => setVisibleCount(prev => prev + 12)}
+                                                    className="group relative px-8 py-3 bg-va-card dark:bg-slate-800 border border-va-dark/10 dark:border-white/10 rounded-full font-mono text-xs font-bold text-va-dark dark:text-slate-300 tracking-widest hover:bg-va-dark hover:text-white dark:hover:bg-white dark:hover:text-va-dark transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                                                >
+                                                    <span className="flex items-center gap-2">
+                                                        加载更多 // LOAD MORE [{filteredData.length - visibleCount}]
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        )}
+                                    </>
+                                )}
+
+                            </main>
+                            <AnimatePresence>
+                                {editorOpen && (
+                                    <PromptEditor
+                                        isOpen={editorOpen}
+                                        onClose={() => setEditorOpen(false)}
+                                        initialPrompt={editingPrompt}
+                                        onSave={(newPrompt) => {
+                                            // For now, we just copy to clipboard and close
+                                            navigator.clipboard.writeText(newPrompt);
+                                            setEditorOpen(false);
+                                        }}
+                                    />
+                                )}
+                            </AnimatePresence>
+                            <PromotionBanner />
+
+                            <Footer />
+                            <BackToTopButton />
+                            <CoffeeButton />
+
+                        </div>
+                    </div>
+
+                </div>
+
+            );
+
+        };
 
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);

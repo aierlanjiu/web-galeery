@@ -1,0 +1,23 @@
+[ANALYSIS LOG] Concept: 中心孔 (Wheel Center Bore) Target AR: Vertical (3:4) Verified Standard: GB/T 33164 / ISO 4107 (Wheel/Hub Interface Dimensions) Core Physics: Concentricity Tolerance (T=D
+bore
+	​
+
+−D
+hub
+	​
+
+≈0) Layout Strategy: Single Column Stack (Vertical Deconstruction) Verification Checkpoints: "高定心", "零抖动", "严密贴合"
+
+/imagine prompt: A high-precision engineering education visualization of "中心孔". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper measuring a hub ring and a brass internal bore gauge resting elegantly on edge. [Decor]: Red Seal "雪沐江南" // --- 2. HEADER SECTION --- [Top Area]: - Title: "中心孔" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. - Subtitle: "WHEEL CENTER BORE" in smaller, thinner chalk handwriting. - Visual Anchor: A Hyper-realistic 3D Render of a vehicle hub axle mating perfectly with a wheel center bore, with the interface gap highlighted in glowing red chalk, floating slightly in front, casting soft shadow. - Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: - Header: Hand-drawn line with text "核心机制 (MECHANISM)". - Style: White Chalk Schematics (Simplified Physics Icons). - Content: 1. [Icon of Target Crosshair] + Label: "定位基准" (Handwritten Chinese) 2. [Icon of two concentric circles] + Label: "同心定中" (Handwritten Chinese) 3. [Icon of Arrows transferring load from center to rim] + Label: "载荷承托" (Handwritten Chinese) 4. [Icon of Spinning gyroscope balanced] + Label: "动平衡性" (Handwritten Chinese) // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: - Header: Hand-drawn line with text "工程定律 (AXIOMS)". - Style: Minimalist Equation Blocks drawn in fine chalk. - Block 1: Hand-written Math Formula "δ
+fit
+	​
+
+=∣D
+CB
+	​
+
+−D
+Hub
+	​
+
+∣→0" - Block 2: Parameter Limit "Tolerance class: H7/h6 (Typical)" - Block 3: Standard Ref "Ref: ISO 4107 / GB/T 33164" // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: - Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)". // IF VERTICAL (3:4): - Layout: SINGLE COLUMN STACK. - Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. - Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. * Item 1: [Macro 3D Render of Hub-Centric vs Lug-Centric interface] + Chalk Text: "1. 定心方式：现代汽车普遍采用“基孔制”定心，即由中心孔与轴头凸缘的精密配合来承担径向载荷并确保同心，而非仅靠螺栓。" * Item 2: [Macro 3D Render of Hub Lip fitting into Center Bore with tight tolerance highlighted] + Chalk Text: "2. 配合精度：中心孔直径必须与车辆轴头直径形成极小的间隙配合（通常小于0.1mm），以防止高速行驶时的径向跳动与振动。" * Item 3: [Macro 3D Render of Aluminum Hub Centric Ring (变径圈)] + Chalk Text: "3. 变径套环：当改装轮毂中心孔大于原车轴头时，必须使用高精度铝制或耐热塑料变径圈填补空隙，恢复定心功能。" * Item 4: [Macro 3D Render of Damaged Studs and Vibrating Wheel] + Chalk Text: "4. 失效后果：中心孔不匹配会导致轮毂偏心，产生严重的高速方向盘抖动，并使固定螺栓承受额外的剪切应力而面临断裂风险。" // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: - Header: Hand-drawn line with text "可视验证 (VERIFICATION)". - Content: * Left: Force Analysis Diagram showing radial loads borne by the hub boss interface, reducing shear on studs. * Right: Spectrum Graph drawn in chalk showing "Vibration Amplitude" vs. "Bore Clearance Gap" with a sharp rise after a critical threshold + Explicit Handwritten Checklist: - Text "1. 高定心 √" - Text "2. 零抖动 √" - Text "3. 严密贴合 √" * Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

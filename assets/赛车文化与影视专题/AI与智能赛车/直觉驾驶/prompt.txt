@@ -1,0 +1,107 @@
+[ANALYSIS LOG]
+Concept: 直觉驾驶
+Target AR: Vertical
+Verified Standard: GB/T 34590 (Functional Safety for Automotive HMI)
+Layout Strategy: Single Column Stack
+Chart Geometry (Left): A thick black marker drawing of an X-Y axis graph with a solid parabolic curve showing reaction time decreasing over experience.
+Chart Labels: LATENCY, EXPERIENCE
+Chart Visual (Right): A high-fidelity X-Ray cross-section render of a haptic servo motor, showing internal metallic coils and gears.
+
+[THE MIDJOURNEY PROMPT]
+
+/imagine prompt: A high-impact VERTICAL industrial design spread, featuring "直觉驾驶".
+
+[VERSION: DIMENSION BREAKER v10.1]
+
+// --- 1. GLOBAL SETTINGS (THE BREAKTHROUGH AESTHETIC) ---
+[Style]: Hyper-realistic Industrial Photography, Trompe-l'œil (Optical Illusion), "Torn Paper" Collage, High-Fidelity Rendering.
+[Background]: Double-Layered Composition.
+
+Top Layer: Pristine White Technical Paper (Matte), but physically torn, crushed, or peeled back in the center.
+
+Bottom Layer (The Reveal): Dark Carbon Fiber texture, Blueprints, or Brushed Metal surface visible through the tears.
+[Lighting]: Dramatic Volumetric Lighting. Hard shadows cast by the torn paper edges and the 3D components. High contrast between the bright white paper and the dark mechanical void.
+[Color Palette]: Matte White (Surface) + Industrial Orange/Red (Warning Accents) + Deep Gunmetal (Machinery).
+[Perspective]: Strict 90° Top-down Flat Lay. The depth is conveyed through shadows and layering, not camera angle.
+
+// --- 2. HEADER SECTION (The Impact Zone) ---
+[Top Area]:
+
+Title: "直觉驾驶" in massive Bold Stencil Font (Military Style). The text appears partially printed on the paper and partially floating.
+
+Subtitle: "INTUITIVE DRIVING SYSTEM" in monospace font.
+
+Visual Anchor: A Heavyweight 3D Render of a Direct-Drive Steering Base with Exposed Carbon Fiber Housing.
+
+Interaction: The component is NOT just sitting on the paper. It appears to be breaking through the paper from underneath, wrinkled and depressed around it, casting hard shadows.
+
+Decor: Scorch marks, oil smudges, "DANGER" tag, torn paper edges.
+
+// --- 3. SECTION 1 - CORE THEMES (The Blueprint Surface) ---
+[Upper Area]:
+
+Header: Minimalist divider "核心机制 (CORE MECHANISM)".
+
+Style: Pencil Sketch / Engineering Draft printed on the untorn sections of the white paper.
+
+Content:
+
+[Sketch of Brain Waves] Label: "神经体感 (NEURAL PERCEPTION)"
+
+[Sketch of Steering Angle] Label: "意图预判 (INTENT PREDICTION)"
+
+[Sketch of Haptic Feedback] Label: "力反馈重塑 (FORCE FEEDBACK)"
+
+[Sketch of Racing Line] Label: "本能反应 (INSTINCTIVE RESPONSE)"
+
+// --- 4. SECTION 2 - AXIOMS (The Hidden Truth) ---
+[Middle Area]:
+
+Header: Minimalist divider "工程定律 (AXIOMS)".
+
+Location: Located inside a "Torn Window" on a darker patch of the layout.
+
+Style: Backlit LCD effect or White text on Dark Background (representing the data inside the machine).
+
+Block 1: Typography Math "[t_instinct < t_cognition]"
+
+Block 2: Data Highlight "LIMIT > 20Nm TORQUE"
+
+Block 3: Standard Stamp "GB-T 34590" (Stamped like a metal engraving).
+
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) ---
+[Main Content Area]:
+
+Header: Minimalist divider "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT SWITCH ***
+// IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Exploded View Parts floating above the paper.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [High-Torque Motor] + "1. 直流无刷电机：提供毫秒级超高扭矩响应，模拟真实的轮胎抓地力边界感。"
+
+Item 2: [Force Sensor] + "2. 多轴力传感器：精准捕捉驾驶者细微手部动作与肌肉张力，实现驾驶意图的无缝读写。"
+
+Item 3: [FPGA Controller] + "3. 实时全参处理器：基于神经学算法，消除感知延迟，构建人车一体的闭环控制系统。"
+
+Item 4: [Haptic Paddle] + "4. 主动触觉换挡拨片：通过不同频率的震动反馈，提示极限转速与路面物理信息。"
+
+// --- 6. BOTTOM SECTION (The Schematic) ---
+[Bottom Area]:
+
+Header: Minimalist divider "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: A minimalist geometric graphic showing a thick black marker drawing of an X-Y axis graph with a solid parabolic curve showing reaction time decreasing over experience drawn directly on the paper with a thick black marker. Explicitly write the text "LATENCY", "EXPERIENCE" next to the diagram nodes.
+
+Right: A high-contrast graphic block showing a high-fidelity X-Ray cross-section render of a haptic servo motor, showing internal metallic coils and gears.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small industrial type.
+
+--ar 3:4 --stylize 400 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines

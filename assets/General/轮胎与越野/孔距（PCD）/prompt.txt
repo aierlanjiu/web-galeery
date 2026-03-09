@@ -1,0 +1,23 @@
+[ANALYSIS LOG] Concept: 孔距（PCD）(Pitch Circle Diameter) Target AR: Vertical (3:4) Verified Standard: ISO 4107 (Road vehicles — Wheels — Dimensional characteristics) Core Physics: Geometric definition PCD=
+sin(180
+∘
+/N)
+d
+adjacent
+	​
+
+	​
+
+ (General formula for N holes) Layout Strategy: Single Column Stack (Vertical Deconstruction) Verification Checkpoints: "高匹配", "零误差", "抗剪切"
+
+/imagine prompt: A high-precision engineering education visualization of "孔距（PCD）". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南" // --- 2. HEADER SECTION --- [Top Area]: - Title: "孔距（PCD）" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. - Subtitle: "PITCH CIRCLE DIAMETER" in smaller, thinner chalk handwriting. - Visual Anchor: A Hyper-realistic 3D Render of a automotive wheel hub flange with 5 studs, a glowing red chalk circle passing precisely through the center of all studs, casting soft shadow. - Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: - Header: Hand-drawn line with text "核心机制 (MECHANISM)". - Style: White Chalk Schematics (Simplified Physics Icons). - Content: 1. [Icon of a Compass drawing a circle] + Label: "几何基准" (Handwritten Chinese) 2. [Icon of different bolt patterns (4, 5, 6 dots)] + Label: "多孔分布" (Handwritten Chinese) 3. [Icon of arrows flowing from hub to wheel rim] + Label: "载荷传递" (Handwritten Chinese) 4. [Icon of a wrench tightening a bolt] + Label: "安装制式" (Handwritten Chinese) // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: - Header: Hand-drawn line with text "工程定律 (AXIOMS)". - Style: Minimalist Equation Blocks drawn in fine chalk. - Block 1: Hand-written Math Formula "PCD
+odd
+	​
+
+=d
+adj
+	​
+
+/sin(180
+∘
+/N)" - Block 2: Parameter Limit "Tolerance →0.1mm" - Block 3: Standard Ref "Ref: ISO 4107 / SAE J694" // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: - Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)". // IF VERTICAL (3:4): - Layout: SINGLE COLUMN STACK. - Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. - Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. * Item 1: [Macro 3D Render of a 4-Lug Hub (e.g., 4x100) with calipers measuring opposite studs] + Chalk Text: "1. 偶数孔测量 (4H/6H/8H)：对于偶数螺栓孔位，PCD值直接等于相对两个孔中心之间的直线距离。" * Item 2: [Macro 3D Render of a 5-Lug Hub (e.g., 5x114.3) with triangulation lines drawn in chalk] + Chalk Text: "2. 奇数孔计算 (3H/5H)：奇数孔位无法直接测量对角距离，需测量相邻孔距并结合三角函数公式计算得出精确直径。" * Item 3: [Macro 3D Render of Wheel rim holes mating with hub studs, cross-section view] + Chalk Text: "3. 匹配验证：轮毂与轴头的PCD数据必须完全一致。任何微小偏差都会导致无法安装或强制安装后的螺栓应力集中。" * Item 4: [Macro 3D Render of a single wheel stud under shear stress, highlighted in red] + Chalk Text: "4. 抗剪切功能：正确的PCD确保所有螺栓均匀分担车辆加速和制动时产生的巨大剪切力，保障连接安全。" // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: - Header: Hand-drawn line with text "可视验证 (VERIFICATION)". - Content: * Left: Logic Flowchart with fine white chalk vectors showing "Measure -> Calculate -> Verify Match -> Install". * Right: Spectrum Graph drawn in chalk showing "Fitment Capability" vs. "PCD Deviation" with a sharp drop-off + Explicit Handwritten Checklist: - Text "1. 高匹配 √" (Ensure explicit Chinese text rendering) - Text "2. 零误差 √" (Ensure explicit Chinese text rendering) - Text "3. 抗剪切 √" (Ensure explicit Chinese text rendering) * Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

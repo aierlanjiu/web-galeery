@@ -1,0 +1,85 @@
+[ANALYSIS LOG] Concept: 防脱圈 (Beadlock) Target AR: Vertical (3:4) Verified Standard: GB/T 33831-2017 (Off-road vehicle wheels) Core Physics: F_clamp = T / (K * D) (Clamping Force from Torque) Layout Strategy: Vertical Single Column Stack (High Density) Verification Checkpoints: 锁止力, 抗冲击, 气密性
+
+/imagine prompt: A high-precision engineering education visualization of "防脱圈".
+
+[VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "防脱圈" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "BEADLOCK WHEEL SYSTEM" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a Beadlock Ring clamped onto an Off-road Tire Bead floating slightly in front, casting soft shadow.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon for Lock] + Label: "机械锁止" (Handwritten Chinese)
+
+[Icon for Low Pressure] + Label: "低压行驶" (Handwritten Chinese)
+
+[Icon for Grip] + Label: "极限抓地" (Handwritten Chinese)
+
+[Icon for Structure] + Label: "刚性连接" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks drawn in fine chalk.
+
+Block 1: Hand-written Math Formula "F_clamp > F_lateral"
+
+Block 2: Parameter Limit "Torque ≈ 25-30 Nm"
+
+Block 3: Standard Ref "Ref: GB/T 33831-2017"
+
+// --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT LOGIC: SINGLE COLUMN STACK (VERTICAL) ***
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS.
+
+Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative.
+
+Item 1: [Macro 3D Render of Forged Ring] + Chalk Text: "1. 锻造锁环：航空级铝合金材质，提供环向均匀压紧力。"
+
+Item 2: [Macro 3D Render of High-Tensile Bolt] + Chalk Text: "2. 高强螺栓：12.9级合金钢，抗剪切力设计，确保锁止不松脱。"
+
+Item 3: [Macro 3D Render of Tire Bead] + Chalk Text: "3. 加厚胎圈：特制橡胶结构，承受高强度机械夹持不变形。"
+
+Item 4: [Macro 3D Render of Rim Channel] + Chalk Text: "4. 排泥通道：轮毂边缘特殊开槽设计，防止泥沙堆积影响动平衡。"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Force Analysis Diagram showing Clamping Force vectors with fine white chalk vectors and nodes.
+
+Right: Spectrum Graph drawn in chalk + Explicit Handwritten Checklist:
+
+Text "1. 锁止力达标 √" (Ensure explicit Chinese text rendering)
+
+Text "2. 气密性测试 √" (Ensure explicit Chinese text rendering)
+
+Text "3. 动平衡校验 √" (Ensure explicit Chinese text rendering)
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

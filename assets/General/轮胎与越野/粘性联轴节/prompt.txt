@@ -1,0 +1,85 @@
+[ANALYSIS LOG] Concept: 粘性联轴节 (Viscous Coupling) Target AR: Vertical (3:4) Verified Standard: SAE J2359 Core Physics: T ∝ μ(T_emp) ⋅ Δω (Torque depends on viscosity and speed differential) Layout Strategy: Single Column Stack (Vertical) Verification Checkpoints: 温控性, 柔性传动, 自适应
+
+/imagine prompt: A high-precision engineering education visualization of "粘性联轴节".
+
+[VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "粘性联轴节" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "VISCOUS COUPLING UNIT (VCU)" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a cutaway Viscous Coupling Unit showing alternating inner and outer slotted plates submerged in fluid sealed within a metal housing, floating slightly in front, casting soft shadow.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon for two shafts with different rotation arrows] + Label: "转速差感应" (Handwritten Chinese)
+
+[Icon for fluid shearing between parallel plates] + Label: "硅油剪切力" (Handwritten Chinese)
+
+[Icon for thermometer and expanding volume] + Label: "热膨胀自锁" (Handwritten Chinese)
+
+[Icon for smooth wave connecting gears] + Label: "柔性传动" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks drawn in fine chalk.
+
+Block 1: Hand-written Math Formula "T_transfer ∝ μ(T_emp) · (ω_in - ω_out)"
+
+Block 2: Parameter Limit "Δω_trigger ≈ 50-150 RPM"
+
+Block 3: Standard Ref "Ref: SAE J2359"
+
+// --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT LOGIC: SINGLE COLUMN STACK (VERTICAL) ***
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS.
+
+Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative.
+
+Item 1: [Macro 3D Render of Sealed Housing Cutaway] + Chalk Text: "1. 密封壳体总成：高强度金属容器，内部填充特制高粘度硅油，需具备极佳的高温密封性能。"
+
+Item 2: [Macro 3D Render of Outer Plate (with tabs)] + Chalk Text: "2. 主动片（外板）：与输入壳体连接，表面带有特殊槽口或孔洞，用于切割硅油产生粘性阻力。"
+
+Item 3: [Macro 3D Render of Inner Plate (with splines)] + Chalk Text: "3. 被动片（内板）：通过中心花键与输出轴连接，与主动片交替紧密排列，间隙极小。"
+
+Item 4: [Macro 3D Render of Viscous Fluid Droplet/Flow] + Chalk Text: "4. 高粘度硅油介质：特殊非牛顿流体，受高剪切或高温影响粘度急剧上升，实现“驼峰”锁止效应。"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Torque Transfer vs. Speed Difference Diagram, showing a progressive curve that steepens sharply at the "Hump Mode" point, drawn with fine white chalk vectors.
+
+Right: Spectrum Graph drawn in chalk showing Viscosity vs. Temperature curve + Explicit Handwritten Checklist:
+
+Text "1. 温控特性验证 √" (Ensure explicit Chinese text rendering)
+
+Text "2. 剪切力传递测试 √" (Ensure explicit Chinese text rendering)
+
+Text "3. 密封耐久性达标 √" (Ensure explicit Chinese text rendering)
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

@@ -1,0 +1,72 @@
+/imagine prompt:A high-quality vertical industrial design magazine spread, featuring "DOHC/SOHC".
+[VERSION: TITANIUM PAPER 9.1]
+// --- 1. GLOBAL SETTINGS (THE PAPER AESTHETIC) ---
+[Style]: High-end Editorial Photography, Mixed Reality (2D Paper vs 3D Metal), "Kinfolk" meets "Braun Design".
+[Background]: Full-Frame High-texture Matte Art Paper (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper IS the background.
+[Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper.
+[Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts).
+[Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper content.
+// --- 2. HEADER SECTION (The Title Block) ---
+[Top Area]:
+
+Title: "DOHC/SOHC" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "OVERHEAD CAMSHAFT CONFIGURATIONS" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of a split automotive cylinder head. The left half shows a Single Overhead Camshaft (SOHC) with complex rocker arms, and the right half shows Double Overhead Camshafts (DOHC) with direct bucket tappets. Both are polished chrome, sitting physically ON the paper, casting a hard shadow over the title.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper.
+// --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) ---
+[Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper.
+
+Content:
+    1. [Ink Sketch of Single Cam with Rockers] Label: "单轴驱动 (SOHC Drive)"
+    2. [Ink Sketch of Dual Independent Cams] Label: "双轴独立 (DOHC Independent)"
+    3. [Ink Sketch of Complex Rocker Arm Assembly] Label: "摇臂传动 (Rocker Actuation)"
+    4. [Ink Sketch of Direct Tappet Actuation] Label: "直接驱动 (Direct Bucket)"
+    5. [Ink Sketch of Valve Included Angle optimized for DOHC] Label: "气门夹角 (Valve Angle)"
+// --- 4. SECTION 2 - AXIOMS (The Data Blocks) ---
+[Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: Vertical Stack.
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper.
+
+Block 1: Typography Math "Area_DOHC > Area_SOHC (Total Curtain Area)"
+
+Block 2: Data Highlight "高转速极限 > 7000 RPM (Typical DOHC)"
+
+Block 3: Standard Stamp "执行标准 GB/T 18297-2001" (Look like a red/blue approval stamp).
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - UNCHANGED LOGIC) ---
+[Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)".
+// *** ADAPTIVE LAYOUT SWITCH ***
+// IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+    * Item 1: [3D Render of SOHC Assembly with Rockers] + "1. SOHC (单顶置凸轮轴)：仅用一根凸轮轴通过摇臂同时控制进排气门，结构相对紧凑简单，低扭表现较好，但限制了高转速下的气门精确控制。"
+    * Item 2: [3D Render of DOHC Dual Camshaft Pair] + "2. DOHC (双顶置凸轮轴)：采用两根独立的凸轮轴分别控制进气和排气，允许更大的气门重叠角和更高的气门升程，显著提升高转速进气效率。"
+    * Item 3: [3D Render of DOHC Cylinder Head Cross-section with central spark plug] + "3. 燃烧室优化：DOHC结构易于实现中央火花塞布置和更优的彭透式（Pentroof）燃烧室形状，优化燃烧效率，是高性能发动机的首选。"
+    * Item 4: [3D Render of Dual VVT Phasers on DOHC cams] + "4. 独立可变正时：DOHC架构可以轻松在进气和排气侧分别独立实现可变气门正时（VVT），在全转速范围内平衡动力与油耗。"
+// --- 6. BOTTOM SECTION (The Schematic) ---
+[Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+    * Left: Logic Flowchart (Hand-drawn pencil style schematic connecting nodes): Split paths showing "Crankshaft -> Single Cam -> Intake&Exhaust Rockers" vs "Crankshaft -> Intake Cam & Exhaust Cam (Independent)".
+    * Right: [Volumetric Efficiency vs RPM Graph printed on paper showing DOHC curve higher at top end] + 3 [Translucent Tracing paper overlays] showing X-Ray details of airflow paths in SOHC vs DOHC heads.
+    * Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font.
+--ar 3:4 --stylize 350 --v 6.1
+--no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper texture, low resolution diagrams

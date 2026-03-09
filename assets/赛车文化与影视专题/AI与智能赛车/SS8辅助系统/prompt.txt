@@ -1,0 +1,91 @@
+/imagine prompt: A high-impact vertical industrial design spread, featuring "SS8辅助系统".
+
+[VERSION: HOLO-FLUX v10.0]
+
+// --- 1. GLOBAL SETTINGS (THE HOLO AESTHETIC) ---
+
+[Style]: Acid Graphics, Cyber-Industrial, Y2K Futurism, High-fidelity Product Photography.
+[Background]: Full-Frame Holographic Silver Foil Paper (Iridescent Texture). The paper surface reflects a prismatic rainbow spectrum (Pink/Cyan/Silver) under the light.
+[Lighting]: High-Contrast Studio Strobe. Sharp, hard shadows. The light creates "Spectral Dispersion" (rainbow flares) on the holographic paper.
+[Color Palette]: Metallic Silver (Background) + Deep Black (Text) + Acid Green (#CCFF00) or Electric Purple (Highlights/Data).
+[Perspective]: Strict 90° Top-down Flat Lay. Zero distortion, perfect alignment.
+
+// --- 2. HEADER SECTION (The Visual Hook) ---
+
+[Top Area]:
+
+Title: "SS8辅助系统" in massive Heavy Bold Industrial Sans-Serif, printed in Reflective Chrome Ink.
+
+Subtitle: "SS8 AUXILIARY SYSTEM" in pixelated or monospace font (Acid Green).
+
+Visual Anchor: A Chrome-Plated 3D Render of a Gyroscopic IMU Sensor Unit sitting on the holographic paper. It reflects the iridescent background.
+
+Decor: "FIG 10.0", QR Code Stamp, Caution Tape Graphics, Glitch artifact details.
+
+// --- 3. SECTION 1 - CORE THEMES (The Laser Etchings) ---
+
+[Upper Area]:
+
+Header: Thick black bar with inverted text "核心机制 (CORE MECHANISM)".
+
+Style: Vector Wireframe Graphics (Neon Green lines) printed directly onto the silver paper.
+
+Content:
+
+[Targeting Reticle Icon] Label: "动态感知"
+
+[Curved Arrow Icon] Label: "偏航控制"
+
+[Gear Icon] Label: "扭矩矢量"
+
+[Speedometer Icon] Label: "极速补偿"
+
+// --- 4. SECTION 2 - AXIOMS (The Data Glitch) ---
+
+[Middle Area]:
+
+Header: Thick black bar with inverted text "工程定律 (AXIOMS)".
+
+Layout: Vertical Stack.
+
+Style: "Error Message" aesthetic blocks. Black boxes with Acid Green text.
+
+Block 1: Typography Math "M_z = I_z * d(ω)/dt"
+
+Block 2: Data Highlight "THRESHOLD < 0.05ms" (in LED Dot Matrix font).
+
+Block 3: Standard Stamp "GB/T-34590" (stamped in Neon Red ink).
+
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) ---
+
+[Main Content Area]:
+
+Header: Thick black bar with inverted text "深度解构 (DECONSTRUCTION)".
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Chrome 3D Parts + High-Contrast Typography. Text must be pure black on silver for maximum readability.
+
+Item 1: [Real Component IMU] + "1. 惯性测量单元：高频采集车辆三轴加速度与横摆角速度，构建实时动态模型。"
+
+Item 2: [Real Component ECU] + "2. 中央运算模块：基于底层逻辑算法，毫秒级研判车辆失控临界点与滑动轨迹。"
+
+Item 3: [Real Component Pump] + "3. 主动液压泵：瞬时建立高压制动回路，提供极速响应的独立轮端干预力量。"
+
+Item 4: [Real Component Differential] + "4. 矢量差速器：动态分配左右驱动轮扭矩，通过物理锁定修正车身过弯偏航姿态。"
+
+// --- 6. BOTTOM SECTION (The Verification) ---
+
+[Bottom Area]:
+
+Header: Thick black bar with inverted text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: A minimalist geometric graphic showing a 2D geometric diagram made of right-angled intersecting Acid Green lines resembling circuit board traces, connecting 3 solid black squares. Explicitly write the text "IN" and "OUT" next to the diagram nodes.
+
+Right: A high-contrast graphic block showing a rectangular block with a magenta-to-cyan color gradient representing a high-speed G-force telemetry scan.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in Barcode/Data-strip format.
+
+--ar 3:4 --stylize 500 --v 6.1 --no low resolution, blurry text, wooden table, organic textures, soft lighting, warm tones, vintage paper, rustic style, messy, cluttered, illegible text, distorted faces, floating unconnected arrows, unlabelled graph axes, illogical math, mirrored letters, double text

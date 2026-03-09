@@ -1,0 +1,85 @@
+[ANALYSIS LOG] Concept: 托森差速器 (Torsen Differential) Target AR: Vertical (3:4) Verified Standard: SAE J756 (Limited Slip Differential Performance) Core Physics: Torque Bias Ratio formula: T_high = TBR * T_low Layout Strategy: Single Column Stack (Vertical) Verification Checkpoints: 扭矩感应, 纯机械, 自锁止
+
+/imagine prompt: A high-precision engineering education visualization of "托森差速器".
+
+[VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "托森差速器" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "TORSEN DIFFERENTIAL (TORQUE SENSING)" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a cutaway Torsen Type-A differential showing the complex internal worm gears and worm wheels, floating slightly in front, casting soft shadow.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon for varying arrow sizes showing torque split] + Label: "扭矩感应" (Handwritten Chinese)
+
+[Icon for Worm Gear meshing with Worm Wheel] + Label: "蜗轮蜗杆" (Handwritten Chinese)
+
+[Icon for Gears without electronics] + Label: "纯机械式" (Handwritten Chinese)
+
+[Icon for Locked Padlock icon with friction lines] + Label: "摩擦自锁" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks drawn in fine chalk.
+
+Block 1: Hand-written Math Formula "T_high = TBR × T_low"
+
+Block 2: Parameter Limit "TBR Range ≈ 2.5:1 to 5:1"
+
+Block 3: Standard Ref "Ref: SAE J756"
+
+// --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT LOGIC: SINGLE COLUMN STACK (VERTICAL) ***
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS.
+
+Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative.
+
+Item 1: [Macro 3D Render of Differential Case showing internal gear mounts] + Chalk Text: "1. 差速器壳体：承载内部行星蜗杆组，接受主减速器输入扭矩并传递给行星架。"
+
+Item 2: [Macro 3D Render of Planet Worm Gears (Invex Gearing)] + Chalk Text: "2. 行星蜗杆：在差速时自转；在扭矩分配时，利用蜗杆传动的不可逆性产生内摩擦力。"
+
+Item 3: [Macro 3D Render of Side Worm Wheels connecting to axle shafts] + Chalk Text: "3. 半轴蜗轮：连接左右半轴。与行星蜗杆啮合，其螺旋角设计是产生摩擦互锁的关键。"
+
+Item 4: [Macro 3D Render of Thrust Washers/Friction Plates] + Chalk Text: "4. 摩擦推力垫片：位于齿轮端面，在轴向力作用下增加系统总摩擦，提升锁止系数。"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Torque Flow Diagram showing unequal bias arrows going to wheels with different traction showing torque transfer.
+
+Right: Spectrum Graph drawn in chalk showing "Bias Ratio vs. Wheel Slip" + Explicit Handwritten Checklist:
+
+Text "1. 扭矩自动分配 √" (Ensure explicit Chinese text rendering)
+
+Text "2. 无电子介入响应 √" (Ensure explicit Chinese text rendering)
+
+Text "3. 机械自锁有效 √" (Ensure explicit Chinese text rendering)
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

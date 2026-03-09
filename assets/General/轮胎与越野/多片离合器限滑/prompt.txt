@@ -1,0 +1,85 @@
+[ANALYSIS LOG] Concept: 多片离合器限滑 (Multi-plate Clutch Limited Slip Differential) Target AR: Vertical (3:4) Verified Standard: QC/T 533-202X (Automotive drive axle assembly) Core Physics: T_f = N ⋅ μ ⋅ F_n ⋅ R_eff (Total Friction Torque Equation) Layout Strategy: Single Column Stack (Vertical) Verification Checkpoints: 毫秒级, 高精度, 抗热衰
+
+/imagine prompt: A high-precision engineering education visualization of "多片离合器限滑".
+
+[VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "多片离合器限滑" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "MULTI-PLATE CLUTCH LSD SYSTEM" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a cutaway limited-slip differential showing the interleaved multi-plate clutch pack compressed by a hydraulic piston actuator, floating slightly in front, casting soft shadow.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon for ECU chip with signals] + Label: "主动电控" (Handwritten Chinese)
+
+[Icon for interleaving plates pressing] + Label: "摩擦传动" (Handwritten Chinese)
+
+[Icon for variable torque arrows between wheels] + Label: "动态分配" (Handwritten Chinese)
+
+[Icon for stopwatch with "ms"] + Label: "毫秒响应" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks drawn in fine chalk.
+
+Block 1: Hand-written Math Formula "T_LSD = N · μ · F_axial · R_mean"
+
+Block 2: Parameter Limit "Response < 100ms"
+
+Block 3: Standard Ref "Ref: QC/T 533-202X"
+
+// --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT LOGIC: SINGLE COLUMN STACK (VERTICAL) ***
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS.
+
+Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative.
+
+Item 1: [Macro 3D Render of Friction Pack (Steel & Friction Plates)] + Chalk Text: "1. 摩擦片组：由交替排列的钢片（连接壳体）和摩擦片（连接半轴）组成，是承载与传递扭矩的核心部件。"
+
+Item 2: [Macro 3D Render of Hydraulic Piston Actuator] + Chalk Text: "2. 执行活塞：接受ECU指令，建立精确的轴向压力压紧摩擦片组，实现可变的锁止系数。"
+
+Item 3: [Macro 3D Render of Differential Housing with Oil Channels] + Chalk Text: "3. 强化壳体：集成高压油路通道的高强度铸造壳体，承受内部压力与外部机械应力。"
+
+Item 4: [Macro 3D Render of Return Spring Mechanism] + Chalk Text: "4. 回位机构：在控制压力撤销后迅速分离摩擦片，确保无寄生扭矩，降低系统能耗。"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Logic Flowchart diagram with fine white chalk vectors: Sensors -> ECU Calculation -> Hydraulic Pump -> Actuator Piston -> Clutch compression -> Torque Vectoring.
+
+Right: Spectrum Graph drawn in chalk showing "Clamping Force vs. Torque Transfer" (Linear slope up to saturation point) + Explicit Handwritten Checklist:
+
+Text "1. 毫秒级响应达成 √" (Ensure explicit Chinese text rendering)
+
+Text "2. 扭矩控制精度高 √" (Ensure explicit Chinese text rendering)
+
+Text "3. 耐高温摩擦材料 √" (Ensure explicit Chinese text rendering)
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

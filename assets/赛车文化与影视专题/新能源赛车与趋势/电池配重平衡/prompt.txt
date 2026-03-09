@@ -1,0 +1,27 @@
+[ANALYSIS LOG]
+Concept: 电池配重平衡
+Target AR: Vertical
+Verified Standard: GB 38031-2020
+Layout Strategy: Single Column Stack
+Chart Geometry (Left): A rectangle representing a car chassis plan view, divided into four quadrants with small circular nodes representing wheel loads.
+Chart Labels: FR, RR
+Chart Visual (Right): A minimalist technical diagram of a Formula E style car suspension rocker arm with a strain gauge texture applied to it, printed in Prussian Blue ink.
+
+/imagine prompt: A high-quality vertical industrial design magazine spread, featuring "电池配重平衡". [VERSION: TITANIUM paper-textured background 9.1] // --- 1. GLOBAL SETTINGS (THE paper-textured background AESTHETIC) --- [Style]: High-end Editorial Photography, Mixed Reality (2D paper-textured background vs 3D Metal), "Kinfolk" meets "Braun Design". [Background]: Full-Frame High-texture Matte Art paper-textured background (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper-textured background IS the background. [Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper-textured background. [Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts). [Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper-textured background content. // --- 2. HEADER SECTION (The Title Block) --- [Top Area]: - Title: "电池配重平衡" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink. - Subtitle: "BATTERY BALLAST BALANCE" in elegant Serif font (Prussian Blue). - Visual Anchor: A Hyper-realistic 3D Render of a modular racing battery pack with exposed carbon fiber casing and bright orange high-voltage connectors sitting physically ON the paper-textured background, casting a hard shadow over the title. - Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper-textured background. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) --- [Upper Area]: - Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)". - Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper-textured background. - Content: 1. [Ink Sketch of a car chassis with a low central block] Label: "低重心化" 2. [Ink Sketch of a top-down view of a car rotating around its center] Label: "极惯性矩优化" 3. [Ink Sketch of four corner scales under wheels] Label: "四轮负荷平衡" 4. [Ink Sketch of arrows shifting modular battery blocks] Label: "前后配重调节" 5. [Ink Sketch of a dynamic force vector arrow through a chassis] Label: "动态载荷转移控制" // --- 4. SECTION 2 - AXIOMS (The Data Blocks) --- [Middle Area]: - Header: Minimalist line divider with text "工程定律 (AXIOMS)". - Layout: Vertical Stack. - Style: "Post-it" style highlighted blocks or shaded grey areas on the paper-textured background. - Block 1: Typography Math "W
+f
+	​
+
+=
+L
+W⋅b
+	​
+
++
+L
+h⋅F
+a
+	​
+
+	​
+
+" - Block 2: Data Highlight "目标侧倾角 < 1.5°/g" - Block 3: Standard Stamp "执行标准 GB 38031-2020" // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) --- [Main Content Area]: - Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)". // *** ADAPTIVE LAYOUT SWITCH *** // IF VERTICAL (3:4, 2:3): - Layout: SINGLE COLUMN STACK (Magazine Column). - Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text. - Text Strategy: Strictly use CHINESE natural sentences. * Item 1: [Real Component: Modular Battery Cell Array] + "1. 模块化电池单元：通过改变电池模块在底盘上的排列位置，精确调整车辆的前后重量分配比，以适应不同赛道的抓地力需求。" * Item 2: [Real Component: Titanium Ballast Weights] + "2. 钛合金配重块：在电池组空隙或底盘特定锚点安装高密度钛合金块，微调重心高度（CoG），最小化赛车侧倾。" * Item 3: [Real Component: Carbon Fiber Battery Enclosure] + "3. 碳纤维轻量化壳体：极高的刚性重量比，不仅保护电池安全，更通过降低自身重量，将宝贵的配重额度留给可调节的模块。" * Item 4: [Real Component: Corner Load Sensor] + "4. 悬挂载荷传感器：实时监测四个车轮的垂直静载荷，为配重平衡提供数据支持，确保交叉重量平衡（Cross-weight）处于理想状态。" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]: - Header: Minimalist line divider with text "可视验证 (VERIFICATION)". - Content: * Left: A geometric graphic showing a rectangle representing a car chassis plan view, divided into four quadrants with small circular nodes representing wheel loads drawn in minimalist hand-drawn pencil style. Explicitly write the text "FR", "RR" next to the diagram nodes. * Right: A high-contrast graphic block showing a minimalist technical diagram of a Formula E style car suspension rocker arm with a strain gauge texture applied to it printed in Prussian Blue ink. * Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines

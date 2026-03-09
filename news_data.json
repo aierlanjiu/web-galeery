@@ -1,8 +1,1382 @@
 [
   {
+    "id": "2026-03-09_1773017179",
+    "date": "2026-03-09",
+    "poster": "./assets/news/news_2026-03-09_1773017179.png",
+    "items": [
+      {
+        "title": "现货白银日内跌幅扩大至3%",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714931046248583?f=rss"
+      },
+      {
+        "title": "美联储3月维持利率不变的概率为95.5%",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714919927705989?f=rss"
+      },
+      {
+        "title": "现货黄金向下跌破5050美元",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714934420976009?f=rss"
+      },
+      {
+        "title": "更好“用”更能“投”，人民币国际化驶入“快车道”",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714929722175616?f=rss"
+      },
+      {
+        "title": "英伟达拟在Vera Rubin芯片中采用三星和SK海力士HMB4存储技术",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714937613348998?f=rss"
+      },
+      {
+        "title": "国金证券：锂电行业建议重点关注涨价环节及固态新技术龙头",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714946390290824?f=rss"
+      },
+      {
+        "title": "“AI下半场是能源”，基金经理掘金电力出海",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/newsflashes/3714947558371461?f=rss"
+      },
+      {
+        "title": "8点1氪丨最高补贴200万，深圳一区拟出台政策鼓励免费“养龙虾”；苹果核心管理层调整；寿司郎回应消费者吃出金枪鱼寄生虫卵",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/p/3714938148941957?f=rss"
+      },
+      {
+        "title": "MetaNovas获A+、A++两轮融资，以智能体「军团」加速新材料开发 | 36氪首发",
+        "source": "36氪 (36Kr)",
+        "link": "https://36kr.com/p/3708504364462466?f=rss"
+      },
+      {
+        "title": "苹果 MacBook Neo 尚未开卖就已“破发”：无需教育优惠，到手价低至 3599 元",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/927/056.htm"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-09_1773014754",
+    "date": "2026-03-09",
+    "poster": "./assets/news/news_2026-03-09_1773014754.png",
+    "items": [
+      {
+        "id": "https://36kr.com/newsflashes/3714931046248583?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "现货白银日内跌幅扩大至3%",
+        "link": "https://36kr.com/newsflashes/3714931046248583?f=rss",
+        "published": "2026-03-09 07:43:16  +0800",
+        "summary_raw": "36氪获悉，3月9日，现货白银日内跌幅扩大至3%，报81.53美元/盎司。",
+        "full_content": "36氪获悉，3月9日，现货白银日内跌幅扩大至3%，报81.53美元/盎司。",
+        "fetched_at": "2026-03-09T08:03:25.088676"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3714919927705989?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "美联储3月维持利率不变概率95.5%",
+        "link": "https://36kr.com/newsflashes/3714919927705989?f=rss",
+        "published": "2026-03-09 07:44:41  +0800",
+        "summary_raw": "据CME“美联储观察”：美联储到3月降息25个基点的概率为4.5%，维持利率不变的概率为95.5%。美联储到4月累计降息25个基点的概率17.7%，维持利率不变的概率为81.7%，累计降息50个基点的概率为0.7%。到6月累计降息25个基点的概率为41.5%。（财联社）",
+        "full_content": "据CME“美联储观察”：美联储到3月降息25个基点的概率为4.5%，维持利率不变的概率为95.5%。美联储到4月累计降息25个基点的概率17.7%，维持利率不变的概率为81.7%，累计降息50个基点的概率为0.7%。到6月累计降息25个基点的概率为41.5%。（财联社）",
+        "fetched_at": "2026-03-09T08:03:25.088650"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3714934420976009?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "现货黄金跌破5050美元",
+        "link": "https://36kr.com/newsflashes/3714934420976009?f=rss",
+        "published": "2026-03-09 07:46:42  +0800",
+        "summary_raw": "36氪获悉，现货黄金向下跌破5050美元，日内下跌2.42%。",
+        "full_content": "36氪获悉，现货黄金向下跌破5050美元，日内下跌2.42%。",
+        "fetched_at": "2026-03-09T08:03:25.088620"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3714929722175616?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "人民币国际化提速，更好用更易投",
+        "link": "https://36kr.com/newsflashes/3714929722175616?f=rss",
+        "published": "2026-03-09 07:47:53  +0800",
+        "summary_raw": "“扩大人民币跨境使用”“保持人民币汇率在合理均衡水平上的基本稳定”“推进人民币国际化，拓展人民币在国际贸易和投融资中的使用”……翻开“十五五”规划纲要草案和今年的政府工作报告、计划报告，人民币国际化被多次提及。从越用越“好”的结算货币，到日益成为越投越“香”的投融资货币，人民币迈向“强大的货币”的脚步扎实坚定。（中证网）",
+        "full_content": "“扩大人民币跨境使用”“保持人民币汇率在合理均衡水平上的基本稳定”“推进人民币国际化，拓展人民币在国际贸易和投融资中的使用”……翻开“十五五”规划纲要草案和今年的政府工作报告、计划报告，人民币国际化被多次提及。从越用越“好”的结算货币，到日益成为越投越“香”的投融资货币，人民币迈向“强大的货币”的脚步扎实坚定。（中证网）",
+        "fetched_at": "2026-03-09T08:03:25.088592"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3714937613348998?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "英伟达芯片拟采用三星/海力士HBM4",
+        "link": "https://36kr.com/newsflashes/3714937613348998?f=rss",
+        "published": "2026-03-09 07:49:57  +0800",
+        "summary_raw": "据报道，英伟达计划在其新款Vera Rubin芯片中采用三星和SK海力士的HMB4存储技术。（界面）",
+        "full_content": "据报道，英伟达计划在其新款Vera Rubin芯片中采用三星和SK海力士的HMB4存储技术。（界面）",
+        "fetched_at": "2026-03-09T08:03:25.088561"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3714946390290824?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "国金证券：关注锂电涨价及固态龙头",
+        "link": "https://36kr.com/newsflashes/3714946390290824?f=rss",
+        "published": "2026-03-09 07:58:53  +0800",
+        "summary_raw": "36氪获悉，国金证券研报表示，2026年锂电行业呈现“春季淡季不淡”特征，3月排产显著复苏，环比增长11%—22%，上游碳酸锂等资源品价格领涨带动产业链价格回暖。全年看，产业链涨价通胀预期强化，6F、隔膜、铜铝箔等环节具备涨价弹性；新技术加速落地，固态电池、钠电、复合铜箔等迎来产业化关键期。建议重点关注涨价环节及固态新技术龙头。",
+        "full_content": "36氪获悉，国金证券研报表示，2026年锂电行业呈现“春季淡季不淡”特征，3月排产显著复苏，环比增长11%—22%，上游碳酸锂等资源品价格领涨带动产业链价格回暖。全年看，产业链涨价通胀预期强化，6F、隔膜、铜铝箔等环节具备涨价弹性；新技术加速落地，固态电池、钠电、复合铜箔等迎来产业化关键期。建议重点关注涨价环节及固态新技术龙头。",
+        "fetched_at": "2026-03-09T08:03:25.088528"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3714947558371461?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "AI下半场是能源，掘金电力出海",
+        "link": "https://36kr.com/newsflashes/3714947558371461?f=rss",
+        "published": "2026-03-09 08:00:04  +0800",
+        "summary_raw": "近期，由AI爆发式增长驱动的用电需求，使电力短缺问题重新成为全球资本市场的核心议题。A股电力板块逆势走强，独立于大盘震荡，展现出强劲韧性。年初至今，特高压、虚拟电网、智能电网等细分指数涨幅均超30%，多只电网设备主题ETF涨幅也突破35%。与此同时，在应对电力缺口的多种技术路径中，燃气轮机板块已崭露头角，形成新的投资主线，带动多只重仓基金年内收益超过40%。基金经理普遍认为，中国制造业以其效率优势，有望在全球电力转型中扮演关键角色，投资焦点正集中于毛利率更高的出海产业链。（证券时报）",
+        "full_content": "近期，由AI爆发式增长驱动的用电需求，使电力短缺问题重新成为全球资本市场的核心议题。A股电力板块逆势走强，独立于大盘震荡，展现出强劲韧性。年初至今，特高压、虚拟电网、智能电网等细分指数涨幅均超30%，多只电网设备主题ETF涨幅也突破35%。与此同时，在应对电力缺口的多种技术路径中，燃气轮机板块已崭露头角，形成新的投资主线，带动多只重仓基金年内收益超过40%。基金经理普遍认为，中国制造业以其效率优势，有望在全球电力转型中扮演关键角色，投资焦点正集中于毛利率更高的出海产业链。（证券时报）",
+        "fetched_at": "2026-03-09T08:03:25.088484"
+      },
+      {
+        "id": "https://36kr.com/p/3714938148941957?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "8点1氪：深补200万养虾；苹果高管调整",
+        "link": "https://36kr.com/p/3714938148941957?f=rss",
+        "published": "2026-03-09 07:53:04  +0800",
+        "summary_raw": "今日热点导览 国际油价突破每桶100美元，为2022年以来首次 苹果核心管理层调整 印尼宣布禁止16岁以下人群使用社媒 马来西亚通报MH370最新搜寻进展 任天堂正式起诉美国政府 TOP 3 大新闻 最高补贴200万元，深圳拟出台政策鼓励“养龙虾” 一款因图标酷似红色龙虾而备受关注的开源智能体(AI Agent)项目OpenClaw近期走红，“养龙虾”成为AI圈“新宠”。 为抢抓智能经济发展机遇，深圳市龙岗区人工智能（机器人）署近日就《深圳市龙岗区支持OpenClaw&OPC发展的若干措施（征求意见稿）》公开征询意见。其中提出，鼓励市场化、专业化平台载体推出“龙虾服务区”，免费提供OpenClaw部署服务，符合条件的给予一定补贴；提供OpenClaw类智能体工具开发推广支持。对向国际主流社区贡献关键代码、在技能交易平台开发上架龙岗优势产业相关技能包、开发与具身智能设备结合的应用项目的，经认定后给予最高200万元补贴。聚焦智能制造、智慧政务、智慧园区、智慧医疗等领域，每年遴选一批创新性强、应用效果好的OpenClaw深度应用项目，授予“龙岗区OpenClaw应用示范项目”称号，并按实际投...",
+        "full_content": "今日热点导览 国际油价突破每桶100美元，为2022年以来首次 苹果核心管理层调整 印尼宣布禁止16岁以下人群使用社媒 马来西亚通报MH370最新搜寻进展 任天堂正式起诉美国政府 TOP 3 大新闻 最高补贴200万元，深圳拟出台政策鼓励“养龙虾” 一款因图标酷似红色龙虾而备受关注的开源智能体(AI Agent)项目OpenClaw近期走红，“养龙虾”成为AI圈“新宠”。 为抢抓智能经济发展机遇，深圳市龙岗区人工智能（机器人）署近日就《深圳市龙岗区支持OpenClaw&OPC发展的若干措施（征求意见稿）》公开征询意见。其中提出，鼓励市场化、专业化平台载体推出“龙虾服务区”，免费提供OpenClaw部署服务，符合条件的给予一定补贴；提供OpenClaw类智能体工具开发推广支持。对向国际主流社区贡献关键代码、在技能交易平台开发上架龙岗优势产业相关技能包、开发与具身智能设备结合的应用项目的，经认定后给予最高200万元补贴。聚焦智能制造、智慧政务、智慧园区、智慧医疗等领域，每年遴选一批创新性强、应用效果好的OpenClaw深度应用项目，授予“龙岗区OpenClaw应用示范项目”称号，并按实际投入30%给予一次性奖励，最高100万元。(南方日报) 苹果：核心管理层调整 3月8日，苹果全面更新了官方管理层网页，正式对外公布执行团队的多项最新人事任命。这场变动涵盖法务、健康服务以及核心设计团队，共涉及五名核心高管的职位增补与调整。 前Meta首席法务官Jennifer Newstead于2026年3月1日正式加盟苹果，出任高级副总裁兼总法律顾问。（财联社） 寿司郎回应消费者吃出金枪鱼寄生虫卵 近日，有消费者反映“自己在门头沟区某商场寿司郎吃出金枪鱼寄生虫卵”。3月7日，寿司郎就此事回应界面新闻表示：“公司内部对此事件也非常重视，正在配合市场监督局进行相关检查，一切等检查结果确认。寿司郎一直视食品安全为品牌的生命线，食材的采购、运输以及店内存储严格按照国家规定的食品安全标准执行。如发现异常，我们必将刻不容缓进行整改。”3月4日，北京市门头沟区市场监督管理局发布情况通报：针对市民反映“自己在门头沟区某商场寿司郎吃出金枪鱼寄生虫卵”问题，我局高度重视，第一时间组织执法人员到现场进行检查，对店内剩余的金枪鱼板块（赤身）进行证据保存，并开展立案调查。（界面新闻） 大公司/大事件 国际油价突破每桶100美元，为2022年以来首次 当地时间3月8日，国际油价突破每桶100美元，为自2022年俄乌冲突爆发以来首次。数据显示，美国原油期货上涨14.7%；全球基准布伦特原油期货上涨12.63%，报每桶104美元。截至美国东部时间当天傍晚，道琼斯指数期货下跌约851点，跌幅约2%，标普500指数期货和纳斯达克指数期货分别下跌1.73%和1.65%。与此同时，美国汽油价格也明显上涨。美国汽车协会（AAA）数据显示，在2月28日伊朗冲突爆发后，美国普通汽油平均价格升至每加仑3.45美元，较一周前上涨约16%。（央视新闻） 腾讯免费安装OpenClaw引排队盛况，马化腾发文：没想到会这么火 3月8日，腾讯公司创始人马化腾在朋友圈转发有关腾讯免费为用户安装“龙虾”的相关新闻，并表示“没有想到会这么火”。据悉，近日，腾讯云公众号，腾讯宣布免费安装Openclaw。短短几个小时，几百只OpenClaw 被装进腾讯云服务器。随后，腾讯大厦出现不少排队用户安装OpenClaw。（新浪科技） 林俊旸发文告别阿里 3月7日凌晨，阿里千问（Qwen）前负责人林俊旸在朋友圈发文告别阿里。他表示：“不是这几天，我都不知道这世界这么多人爱我。今天last day，当大家为我鼓掌那一下，我真是忍住了泪水。不管别人说我什么，我至少内心里真觉得做到了为兄弟们好为阿里云好为集团好，虽然很多真没做到位，抱歉。”林俊旸近期受到外界关注，源于3月4日他在社交媒体公开宣布自己从千问卸任。（第一财经） 长城汽车魏建军为海报抄袭道歉，路虎揽胜回应：真诚和担当是最好的代言 3月7日，路虎揽胜官方微博发文称，“真诚和担当是最好的代言，也是揽胜品牌最珍视的品质。坚持原创，祝长城汽车越来越好。”并艾特长城汽车董事长魏建军。 此前据媒体报道，长城魏牌官宣新车V9X代言人为长城董事长魏建军，并发布海报，然而有网友在社交平台发文称，这张海报设计抄袭了自己为路虎揽运做的创意。此事引发网友关注和热议，长城汽车反应迅速，6日下午，魏建军发布道歉视频，称“那张海报的确是抄袭的，不能有任何的辩解，在这里我向路虎道歉，向原版海报的设计师道歉，也向信任我的网友朋友们道歉。”（九派新闻） 印尼宣布禁止16岁以下人群使用社媒 当地时间3月6日印度尼西亚政府宣布，将于3月28日起实施针对16岁以下人群的社交媒体禁令，以整顿网络色情、网络霸凌、网络诈骗和网络成瘾等问题。 印尼通信和数字事务部长默蒂娅·哈菲兹指出，新规实施初期“可能会给印尼用户带来一些不便”，但这是政府面对数字时代的挑战必须采取的“最佳措施”。据悉，澳大利亚针对16岁以下人群的社交媒体禁令于2025年12月10日正式生效，随后超470万个相关账户被关停。（荆楚网） 马来西亚通报MH370最新搜寻进展 马来西亚交通部8日发表声明，马来西亚航空公司370航班客机残骸最新搜寻工作已经结束，“没有任何发现”。此次搜寻分两阶段完成，累计覆盖南印度洋海底面积约7571平方公里。搜寻行动曾因天气和海况影响中断。（新华社） 任天堂正式起诉美国政府：特朗普无权征收关税 当地时间上周五，任天堂美国子公司正式对美国联邦政府提起诉讼，要求其退还依据特朗普政府《国际紧急经济权力法》（IEEPA）所缴纳的进口关税，并追讨相应利息。这起诉讼已提交至美国国际贸易法院，是继美国最高法院上月裁定相关关税违法后，逾千家企业追讨税款行动中的最新一例。 2025年2月1日起，时任总统特朗普签署多项行政令，以IEEPA为依据对来自全球多国的进口商品加征所谓“对等关税”及“芬太尼相关关税”。这些关税一度对来自中国、越南等地的电子消费品造成冲击，而任天堂的主要生产线恰好位于这两地。（新浪科技） 索尼面临英国PlayStation用户提起的27亿美元集体诉讼 日本娱乐巨头索尼将在伦敦启动一场20亿英镑（27亿美元）的集体诉讼，该公司被指控违反竞争法，向数百万英国PlayStation用户收取过高费用。原告方网站指控索尼在近十年间“��削英国消费者”，对PlayStation数字游戏和游戏内内容“定价过高”。代表约1220万名用户提起诉讼的消费者维权人士Alex Neill表示：“此案旨在终止这种行为，并为受影响的用户争取赔偿。”（新浪财经） 雷军说未来每周或仅需工作3天，AI时代会产生很多新岗位 近日，全国人大代表，小米集团创始人、董事长兼CEO雷军在接受《中国新闻周刊》采访时表示，在人工智能时代，或许很多规则将被重写，但同时又会产生很多新的岗位。雷军建议，大家要用开放的心态，迎接更先进的时代。未来，也许不再需要每天工作8小时、每周工作5天了，或许一周仅需工作3天，每天工作2个小时。我们的生活质量、工作质量都会大幅度提升。（中国新闻周刊） 比亚迪回应闪充是否影响电池寿命：对寿命没影响 3月5日晚，比亚迪发布了第二代刀片电池和全球量产单枪最大功率充电桩——比亚迪闪充桩（单枪功率可达1500KW）。谈及“闪充是否会影响电池的寿命”这一话题。官方表示，比亚迪第二代刀片电池的闪充，对寿命没影响，既充得快、又很耐用。同时，电池质保容量保持率整体还提升2.5%。 据介绍，比亚迪第二代刀片电池从10%充到70%只需五分钟，从10%充到97%只需9分钟，刷新充电速度新纪录。至于为什么只充到97%？比亚迪董事长兼总裁王传福表示，是因为要留3%专门给刹车动能回收用，更利于降低车辆的能耗。（IT之家） 周鸿祎称将发行一键安装的“龙虾”：“让每个人配备‘龙虾’不算个事儿” 据香港文汇报报道，近日，周鸿祎谈AI界“养龙虾”热潮：第一，“龙虾”是一个非常好的概念，把我原来谈的智能体概念物化了，原来的是看不见摸不着的云上的软件，现在变成了电脑里养了一个自己的助手，而且操纵起来非常方便等。第二，但“龙虾”还在早期，几乎只有发烧友才能安装和配置，安装配置“龙虾”对普通人来说是非常难的一件事情，所以腾讯给人装“龙虾”恰恰说明”龙虾“比较难以安装；我们很快会发一个一键安装的版本，让每个人配备”龙虾“不算个事儿。（香港文汇报） 商务部回应安世荷兰批量禁用安世中国员工办公软件 36氪获悉，商务部新闻发言人就安世荷兰批量禁用安世中国员工办公软件答记者问。商务部表示，我注意到有关报道。在中荷双方推动下，闻泰科技与安世荷兰正就企业内部纠纷进行协商，但安世荷兰此时批量禁用安世中国员工办公账号，挑起新的矛盾，给企业协商工作制造新的困难和障碍。中方始终秉持对全球半导体产供链的负责任态度。安世荷兰此次所作所为，严重破坏企业正常生产经营，如再次引发全球半导体产供链危机，荷方必须对此承担全部责任。 中国高等教育毛入学率超60%，“双一流”高校扩招3.8万人 十四届全国人大四次会议今天举行民生主题记者会。教育部部长怀进鹏在会上介绍，当前，中国举办着世界上规模最大且有质量的教育。在高等教育方面，“十四五”期间累计向社会输送5500万人才，毛入学率从十八大前的不到30%到现在超过60%，提高一倍多。近两年通过优质本科扩容，“双一流”高校扩招3.8万人。此外，这五年还新增普通本科高校18所、职业本科70所，增加本科招生70万；推进国际合作办学，新设540多个本科以上中外合作办学机构和项目，新增学位供给35万。（央视新闻） 谷歌为CEO提供了一份6.92亿美元的新薪酬方案 谷歌已将桑达尔・皮查伊未来三年的潜在总薪酬提高至 6.92 亿美元，使其成为全球薪酬最高的首席执行官之一。该公司周五表示，皮查伊薪酬方案的主要部分为绩效股票单位（PSUs），目标价值 1.26 亿美元，平均分为两批发放。这些绩效股票单位的价值将根据母公司 Alphabet 的总股东回报率与标普 100 指数成分股的对比情况确定：若 Alphabet 业绩显著领先，最高可发放目标价值的两倍，即 2.52 亿美元；若业绩落后，则可能分文不得。（新浪财经） 上市进行时 西井科技 证监会官网信息显示，上海西井科技股份有限公司（简称“西井科技”）已于近日更新A股IPO辅导备案，辅导机构为申万宏源证券。西井科技成立于2015年，是一家正向自研无人驾驶商用车的中国科技企业，致力于通过AI智能化能力为大物流行业客户提供数字化升级和绿色转型解决方案。西井科技2025年底完成F+轮融资，由申万投资领投，建投投资、中银资产等机构联合参投。（财联社） 凯乐士科技 36氪获悉，港交所文件显示，浙江凯乐士科技集团股份有限公司通过港交所上市聆讯。 和辉光电 36氪获悉，3月8日，据港交所文件，上海和辉光电股份有限公司通过港交所上市聆讯。 AI最前沿 OpenAI年化营收突破250亿美元，Anthropic缩小差距 知情人士透露，截至上个月，OpenAI的年化营收已突破250亿美元。这一数字比该公司去年年底的214亿美元年化营收增长了17%。OpenAI的营收仍然高于其竞争对手Anthropic，但两家巨头之间的差距正在缩小：Anthropic的年化营收最近突破190亿美元，是去年年底的两倍，比两周前增长了36%。（新浪财经） LobsterAI（有道龙虾）发布0.2.2版本 36氪获悉，3月8日，LobsterAI（有道龙虾）发布0.2.2版本，正式接入企业微信及QQ机器人。本次更新后，用户可通过手机端的企微或QQ，直接向AI下达指令并获取结果，同时新增定时任务自动推送功能。这意味着，AI能力已从电脑桌面延伸至日常移动通讯场景，用户无需依赖电脑，即可远程驱动Agent完成工作，实现真正的随时随地智能协作。 千问AI眼镜正式开售：内置64GB存储，售价1997元起 3月8日10点，千问首款同名AI硬件“千问AI眼镜”G1系列正式现货开售。这款AI眼镜配备双旗舰芯片双系统、内置64GB存储空间，叠加国补后到手价1997元起。此次发售覆盖线上线下全渠道，用户也可在千问APP上一句话下单，最快数小时即可收货。今年内，千问AI眼镜还将登陆国际市场。 整理 ｜迟雨",
+        "fetched_at": "2026-03-09T08:03:25.088389"
+      },
+      {
+        "id": "https://36kr.com/p/3708504364462466?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "MetaNovas获融资，智能体加速新材料",
+        "link": "https://36kr.com/p/3708504364462466?f=rss",
+        "published": "2026-03-09 08:00:00  +0800",
+        "summary_raw": "36氪获悉，MetaNovas（元星智药）近期完成A+、A++两轮融资，由富华资本、高瓴资本、袋鼠妈妈集团等消费健康产业资本共同投资。此前，A轮融资由高瓴创投、宝顶创投联合领投，若羽臣跟投。 如今AI For Science引发的热潮仍在继续，AI正加速改变新药、新材料等行业开发范式。不过市场也在逐步回归理性：尽管通过AI生成、优化分子结构的难度大幅降低，但首尾两端的挑战尚未因为技术演进而发生质变。 传统技术路径下，从初期选品、中期放大量产，到后端的注册准入和商业化落地，开发一个消费型新材料约需3-5年时间。为提升全链条效率，MetaNovas构建了以Agentic AI（智能体人工智能）为核心的系统级操作平台，以在高度不确定性的研发环境中，进行多目标决策，兼顾新材料分子的性能、工艺要求、法规约束等，从源头降低商业落地的成本。 MetaNovas联合创始人、CEO王梅杰告诉36氪，在“AI智能研发组织”的推动下，其开发最快的生物活性原料在12个月内完成了从概念提出到人体功效测试的流程。因为AI智能体在全链条的应用，MetaNovas得以保持精简、高效的团队，且能支持快速增加的新材料管线...",
+        "full_content": "36氪获悉，MetaNovas（元星智药）近期完成A+、A++两轮融资，由富华资本、高瓴资本、袋鼠妈妈集团等消费健康产业资本共同投资。此前，A轮融资由高瓴创投、宝顶创投联合领投，若羽臣跟投。 如今AI For Science引发的热潮仍在继续，AI正加速改变新药、新材料等行业开发范式。不过市场也在逐步回归理性：尽管通过AI生成、优化分子结构的难度大幅降低，但首尾两端的挑战尚未因为技术演进而发生质变。 传统技术路径下，从初期选品、中期放大量产，到后端的注册准入和商业化落地，开发一个消费型新材料约需3-5年时间。为提升全链条效率，MetaNovas构建了以Agentic AI（智能体人工智能）为核心的系统级操作平台，以在高度不确定性的研发环境中，进行多目标决策，兼顾新材料分子的性能、工艺要求、法规约束等，从源头降低商业落地的成本。 MetaNovas联合创始人、CEO王梅杰告诉36氪，在“AI智能研发组织”的推动下，其开发最快的生物活性原料在12个月内完成了从概念提出到人体功效测试的流程。因为AI智能体在全链条的应用，MetaNovas得以保持精简、高效的团队，且能支持快速增加的新材料管线所需人力。 当前MetaNovas团队AI算法专家、生物学团队、转化团队各占1/3。创始团队则都具有AI、生物医药与计算材料复合背景。王梅杰曾在英伟达硅谷总部任职，开发用于生物计算的人工智能基础设施；首席技术官余论是MIT核科学与工程及AI方向博士，曾在美国UnitedHealth Group担任首席数据科学家。 据介绍，MetaNovas自研了分子语言生成大模型，作为底层生成引擎，能够跨模态表证多肽、聚合物、小分子等，“覆盖超过10^60的化学空间，分子生成有效率超95%”。同时，针对材料落地必须考量的理化性质（如热稳定性、气味、紫外吸光度等），其开发了性能预测模型，为分子筛选提供依据。 提升模型精度的关键是：高质量数据积累，及基于实验数据自动迭代的active learning系统。余论介绍道，训练数据主要包括三类：文献与专利数据；与学术机构合作授权的实验室数据；内部实验平台产生的高通量湿实验数据。其中，自有实验平台不仅积累了成功的验证数据，也沉淀了“失败”的负样本数据。这些稀缺的内部反馈，让AI系统在迭代中更加精准。 图源：MetaNovas 为了让AI系统拥有研发团队的思维与能力，MetaNovas针对新材料开发的全流程，开发了文献挖掘、分子生成、性能预测、实验规划、市场和商业化等AI智能体。 “新材料开发涉及不同背景的团队，包括生物学家、药化学家、配方师、市场人员等等。开发Agent的核心在于搭建出更高效产出有效知识的工作流，将人类团队长期磨合出的动态协作机制，抽象为Agent能够直接执行的核心步骤、关键质量审核（QC）节点等，这就依赖于既往团队在各环节沉淀下的know-how。”余论解释道。 如市场洞察环节，Agent系统会抓取消费品渠道的真实数据（成分、配方、销量等）进行前瞻性分析。在生物学家设计实验前，AI已结合市场方向，排除了过度竞争的赛道，引导研发走向更具差异化和市场潜力的方向，避免了“做出来却不是市场所需”的沉没成本。 在Agent系统赋能下，MetaNovas平台推荐分子的首次成功率超过60%，大幅降低了试错成本与迭代次数。其开发的Senoreversing（衰老逆转）肽仅测试42个肽分子、经过2轮迭代，即完成实验验证，该分子也获得联合利华等品牌商的关注。此外，由AI设计的杀菌消炎新分子AMP33已取得医疗器械主文档备案。 作为一家AI原生的新材料开发平台，MetaNovas的管线开发方向正在拓展，包括生物活性成分、医用材料、功能聚合物、光化学成分、气味与风味成分等。工艺放大和生产方面，其主要与 CDMO深度合作，成立合资公司，进行定向生产转化。商业上，多以与品牌商联合开发、进行材料供应等模式开展。 在Agentic AI的驱动下，材料科学正在告别漫长且昂贵的“盲筛时代”。当AI不再是单纯的生成工具，而是进化为不知疲倦、能跨越学科鸿沟、懂得商业化权衡的“智能研发组织”时，新材料研发的新工业时代正在到来。",
+        "fetched_at": "2026-03-09T08:03:25.086982"
+      },
+      {
+        "id": "https://www.ithome.com/0/927/056.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "苹果MacBook Neo未卖先破：低至3599元",
+        "link": "https://www.ithome.com/0/927/056.htm",
+        "published": "Sun, 08 Mar 2026 23:42:18 GMT",
+        "summary_raw": "IT之家 3 月 9 日消息，苹果新推出的全新入门级笔记本电脑 MacBook Neo 今日上午 9 点开放预购，3 月 11 日正式发售，每人限购 2 台，官方指导价 4599 元起。 不过目前该机还未正式上市，便已在第三方平台“破发”，相应平台页面显示，用户可以直接以 3999 元的价格购买。 或在每个整点抢券，券后到手价低至 3599 元 。 规格方面，苹果 MacBook Neo 采用铝金属机身设计，配备 13 英寸 Liquid 视网膜显示屏，无刘海；提供银色、桃粉色、柑橘黄色、靛蓝色四款配色；默认赠送 20W USB-C 电源适配器及 USB-C 充电线。",
+        "full_content": "IT之家 3 月 9 日消息，苹果新推出的全新入门级笔记本电脑 MacBook Neo 今日上午 9 点开放预购，3 月 11 日正式发售，每人限购 2 台，官方指导价 4599 元起。 不过目前该机还未正式上市，便已在第三方平台“破发”，相应平台页面显示，用户可以直接以 3999 元的价格购买。 或在每个整点抢券，券后到手价低至 3599 元 。 规格方面，苹果 MacBook Neo 采用铝金属机身设计，配备 13 英寸 Liquid 视网膜显示屏，无刘海；提供银色、桃粉色、柑橘黄色、靛蓝色四款配色；默认赠送 20W USB-C 电源适配器及 USB-C 充电线。",
+        "fetched_at": "2026-03-09T08:03:24.714900"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-09_1773013529",
+    "date": "2026-03-09",
+    "poster": "./assets/news/news_2026-03-09_1773013529.png",
+    "items": [
+      {
+        "title": "苹果或推出三款Ultra新品",
+        "source": "36Kr",
+        "link": "https://36kr.com/newsflashes/3714919066399111?f=rss"
+      },
+      {
+        "title": "小米增程SUV路测；比亚迪再谈闪充",
+        "source": "ITHome",
+        "link": "https://www.baidu.com/s?wd=小米增程SUV路测；比亚迪再谈闪充"
+      },
+      {
+        "title": "Roblox推出AI聊天内容改写器",
+        "source": "ITHome",
+        "link": "https://www.ithome.com/0/927/055.htm"
+      },
+      {
+        "title": "Intel准备酷睿Ultra X9 378H",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1552452.htm"
+      },
+      {
+        "title": "长江存储发布首款PCIe 5.0商用SSD",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1552454.htm"
+      },
+      {
+        "title": "阿里千问团队多位核心人员接连离职",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1552464.htm"
+      },
+      {
+        "title": "中国航天联合赛力斯开发混合动力无人机",
+        "source": "CnBeta",
+        "link": "https://www.baidu.com/s?wd=中国航天联合赛力斯开发混合动力无人机"
+      },
+      {
+        "title": "M5 Max跑分曝光反超M3 Ultra",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1552470.htm"
+      },
+      {
+        "title": "MacBook Neo基准测试成绩接近iPhone 16 Pro",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1552472.htm"
+      },
+      {
+        "title": "GitHub Copilot接入GPT-5.4模型",
+        "source": "CnBeta",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1552476.htm"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-08_1772924594",
+    "date": "2026-03-08",
+    "poster": "./assets/news/news_2026-03-08_1772924594.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/07/byd-seal-erupts-traffic-chaos-driver-escapes-moments-before-cabin-collapse-in-hong-kong/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪海豹香港车祸：车身瞬间崩塌，司机惊险逃生",
+        "link": "https://carnewschina.com/2026/03/07/byd-seal-erupts-traffic-chaos-driver-escapes-moments-before-cabin-collapse-in-hong-kong/",
+        "published": "Sat, 07 Mar 2026 03:43:51 +0000",
+        "summary_raw": "Post-fire inspection of a BYD Seal reveals the structural integrity of the CTB chassis and LFP battery pack. The post BYD Seal erupts traffic chaos, driver escapes moments before cabin collapse in Hong Kong appeared first on CarNewsChina.com .",
+        "full_content": "Post-fire inspection of a BYD Seal reveals the structural integrity of the CTB chassis and LFP battery pack. The post BYD Seal erupts traffic chaos, driver escapes moments before cabin collapse in Hong Kong appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-08T07:00:16.040536"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/07/cherys-jetour-zongheng-g600-teaser-luxury-hybrid-suv-targets-tank-700-segment/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞捷途纵横G600预告：豪华混动SUV对标坦克700",
+        "link": "https://carnewschina.com/2026/03/07/cherys-jetour-zongheng-g600-teaser-luxury-hybrid-suv-targets-tank-700-segment/",
+        "published": "Sat, 07 Mar 2026 11:59:21 +0000",
+        "summary_raw": "Positioned as a full-size rival to the Tank 700, the G600 features a boxy, rugged design. The post Chery’s Jetour Zongheng G600 teaser: luxury hybrid SUV targets Tank 700 segment appeared first on CarNewsChina.com .",
+        "full_content": "Positioned as a full-size rival to the Tank 700, the G600 features a boxy, rugged design. The post Chery’s Jetour Zongheng G600 teaser: luxury hybrid SUV targets Tank 700 segment appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-08T07:00:16.040337"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/384595.html",
+        "source": "量子位 (QbitAI)",
+        "title": "腾讯门口免费领龙虾引百人疯抢，一代人有一代人的鸡蛋",
+        "link": "https://www.qbitai.com/2026/03/384595.html",
+        "published": "Sat, 07 Mar 2026 02:32:50 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-08T07:00:05.056215"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/384623.html",
+        "source": "量子位 (QbitAI)",
+        "title": "告别VE与VAE！商汤重构多模态：砍掉所有中间编码器",
+        "link": "https://www.qbitai.com/2026/03/384623.html",
+        "published": "Sat, 07 Mar 2026 04:39:02 +0000",
+        "summary_raw": "2B规模吊打传统范式",
+        "full_content": "2B规模吊打传统范式",
+        "fetched_at": "2026-03-08T07:00:05.056193"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/384637.html",
+        "source": "量子位 (QbitAI)",
+        "title": "央视点赞通义千问APP：“AI办事”走进日常生活",
+        "link": "https://www.qbitai.com/2026/03/384637.html",
+        "published": "Sat, 07 Mar 2026 08:40:25 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-08T07:00:05.055909"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3712301777334658?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "我国高等教育入学率超60%，“双一流”扩招3.8万人",
+        "link": "https://36kr.com/newsflashes/3712301777334658?f=rss",
+        "published": "2026-03-07 11:08:39  +0800",
+        "summary_raw": "十四届全国人大四次会议今天举行民生主题记者会。教育部部长怀进鹏在会上介绍，当前，我国举办着世界上规模最大且有质量的教育。在高等教育方面，“十四五”期间累计向社会输送5500万人才，毛入学率从十八大前的不到30%到现在超过60%，提高一倍多。近两年通过优质本科扩容，“双一流”高校扩招3.8万人。此外，这五年还新增普通本科高校18所、职业本科70所，增加本科招生70万；推进国际合作办学，新设540多个本科以上中外合作办学机构和项目，新增学位供给35万。（央视新闻）",
+        "full_content": "十四届全国人大四次会议今天举行民生主题记者会。教育部部长怀进鹏在会上介绍，当前，我国举办着世界上规模最大且有质量的教育。在高等教育方面，“十四五”期间累计向社会输送5500万人才，毛入学率从十八大前的不到30%到现在超过60%，提高一倍多。近两年通过优质本科扩容，“双一流”高校扩招3.8万人。此外，这五年还新增普通本科高校18所、职业本科70所，增加本科招生70万；推进国际合作办学，新设540多个本科以上中外合作办学机构和项目，新增学位供给35万。（央视新闻）",
+        "fetched_at": "2026-03-08T07:00:01.591694"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3712308738716032?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "人社部：正研究AI创造新岗位与赋能传统岗位措施",
+        "link": "https://36kr.com/newsflashes/3712308738716032?f=rss",
+        "published": "2026-03-07 11:15:43  +0800",
+        "summary_raw": "人力资源社会保障部部长王晓萍3月7日在十四届全国人大四次会议民生主题记者会上表示，人力资源社会保障部正在研究相关措施，积极发挥人工智能在创造新岗位和赋能传统岗位方面的作用，推动实现技术进步与民生改善相协调的包容性发展。（新华社）",
+        "full_content": "人力资源社会保障部部长王晓萍3月7日在十四届全国人大四次会议民生主题记者会上表示，人力资源社会保障部正在研究相关措施，积极发挥人工智能在创造新岗位和赋能传统岗位方面的作用，推动实现技术进步与民生改善相协调的包容性发展。（新华社）",
+        "fetched_at": "2026-03-08T07:00:01.591665"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3712314242297990?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "2025全年及2026春节出游人次与花费均创历史新高",
+        "link": "https://36kr.com/newsflashes/3712314242297990?f=rss",
+        "published": "2026-03-07 11:21:19  +0800",
+        "summary_raw": "十四届全国人大四次会议今天举行民生主题记者会。文化和旅游部部长孙业礼在会上介绍，今年春节9天假期，国内旅游人次5.96亿、花费超过8000亿元，创下了历史新高。2025年，国内居民出游人次超65亿、同比增长16%以上，花费6.3万亿元、同比增长9.5%，也创造了历史新高。（央视新闻）",
+        "full_content": "十四届全国人大四次会议今天举行民生主题记者会。文化和旅游部部长孙业礼在会上介绍，今年春节9天假期，国内旅游人次5.96亿、花费超过8000亿元，创下了历史新高。2025年，国内居民出游人次超65亿、同比增长16%以上，花费6.3万亿元、同比增长9.5%，也创造了历史新高。（央视新闻）",
+        "fetched_at": "2026-03-08T07:00:01.591635"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3712256711930241?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "2月末我国外汇储备34278亿美元，环比上升0.85%",
+        "link": "https://36kr.com/newsflashes/3712256711930241?f=rss",
+        "published": "2026-03-07 11:26:16  +0800",
+        "summary_raw": "国家外汇管理局统计数据显示，截至2026年2月末，我国外汇储备规模为34278亿美元，较1月末上升287亿美元，升幅为0.85%。\n2026年2月，受主要经济体宏观经济数据、货币政策及预期等因素影响，美元指数上涨，全球主要金融资产价格涨跌互现。汇率折算和资产价格变化等因素综合作用，当月外汇储备规模上升。我国经济稳中有进、向新向优发展，长期向好的支撑条件和基本趋势没有改变，有利于外汇储备规模保持基本稳定。",
+        "full_content": "国家外汇管理局统计数据显示，截至2026年2月末，我国外汇储备规模为34278亿美元，较1月末上升287亿美元，升幅为0.85%。\n2026年2月，受主要经济体宏观经济数据、货币政策及预期等因素影响，美元指数上涨，全球主要金融资产价格涨跌互现。汇率折算和资产价格变化等因素综合作用，当月外汇储备规模上升。我国经济稳中有进、向新向优发展，长期向好的支撑条件和基本趋势没有改变，有利于外汇储备规模保持基本稳定。",
+        "fetched_at": "2026-03-08T07:00:01.591601"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3712261219053705?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "中国央行连续第16个月增持黄金",
+        "link": "https://36kr.com/newsflashes/3712261219053705?f=rss",
+        "published": "2026-03-07 12:16:24  +0800",
+        "summary_raw": "央行发布数据，中国2月末黄金储备报7422万盎司（约2308.5吨），环比增加3万盎司（约0.93吨），1月末为7419万盎司（约2307.567吨），为连续第16个月增持黄金。",
+        "full_content": "央行发布数据，中国2月末黄金储备报7422万盎司（约2308.5吨），环比增加3万盎司（约0.93吨），1月末为7419万盎司（约2307.567吨），为连续第16个月增持黄金。",
+        "fetched_at": "2026-03-08T07:00:01.591573"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-07_1772838171",
+    "date": "2026-03-07",
+    "poster": "./assets/news/news_2026-03-07_1772838171.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/06/byd-unveils-seal-08-flagship-sedan-with-1000km-range-target-and-blade-battery-2-0/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪发布海豹08：续航1000km+二代刀片电池",
+        "link": "https://carnewschina.com/2026/03/06/byd-unveils-seal-08-flagship-sedan-with-1000km-range-target-and-blade-battery-2-0/",
+        "published": "Fri, 06 Mar 2026 00:15:25 +0000",
+        "summary_raw": "BYD's Seal 08 makes debut, featuring second-gen blade battery and flash charging. The post BYD unveils Seal 08 flagship sedan with 1000km range target and Blade Battery 2.0 appeared first on CarNewsChina.com .",
+        "full_content": "BYD's Seal 08 makes debut, featuring second-gen blade battery and flash charging. The post BYD unveils Seal 08 flagship sedan with 1000km range target and Blade Battery 2.0 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.692996"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/byd-launches-refreshed-sealion-06-ev-with-up-to-710km-range-and-flash-charging/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪新款海狮06上市：续航710km支持闪充",
+        "link": "https://carnewschina.com/2026/03/06/byd-launches-refreshed-sealion-06-ev-with-up-to-710km-range-and-flash-charging/",
+        "published": "Fri, 06 Mar 2026 01:43:51 +0000",
+        "summary_raw": "The new BYD Sealion 06 EV is equipped with Blade Battery 2.0, can be fully charged in 9 minutes, starting from 23,200 USD. The post BYD launches refreshed Sealion 06 EV with up to 710km range and flash charging appeared first on CarNewsChina.com .",
+        "full_content": "The new BYD Sealion 06 EV is equipped with Blade Battery 2.0, can be fully charged in 9 minutes, starting from 23,200 USD. The post BYD launches refreshed Sealion 06 EV with up to 710km range and flash charging appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.692849"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/2026-yangwang-u7-luxury-sedan-launched-featuring-1006-km-ev-range-and-flash-charging/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "2026款仰望U7上市：1006km续航与闪充技术",
+        "link": "https://carnewschina.com/2026/03/06/2026-yangwang-u7-luxury-sedan-launched-featuring-1006-km-ev-range-and-flash-charging/",
+        "published": "Fri, 06 Mar 2026 02:16:16 +0000",
+        "summary_raw": "2026 Yangwang U7 luxury sedan launches with 1,006 km EV range and flash charging, starting at 95,400 USD. The post 2026 Yangwang U7 luxury sedan launched, featuring 1,006 km EV range and flash charging appeared first on CarNewsChina.com .",
+        "full_content": "2026 Yangwang U7 luxury sedan launches with 1,006 km EV range and flash charging, starting at 95,400 USD. The post 2026 Yangwang U7 luxury sedan launched, featuring 1,006 km EV range and flash charging appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.692682"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/new-xiaomi-su7-unveils-cream-beige-interior-to-be-launched-next-month/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米SU7新增“奶油米”内饰：下月正式发布",
+        "link": "https://carnewschina.com/2026/03/06/new-xiaomi-su7-unveils-cream-beige-interior-to-be-launched-next-month/",
+        "published": "Fri, 06 Mar 2026 02:47:35 +0000",
+        "summary_raw": "New generation Xiaomi SU7 revels \"Cream Beige\" interior colour. The post New Xiaomi SU7 unveils “Cream Beige” interior, to be launched next month appeared first on CarNewsChina.com .",
+        "full_content": "New generation Xiaomi SU7 revels \"Cream Beige\" interior colour. The post New Xiaomi SU7 unveils “Cream Beige” interior, to be launched next month appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.692507"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/byd-reveals-updated-fang-cheng-bao-ti3-and-ti7-with-flash-charging/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪方程豹Ti3/Ti7更新：全系支持闪充",
+        "link": "https://carnewschina.com/2026/03/06/byd-reveals-updated-fang-cheng-bao-ti3-and-ti7-with-flash-charging/",
+        "published": "Fri, 06 Mar 2026 04:49:48 +0000",
+        "summary_raw": "BYD reveals the updated Fang Cheng Bao Ti3 and Ti7 crossovers with the megawatt flash charging feature. They charge 10-97% in 9 mins. The post BYD reveals updated Fang Cheng Bao Ti3 and Ti7 with flash charging appeared first on CarNewsChina.com .",
+        "full_content": "BYD reveals the updated Fang Cheng Bao Ti3 and Ti7 crossovers with the megawatt flash charging feature. They charge 10-97% in 9 mins. The post BYD reveals updated Fang Cheng Bao Ti3 and Ti7 with flash charging appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.692287"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/byd-fires-1500-kw-shot-abroad-overseas-flash-charging-starts-end-2026/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪进军海外：2026年底开启1500kW闪充",
+        "link": "https://carnewschina.com/2026/03/06/byd-fires-1500-kw-shot-abroad-overseas-flash-charging-starts-end-2026/",
+        "published": "Fri, 06 Mar 2026 09:43:45 +0000",
+        "summary_raw": "Second-gen Blade Battery enables 20–97% charge in 12 minutes at −30°C using 1.5 MW charging hardware. The post BYD fires 1,500 kW shot abroad: overseas flash charging starts end‑2026 appeared first on CarNewsChina.com .",
+        "full_content": "Second-gen Blade Battery enables 20–97% charge in 12 minutes at −30°C using 1.5 MW charging hardware. The post BYD fires 1,500 kW shot abroad: overseas flash charging starts end‑2026 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.692128"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/byd-launches-seal-07-ev-with-second-generation-blade-battery-starting-at-16990-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪海豹07 EV上市：二代刀片电池，17.8万起",
+        "link": "https://carnewschina.com/2026/03/06/byd-launches-seal-07-ev-with-second-generation-blade-battery-starting-at-16990-usd/",
+        "published": "Fri, 06 Mar 2026 10:07:20 +0000",
+        "summary_raw": "Equipped with a 240 kW motor and 69 kWh battery, the Seal 07 EV claims sub-10 kWh energy consumption. The post BYD launches Seal 07 EV with second-generation Blade Battery starting at 24,600 USD appeared first on CarNewsChina.com .",
+        "full_content": "Equipped with a 240 kW motor and 69 kWh battery, the Seal 07 EV claims sub-10 kWh energy consumption. The post BYD launches Seal 07 EV with second-generation Blade Battery starting at 24,600 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.691951"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/gwm-chairman-issues-rare-video-apology-after-wey-v9x-plagiarism-scandal/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "长城董事长视频致歉：魏牌V9X陷入抄袭风波",
+        "link": "https://carnewschina.com/2026/03/06/gwm-chairman-issues-rare-video-apology-after-wey-v9x-plagiarism-scandal/",
+        "published": "Fri, 06 Mar 2026 13:14:02 +0000",
+        "summary_raw": "An internal GWM investigation confirmed copyright infringement regarding the Wey V9X campaign, leading to an executive apology. The post GWM Chairman issues rare video apology after Wey V9X plagiarism scandal appeared first on CarNewsChina.com .",
+        "full_content": "An internal GWM investigation confirmed copyright infringement regarding the Wey V9X campaign, leading to an executive apology. The post GWM Chairman issues rare video apology after Wey V9X plagiarism scandal appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.691758"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/06/xpeng-g6-erev-launched-adds-314-km-in-12-minutes-430-km-pure-ev-range-starts-at-27080-usd-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小鹏G6增程版上市：12分钟补能314km，19.6万起",
+        "link": "https://carnewschina.com/2026/03/06/xpeng-g6-erev-launched-adds-314-km-in-12-minutes-430-km-pure-ev-range-starts-at-27080-usd-in-china/",
+        "published": "Fri, 06 Mar 2026 14:40:34 +0000",
+        "summary_raw": "Xpeng's G6 EREV include DCC, and 12-minute charging for 314 km of range. The post Xpeng G6 EREV launched, adds 314 km in 12 minutes, 430 km EV range, starts 27,080 USD in China appeared first on CarNewsChina.com .",
+        "full_content": "Xpeng's G6 EREV include DCC, and 12-minute charging for 314 km of range. The post Xpeng G6 EREV launched, adds 314 km in 12 minutes, 430 km EV range, starts 27,080 USD in China appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-07T07:00:12.691503"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/384345.html",
+        "source": "量子位 (QbitAI)",
+        "title": "GPT-5.4发布：OpenAI首个大一统模型，龙虾原生",
+        "link": "https://www.qbitai.com/2026/03/384345.html",
+        "published": "Fri, 06 Mar 2026 00:50:44 +0000",
+        "summary_raw": "Agent任务成本骤降47%",
+        "full_content": "Agent任务成本骤降47%",
+        "fetched_at": "2026-03-07T07:00:03.932238"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-06_1772751782",
+    "date": "2026-03-06",
+    "poster": "./assets/news/news_2026-03-06_1772751782.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/05/gac-hyptec-a800-launched-with-huaweis-ads-and-smart-cockpit-starting-from-27500-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "广汽昊铂A800上市：华为ADS+座舱，约19.8万起",
+        "link": "https://carnewschina.com/2026/03/05/gac-hyptec-a800-launched-with-huaweis-ads-and-smart-cockpit-starting-from-27500-usd/",
+        "published": "Thu, 05 Mar 2026 01:12:21 +0000",
+        "summary_raw": "GAC Hyptec A800 aaunched: A new flagship sedan powered by Huawei technology. The post GAC Hyptec A800 launched with Huawei’s ADS and smart cockpit, starting from 27,500 USD appeared first on CarNewsChina.com .",
+        "full_content": "GAC Hyptec A800 aaunched: A new flagship sedan powered by Huawei technology. The post GAC Hyptec A800 launched with Huawei’s ADS and smart cockpit, starting from 27,500 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.363116"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/byd-applies-to-export-electric-vehicles-to-canada-under-the-new-6-1-tariff-rate/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪申请向加出口：适用6.1%新关税税率",
+        "link": "https://carnewschina.com/2026/03/05/byd-applies-to-export-electric-vehicles-to-canada-under-the-new-6-1-tariff-rate/",
+        "published": "Thu, 05 Mar 2026 02:09:41 +0000",
+        "summary_raw": "Chinese automaker BYD positions for Canadian market under new import quota system. The post BYD applies to export electric vehicles to Canada under the new 6.1% tariff rate appeared first on CarNewsChina.com .",
+        "full_content": "Chinese automaker BYD positions for Canadian market under new import quota system. The post BYD applies to export electric vehicles to Canada under the new 6.1% tariff rate appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.362965"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/lotus-for-me-interior-revealed-ready-for-global-launch-with-952-hp-hybrid-powertrain/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "路特斯For Me内饰曝光：952马力混动全球首发",
+        "link": "https://carnewschina.com/2026/03/05/lotus-for-me-interior-revealed-ready-for-global-launch-with-952-hp-hybrid-powertrain/",
+        "published": "Thu, 05 Mar 2026 06:22:09 +0000",
+        "summary_raw": "Lotus For Me with a 952 hp hybrid system has its  interior revealed . The post Lotus For Me interior revealed, ready for global launch with 952 hp hybrid powertrain appeared first on CarNewsChina.com .",
+        "full_content": "Lotus For Me with a 952 hp hybrid system has its  interior revealed . The post Lotus For Me interior revealed, ready for global launch with 952 hp hybrid powertrain appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.362824"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/toyotas-bz7-with-huawei-technology-and-xiaomi-ecosystem-enters-pre-sale-starting-from-26000-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "丰田bZ7预售：华为+小米生态，约18.7万起",
+        "link": "https://carnewschina.com/2026/03/05/toyotas-bz7-with-huawei-technology-and-xiaomi-ecosystem-enters-pre-sale-starting-from-26000-usd/",
+        "published": "Thu, 05 Mar 2026 09:50:38 +0000",
+        "summary_raw": "GAC Toyota bZ7 kicks off pre-sales, integrating HarmonyOS 5.0, Xiaomi Smart Ecosystem and Momenta's intelligent driving. The post Toyota’s bZ7 with Huawei technology and Xiaomi ecosystem enters pre-sale, starting from 26,000 USD appeared first on CarNewsChina.com .",
+        "full_content": "GAC Toyota bZ7 kicks off pre-sales, integrating HarmonyOS 5.0, Xiaomi Smart Ecosystem and Momenta's intelligent driving. The post Toyota’s bZ7 with Huawei technology and Xiaomi ecosystem enters pre-sale, starting from 26,000 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.362644"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/great-wall-motors-tank-700-hi4-z-debuts-with-lidar-enhanced-design-and-190-km-ev-range/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "坦克700 Hi4-Z首发：配激光雷达，续航190km",
+        "link": "https://carnewschina.com/2026/03/05/great-wall-motors-tank-700-hi4-z-debuts-with-lidar-enhanced-design-and-190-km-ev-range/",
+        "published": "Thu, 05 Mar 2026 11:18:45 +0000",
+        "summary_raw": "Tank 700 Hi4-Z makes official debut, featuring Lidar and 190 km BEV range. The post Great Wall Motor’s Tank 700 Hi4-Z debuts with LiDAR, enhanced design, and 190 km EV range appeared first on CarNewsChina.com .",
+        "full_content": "Tank 700 Hi4-Z makes official debut, featuring Lidar and 190 km BEV range. The post Great Wall Motor’s Tank 700 Hi4-Z debuts with LiDAR, enhanced design, and 190 km EV range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.362347"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/byd-unveils-blade-battery-2-0-10-70-in-5-mins-10-97-in-9-mins-and-20000-flash-charging-stations-in-2026/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪二代刀片电池：9分钟充至97%，26年布局",
+        "link": "https://carnewschina.com/2026/03/05/byd-unveils-blade-battery-2-0-10-70-in-5-mins-10-97-in-9-mins-and-20000-flash-charging-stations-in-2026/",
+        "published": "Thu, 05 Mar 2026 12:37:27 +0000",
+        "summary_raw": "BYD's Blade Battery 2.0 charges 10-90% in 9 mins, pioneers smart, swift flash charging network. The post BYD unveils Blade Battery 2.0: 10-70% in 5 mins, 10-97% in 9 mins, and 20,000 flash charging stations in 2026 appeared first on CarNewsChina.com .",
+        "full_content": "BYD's Blade Battery 2.0 charges 10-90% in 9 mins, pioneers smart, swift flash charging network. The post BYD unveils Blade Battery 2.0: 10-70% in 5 mins, 10-97% in 9 mins, and 20,000 flash charging stations in 2026 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.362035"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/the-worlds-longest-range-ev-launched-denza-z9-gt-offers-1036km-and-9-minute-full-charge-from-39100-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "腾势Z9 GT上市：1036km续航+9分满电，28万起",
+        "link": "https://carnewschina.com/2026/03/05/the-worlds-longest-range-ev-launched-denza-z9-gt-offers-1036km-and-9-minute-full-charge-from-39100-usd/",
+        "published": "Thu, 05 Mar 2026 13:23:50 +0000",
+        "summary_raw": "Denza Z9 GT launches as world's longest-range EV with 1,036km, full charges in 9 minutes, priced from 39,100 USD. The post The world’s longest-range EV launched: Denza Z9 GT offers 1,036km and 9-minute full charge, from 39,100 USD appeared first on CarNewsChina.com .",
+        "full_content": "Denza Z9 GT launches as world's longest-range EV with 1,036km, full charges in 9 minutes, priced from 39,100 USD. The post The world’s longest-range EV launched: Denza Z9 GT offers 1,036km and 9-minute full charge, from 39,100 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.361687"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/byd-great-tang-revealed-in-china-with-950-km-of-ev-range/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪大唐国内曝光：纯电续航达950km",
+        "link": "https://carnewschina.com/2026/03/05/byd-great-tang-revealed-in-china-with-950-km-of-ev-range/",
+        "published": "Thu, 05 Mar 2026 13:53:53 +0000",
+        "summary_raw": "The BYD Great Tang (Datang) full-size electric crossover was officially revealed in China with up to 950 km of electric range. The post BYD Great Tang revealed in China with 950 km of EV range appeared first on CarNewsChina.com .",
+        "full_content": "The BYD Great Tang (Datang) full-size electric crossover was officially revealed in China with up to 950 km of electric range. The post BYD Great Tang revealed in China with 950 km of EV range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.361442"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/byd-song-ultra-ev-crossover-starts-presales-in-china-for-22470-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪宋Ultra预售：纯电跨界SUV，约16.2万起",
+        "link": "https://carnewschina.com/2026/03/05/byd-song-ultra-ev-crossover-starts-presales-in-china-for-22470-usd/",
+        "published": "Thu, 05 Mar 2026 14:45:55 +0000",
+        "summary_raw": "The BYD Song Ultra EV crossover with a 270-kW (362 hp) electric motor and up to 710 km of range starts presales in China for 22,470 USD. The post BYD Song Ultra EV crossover starts presales in China for 22,470 USD appeared first on CarNewsChina.com .",
+        "full_content": "The BYD Song Ultra EV crossover with a 270-kW (362 hp) electric motor and up to 710 km of range starts presales in China for 22,470 USD. The post BYD Song Ultra EV crossover starts presales in China for 22,470 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.361284"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/05/byd-backed-robosense-reveals-lidar-sensor-with-up-to-2160-beams/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "速腾聚创发布2160线激光雷达：比亚迪参股支持",
+        "link": "https://carnewschina.com/2026/03/05/byd-backed-robosense-reveals-lidar-sensor-with-up-to-2160-beams/",
+        "published": "Thu, 05 Mar 2026 15:41:32 +0000",
+        "summary_raw": "The BYD-backed Robosense revealed the EM4 LiDAR sensor with 2,160 beams. It is two times more than Huawei's latest sensor. The post BYD-backed Robosense reveals LiDAR sensor with up to 2,160 beams appeared first on CarNewsChina.com .",
+        "full_content": "The BYD-backed Robosense revealed the EM4 LiDAR sensor with 2,160 beams. It is two times more than Huawei's latest sensor. The post BYD-backed Robosense reveals LiDAR sensor with up to 2,160 beams appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-06T07:00:12.361104"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-05_1772677809",
+    "date": "2026-03-05",
+    "poster": "./assets/news/news_2026-03-05_1772677809.png",
+    "items": [
+      {
+        "title": "中东冲突导致中国汽车出口受阻并波及欧洲",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/03/04/middle-east-conflict-disrupts-chinese-auto-exports-with-ripple-effects-to-europe/"
+      },
+      {
+        "title": "比亚迪仰望U7首搭刀片电池2.0：四电机实现1006公里续航",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/03/04/byds-new-yangwang-u7-first-to-feature-blade-battery-2-0-achieves-1006-km-range-with-quad-motors/"
+      },
+      {
+        "title": "比亚迪大唐纯电SUV内饰曝光，续航高达950公里",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/03/04/byd-great-tang-all-electric-suv-interior-revealed-up-to-950-km-range/"
+      },
+      {
+        "title": "理想汽车调侃大众生产“过时”的增程技术",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/03/04/li-auto-congratulations-to-volkswagen-on-producing-outdated-range-extender-technology/"
+      },
+      {
+        "title": "华为发布全球最高规格量产896线激光雷达",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/03/04/huawei-launches-worlds-highest-spec-mass-produced-896-line-dual-optical-path-lidar/"
+      },
+      {
+        "title": "阿里千问大模型换将，32岁林俊旸官宣告别",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/03/383842.html"
+      },
+      {
+        "title": "把20亿参数装进胸针？高通补齐了个人AI生态的最后一块拼图",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/03/383878.html"
+      },
+      {
+        "title": "苹果春季新品发布！AI性能暴涨8倍，8499元起",
+        "source": "量子位",
+        "link": "https://www.qbitai.com/2026/03/383902.html"
+      },
+      {
+        "title": "新版闲鱼正式上线，新增拍照即估价能力",
+        "source": "雷锋网",
+        "link": "https://www.leiphone.com/category/zaobao/QhQqBXSAfuZSbunO.html"
+      },
+      {
+        "title": "时隔十年，韩国围棋棋手李世石将再度对决 AI",
+        "source": "雷锋网",
+        "link": "https://www.leiphone.com/category/zaobao/QhQqBXSAfuZSbunO.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-04_1772582436",
+    "date": "2026-03-04",
+    "poster": "./assets/news/news_2026-03-04_1772582436.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/03/xiaomi-unveils-vision-gran-turismo-design-documentary-highlighting-global-collaboration/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米发布Vision GT设计纪录片",
+        "link": "https://carnewschina.com/2026/03/03/xiaomi-unveils-vision-gran-turismo-design-documentary-highlighting-global-collaboration/",
+        "published": "Tue, 03 Mar 2026 02:02:02 +0000",
+        "summary_raw": "Xiaomi's Vision GT design story revealed, debuting at MWC. The post Xiaomi unveils Vision Gran Turismo design documentary, highlighting global collaboration appeared first on CarNewsChina.com .",
+        "full_content": "Xiaomi's Vision GT design story revealed, debuting at MWC. The post Xiaomi unveils Vision Gran Turismo design documentary, highlighting global collaboration appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.396169"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/byd-unveils-official-images-of-its-great-tang-d-segment-flagship-suv-launch-set-for-march-5/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪大唐旗舰SUV官图发布，3月5日上市",
+        "link": "https://carnewschina.com/2026/03/03/byd-unveils-official-images-of-its-great-tang-d-segment-flagship-suv-launch-set-for-march-5/",
+        "published": "Tue, 03 Mar 2026 02:53:02 +0000",
+        "summary_raw": "BYD Great Tang D-segment flagship SUV official images unveiled, set for March 5 launch. The post BYD unveils official images of its Great Tang D-segment flagship SUV, set for March 5 release appeared first on CarNewsChina.com .",
+        "full_content": "BYD Great Tang D-segment flagship SUV official images unveiled, set for March 5 launch. The post BYD unveils official images of its Great Tang D-segment flagship SUV, set for March 5 release appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.396042"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/geely-teased-its-answer-to-land-rover-defender-ahead-of-official-release/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "吉利预告全新车型，剑指路虎卫士",
+        "link": "https://carnewschina.com/2026/03/03/geely-teased-its-answer-to-land-rover-defender-ahead-of-official-release/",
+        "published": "Tue, 03 Mar 2026 04:55:05 +0000",
+        "summary_raw": "Geely teased its answer to the Land Rover Defender ahead of the release. It is the mass-produced variant of the Geely Galaxy Cruiser concept. The post Geely teased its answer to Land Rover Defender ahead of official release appeared first on CarNewsChina.com .",
+        "full_content": "Geely teased its answer to the Land Rover Defender ahead of the release. It is the mass-produced variant of the Geely Galaxy Cruiser concept. The post Geely teased its answer to Land Rover Defender ahead of official release appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395921"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/memory-chip-crisis-why-volatility-has-surpassed-battery-costs-and-stalled-chinas-l3-autonomy-push/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "存储芯片危机致中国L3级自动驾驶受阻",
+        "link": "https://carnewschina.com/2026/03/03/memory-chip-crisis-why-volatility-has-surpassed-battery-costs-and-stalled-chinas-l3-autonomy-push/",
+        "published": "Tue, 03 Mar 2026 06:15:23 +0000",
+        "summary_raw": "Chinese chip maker, ChangXin Memory targets a 35% market share to provide relief for the domestic automotive chip shortage. The post Memory chip crisis: why volatility has surpassed battery costs and stalled China’s L3 autonomy push appeared first on CarNewsChina.com .",
+        "full_content": "Chinese chip maker, ChangXin Memory targets a 35% market share to provide relief for the domestic automotive chip shortage. The post Memory chip crisis: why volatility has surpassed battery costs and stalled China’s L3 autonomy push appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395778"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/volkswagen-began-production-of-the-ea211-range-extender-for-the-id-era-9x-suv/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "大众ID. Era 9X增程器EA211投产",
+        "link": "https://carnewschina.com/2026/03/03/volkswagen-began-production-of-the-ea211-range-extender-for-the-id-era-9x-suv/",
+        "published": "Tue, 03 Mar 2026 06:22:12 +0000",
+        "summary_raw": "Volkswagen and SAIC began mass production of the EA211 1.5-liter range extender variant for the ID. Era 9X full-size SUV. The post Volkswagen began production of the EA211 range extender for the ID. Era 9X SUV appeared first on CarNewsChina.com .",
+        "full_content": "Volkswagen and SAIC began mass production of the EA211 1.5-liter range extender variant for the ID. Era 9X full-size SUV. The post Volkswagen began production of the EA211 range extender for the ID. Era 9X SUV appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395638"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/byds-yangwang-u8-conquers-lab-simulated-mountain-climb-in-leaked-test-video/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "测试视频泄露：仰望U8征服模拟爬坡",
+        "link": "https://carnewschina.com/2026/03/03/byds-yangwang-u8-conquers-lab-simulated-mountain-climb-in-leaked-test-video/",
+        "published": "Tue, 03 Mar 2026 08:12:58 +0000",
+        "summary_raw": "BYD's new Yangwang U8 successfully simulates mountain climb ahead of March 5 release. The post BYD’s Yangwang U8 conquers lab-simulated mountain climb in leaked test video appeared first on CarNewsChina.com .",
+        "full_content": "BYD's new Yangwang U8 successfully simulates mountain climb ahead of March 5 release. The post BYD’s Yangwang U8 conquers lab-simulated mountain climb in leaked test video appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395507"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/byd-song-ultra-ev-breaks-cover-ahead-of-march-5-pre-sales/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪宋Ultra EV亮相，3月5日开启预售",
+        "link": "https://carnewschina.com/2026/03/03/byd-song-ultra-ev-breaks-cover-ahead-of-march-5-pre-sales/",
+        "published": "Tue, 03 Mar 2026 11:48:52 +0000",
+        "summary_raw": "Pre-sales for the BYD Song Ultra EV begin March 5, following the model's first appearance without camouflage. The post BYD Song Ultra EV breaks cover ahead of March 5 pre-sales appeared first on CarNewsChina.com .",
+        "full_content": "Pre-sales for the BYD Song Ultra EV begin March 5, following the model's first appearance without camouflage. The post BYD Song Ultra EV breaks cover ahead of March 5 pre-sales appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395314"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/bmw-dealership-terminated-in-china-as-legacy-automakers-face-major-challenges/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "传统车企承压，国内宝马经销商退网",
+        "link": "https://carnewschina.com/2026/03/03/bmw-dealership-terminated-in-china-as-legacy-automakers-face-major-challenges/",
+        "published": "Tue, 03 Mar 2026 12:27:22 +0000",
+        "summary_raw": "The BMW dealership has terminated its brand authorization in China, leaving car owners worried about their after-sales rights. The post BMW dealership terminated in China as legacy automakers face major challenges appeared first on CarNewsChina.com .",
+        "full_content": "The BMW dealership has terminated its brand authorization in China, leaving car owners worried about their after-sales rights. The post BMW dealership terminated in China as legacy automakers face major challenges appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395201"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/seal-08-teased-byds-ocean-8-flagship-readies-for-march-5-stage/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "海豹08预告：比亚迪海洋网旗舰3月5日亮相",
+        "link": "https://carnewschina.com/2026/03/03/seal-08-teased-byds-ocean-8-flagship-readies-for-march-5-stage/",
+        "published": "Tue, 03 Mar 2026 12:27:25 +0000",
+        "summary_raw": "The BYD Seal 08 production model includes LiDAR, rear-wheel steering, and second-generation Blade battery technology. The post Seal 08 teased: BYD’s Ocean 8 flagship readies for March 5 stage appeared first on CarNewsChina.com .",
+        "full_content": "The BYD Seal 08 production model includes LiDAR, rear-wheel steering, and second-generation Blade battery technology. The post Seal 08 teased: BYD’s Ocean 8 flagship readies for March 5 stage appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.395080"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/03/byd-atto-3-endures-jerusalem-rocket-attack-five-survive-three-injured/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪Atto3遭火箭弹袭击，车内5人幸存",
+        "link": "https://carnewschina.com/2026/03/03/byd-atto-3-endures-jerusalem-rocket-attack-five-survive-three-injured/",
+        "published": "Tue, 03 Mar 2026 13:23:11 +0000",
+        "summary_raw": "The BYD Atto 3's Blade Battery showed no fire risk after being caught in a close-range ballistic missile explosion. The post BYD Atto 3 endures Jerusalem rocket attack, five survive, three injured appeared first on CarNewsChina.com .",
+        "full_content": "The BYD Atto 3's Blade Battery showed no fire risk after being caught in a close-range ballistic missile explosion. The post BYD Atto 3 endures Jerusalem rocket attack, five survive, three injured appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-04T07:00:27.394929"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-03_1772492578",
+    "date": "2026-03-03",
+    "poster": "./assets/news/news_2026-03-03_1772492578.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/02/byd-feb-nev-sales-plummet-41-domestically-hit-by-chinese-holidays/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪2月内销因春节大跌41%",
+        "link": "https://carnewschina.com/2026/03/02/byd-feb-nev-sales-plummet-41-domestically-hit-by-chinese-holidays/",
+        "published": "Sun, 01 Mar 2026 23:11:49 +0000",
+        "summary_raw": "BYD's passenger vehicle sales reached 187,782 units in February, down roughly 41% year-on-year. The post BYD Feb NEV sales plummet 41% domestically, hit by Chinese holidays appeared first on CarNewsChina.com .",
+        "full_content": "BYD's passenger vehicle sales reached 187,782 units in February, down roughly 41% year-on-year. The post BYD Feb NEV sales plummet 41% domestically, hit by Chinese holidays appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.862327"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/xiaomi-scores-first-court-win-in-su7-ultra-hood-saga/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米赢得SU7 Ultra机盖争议首胜",
+        "link": "https://carnewschina.com/2026/03/02/xiaomi-scores-first-court-win-in-su7-ultra-hood-saga/",
+        "published": "Mon, 02 Mar 2026 03:39:54 +0000",
+        "summary_raw": "Xiaomi successfully defended its 5,810 USD hood option, with the court ruling out deliberate intent to mislead. The post Xiaomi scores first court win in SU7 Ultra hood saga appeared first on CarNewsChina.com .",
+        "full_content": "Xiaomi successfully defended its 5,810 USD hood option, with the court ruling out deliberate intent to mislead. The post Xiaomi scores first court win in SU7 Ultra hood saga appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.862176"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/arcfoxs-new-alpha-s5-starts-pre-sales-with-erev-options/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "极狐阿尔法S5开启预售，新增增程版",
+        "link": "https://carnewschina.com/2026/03/02/arcfoxs-new-alpha-s5-starts-pre-sales-with-erev-options/",
+        "published": "Mon, 02 Mar 2026 04:52:50 +0000",
+        "summary_raw": "Arcfox Alpha S5 pre-sale launched, starting from around 17,000 USD. The post Arcfox’s new Alpha S5 starts pre-sales with EREV options appeared first on CarNewsChina.com .",
+        "full_content": "Arcfox Alpha S5 pre-sale launched, starting from around 17,000 USD. The post Arcfox’s new Alpha S5 starts pre-sales with EREV options appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.862023"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/huawei-will-put-worlds-highest-line-count-mass-produced-lidar-on-its-updated-maextro-s800-and-aito-m9/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "华为尊界S800及问界M9将搭载最高线数激光雷达",
+        "link": "https://carnewschina.com/2026/03/02/huawei-will-put-worlds-highest-line-count-mass-produced-lidar-on-its-updated-maextro-s800-and-aito-m9/",
+        "published": "Mon, 02 Mar 2026 04:56:02 +0000",
+        "summary_raw": "The detail specifications will be revealed at the HIMA Technology Renewal Launch Conference on March 4th in China. The post Huawei will put world’s highest line-count mass-produced lidar on its updated Maextro S800 and Aito M9 appeared first on CarNewsChina.com .",
+        "full_content": "The detail specifications will be revealed at the HIMA Technology Renewal Launch Conference on March 4th in China. The post Huawei will put world’s highest line-count mass-produced lidar on its updated Maextro S800 and Aito M9 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.861860"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/byds-denza-z9-gt-set-for-march-5-debut-1140-hp-awd-spotted-at-1500-kw-station/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "腾势Z9 GT将于3月5日上市，支持1500kW快充",
+        "link": "https://carnewschina.com/2026/03/02/byds-denza-z9-gt-set-for-march-5-debut-1140-hp-awd-spotted-at-1500-kw-station/",
+        "published": "Mon, 02 Mar 2026 04:58:15 +0000",
+        "summary_raw": "The updated Denza Z9 GT AWD now delivers 1,140 hp, a significant jump from the original 952 hp launch specification. The post BYD’s Denza Z9 GT set for March 5 debut, 1,140 hp AWD and 1,500 kW charging trials sighted appeared first on CarNewsChina.com .",
+        "full_content": "The updated Denza Z9 GT AWD now delivers 1,140 hp, a significant jump from the original 952 hp launch specification. The post BYD’s Denza Z9 GT set for March 5 debut, 1,140 hp AWD and 1,500 kW charging trials sighted appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.861656"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/chery-released-tiggo-7l-suv-official-images-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞瑞虎7L SUV官方图正式发布",
+        "link": "https://carnewschina.com/2026/03/02/chery-released-tiggo-7l-suv-official-images-in-china/",
+        "published": "Mon, 02 Mar 2026 05:51:26 +0000",
+        "summary_raw": "The Tiggo 7L was reportedly exported to Russia, but Chery now plans to also sell the model in China, and seemingly with an updated design. The post Chery released Tiggo 7L SUV official images in China appeared first on CarNewsChina.com .",
+        "full_content": "The Tiggo 7L was reportedly exported to Russia, but Chery now plans to also sell the model in China, and seemingly with an updated design. The post Chery released Tiggo 7L SUV official images in China appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.861491"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/chery-qq3-ev-to-enter-china-on-march-10-to-rival-local-bestseller-geely-ex2/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞QQ3 EV将于3月10日上市，对标吉利EX2",
+        "link": "https://carnewschina.com/2026/03/02/chery-qq3-ev-to-enter-china-on-march-10-to-rival-local-bestseller-geely-ex2/",
+        "published": "Mon, 02 Mar 2026 05:54:43 +0000",
+        "summary_raw": "The Chery QQ3 EV four-door hatchback will enter the Chinese market on March 10. It will rival China’s bestselling car of 2025 – the Geely EX2. The post Chery QQ3 EV to enter China on March 10 to rival local bestseller Geely EX2 appeared first on CarNewsChina.com .",
+        "full_content": "The Chery QQ3 EV four-door hatchback will enter the Chinese market on March 10. It will rival China’s bestselling car of 2025 – the Geely EX2. The post Chery QQ3 EV to enter China on March 10 to rival local bestseller Geely EX2 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.861344"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/volkswagen-backed-gotion-locks-in-2gwh-solid-state-line-design-eyes-2026-ev-debut/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "国轩高科2GWh固态电池产线落地，2026年上车",
+        "link": "https://carnewschina.com/2026/03/02/volkswagen-backed-gotion-locks-in-2gwh-solid-state-line-design-eyes-2026-ev-debut/",
+        "published": "Mon, 02 Mar 2026 06:12:34 +0000",
+        "summary_raw": "Partnering with Volkswagen, Gotion aims to deploy all-solid-state batteries in high-end models, offering a 1,000 km driving range. The post Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut appeared first on CarNewsChina.com .",
+        "full_content": "Partnering with Volkswagen, Gotion aims to deploy all-solid-state batteries in high-end models, offering a 1,000 km driving range. The post Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.861182"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/02/updated-xpeng-x9-ev-minivan-launched-in-china-with-rear-wheel-steering-and-2250-tops/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "新款小鹏X9上市：标配后轮转向，算力2250 TOPS",
+        "link": "https://carnewschina.com/2026/03/02/updated-xpeng-x9-ev-minivan-launched-in-china-with-rear-wheel-steering-and-2250-tops/",
+        "published": "Mon, 02 Mar 2026 10:23:51 +0000",
+        "summary_raw": "The updated Xpeng X9 EV minivan was launched in China with a price range of 45,170 – 53,920 USD. It boasts rear-wheel steering and 2,250 TOPS. The post Updated Xpeng X9 EV minivan launched in China with rear-wheel steering and 2,250 TOPS appeared first on CarNewsChina.com .",
+        "full_content": "The updated Xpeng X9 EV minivan was launched in China with a price range of 45,170 – 53,920 USD. It boasts rear-wheel steering and 2,250 TOPS. The post Updated Xpeng X9 EV minivan launched in China with rear-wheel steering and 2,250 TOPS appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-03T07:00:12.860999"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/382971.html",
+        "source": "量子位 (QbitAI)",
+        "title": "商汤办公小浣熊推出“可编辑”AI PPT",
+        "link": "https://www.qbitai.com/2026/03/382971.html",
+        "published": "Mon, 02 Mar 2026 04:05:15 +0000",
+        "summary_raw": "每一页都由用户掌控，才是真正好用的AI PPT",
+        "full_content": "每一页都由用户掌控，才是真正好用的AI PPT",
+        "fetched_at": "2026-03-03T07:00:04.747822"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-02_1772406357",
+    "date": "2026-03-02",
+    "poster": "./assets/news/news_2026-03-02_1772406357.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/01/byd-spotted-testing-1500-kw-flash-charge-in-china-nearly-triple-tesla-v4-power/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪实测1500kW闪充，功率近特斯拉V4三倍",
+        "link": "https://carnewschina.com/2026/03/01/byd-spotted-testing-1500-kw-flash-charge-in-china-nearly-triple-tesla-v4-power/",
+        "published": "Sun, 01 Mar 2026 02:38:10 +0000",
+        "summary_raw": "BYD megawatt charging hardware observed during internal testing near its Shenzhen headquarters. The post BYD spotted testing 1500 kW Flash Charge in China, nearly triple Tesla V4 power appeared first on CarNewsChina.com .",
+        "full_content": "BYD megawatt charging hardware observed during internal testing near its Shenzhen headquarters. The post BYD spotted testing 1500 kW Flash Charge in China, nearly triple Tesla V4 power appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-02T07:03:11.512372"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/01/volkswagens-first-flagship-erev-suv-in-china-id-era-9x-interior-unveiled-ahead-of-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "大众首款旗舰增程SUV ID. Era 9X内饰曝光",
+        "link": "https://carnewschina.com/2026/03/01/volkswagens-first-flagship-erev-suv-in-china-id-era-9x-interior-unveiled-ahead-of-launch/",
+        "published": "Sun, 01 Mar 2026 03:53:19 +0000",
+        "summary_raw": "Once launched, the ID. Era 9X will become SAIC-Volkswagen’s largest model, and compete directly with other “9-series” flagship models such as the Zeekr 9X, Li Auto L9, and IM LS9. The post Volkswagen’s first flagship EREV SUV in China, ID. Era 9X interior unveiled ahead of launch appeared first on CarNewsChina.com .",
+        "full_content": "Once launched, the ID. Era 9X will become SAIC-Volkswagen’s largest model, and compete directly with other “9-series” flagship models such as the Zeekr 9X, Li Auto L9, and IM LS9. The post Volkswagen’s first flagship EREV SUV in China, ID. Era 9X interior unveiled ahead of launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-02T07:03:11.512237"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/01/hidden-flagship-gwm-chairman-drops-suv-teaser-with-tank-700-like-profile/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "长城董事长曝旗舰SUV预告，神似坦克700",
+        "link": "https://carnewschina.com/2026/03/01/hidden-flagship-gwm-chairman-drops-suv-teaser-with-tank-700-like-profile/",
+        "published": "Sun, 01 Mar 2026 04:47:25 +0000",
+        "summary_raw": "GWM releases video of new covered flagship SUV, revealing front profile and cultural design cues without confirming model or specs. The post Hidden flagship: GWM Chairman drops SUV teaser with Tank 700‑like profile appeared first on CarNewsChina.com .",
+        "full_content": "GWM releases video of new covered flagship SUV, revealing front profile and cultural design cues without confirming model or specs. The post Hidden flagship: GWM Chairman drops SUV teaser with Tank 700‑like profile appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-02T07:03:11.512056"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/01/byd-released-seal-07-ev-official-images-ahead-of-launch-range/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪海豹07 EV官图发布，续航及上市在即",
+        "link": "https://carnewschina.com/2026/03/01/byd-released-seal-07-ev-official-images-ahead-of-launch-range/",
+        "published": "Sun, 01 Mar 2026 15:35:12 +0000",
+        "summary_raw": "The Seal 07 EV is built based on the e-platform 3.0 Evo and boasts a 705 km range. Its official launch is expected to be in March. The post BYD released Seal 07 EV official images ahead of launch range appeared first on CarNewsChina.com .",
+        "full_content": "The Seal 07 EV is built based on the e-platform 3.0 Evo and boasts a 705 km range. Its official launch is expected to be in March. The post BYD released Seal 07 EV official images ahead of launch range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-02T07:03:11.511878"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/01/leapmotor-reclaimed-top-spot-from-hima-xpeng-is-last-among-major-nev-startup-players-feb-2026-sales/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "2月销量：零跑反超鸿蒙智行夺冠，小鹏垫底",
+        "link": "https://carnewschina.com/2026/03/01/leapmotor-reclaimed-top-spot-from-hima-xpeng-is-last-among-major-nev-startup-players-feb-2026-sales/",
+        "published": "Sun, 01 Mar 2026 17:29:35 +0000",
+        "summary_raw": "Leapmotor reclaimed the top spot from Huawei's HIMA with 28,067 vehicles sold in February's slow season. Xpeng ranked last among the major NEV startup players. The post Leapmotor reclaimed top spot from HIMA, Xpeng is last among major NEV startup players, Feb 2026 sales appeared first on CarNewsChina.com .",
+        "full_content": "Leapmotor reclaimed the top spot from Huawei's HIMA with 28,067 vehicles sold in February's slow season. Xpeng ranked last among the major NEV startup players. The post Leapmotor reclaimed top spot from HIMA, Xpeng is last among major NEV startup players, Feb 2026 sales appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-02T07:03:11.511673"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1551454.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "瑞芯微就MPP开源合规致歉，正与FFmpeg沟通",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1551454.htm",
+        "published": "Fri, 27 Feb 2026 05:23:56 GMT",
+        "summary_raw": "2月27日，瑞芯微发布关于 MPP 开源合规事件的通告称，近期，公司开源媒体框架软件MPP因部分代码开源许可证条款合规问题，导致其 GitHub 仓库被暂时冻结。在此，向开源社区、所有受影响的合作伙伴、开发者致歉。 阅读全文",
+        "full_content": "2月27日，瑞芯微发布关于 MPP 开源合规事件的通告称，近期，公司开源媒体框架软件MPP因部分代码开源许可证条款合规问题，导致其 GitHub 仓库被暂时冻结。在此，向开源社区、所有受影响的合作伙伴、开发者致歉。 阅读全文",
+        "fetched_at": "2026-03-02T07:03:09.918406"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/music/1551456.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "王力宏现身比亚迪饭局，外界猜测或将代言",
+        "link": "https://www.cnbeta.com.tw/articles/music/1551456.htm",
+        "published": "Fri, 27 Feb 2026 05:25:32 GMT",
+        "summary_raw": "2月27日下午消息，网传信息显示，王力宏近日现身比亚迪高层饭局，比亚迪执行副总裁李柯、比亚迪品牌及公关处总经理李云飞等高管陪同。 阅读全文",
+        "full_content": "2月27日下午消息，网传信息显示，王力宏近日现身比亚迪高层饭局，比亚迪执行副总裁李柯、比亚迪品牌及公关处总经理李云飞等高管陪同。 阅读全文",
+        "fetched_at": "2026-03-02T07:03:09.918329"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1551458.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "Xcode 26.3正式支持Claude/Codex AI助手",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1551458.htm",
+        "published": "Fri, 27 Feb 2026 05:27:08 GMT",
+        "summary_raw": "经过数周的测试，苹果现在终于发布 Xcode 26.3 正式版，此次更新的最大亮点就是正式支持智能体编码 (Agentic Coding)，让开发者可以在 Xcode 里直接调用 Anthropic Claude Agent 和 OpenAI Codex 来创建应用程序。 阅读全文",
+        "full_content": "经过数周的测试，苹果现在终于发布 Xcode 26.3 正式版，此次更新的最大亮点就是正式支持智能体编码 (Agentic Coding)，让开发者可以在 Xcode 里直接调用 Anthropic Claude Agent 和 OpenAI Codex 来创建应用程序。 阅读全文",
+        "fetched_at": "2026-03-02T07:03:09.918239"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/movie/1551460.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "Twitch强制观看广告：非活跃窗口将自动暂停",
+        "link": "https://www.cnbeta.com.tw/articles/movie/1551460.htm",
+        "published": "Fri, 27 Feb 2026 05:27:50 GMT",
+        "summary_raw": "日前有网友吐槽亚马逊旗下直播平台 Twitch 离谱的广告方案，亚马逊要求用户在观看 Twitch 广告时不能离开视线，当然亚马逊本身不能检测用户是否盯着屏幕，所以折中方案是禁止用户将广告切换到后台。 阅读全文",
+        "full_content": "日前有网友吐槽亚马逊旗下直播平台 Twitch 离谱的广告方案，亚马逊要求用户在观看 Twitch 广告时不能离开视线，当然亚马逊本身不能检测用户是否盯着屏幕，所以折中方案是禁止用户将广告切换到后台。 阅读全文",
+        "fetched_at": "2026-03-02T07:03:09.918161"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1551462.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "5000星开源维护者可领半年Claude Max订阅",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1551462.htm",
+        "published": "Fri, 27 Feb 2026 05:28:55 GMT",
+        "summary_raw": "日前 Claude Code 团队宣布面向开源社区提供优惠活动，项目达到 5000 星星的开源项目主要维护者或核心成员可以免费领取 6 个月的 Claude Max 20x 订阅权限，在订阅期限内可以免费使用 Claude Max 附带的各种权限。 阅读全文",
+        "full_content": "日前 Claude Code 团队宣布面向开源社区提供优惠活动，项目达到 5000 星星的开源项目主要维护者或核心成员可以免费领取 6 个月的 Claude Max 20x 订阅权限，在订阅期限内可以免费使用 Claude Max 附带的各种权限。 阅读全文",
+        "fetched_at": "2026-03-02T07:03:09.918084"
+      }
+    ]
+  },
+  {
+    "id": "2026-03-01_1772319766",
+    "date": "2026-03-01",
+    "poster": "./assets/news/news_2026-03-01_1772319766.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/02/28/huawei-backed-saic-z7-taycan-inspired-design-revealed-in-debut-videos/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "华为赋能赛克Z7：致敬Taycan设计",
+        "link": "https://carnewschina.com/2026/02/28/huawei-backed-saic-z7-taycan-inspired-design-revealed-in-debut-videos/",
+        "published": "Sat, 28 Feb 2026 02:35:39 +0000",
+        "summary_raw": "Huawei's Taycan-esque electric coupe showcased in first exterior video. The post Huawei-backed Saic Z7: Taycan-inspired design revealed in debut videos appeared first on CarNewsChina.com .",
+        "full_content": "Huawei's Taycan-esque electric coupe showcased in first exterior video. The post Huawei-backed Saic Z7: Taycan-inspired design revealed in debut videos appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-01T07:00:15.023592"
+      },
+      {
+        "id": "https://carnewschina.com/2026/02/28/xiaomi-goes-full-throttle-first-chinese-vision-gt-racer-teased-ahead-of-mwc-2026/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米Vision GT赛车预热MWC 2026",
+        "link": "https://carnewschina.com/2026/02/28/xiaomi-goes-full-throttle-first-chinese-vision-gt-racer-teased-ahead-of-mwc-2026/",
+        "published": "Sat, 28 Feb 2026 03:31:10 +0000",
+        "summary_raw": "Covered Xiaomi Vision Gran Turismo concept car photographed at MWC 2026 setup in Barcelona, Spain. The post Xiaomi goes full throttle: first Chinese Vision GT racer teased ahead of MWC 2026 appeared first on CarNewsChina.com .",
+        "full_content": "Covered Xiaomi Vision Gran Turismo concept car photographed at MWC 2026 setup in Barcelona, Spain. The post Xiaomi goes full throttle: first Chinese Vision GT racer teased ahead of MWC 2026 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-01T07:00:15.023417"
+      },
+      {
+        "id": "https://carnewschina.com/2026/02/28/byd-leak-shows-flash-charging-app-as-1500-kw-network-prepares-nationwide/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪闪充App上线，布局1500kW超充",
+        "link": "https://carnewschina.com/2026/02/28/byd-leak-shows-flash-charging-app-as-1500-kw-network-prepares-nationwide/",
+        "published": "Sat, 28 Feb 2026 09:17:52 +0000",
+        "summary_raw": "Circulating images indicate Flash Charging functionality may integrate into the main BYD App. The post BYD’s Flash Charging app goes live as 1,500 kW network prepares nationwide appeared first on CarNewsChina.com .",
+        "full_content": "Circulating images indicate Flash Charging functionality may integrate into the main BYD App. The post BYD’s Flash Charging app goes live as 1,500 kW network prepares nationwide appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-01T07:00:15.023243"
+      },
+      {
+        "id": "https://carnewschina.com/2026/02/28/xiaomi-shows-off-vision-gt-at-mwc-barcelona-as-it-prepares-for-overseas-launch-in-2027/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米Vision GT亮相MWC，2027年进军海外",
+        "link": "https://carnewschina.com/2026/02/28/xiaomi-shows-off-vision-gt-at-mwc-barcelona-as-it-prepares-for-overseas-launch-in-2027/",
+        "published": "Sat, 28 Feb 2026 16:53:14 +0000",
+        "summary_raw": "This concept car debut is seen as a key move by Xiaomi Auto to penetrate the global high-performance car market and advance its European expansion strategy. The post Xiaomi shows off Vision GT at MWC Barcelona as it prepares for overseas launch in 2027 appeared first on CarNewsChina.com .",
+        "full_content": "This concept car debut is seen as a key move by Xiaomi Auto to penetrate the global high-performance car market and advance its European expansion strategy. The post Xiaomi shows off Vision GT at MWC Barcelona as it prepares for overseas launch in 2027 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-01T07:00:15.023021"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/02/382934.html",
+        "source": "量子位 (QbitAI)",
+        "title": "OpenAI融资1100亿美元，英伟达等入局",
+        "link": "https://www.qbitai.com/2026/02/382934.html",
+        "published": "Sat, 28 Feb 2026 03:50:45 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-01T07:00:05.118987"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/02/382952.html",
+        "source": "量子位 (QbitAI)",
+        "title": "海淀发布90亿科创政策，释放三大信号",
+        "link": "https://www.qbitai.com/2026/02/382952.html",
+        "published": "Sat, 28 Feb 2026 12:59:13 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-01T07:00:05.118969"
+      },
+      {
+        "id": "https://www.leiphone.com/category/zaobao/C4kW7EtUqrcMQkUd.html",
+        "source": "雷锋网 (Leiphone)",
+        "title": "米哈游回应员工猝死；哈啰争议招聘；语音关灯热议",
+        "link": "https://www.leiphone.com/category/zaobao/C4kW7EtUqrcMQkUd.html",
+        "published": "Sat, 28 Feb 2026 09:14:00 +0800",
+        "summary_raw": "要闻提示 1.仅补贴3万元？曝36岁程序员复工当晚猝死，米哈游回应：不存在春节加班，已成立专项小组 2.多品牌车主尝试语音关闭大灯：特斯拉、小米均有安全提示，深蓝、极氪或存在领克同款 Bug！车企回应 3.知名共享车品牌哈啰招聘运营管理人员，要求“98后，能力强放宽至97后”，客服回应 4.魅族暂停手机研发！李楠曝光原因：当年我想办法促成阿里入股，但一手对A最终失效 5.小米汽车：将重建安全顾问委员会及公众安全沟通机制 6.寒武纪上市后首次全年盈利！2025 年净利 20.59 亿元，营收近 65 亿元，同比暴增 453% 7.OpenAI宣布获“亚马逊+英伟达+软银”1100亿美元新投资 8.传懂车帝考虑香港IPO，募资10亿至15亿美元 今日头条 仅补贴3万元？曝36岁程序员复工当晚猝死，米哈游回应：不存在春节加班，已成立专项小组 2月27日，有博主爆料，一名米哈游员工正月初八在出租屋内猝死，公司仅赔偿3万元补贴及意外险。博主还晒出了死者家属在朋友圈发文的截图。该员工家属在朋友圈发文表示，表弟于初八上班后，当晚在其住所不幸离世。因长期过度劳累、身心透支，骤然离去。同时，家属在死者本...",
+        "full_content": "要闻提示 1.仅补贴3万元？曝36岁程序员复工当晚猝死，米哈游回应：不存在春节加班，已成立专项小组 2.多品牌车主尝试语音关闭大灯：特斯拉、小米均有安全提示，深蓝、极氪或存在领克同款 Bug！车企回应 3.知名共享车品牌哈啰招聘运营管理人员，要求“98后，能力强放宽至97后”，客服回应 4.魅族暂停手机研发！李楠曝光原因：当年我想办法促成阿里入股，但一手对A最终失效 5.小米汽车：将重建安全顾问委员会及公众安全沟通机制 6.寒武纪上市后首次全年盈利！2025 年净利 20.59 亿元，营收近 65 亿元，同比暴增 453% 7.OpenAI宣布获“亚马逊+英伟达+软银”1100亿美元新投资 8.传懂车帝考虑香港IPO，募资10亿至15亿美元 今日头条 仅补贴3万元？曝36岁程序员复工当晚猝死，米哈游回应：不存在春节加班，已成立专项小组 2月27日，有博主爆料，一名米哈游员工正月初八在出租屋内猝死，公司仅赔偿3万元补贴及意外险。博主还晒出了死者家属在朋友圈发文的截图。该员工家属在朋友圈发文表示，表弟于初八上班后，当晚在其住所不幸离世。因长期过度劳累、身心透支，骤然离去。同时，家属在死者本人朋友圈发文，描述详细情况。爆料信息显示，家属表示，自己的表弟是上海一名36岁游戏公司程序员，于正月初八在出租屋内不幸离世，其生前长期超负荷工作，而涉事公司将其死亡归因于自身身体原因，只赔意外险，再加三万元精神补贴。 家属还补充道，表弟是家中独子，父母年迈体弱，目前对其死前经历、公司最后阶段是否存在施压等情况无从查证，对公司的赔偿方案及死因归因表示无法接受。值得注意的是，此事在网络曝光后，一张两位老人在米哈游门口与保安交涉的照片也随之流出。2月27日午间，米哈游内部发文回应员工意外离世。内容提到：“......我们的同事**意外离世。在春节假期后于2月24日返岗复工，当日19时08分下班。25日上午未如常参加早会，电话也一直联系不上，出于对员工安全的担忧，我们第一时间联系了家属与警方。警方前往其住所后发现：已经不幸离世。” 米哈游内部邮件表示，公司有完整的员工关怀政策来为意外情况兜底，包括商业保险、后事安置金、专项慰问补助等，请大家相信公司肯定会妥善处理好这个事情。此外，米哈游向媒体表示，经核查，该名同事不存在春节期间加班情况，复工返岗后下班时间正常。公司已成立专项小组，正全力协助家属处理善后事宜，提供一切必要的支持与陪伴。另据接近米哈游相关人士透露，目前公司与家属在积极沟通当中，网传3万元抚慰金为不实信息。也有媒体称，互联网大厂的工作强度是出名的大。网传在之前的对标网站上，米哈游是每周工作时长52.2小时，位列37名。（科技每日推送、游戏新知） 国内资讯 多品牌车主尝试语音关闭大灯：特斯拉、小米均有安全提示，深蓝、极氪或存在领克同款 Bug！车企回应 2 月 27 日消息，近日，领克Z20意外触发语音助手误关车辆大灯导致车祸一事引发关注，领克方面致歉并表示，已经第一时间完成了语音控制优化方案，后续在行驶状态下只能通过手动控制大灯关闭。随后，网上其他品牌车主也进行了尝试语音关闭大灯的测试。根据网友 @开假四驱的呆萌 测试，同为吉利旗下的极氪也有语音能把大灯关掉的问题。触发这个 Bug 只需要一句话“关闭所有灯光”。但是，如果只说“关闭大灯”是关不掉的。不过另有车主表示，目前极氪已经修复了这个bug。在网友的视频中，当车主要求关闭大灯，特斯拉车机回复，“为保证安全，请在停车后关闭大灯。”小米汽车车机回复，“安全起见，切到 P 档才能用语音关闭大灯。” 小鹏、深蓝则需通过特定指令关闭大灯。小鹏车主表示，“直接叫他关关不了，但是用私人定制里的快捷指令就可以关闭了。万一高速不小心喊出来了也是很可怕。”深蓝 S05 车主表示，“我跟车机说：‘你好深蓝，关闭所有灯光’。车机非常‘听话’且‘迅速’地执行了指令 —— 把车辆行驶必需的外部大灯，直接给关了！在那一瞬间，车内确实暗了，但车外也瞎了！” 据报道，小鹏客服表示，“我们为了避免在车外光线昏暗的时候，误触到小 P 关闭灯光引起驾驶安全问题，目前在车外光线环境较暗的时候，关闭近光灯需要手动在大屏上进行操作。”随后，小鹏方面回电进一步说明，“如果您有给它下达了指令的话，它还是会有触发条件的，可能会直接关闭（大灯）。在行车过程（中），会影响安全驾驶。”极氪客服明确表示：“正常所有车型，它都不支持行驶当中通过语音助手关闭灯光。除非是挂在 P 档，那么通过‘关闭车外灯光’或‘关闭大灯’等明确指令，可以关闭车外灯光。如果说行驶中关闭的话，就有危险了。”深蓝客服表示“具体以实际操作为准”。 知名共享车品牌哈啰招聘运营管理人员，要求“98后，能力强放宽至97后”，客服回应 一名网友近日在社交媒体发帖称，其在招聘网站发现有岗位招聘要求“98后”，认为对年龄的限制很严苛。2月27日，涉事品牌客服人员回应称，涉及相关招聘信息，可直接咨询招聘信息发布者。广州市人力资源和社会保障咨询热线12333工作人员告诉媒体，招聘属于企业的自主行为，如果认为存在招聘歧视可向属地劳动部门反映。 2月25日，IP属地广东的一名网友发布截图显示，哈啰普惠在招聘“运营管理”岗位，除了对学历、工作经验、个人能力等进行要求外，还限制“98后，能力强可放宽至97后”。“35岁都是包容的了……1997年什么概念，今年不到30岁。”该网友称。2月27日，经查询相关招聘网站发现，这一岗位的工作职责为完成区域内车辆调度、管理及车辆分布等工作；负责辖区内车辆运营环境的建设，不断加深与辖区政府部门的关系，维护品牌形象，建立良好的运营秩序；负责运维团队招聘、培训、管理、汰换等。要求“本科以上学历，1年以上工作经验……98后，能力强可放宽至97”。 该招聘网站上，“哈啰普惠”有超过2400条招聘信息，工作地位于广州的多个岗位要求30岁以下，涉及城市经理、高级渠道经理、服务中心店员等岗位。其中，“城市经理/省区经理（E5/6）”的岗位要求至少5年知名互联网企业运营经验，独立负责过多城市运营业务，有50人以上前线运营团队管理经验，有过中台团队管理经验优先考虑。年龄及学历要求是“E5年纪95后优先，全日制本科（必须项）；E6年纪92后优先，全日制大专”。27日，媒体向上述多个岗位的招聘者咨询了关于年龄的要求，截至发稿未获得回复。（极目新闻） 公司回应开工仪式上员工集体跪拜：员工自愿未被强迫，过年有类似习俗 2月27日消息，据媒体报道，近日，山东滨州无棣县某工厂开工仪式上员工集体下跪的视频在网络引发关注。部分网友质疑该行为涉嫌宣扬“奴性文化”，存在对员工变相“PUA”之嫌。 对此，涉事企业员工回应称，跪拜属于当地“敬天敬地”的传统民俗，所有参与员工均为自愿，且类似仪式在当地年节习俗中较为常见。即使考虑到部分地区可能确实存在这类民俗文化，但对于将“跪拜礼”结合到开工仪式上，很多网友仍然觉得过分，认为这种企业氛围甚至企业文化不值得提倡。（快科技、三言科技） 魅族暂停手机研发！李楠曝光原因：当年我想办法促成阿里入股，但一手对A最终失效 2月27日消息，27日，魅族科技正式发布战略转型公告，宣布魅族将暂停国内手机新产品自研硬件项目，并在积极接洽第三方硬件合作伙伴，同时原有业务不受任何影响。据媒体爆料，魅族接洽的合作方或为酷比魔方。有知情人士表示，“目前酷比魔方对魅族有合作意向，具体仍在沟通推进中，合作情况还要看产品方面沟通。” 魅族还在公告中表示，众所周知，近年来国内手机市场竞争激烈程度超乎想象，很多品牌先后选择战略收缩，虽然困难重重，我们仍尽全力拼搏，希望能保持魅族手机的正常迭代，但近来内存价格的持续暴涨让下一步新产品的正常商业化变成了不可为。后续，魅族将战略转型，从过去以硬件为主导转向为以AI驱动软件产品为主导的发展方向，并打造以Flyme开放生态系统为基座的良性运转的企业。 对此，前魅族高管李楠揭秘魅族手机失败背后的原因。他表示， 2017年自己就意识到整个手机行业会冲顶，马太效应会显现。所以争取终局船票的唯一办法就是和阿里做更紧密的绑定。“这也是当年我想办法促成阿里入股的最重要的理由。”李楠坦言，无奈的是，整个魅族的系统部门还是想自己创造收入，认为全球最强的互联网企业之一的后向能力不如自己。而这其实是阿里对于魅族最核心的诉求。这导致我们手里的一对A最终失效。“后续虽然做了一些事情，包括忽悠公司领导开始研究电车，但是本质上已经无关大局。所以19年的时候我就离职了。” 公开资料显示，李楠曾任魅族科技CMO兼高级副总裁、魅蓝总裁，期间主导魅族品牌重塑并促成阿里巴巴5900万美元融资，主导建立“Connect to Meizu”平台整合网页端服务至手机端，创立魅蓝品牌并建立全新营销方针及线下销售渠道，推动魅蓝手机年销量超400万台且品牌全球增长率达450%。（快科技、蓝鲸科技） 小米汽车：将重建安全顾问委员会及公众安全沟通机制 2月27日消息，27日晚间，小米创办人、董事长兼CEO雷军在小米汽车工厂里进行直播，与多位小米技术专家畅聊小米汽车的安全体系。直播中，小米方面透露，新的一年，小米汽车将重建小米汽车安全顾问委员会，将向全国各大专院校、科研院所的车辆安全专家，以及曾经参与过国家事务调查召回的专家发出邀请，请他们来为小米汽车的安全进行多角度评估和把关。 此外，小米汽车还希望建立公众安全沟通机制，与车主、媒体、专家定期沟通，为小米汽车安全出谋划策，预计今年上半年将召开一期活动。“安全是全行业最重视的事情，我们也希望在国家有关协会的牵头下，成立汽车安全联盟，定期分享安全进展，探讨解决安全问题，共同推进行业安全水平。”小米方面表示。 雷军还透露，新一代小米SU7在安全方面又做了非常多的升级。此次直播中重点提到，小米SU7全系标配了三重冗余的车门把手，内置了机械结构和备用电源，车内车外都可以机械开门，以确保车辆开门安全，使得门锁既可以电动打开，也可以机械打开。直播还提到，“确保在任何情况下都可以从车内打开车门”。（新浪科技、红星资本局） 1元秒杀11万元汽车后：商家却以测试链接为由拒绝发货，法院判了 2月27日消息，据报道，近日，成都铁路运输第一法院对一起1元秒杀汽车引发的信息网络买卖纠纷案作出判决，驳回原告全部诉讼请求。该案源于2025年10月，原告小文在某电商平台发现某汽车公司官方店铺内一款价值11万余元的汽车标价1元，其完成下单支付后，商家以该链接为测试链接、系统操作失误为由拒绝发货，仅提出退款并致歉。小文遂向法院起诉，要求商家交付车辆或赔偿损失118900元。 庭审中，双方就合同是否成立展开辩论。原告认为，商品页面具备图片、价格、购买按钮等交易要素，自身无义务辨别商家后台技术错误，商家行为构成违约。商家则辩称，该链接为测试用途，其页面上存在制造商信息与品牌不符、电动车却标注燃油车才有的“手动挡”配置等明显且相互矛盾的错误信息。此外，1元的价格与车辆高达11万余元的实际市场价值严重不符。 法院经审理查明，案件中商品页面虽显示车辆颜色、型号等信息，但存在多处信息瑕疵，且标价远低于市场正常价格，商家在原告下单后也第一时间电话致歉并说明情况。法院认为，网络购物合同的成立需以双方真实意思表示为前提，商家发布的商品信息需具体明确、要素完整才能构成要约。本案中案涉链接并非商家真实销售意思表示，因此双方买卖合同未成立，电商平台亦无需承担连带责任。（快科技） 寒武纪上市后首次全年盈利！2025 年净利 20.59 亿元，营收近 65 亿元，同比暴增 453% 2 月 27 日消息，在发布业绩预告后、正式的财报披露前，2月27日收盘后，寒武纪发布了一份业绩快报，显示2025年寒武纪营收64.97亿元，同比增长453.21%，净利润20.59亿元，同比扭亏。 “报告期内，受益于人工智能行业算力需求持续攀升，公司积极推动人工智能应用场景落地，使得本期收入规模较上年同期大幅增长。”寒武纪表示，净利润扭亏为盈主要是营收增长所致。2024年第四季度，寒武纪迎来上市后首个盈利的季度，从业绩快报数据看，2025年则是寒武纪首个实现盈利的年度。随着2025年实现盈利，寒武纪的证券代号有望摘“U”。 此外，摩尔线程同日也发布了业绩快报，显示去年该公司营收15.06亿元，同比增长243.37%，净利润亏损10.24亿元，亏损同比缩窄。而沐曦股份此前也发布了2025年业绩预告。沐曦股份预计去年营收16亿元~17亿元，同比增长115.32%~128.78%，亏损6.5亿元~7.98亿元，亏损幅度也同比收窄。对照沐曦股份此前在招股书中预计的2025年前9个月净利润数据，该公司去年第四季度亏损2.7亿元~4.98亿元。亏损金额可能接近甚至超过前三季度的亏损金额。（第一财经） 龙芯中科 2025 年营收 6.35 亿元同比增长 25.99%，净亏损 4.54 亿元 2 月 27 日消息，龙芯中科发布 2025 年度业绩快报公告：2025 年度营业收入 6.35 亿元，同比增长 25.99%；归属于母公司所有者的净亏损 4.54 亿元，上年同期亏损 6.25 亿元；基本每股亏损 1.13 元，上年同期亏损 1.56 元。 龙芯中科表示，报告期内，公司毛利率逐步回归到良好水平。工控领域业务逐渐恢复带动高质量等级产品出货；信息化领域对外技术授权的新业务毛利贡献较大，且与桌面 CPU 配套的低成本桥片逐步开始出货；以上因素带动毛利率逐步回升。 报告期内，公司按照既定的会计政策计提的信用减值损失和资产减值损失预计金额合计约 1.61 亿元，同比减少约 0.87 亿元。公司加强应收账款管理和客户信用管理，回款情况逐步改善；存货跌价准备计提规模随着传统安全应用市场的恢复和工控业务的进一步开拓正在快速收窄。报告期内，公司营业利润、利润总额同比上升幅度较大，主要系报告期内营业收入增长、毛利率回归到良好水平、政府补助增加、减值损失快速收窄所致。雷峰网作者（微信号 mindy1857 ）长期关注AI、云、算力相关投资标的，欢迎相关投资者添加作者微信交流探讨。（IT之家) 影石创新在美完胜337调查！GoPro六项指控均不成立 2月27日，影石创新公告，美国337调查终裁落定：美国国际贸易委员会（ITC）维持初裁，判定GoPro六项指控均不成立。这场始于2024年3月的调查，以影石的全面胜利告终。影石在公告中表示：“本次337调查未对公司生产、经营造成实质性影响。公司将持续不受限制地在美国进口和销售现有产品。” 与337调查常见的针对多家企业不同，GoPro仅针对影石一家发起多项指控，这种针对性打法被业内视为市场竞争狙击。调查期间，影石业务保持强劲增长，2025年营收98.58亿元，逼近百亿，同比增长76.85%，创历史新高。公司已连续八年稳居全球全景相机市场份额第一，全球市占率超过85%。研发投入持续加码，2025年达16.49亿元。 此前，影石创始人刘靖康曾在访谈中称：“感受到了强烈的恶意”。他曾透露，公司为此支付的应诉成本超过1000万美金，很多公司不一定打得起这样的官司。但他同时强调，“我们从来没想过要干死谁”，影石市场表现优于GoPro，是产品定义好后自然发生的结果；另一半功劳则来自中国供应链的“断崖式”领先。公开资料显示，337调查源于《美国1930年关税法》第337条款，是ITC审查进口产品是否侵犯知识产权的贸易救济程序。一旦认定侵权，ITC可发布排除令，禁止侵权产品进入美国市场。因其审理节奏快、制裁力度大，337调查长期被视为中国企业出海的主要法律壁垒之一。 千问AI眼镜与夸克AI眼镜同团队研发，算法软硬件完全一致 2月27日消息，据媒体报道，阿里巴巴旗下个人AI助手“千问”正式进军AI硬件领域，今年将面向全球市场推出多款不同形态的AI硬件产品。千问将在西班牙巴塞罗那举行的2026年世界移动通信大会（MWC）上发布首款同名AI眼镜，并于3月2日开启线上线下全渠道预约。据阿里内部人士透露，除AI眼镜之外，千问还会在年内陆续发布AI指环、AI耳机等产品，并面向全球市场发售。 另据媒体爆料，夸克AI眼镜和千问AI眼镜都是由夸克眼镜团队开发的，同一个团队，同样的算法、软硬件支持只是后续推出的新的系列将和全球品牌保持一致，采用“千问（Qwen）”品牌。“阿里巴巴对AI投入在持续加大，最近千问AI助手能力进化很快，这些能力都会很快在夸克AI眼镜上落地，新功能不断。”前述知情人士补充说道。（第一财经、蓝鲸科技） DeepSeek又一论文上新 2月27日消息，在业界对新一代旗舰模型DeepSeek V4的翘首期盼中，DeepSeek团队却悄然放出了一篇新的学术论文。这篇论文由DeepSeek联合北大、清华共同撰写，将研究方向投向了决定大模型实际应用落地的关键一环——推理速度，为日益复杂的AI智能体，提供一套高效的底层系统解决方案。 具体来说，新论文介绍了一个名为DualPath的创新推理系统，专门针对智能体工作负载下的大模型（LLM）推理性能进行优化。通过引入“双路径读取KV-Cache（类似记忆缓存）”机制，重新分配存储网络负载，将离线推理吞吐量最高提升1.87倍，在线服务的每秒智能体运行数平均提升1.96倍。 论文在引言部分提到，大模型正从单轮对话机器人和独立推理模型，快速演进为智能体系统 ——能够自主规划、调用工具，并通过多轮交互解决实际任务。这种应用范式的转变，推动大模型推理工作负载发生重大变革：从传统的人类-大模型交互，转向人类-大模型-环境交互，交互轮次可达数十甚至数百轮。 (第一财经) 豆包怒斥黑公关恶意炒作！抖音李亮：没有绝对安全的系统 2月27日消息，27日，豆包手机助手官方发布声明，怒斥黑公关恶意炒作，传播并夸大“安全漏洞”。声明指出，相关漏洞演示需用户主动指令AI查看恶意内容，无自动触发风险；目前产品已升级防护。字节跳动设有公开漏洞响应平台，但尚未收到该漏洞的合规报告，亦无监管通报。声明强调预览版处于测试阶段，技术属行业前沿，呼吁负责任披露。公司已取证并保留追责权利。 随后，抖音副总裁李亮在微博发文称：网络安全“攻防无止境”。没有绝对安全的系统，所有系统都会有漏洞，包括IOS、Windows、Android、微信、手机助手概莫能免。某些媒体报道的所谓“豆包手机助手存在安全漏洞”，实际是需要用户主动要求AI查看恶意邮件或恶意短信才会触发。而“黑稿”却以此来证明手机助手不安全，这不仅超出了正常的媒体测评手段，而且违反了国家《网络产品安全漏洞管理规定》第九条，涉嫌违法。AI的创新发展非常快，继豆包手机助手小范围测试之后，谷歌和三星联合推出的S26系列，搭载的Gemini智能体能力，正在全力进军AI手机市场。（快科技） 一汽大众探岳遭车主集体投诉！车主：变速箱进入紧急模式是通病，厂家不理赔 2月27日消息，汽车第三方投诉平台车质网显示，一汽大众探岳近期遭到车主们的集体投诉，投诉原因普遍为“变速箱进入紧急运行模式”，涉及的车型多为2019-2020款车型。 一位2019款探岳330TSI 两驱车主投诉称，去年3月17日，车辆出现了严重的变速箱故障问题，没有2、4、6及倒车挡，严重危及行车安全。售后工作人员检查后，承认是变速箱存在故障，故障码173600，确认为产品质量问题，该故障为大众变速箱通病，是产品缺陷，给出方案更换TCU总成及变速箱油，该故障符合索赔政策，厂方赔83%，车主承担17%，交了800元定金。4月9日索赔配件到货更换时，现场却被告知无法进行索赔，要全部自费维修。期间多次与厂家私下沟通无果，至今车子质量问题未得到处理。 另有一位2019款车主表示，去年10月份，车辆突然出现“变速箱处于紧急运行模式，无法挂入倒车挡”的提示，两天内连续发生两次。去4S店检测后，被告知需更换变速箱机电单元，且不属优惠索赔范围，总费用约1万余元。该故障实为质量问题，存在重大安全隐患，却要求消费者承担损失。经核查，大众官方针对该车型变速箱机电单元已发布技术通告，明确规定在10年或20万公里内出现此类故障应免费维修。现要求厂家免费更换改进版机电单元总成，且必须使用原厂件，并提供一定期限的延保。（快科技） 金山办公 2025 年营收 59.29 亿元同比增长 15.78%，净利润 18.43 亿元 2 月 27 日消息，金山办公发布 2025 年度业绩快报：2025 年度营业总收入 59.29 亿元，同比增长 15.78%；归属于母公司所有者的净利润 18.43 亿元，同比增长 12.03%。金山办公表示，公司深耕 AI 办公核心赛道，WPS AI 3.0 与 WPS 365 产品全新升级。报告期内，公司各项主营业务收入保持稳健增长。 WPS 个人业务收入约 36.26 亿元，同比增长 10.42%，WPS AI 月活用户快速增长，AI 相关收入占比持续提升；WPS 365 业务实现高速增长，收入约 7.20 亿元，同比增长 64.93%；WPS 软件业务收入约 14.61 亿元，同比增长 15.24%。（IT之家） 蜜雪冰城全国首家室内主题公园官宣，选址也颇有看点 2月27日消息，近日，蜜雪冰城雪王城市主题乐园被郑州市列为重点支持项目，拟落地蜜雪冰城旗舰总部片区。接近蜜雪冰城的知情人士透露，全国首家雪王室内乐园已选址河南郑州集团总部，各项筹备工作正稳步推进。 该乐园以雪王 IP 为核心，打造沉浸式 “甜蜜奇幻世界”，规划多个室内主题体验区，深度融合蜜雪冰城全球总部、全球旗舰店、主题乐园三大场景，构建 “游玩 + 购物 + 体验” 三位一体的消费新体验。值得一提的是，该项目选址颇具看点：乐园位于郑州高铁东站附近的蜜雪冰城总部旗舰店片区，这里已是年轻人热门打卡地。未来片区还将引入 “商超顶流” 胖东来，国民茶饮 IP 与流量商超强强联合，有望成为郑州全新网红打卡聚集地。 此前，蜜雪冰城已在招聘平台上线乐园相关岗位，涵盖演艺统筹、内容编剧、工程管理、周边产品等，部分岗位明确要求熟悉迪士尼、环球影城等头部乐园的 IP 演艺逻辑。当时便引发网友 “要建主题乐园” 的猜测，如今郑州官方表态，让这一计划正式落地提速。（快科技） 国际资讯 OpenAI宣布获“亚马逊+英伟达+软银”1100亿美元新投资 2月27日晚间消息，OpenAI宣布完成新一轮融资，投前估值达7300亿美元，融资总额1100亿美元。其中包括软银投资300亿美元、英伟达投资300亿美元、亚马逊投资500亿美元。OpenAI表示，已与亚马逊达成战略合作，并与英伟达敲定下一代推理算力支持。随着本轮融资推进，预计还将有更多财务投资者加入。 今年年初以来，Codex周活跃用户增长超两倍，达到160万。如今，更多人无需完整工程团队，就能自主创建、自动化部署并发布软件。超过900万付费企业用户依托ChatGPT开展工作，初创公司、大型企业和政府机构都在OpenAI平台上进行开发，重塑其产品与服务的设计、交付和运营模式。ChatGPT成为大众接触人工智能的起点，周活跃用户超9亿，目前消费者订阅用户已突破5000万。年初以来订阅增长显著提速，1月和2月有望成为公司历史上新增订阅用户最多的月份。 本轮融资后的估值，使OpenAI基金会所持OpenAI集团股份价值增至1800亿美元以上。（新浪科技） 欧盟废除150欧元以下包裹关税豁免政策，7月1日起实施 2月27日消息，欧盟理事会日前正式批准小包裹进口关税新规，明确废除长期以来针对价值低于150欧元小包裹实施的关税豁免政策，相关政策将分阶段落地实施。 为实现平稳过渡，欧盟成员国达成一致并出台临时关税措施：自2026年7月1日起至2028年7月1日，对直接寄给欧盟消费者、价值低于150欧元的小包裹，按包裹内不同关税子目分类，每类物品征收3欧元的临时固定关税，此一过渡期必要时可予以延长。举例来说，若一个包裹内装有1件丝绸衬衫和2件羊毛衬衫，因二者分属不同关税细目，将被视为两类物品，需缴纳6欧元关税。待过渡期结束后，3欧元固定关税政策将正式取消，所有非欧盟进口商品，无论价值高低，都将按正常税则征税。 据欧委会统计，自2022年以来，进入欧盟市场的小包裹数量快速增长，甚至每年实现翻番，2024年共有46亿件此类小包裹进入欧盟，其中91%来自中国。塞浦路斯财政部部长马基斯·凯拉夫诺斯表示：“取消过时的小包裹免税政策，既能支持欧盟企业发展，也能堵住不法卖家的漏洞。”面对相关政策调整带来的挑战，Shein、Temu等头部跨境电商企业早已在欧洲布局多个配送中心，Temu更计划将80%的欧洲订单实现本地仓库发货，以此降低关税政策带来的影响。（快递生态圈） 马斯克旗下xAI又一创始人离职！三年内12位创始人仅剩5人 2月27日消息，据媒体报道，27日，马斯克旗下xAI的联合创始人托比·波伦宣布离职。而在不到3年时间里，xAI的12名联合创始人中，已经有7人确认离职。 波伦在社交平台上发文称，今天是他在xAI的最后一天，并点赞其团队：“你们太棒了，没有人比你们更能熬夜”。他计划先休息，睡个超过8小时的觉，并思考未来去向，同时感谢马斯克让他加入团队。而马斯克在回复中也感谢了波伦帮助xAI发展到目前的阶段。 根据查询的公开资料，目前已经离职的7人相关信息如下：Toby Pohlen（2026年2月27日）：最新一位宣布离职的联合创始人。他在公司2月重组后曾短暂领导数字智能体项目Macrohard。Jimmy Ba（2026年2月11日）：多伦多大学教授，曾负责AI辅导（tutoring）和Grok 4模型的研发。Tony Wu（2026年2月10日）：前Google科学家，在xAI负责推理（Reasoning）相关研究。Greg Yang（2026年1月）：因莱姆病离职，并淡出日常运营。Igor Babuschkin（2025年8月）：离职后创办了AI安全风投机构。Christian Szegedy（2025年2月）：前Google资深科学家。Kyle Kosic（2024年）：基础架构主管，是首位离职的联创，后加入OpenAI。（快科技） 宝马意外泄露 2027 年完整新车阵容：2 系到 7 系都有，Z4 和 8 系缺席 2 月 27 日消息，据外媒报道，宝马计划在明年年底前推出约 40 款新车型，以全面扩展 Neue Klasse 新世代产品阵容，其中全新纯电 iX3 将成为核心车型。最近，宝马美国官网的一次重大泄露提前曝光了 2027 年美国市场的完整产品规划。泄露信息来自宝马美国在线商店，涵盖范围从 2 系到 7 系，其中的一款重磅新车便是 M2 xDrive。据悉，宝马将首次为 M2 引入四驱系统。目前，M2 是唯一没有 xDrive 系统的 M 车型，这一局面将在 2027 年结束。预计 M2 xDrive 将仅提供自动变速箱版本，而普通 M2 仍将保留后驱和手动变速箱配置。四驱系统也将增加整备质量。例如，xDrive 版本 M240i 比后驱版本重约 55kg。预计两种 M2 版本都将持续销售至本代车型生命周期结束，该代车型预计将于 2029 年年中停产。 泄露信息还显示，下一代 3 系将推出 M350 xDrive 车型，作为新一代 M Performance 版本，取代现款 M340i xDrive。现款 3 系 M Performance 版本提供后驱和四驱，下一代可能仅提供四驱版本。下一代 3 系还将推出两款纯电车型：i3 40 xDrive 和 i3 50 xDrive。宝马此前已确认纯电 i3 轿车将于 2027 年在美国上市，预计基于 Neue Klasse 平台开发，并与今年夏季在北美上市的纯电 iX3 共享技术架构。iX3 将提供 40 sDrive 后驱版、40 xDrive 四驱版和 50 xDrive 四驱版。 全新 iX4 也出现在泄露名单中，将提供 40 xDrive 和 50 xDrive 版本。作为 iX3 的轿跑 SUV 版本，iX4 将拥有更流线的设计，但后排空间和行李空间将有所减少。新一代 X5 也将在 2027 年推出，入门版本仍为 40 sDrive 后驱车型。同时，宝马还将推出纯电 iX5 60 xDrive 版本。7 系中期改款车型尚未发布，因此网站信息有限，而报道同时指出，搭载 V8 发动机的车型不会停产。有报道称宝马将推出新的 M760 V8 车型，并配备 M Performance 标识。V12 发动机预计不会回归，将继续仅用于劳斯莱斯车型。Z4 和 8 系未出现在泄露名单中，原因是这两款车型预计将在未来几个月内停产。（IT之家） 三星正研发改进型 S Pen 手写笔，有望搭载 USI 2.0 标准 2 月 27 日消息，三星从 Galaxy S25 Ultra 开始砍掉了 S Pen 手写笔的蓝牙功能，让不少铁粉感到失望。虽然不少人仍希望蓝牙 S Pen 能够回归 S26 Ultra，但事与愿违，甚至有人担心三星会在未来的 S 系列 Ultra 机型中彻底砍掉手写笔。 不过三星 MX 事业部首席运营官 Won-Joon Choi 接受采访时表示：“我们内部正在开发新一代 S Pen 手写笔并革新屏幕架构，从而降低配备 S Pen 所带来的取舍。S Pen 将继续作为我们的核心技术之一”。 另据媒体报道，如果三星能够为 S Pen 采用 USI（注：手写笔计划联盟） 2.0 标准，能够避免与 Qi2 磁吸充电之间产生干扰，意味着三星未来可能为 Ultra 机型整合 Qi2 磁吸无线充电功能。除此之外，USI 2.0 标准支持 in-cell 显示面板，兼容倾斜识别、1600 万色调色板、4096 级压感，可通过 NFC 实现无线充电。（IT之家） 连续6年数据为零！马斯克画饼被监管揭穿：特斯拉从未在加州推进Robotaxi无人驾驶测试 2月27日消息，据媒体报道，近日，马斯克的“画饼”言论再遭打脸。此前，马斯克曾多次官宣：“特斯拉距离在加州推出 Robotaxi 无人驾驶出租车服务仅剩数月”。然而加州机动车辆管理局记录显示，特斯拉在 2025 年并未采取任何实质性行动。数据显示，该公司 2025 年在加州道路上的自动驾驶测试里程已经连续第6年为零。 据了解，在加州监管体系中，记录测试里程是无人驾驶企业获得商业运营许可的核心前提。该体系要求企业必须逐步通过一系列许可，才能获准运营类似Waymo 的无人驾驶网约车服务。目前，特斯拉仅持有DMV的入门级许可，该许可要求测试时必须有安全员坐在驾驶座上。DMV发言人表示，特斯拉尚未申请任何额外许可。 根据DMV新规草案，企业在申请无安全员测试许可前，必须在安全员监督下于加州公共道路上完成至少5万英里的自动驾驶测试。然而，特斯拉自2019年以来未向州监管机构记录任何里程，自2016年以来的总里程仅为562英里。相比之下，2014-2023年，Waymo积累超1300万英里的测试里程，并获得了七项不同的监管批准，最终才获准向乘客收费。（快科技） IPO资讯 传懂车帝考虑香港IPO，募资10亿至15亿美元 2月27日消息，据外媒援引知情人士消息，字节跳动支持的汽车信息及交易平台懂车帝（DCar）正考虑最早于今年在香港进行首次公开募股（IPO）。知情人士称，懂车帝正在寻求银行承销潜在的股票发行业务。由于事涉机密，知情人士要求匿名。其中两位知情人士表示，该公司有望通过此次IPO筹集10亿至15亿美元资金。 公开信息显示，懂车帝成立于2017年，于2023年从字节跳动有限公司分拆，有知情人士透露，2024年时该公司已募集约6亿美元（现汇率约合41.11亿元人民币），估值接近30亿美元（现汇率约合205.57亿元人民币），投资者包括General Atlantic、红杉中国、KKR&Co.和高榕创投。 据了解，懂车帝最初是新闻聚合平台今日头条内的一个汽车新闻频道，其于2017年作为独立平台上线，现已发展成为中国领先的汽车内容和交易平台之一，与汽车之家和易车网等对手展开竞争。知情人士称，目前相关讨论仍处于早期阶段，IPO的规模和时间等细节仍可能发生变化。如果懂车帝顺利上市，其或将成为字节旗下首个独立上市的子公司，也将一举成为港股汽车互联网板块的巨头。（一览众车、快科技） 美格智能开启招股，预计3月10日挂牌上市 2月27日消息，美格智能发布公告，公司拟全球发售3500万股H股，中国香港发售股份350万股，国际发售股份3150万股(以上可予重新分配及视乎发售量调整权行使与否而定)；2026年2月27日至3月5日招股，预期定价日为3月6日；发售价将不高于每股发售股份28.86港元，H股的每手买卖单位将为100股，中金公司为独家保荐人；预期H股将于2026年3月10日开始于联交所买卖。 据招股书，美格智能是领先的无线通信模块及解决方案提供商，以智能模块（尤其是高算力智能模组）为核心。公司的模块及解决方案广泛应用于泛物联网（IoT）、智能网联车（ICV）及无线宽带领域。根据弗若斯特沙利文的资料，于2024年，按无线通信模块业务收入计，美格智能在全球无线通信模块行业中排名第四，占全球市场份额的6.4%。根据同一资料来源，全球无线通信模块市场高度集中，三大参与者于2024年占全球市场收入的65.7%（其中最大参与者独占42.7%的市场份额），而公司虽排名第四，市场份额仅为6.4%。 于2022年、2023年、2024年以及截至2024年及2025年9月30日止九个月，美格智能的总收入分别为23.06亿元(人民币，下同)、21.47亿元、29.41亿元、21.82亿元及28.21亿元。同期，公司的净利润分别为1.27亿元、6260万元、1.34亿元、9050万元及1.13亿元。基于最高发售价每股H股28.86港元并假设发售量调整权未获行使，公司估计将收到的全球发售所得款项净额约为9.445亿港元。（独角兽早知道） 优乐赛共享开启招股，发售价11.0-14.0港元/股，预计3月9日挂牌上市 2月27日消息，优乐赛共享发布公告，公司拟全球发售2033.6万股H股，中国香港发售股份203.4万股，国际发售股份1830.2万股(以上可予重新分配和视乎超额配股权行使与否而定)；2026年2月27日至3月4日招股，预期定价日为3月5日；发售价将为每股发售股份11.0-14.0港元，H股的每手买卖单位将为500股，中信建投国际为独家保荐人；预期H股将于2026年3月9日开始于联交所买卖。 招股书显示，优乐赛是中国循环包装服务提供商，主要专注于为汽车行业内的汽车零部件制造商及OEM提供服务。优乐赛主要提供共享运营，这是一种共享模式，根据这一模式，公司为客户管理托盘、板条箱或容器等循环包装，代表客户处理循环包装的储存以及配送及退货(主要通过分包的第三方物流服务提供商进行)、清洁和维护。根据弗若斯特沙利文的资料，按2024年收入计，优乐赛是中国循环包装服务第二大提供商，市场份额为1.5%且是中国汽车共享运营服务市场的最大提供商，市场份额为8.2%。 财务方面，于2022年度、2023年度、2024年度、2025年截至8月31日止八个月，公司实现收入分别约6.48亿元(人民币，下同)、7.94亿元、8.38亿元、5.33亿元；同期，录得年/期内利润分别约3120.1万元、6414.9万元、5074.1万元、2689.2万元。公司估计，假设超额配股权未获行使及发售价为每股H股12.5港元(即本招股章程所列指示性发售价范围的中位数)，公司将收取的全球发售所得款项净额约为2.048亿港元。（独角兽早知道） 中国工业机器人龙头“埃斯顿”招股，引入嘉实、亨通光电等基石投资，3月9日香港上市 2月27日消息，A股中国工业机器人领军企业埃斯顿，于2月27日起至3月4日招股，预计2026年3月9日在港交所挂牌上市，华泰国际独家保荐。埃斯顿，计划全球发售9678万股H股(占发行完成后总股份的10%)，其中90%为国际发售、10%为公开发售，另有15%超额配股权。每股发售价介乎15.36港元~17.00港元，每手200股，入场费3,434.29港元，最多募资约16.45亿港元。埃斯顿此次招股采用机制B，香港公开发售初始分配比例10%，不设回拨机制。 埃斯顿是次IPO招股引入7名基石投资者，合共认购约5.23亿港元的发售股份，基石投资者包括Harvest Oriental、亨通光电、君宜资本、至源、海天国际、裕祥、前海合众投资等。 埃斯顿是次IPO，募资净额约14.86亿港元(按发售价中位数计)：约25.0%将用于扩充全球生产能力；约25.0%将用于在全球工业机器人产业链上下游有选择地寻求战略联盟、投资及收购机会；约20.0%将投资于研发项目，以推动下一代工业机器人技术的发展；约10.0%将用于提升全球服务能力及开发组织范围内的数字化管理系统；约10.0%将用于部分偿还现有贷款；约10.0%将用于营运资金及一般企业用途。（瑞恩资本RyanbenCapital） 特锐德递交IPO招股书，拟赴香港上市，银河国际、广发证券联席保荐 2月26日，青岛特锐德电气股份有限公司(下称“特锐德”)向港交所递交招股书，拟香港主板挂牌上市。特锐德于2009年10月30日在A股上市，是首家在深圳创业板上市的公司。截至2026年2月25日收市，总市值约311亿元人民币。 特锐德，成立于2004年，主要从事高压及中压预制舱变电站、电动汽车充电设备的研发、设计、制造、销售、安装和维护，以及电动汽车充电网的建设和运营。招股书显示，在过去的2023年、2024年和2025年前十个月，特锐德的营业收入分别为人民币126.91亿、153.74亿和113.29亿元，相应的净利润分别为人民币5.27亿、9.39亿和8.35亿元。 特锐德是次IPO的中介团队主要有：中国银河国际、广发证券为其联席保荐人；中汇安达为其审计师；金杜为其公司中国律师；金杜(香港)为其公司中国香港及美国律师；海问为其券商中国律师；新百利融资为其合规顾问；灼识咨询为其行业顾问。（瑞恩资本RyanbenCapital） 兆威机电招股，引入高瓴、广发、雾凇等21名基石，3月9日香港上市 2月27日消息，来自广东深圳宝安区的A股公司兆威机电，于2月27日起至3月4日招股，预计2026年3月9日在港交所挂牌上市，招商证券国际、德银联席保荐。兆威机电，计划全球发售2674.83万股H股(占发行完成后总股份的10%)，其中90%为国际发售、10%为公开发售。每股发售价不高于73.68港元，每手100股，入场费7,442.31港元，最多募资约19.71亿港元。兆威机电此次招股采用机制B，香港公开发售初始分配比例10%，不设回拨机制。 兆威机电是次IPO招股引入21名基石投资者，合共认购约6.52亿港元的发售股份，基石投资者包括HHLRA、Mirae Asset、Perseverance Asset Management、大成国际、广发基金、双城资本、深圳恒邦等。兆威机电本次IPO，募资净额约18.92亿港元：约35.0%将用于在全球范围进行技术研发及扩展产品组合；约30.0%将用于在全球范围扩大产能及提高生产效率；15.0%将用于有选择地开展全球战略合作、投资及并购；约10.0%将用于扩大全球服务及销售网络以及加大全球营销力度；约10.0%将用作营运资金及一般企业用途。 兆威机电，成立于2001年，作为一家领先的一体化微型传动与驱动系统解决方案提供商，设计、制造微型传动与驱动系统产品以及该等系统的配套部件，主要面向智能汽车、消费科技、医疗科技以及先进工业制造、具身机器人等高增长行业提供应用场景定制的一体化微型传动与驱动系统解决方案。（瑞恩资本RyanbenCapital）",
+        "fetched_at": "2026-03-01T07:00:05.040613"
+      },
+      {
+        "id": "https://www.leiphone.com/category/industrynews/TS9kwxvHBiZW7jBw.html",
+        "source": "雷锋网 (Leiphone)",
+        "title": "云厂情报：销售岗受捧，团队调整，代理商送车",
+        "link": "https://www.leiphone.com/category/industrynews/TS9kwxvHBiZW7jBw.html",
+        "published": "Sat, 28 Feb 2026 15:44:00 +0800",
+        "summary_raw": "A 云的电销团队全面并入公共云团队 近期，A 云电销团队有大调整，原本独立的电销团队，被并入了公共云团队。随着团队的并入，汇报关系也发生了变化，电销团队负责人现如今需要向公共云事业部老大汇报。 在A 云里，电销可是有举足轻重的地位，它的营收盘子一度有 100 多个亿，而且在巅峰时期，团队人数有超过 1000 人，分布在杭州、大连、西安等地，这在所有云厂商中都是少见的。 很多人会疑惑，电销不是只做中长尾客户，为何它能做这么大营收体量？实际并非如此，这家云厂商的电销团队内有不少百万、千万的大客户，这也是它为何能撑起百亿营收的核心原因。 而在这场组织调整之前一个月，该公共云事业部老大刚升 P12。 宇宙云2026年MaaS营收目标至少翻 5倍以上 2025 年，宇宙云高层就已通过大模型考核指标的牵引，去推动销售加劲卖MaaS 以及上层 AI 工具产品了，但今年的营收目标更加激进，至少要翻5倍以上，粗略估算，营收至少要做到100亿。 一些销售描述当下在该厂的工作日常：如果你有大模型收入，你在公司还可以混一混，但没有大模型收入，其他业务做得再好，那不行，领导会天天追着你要大模型收入。 不过，大模...",
+        "full_content": "A 云的电销团队全面并入公共云团队 近期，A 云电销团队有大调整，原本独立的电销团队，被并入了公共云团队。随着团队的并入，汇报关系也发生了变化，电销团队负责人现如今需要向公共云事业部老大汇报。 在A 云里，电销可是有举足轻重的地位，它的营收盘子一度有 100 多个亿，而且在巅峰时期，团队人数有超过 1000 人，分布在杭州、大连、西安等地，这在所有云厂商中都是少见的。 很多人会疑惑，电销不是只做中长尾客户，为何它能做这么大营收体量？实际并非如此，这家云厂商的电销团队内有不少百万、千万的大客户，这也是它为何能撑起百亿营收的核心原因。 而在这场组织调整之前一个月，该公共云事业部老大刚升 P12。 宇宙云2026年MaaS营收目标至少翻 5倍以上 2025 年，宇宙云高层就已通过大模型考核指标的牵引，去推动销售加劲卖MaaS 以及上层 AI 工具产品了，但今年的营收目标更加激进，至少要翻5倍以上，粗略估算，营收至少要做到100亿。 一些销售描述当下在该厂的工作日常：如果你有大模型收入，你在公司还可以混一混，但没有大模型收入，其他业务做得再好，那不行，领导会天天追着你要大模型收入。 不过，大模型创收目前来说，仍然很困难，要找到一家用量很大的公司并不容易，一些好产出的田地，比如 AI 短剧、AI 漫剧、AI 硬件、AI 创意应用，早就被挖了个遍，内部竞争十分激烈，甚至到后来出现了一些恶性竞争的情况，也就是内部之间，相互撬客户。 而这后续也被宇宙厂高层发现了，并且马上出台规定，但凡销售之间相互撬墙角，一旦被发现，撬客户的销售得三倍业绩赔偿。 为冲刺年报业绩，A 云又开始出台 winback 政策 每到这个时间阶段，A 云就开始为年报业绩开始忙碌了，一些代理商收到消息，在三月底前，能够撬成功友商客户，还能拿到额外的 10 个点佣金。 目前最好抢的是华南某云厂商的客户，因为其内部正在调整，比较好偷袭。另外在 AI 来了之后，该厂商的影响力在降低，客户心理也懂，此前就已经有一些客户在吐槽，该厂卖的某些东西挺贵的，要不是因为他们高层之间搞了战略合作，不然他们也不会买。 T 云3D 大模型在游戏客户里商业化，相对谨慎 T 云在 3D 大模型上比较有优势，主要是得益于主业，在这方面的数据量比较多，所以训练出的模型效果也能更好。过去一年里，已经有很多的云销售正在对有 3D 模型有需求的客户兜售该产品，并且取得了不错的成绩，比如3D 打印领域，几家头部的厂商都已经是合作客户。 不过高层对于把3D 模型卖给游戏客户，仍然有些谨慎。原因在于，这项技术本身过于“锋利”。 一方面，它能将游戏、动漫的建模效率提升至颠覆性水平，例如将两百人团队数月工作压缩至几天，这反而可能颠覆游戏行业现有的外包合作与生产流程。另一方面，该厂商自身就是游戏巨头，高层出于竞争考量，不希望核心能力过快赋能直接竞争对手。 宇宙厂销售岗备受追捧，甚至还吸引了演员加入 原来宇宙厂的销售岗，并没有那么火爆，只要相关的背景经历，至少过简历是没有问题。 但这两年因为AI 的加持，大家对它的认知加速改变，现在可大不一样了，现在要想加入宇宙厂，可不是一件容易的事。很多有多年云厂工作经历的人也不一定有机会加入，因为这种经历，在 HR 看来一点也不稀缺了。有一大批原来做过阿里P8、腾讯 11 级，去到该厂都只能做普通销售。 有一位刚加入销售谈他刚去宇宙厂看到的情况：销售学历普遍都很高，而且有些架构师居然还是博士毕业。 现在宇宙厂在人才筛选上，更喜欢找一些在某方面有资源，而且能够拍板，承诺能够完成多少业绩的销售。这种选人标准，也让很多跨行业的人在加入，有内部销售说，他们公司中有好几个销售，原来是演员出身。 H云缩减报销额度，在内部引发不少吐槽 为了降本，前段时间H云销售的报销预算被极限压缩，这在内部也引起了不少吐槽。 有人说，他们以前一人一月有上万的业务费，但现在有的地方缩水了一半以上，只有小几千，现在这点费用，一个月要请客户吃饭、送礼，根本不够。有销售说，之后可能都不敢请吃饭了，只敢喝下午茶。 当然也有些销售比较能变通，会拉着渠道一起去见客户，联合打单，这样这些费用就都由渠道出，要是打单成功，渠道也就会分相应佣金。渠道的作用在这上面就体现了。 B云想效仿友商，给代理商送车 为了提振代理商的士气，鼓励代理商多做业绩，今年年底，B云也效仿友商，决定给代理商送车。但过程也是一波三折。 一开始遇到的问题是，送什么车。本来该厂商想送小米，大概二十多万，但后来刚好碰到小米负面新闻不断，然后就放弃了这个方案，后来改成了送同等价位的另外一个品牌的车。 车品牌虽然换了，但代理商仍是高兴，大家都鼓足了干劲，想要拿到车。 这种结果，也让厂商万万没想到。 T 云2025 年实现盈亏平衡，部分利润都花在AI Chatbot 上 年底，T 云已经对集团交出了25 年的答卷。这张答卷，集团应该是满意的。 一直以来，集团对T 云的期待不算太高，只要不亏钱就行。过去一年，通过各条业务线埋头苦干，再加上一些节流措施，T 云的确是做到了，不仅实现了盈亏平衡，而且实现了以亿为单位的利润。不过这些利润一部分都花在了AI Chatbot 这个产品上，而不是赚钱的业务部门。 至于这些利润来源，有人说，产业生态部是重要贡献者，他们虽然营收规模不算大，但利润是所有业务线中较高的，像是其他行业线，虽有很多大客户，但因为大客户溢价能力更强，所以一直以来利润并不高，再加上去年拼多多、小红书都在加速自建云，也进一步对他们施加了降价压力，所以只能贴着利润做项目。 T 云短期虽达成了盈利的阶段性目标，但2026 年压力仍然不小。前有老大哥在加速排兵布阵，抢占 AI 云市场，前阵子，老大哥已经对外放话，2026年的目标要拿下中国AI云市场80%的增量，而后又增加了宇宙厂这个强劲对手。有宇宙厂内部人士称，2026 年的营收目标就是要赶上T 云。 所以盈利后就躺平了，肯定是不行的。而且2026 年的T 云，如果想要应对友商的激烈进攻，光要盈利还不行，很可能还会需要放宽一些对利润的要求，才能保证在 AI 云的市场份额上不掉队。 T3出行全量迁移，背后的一波三折故事 前不久，T3出行已整体迁至T 云，全程仅耗时两小时。 这场迁移背后还有一段故事。T3出行曾先后使用过多家云服务商，最初部署在A 云。2020年H 云积极拓展市场时，迅速争取到这一客户，据说，当时派出40多人驻场完成迁移，那位销售也因此获得晋升。然而，H 云并未能长期留住T3出行，而后被T 云截胡了。 T 云智慧出行团队通过集团投资、流量支持等方式把T3出行把在H 云上的业务全部迁移至自己云上，业务规模至少达数千万元。 是否想加入最劲爆的雷峰网“云厂情报群”？每日分享大厂内幕、领导避坑、优质岗位等一手信息，入群可添加雷峰网作者微信 mindy1857。",
+        "fetched_at": "2026-03-01T07:00:05.037141"
+      },
+      {
+        "id": "https://www.leiphone.com/category/industrynews/VreIIYzeoqE63bsi.html",
+        "source": "雷锋网 (Leiphone)",
+        "title": "独家：前阿里高管任庚离职新奥",
+        "link": "https://www.leiphone.com/category/industrynews/VreIIYzeoqE63bsi.html",
+        "published": "Sat, 28 Feb 2026 15:50:00 +0800",
+        "summary_raw": "雷峰网从多处信源获悉，新奥总裁任庚于近期离职。 任庚是去年 2 月加入的新奥集团，当时新奥处在数字化转型的关键时期，急需要一位能够大刀阔斧做改革的人，于是找到了任庚。 任庚的背景丰富而且年轻，1982年出身的他，有两段重要经历。先是在华为，曾担任华为泰国分公司副总经理、缅甸分公司总经理，2015年加入阿里后，又先后担任过阿里云中国区总裁、阿里云总参谋长，阿里B2B国际平台总经理等重要管理岗位， 在阿里内部被很多员工认为是能拿结果、打胜仗的一员大将。 不过，从加入到离开新奥，任庚只待了一年。这位曾在华为、阿里连打胜仗的“大将”，为何在新奥的数字化转型关键期匆匆离场，以及后续任庚会去哪就职？雷峰网将持续追踪报道。想了解更多关于云大厂的一手信息和内幕故事，欢迎加入最劲爆的雷峰“云厂情报群”。群内不定期分享大厂内幕、领导避坑、优质岗位等一手信息，入群可添加作者微信  mindy1857 交流。",
+        "full_content": "雷峰网从多处信源获悉，新奥总裁任庚于近期离职。 任庚是去年 2 月加入的新奥集团，当时新奥处在数字化转型的关键时期，急需要一位能够大刀阔斧做改革的人，于是找到了任庚。 任庚的背景丰富而且年轻，1982年出身的他，有两段重要经历。先是在华为，曾担任华为泰国分公司副总经理、缅甸分公司总经理，2015年加入阿里后，又先后担任过阿里云中国区总裁、阿里云总参谋长，阿里B2B国际平台总经理等重要管理岗位， 在阿里内部被很多员工认为是能拿结果、打胜仗的一员大将。 不过，从加入到离开新奥，任庚只待了一年。这位曾在华为、阿里连打胜仗的“大将”，为何在新奥的数字化转型关键期匆匆离场，以及后续任庚会去哪就职？雷峰网将持续追踪报道。想了解更多关于云大厂的一手信息和内幕故事，欢迎加入最劲爆的雷峰“云厂情报群”。群内不定期分享大厂内幕、领导避坑、优质岗位等一手信息，入群可添加作者微信  mindy1857 交流。",
+        "fetched_at": "2026-03-01T07:00:05.036399"
+      },
+      {
+        "id": "https://www.leiphone.com/category/industrynews/lkmfiwGdp5l4QFVx.html",
+        "source": "雷锋网 (Leiphone)",
+        "title": "Nano Banana 2：亲民高效，回归实用",
+        "link": "https://www.leiphone.com/category/industrynews/lkmfiwGdp5l4QFVx.html",
+        "published": "Sat, 28 Feb 2026 17:55:00 +0800",
+        "summary_raw": "这两天，谷歌又悄咪咪有了新动作。 （雷峰网雷峰网雷峰网） 就在2月26日晚间，谷歌在Gemini App中上线Nano Banana 2（技术代号Gemini 3.1 Flash Image）。这款图像模型已全面接入Gemini App、Google Search及开发者API。这一全新模型融合了此前 Nano Banana Pro 的高阶能力与 Gemini Flash 的极速性能，更像是一次从“酷炫秀”向“生产级工具”的战略转移。 相比此前 Nano banana pro带来的惊艳感，这次更新在速度和价格上有极大优势。 一位资深AI产品经理麦莉表示，Nano Banana 2 的图像生成速度比上一代 Pro 模型明显更快，成为这次升级的核心优势之一，只是亮点确实谈不上。 据Google DeepMind官方博客披露，Nano Banana 2的核心卖点是\"将Nano Banana Pro的高级能力融入Flash速度\"。 首先，Nano Banana 2最直观的冲击来自原生4K输出。 前代Nano Banana（基于Gemini 2.5 Flash）的画质在复杂场景下会有涂抹感，ba...",
+        "full_content": "这两天，谷歌又悄咪咪有了新动作。 （雷峰网雷峰网雷峰网） 就在2月26日晚间，谷歌在Gemini App中上线Nano Banana 2（技术代号Gemini 3.1 Flash Image）。这款图像模型已全面接入Gemini App、Google Search及开发者API。这一全新模型融合了此前 Nano Banana Pro 的高阶能力与 Gemini Flash 的极速性能，更像是一次从“酷炫秀”向“生产级工具”的战略转移。 相比此前 Nano banana pro带来的惊艳感，这次更新在速度和价格上有极大优势。 一位资深AI产品经理麦莉表示，Nano Banana 2 的图像生成速度比上一代 Pro 模型明显更快，成为这次升级的核心优势之一，只是亮点确实谈不上。 据Google DeepMind官方博客披露，Nano Banana 2的核心卖点是\"将Nano Banana Pro的高级能力融入Flash速度\"。 首先，Nano Banana 2最直观的冲击来自原生4K输出。 前代Nano Banana（基于Gemini 2.5 Flash）的画质在复杂场景下会有涂抹感，banana 2 在保持同等响应速度的前提下，支持512px至4K的原始分辨率输出，皮肤纹理、褶皱、远景细节不再主要依赖后期放大来提升清晰度。 一位AI圈内人士认为，这次Banana 2 的光影逻辑更符合真实世界，核心是推理层的升级。 我们测试了一下输出一张4k的高分辨率人像，果然在光影和水珠的处理上肉眼可见的提升： 更实用的是，本次banana 2 支持单 workflow 追踪最多5个角色与14个物体，可基于14张参考图进行元素融合，这对系列插画、故事板制作等需要角色一致性的场景较为实用。 比如我们将这张电影海报进行换脸处理后： （） 再根据prompt的关键词设置后，就会得到这样一组分镜头画面： 也难怪这次有博主称设计行业要变天了，我们随意上传了一款产品，让Nano banana 2 设计出一套视觉方案，没想到细节都很到位： 其次，来自Nano Banana 2 增强的世界知识与文本渲染。 文字生成一直是AI绘图的行业病，Banana 2 在这方面进步明显：海报标题、屏幕UI、白板手写体均可清晰呈现，中文支持度达标。 我们试了下，在prompt中包含明确文本的相关场景测试中，Nano Banana 2 对指定中文和英文文本的还原准确度较高 不过，我们发现，虽然中文显示基本可用，但也别塞太多字，不然生成的图片就会出现模糊和粘连的问题。 此外，Nano Banana 2 得益于 Gemini 系列强大的世界知识基础，能够调用实时网络信息来提升图像生成效果和细节准确性。 为此，谷歌做了一个‘Window Seat\"（靠窗座位）的展示秀，意味着Nano Banana 2结合全球各地的真实场景和实时天气数据，生成当下最符合现实世界的窗外照。 我们正好结合北京刚刚下过雪的天气，体验一下谷歌引以为傲的‘Window Seat\"（靠窗座位）的演示： 在更复杂的指令理解场景下，Nano Banana 2 的稳定性也有所提升。 我们设置了包含具体地理位置、室内视角和极端天气条件的提示。Nano Banana 2 能够较好地理解“船舱内靠窗视角”这一空间约束，并生成符合德雷克海峡海况特征的画面，整体光影和物理逻辑较为合理。 最后则是老生常谈的“性价比”。 以 1K 分辨率计算，Nano Banana 2 的价格仅为 0.067 美元，约为 Pro 版的一半。谷歌用更低的成本，换来了画质接近Pro版、更快的生成效率，以及独占的 4K 输出能力。在价格与性能同时下探的情况下，直接挑战 Midjourney 和 DALL·E 在性价比上的短板。 另外，谷歌已将 Nano Banana 2 设为默认图像生成模型，并整合进 Gemini、Google Search、Google Lens 及 Flow 等核心产品，同时通过 Gemini API 和 Vertex AI 向开发者开放。 这意味着，无论是普通用户、内容创作者还是企业级开发者，都可以在日常使用与生产流程中更早、更广泛地享受到这项技术。 总体来看，Nano Banana 2的升级路径偏向\"去炫技化\"——将重心放在生成效率、跨平台协同与成本控制上，试图将AI图像生成从演示场景推进至常规工作流。 从资本市场角度出发，谷歌此次更新暂未激起明显波澜。一位二级市场投资经理认为，前一晚美股行情主要受“软件压制硬件”的结构性因素主导，相关影响是否释放，仍需等待后续交易时段的市场反馈。（作者持续跟踪 AI 应用与模型更新，欢迎加微信Who123start交流）",
+        "fetched_at": "2026-03-01T07:00:05.036287"
+      }
+    ]
+  },
+  {
+    "id": "2026-02-28_1772233379",
+    "date": "2026-02-28",
+    "poster": "./assets/news/news_2026-02-28_1772233379.webp",
+    "items": [
+      {
+        "title": "名爵带激光雷达混动轿车谍照曝光",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/spy-shots-reveal-mgs-upcoming-hybrid-sedan-with-lidar/"
+      },
+      {
+        "title": "长城将在巴西建年产20万辆工厂",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/great-wall-motors-to-build-new-factory-in-brazil-with-200000-vehicle-annual-capacity/"
+      },
+      {
+        "title": "比亚迪3月5日将发刀片2.0及DM 6.0",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/byd-march-5-event-to-debut-blade-2-0-dm-6-0-1500-kw-charger-gods-eye-5-0-report-says/"
+      },
+      {
+        "title": "语音误关灯致车祸：领克Z20紧急OTA",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/car-crashes-after-voice-command-kills-headlights-lynk-co-z20-forced-into-emergency-ota/"
+      },
+      {
+        "title": "零跑一汽合作首款红旗SUV谍照曝光",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/first-car-from-leapmotor-and-faw-spotted-in-china-as-hongqi-suv/"
+      },
+      {
+        "title": "长安发布可拆卸增程器，纯电变增程",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/changan-auto-subsidiary-unveils-detachable-power-turbine-generator-to-transform-bevs-into-erevs/"
+      },
+      {
+        "title": "领克03配碳纤维尾翼，最大268马力",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/lynk-co-03-with-268-hp-gets-a-large-carbon-fiber-adjustable-spoiler-in-china/"
+      },
+      {
+        "title": "腾势Z9 GT刷新全球纯电续航纪录",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/byds-updated-denza-z9-gt-is-worlds-longest-range-ev/"
+      },
+      {
+        "title": "神行者变身奇瑞造，脱离捷豹路虎",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/27/spied-freelander-reborn-as-chery-built-nev-brand-breaks-from-jlrs-house-of-brands/"
+      },
+      {
+        "title": "千问AI春节DAU创历史新高，增幅惊人",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382739.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-02-27_1772146976",
+    "date": "2026-02-27",
+    "poster": "./assets/news/news_2026-02-27_1772146976.webp",
+    "items": [
+      {
+        "title": "中国L3新规推动技术向L4进化，强化安全",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/26/new-chinese-regulations-push-l3-autonomous-vehicles-closer-to-l4-capabilities-with-enhanced-safety-protocols/"
+      },
+      {
+        "title": "新款五菱宏光Mini EV亮相，造型软萌",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/26/updated-wuling-hongguang-mini-ev-broke-covers-in-china-with-cute-styling/"
+      },
+      {
+        "title": "比亚迪特斯拉小米推7年贷，应对销量下滑",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/26/price-war-evolves-byd-tesla-and-xiaomi-launch-7-year-loans-to-fight-2026-sales-slump/"
+      },
+      {
+        "title": "锂电重大突破：能量密度达700Wh/kg",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/26/new-breakthrough-in-lithium-battery-technology-enables-700-wh-kg-energy-density/"
+      },
+      {
+        "title": "雅阁在华降价1.5万美元，合资车生存战",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/26/honda-slashes-accord-price-by-nearly-15000-usd-joint-venture-sedans-fight-for-survival-in-china/"
+      },
+      {
+        "title": "2025全球车企十强：中国品牌占三席",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/26/three-chinese-automakers-enter-global-top-10-as-2025-sales-rankings-finalized/"
+      },
+      {
+        "title": "扩散模型实现极速思考，英伟达微软投资",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382584.html"
+      },
+      {
+        "title": "英伟达日赚22.6亿，股价重回200美元",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382610.html"
+      },
+      {
+        "title": "Karpathy：AI编程自去年底已生质变",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382626.html"
+      },
+      {
+        "title": "Perplexity复刻彭博终端，集成19个模型",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382647.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-02-26_1772060599",
+    "date": "2026-02-26",
+    "poster": "./assets/news/news_2026-02-26_1772060599.webp",
+    "items": [
+      {
+        "title": "中国皮卡出口增超50%创5年新高，长城领跑",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/chinas-pickup-exports-roar-past-50-to-five-year-high-as-gwm-dominates-global-push/"
+      },
+      {
+        "title": "销路不佳，奥迪E5 Sportback在华降价4350美元",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/audi-e5-sportback-price-sliced-by-4350-usd-in-china-amid-sluggish-sales/"
+      },
+      {
+        "title": "蔚来ES9定于6月1日交付，系国内最大纯电跨界车",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/nio-es9-will-start-deliveries-in-china-on-june-1-as-the-chinas-biggest-bev-crossover/"
+      },
+      {
+        "title": "小米车主事故身亡：报告称断电导致车门无法开启",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/xiaomi-car-owner-dies-after-crash-report-reveals-doors-couldnt-open-due-to-power-failure/"
+      },
+      {
+        "title": "阿里云上线Coding Plan，集成Qwen3.5等四大模型",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382010.html"
+      },
+      {
+        "title": "清华数学大神加盟OpenAI，曾主导SAM与Llama开发",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382015.html"
+      },
+      {
+        "title": "OpenClaw内幕公开：创始人谈滥用并劝诫别玩火",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382040.html"
+      },
+      {
+        "title": "阿里发布3款千问3.5模型，百万Token仅需0.2元",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382054.html"
+      },
+      {
+        "title": "融资34亿！前谷歌TPU员工创业，卡帕西参投",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382058.html"
+      },
+      {
+        "title": "四大顶流模型齐聚阿里云Coding Plan，自由切换",
+        "source": "量子位 (QbitAI)",
+        "link": "https://www.qbitai.com/2026/02/382083.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-02-25_1771998601",
+    "date": "2026-02-25",
+    "poster": "./assets/news/news_2026-02-25_1771998601.webp",
+    "items": [
+      {
+        "title": "比亚迪宋Ultra EV内饰官宣，动力362马力",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/byd-song-ultra-ev-with-362-hp-has-its-official-interior-revealed/"
+      },
+      {
+        "title": "小米诉车媒名誉侵权胜诉，获赔500万元",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/xiaomi-wins-record-5-million-yuan-defamation-suit-against-major-chinese-auto-media-subsidiary/"
+      },
+      {
+        "title": "零跑全球车型A10内饰曝光，首季上市",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/leapmotors-international-model-a10-interior-revealed-ahead-of-q1-china-launch/"
+      },
+      {
+        "title": "利润崩盘：欧洲豪车经销商在华面临洗牌",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/25/margins-collapse-european-luxury-dealers-face-reckoning-in-china/"
+      },
+      {
+        "title": "专利碰瓷宇树被批；东哥造游艇；小米胜诉",
+        "source": "雷锋网 (Leiphone)",
+        "link": "https://www.leiphone.com/category/zaobao/PFw1S3FGvuD8KZNl.html"
+      },
+      {
+        "title": "做“机器人蓝翔”，苏亮的梦想还有多远",
+        "source": "雷锋网 (Leiphone)",
+        "link": "https://www.leiphone.com/category/robot/5AxAgC6penJOk5RM.html"
+      },
+      {
+        "title": "一枚AI戒指，成为春晚“新贵”",
+        "source": "雷锋网 (Leiphone)",
+        "link": "https://www.leiphone.com/category/industrynews/kzMatbScDEXIQsUk.html"
+      },
+      {
+        "title": "早报：触控版Mac、三星防窥屏、华为营收",
+        "source": "爱范儿 (Ifanr)",
+        "link": "https://www.ifanr.com/1655691?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "title": "Anthropic“蒸馏”了人类最大知识库",
+        "source": "爱范儿 (Ifanr)",
+        "link": "https://www.ifanr.com/1655664?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "title": "新轩逸9.49万起，日产4款新车上市",
+        "source": "爱范儿 (Ifanr)",
+        "link": "https://www.ifanr.com/1655633?utm_source=rss&utm_medium=rss&utm_campaign="
+      }
+    ]
+  },
+  {
+    "id": "2026-02-24_1771887642",
+    "date": "2026-02-24",
+    "poster": "./assets/news/news_2026-02-24_1771887642.webp",
+    "items": [
+      {
+        "title": "《飞驰人生3》正式官宣：拉力赛车硬核归来",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/movie/1550464.htm"
+      },
+      {
+        "title": "蔚来换电单日破16万次，五天三破纪录",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/717.htm"
+      },
+      {
+        "title": "雷诺：与吉利合作关键，但也具备独立能力",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/517.htm"
+      },
+      {
+        "title": "2026款奥迪RS5发布：630马力混动系统",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/499.htm"
+      },
+      {
+        "title": "吉利雷诺合资浩思动力推出3.3L低油耗引擎",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/488.htm"
+      },
+      {
+        "title": "速腾聚创预告首次单季度盈利超6000万",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/478.htm"
+      },
+      {
+        "title": "奔驰预告豪华纯电MPV VLE：支持后轮转向",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/477.htm"
+      },
+      {
+        "title": "奔驰发布概念车致敬传奇赛车'红猪'",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550418.htm"
+      },
+      {
+        "title": "长城董事长警告：中国汽车产业仍有差距",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/02/19/gwm-chairman-warns-china-auto-industry-still-trails-top-global-automakers/"
+      },
+      {
+        "title": "比亚迪日本专属K-Car'海獭'内饰曝光",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1550416.htm"
+      },
+      {
+        "title": "纽约叫停自动驾驶出租车扩张，Waymo失望",
+        "source": "IT之家 (ITHome)",
+        "link": "https://www.ithome.com/0/922/537.htm"
+      }
+    ]
+  },
+  {
+    "id": "2026-02-22_1771728031",
+    "date": "2026-02-22",
+    "poster": "./assets/news/news_2026-02-22_1771728031.webp",
+    "items": [
+      {
+        "title": "赣锋锂业固液电池量产",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/20/hyundai-supplier-gangfeng-lithium-began-production-of-650-wh-kg-batteries/"
+      },
+      {
+        "title": "名爵MG7纯电继任者现身",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/20/electric-successor-of-the-mg7-sedan-spotted-in-china/"
+      },
+      {
+        "title": "特斯拉推6万美元CT车型",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/815/456.htm"
+      },
+      {
+        "title": "Lucid宣布裁员12%促盈利",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/815/455.htm"
+      },
+      {
+        "title": "星纪元MX树立SUV新标杆",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/21/sunday-china-drive-cherys-exeed-exlantix-mx-quietly-sets-the-benchmark-in-chinas-mid-size-suv-segment/"
+      },
+      {
+        "title": "CyberCab无线充电落地",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/815/453.htm"
+      },
+      {
+        "title": "中国汽车开启“产业出海”",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/815/449.htm"
+      },
+      {
+        "title": "以旧换新带动千亿销售额",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/815/447.htm"
+      },
+      {
+        "title": "比亚迪领辉M9官图发布",
+        "source": "CarNewsChina",
+        "link": "https://carnewschina.com/2026/02/21/byd-revealed-linghui-m9-mpv-official-images-for-the-ride-hailing-market/"
+      },
+      {
+        "title": "全新日产轩逸24日上市",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/815/445.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-02-21_1771651928",
     "date": "2026-02-21",
-    "poster": "./assets/news/news_2026-02-21_1771651928.png",
+    "poster": "./assets/news/2-21.png",
     "items": [
       {
         "title": "伏尔加借长安之力重生",
@@ -59,7 +1433,7 @@
   {
     "id": "2026-02-20_1771555100",
     "date": "2026-02-20",
-    "poster": "./assets/news/news_2026-02-20_1771555100.png",
+    "poster": "./assets/news/2-20.png",
     "items": [
       {
         "title": "蔚来换电单日破16万次，五天三破纪录",
@@ -116,7 +1490,7 @@
   {
     "id": "2026-02-19_1771459984",
     "date": "2026-02-19",
-    "poster": "./assets/news/news_2026-02-19_1771459984.png",
+    "poster": "./assets/news/2-19.png",
     "items": [
       {
         "title": "特斯拉Cybercab量产下线",
@@ -173,7 +1547,7 @@
   {
     "id": "2026-02-18_1771375079",
     "date": "2026-02-18",
-    "poster": "./assets/news/news_2026-02-18_1771375079.png",
+    "poster": "./assets/news/news_2026-02-18_1771375079.webp",
     "items": [
       {
         "title": "比亚迪领汇e7官图发布",
@@ -230,7 +1604,7 @@
   {
     "id": "2026-02-17_1771285382",
     "date": "2026-02-17",
-    "poster": "./assets/news/news_2026-02-17_1771285382.png",
+    "poster": "./assets/news/news_2026-02-17_1771285382.webp",
     "items": [
       {
         "title": "中国点燃固态电池竞赛：2026 扩大生产",
@@ -287,7 +1661,7 @@
   {
     "id": "2026-02-16_1771201086",
     "date": "2026-02-16",
-    "poster": "./assets/news/news_2026-02-16_1771201086.png",
+    "poster": "./assets/news/news_2026-02-16_1771201086.webp",
     "items": [
       {
         "title": "问界M9再登春晚",
@@ -344,7 +1718,7 @@
   {
     "id": "2026-02-15_1771144789",
     "date": "2026-02-15",
-    "poster": "./assets/news/news_2026-02-15_1771144789.png",
+    "poster": "./assets/news/news_2026-02-15_1771144789.webp",
     "items": [
       {
         "title": "新国标拟强制汽车保留实体按键",
@@ -401,7 +1775,7 @@
   {
     "id": "2026-02-15_1771115421",
     "date": "2026-02-15",
-    "poster": "./assets/news/news_2026-02-15_1771115421.png",
+    "poster": "./assets/news/news_2026-02-15_1771115421.webp",
     "items": [
       {
         "title": "吉利单月销冠，超越比亚迪问鼎第一",
@@ -458,7 +1832,7 @@
   {
     "id": "2026-02-14_1771028026",
     "date": "2026-02-14",
-    "poster": "./assets/news/news_2026-02-14_1771028026.png",
+    "poster": "./assets/news/news_2026-02-14_1771028026.webp",
     "items": [
       {
         "title": "小米汽车交付破60万台，2026目标55万",
@@ -515,7 +1889,7 @@
   {
     "id": "2026-02-13_1770942601",
     "date": "2026-02-13",
-    "poster": "./assets/news/news_2026-02-13_1770942601.png",
+    "poster": "./assets/news/news_2026-02-13_1770942601.webp",
     "items": [
       {
         "title": "小米汽车交付超60万辆",
@@ -572,7 +1946,7 @@
   {
     "id": "2026-02-12_1770853587",
     "date": "2026-02-12",
-    "poster": "./assets/news/news_2026-02-12_1770853587.png",
+    "poster": "./assets/news/news_2026-02-12_1770853587.webp",
     "items": [
       {
         "title": "小米SU7一代停产 4月迎改款",
@@ -629,7 +2003,7 @@
   {
     "id": "2026-02-11_1770764257",
     "date": "2026-02-11",
-    "poster": "./assets/news/news_2026-02-11_1770764257.png",
+    "poster": "./assets/news/news_2026-02-11_1770764257.webp",
     "items": [
       {
         "title": "极狐首发：全球首款配备防滚架MPV",
@@ -686,7 +2060,7 @@
   {
     "id": "2026-02-10_1770670886",
     "date": "2026-02-10",
-    "poster": "./assets/news/news_2026-02-10_1770670886.png",
+    "poster": "./assets/news/news_2026-02-10_1770670886.webp",
     "items": [
       {
         "title": "奇瑞星途EX7首搭EMB电子机械制动",
@@ -743,7 +2117,7 @@
   {
     "id": "2026-02-09_1770587182",
     "date": "2026-02-09",
-    "poster": "./assets/news/news_2026-02-09_1770587182.png",
+    "poster": "./assets/news/news_2026-02-09_1770587182.webp",
     "items": [
       {
         "title": "小米 YU7：千匹性能 SUV",
@@ -800,7 +2174,7 @@
   {
     "id": "2026-02-08_1770513361",
     "date": "2026-02-08",
-    "poster": "./assets/news/news_2026-02-08_1770513361.png",
+    "poster": "./assets/news/news_2026-02-08_1770513361.webp",
     "items": [
       {
         "title": "奇瑞星途EX7首发电子机械制动",
@@ -857,7 +2231,7 @@
   {
     "id": "2026-02-08_1770512259",
     "date": "2026-02-08",
-    "poster": "./assets/news/news_2026-02-08_1770512259.png",
+    "poster": "./assets/news/news_2026-02-08_1770512259.webp",
     "items": [
       {
         "title": "吉利将用福特欧洲工厂",
@@ -914,7 +2288,7 @@
   {
     "id": "2026-02-07_1770424349",
     "date": "2026-02-07",
-    "poster": "./assets/news/news_2026-02-07_1770424349.png",
+    "poster": "./assets/news/news_2026-02-07_1770424349.webp",
     "items": [
       {
         "title": "吉利利用福特工厂进军欧洲",
@@ -971,7 +2345,7 @@
   {
     "id": "2026-02-06_1770324564",
     "date": "2026-02-06",
-    "poster": "./assets/news/news_2026-02-06_1770324564.png",
+    "poster": "./assets/news/news_2026-02-06_1770324564.webp",
     "items": [
       {
         "title": "中国汽车占全球份额35.6%创纪录",
@@ -1028,7 +2402,7 @@
   {
     "id": "2026-02-05_1770244670",
     "date": "2026-02-05",
-    "poster": "./assets/news/news_2026-02-05_1770244670.png",
+    "poster": "./assets/news/news_2026-02-05_1770244670.webp",
     "items": [
       {
         "title": "SpaceX收购xAI：1.25万亿超级独角兽诞生",
@@ -1085,7 +2459,7 @@
   {
     "id": "2026-02-04_1770155437",
     "date": "2026-02-04",
-    "poster": "./assets/news/news_2026-02-04_1770155437.png",
+    "poster": "./assets/news/news_2026-02-04_1770155437.webp",
     "items": [
       {
         "title": "马斯克赞4680电池突破瓶颈",
@@ -1142,7 +2516,7 @@
   {
     "id": "2026-02-03_1770075767",
     "date": "2026-02-03",
-    "poster": "./assets/news/news_2026-02-03_1770075767.png",
+    "poster": "./assets/news/news_2026-02-03_1770075767.webp",
     "items": [
       {
         "title": "1. Waymo获160亿融资拓无人驾驶 (via IT之家)",
@@ -1199,7 +2573,7 @@
   {
     "id": "2026-02-02_1769988170",
     "date": "2026-02-02",
-    "poster": "./assets/news/news_2026-02-02_1769988170.png",
+    "poster": "./assets/news/news_2026-02-02_1769988170.webp",
     "items": [
       {
         "title": "1. 新一代小米SU7量产在即 (via IT之家)",
@@ -1256,7 +2630,7 @@
   {
     "id": "2026-02-02_1769987821",
     "date": "2026-02-02",
-    "poster": "./assets/news/news_2026-02-02_1769987821_custom.jpg",
+    "poster": "./assets/news/news_2026-02-02_1769987821_custom.webp",
     "items": [
       {
         "title": "1. 新一代小米SU7量产在即 (via IT之家)",
@@ -1314,7 +2688,7 @@
   {
     "id": "2026-02-01_1769904244",
     "date": "2026-02-01",
-    "poster": "./assets/news/news_2026-02-01_1769904244.png",
+    "poster": "./assets/news/news_2026-02-01_1769904244.webp",
     "items": [
       {
         "title": "首款完全仿生机器人Moya发布",

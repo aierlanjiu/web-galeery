@@ -1,0 +1,72 @@
+/imagine prompt:A high-quality vertical industrial design magazine spread, featuring "可变气门正时（VVT）".
+[VERSION: TITANIUM PAPER 9.1]
+// --- 1. GLOBAL SETTINGS (THE PAPER AESTHETIC) ---
+[Style]: High-end Editorial Photography, Mixed Reality (2D Paper vs 3D Metal), "Kinfolk" meets "Braun Design".
+[Background]: Full-Frame High-texture Matte Art Paper (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper IS the background.
+[Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper.
+[Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts).
+[Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper content.
+// --- 2. HEADER SECTION (The Title Block) ---
+[Top Area]:
+
+Title: "可变气门正时（VVT）" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "VARIABLE VALVE TIMING" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of a cutaway hydraulic VVT Camshaft Phaser assembly, showing internal rotor, vanes, and oil chambers, sitting physically ON the paper, casting a hard shadow over the title.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper.
+// --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) ---
+[Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper.
+
+Content:
+    1. [Ink Sketch of Cam relative to Sprocket] Label: "相位调节 (Phase Adjustment)"
+    2. [Ink Sketch of overlapping valve lift curves] Label: "气门重叠角 (Valve Overlap)"
+    3. [Ink Sketch of Intake Valve opening early] Label: "进气提前 (Intake Advance)"
+    4. [Ink Sketch of Exhaust Valve closing late] Label: "排气延迟 (Exhaust Retard)"
+    5. [Ink Sketch of hydraulic oil flow pushing vanes] Label: "液压驱动 (Hydraulic Actuation)"
+// --- 4. SECTION 2 - AXIOMS (The Data Blocks) ---
+[Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: Vertical Stack.
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper.
+
+Block 1: Typography Math "Δθ_cam = f(RPM, Load, Oil_P)"
+
+Block 2: Data Highlight "调节范围 > 40° (Crank Angle)"
+
+Block 3: Standard Stamp "执行标准 GB/T 18297" (Look like a red/blue approval stamp).
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - UNCHANGED LOGIC) ---
+[Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)".
+// *** ADAPTIVE LAYOUT SWITCH ***
+// IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+    * Item 1: [3D Render of VVT Phaser Assembly] + "1. VVT相位器总成：安装于凸轮轴端部，通过内部叶片或齿轮机构，在液压驱动下改变凸轮轴与正时链轮之间的相对角度。"
+    * Item 2: [3D Render of Oil Control Valve (OCV)] + "2. 机油控制阀 (OCV)：作为执行元件，根据ECU指令精确控制流向相位器油腔的液压油方向和压力，从而实现相位调节。"
+    * Item 3: [3D Render of Camshaft End with oil passages] + "3. 凸轮轴油道：凸轮轴内部加工有精密的油道，将受控的液压油引导至相位器内部的工作腔室。"
+    * Item 4: [3D Render of Cam Position Sensor] + "4. 位置传感器与ECU：实时监测凸轮轴与曲轴的相对位置，ECU进行闭环计算并发出控制指令，确保正时精确无误。"
+// --- 6. BOTTOM SECTION (The Schematic) ---
+[Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+    * Left: Logic Flowchart (Hand-drawn pencil style schematic connecting nodes): Engine Sensors -> ECU Calculation -> OCV Actuation -> Hydraulic Pressure Change -> Phaser Rotation -> Cam Timing Optimized.
+    * Right: [Torque vs RPM Graph with multiple curves printed on paper] + 3 [Translucent Tracing paper overlays] showing the shift of Intake Opening point relative to Top Dead Center (TDC) at different RPMs.
+    * Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font.
+--ar 3:4 --stylize 350 --v 6.1
+--no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper texture, low resolution diagrams

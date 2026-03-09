@@ -1,0 +1,72 @@
+/imagine prompt:A high-quality vertical industrial design magazine spread, featuring "配气机构".
+[VERSION: TITANIUM PAPER 9.1]
+// --- 1. GLOBAL SETTINGS (THE PAPER AESTHETIC) ---
+[Style]: High-end Editorial Photography, Mixed Reality (2D Paper vs 3D Metal), "Kinfolk" meets "Braun Design".
+[Background]: Full-Frame High-texture Matte Art Paper (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper IS the background.
+[Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper.
+[Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts).
+[Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper content.
+// --- 2. HEADER SECTION (The Title Block) ---
+[Top Area]:
+
+Title: "配气机构" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "VALVE TRAIN SYSTEM" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of a complete Double Overhead Camshaft (DOHC) Valve Train assembly (camshafts, valves, springs, rockers) sitting physically ON the paper, casting a hard shadow over the title.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper.
+// --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) ---
+[Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper.
+
+Content:
+    1. [Ink Sketch of Camshaft Profile] Label: "凸轮型线 (Cam Profile)"
+    2. [Ink Sketch of Valve Opening/Closing Lift] Label: "气门升程 (Valve Lift)"
+    3. [Ink Sketch of Timing Belt/Chain] Label: "正时传动 (Timing Drive)"
+    4. [Ink Sketch of Valve Spring Force] Label: "弹簧预紧 (Spring Preload)"
+    5. [Ink Sketch of Variable Valve Timing VVT] Label: "可变正时 (VVT)"
+// --- 4. SECTION 2 - AXIOMS (The Data Blocks) ---
+[Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: Vertical Stack.
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper.
+
+Block 1: Typography Math "Lift_max = f(Cam_angle, Geometry)"
+
+Block 2: Data Highlight "间隙 (Lash) < 0.35mm (Typical)"
+
+Block 3: Standard Stamp "执行标准 GB/T 18297-2001" (Look like a red/blue approval stamp).
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - UNCHANGED LOGIC) ---
+[Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)".
+// *** ADAPTIVE LAYOUT SWITCH ***
+// IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+    * Item 1: [3D Render of Polished Camshaft] + "1. 凸轮轴：作为核心驱动件，其型线设计直接决定了气门的开启时刻、持续时间和升程规律，是配气相位的物理实现。"
+    * Item 2: [3D Render of Intake/Exhaust Valves with Stems] + "2. 气门组件：负责进气和排气通道的精确开闭。必须具备极高的耐热性和密封性，以承受燃烧室的高温高压。"
+    * Item 3: [3D Render of Valve Spring and Retainer] + "3. 气门弹簧：提供必要的复位力，确保气门在关闭时与气门座紧密贴合，并在高转速下防止气门飞脱。"
+    * Item 4: [3D Render of Hydraulic Valve Lifter/Tappet] + "4. 液压挺柱：自动调节气门间隙，消除热膨胀和磨损带来的影响，保证配气机构的静音性和免维护性。"
+// --- 6. BOTTOM SECTION (The Schematic) ---
+[Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+    * Left: Logic Flowchart (Hand-drawn pencil style schematic connecting nodes): Crankshaft Rotation -> Timing Drive -> Camshaft Rotation -> Valve Actuation -> Airflow Control.
+    * Right: [Valve Lift vs Crank Angle Graph printed on paper] + 3 [Translucent Tracing paper overlays] showing X-Ray details of Valve-to-Piston clearance.
+    * Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font.
+--ar 3:4 --stylize 350 --v 6.1
+--no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper texture, low resolution diagrams

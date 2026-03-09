@@ -1,0 +1,63 @@
+/imagine prompt:A high-quality Vertical industrial design magazine spread, featuring "磨胎半径". [VERSION: TITANIUM paper-textured background 9.1] // --- 1. GLOBAL SETTINGS (THE paper-textured background AESTHETIC) --- [Style]: High-end Editorial Photography, Mixed Reality (2D paper-textured background vs 3D Metal), "Kinfolk" meets "Braun Design". [Background]: Full-Frame High-texture Matte Art paper-textured background (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper-textured background IS the background. [Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper-textured background. [Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts). [Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper-textured background content. // --- 2. HEADER SECTION (The Title Block) --- [Top Area]:
+
+Title: "磨胎半径" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "SCRUB RADIUS" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of [Front suspension assembly showing wheel, knuckle, and strut, with a clear red line indicating the kingpin axis intersecting the ground plane relative to the tire center] sitting physically ON the paper-textured background, casting a hard shadow over the title.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper-textured background. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) --- [Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper-textured background.
+
+Content:
+
+[Ink Sketch of Front view geometry intersection] Label: "接地几何 (GEOMETRY)"
+
+[Ink Sketch of Intersection inside tire center] Label: "正磨胎 (POSITIVE)"
+
+[Ink Sketch of Intersection outside tire center] Label: "负磨胎 (NEGATIVE)"
+
+[Ink Sketch of Intersection at tire center] Label: "零磨胎 (ZERO)"
+
+[Ink Sketch of Steering wheel with vibrations] Label: "路感反馈 (FEEDBACK)" // --- 4. SECTION 2 - AXIOMS (The Data Blocks) --- [Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: [Vertical Stack].
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper-textured background.
+
+Block 1: Typography Math "SR = Dist(Kingpin Axis, Tire Center) @ Ground"
+
+Block 2: Data Highlight "典型范围: -10mm ~ +15mm"
+
+Block 3: Standard Stamp "执行标准 GB 7258 (相关项)" (Look like a red/blue approval stamp). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - VERTICAL) --- [Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)".
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [Real 3D Kingpin Axis Line and Ball Joints] + "1. 主销轴线：转向节上下球头连线在地面上的投影点，是磨胎半径的基准点之一。"
+
+Item 2: [Real 3D Tire Contact Patch showing center line] + "2. 轮胎中心：轮胎接地印迹在宽度方向上的几何中心线，是另一个基准点。"
+
+Item 3: [Real 3D Wheel Hub with Offset (ET) indication] + "3. 轮毂偏距 (ET)：改变轮毂ET值会直接平移轮胎中心线，从而显著改变磨胎半径。"
+
+Item 4: [Real 3D Brake Disc with unbalanced force vector] + "4. 制动稳定性：负磨胎半径可在左右制动力不平衡时，利用力臂效应自动生成纠正转向力矩。" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Logic Flowchart (Hand-drawn pencil style schematic connecting "Uneven Braking" to "Scrub Radius Lever" to "Corrective Torque").
+
+Right: [Steering Effort vs. Radius Graph printed on paper-textured background] + 3 [Translucent Tracing paper-textured background overlays] showing Positive, Zero, and Negative zones.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams

@@ -1,0 +1,107 @@
+[ANALYSIS LOG]
+Concept: 算法极限
+Target AR: Vertical
+Verified Standard: GB/T 34590
+Layout Strategy: Single Column Stack
+Chart Geometry (Left): A thick black marker drawing of an X-Y axis graph showing a computational limit curve. A line rises sharply and hits a horizontal dotted line, indicating a saturation point, labeled '极限瓶颈'.
+Chart Labels: 数据 (DATA), CPU负荷 (LOAD)
+Chart Visual (Right): A high-fidelity X-Ray cross-section render of a racing ECU processor, showing microscopic circuits glowing white-hot and fracturing at the edges.
+
+[THE MIDJOURNEY PROMPT]
+
+/imagine prompt: A high-impact VERTICAL industrial design spread, featuring "算法极限".
+
+[VERSION: DIMENSION BREAKER v10.1]
+
+// --- 1. GLOBAL SETTINGS (THE BREAKTHROUGH AESTHETIC) ---
+[Style]: Hyper-realistic Industrial Photography, Trompe-l'œil (Optical Illusion), "Torn Paper" Collage, High-Fidelity Rendering.
+[Background]: Double-Layered Composition.
+
+Top Layer: Pristine White Technical Paper (Matte), but physically torn, crushed, or peeled back in the center.
+
+Bottom Layer (The Reveal): Dark Carbon Fiber texture, Blueprints, or Brushed Metal surface visible through the tears.
+[Lighting]: Dramatic Volumetric Lighting. Hard shadows cast by the torn paper edges and the 3D components. High contrast between the bright white paper and the dark mechanical void.
+[Color Palette]: Matte White (Surface) + Industrial Orange/Red (Warning Accents) + Deep Gunmetal (Machinery).
+[Perspective]: Strict 90° Top-down Flat Lay. The depth is conveyed through shadows and layering, not camera angle.
+
+// --- 2. HEADER SECTION (The Impact Zone) ---
+[Top Area]:
+
+Title: "算法极限" in massive Bold Stencil Font (Military Style). The text appears partially printed on the paper and partially floating.
+
+Subtitle: "COMPUTATIONAL LIMITS" in monospace font.
+
+Visual Anchor: A Heavyweight 3D Render of Racing ECU and ADAS Controller.
+
+Interaction: The component is NOT just sitting on the paper. It appears to be breaking through the paper from underneath, OR sitting so heavily that the paper is wrinkled and depressed around it.
+
+Decor: Scorch marks, oil smudges, "DANGER" tag, torn paper edges casting shadows.
+
+// --- 3. SECTION 1 - CORE THEMES (The Blueprint Surface) ---
+[Upper Area]:
+
+Header: Minimalist divider "核心机制 (CORE MECHANISM)".
+
+Style: Pencil Sketch / Engineering Draft printed on the untorn sections of the white paper.
+
+Content:
+
+[Sketch of sensor array input] Label: "多源数据采集"
+
+[Sketch of processor brain] Label: "并行运算架构"
+
+[Sketch of a racing line with speed markers] Label: "最优路径规划"
+
+[Sketch of mechanical actuator] Label: "实时反馈控制"
+
+// --- 4. SECTION 2 - AXIOMS (The Hidden Truth) ---
+[Middle Area]:
+
+Header: Minimalist divider "工程定律 (AXIOMS)".
+
+Location: Located inside a "Torn Window" or on a darker patch of the layout.
+
+Style: Backlit LCD effect or White text on Dark Background (representing the data inside the machine).
+
+Block 1: Typography Math "[t_{calc} < t_{frame}]"
+
+Block 2: Data Highlight "LIMIT > 99.99% Reliability"
+
+Block 3: Standard Stamp "GB-T 34590" (Stamped like a metal engraving).
+
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) ---
+[Main Content Area]:
+
+Header: Minimalist divider "深度解构 (DECONSTRUCTION)".
+
+// *** ADAPTIVE LAYOUT SWITCH ***
+// IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Exploded View Parts floating above the paper.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [Lidar/Radar Array] + "1. 传感器感知层：处理高通量点云与图像数据，提取关键障碍物特征。"
+
+Item 2: [FPGA/GPU Module] + "2. 异构计算单元：承担深度学习推理任务，毫秒级研判复杂赛道环境。"
+
+Item 3: [Decision Logic Board] + "3. 决策控制算法：基于极限状态下的运动学模型，规划毫秒级避障轨迹。"
+
+Item 4: [CAN Bus Connector] + "4. 通信与执行：确保控制指令绝对低延迟传输，精确驱动转向与制动系统。"
+
+// --- 6. BOTTOM SECTION (The Schematic) ---
+[Bottom Area]:
+
+Header: Minimalist divider "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: A minimalist geometric graphic showing a thick black marker drawing of an X-Y axis graph showing a computational limit curve. A line rises sharply and hits a horizontal dotted line, indicating a saturation point, labeled '极限瓶颈' drawn directly on the paper with a thick black marker. Explicitly write the text "数据 (DATA)" and "CPU负荷 (LOAD)" next to the diagram nodes.
+
+Right: A high-contrast graphic block showing a high-fidelity X-Ray cross-section render of a racing ECU processor, showing microscopic circuits glowing white-hot and fracturing at the edges.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small industrial type.
+
+--ar 3:4 --stylize 400 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines

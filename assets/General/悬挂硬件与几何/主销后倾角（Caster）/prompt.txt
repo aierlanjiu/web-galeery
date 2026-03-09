@@ -1,0 +1,63 @@
+/imagine prompt:A high-quality Vertical industrial design magazine spread, featuring "主销后倾角". [VERSION: TITANIUM paper-textured background 9.1] // --- 1. GLOBAL SETTINGS (THE paper-textured background AESTHETIC) --- [Style]: High-end Editorial Photography, Mixed Reality (2D paper-textured background vs 3D Metal), "Kinfolk" meets "Braun Design". [Background]: Full-Frame High-texture Matte Art paper-textured background (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper-textured background IS the background. [Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper-textured background. [Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts). [Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper-textured background content. // --- 2. HEADER SECTION (The Title Block) --- [Top Area]:
+
+Title: "主销后倾角" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "POSITIVE CASTER ANGLE" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of [Chrome Suspension MacPherson Strut Assembly] sitting physically ON the paper-textured background, casting a hard shadow over the title.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper-textured background. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) --- [Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper-textured background.
+
+Content:
+
+[Ink Sketch of Steering Wheel Returning] Label: "回正性 (RETURN)"
+
+[Ink Sketch of Straight Highway] Label: "直线稳定 (STABILITY)"
+
+[Ink Sketch of Tire Trail] Label: "机械拖距 (TRAIL)"
+
+[Ink Sketch of Heavy Hand] Label: "转向力 (EFFORT)"
+
+[Ink Sketch of Axis Tilt] Label: "几何夹角 (ANGLE)" // --- 4. SECTION 2 - AXIOMS (The Data Blocks) --- [Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: [Vertical Stack].
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper-textured background.
+
+Block 1: Typography Math "Trail = R * tan(θ)"
+
+Block 2: Data Highlight "阈值 Range: +2° ~ +7°"
+
+Block 3: Standard Stamp "执行标准 GB 7258-2017" (Look like a red/blue approval stamp). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - VERTICAL) --- [Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)".
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [Real 3D Shock Absorber] + "1. 减震支柱：确立主销轴线向后倾斜，形成稳定夹角。"
+
+Item 2: [Real 3D Wheel Hub] + "2. 轮心垂线：轮胎接地中心位于主销延长线之后，产生拖距。"
+
+Item 3: [Real 3D Steering Knuckle] + "3. 转向节臂：连接车轮与悬架，传递路面反馈至方向盘。"
+
+Item 4: [Real 3D Tire Patch] + "4. 自对中力：高速行驶时利用离心力自动修正车轮方向。" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Logic Flowchart (Hand-drawn pencil style schematic connecting Gravity to Alignment).
+
+Right: [Force Vector Graph printed on paper-textured background] + 3 [Translucent Tracing paper-textured background overlays] showing X-Ray Internal Geometry.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams

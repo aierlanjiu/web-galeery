@@ -217,10 +217,185 @@
     "total_followers": 5850
   },
   {
+    "date": "2026-02-04",
+    "new_followers": 121,
+    "unfollows": 2,
+    "net_growth": 119,
+    "total_followers": 5969
+  },
+  {
+    "date": "2026-02-05",
+    "new_followers": 97,
+    "unfollows": 1,
+    "net_growth": 96,
+    "total_followers": 6065
+  },
+  {
+    "date": "2026-02-06",
+    "new_followers": 116,
+    "unfollows": 1,
+    "net_growth": 115,
+    "total_followers": 6180
+  },
+  {
+    "date": "2026-02-07",
+    "new_followers": 43,
+    "unfollows": 0,
+    "net_growth": 43,
+    "total_followers": 6223
+  },
+  {
+    "date": "2026-02-08",
+    "new_followers": 39,
+    "unfollows": 0,
+    "net_growth": 39,
+    "total_followers": 6262
+  },
+  {
+    "date": "2026-02-09",
+    "new_followers": 68,
+    "unfollows": 2,
+    "net_growth": 66,
+    "total_followers": 6328
+  },
+  {
     "date": "2026-02-10",
     "new_followers": 531,
     "unfollows": 0,
     "net_growth": 531,
     "total_followers": 6381
+  },
+  {
+    "date": "2026-02-11",
+    "new_followers": 98,
+    "unfollows": 0,
+    "net_growth": 98,
+    "total_followers": 6488
+  },
+  {
+    "date": "2026-02-12",
+    "new_followers": 86,
+    "unfollows": 3,
+    "net_growth": 83,
+    "total_followers": 6571
+  },
+  {
+    "date": "2026-02-13",
+    "new_followers": 65,
+    "unfollows": 1,
+    "net_growth": 64,
+    "total_followers": 6635
+  },
+  {
+    "date": "2026-02-14",
+    "new_followers": 42,
+    "unfollows": 1,
+    "net_growth": 41,
+    "total_followers": 6676
+  },
+  {
+    "date": "2026-02-15",
+    "new_followers": 34,
+    "unfollows": 0,
+    "net_growth": 34,
+    "total_followers": 6710
+  },
+  {
+    "date": "2026-02-16",
+    "new_followers": 29,
+    "unfollows": 0,
+    "net_growth": 29,
+    "total_followers": 6739
+  },
+  {
+    "date": "2026-02-17",
+    "new_followers": 41,
+    "unfollows": 0,
+    "net_growth": 41,
+    "total_followers": 6780
+  },
+  {
+    "date": "2026-02-18",
+    "new_followers": 52,
+    "unfollows": 0,
+    "net_growth": 52,
+    "total_followers": 6832
+  },
+  {
+    "date": "2026-02-19",
+    "new_followers": 55,
+    "unfollows": 1,
+    "net_growth": 54,
+    "total_followers": 6886
+  },
+  {
+    "date": "2026-02-20",
+    "new_followers": 43,
+    "unfollows": 0,
+    "net_growth": 43,
+    "total_followers": 6929
+  },
+  {
+    "date": "2026-02-21",
+    "new_followers": 32,
+    "unfollows": 2,
+    "net_growth": 30,
+    "total_followers": 6959
+  },
+  {
+    "date": "2026-02-22",
+    "new_followers": 26,
+    "unfollows": 2,
+    "net_growth": 24,
+    "total_followers": 6983
+  },
+  {
+    "date": "2026-02-23",
+    "new_followers": 25,
+    "unfollows": 0,
+    "net_growth": 25,
+    "total_followers": 7008
+  },
+  {
+    "date": "2026-02-24",
+    "new_followers": 27,
+    "unfollows": 1,
+    "net_growth": 26,
+    "total_followers": 7034
+  },
+  {
+    "date": "2026-02-25",
+    "new_followers": 44,
+    "unfollows": 3,
+    "net_growth": 41,
+    "total_followers": 7075
+  },
+  {
+    "date": "2026-02-26",
+    "new_followers": 30,
+    "unfollows": 2,
+    "net_growth": 28,
+    "total_followers": 7103
+  },
+  {
+    "date": "2026-02-27",
+    "new_followers": 30,
+    "unfollows": 1,
+    "net_growth": 29,
+    "total_followers": 7132
+  },
+  {
+    "date": "2026-02-28",
+    "new_followers": 35,
+    "unfollows": 1,
+    "net_growth": 34,
+    "total_followers": 7166
+  },
+  {
+    "date": "2026-03-01",
+    "new_followers": 25,
+    "unfollows": 1,
+    "net_growth": 24,
+    "total_followers": 7190
   }
 ]

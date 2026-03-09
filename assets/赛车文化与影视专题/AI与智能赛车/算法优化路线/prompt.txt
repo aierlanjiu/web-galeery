@@ -1,0 +1,23 @@
+[ANALYSIS LOG]
+Concept: 算法优化路线 (Algorithm Optimization Roadmap)
+Target AR: Vertical (3:4)
+Verified Standard: ISO 26262 (Functional Safety), ISO/PAS 8800 (AI Safety), ISO 21448 (SOTIF)
+Core Physics: Gradient Descent Update Rule: θ
+k+1
+	​
+
+=θ
+k
+	​
+
+−α∇J(θ
+k
+	​
+
+)
+Layout Strategy: Single Column Stack (Vertical)
+Chart Geometry: A 2D Cartesian coordinate graph showing convergence. X-axis labeled "迭代次数 (Iterations)", Y-axis labeled "圈速耗时 (Lap Time Cost)". A downward sloping hyperbola curve approaching a minimum plateau.
+Chart Labels: X: 迭代次数, Y: 圈速耗时
+Verification Checkpoints: 高鲁棒 (High Robustness), 全闭环 (Full Closed-Loop), 可解释 (Explainable)
+
+/imagine prompt: A high-precision engineering education visualization of "算法优化路线". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper resting elegantly on edge. [Decor]: Red Seal "雪沐江南" // --- 2. HEADER SECTION --- [Top Area]: Title: "算法优化路线" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. Subtitle: "ALGORITHMIC OPTIMIZATION ROADMAP" in smaller, thinner chalk handwriting. Visual Anchor: A Hyper-realistic 3D Render of a ruggedized automotive AI computing unit with multiple bundled data cables glowing with blue light, forming a branching pathway map projecting forward. Decor: Minimalist technical drafting border, incorporating a "雪沐江南" proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: Header: Hand-drawn line with text "核心机制 (MECHANISM)". Style: White Chalk Schematics (Simplified Physics Icons). Content: 1. Sensor Array Icon + Label: "数据采集 (Acquisition)". 2. Neural Net Icon + Label: "模型训练 (Training)". 3. Virtual Car in Screen Icon + Label: "仿真验证 (Simulation)". 4. Cloud Download Icon + Label: "部署迭代 (Deployment)". // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: Header: Hand-drawn line with text "工程定律 (AXIOMS)". Style: Minimalist Equation Blocks drawn in fine chalk. Block 1: Hand-written Math Formula "\theta_{k+1} = \theta_k - \alpha \nabla J(\theta_k)". Block 2: Parameter Limit "Learning Rate \alpha < 0.1". Block 3: Standard Ref "Ref: ISO/PAS 8800, ISO 26262". // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)". Layout: SINGLE COLUMN STACK. Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. Item 1: Macro 3D Render of LiDAR & Camera Module + Chalk Text: "1. 感知算法栈：融合多模态传感器原始数据，利用深度学习网络实时构建高精度环境语义地图与障碍物列表。". Item 2: Macro 3D Render of High-Performance Processor Chip + Chalk Text: "2. 规划与决策核心：基于当前状态估计，在动态约束下利用数值优化方法生成时空最优的赛车轨迹曲线。". Item 3: Macro 3D Render of Drive-by-Wire Actuator Motor + Chalk Text: "3. 动力学控制：采用模型预测控制(MPC)算法，精准计算转向与加减速指令，最小化实际轨迹与规划路径的误差。". Item 4: Macro 3D Render of Server Rack with Antenna + Chalk Text: "4. 云端影子模式：收集海量实车数据在云端进行大规模并行训练，持续挖掘Corner Case并更新算法参数模型。". // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: Header: Hand-drawn line with text "可视验证 (VERIFICATION)". Content: Left: A minimalist chalk drawing of a 2D Cartesian coordinate graph. X-axis explicitly labeled "迭代次数 (Iterations)". Y-axis explicitly labeled "圈速耗时 (Lap Time Cost)". A downward sloping curve starts high on the left and flattens out low on the right, showing convergence. Right: Explicit Handwritten Checklist: Text "1. 高鲁棒性 √". Text "2. 全闭环路 √". Text "3. 可解释性 √". Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, unlabelled axes, floating arrows, illogical math, incoherent writing, mirrored letters, blurry fonts, double text

@@ -1,0 +1,104 @@
+[ANALYSIS LOG]
+Concept: 数据辅助驾驶
+Target AR: Vertical (3:4)
+Verified Standard: GB/T 34590
+Layout Strategy: Single Column Stack
+Chart Geometry (Left): A thick black marker drawing of an X-Y axis graph. The graph is filled with a dense cloud of small dots and a solid, bold trend line arching through them.
+Chart Labels: SENSOR DATA, ALGORITHM OUTPUT
+Chart Visual (Right): A high-fidelity X-Ray cross-section render of a Lidar sensor head, showing the rotating laser emitter array and receiver matrix encased in metal and glass.
+
+[THE MIDJOURNEY PROMPT]
+
+/imagine prompt: A high-impact vertical industrial design spread, featuring "数据辅助驾驶".
+
+[VERSION: DIMENSION BREAKER v10.1]
+
+// --- 1. GLOBAL SETTINGS (THE BREAKTHROUGH AESTHETIC) ---
+[Style]: Hyper-realistic Industrial Photography, Trompe-l'œil (Optical Illusion), "Torn Paper" Collage, High-Fidelity Rendering.
+[Background]: Double-Layered Composition.
+
+Top Layer: Pristine White Technical Paper (Matte), but physically torn, crushed, or peeled back in the center.
+
+Bottom Layer (The Reveal): Dark Carbon Fiber texture, Blueprints, or Brushed Metal surface visible through the tears.
+[Lighting]: Dramatic Volumetric Lighting. Hard shadows cast by the torn paper edges and the 3D components. High contrast between the bright white paper and the dark mechanical void.
+[Color Palette]: Matte White (Surface) + Industrial Orange/Red (Warning Accents) + Deep Gunmetal (Machinery).
+[Perspective]: Strict 90° Top-down Flat Lay. The depth is conveyed through shadows and layering, not camera angle.
+
+// --- 2. HEADER SECTION (The Impact Zone) ---
+[Top Area]:
+
+Title: "数据辅助驾驶" in massive Bold Stencil Font (Military Style). The text appears partially printed on the paper and partially floating.
+
+Subtitle: "DATA-AIDED DRIVING" in monospace font.
+
+Visual Anchor: A heavyweight 3D Render of ADAS Domain Controller ECU, heavy with cooling fins and multi-pin connectors.
+
+Interaction: The component is NOT just sitting on the paper. It appears to be breaking through the paper from underneath, OR sitting so heavily that the paper is wrinkled and depressed around it.
+
+Decor: Scorch marks, oil smudges, "DANGER" tag, torn paper edges casting shadows.
+
+// --- 3. SECTION 1 - CORE THEMES (The Blueprint Surface) ---
+[Upper Area]:
+
+Header: Minimalist divider "核心机制 (CORE MECHANISM)".
+
+Style: Pencil Sketch / Engineering Draft printed on the untorn sections of the white paper.
+
+Content:
+
+[Sketch of an eyeball with radar lines] Label: "多维感知"
+
+[Sketch of a brain connected to circuits] Label: "智算融合"
+
+[Sketch of a steering wheel turning automatically] Label: "决策执行"
+
+[Sketch of a racing helmet with HUD] Label: "影视竞技"
+
+// --- 4. SECTION 2 - AXIOMS (The Hidden Truth) ---
+[Middle Area]:
+
+Header: Minimalist divider "工程定律 (AXIOMS)".
+
+Location: Located inside a "Torn Window" or on a darker patch of the layout.
+
+Style: Backlit LCD effect or White text on Dark Background (representing the data inside the machine).
+
+Block 1: Typography Math "[PATH = f(P_0, Θ, κ_s, s)]"
+
+Block 2: Data Highlight "RESPONSE TIME < 10ms"
+
+Block 3: Standard Stamp "GB-T 34590" (Stamped like a metal engraving).
+
+// --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) ---
+[Main Content Area]:
+
+Header: Minimalist divider "深度解构 (DECONSTRUCTION)".
+
+Layout: SINGLE COLUMN STACK.
+
+Logic: Exploded View Parts floating above the paper.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [LiDAR Sensor] + "1. 激光雷达：高速旋转发射激光束，通过测量反射时间构建高精度三维环境点云图。"
+
+Item 2: [High-Definition Camera] + "2. 高清摄像头：实时捕获路面语义信息，进行车道线识别、交通标志检测与行人判别。"
+
+Item 3: [ADAS Domain Controller] + "3. 智驾域控制器：融合多传感器数据，利用神经网络算法进行千亿次浮点运算，规划行进路径。"
+
+Item 4: [Brake Actuator] + "4. 制动执行器：接收决策指令，瞬间建立液压或电控反作用力，实现毫秒级自动紧急制动。"
+
+// --- 6. BOTTOM SECTION (The Schematic) ---
+[Bottom Area]:
+
+Header: Minimalist divider "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: A minimalist geometric graphic showing A thick black marker drawing of an X-Y axis graph. The graph is filled with a dense cloud of small dots and a solid, bold trend line arching through them drawn directly on the paper with a thick black marker. Explicitly write the text "SENSOR DATA", "ALGORITHM OUTPUT" next to the diagram nodes.
+
+Right: A high-contrast graphic block showing A high-fidelity X-Ray cross-section render of a Lidar sensor head, showing the rotating laser emitter array and receiver matrix encased in metal and glass.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small industrial type.
+
+--ar 3:4 --stylize 400 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines

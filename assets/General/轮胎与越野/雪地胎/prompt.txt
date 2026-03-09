@@ -1,0 +1,73 @@
+/imagine prompt: A high-precision engineering education visualization of "雪地胎".
+
+[VERSION: BLACKBOARD ENGINEERING 10.0]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools). [Props]: A generic Stainless Steel Vernier Caliper resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "雪地胎" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "WINTER TIRE MECHANICS & LOW-T TRIBOLOGY" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a [WINTER TIRE CROSS-SECTION] showing deep tread blocks heavily covered in fine zigzag sipes, with a slightly frosted appearance, floating slightly in front, casting soft shadow.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon for Thermometer next to a soft, pliable rubber block] + Label: "低温软化配方" (Handwritten Chinese)
+
+[Icon for Magnifying glass showing dense micro-slits opening] + Label: "高密度细纹" (Handwritten Chinese)
+
+[Icon for Cross-section with arrow ejecting slush/snow] + Label: "排雪深沟" (Handwritten Chinese)
+
+[Icon for Micro-teeth biting into a flat ice surface] + Label: "冰面咬合效应" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks.
+
+Block 1: Hand-written Math Formula "F_{grip} \propto \mu(T_{low}) \cdot \sum N_{sipe_edges}"
+
+Block 2: Parameter Limit "Operating T_{op} < 7^\circ C"
+
+Block 3: Standard Ref "Ref: ISO 18106 (3PMSF)"
+
+// --- 5. SECTION 3 - DEEP DIVE (Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+Layout: SINGLE COLUMN STACK (Vertical Layout).
+
+Logic: Small 3D Part Renders (Real Metal/Rubber) + Chalk Annotations.
+
+Item 1: [Macro 3D Render of tread surface texture showing silica particle dispersion] + Chalk Leader Line -> "1. 高硅橡胶胎面 (High-Silica Compound)"
+
+Item 2: [Macro 3D Render of a single tread block showing complex 3D zigzag interlocking sipes] + Chalk Leader Line -> "2. 波状钢片沟 (3D Zigzag Sipes)"
+
+Item 3: [Macro 3D Render of the tire shoulder block with aggressive serrated edges] + Chalk Leader Line -> "3. 锯齿状胎肩 (Sawtooth Shoulder)"
+
+Item 4: [Macro 3D Render of internal carcass plies emphasizing flexibility] + Chalk Leader Line -> "4. 柔性胎体结构 (Flexible Carcass)"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Friction vs. Temperature Diagram (Bell curve showing winter tire peak friction below 7°C vs summer tire dropping off) with fine white chalk vectors.
+
+Right: Handwritten check-list summary in Chinese: "7℃以下激活: YES", "冰雪抓地力: HIGH", "三峰雪花认证: PASS".
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing.

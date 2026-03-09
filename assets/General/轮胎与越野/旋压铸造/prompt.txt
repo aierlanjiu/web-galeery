@@ -1,0 +1,27 @@
+[ANALYSIS LOG] Concept: 旋压铸造 (Flow Forming) Target AR: Vertical (3:4) Verified Standard: QC/T 242-2014 (Ref. standards for aluminum wheels) Core Physics: ϵ
+true
+	​
+
+=ln(L
+final
+	​
+
+/L
+initial
+	​
+
+) (True Strain during stretching) Layout Strategy: Single Column Stack (Vertical Deconstruction) Verification Checkpoints: 致密化, 轻量化, 高强度
+
+/imagine prompt:A high-precision engineering education visualization of "旋压铸造". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal "雪沐江南" // --- 2. HEADER SECTION --- [Top Area]: Title: "旋压铸造" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. Subtitle: "FLOW FORMING TECHNOLOGY" in smaller, thinner chalk handwriting. Visual Anchor: A Hyper-realistic 3D Render of a wheel preform mounted on a spinning mandrel, with hydraulic rollers pressing and stretching the barrel section, showing heat haze and material thinning effect, floating slightly in front, casting soft shadow. Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: Header: Hand-drawn line with text "核心机制 (MECHANISM)". Style: White Chalk Schematics (Simplified Physics Icons). Content: 1. [Icon for Crucible/Mold] + Label: "铸造毛坯" (Handwritten Chinese) 2. [Icon for Heat + Rotation] + Label: "热旋压" (Handwritten Chinese) 3. [Icon for Stretching arrows] + Label: "塑性延展" (Handwritten Chinese) 4. [Icon for Microstructure refinement] + Label: "晶粒细化" (Handwritten Chinese) // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: Header: Hand-drawn line with text "工程定律 (AXIOMS)". Style: Minimalist Equation Blocks drawn in fine chalk. Block 1: Hand-written Math Formula "ϵ
+true
+	​
+
+=ln(L
+final
+	​
+
+/L
+initial
+	​
+
+)" Block 2: Parameter Limit "Tensile Strength > 300 MPa" Block 3: Standard Ref "Ref: QC/T 242-2014" // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)". // IF VERTICAL (3:4): Layout: SINGLE COLUMN STACK. Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. Item 1: [Macro 3D Render of thick cast preform] + Chalk Text: "1. 铸造毛坯：采用低压铸造形成初始轮毂雏形，此时桶身较厚，内部晶粒相对粗大疏松。" Item 2: [Macro 3D Render of preform on glowing mandrel] + Chalk Text: "2. 加热装夹：将毛坯加热至再结晶温度区域，安装于高精度旋压机芯轴上高速旋转。" Item 3: [Macro 3D Render of roller compressing barrel] + Chalk Text: "3. 旋压延展：液压滚轮施加极高压力，使金属产生塑性流动，桶身变薄并沿轴向拉长成型。" Item 4: [Macro 3D Render of microscopic grain comparison cast vs flow formed] + Chalk Text: "4. 晶格重组：高压下金属内部晶粒被拉长并致密排列，显著提升材料密度与机械强度，接近锻造品质。" // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: Header: Hand-drawn line with text "可视验证 (VERIFICATION)". Content: Left: Stress-Strain Diagram comparing "Cast" vs "Flow Formed" curves showing improved ductility and strength. Right: Spectrum Graph drawn in chalk showing Weight vs Strength tradeoff + Explicit Handwritten Checklist: Text "1. 致密化 √" (Ensure explicit Chinese text rendering) Text "2. 轻量化 √" (Ensure explicit Chinese text rendering) Text "3. 高强度 √" (Ensure explicit Chinese text rendering) Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing, mirrored letters, blurry fonts, double text.

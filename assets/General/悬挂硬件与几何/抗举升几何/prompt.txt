@@ -1,0 +1,63 @@
+/imagine prompt:A high-quality Vertical industrial design magazine spread, featuring "抗举升几何". [VERSION: TITANIUM paper-textured background 9.1] // --- 1. GLOBAL SETTINGS (THE paper-textured background AESTHETIC) --- [Style]: High-end Editorial Photography, Mixed Reality (2D paper-textured background vs 3D Metal), "Kinfolk" meets "Braun Design". [Background]: Full-Frame High-texture Matte Art paper-textured background (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper-textured background IS the background. [Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper-textured background. [Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts). [Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper-textured background content. // --- 2. HEADER SECTION (The Title Block) --- [Top Area]:
+
+Title: "抗举升几何" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink.
+
+Subtitle: "ANTI-LIFT GEOMETRY" in elegant Serif font (Prussian Blue).
+
+Visual Anchor: A Hyper-realistic 3D Render of a complex Multi-link Rear Suspension assembly sitting physically ON the paper-textured background, casting a hard shadow over the title.
+
+Decor: "Figure 1.0" label, Barcode sticker, Red Seal "雪沐江南", fine cross-hair lines printed on paper-textured background. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) --- [Upper Area]:
+
+Header: Minimalist line divider with text "核心机制 (CORE MECHANISM)".
+
+Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper-textured background.
+
+Content:
+
+[Ink Sketch showing forces at the rear wheel] Label: "制动反力 (Braking Reaction Force)"
+
+[Ink Sketch of instant center location relative to rear wheel] Label: "瞬时中心 (Instant Center)"
+
+[Ink Sketch of rear suspension compressing/extending] Label: "悬挂行程 (Suspension Travel)"
+
+[Ink Sketch showing weight transfer away from rear] Label: "载荷转移 (Load Transfer)"
+
+[Ink Sketch of rear trailing arm angle] Label: "拖曳臂角 (Trailing Arm Angle)" // --- 4. SECTION 2 - AXIOMS (The Data Blocks) --- [Middle Area]:
+
+Header: Minimalist line divider with text "工程定律 (AXIOMS)".
+
+Layout: Vertical Stack.
+
+Style: "Post-it" style highlighted blocks or shaded grey areas on the paper-textured background.
+
+Block 1: Typography Math "AL% = (tan φ / (H/L_r)) * 100"
+
+Block 2: Data Highlight "Lift Angle < 1.0°"
+
+Block 3: Standard Stamp "执行标准 GB/T 6323-2014" (Look like a red/blue approval stamp). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout - UNCHANGED LOGIC) --- [Main Content Area]:
+
+Header: Minimalist line divider with text "深度解构 (DECONSTRUCTION)". // *** ADAPTIVE LAYOUT SWITCH *** // IF VERTICAL (3:4, 2:3):
+
+Layout: SINGLE COLUMN STACK (Magazine Column).
+
+Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text.
+
+Text Strategy: Strictly use CHINESE natural sentences.
+
+Item 1: [Real Multi-link Rear Suspension Assembly] + "1. 多连杆后悬 (Multi-link Rear)：通过复杂的连杆组合精确定义后轮运动轨迹，是实现理想抗举升几何的物理基础。"
+
+Item 2: [Real Rear Brake Caliper & Rotor] + "2. 后制动器 (Rear Brake)：产生制动力矩，该力矩通过悬挂几何转化为向下的反作用力，抑制车尾上扬。"
+
+Item 3: [Real Trailing Arm / Control Arm] + "3. 纵向控制臂 (Trailing Arm)：其安装角度直接决定抗举升瞬时中心的位置，是调节抗举升率的关键部件。"
+
+Item 4: [Real Rear Knuckle/Hub] + "4. 后转向节 (Rear Knuckle)：连接车轮与悬挂连杆，承受并传递制动时的复杂力系至车身结构。" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]:
+
+Header: Minimalist line divider with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Logic Flowchart (Hand-drawn pencil style schematic connecting rear braking forces to suspension linkages).
+
+Right: [Rear Lift vs. Deceleration Graph printed on paper-textured background] + 3 [Translucent Tracing paper-textured background overlays] showing X-Ray details of rear suspension under load.
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" in small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams

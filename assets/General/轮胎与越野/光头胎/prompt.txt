@@ -1,0 +1,73 @@
+/imagine prompt: A high-precision engineering education visualization of "光头胎".
+
+[VERSION: BLACKBOARD ENGINEERING 10.0]
+
+// --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, "Kinfolk" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools). [Props]: A generic Stainless Steel Vernier Caliper resting elegantly on edge. [Decor]: Red Seal "雪沐江南"
+
+// --- 2. HEADER SECTION --- [Top Area]:
+
+Title: "光头胎" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting.
+
+Subtitle: "RACING SLICK TIRE TECHNOLOGY" in smaller, thinner chalk handwriting.
+
+Visual Anchor: A Hyper-realistic 3D Render of a brand new, perfectly smooth [RACING SLICK TIRE] with a satin sheen, floating slightly in front, casting soft shadow. No tread patterns are visible.
+
+Decor: Minimalist technical drafting border, incorporating a "雪沐江南" (Xuemu) proprietary engineering stamp/seal in white chalk.
+
+// --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]:
+
+Header: Hand-drawn line with text "核心机制 (MECHANISM)".
+
+Style: White Chalk Schematics (Simplified Physics Icons).
+
+Content:
+
+[Icon showing a solid square contact patch versus a broken square pattern] + Label: "最大接触斑" (Handwritten Chinese)
+
+[Icon of a thermometer icon on a smooth surface with wavy heat lines] + Label: "热激活粘附" (Handwritten Chinese)
+
+[Icon of a magnifying glass over a perfectly flat horizontal line] + Label: "零沟槽表面" (Handwritten Chinese)
+
+[Icon of a race car on a dry curve with a large lateral force vector] + Label: "极限干地摩擦" (Handwritten Chinese)
+
+// --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]:
+
+Header: Hand-drawn line with text "工程定律 (AXIOMS)".
+
+Style: Minimalist Equation Blocks.
+
+Block 1: Hand-written Math Formula "F_{max} \approx \mu(T) \cdot A_{contact}"
+
+Block 2: Parameter Limit "Operating T > 90°C"
+
+Block 3: Standard Ref "Ref: Track Use Only"
+
+// --- 5. SECTION 3 - DEEP DIVE (Deconstruction) --- [Main Content Area]:
+
+Header: Hand-drawn line with text "深度解构 (DECONSTRUCTION)".
+
+Layout: SINGLE COLUMN STACK (Vertical Layout).
+
+Logic: Small 3D Part Renders (Real Metal/Rubber) + Chalk Annotations.
+
+Item 1: [Macro 3D Render of the flawless, smooth rubber tread surface without any sipes] + Chalk Leader Line -> "1. 均质胎面胶 (Homogeneous Tread Compound)"
+
+Item 2: [Macro 3D Render of a cutaway section showing tightly wound circumferential belts beneath the surface] + Chalk Leader Line -> "2. 零度带束层 (Zero-Degree Belt)"
+
+Item 3: [Macro 3D Render of a very short, rigid sidewall profile] + Chalk Leader Line -> "3. 高刚度胎侧 (High-Stiffness Sidewall)"
+
+Item 4: [Macro 3D Render of a heavy-duty bead wire bundle cross-section] + Chalk Leader Line -> "4. 赛用强化胎圈 (Race-Spec Bead)"
+
+// --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]:
+
+Header: Hand-drawn line with text "可视验证 (VERIFICATION)".
+
+Content:
+
+Left: Contact Patch Comparison Diagram (Chalk footprints: Solid block for "Slick", broken block for "Treaded").
+
+Right: Handwritten check-list summary in Chinese: "干地性能: EXTREME", "雨天使用: FORBIDDEN", "暖胎需求: CRITICAL".
+
+Footer: "雪沐江南 · VISUAL ARCHITECT" handwritten.
+
+--ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, incoherent writing.
