@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-11_1773183793",
+    "date": "2026-03-11",
+    "poster": "./assets/news/news_2026-03-11_1773183793.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/10/functional-at-last-xiaomi-offers-free-aero-upgrade-for-su7-ultra-ducted-hood-owners/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米SU7 Ultra：免费为通风机盖车主升级空力套件",
+        "link": "https://carnewschina.com/2026/03/10/functional-at-last-xiaomi-offers-free-aero-upgrade-for-su7-ultra-ducted-hood-owners/",
+        "published": "Tue, 10 Mar 2026 06:53:57 +0000",
+        "summary_raw": "The new hardware update for the Xiaomi SU7 Ultra activates at speeds over 150 km/h, improving stability at the cost of slight energy consumption increases. The post Functional at last: Xiaomi offers free aero upgrade for SU7 Ultra ducted-hood owners appeared first on CarNewsChina.com .",
+        "full_content": "The new hardware update for the Xiaomi SU7 Ultra activates at speeds over 150 km/h, improving stability at the cost of slight energy consumption increases. The post Functional at last: Xiaomi offers free aero upgrade for SU7 Ultra ducted-hood owners appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.631924"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/the-new-audi-a6l-price-dropped-by-17780-usd-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奥迪A6L国内大降价：单车售价下调约12.8万元",
+        "link": "https://carnewschina.com/2026/03/10/the-new-audi-a6l-price-dropped-by-17780-usd-in-china/",
+        "published": "Tue, 10 Mar 2026 07:13:06 +0000",
+        "summary_raw": "The new Audi A6L started presales in China with a massive price drop of 17,780 USD, compared to the previous model. The post The new Audi A6L price dropped by 17,780 USD in China appeared first on CarNewsChina.com .",
+        "full_content": "The new Audi A6L started presales in China with a massive price drop of 17,780 USD, compared to the previous model. The post The new Audi A6L price dropped by 17,780 USD in China appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.631749"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/volkswagen-id-unyx-08-interior-revealed-featuring-xpeng-architecture-and-800v-fast-charging/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "大众ID.与众08内饰曝光：小鹏架构+800V快充",
+        "link": "https://carnewschina.com/2026/03/10/volkswagen-id-unyx-08-interior-revealed-featuring-xpeng-architecture-and-800v-fast-charging/",
+        "published": "Tue, 10 Mar 2026 07:13:31 +0000",
+        "summary_raw": "Volkswagen reveals ID.Unyx 08 interior, highlights Xpeng collaboration and 800V platform. The post Volkswagen ID.Unyx 08 interior revealed, featuring Xpeng architecture and 800V fast charging appeared first on CarNewsChina.com .",
+        "full_content": "Volkswagen reveals ID.Unyx 08 interior, highlights Xpeng collaboration and 800V platform. The post Volkswagen ID.Unyx 08 interior revealed, featuring Xpeng architecture and 800V fast charging appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.631574"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/byd-ride-hailing-models-to-support-flash-charging-tech-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪网约车将支持闪充：国内充电技术再进化",
+        "link": "https://carnewschina.com/2026/03/10/byd-ride-hailing-models-to-support-flash-charging-tech-in-china/",
+        "published": "Tue, 10 Mar 2026 08:40:45 +0000",
+        "summary_raw": "BYD ride-hailing brand Linghui disclosed that the e7 electric sedan will support the recently launched flash charging technology. The post BYD ride-hailing models to support flash charging tech in China appeared first on CarNewsChina.com .",
+        "full_content": "BYD ride-hailing brand Linghui disclosed that the e7 electric sedan will support the recently launched flash charging technology. The post BYD ride-hailing models to support flash charging tech in China appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.631399"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/mg-07-emerges-aggressive-ice-fastback-evolves-as-nev-challenger/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "名爵MG 07：燃油性能溜背进化为新能源挑战者",
+        "link": "https://carnewschina.com/2026/03/10/mg-07-emerges-aggressive-ice-fastback-evolves-as-nev-challenger/",
+        "published": "Tue, 10 Mar 2026 11:04:38 +0000",
+        "summary_raw": "Building on a January preview, the MG 07 marks the transition of the brand’s sport sedan lineage into the electric era. The post MG 07 emerges: aggressive ICE fastback evolves as NEV challenger appeared first on CarNewsChina.com .",
+        "full_content": "Building on a January preview, the MG 07 marks the transition of the brand’s sport sedan lineage into the electric era. The post MG 07 emerges: aggressive ICE fastback evolves as NEV challenger appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.631221"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/desk-calendar-sized-calb-debuts-60ah-solid-state-battery-with-1000-km-range/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "中创新航发60Ah固态电池：台历大小，千公里续航",
+        "link": "https://carnewschina.com/2026/03/10/desk-calendar-sized-calb-debuts-60ah-solid-state-battery-with-1000-km-range/",
+        "published": "Tue, 10 Mar 2026 13:03:20 +0000",
+        "summary_raw": "The battery architecture is designed for EV ranges over 1,000 km and supports 6C+ charging. The post Desk-calendar sized: CALB debuts 60Ah solid-state battery with 1,000 km range appeared first on CarNewsChina.com .",
+        "full_content": "The battery architecture is designed for EV ranges over 1,000 km and supports 6C+ charging. The post Desk-calendar sized: CALB debuts 60Ah solid-state battery with 1,000 km range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.631040"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/lotus-eletre-x-started-presales-in-china-for-76400-usd-as-the-brands-first-phev/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "路特斯Eletre X预售：品牌首款插混，54.8万起",
+        "link": "https://carnewschina.com/2026/03/10/lotus-eletre-x-started-presales-in-china-for-76400-usd-as-the-brands-first-phev/",
+        "published": "Tue, 10 Mar 2026 13:13:28 +0000",
+        "summary_raw": "The Lotus Eletre X plug-in hybrid crossover with 420 km of EV range and 700 kW (939 hp) power started presales in China for 76,400 USD. The post Lotus Eletre X started presales in China for 76,400 USD as the brand’s first PHEV appeared first on CarNewsChina.com .",
+        "full_content": "The Lotus Eletre X plug-in hybrid crossover with 420 km of EV range and 700 kW (939 hp) power started presales in China for 76,400 USD. The post Lotus Eletre X started presales in China for 76,400 USD as the brand’s first PHEV appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.630853"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/chery-qq3-ev-pre-sales-begin-starting-10000-usd-with-falcon-500-adas/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞QQ3 EV预售：7.2万起，搭载高阶智驾系统",
+        "link": "https://carnewschina.com/2026/03/10/chery-qq3-ev-pre-sales-begin-starting-10000-usd-with-falcon-500-adas/",
+        "published": "Tue, 10 Mar 2026 13:38:13 +0000",
+        "summary_raw": "Chery launches QQ3 EV pre-orders. The post Chery QQ3 EV pre-sales begin: starting 10,000 USD with Falcon 500 ADAS appeared first on CarNewsChina.com .",
+        "full_content": "Chery launches QQ3 EV pre-orders. The post Chery QQ3 EV pre-sales begin: starting 10,000 USD with Falcon 500 ADAS appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.630668"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/mg4x-revealed-first-mg4-suv-debuts-with-liquid-solid-state-tech-to-rival-byd-atto-2/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "名爵MG4X首发：半固态SUV对标比亚迪元PLUS",
+        "link": "https://carnewschina.com/2026/03/10/mg4x-revealed-first-mg4-suv-debuts-with-liquid-solid-state-tech-to-rival-byd-atto-2/",
+        "published": "Tue, 10 Mar 2026 20:01:28 +0000",
+        "summary_raw": "The \"X\" designation targets young buyers seeking diverse mobility options. The post MG4X revealed, first MG4 SUV debuts with liquid-solid state tech to rival BYD Atto 2 appeared first on CarNewsChina.com .",
+        "full_content": "The \"X\" designation targets young buyers seeking diverse mobility options. The post MG4X revealed, first MG4 SUV debuts with liquid-solid state tech to rival BYD Atto 2 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.630479"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/10/byd-plots-joining-formula-1-to-compete-with-ferrari-maclaren-report-says/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "传比亚迪计划进军F1：挑战法拉利与麦拉伦地位",
+        "link": "https://carnewschina.com/2026/03/10/byd-plots-joining-formula-1-to-compete-with-ferrari-maclaren-report-says/",
+        "published": "Tue, 10 Mar 2026 20:56:23 +0000",
+        "summary_raw": "BYD wants to raise awarenes as it expands global footprint. The post BYD plots joining Formula 1 to compete with Ferrari, McLaren, report says appeared first on CarNewsChina.com .",
+        "full_content": "BYD wants to raise awarenes as it expands global footprint. The post BYD plots joining Formula 1 to compete with Ferrari, McLaren, report says appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-11T07:00:19.630267"
+      }
+    ]
+  },
+  {
     "id": "2026-03-10_1773097398",
     "date": "2026-03-10",
     "poster": "./assets/news/news_2026-03-10_1773097398.png",
