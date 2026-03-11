@@ -1,8 +1,115 @@
 [
   {
+    "id": "2026-03-12_1773270221",
+    "date": "2026-03-12",
+    "poster": "./assets/news/news_2026-03-12_1773270221.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/11/ai-tech-inflation-hits-ev-market-zeekr-007-gt-latest-to-announce-price-adjustments/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "AI溢价波及电车市场：极氪007 GT官宣调价",
+        "link": "https://carnewschina.com/2026/03/11/ai-tech-inflation-hits-ev-market-zeekr-007-gt-latest-to-announce-price-adjustments/",
+        "published": "Wed, 11 Mar 2026 02:42:38 +0000",
+        "summary_raw": "China EVs set for price increase as chip and battery costs rise. The post AI tech inflation hits EV market: Zeekr 007 GT latest to announce price adjustments appeared first on CarNewsChina.com .",
+        "full_content": "China EVs set for price increase as chip and battery costs rise. The post AI tech inflation hits EV market: Zeekr 007 GT latest to announce price adjustments appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-12T07:00:11.914403"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/11/gwms-luxury-offensive-tank-700-hi4-z-cabin-revealed-with-lounge-style-rear/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "坦克700 Hi4-Z内饰首秀：后排主打极致豪华",
+        "link": "https://carnewschina.com/2026/03/11/gwms-luxury-offensive-tank-700-hi4-z-cabin-revealed-with-lounge-style-rear/",
+        "published": "Wed, 11 Mar 2026 04:17:19 +0000",
+        "summary_raw": "The Tank 700 Hi4-Z cabin debuts with diamond-pattern stitching, leather materials, and a 16.2-inch display. The post GWM’s luxury offensive: Tank 700 Hi4-Z cabin revealed with lounge-style rear appeared first on CarNewsChina.com .",
+        "full_content": "The Tank 700 Hi4-Z cabin debuts with diamond-pattern stitching, leather materials, and a 16.2-inch display. The post GWM’s luxury offensive: Tank 700 Hi4-Z cabin revealed with lounge-style rear appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-12T07:00:11.914287"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/11/rulemaker-status-byd-joins-elite-iatf-body-to-help-shape-international-ev-rules/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪加入IATF：参与制定全球电车标准",
+        "link": "https://carnewschina.com/2026/03/11/rulemaker-status-byd-joins-elite-iatf-body-to-help-shape-international-ev-rules/",
+        "published": "Wed, 11 Mar 2026 05:06:47 +0000",
+        "summary_raw": "Alongside giants like Volkswagen and Geely, BYD will now help draft the consensus-based rules that govern the international electrified supply chain. The post Rulemaker status: BYD joins elite IATF body to help shape international EV rules appeared first on CarNewsChina.com .",
+        "full_content": "Alongside giants like Volkswagen and Geely, BYD will now help draft the consensus-based rules that govern the international electrified supply chain. The post Rulemaker status: BYD joins elite IATF body to help shape international EV rules appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-12T07:00:11.914135"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/11/nio-reports-first-ever-quarterly-profit-aims-for-full-year-profitability-in-2026/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "蔚来首获季度盈利：冲刺2026全面扭亏",
+        "link": "https://carnewschina.com/2026/03/11/nio-reports-first-ever-quarterly-profit-aims-for-full-year-profitability-in-2026/",
+        "published": "Wed, 11 Mar 2026 08:03:11 +0000",
+        "summary_raw": "Nio achieves historic first quarterly profit, targets full-year turnaround in 2026. The post Nio reports first-ever quarterly profit, aims for full-year profitability in 2026 appeared first on CarNewsChina.com .",
+        "full_content": "Nio achieves historic first quarterly profit, targets full-year turnaround in 2026. The post Nio reports first-ever quarterly profit, aims for full-year profitability in 2026 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-12T07:00:11.914025"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/11/solid-state-patent-catl-tackles-sulfide-instability-ahead-of-2027-pilot/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "宁德时代固态专利：力克硫化物不稳定性",
+        "link": "https://carnewschina.com/2026/03/11/solid-state-patent-catl-tackles-sulfide-instability-ahead-of-2027-pilot/",
+        "published": "Wed, 11 Mar 2026 10:04:52 +0000",
+        "summary_raw": "The company plans to reach technical maturity levels 7-8 by 2027 for vehicle testing. The post Solid-state patent: CATL tackles sulfide instability ahead of 2027 pilot appeared first on CarNewsChina.com .",
+        "full_content": "The company plans to reach technical maturity levels 7-8 by 2027 for vehicle testing. The post Solid-state patent: CATL tackles sulfide instability ahead of 2027 pilot appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-12T07:00:11.913884"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/11/avatr-06t-revealed-with-tri-motor-and-955-hp-ahead-of-q2-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "阿维塔06T曝光：三电机955马力二季度上市",
+        "link": "https://carnewschina.com/2026/03/11/avatr-06t-revealed-with-tri-motor-and-955-hp-ahead-of-q2-launch/",
+        "published": "Wed, 11 Mar 2026 12:45:23 +0000",
+        "summary_raw": "Tri-motor 06T models feature a 210 kW front motor and dual 251 kW rear motors. The post Avatr 06T revealed with tri-motor and 955 hp ahead of Q2 launch appeared first on CarNewsChina.com .",
+        "full_content": "Tri-motor 06T models feature a 210 kW front motor and dual 251 kW rear motors. The post Avatr 06T revealed with tri-motor and 955 hp ahead of Q2 launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-12T07:00:11.913600"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/385824.html",
+        "source": "量子位 (QbitAI)",
+        "title": "20亿投向00后机器人公司：国资重仓估值翻7倍",
+        "link": "https://www.qbitai.com/2026/03/385824.html",
+        "published": "Wed, 11 Mar 2026 04:11:14 +0000",
+        "summary_raw": "数采成本仅为传统方案的10%",
+        "full_content": "数采成本仅为传统方案的10%",
+        "fetched_at": "2026-03-12T07:00:04.307931"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/385840.html",
+        "source": "量子位 (QbitAI)",
+        "title": "荣耀Magic V6发布：全满贯折叠旗舰8999元起",
+        "link": "https://www.qbitai.com/2026/03/385840.html",
+        "published": "Wed, 11 Mar 2026 05:20:19 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-12T07:00:04.307860"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/386114.html",
+        "source": "量子位 (QbitAI)",
+        "title": "ChatGPT与Claude重叠仅11%，中国应用霸榜",
+        "link": "https://www.qbitai.com/2026/03/386114.html",
+        "published": "Wed, 11 Mar 2026 07:45:16 +0000",
+        "summary_raw": "a16z发布Top100 GenAI应用榜",
+        "full_content": "a16z发布Top100 GenAI应用榜",
+        "fetched_at": "2026-03-12T07:00:04.307849"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/386183.html",
+        "source": "量子位 (QbitAI)",
+        "title": "国产模型调用量激增35%超美国，达4.19万亿",
+        "link": "https://www.qbitai.com/2026/03/386183.html",
+        "published": "Wed, 11 Mar 2026 08:41:27 +0000",
+        "summary_raw": "国产模型包揽龙虾应用前三",
+        "full_content": "国产模型包揽龙虾应用前三",
+        "fetched_at": "2026-03-12T07:00:04.307815"
+      }
+    ]
+  },
+  {
     "id": "2026-03-11_1773183793",
     "date": "2026-03-11",
-    "poster": "./assets/news/news_2026-03-11_1773183793.png",
+    "poster": "./assets/news/news_2026-03-11_1773183793.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/10/functional-at-last-xiaomi-offers-free-aero-upgrade-for-su7-ultra-ducted-hood-owners/",
@@ -109,7 +216,7 @@
   {
     "id": "2026-03-10_1773097398",
     "date": "2026-03-10",
-    "poster": "./assets/news/news_2026-03-10_1773097398.png",
+    "poster": "./assets/news/news_2026-03-10_1773097398.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/09/cherys-exeed-ex7-enters-mass-production-pioneering-electronic-mechanical-braking/",
@@ -216,7 +323,7 @@
   {
     "id": "2026-03-09_1773017179",
     "date": "2026-03-09",
-    "poster": "./assets/news/news_2026-03-09_1773014754.png",
+    "poster": "./assets/news/news_2026-03-09_1773014754.webp",
     "items": [
       {
         "title": "现货白银日内跌幅扩大至3%",
@@ -273,7 +380,7 @@
   {
     "id": "2026-03-08_1772924594",
     "date": "2026-03-08",
-    "poster": "./assets/news/news_2026-03-08_1772924594.png",
+    "poster": "./assets/news/news_2026-03-08_1772924594.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/07/byd-seal-erupts-traffic-chaos-driver-escapes-moments-before-cabin-collapse-in-hong-kong/",
@@ -380,7 +487,7 @@
   {
     "id": "2026-03-07_1772838171",
     "date": "2026-03-07",
-    "poster": "./assets/news/news_2026-03-07_1772838171.png",
+    "poster": "./assets/news/news_2026-03-07_1772838171.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/06/byd-unveils-seal-08-flagship-sedan-with-1000km-range-target-and-blade-battery-2-0/",
@@ -487,7 +594,7 @@
   {
     "id": "2026-03-06_1772751782",
     "date": "2026-03-06",
-    "poster": "./assets/news/news_2026-03-06_1772751782.png",
+    "poster": "./assets/news/news_2026-03-06_1772751782.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/05/gac-hyptec-a800-launched-with-huaweis-ads-and-smart-cockpit-starting-from-27500-usd/",
@@ -594,7 +701,7 @@
   {
     "id": "2026-03-05_1772677809",
     "date": "2026-03-05",
-    "poster": "./assets/news/news_2026-03-05_1772677809.png",
+    "poster": "./assets/news/news_2026-03-05_1772677809.webp",
     "items": [
       {
         "title": "中东冲突导致中国汽车出口受阻并波及欧洲",
@@ -651,7 +758,7 @@
   {
     "id": "2026-03-04_1772582436",
     "date": "2026-03-04",
-    "poster": "./assets/news/news_2026-03-04_1772582436.png",
+    "poster": "./assets/news/news_2026-03-04_1772582436.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/03/xiaomi-unveils-vision-gran-turismo-design-documentary-highlighting-global-collaboration/",
@@ -758,7 +865,7 @@
   {
     "id": "2026-03-03_1772492578",
     "date": "2026-03-03",
-    "poster": "./assets/news/news_2026-03-03_1772492578.png",
+    "poster": "./assets/news/news_2026-03-03_1772492578.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/02/byd-feb-nev-sales-plummet-41-domestically-hit-by-chinese-holidays/",
@@ -865,7 +972,7 @@
   {
     "id": "2026-03-02_1772406357",
     "date": "2026-03-02",
-    "poster": "./assets/news/news_2026-03-02_1772406357.png",
+    "poster": "./assets/news/news_2026-03-02_1772406357.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/03/01/byd-spotted-testing-1500-kw-flash-charge-in-china-nearly-triple-tesla-v4-power/",
@@ -972,7 +1079,7 @@
   {
     "id": "2026-03-01_1772319766",
     "date": "2026-03-01",
-    "poster": "./assets/news/news_2026-03-01_1772319766.png",
+    "poster": "./assets/news/news_2026-03-01_1772319766.webp",
     "items": [
       {
         "id": "https://carnewschina.com/2026/02/28/huawei-backed-saic-z7-taycan-inspired-design-revealed-in-debut-videos/",
@@ -1426,7 +1533,7 @@
   {
     "id": "2026-02-21_1771651928",
     "date": "2026-02-21",
-    "poster": "./assets/news/2-21.png",
+    "poster": "./assets/news/2-21.webp",
     "items": [
       {
         "title": "伏尔加借长安之力重生",
@@ -1483,7 +1590,7 @@
   {
     "id": "2026-02-20_1771555100",
     "date": "2026-02-20",
-    "poster": "./assets/news/2-20.png",
+    "poster": "./assets/news/2-20.webp",
     "items": [
       {
         "title": "蔚来换电单日破16万次，五天三破纪录",
@@ -1540,7 +1647,7 @@
   {
     "id": "2026-02-19_1771459984",
     "date": "2026-02-19",
-    "poster": "./assets/news/2-19.png",
+    "poster": "./assets/news/2-19.webp",
     "items": [
       {
         "title": "特斯拉Cybercab量产下线",
