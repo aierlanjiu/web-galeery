@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-13_1773356580",
+    "date": "2026-03-13",
+    "poster": "./assets/news/news_2026-03-13_1773356580.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/12/bmw-china-recalls-148000-imports-starter-motor-fire-risk-identified/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "宝马中国召回14.7万辆进口车：起动机存火灾隐患",
+        "link": "https://carnewschina.com/2026/03/12/bmw-china-recalls-148000-imports-starter-motor-fire-risk-identified/",
+        "published": "Thu, 12 Mar 2026 03:43:51 +0000",
+        "summary_raw": "Defective starter motors in 148k BMWs produced 2020-2022 to be replaced free of charge. The post BMW China recalls 147,830 imports: starter motor fire risk identified appeared first on CarNewsChina.com .",
+        "full_content": "Defective starter motors in 148k BMWs produced 2020-2022 to be replaced free of charge. The post BMW China recalls 147,830 imports: starter motor fire risk identified appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-13T07:00:11.415898"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/12/byd-seagull-with-roof-mounted-lidar-exposed-in-china-505-km-range-expected/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪海鸥搭激光雷达曝光：续航达505km",
+        "link": "https://carnewschina.com/2026/03/12/byd-seagull-with-roof-mounted-lidar-exposed-in-china-505-km-range-expected/",
+        "published": "Thu, 12 Mar 2026 05:59:09 +0000",
+        "summary_raw": "The 2026 Seagull update includes a peak power increase to 60 kW to manage the weight of new ADAS sensors. The post BYD Seagull with roof-mounted LiDAR exposed in China, 505 km range expected appeared first on CarNewsChina.com .",
+        "full_content": "The 2026 Seagull update includes a peak power increase to 60 kW to manage the weight of new ADAS sensors. The post BYD Seagull with roof-mounted LiDAR exposed in China, 505 km range expected appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-13T07:00:11.415597"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/12/dreame-nebula-next-01x-suv-with-2000-tops-and-solid-state-power-exposed/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "追觅Nebula Next 01X曝光：2000 TOPS+固态动力",
+        "link": "https://carnewschina.com/2026/03/12/dreame-nebula-next-01x-suv-with-2000-tops-and-solid-state-power-exposed/",
+        "published": "Thu, 12 Mar 2026 06:58:53 +0000",
+        "summary_raw": "Advanced 2nm architecture provides the backbone for VLA+ world models. The post Dreame Nebula Next 01X SUV with 2,000 TOPS and solid-state power exposed appeared first on CarNewsChina.com .",
+        "full_content": "Advanced 2nm architecture provides the backbone for VLA+ world models. The post Dreame Nebula Next 01X SUV with 2,000 TOPS and solid-state power exposed appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-13T07:00:11.414686"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/12/chinese-dreame-releases-solid-state-battery-with-60-ah-cells/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "追觅发布60Ah固态电池：单体容量突破",
+        "link": "https://carnewschina.com/2026/03/12/chinese-dreame-releases-solid-state-battery-with-60-ah-cells/",
+        "published": "Thu, 12 Mar 2026 07:54:58 +0000",
+        "summary_raw": "Chinese vacuum cleaner maker Dreame released its solid-state battery at the 2026 Appliance & Electronics World Expo (AWE) in Shanghai. The post Chinese Dreame releases solid-state battery with 60 Ah cells appeared first on CarNewsChina.com .",
+        "full_content": "Chinese vacuum cleaner maker Dreame released its solid-state battery at the 2026 Appliance & Electronics World Expo (AWE) in Shanghai. The post Chinese Dreame releases solid-state battery with 60 Ah cells appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-13T07:00:11.414321"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/12/next-generation-xiaomi-su7-enters-final-sprint-with-march-production-target-of-16000-units-report-says/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米SU7冲刺交付：3月产能目标1.6万辆",
+        "link": "https://carnewschina.com/2026/03/12/next-generation-xiaomi-su7-enters-final-sprint-with-march-production-target-of-16000-units-report-says/",
+        "published": "Thu, 12 Mar 2026 08:52:10 +0000",
+        "summary_raw": "Xiaomi ramps up production for next-generation SU7 sedan, to prepare 16,000 units this month for April's launch. The post Next-generation Xiaomi SU7 enters final sprint with March production target of 16,000 units, report says appeared first on CarNewsChina.com .",
+        "full_content": "Xiaomi ramps up production for next-generation SU7 sedan, to prepare 16,000 units this month for April's launch. The post Next-generation Xiaomi SU7 enters final sprint with March production target of 16,000 units, report says appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-13T07:00:11.414067"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/12/changan-announces-next-gen-hybrid-tech-targets-2-98l-100-km-efficiency-to-capture-global-buyers/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "长安发布新一代混动：百公里油耗2.98L",
+        "link": "https://carnewschina.com/2026/03/12/changan-announces-next-gen-hybrid-tech-targets-2-98l-100-km-efficiency-to-capture-global-buyers/",
+        "published": "Thu, 12 Mar 2026 10:02:38 +0000",
+        "summary_raw": "The tech aims to bridge the gap for the 70 million annual ICE buyers who lack charging infrastructure. The post Changan announces next-gen hybrid tech, targets 2.98L/ 100 km efficiency to capture global buyers appeared first on CarNewsChina.com .",
+        "full_content": "The tech aims to bridge the gap for the 70 million annual ICE buyers who lack charging infrastructure. The post Changan announces next-gen hybrid tech, targets 2.98L/ 100 km efficiency to capture global buyers appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-13T07:00:11.413840"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/386601.html",
+        "source": "量子位 (QbitAI)",
+        "title": "真·养虾！3步让龙虾边聊边进化，无需GPU强化学习",
+        "link": "https://www.qbitai.com/2026/03/386601.html",
+        "published": "Thu, 12 Mar 2026 05:14:14 +0000",
+        "summary_raw": "还能自动生成技能",
+        "full_content": "还能自动生成技能",
+        "fetched_at": "2026-03-13T07:00:07.438650"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/386615.html",
+        "source": "量子位 (QbitAI)",
+        "title": "马斯克官宣数字员工：首富也养虾，测试员工当真人",
+        "link": "https://www.qbitai.com/2026/03/386615.html",
+        "published": "Thu, 12 Mar 2026 05:37:08 +0000",
+        "summary_raw": "数字擎天柱官宣，巨硬项目却被曝已停摆",
+        "full_content": "数字擎天柱官宣，巨硬项目却被曝已停摆",
+        "fetched_at": "2026-03-13T07:00:07.438590"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/386660.html",
+        "source": "量子位 (QbitAI)",
+        "title": "全球首款手机龙虾秒光：OpenClaw愿与百度共研",
+        "link": "https://www.qbitai.com/2026/03/386660.html",
+        "published": "Thu, 12 Mar 2026 07:02:25 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-13T07:00:07.438531"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/386664.html",
+        "source": "量子位 (QbitAI)",
+        "title": "爱诗科技完成3亿美元C轮融资：开启视频交互新纪元",
+        "link": "https://www.qbitai.com/2026/03/386664.html",
+        "published": "Thu, 12 Mar 2026 07:18:15 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-13T07:00:07.438516"
+      }
+    ]
+  },
+  {
     "id": "2026-03-12_1773270221",
     "date": "2026-03-12",
     "poster": "./assets/news/news_2026-03-12_1773270221.png",
