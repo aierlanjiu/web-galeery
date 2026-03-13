@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-14_1773443002",
+    "date": "2026-03-14",
+    "poster": "./assets/news/news_2026-03-14_1773443002.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/13/xiaomi-su7-to-launch-in-march-with-lidar-and-897v-platform-mass-deliveries-planned/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米SU7三月上市：搭激光雷达与897V平台，确认涨价",
+        "link": "https://carnewschina.com/2026/03/13/xiaomi-su7-to-launch-in-march-with-lidar-and-897v-platform-mass-deliveries-planned/",
+        "published": "Fri, 13 Mar 2026 03:41:14 +0000",
+        "summary_raw": "EV inflation hits Zeekr 007 GT as Xiaomi SU7 prepares launch. The post Xiaomi SU7 to launch in March with lidar and 897V platform, price rise confirmed appeared first on CarNewsChina.com .",
+        "full_content": "EV inflation hits Zeekr 007 GT as Xiaomi SU7 prepares launch. The post Xiaomi SU7 to launch in March with lidar and 897V platform, price rise confirmed appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.374888"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/volkswagen-id-unix-08-with-xpeng-tech-rolled-off-the-production-line-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "大众ID. Unix 08在华下线：融合小鹏智驾技术",
+        "link": "https://carnewschina.com/2026/03/13/volkswagen-id-unix-08-with-xpeng-tech-rolled-off-the-production-line-in-china/",
+        "published": "Fri, 13 Mar 2026 08:18:22 +0000",
+        "summary_raw": "The Volkswagen ID. Unix 08 electric crossover with Xpeng tech on board rolled off the production line in China. The post Volkswagen ID. Unix 08 with Xpeng tech rolled off the production line in China appeared first on CarNewsChina.com .",
+        "full_content": "The Volkswagen ID. Unix 08 electric crossover with Xpeng tech on board rolled off the production line in China. The post Volkswagen ID. Unix 08 with Xpeng tech rolled off the production line in China appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.374733"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/byd-weighs-canada-plant-considers-legacy-automaker-purchase/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪欲在加拿大建厂，并考虑收购传统车企",
+        "link": "https://carnewschina.com/2026/03/13/byd-weighs-canada-plant-considers-legacy-automaker-purchase/",
+        "published": "Fri, 13 Mar 2026 09:16:24 +0000",
+        "summary_raw": "BYD expansion plan includes Canada feasibility and potential overseas buyout. The post BYD weighs Canada NEV plant and possible legacy automaker acquisition appeared first on CarNewsChina.com .",
+        "full_content": "BYD expansion plan includes Canada feasibility and potential overseas buyout. The post BYD weighs Canada NEV plant and possible legacy automaker acquisition appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.374574"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/byds-new-fang-cheng-bao-ti3-launches-with-flash-charging-starting-at-22300-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "方程豹Ti3上市：搭闪充技术，起价2.23万美元",
+        "link": "https://carnewschina.com/2026/03/13/byds-new-fang-cheng-bao-ti3-launches-with-flash-charging-starting-at-22300-usd/",
+        "published": "Fri, 13 Mar 2026 13:29:54 +0000",
+        "summary_raw": "Fang Cheng Bao Ti3 Flash Charging Edition launched, starting from 22,300 USD. The post BYD’s new Fang Cheng Bao Ti3 launches with flash charging, starting at 22,300 USD appeared first on CarNewsChina.com .",
+        "full_content": "Fang Cheng Bao Ti3 Flash Charging Edition launched, starting from 22,300 USD. The post BYD’s new Fang Cheng Bao Ti3 launches with flash charging, starting at 22,300 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.374406"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/byd-seal-08-exposed-in-regulatory-filing-1000-km-range-blade-2-0-q2-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "海豹08曝光：续航千公里搭刀片2.0，二季度上市",
+        "link": "https://carnewschina.com/2026/03/13/byd-seal-08-exposed-in-regulatory-filing-1000-km-range-blade-2-0-q2-launch/",
+        "published": "Fri, 13 Mar 2026 15:06:20 +0000",
+        "summary_raw": "BYD Seal 08 filing shows lidar roof, rear‑wheel steering, megawatt flash charging. The post BYD Seal 08 exposed in regulatory filing: 1,000 km range, Blade 2.0, Q2 launch appeared first on CarNewsChina.com .",
+        "full_content": "BYD Seal 08 filing shows lidar roof, rear‑wheel steering, megawatt flash charging. The post BYD Seal 08 exposed in regulatory filing: 1,000 km range, Blade 2.0, Q2 launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.374166"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/byd-great-tang-hybrid-declared-342-km-ev-range-launch-h1-2026/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪大唐混动申报：纯电续航342km，26年上市",
+        "link": "https://carnewschina.com/2026/03/13/byd-great-tang-hybrid-declared-342-km-ev-range-launch-h1-2026/",
+        "published": "Fri, 13 Mar 2026 15:50:41 +0000",
+        "summary_raw": "BYD Great Tang hybrid exposed, premium D‑segment SUV above Tang L. The post BYD Great Tang hybrid declared: 342 km EV range, launch H1 2026 appeared first on CarNewsChina.com .",
+        "full_content": "BYD Great Tang hybrid exposed, premium D‑segment SUV above Tang L. The post BYD Great Tang hybrid declared: 342 km EV range, launch H1 2026 appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.373991"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/new-leapmotor-a05-filing-hints-at-lowering-costs-for-lidar-equipped-evs/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "零跑A05申报：或助力激光雷达智驾车成本下探",
+        "link": "https://carnewschina.com/2026/03/13/new-leapmotor-a05-filing-hints-at-lowering-costs-for-lidar-equipped-evs/",
+        "published": "Fri, 13 Mar 2026 16:02:15 +0000",
+        "summary_raw": "A05 appeared in regulatory filings: Leapmotor to make LiDAR-equipped vehicles more accessible. The post New Leapmotor A05 filing hints at lowering costs for LiDAR-equipped EVs appeared first on CarNewsChina.com .",
+        "full_content": "A05 appeared in regulatory filings: Leapmotor to make LiDAR-equipped vehicles more accessible. The post New Leapmotor A05 filing hints at lowering costs for LiDAR-equipped EVs appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.373811"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/mg-4x-electric-crossover-for-global-markets-revealed-core-specs/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "名爵MG 4X纯电跨界车核心参数全球发布",
+        "link": "https://carnewschina.com/2026/03/13/mg-4x-electric-crossover-for-global-markets-revealed-core-specs/",
+        "published": "Fri, 13 Mar 2026 16:59:24 +0000",
+        "summary_raw": "The MG 4X electric crossover revealed core specs during the domestic homologation process. It is a 4.5-meter SUV with 201 hp. The post MG 4X electric crossover for global markets revealed core specs appeared first on CarNewsChina.com .",
+        "full_content": "The MG 4X electric crossover revealed core specs during the domestic homologation process. It is a 4.5-meter SUV with 201 hp. The post MG 4X electric crossover for global markets revealed core specs appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.373625"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/13/cherys-exeed-ex7-electric-suv-revealed-with-3-meter-wheelbase-and-230-kw-motor/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "星途EX7纯电SUV曝光：3米轴距搭230kW电机",
+        "link": "https://carnewschina.com/2026/03/13/cherys-exeed-ex7-electric-suv-revealed-with-3-meter-wheelbase-and-230-kw-motor/",
+        "published": "Fri, 13 Mar 2026 21:11:11 +0000",
+        "summary_raw": "Exeed EX7 regulatory data confirms 4,988 mm length and 200 km/h top speed. The post Chery’s Exeed EX7 electric SUV revealed with 3-meter wheelbase and 230 kW motor appeared first on CarNewsChina.com .",
+        "full_content": "Exeed EX7 regulatory data confirms 4,988 mm length and 200 km/h top speed. The post Chery’s Exeed EX7 electric SUV revealed with 3-meter wheelbase and 230 kW motor appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-14T07:00:22.373407"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387072.html",
+        "source": "量子位 (QbitAI)",
+        "title": "斯坦福机器人独角兽获11亿融资，在华组建团队",
+        "link": "https://www.qbitai.com/2026/03/387072.html",
+        "published": "Fri, 13 Mar 2026 05:59:51 +0000",
+        "summary_raw": "2026，不再只做demo",
+        "full_content": "2026，不再只做demo",
+        "fetched_at": "2026-03-14T07:00:07.925475"
+      }
+    ]
+  },
+  {
     "id": "2026-03-13_1773392765",
     "date": "2026-03-13",
     "poster": "./assets/news/news_2026-03-13_1773392765.png",
