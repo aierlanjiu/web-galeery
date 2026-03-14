@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-15_1773529835",
+    "date": "2026-03-15",
+    "poster": "./assets/news/news_2026-03-15_1773529835.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/14/arcfox-s3-battery-swap-version-filed-catls-battery-swap-lineup-expands-with-baic/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Arcfox S3 battery swap version filed: CATL’s battery-swap lineup expands with BAIC",
+        "link": "https://carnewschina.com/2026/03/14/arcfox-s3-battery-swap-version-filed-catls-battery-swap-lineup-expands-with-baic/",
+        "published": "Sat, 14 Mar 2026 11:38:14 +0000",
+        "summary_raw": "BAIC Arcfox declares Choco-SEB S3 model: bolstering CATL's swappable EV fleet. The post Arcfox S3 battery swap version filed: CATL’s battery-swap lineup expands with BAIC appeared first on CarNewsChina.com .",
+        "full_content": "BAIC Arcfox declares Choco-SEB S3 model: bolstering CATL's swappable EV fleet. The post Arcfox S3 battery swap version filed: CATL’s battery-swap lineup expands with BAIC appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-15T07:00:16.508902"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/14/updated-zeekr-009-luxury-minivan-provides-912-hp-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Updated Zeekr 009 luxury minivan provides 912 hp in China",
+        "link": "https://carnewschina.com/2026/03/14/updated-zeekr-009-luxury-minivan-provides-912-hp-in-china/",
+        "published": "Sat, 14 Mar 2026 14:48:41 +0000",
+        "summary_raw": "The updated Zeekr 009 luxury minivan provides up to 680 kW (912 hp) in China, the governmental regulator revealed. The post Updated Zeekr 009 luxury minivan provides 912 hp in China appeared first on CarNewsChina.com .",
+        "full_content": "The updated Zeekr 009 luxury minivan provides up to 680 kW (912 hp) in China, the governmental regulator revealed. The post Updated Zeekr 009 luxury minivan provides 912 hp in China appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-15T07:00:16.508713"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/14/byds-denza-n9-n8l-to-get-40-ev-range-boost-with-75-3-kwh-battery/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "BYD’s Denza N9 & N8L to get 40% EV range boost with 75.3 kWh battery",
+        "link": "https://carnewschina.com/2026/03/14/byds-denza-n9-n8l-to-get-40-ev-range-boost-with-75-3-kwh-battery/",
+        "published": "Sat, 14 Mar 2026 15:37:03 +0000",
+        "summary_raw": "The BYD’s Denza N9 and the Denza N8L plug-in hybrid crossovers will get a 40% electric range boost in China due to a new battery pack. The post BYD’s Denza N9 & N8L to get 40% EV range boost with 75.3 kWh battery appeared first on CarNewsChina.com .",
+        "full_content": "The BYD’s Denza N9 and the Denza N8L plug-in hybrid crossovers will get a 40% electric range boost in China due to a new battery pack. The post BYD’s Denza N9 & N8L to get 40% EV range boost with 75.3 kWh battery appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-15T07:00:16.508536"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/14/xiaomi-su7-sold-just-218-units-in-february-as-the-factory-retools-for-the-new-generation-model/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Xiaomi SU7 sold just 218 units in February as the factory retools for the new generation model",
+        "link": "https://carnewschina.com/2026/03/14/xiaomi-su7-sold-just-218-units-in-february-as-the-factory-retools-for-the-new-generation-model/",
+        "published": "Sat, 14 Mar 2026 21:31:49 +0000",
+        "summary_raw": "Two years after the launch, a new generation is here. The post Xiaomi SU7 sold just 218 units in February as the factory retools for the new generation model appeared first on CarNewsChina.com .",
+        "full_content": "Two years after the launch, a new generation is here. The post Xiaomi SU7 sold just 218 units in February as the factory retools for the new generation model appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-15T07:00:16.508300"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387768.html",
+        "source": "量子位 (QbitAI)",
+        "title": "龙虾版支付宝来了！睡觉都在帮你抢红包",
+        "link": "https://www.qbitai.com/2026/03/387768.html",
+        "published": "Sat, 14 Mar 2026 05:30:07 +0000",
+        "summary_raw": "前蚂蚁团队打造",
+        "full_content": "前蚂蚁团队打造",
+        "fetched_at": "2026-03-15T07:00:03.558412"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387756.html",
+        "source": "量子位 (QbitAI)",
+        "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+        "link": "https://www.qbitai.com/2026/03/387756.html",
+        "published": "Sat, 14 Mar 2026 06:25:48 +0000",
+        "summary_raw": "专门评价Cursor中不同模型谁更“智能体”",
+        "full_content": "专门评价Cursor中不同模型谁更“智能体”",
+        "fetched_at": "2026-03-15T07:00:03.558351"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387832.html",
+        "source": "量子位 (QbitAI)",
+        "title": "量子位专访陶哲轩：我为什么现在创办一个AI x Science组织",
+        "link": "https://www.qbitai.com/2026/03/387832.html",
+        "published": "Sat, 14 Mar 2026 06:34:18 +0000",
+        "summary_raw": "未来可能会有10000个陶哲轩",
+        "full_content": "未来可能会有10000个陶哲轩",
+        "fetched_at": "2026-03-15T07:00:03.558287"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387843.html",
+        "source": "量子位 (QbitAI)",
+        "title": "AI能代替人干活吗？B站联合6位UP主用OpenClaw直播做了次社会实验",
+        "link": "https://www.qbitai.com/2026/03/387843.html",
+        "published": "Sat, 14 Mar 2026 08:56:16 +0000",
+        "summary_raw": "当程序员开发App、商业带货、打游戏",
+        "full_content": "当程序员开发App、商业带货、打游戏",
+        "fetched_at": "2026-03-15T07:00:03.558221"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387860.html",
+        "source": "量子位 (QbitAI)",
+        "title": "不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型 ”AWE3.0",
+        "link": "https://www.qbitai.com/2026/03/387860.html",
+        "published": "Sat, 14 Mar 2026 10:32:09 +0000",
+        "summary_raw": "",
+        "full_content": "",
+        "fetched_at": "2026-03-15T07:00:03.558149"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/387867.html",
+        "source": "量子位 (QbitAI)",
+        "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
+        "link": "https://www.qbitai.com/2026/03/387867.html",
+        "published": "Sat, 14 Mar 2026 10:48:10 +0000",
+        "summary_raw": "以后出门有个谷歌地图就够了",
+        "full_content": "以后出门有个谷歌地图就够了",
+        "fetched_at": "2026-03-15T07:00:03.558129"
+      }
+    ]
+  },
+  {
     "id": "2026-03-14_1773443002",
     "date": "2026-03-14",
     "poster": "./assets/news/news_2026-03-14_1773443002.png",
