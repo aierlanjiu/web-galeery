@@ -1,215 +1,108 @@
 [
   {
-    "id": "2026-03-16_1773616999",
+    "id": "2026-03-16_1773643450",
     "date": "2026-03-16",
-    "poster": "./assets/news/news_2026-03-16_1773616999.png",
+    "poster": "./assets/news/news_2026-03-16_1773643450.png",
     "items": [
       {
-        "id": "https://36kr.com/newsflashes/3724798976326018?f=rss",
-        "source": "36氪 (36Kr)",
-        "title": "调查：美联储本周维持利率不变概率达99.2%",
-        "link": "https://36kr.com/newsflashes/3724798976326018?f=rss",
-        "published": "2026-03-16 07:01:27  +0800",
-        "summary_raw": "据CME“美联储观察”：美联储到本周降息25个基点的概率为0.8%，维持利率不变的概率为99.2%。美联储到4月累计降息25个基点的概率6.9%，维持利率不变的概率为93%，累计降息50个基点的概率为0%。到6月累计降息25个基点的概率为24.7%。（界面）",
-        "full_content": "据CME“美联储观察”：美联储到本周降息25个基点的概率为0.8%，维持利率不变的概率为99.2%。美联储到4月累计降息25个基点的概率6.9%，维持利率不变的概率为93%，累计降息50个基点的概率为0%。到6月累计降息25个基点的概率为24.7%。（界面）",
-        "fetched_at": "2026-03-16T07:16:16.155507"
-      },
-      {
-        "id": "https://36kr.com/newsflashes/3724800556055172?f=rss",
-        "source": "36氪 (36Kr)",
-        "title": "两部门：个人贷款业务须明示综合融资成本表",
-        "link": "https://36kr.com/newsflashes/3724800556055172?f=rss",
-        "published": "2026-03-16 07:03:03  +0800",
-        "summary_raw": "36氪获悉，为维护个人贷款市场秩序，保护金融消费者合法权益，提升金融服务质效，国家金融监督管理总局会同中国人民银行制定了《个人贷款业务明示综合融资成本规定》，现予发布，自2026年8月1日起施行。其中提出，贷款人开展个人贷款业务时，应当向借款人展示综合融资成本明示表。综合融资成本明示表应注明贷款本金金额，并逐项列明贷款人及其合作机构收取的各息费项目及其收取方式、收取标准和收取主体，在此基础上综合计算正常履约情形下借款人承担的年化综合融资成本。同时，逐项列明贷款逾期或被挪用等违约情形下的或有成本项目及其收取标准和收取主体。正常履约情形下借款人承担的各息费项目收取标准应按照《中国人民银行公告》（〔2021〕第3号）等要求折算为年化水平。综合融资成本明示表还应明确提示，除已明示的成本项目外，贷款人及其合作机构不再向借款人收取其他与贷款相关的任何息费。",
-        "full_content": "36氪获悉，为维护个人贷款市场秩序，保护金融消费者合法权益，提升金融服务质效，国家金融监督管理总局会同中国人民银行制定了《个人贷款业务明示综合融资成本规定》，现予发布，自2026年8月1日起施行。其中提出，贷款人开展个人贷款业务时，应当向借款人展示综合融资成本明示表。综合融资成本明示表应注明贷款本金金额，并逐项列明贷款人及其合作机构收取的各息费项目及其收取方式、收取标准和收取主体，在此基础上综合计算正常履约情形下借款人承担的年化综合融资成本。同时，逐项列明贷款逾期或被挪用等违约情形下的或有成本项目及其收取标准和收取主体。正常履约情形下借款人承担的各息费项目收取标准应按照《中国人民银行公告》（〔2021〕第3号）等要求折算为年化水平。综合融资成本明示表还应明确提示，除已明示的成本项目外，贷款人及其合作机构不再向借款人收取其他与贷款相关的任何息费。",
-        "fetched_at": "2026-03-16T07:16:16.155488"
-      },
-      {
-        "id": "https://36kr.com/newsflashes/3724803296639364?f=rss",
-        "source": "36氪 (36Kr)",
-        "title": "315后多地连夜查处“漂白鸡爪”“万能神药”企业",
-        "link": "https://36kr.com/newsflashes/3724803296639364?f=rss",
-        "published": "2026-03-16 07:05:51  +0800",
-        "summary_raw": "3月15日晚，针对中央广播电视总台“3·15”晚会曝光的“漂白鸡爪”“万能神药”“增高营销”等违法行为，市场监管总局迅速启动应急处置机制，部署开展执法行动，查处情况将及时向社会公布。天津、南宁、沈阳、重庆、成都、温州、杭州、上海等地也连夜发布情况通报，对相关涉事企业进行查处。（央视新闻）",
-        "full_content": "3月15日晚，针对中央广播电视总台“3·15”晚会曝光的“漂白鸡爪”“万能神药”“增高营销”等违法行为，市场监管总局迅速启动应急处置机制，部署开展执法行动，查处情况将及时向社会公布。天津、南宁、沈阳、重庆、成都、温州、杭州、上海等地也连夜发布情况通报，对相关涉事企业进行查处。（央视新闻）",
-        "fetched_at": "2026-03-16T07:16:16.155469"
-      },
-      {
-        "id": "https://36kr.com/newsflashes/3724807659338115?f=rss",
-        "source": "36氪 (36Kr)",
-        "title": "胖东来回应鸡蛋检出角黄素：手续齐全，正接受复检",
-        "link": "https://36kr.com/newsflashes/3724807659338115?f=rss",
-        "published": "2026-03-16 07:10:17  +0800",
-        "summary_raw": "36氪获悉，胖东来3月15日发布关于“王海测评”发布胖东来销售鲜鸡蛋检出角黄素的情况说明。其中提到，角黄素属于天然或合成的类胡萝卜素，广泛存在于藻类、菌菇类、鱼类等动植物中，可作为饲料添加剂使用，目前国家没有关于鲜鸡蛋产品角黄素限值的相关规定和要求。卖场销售的鲜鸡蛋均通过正规渠道合法采购，采购手续齐全、检测报告合格，且胖东来检测中心每周一次对鲜鸡蛋进行定期抽检，检测结果均在卖场公示，商品质量合格，符合国家标准。为了确保商品品质和质量安全，保障消费者权益，我们已将卖场销售的鲜鸡蛋品牌分别送至梅里埃检测技术（青岛）有限公司、通标标准技术服务（上海）有限公司、河南华测检测技术有限公司对鲜鸡蛋进行全面复检。市场监管部门已到卖场对商品采购的合规性进行检查，并对各品牌鲜鸡蛋进行抽样检测。同时各品牌鲜鸡蛋厂家均在配合当地市场监管部门对养殖工厂进行全面调查。",
-        "full_content": "36氪获悉，胖东来3月15日发布关于“王海测评”发布胖东来销售鲜鸡蛋检出角黄素的情况说明。其中提到，角黄素属于天然或合成的类胡萝卜素，广泛存在于藻类、菌菇类、鱼类等动植物中，可作为饲料添加剂使用，目前国家没有关于鲜鸡蛋产品角黄素限值的相关规定和要求。卖场销售的鲜鸡蛋均通过正规渠道合法采购，采购手续齐全、检测报告合格，且胖东来检测中心每周一次对鲜鸡蛋进行定期抽检，检测结果均在卖场公示，商品质量合格，符合国家标准。为了确保商品品质和质量安全，保障消费者权益，我们已将卖场销售的鲜鸡蛋品牌分别送至梅里埃检测技术（青岛）有限公司、通标标准技术服务（上海）有限公司、河南华测检测技术有限公司对鲜鸡蛋进行全面复检。市场监管部门已到卖场对商品采购的合规性进行检查，并对各品牌鲜鸡蛋进行抽样检测。同时各品牌鲜鸡蛋厂家均在配合当地市场监管部门对养殖工厂进行全面调查。",
-        "fetched_at": "2026-03-16T07:16:16.155447"
-      },
-      {
-        "id": "https://36kr.com/newsflashes/3724808737241481?f=rss",
-        "source": "36氪 (36Kr)",
-        "title": "三星SDI签署1.5万亿韩元美国储能电池协议",
-        "link": "https://36kr.com/newsflashes/3724808737241481?f=rss",
-        "published": "2026-03-16 07:11:23  +0800",
-        "summary_raw": "三星SDI与一家美国公司签署了一项价值1.5万亿韩元的储能系统电池协议。（新浪财经）",
-        "full_content": "三星SDI与一家美国公司签署了一项价值1.5万亿韩元的储能系统电池协议。（新浪财经）",
-        "fetched_at": "2026-03-16T07:16:16.155426"
-      },
-      {
-        "id": "https://36kr.com/newsflashes/3724810696981123?f=rss",
-        "source": "36氪 (36Kr)",
-        "title": "招商证券：持仓或向价值及涨价顺周期方向偏移",
-        "link": "https://36kr.com/newsflashes/3724810696981123?f=rss",
-        "published": "2026-03-16 07:13:22  +0800",
-        "summary_raw": "36氪获悉，招商证券策略研究指出，地缘冲突使市场核心矛盾转向供给安全与战略资源，驱动逻辑从避险切换为再通胀担忧。油价上涨强化通胀预期，压制降息前景，冲击多数资产。短期油价持续上行导致的再通胀交易和美联储降息预期推迟，会对市场风险偏好形成一定影响，使得A股仍以震荡为主，市场结构分化明显，资源品板块相对受益。同时，在PPI回升及转正预期之下，投资者持仓风格可能进一步均衡，向偏价值、涨价顺周期方向漂移。",
-        "full_content": "36氪获悉，招商证券策略研究指出，地缘冲突使市场核心矛盾转向供给安全与战略资源，驱动逻辑从避险切换为再通胀担忧。油价上涨强化通胀预期，压制降息前景，冲击多数资产。短期油价持续上行导致的再通胀交易和美联储降息预期推迟，会对市场风险偏好形成一定影响，使得A股仍以震荡为主，市场结构分化明显，资源品板块相对受益。同时，在PPI回升及转正预期之下，投资者持仓风格可能进一步均衡，向偏价值、涨价顺周期方向漂移。",
-        "fetched_at": "2026-03-16T07:16:16.155394"
-      },
-      {
-        "id": "https://www.ithome.com/0/929/338.htm",
-        "source": "IT之家 (ITHome)",
-        "title": "央视315曝光增高骗局，郑州涉事门店连夜被封",
-        "link": "https://www.ithome.com/0/929/338.htm",
-        "published": "Sun, 15 Mar 2026 22:53:20 GMT",
-        "summary_raw": "IT之家 3 月 16 日消息，昨日央视“3·15”晚会曝光 青少年增高骗局 、私域营销灰色产业链、电动车租赁乱象问题，涉及郑州市部分企业。 据“红网”报道，相应平台记者从郑州市市场监管局获悉，郑州市第一时间成立联合调查组开展执法行动，并进行全面核查。 IT之家参考报道获悉，目前位于郑州市二七区大学中路升龙商业广场三楼的“安立身身高管理中心（河南运营中心）”，目前该门店大门已被贴上白色封条，落款单位为郑州市二七区市场监督管理局。 ▲ 图源“红网” 郑州市市场监管局表示，有关部门将依法对涉事企业违法问题进行调查取证，举一反三开展全面排查整治，严厉打击违法经营行为，切实保护消费者合法权益。",
-        "full_content": "IT之家 3 月 16 日消息，昨日央视“3·15”晚会曝光 青少年增高骗局 、私域营销灰色产业链、电动车租赁乱象问题，涉及郑州市部分企业。 据“红网”报道，相应平台记者从郑州市市场监管局获悉，郑州市第一时间成立联合调查组开展执法行动，并进行全面核查。 IT之家参考报道获悉，目前位于郑州市二七区大学中路升龙商业广场三楼的“安立身身高管理中心（河南运营中心）”，目前该门店大门已被贴上白色封条，落款单位为郑州市二七区市场监督管理局。 ▲ 图源“红网” 郑州市市场监管局表示，有关部门将依法对涉事企业违法问题进行调查取证，举一反三开展全面排查整治，严厉打击违法经营行为，切实保护消费者合法权益。",
-        "fetched_at": "2026-03-16T07:16:15.595687"
-      },
-      {
-        "id": "https://www.ithome.com/0/929/339.htm",
-        "source": "IT之家 (ITHome)",
-        "title": "技嘉Brix迷你主机现身：最高可选酷睿Ultra 9",
-        "link": "https://www.ithome.com/0/929/339.htm",
-        "published": "Sun, 15 Mar 2026 22:53:52 GMT",
-        "summary_raw": "IT之家 3 月 16 日消息，技嘉现已在海外官网列出 Brix 迷你主机的参数，显示该机最高可选配英特尔酷睿 Ultra 9 386H 处理器， 最高可装配 128GB 内存 。 据介绍，这款电脑采用英特尔 Panther Lake 架构 CPU，最高可选配酷睿 Ultra 9 386H 处理器，最高功耗 28W，采用 4P+8E+4LPE 设计，不过 386H 处理器并没有配备性能较强的 Arc B390 核显，而是采用 4 核 Xe3 架构 GPU。 规格方面，该机提供两个内存插槽，支持自行更换 / 加装内存，最高可安装 128GB DDR5，拥有两个 M.2 插槽，其中一个是 PCIe Gen5，另一个是 PCIe Gen 4。 除此之外，该机还拥有两个 USB4、三个 USB 3.2 Gen2 Type-A、一个 USB 3.2 Gen2 Type-C（IT 之埃及注：支持 PD 供电）、一个 USB 2.0 Type-A、两个 HDMI、一个 2.5GbE 网口以及一个 3.5mm 音频接口。",
-        "full_content": "IT之家 3 月 16 日消息，技嘉现已在海外官网列出 Brix 迷你主机的参数，显示该机最高可选配英特尔酷睿 Ultra 9 386H 处理器， 最高可装配 128GB 内存 。 据介绍，这款电脑采用英特尔 Panther Lake 架构 CPU，最高可选配酷睿 Ultra 9 386H 处理器，最高功耗 28W，采用 4P+8E+4LPE 设计，不过 386H 处理器并没有配备性能较强的 Arc B390 核显，而是采用 4 核 Xe3 架构 GPU。 规格方面，该机提供两个内存插槽，支持自行更换 / 加装内存，最高可安装 128GB DDR5，拥有两个 M.2 插槽，其中一个是 PCIe Gen5，另一个是 PCIe Gen 4。 除此之外，该机还拥有两个 USB4、三个 USB 3.2 Gen2 Type-A、一个 USB 3.2 Gen2 Type-C（IT 之埃及注：支持 PD 供电）、一个 USB 2.0 Type-A、两个 HDMI、一个 2.5GbE 网口以及一个 3.5mm 音频接口。",
-        "fetched_at": "2026-03-16T07:16:15.595587"
-      },
-      {
-        "id": "https://www.ithome.com/0/929/340.htm",
-        "source": "IT之家 (ITHome)",
-        "title": "古尔曼：Siri与AI短板拖累苹果智能家居计划",
-        "link": "https://www.ithome.com/0/929/340.htm",
-        "published": "Sun, 15 Mar 2026 23:02:13 GMT",
-        "summary_raw": "IT之家 3 月 16 日消息，彭博社记者马克 · 古尔曼昨天在最新一期“Power On”实时通讯中披露，苹果在 Siri 和人工智能上的进展缓慢，已经再次拖累其智能家居产品计划。 古尔曼在文中提到，有人认为，苹果在 AI 领域的落后并不会带来实际损失，因为公司收入仍然稳固，iPhone 销量也没有明显下滑。但这种说法忽略了另一层影响：苹果的 技术形象和行业领导地位 正在受到冲击，且已经开始产生实际的商业影响。 据IT之家了解，过去一年多，苹果一直试图进入智能家居市场，希望打造新的增长点。但是由于 AI 能力不足 ，这一计划反复受挫。 苹果内部已经完成一款代号 J490 的智能家居设备，截至目前仍未公开。这款设备外形类似一台 7 英寸方形 iPad，可安装在半球形扬声器底座上，也可以挂在墙上。其界面设计类似 watchOS，并支持安装应用程序。 该设备的核心功能是新的个性化 Siri：当用户靠近时，系统会识别面部并展示个人化内容。其最初计划在 2025 年 3 月发布，之后由于 Siri 升级项目延期而被推迟。 苹果随后希望在本月推出该产品，并配合 iOS 26.4 发布新的个性化 ...",
-        "full_content": "IT之家 3 月 16 日消息，彭博社记者马克 · 古尔曼昨天在最新一期“Power On”实时通讯中披露，苹果在 Siri 和人工智能上的进展缓慢，已经再次拖累其智能家居产品计划。 古尔曼在文中提到，有人认为，苹果在 AI 领域的落后并不会带来实际损失，因为公司收入仍然稳固，iPhone 销量也没有明显下滑。但这种说法忽略了另一层影响：苹果的 技术形象和行业领导地位 正在受到冲击，且已经开始产生实际的商业影响。 据IT之家了解，过去一年多，苹果一直试图进入智能家居市场，希望打造新的增长点。但是由于 AI 能力不足 ，这一计划反复受挫。 苹果内部已经完成一款代号 J490 的智能家居设备，截至目前仍未公开。这款设备外形类似一台 7 英寸方形 iPad，可安装在半球形扬声器底座上，也可以挂在墙上。其界面设计类似 watchOS，并支持安装应用程序。 该设备的核心功能是新的个性化 Siri：当用户靠近时，系统会识别面部并展示个人化内容。其最初计划在 2025 年 3 月发布，之后由于 Siri 升级项目延期而被推迟。 苹果随后希望在本月推出该产品，并配合 iOS 26.4 发布新的个性化 Siri。不过新的 Siri 开发再次落后，发布时间 很可能要拖到今年年底 。 古尔曼指出，这款智能家居设备也被迫再次延期。目前，苹果的目标是 9 月发布，但考虑到 AI 开发仍然困难，这一时间表是否能够实现仍存在不确定性。",
-        "fetched_at": "2026-03-16T07:16:15.595492"
-      },
-      {
-        "id": "https://www.ithome.com/0/929/341.htm",
-        "source": "IT之家 (ITHome)",
-        "title": "上市12年半，微软初代Xbox One游戏机终被破解",
-        "link": "https://www.ithome.com/0/929/341.htm",
-        "published": "Sun, 15 Mar 2026 23:04:26 GMT",
-        "summary_raw": "IT之家 3 月 16 日消息，据外媒 Windows Central 报道，在经过多年的尝试后，研究人员终于破解了微软初代 Xbox One 游戏机。 据介绍，初代 Xbox One 会在开机时运行一段检查代码，相应代码直接内置于主机定制的 AMD 芯片中，游戏机每次开机时都会首先运行一次。 为了解决这个问题，研究人员使用了一种名为“电压故障”的技术，这种方法会在游戏机启动时的“特定时刻”短暂中断游戏机的电源， 导致系统在启动时错误读取某些指令，从而绕过检查代码的保护机制 ，最终让研究人员得以获得游戏机最高权限，以便运行自制软件内容。 公开信息显示，微软初代 Xbox One 最初于 2013 年 11 月 22 日上市，目前已过去约 12 年半，相对于早已遭破解的任天堂 Wii U/Switch 初代及索尼 PS4，该机可谓是相当坚挺。",
-        "full_content": "IT之家 3 月 16 日消息，据外媒 Windows Central 报道，在经过多年的尝试后，研究人员终于破解了微软初代 Xbox One 游戏机。 据介绍，初代 Xbox One 会在开机时运行一段检查代码，相应代码直接内置于主机定制的 AMD 芯片中，游戏机每次开机时都会首先运行一次。 为了解决这个问题，研究人员使用了一种名为“电压故障”的技术，这种方法会在游戏机启动时的“特定时刻”短暂中断游戏机的电源， 导致系统在启动时错误读取某些指令，从而绕过检查代码的保护机制 ，最终让研究人员得以获得游戏机最高权限，以便运行自制软件内容。 公开信息显示，微软初代 Xbox One 最初于 2013 年 11 月 22 日上市，目前已过去约 12 年半，相对于早已遭破解的任天堂 Wii U/Switch 初代及索尼 PS4，该机可谓是相当坚挺。",
-        "fetched_at": "2026-03-16T07:16:15.595341"
-      }
-    ]
-  },
-  {
-    "id": "2026-03-16_1773616023",
-    "date": "2026-03-16",
-    "poster": "./assets/news/news_2026-03-16_1773616023.png",
-    "items": [
-      {
-        "id": "https://carnewschina.com/2026/03/15/byds-brazil-plant-secures-100000-vehicle-orders-from-argentina-and-mexico/",
+        "id": "https://carnewschina.com/2026/03/16/cherys-march-18-battery-night-targets-1500-km-solid-state-future/",
         "source": "CarNewsChina (China EV & Auto)",
-        "title": "比亚迪巴西工厂获阿根廷及墨西哥10万辆订单",
-        "link": "https://carnewschina.com/2026/03/15/byds-brazil-plant-secures-100000-vehicle-orders-from-argentina-and-mexico/",
-        "published": "Sun, 15 Mar 2026 02:42:08 +0000",
-        "summary_raw": "BYD Brazil plant to export 100,000 vehicles to neighboring markets. The post BYD’s Brazil plant secures 100,000 vehicle orders from Argentina and Mexico appeared first on CarNewsChina.com .",
-        "full_content": "BYD Brazil plant to export 100,000 vehicles to neighboring markets. The post BYD’s Brazil plant secures 100,000 vehicle orders from Argentina and Mexico appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-16T07:00:14.990762"
+        "title": "奇瑞3.18电池之夜：剑指1500km固态电池",
+        "link": "https://carnewschina.com/2026/03/16/cherys-march-18-battery-night-targets-1500-km-solid-state-future/",
+        "published": "Mon, 16 Mar 2026 02:58:41 +0000",
+        "summary_raw": "Solid-state battery research will be a key topic at Chery’s upcoming Battery Night presentation. The post Chery’s March 18 Battery Night targets 1500 km solid‑state future appeared first on CarNewsChina.com .",
+        "full_content": "Solid-state battery research will be a key topic at Chery’s upcoming Battery Night presentation. The post Chery’s March 18 Battery Night targets 1500 km solid‑state future appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-16T14:39:44.490182"
       },
       {
-        "id": "https://carnewschina.com/2026/03/15/chinas-top-ev-expert-ouyang-minggao-solid-state-batteries-need-years-to-mature-current-technology-already-good/",
+        "id": "https://carnewschina.com/2026/03/16/xiaomi-sets-march-19-launch-for-updated-su7-sedan-with-902-km-range/",
         "source": "CarNewsChina (China EV & Auto)",
-        "title": "欧阳明高：固态电池需多年成熟，现技术已足够",
-        "link": "https://carnewschina.com/2026/03/15/chinas-top-ev-expert-ouyang-minggao-solid-state-batteries-need-years-to-mature-current-technology-already-good/",
-        "published": "Sun, 15 Mar 2026 04:26:37 +0000",
-        "summary_raw": "\"Current batteries excellent, solid-state still years away\": top Chinese scentist advises consumers. The post China’s top EV expert Ouyang Minggao: solid-state batteries need years to mature, current technology already good appeared first on CarNewsChina.com .",
-        "full_content": "\"Current batteries excellent, solid-state still years away\": top Chinese scentist advises consumers. The post China’s top EV expert Ouyang Minggao: solid-state batteries need years to mature, current technology already good appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-16T07:00:14.990576"
+        "title": "小米3.19发布新款SU7：续航达902km",
+        "link": "https://carnewschina.com/2026/03/16/xiaomi-sets-march-19-launch-for-updated-su7-sedan-with-902-km-range/",
+        "published": "Mon, 16 Mar 2026 03:19:20 +0000",
+        "summary_raw": "Xiaomi confirmed the launch date for the updated SU7 electric sedan in China. The post Xiaomi sets March 19 launch for updated SU7 sedan with 902 km range appeared first on CarNewsChina.com .",
+        "full_content": "Xiaomi confirmed the launch date for the updated SU7 electric sedan in China. The post Xiaomi sets March 19 launch for updated SU7 sedan with 902 km range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-16T14:39:44.489997"
       },
       {
-        "id": "https://carnewschina.com/2026/03/15/byd-atto-3-update-surfaces-in-china-filing-with-larger-body-and-rwd-platform/",
+        "id": "https://carnewschina.com/2026/03/16/byds-blade-battery-2-0-with-flash-charging-2-0-sparks-consumer-surge-in-china/",
         "source": "CarNewsChina (China EV & Auto)",
-        "title": "比亚迪元Plus改款申报：尺寸增加、后驱平台",
-        "link": "https://carnewschina.com/2026/03/15/byd-atto-3-update-surfaces-in-china-filing-with-larger-body-and-rwd-platform/",
-        "published": "Sun, 15 Mar 2026 07:31:15 +0000",
-        "summary_raw": "Regulator filing shows redesigned BYD Atto 3 with expanded driver-assistance hardware. The post BYD Atto 3 update surfaces in China filing, with larger body and RWD platform appeared first on CarNewsChina.com .",
-        "full_content": "Regulator filing shows redesigned BYD Atto 3 with expanded driver-assistance hardware. The post BYD Atto 3 update surfaces in China filing, with larger body and RWD platform appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-16T07:00:14.990346"
+        "title": "比亚迪快充2.0引爆国内消费热潮",
+        "link": "https://carnewschina.com/2026/03/16/byds-blade-battery-2-0-with-flash-charging-2-0-sparks-consumer-surge-in-china/",
+        "published": "Mon, 16 Mar 2026 04:19:17 +0000",
+        "summary_raw": "BYD’s charging network strategy draws buyers amid slower market growth. The post BYD’s Flash Charging 2.0 sparks consumer urge in China amid slump appeared first on CarNewsChina.com .",
+        "full_content": "BYD’s charging network strategy draws buyers amid slower market growth. The post BYD’s Flash Charging 2.0 sparks consumer urge in China amid slump appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-16T14:39:44.489786"
       },
       {
-        "id": "https://carnewschina.com/2026/03/15/2026-byd-seal-06-wagon-filing-reveals-210-km-wltc-ev-range-with-34-kwh-battery/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "2026款比亚迪海豹06旅行版：纯电续航210km",
-        "link": "https://carnewschina.com/2026/03/15/2026-byd-seal-06-wagon-filing-reveals-210-km-wltc-ev-range-with-34-kwh-battery/",
-        "published": "Sun, 15 Mar 2026 08:02:02 +0000",
-        "summary_raw": "The Seal 06 wagon appears in Chinese regulatory listings with a battery upgrade and optional lidar hardware for advanced driver-assist functions. The post 2026 BYD Seal 06 wagon filing reveals 210 km WLTC EV range with 34 kWh battery appeared first on CarNewsChina.com .",
-        "full_content": "The Seal 06 wagon appears in Chinese regulatory listings with a battery upgrade and optional lidar hardware for advanced driver-assist functions. The post 2026 BYD Seal 06 wagon filing reveals 210 km WLTC EV range with 34 kWh battery appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-16T07:00:14.990163"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/15/geely-galaxy-m7-phev-225-km-ev-1730-km-combined-range/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "吉利银河M7插混发布：综合续航达1730km",
-        "link": "https://carnewschina.com/2026/03/15/geely-galaxy-m7-phev-225-km-ev-1730-km-combined-range/",
-        "published": "Sun, 15 Mar 2026 09:00:39 +0000",
-        "summary_raw": "Geely Galaxy M7 highlights mid-size PHEV tech including Flyme Auto system and thermal efficiency of 47.26 %. The post Geely Galaxy M7 PHEV debuts with 225 km EV, 1,730 km combined range appeared first on CarNewsChina.com .",
-        "full_content": "Geely Galaxy M7 highlights mid-size PHEV tech including Flyme Auto system and thermal efficiency of 47.26 %. The post Geely Galaxy M7 PHEV debuts with 225 km EV, 1,730 km combined range appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-16T07:00:14.989936"
-      },
-      {
-        "id": "https://www.qbitai.com/2026/03/387935.html",
-        "source": "量子位 (QbitAI)",
-        "title": "科技CEO用AI定制癌症疫苗：肿瘤缩小50%",
-        "link": "https://www.qbitai.com/2026/03/387935.html",
-        "published": "Sun, 15 Mar 2026 06:06:09 +0000",
-        "summary_raw": "AI救了我的狗！从奄奄一息到满公园追兔子",
-        "full_content": "AI救了我的狗！从奄奄一息到满公园追兔子",
-        "fetched_at": "2026-03-16T07:00:05.354424"
-      },
-      {
-        "id": "https://www.ifanr.com/1658134?utm_source=rss&utm_medium=rss&utm_campaign=",
-        "source": "爱范儿 (Ifanr)",
-        "title": "早报：苹果税降至25%/小米SU7将涨价/严查免责广告",
-        "link": "https://www.ifanr.com/1658134?utm_source=rss&utm_medium=rss&utm_campaign=",
-        "published": "Sat, 14 Mar 2026 00:36:44 +0000",
-        "summary_raw": "· 曝魅族大规模组织架构调整：超五成员工离职\n· OpenAI CEO：未来 AI 将像水电一样按量计费\n· 寒武纪首次实现年度盈利，净赚 20.59 亿元 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "full_content": "· 曝魅族大规模组织架构调整：超五成员工离职\n· OpenAI CEO：未来 AI 将像水电一样按量计费\n· 寒武纪首次实现年度盈利，净赚 20.59 亿元 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "fetched_at": "2026-03-16T07:00:04.213162"
-      },
-      {
-        "id": "https://36kr.com/newsflashes/3723665291573635?f=rss",
+        "id": "https://36kr.com/newsflashes/3725133343947398?f=rss",
         "source": "36氪 (36Kr)",
-        "title": "黄金租赁变高利贷，年化利率超10倍",
-        "link": "https://36kr.com/newsflashes/3723665291573635?f=rss",
-        "published": "2026-03-15 12:01:08  +0800",
-        "summary_raw": "近日，一些平台通过“租赁”或分期购买手机、黄金等实物，变相开展“高利贷”。一名黄金租赁平台服务商向记者表示，只需投入3-5万元加盟费，便可获得超1000%的年收益，其目标客户直指有稳定流水的个体商户、外卖员等，甚至\"以贷养贷\"人群。该服务商透露，平台可对接公证处，在支付公证部门抽成20%后，能为手机、黄金、汽车等相关合同办理“赋强公证”。所谓“赋强公证”，是指赋予强制执行效力的法律文书，赋强公证一旦做出，即具有法律效力。服务商表示，有了公证书后，违约不需要去法院起诉，可直接出强制执行书。（新浪财经）",
-        "full_content": "近日，一些平台通过“租赁”或分期购买手机、黄金等实物，变相开展“高利贷”。一名黄金租赁平台服务商向记者表示，只需投入3-5万元加盟费，便可获得超1000%的年收益，其目标客户直指有稳定流水的个体商户、外卖员等，甚至\"以贷养贷\"人群。该服务商透露，平台可对接公证处，在支付公证部门抽成20%后，能为手机、黄金、汽车等相关合同办理“赋强公证”。所谓“赋强公证”，是指赋予强制执行效力的法律文书，赋强公证一旦做出，即具有法律效力。服务商表示，有了公证书后，违约不需要去法院起诉，可直接出强制执行书。（新浪财经）",
-        "fetched_at": "2026-03-16T07:00:01.429982"
+        "title": "花样年境外债重组获港、开曼法院双批准",
+        "link": "https://36kr.com/newsflashes/3725133343947398?f=rss",
+        "published": "2026-03-16 12:41:35  +0800",
+        "summary_raw": "36氪获悉，花样年控股公告称，香港及开曼法院于3月12日正式批准其境外债务重组计划，计划生效日期确定为3月13日。",
+        "full_content": "36氪获悉，花样年控股公告称，香港及开曼法院于3月12日正式批准其境外债务重组计划，计划生效日期确定为3月13日。",
+        "fetched_at": "2026-03-16T14:39:31.030254"
       },
       {
-        "id": "https://36kr.com/newsflashes/3723701443033734?f=rss",
+        "id": "https://36kr.com/newsflashes/3725134448081285?f=rss",
         "source": "36氪 (36Kr)",
-        "title": "市场监管总局：2025年挽回损失43.5亿元",
-        "link": "https://36kr.com/newsflashes/3723701443033734?f=rss",
-        "published": "2026-03-15 12:24:59  +0800",
-        "summary_raw": "据市场监管总局消息，2025年，全国市场监管部门通过全国12315平台、电话等渠道共受理消费者投诉、举报和咨询4386.6万件（投诉举报2646万件，同比增长9.8%），其中投诉2036.6万件，同比增长9.3%；举报609.4万件，同比增长11.4%；咨询1740.6万件，为消费者挽回经济损失43.5亿元，有力保护了消费者合法权益。（e公司）",
-        "full_content": "据市场监管总局消息，2025年，全国市场监管部门通过全国12315平台、电话等渠道共受理消费者投诉、举报和咨询4386.6万件（投诉举报2646万件，同比增长9.8%），其中投诉2036.6万件，同比增长9.3%；举报609.4万件，同比增长11.4%；咨询1740.6万件，为消费者挽回经济损失43.5亿元，有力保护了消费者合法权益。（e公司）",
-        "fetched_at": "2026-03-16T07:00:01.429947"
+        "title": "茅台仅参加成都春糖主会场展，不设酒店展",
+        "link": "https://36kr.com/newsflashes/3725134448081285?f=rss",
+        "published": "2026-03-16 12:42:43  +0800",
+        "summary_raw": "茅台集团今年将仅参与成都春季糖酒会主会场展览，不再设立酒店展区。此前多年，成都春季糖酒会期间，茅台集团均有设立酒店展展区。（财联社）",
+        "full_content": "茅台集团今年将仅参与成都春季糖酒会主会场展览，不再设立酒店展区。此前多年，成都春季糖酒会期间，茅台集团均有设立酒店展展区。（财联社）",
+        "fetched_at": "2026-03-16T14:39:31.030225"
       },
       {
-        "id": "https://36kr.com/newsflashes/3723703679990403?f=rss",
+        "id": "https://36kr.com/newsflashes/3725139467156104?f=rss",
         "source": "36氪 (36Kr)",
-        "title": "美宜佳回应假烟事件：排查全国4万家门店",
-        "link": "https://36kr.com/newsflashes/3723703679990403?f=rss",
-        "published": "2026-03-15 12:33:13  +0800",
-        "summary_raw": "3月14日，据广东网络广播电视台立财经报道，大量网友反映在美宜佳便利店买到了“假烟”。美宜家总部客服告诉记者，总部已经在积极跟进此事，“目前的话已经在对全国4万家门店进行“拉网式”排查，如果发现有问题的门店会立即停业处理。”针对于被曝售卖假烟的门店，客服表示，“我们公司对这种售假行为零容忍严处罚，如果情况属实我们会从��追责，终止合作，后续也会进一步强化监管，严守合规经营底线。”（界面）",
-        "full_content": "3月14日，据广东网络广播电视台立财经报道，大量网友反映在美宜佳便利店买到了“假烟”。美宜家总部客服告诉记者，总部已经在积极跟进此事，“目前的话已经在对全国4万家门店进行“拉网式”排查，如果发现有问题的门店会立即停业处理。”针对于被曝售卖假烟的门店，客服表示，“我们公司对这种售假行为零容忍严处罚，如果情况属实我们会从��追责，终止合作，后续也会进一步强化监管，严守合规经营底线。”（界面）",
-        "fetched_at": "2026-03-16T07:00:01.429910"
+        "title": "巴克莱预计英国央行3月维持利率不变",
+        "link": "https://36kr.com/newsflashes/3725139467156104?f=rss",
+        "published": "2026-03-16 12:47:49  +0800",
+        "summary_raw": "巴克莱银行预计英国央行3月将维持利率不变，此前该行预计将降息25个基点。（新浪财经）",
+        "full_content": "巴克莱银行预计英国央行3月将维持利率不变，此前该行预计将降息25个基点。（新浪财经）",
+        "fetched_at": "2026-03-16T14:39:31.030195"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3725146867710338?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "希瑞科技预计本季度完成第三轮融资",
+        "link": "https://36kr.com/newsflashes/3725146867710338?f=rss",
+        "published": "2026-03-16 12:55:21  +0800",
+        "summary_raw": "从追觅科技生态旗下智能睡眠品牌希瑞科技方面获悉，公司预计在本季度内完成第三轮融资，届时估值将超过20亿元。希瑞科技在去年9月宣布完成近亿元Pre-A轮融资，估值突破10亿元。希瑞科技总裁蔡彦明表示，最新一轮融资资金主要用于市场渠道拓展、布局全球市场。上半年将拓展北美、新加坡、马来西亚、印尼、泰国等市场，下一阶段将拓展中东、非洲、欧洲市场，预计到今年年底海外市场业务规模达到80%左右。（界面）",
+        "full_content": "从追觅科技生态旗下智能睡眠品牌希瑞科技方面获悉，公司预计在本季度内完成第三轮融资，届时估值将超过20亿元。希瑞科技在去年9月宣布完成近亿元Pre-A轮融资，估值突破10亿元。希瑞科技总裁蔡彦明表示，最新一轮融资资金主要用于市场渠道拓展、布局全球市场。上半年将拓展北美、新加坡、马来西亚、印尼、泰国等市场，下一阶段将拓展中东、非洲、欧洲市场，预计到今年年底海外市场业务规模达到80%左右。（界面）",
+        "fetched_at": "2026-03-16T14:39:31.030162"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3725149416028809?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "追觅联手商飞研发飞行器，卫星直连将打通",
+        "link": "https://36kr.com/newsflashes/3725149416028809?f=rss",
+        "published": "2026-03-16 12:57:56  +0800",
+        "summary_raw": "近期，追觅科技创始人俞浩在内部以明年CES为时间节点，对各个业务设定了阶段性目标：第一，2026年IFA上，EVTOL（载人飞行器）要展出，2027年CES要展出及飞行表演。第二，2027年CES，卫星BU要能够在现场直连，进行通信及看到太空画面。第三，2027年CES上，要展出一架追觅和商飞联合研发的X919。第四，航空BU2027年CES前要开通中美航线，可以坐追觅的航班来参展。（新浪科技）",
+        "full_content": "近期，追觅科技创始人俞浩在内部以明年CES为时间节点，对各个业务设定了阶段性目标：第一，2026年IFA上，EVTOL（载人飞行器）要展出，2027年CES要展出及飞行表演。第二，2027年CES，卫星BU要能够在现场直连，进行通信及看到太空画面。第三，2027年CES上，要展出一架追觅和商飞联合研发的X919。第四，航空BU2027年CES前要开通中美航线，可以坐追觅的航班来参展。（新浪科技）",
+        "fetched_at": "2026-03-16T14:39:31.030120"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3725159568816517?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "百亿私募封杀“龙虾”：办公设备禁用",
+        "link": "https://36kr.com/newsflashes/3725159568816517?f=rss",
+        "published": "2026-03-16 13:08:16  +0800",
+        "summary_raw": "智能体OpenClaw走红后，安全性问题随之而来。记者获悉，已有百亿私募通知，禁止员工在办公设备端安转、运行OpenClaw软件。这一范围涵盖所有办公终端设备以及员工个人所有、用于处理公司工作、接入公司内部网络的各类办公设备。这家私募表示，出台该管理通知基于公司信息系统安全、数据资产完整以及业务运营稳定性等考虑。对于已经安转的须全面卸载，并向公司主管领导、IT人员报备。不过，该公司也表示，将持续关注 OpenClaw软件安全性能改善情况，待条件成熟后再调整管理要求。此外，多家百亿量化私募也表示，考虑到安全性和技术的成熟性，量化机构并没有直接在投研中使用“龙虾”。某地方私募业协会也提醒辖区内机构注意OpenClaw使用过程中的数据安全及信息安全问题。（财联社）",
+        "full_content": "智能体OpenClaw走红后，安全性问题随之而来。记者获悉，已有百亿私募通知，禁止员工在办公设备端安转、运行OpenClaw软件。这一范围涵盖所有办公终端设备以及员工个人所有、用于处理公司工作、接入公司内部网络的各类办公设备。这家私募表示，出台该管理通知基于公司信息系统安全、数据资产完整以及业务运营稳定性等考虑。对于已经安转的须全面卸载，并向公司主管领导、IT人员报备。不过，该公司也表示，将持续关注 OpenClaw软件安全性能改善情况，待条件成熟后再调整管理要求。此外，多家百亿量化私募也表示，考虑到安全性和技术的成熟性，量化机构并没有直接在投研中使用“龙虾”。某地方私募业协会也提醒辖区内机构注意OpenClaw使用过程中的数据安全及信息安全问题。（财联社）",
+        "fetched_at": "2026-03-16T14:39:31.030088"
+      },
+      {
+        "id": "https://36kr.com/newsflashes/3725162416961921?f=rss",
+        "source": "36氪 (36Kr)",
+        "title": "一箭八星！快舟十一号遥七火箭发射成功",
+        "link": "https://36kr.com/newsflashes/3725162416961921?f=rss",
+        "published": "2026-03-16 13:11:10  +0800",
+        "summary_raw": "3月16日12时12分，快舟十一号遥七运载火箭在酒泉卫星发射中心发射升空，将钧天一号04A卫星，东坡11、12、16卫星，驭星三号05、06星，微瞳一号01星，西光壹号06星等8颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。（央视新闻）",
+        "full_content": "3月16日12时12分，快舟十一号遥七运载火箭在酒泉卫星发射中心发射升空，将钧天一号04A卫星，东坡11、12、16卫星，驭星三号05、06星，微瞳一号01星，西光壹号06星等8颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。（央视新闻）",
+        "fetched_at": "2026-03-16T14:39:31.030058"
       }
     ]
   },
