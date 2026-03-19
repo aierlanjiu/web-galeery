@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-20_1773961379",
+    "date": "2026-03-20",
+    "poster": "./assets/news/news_2026-03-20_1773961379.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/18/audi-e7x-electric-suv-debuts-on-official-website-0-100-km-h-in-3-97s-and-109kwh-catl-battery/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奥迪E7X发布：3.97秒破百，搭宁德时代109度电",
+        "link": "https://carnewschina.com/2026/03/18/audi-e7x-electric-suv-debuts-on-official-website-0-100-km-h-in-3-97s-and-109kwh-catl-battery/",
+        "published": "Wed, 18 Mar 2026 10:30:43 +0000",
+        "summary_raw": "The China-only AUDI brand's second model is an electric SUv with 0-100 km/h acceleration time of 3.97 seconds. The post AUDI E7X electric SUV debuts on official website, 0-100 km/h in 3.97s and 109kWh CATL battery appeared first on CarNewsChina.com .",
+        "full_content": "The China-only AUDI brand's second model is an electric SUv with 0-100 km/h acceleration time of 3.97 seconds. The post AUDI E7X electric SUV debuts on official website, 0-100 km/h in 3.97s and 109kWh CATL battery appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.370681"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/18/niu-nxt2-two-wheeler-to-launch-with-lidar-unit-as-hesai-significantly-reduces-the-cost/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小牛NXT2将上市：搭载禾赛降本激光雷达",
+        "link": "https://carnewschina.com/2026/03/18/niu-nxt2-two-wheeler-to-launch-with-lidar-unit-as-hesai-significantly-reduces-the-cost/",
+        "published": "Wed, 18 Mar 2026 13:53:46 +0000",
+        "summary_raw": "Even budget two-wheelers to have lidar. The post Niu NXT2 two-wheeler to launch with lidar unit as Hesai significantly reduces the cost appeared first on CarNewsChina.com .",
+        "full_content": "Even budget two-wheelers to have lidar. The post Niu NXT2 two-wheeler to launch with lidar unit as Hesai significantly reduces the cost appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.370518"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/18/cherys-400wh-kg-batteries-set-for-exeed-es8-vehicle-testing-within-a-year/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞400Wh/kg电池装车：星纪元ES8年内测试",
+        "link": "https://carnewschina.com/2026/03/18/cherys-400wh-kg-batteries-set-for-exeed-es8-vehicle-testing-within-a-year/",
+        "published": "Wed, 18 Mar 2026 16:11:06 +0000",
+        "summary_raw": "Chery achieves 400Wh/kg solid-state battery, Exeed ES8 testing within a year. The post Chery’s 400Wh/kg batteries set for Exeed ES8 vehicle testing within a year appeared first on CarNewsChina.com .",
+        "full_content": "Chery achieves 400Wh/kg solid-state battery, Exeed ES8 testing within a year. The post Chery’s 400Wh/kg batteries set for Exeed ES8 vehicle testing within a year appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.370356"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/xpeng-p7-refreshes-with-new-trims-setting-to-challenge-the-new-xiaomi-su7-launching-tonight/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小鹏P7推新版，挑战今晚发布的小米SU7",
+        "link": "https://carnewschina.com/2026/03/19/xpeng-p7-refreshes-with-new-trims-setting-to-challenge-the-new-xiaomi-su7-launching-tonight/",
+        "published": "Thu, 19 Mar 2026 02:24:16 +0000",
+        "summary_raw": "Just before the new Xiaomi SU7, Xpeng P7 series adds new variants. The post Xpeng P7 refreshes with new trims, setting to challenge the new Xiaomi SU7 launching tonight appeared first on CarNewsChina.com .",
+        "full_content": "Just before the new Xiaomi SU7, Xpeng P7 series adds new variants. The post Xpeng P7 refreshes with new trims, setting to challenge the new Xiaomi SU7 launching tonight appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.370184"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/tesla-supplier-eve-unveils-dual-solid-state-batteries-60-ah-ev-cell-and-low-pressure-consumer-design/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "亿纬锂能发布双全固态电池：特斯拉供应商新技术",
+        "link": "https://carnewschina.com/2026/03/19/tesla-supplier-eve-unveils-dual-solid-state-batteries-60-ah-ev-cell-and-low-pressure-consumer-design/",
+        "published": "Thu, 19 Mar 2026 02:42:43 +0000",
+        "summary_raw": "EV solid‑state battery cycles at ≤5 MPa, indicating movement toward automotive‑relevant operating conditions and manufacturability. The post Tesla supplier Eve unveils dual solid-state batteries: 60 Ah cell and low-pressure consumer design appeared first on CarNewsChina.com .",
+        "full_content": "EV solid‑state battery cycles at ≤5 MPa, indicating movement toward automotive‑relevant operating conditions and manufacturability. The post Tesla supplier Eve unveils dual solid-state batteries: 60 Ah cell and low-pressure consumer design appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.370023"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/geelys-2026-ambition-overtaking-byd-as-chinas-top-selling-automaker/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "吉利2026愿景：超越比亚迪重夺中国销量第一",
+        "link": "https://carnewschina.com/2026/03/19/geelys-2026-ambition-overtaking-byd-as-chinas-top-selling-automaker/",
+        "published": "Thu, 19 Mar 2026 03:23:14 +0000",
+        "summary_raw": "Geely's 2026 target: dethroning BYD in Chinese auto market. The post Geely’s 2026 ambition: overtaking BYD as China’s top-selling automaker appeared first on CarNewsChina.com .",
+        "full_content": "Geely's 2026 target: dethroning BYD in Chinese auto market. The post Geely’s 2026 ambition: overtaking BYD as China’s top-selling automaker appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.369859"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/cherys-exeed-ex7-opens-blind-orders-with-aviation-grade-electronic-mechanical-braking-system/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞星纪元EX7开启盲订：配航空级线控制动",
+        "link": "https://carnewschina.com/2026/03/19/cherys-exeed-ex7-opens-blind-orders-with-aviation-grade-electronic-mechanical-braking-system/",
+        "published": "Thu, 19 Mar 2026 03:41:05 +0000",
+        "summary_raw": "Exeed EX7 builds on the existing Exlantix ET platform, targeting international premium NEV markets. The post Chery’s Exeed EX7 opens blind orders with aviation‑grade electronic‑mechanical braking system appeared first on CarNewsChina.com .",
+        "full_content": "Exeed EX7 builds on the existing Exlantix ET platform, targeting international premium NEV markets. The post Chery’s Exeed EX7 opens blind orders with aviation‑grade electronic‑mechanical braking system appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.369676"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/xpeng-gx-begins-global-mass-production-featuring-bosch-next-generation-steer-by-wire-system/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小鹏GX全球量产：首发博世新一代线控转向",
+        "link": "https://carnewschina.com/2026/03/19/xpeng-gx-begins-global-mass-production-featuring-bosch-next-generation-steer-by-wire-system/",
+        "published": "Thu, 19 Mar 2026 05:17:09 +0000",
+        "summary_raw": "Global mass production of Xpeng GX SUV starts, marking first L4-capable steer-by-wire in production. The post Xpeng GX begins global mass production featuring Bosch next‑generation steer‑by‑wire system appeared first on CarNewsChina.com .",
+        "full_content": "Global mass production of Xpeng GX SUV starts, marking first L4-capable steer-by-wire in production. The post Xpeng GX begins global mass production featuring Bosch next‑generation steer‑by‑wire system appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.369510"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/xiaomi-yu7-gt-the-suvs-answer-to-su7-ultra-performance-boasting-990-hp-and-705km-range/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米YU7 GT：990马力/705km续航，SUV性能标杆",
+        "link": "https://carnewschina.com/2026/03/19/xiaomi-yu7-gt-the-suvs-answer-to-su7-ultra-performance-boasting-990-hp-and-705km-range/",
+        "published": "Thu, 19 Mar 2026 08:08:15 +0000",
+        "summary_raw": "From SU7 Ultra to YU7 GT: Xiaomi's high-performance EV lineup expands with new SUV. The post Xiaomi YU7 GT: the SUV’s answer to SU7 Ultra performance, boasting 990 hp and 705km range appeared first on CarNewsChina.com .",
+        "full_content": "From SU7 Ultra to YU7 GT: Xiaomi's high-performance EV lineup expands with new SUV. The post Xiaomi YU7 GT: the SUV’s answer to SU7 Ultra performance, boasting 990 hp and 705km range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.369332"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/19/xiaomi-su7-new-gen-launched-with-up-to-680-hp-starts-at-31870-usd-in-china/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "2026款小米SU7上市：搭龙骨底盘，约22.9万元起",
+        "link": "https://carnewschina.com/2026/03/19/xiaomi-su7-new-gen-launched-with-up-to-680-hp-starts-at-31870-usd-in-china/",
+        "published": "Thu, 19 Mar 2026 13:19:38 +0000",
+        "summary_raw": "Xiaomi expands SU7 features across all variants at higher entry price. The post 2026 Xiaomi SU7 launched with new “Dragon Chassis” and up to 680 hp, starts 31,870 USD appeared first on CarNewsChina.com .",
+        "full_content": "Xiaomi expands SU7 features across all variants at higher entry price. The post 2026 Xiaomi SU7 launched with new “Dragon Chassis” and up to 680 hp, starts 31,870 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-20T07:00:19.369097"
+      }
+    ]
+  },
+  {
     "id": "2026-03-18_1773788563",
     "date": "2026-03-18",
     "poster": "./assets/news/news_2026-03-18_1773788563.png",
@@ -3645,63 +3752,6 @@
         "title": "自制无人机时速657公里破纪录",
         "source": "CnBeta",
         "link": "https://www.baidu.com/s?wd=自制无人机时速657公里破纪录"
-      }
-    ]
-  },
-  {
-    "id": "2026-01-31_1769817798",
-    "date": "2026-01-31",
-    "poster": "./assets/news/news_2026-01-31_1769817798.webp",
-    "items": [
-      {
-        "title": "宁德时代钠电池量产上车",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547464.htm"
-      },
-      {
-        "title": "新款奔驰S级全球首发",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547842.htm"
-      },
-      {
-        "title": "特斯拉Robotaxi事故率曝光",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547848.htm"
-      },
-      {
-        "title": "小米SU7获华尔街日报好评",
-        "source": "CnBeta",
-        "link": "https://www.baidu.com/s?wd=小米SU7获华尔街日报好评"
-      },
-      {
-        "title": "日产测试车载太阳能充电",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547834.htm"
-      },
-      {
-        "title": "DeepSeek获批采购H200",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547892.htm"
-      },
-      {
-        "title": "电动车24万公里续航91%",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547844.htm"
-      },
-      {
-        "title": "丰田卡罗拉概念车官图",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547898.htm"
-      },
-      {
-        "title": "奔驰CEO拒绝迁址美国",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547866.htm"
-      },
-      {
-        "title": "央视曝光车企网络黑产",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1547852.htm"
       }
     ]
   }
