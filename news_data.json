@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-22_1774134178",
+    "date": "2026-03-22",
+    "poster": "./assets/news/news_2026-03-22_1774134178.png",
+    "items": [
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554300.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "五角大楼采用Palantir AI为美军核心系统",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554300.htm",
+        "published": "Sat, 21 Mar 2026 04:32:33 GMT",
+        "summary_raw": "美国国防部副部长史蒂夫-范伯格（Steve Feinberg）在给五角大楼领导人的一封信中说，Palantir公司的Maven人工智能系统将成为一项正式记录项目，此举将确保Palantir公司的武器瞄准技术在美军中长期使用。 阅读全文",
+        "full_content": "美国国防部副部长史蒂夫-范伯格（Steve Feinberg）在给五角大楼领导人的一封信中说，Palantir公司的Maven人工智能系统将成为一项正式记录项目，此举将确保Palantir公司的武器瞄准技术在美军中长期使用。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.167230"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554302.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "消息称特朗普拟夺取伊朗核材料储备",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554302.htm",
+        "published": "Sat, 21 Mar 2026 04:34:19 GMT",
+        "summary_raw": "据多名知情人士透露，随着美国与以色列主导的对伊朗军事行动进入更不确定阶段，特朗普政府已在着手制定方案与备选策略，以控制或转移伊朗的核材料。截至周五晚间，即便特朗普总统下令实施此类行动，具体时间仍未明确。一名消息人士称，他目前尚未作出决定。 阅读全文",
+        "full_content": "据多名知情人士透露，随着美国与以色列主导的对伊朗军事行动进入更不确定阶段，特朗普政府已在着手制定方案与备选策略，以控制或转移伊朗的核材料。截至周五晚间，即便特朗普总统下令实施此类行动，具体时间仍未明确。一名消息人士称，他目前尚未作出决定。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.167145"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554304.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "增程之争：理想嘲讽大众，大众誓做新王",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554304.htm",
+        "published": "Sat, 21 Mar 2026 04:36:31 GMT",
+        "summary_raw": "理想和大众又“吵起来”了！这一次争的还是增程技术。3月初，上汽大众宣布首台EA211增程器下线，并将搭载于品牌首款增程车型ID.ERA 9X上。令人意外的是，此举立刻引来理想汽车公关部社交媒体总监孙敏杰的嘲讽：6年，恭喜大众把“过时的、非常不环保、发展潜力不大”的技术成功量产！ 一个造车才几年的新势力，居然直接嘲讽老牌大厂。 阅读全文",
+        "full_content": "理想和大众又“吵起来”了！这一次争的还是增程技术。3月初，上汽大众宣布首台EA211增程器下线，并将搭载于品牌首款增程车型ID.ERA 9X上。令人意外的是，此举立刻引来理想汽车公关部社交媒体总监孙敏杰的嘲讽：6年，恭喜大众把“过时的、非常不环保、发展潜力不大”的技术成功量产！ 一个造车才几年的新势力，居然直接嘲讽老牌大厂。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.167071"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554306.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "xAI进驻客户办公室，硬刚ChatGPT抢单",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554306.htm",
+        "published": "Sat, 21 Mar 2026 04:37:49 GMT",
+        "summary_raw": "埃隆·马斯克旗下的人工智能企业xAI，正将工程师直接派往潜在客户的办公室，试图从竞争对手OpenAI和Anthropic手中抢夺商业客户。这种“贴身服务”的方式已帮助xAI拿下支付服务商Shift4 Payments Inc.的订单。 阅读全文",
+        "full_content": "埃隆·马斯克旗下的人工智能企业xAI，正将工程师直接派往潜在客户的办公室，试图从竞争对手OpenAI和Anthropic手中抢夺商业客户。这种“贴身服务”的方式已帮助xAI拿下支付服务商Shift4 Payments Inc.的订单。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166980"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554308.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "奥特曼案：美法官驳回其妹性虐待指控",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554308.htm",
+        "published": "Sat, 21 Mar 2026 04:38:19 GMT",
+        "summary_raw": "3月21日，据《商业内幕》报道，美国一名联邦法官驳回了OpenAI CEO萨姆·奥特曼(Sam Altman)之妹提起的诉讼。在这起诉讼中，她指控其兄在童年时期对她实施性虐待。 阅读全文",
+        "full_content": "3月21日，据《商业内幕》报道，美国一名联邦法官驳回了OpenAI CEO萨姆·奥特曼(Sam Altman)之妹提起的诉讼。在这起诉讼中，她指控其兄在童年时期对她实施性虐待。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166901"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554310.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "月之暗面：Cursor套壳系Kimi商业合作",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554310.htm",
+        "published": "Sat, 21 Mar 2026 04:38:43 GMT",
+        "summary_raw": "3月21日，月之暗面Kimi官方账号发布微博，回应称自豪地看到Kimi K2.5为其奠定基础。Cursor通过Fireworks AI托管的强化学习与推理平台接入Kimi K2.5，属于授权商业合作。 阅读全文",
+        "full_content": "3月21日，月之暗面Kimi官方账号发布微博，回应称自豪地看到Kimi K2.5为其奠定基础。Cursor通过Fireworks AI托管的强化学习与推理平台接入Kimi K2.5，属于授权商业合作。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166827"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554312.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "受大众拖累，保时捷计划砍掉Taycan",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554312.htm",
+        "published": "Sat, 21 Mar 2026 04:41:26 GMT",
+        "summary_raw": "保时捷可能做梦也没有想过，自己如今的日子会过得这么惨。几天前各家车企的 2025 年财报集中公布，保时捷在其中格外耀眼。全年营收同比下降了接近 10%，全球的交付量也同比下降了 10% ，最恐怖的是营业利润，仅有 4.13 亿欧元，同比下降了 92.7%。 阅读全文",
+        "full_content": "保时捷可能做梦也没有想过，自己如今的日子会过得这么惨。几天前各家车企的 2025 年财报集中公布，保时捷在其中格外耀眼。全年营收同比下降了接近 10%，全球的交付量也同比下降了 10% ，最恐怖的是营业利润，仅有 4.13 亿欧元，同比下降了 92.7%。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166754"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554314.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "软银：俄亥俄州数据中心项目达5000亿",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554314.htm",
+        "published": "Sat, 21 Mar 2026 04:44:10 GMT",
+        "summary_raw": "日本软银集团正在推进一项以数据中心为核心的基础设施项目，选址在美国俄亥俄州，规模极其庞大，以至于首席执行官孙正义表示，单一园区的投资将达到5000亿美元。美国商务部长Howard Lutnick周五在与孙正义及能源部长Chris Wright共同发布该项目时表示，“我们将开展美国历史上规模最大的建设项目。” 阅读全文",
+        "full_content": "日本软银集团正在推进一项以数据中心为核心的基础设施项目，选址在美国俄亥俄州，规模极其庞大，以至于首席执行官孙正义表示，单一园区的投资将达到5000亿美元。美国商务部长Howard Lutnick周五在与孙正义及能源部长Chris Wright共同发布该项目时表示，“我们将开展美国历史上规模最大的建设项目。” 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166679"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554316.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "吹风机揭开全球最大英伟达芯片走私案",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554316.htm",
+        "published": "Sat, 21 Mar 2026 04:49:11 GMT",
+        "summary_raw": "今天凌晨，Supermicro的联合创始人Wally Liaw在加州被捕了。Supermicro是全球最大的AI服务器制造商之一，英伟达的核心供应链伙伴，去年一个季度就拿到了130亿美元的英伟达Blackwell芯片订单。Liaw从1993年公司成立起就在，现在是高级副总裁兼董事会成员。他被控的罪名是：把价值25亿美元的英伟达AI芯片服务器，通过东南亚的空壳公司走私到中国。最高刑期20年。 阅读全文",
+        "full_content": "今天凌晨，Supermicro的联合创始人Wally Liaw在加州被捕了。Supermicro是全球最大的AI服务器制造商之一，英伟达的核心供应链伙伴，去年一个季度就拿到了130亿美元的英伟达Blackwell芯片订单。Liaw从1993年公司成立起就在，现在是高级副总裁兼董事会成员。他被控的罪名是：把价值25亿美元的英伟达AI芯片服务器，通过东南亚的空壳公司走私到中国。最高刑期20年。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166604"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1554318.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "龙虾黑化？Meta安全事故重创硅谷",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1554318.htm",
+        "published": "Sat, 21 Mar 2026 04:52:22 GMT",
+        "summary_raw": "外媒The Information报道，就在上周，Meta内部发生了一场史上最惊心动魄的Sev 1级安全事故。两小时内，Meta帝国最核心的机密，包括涉及数亿用户的敏感数据，以及公司内部绝密文件，全部赤裸裸地暴露在成千上万名未经授权的员工面前。 阅读全文",
+        "full_content": "外媒The Information报道，就在上周，Meta内部发生了一场史上最惊心动魄的Sev 1级安全事故。两小时内，Meta帝国最核心的机密，包括涉及数亿用户的敏感数据，以及公司内部绝密文件，全部赤裸裸地暴露在成千上万名未经授权的员工面前。 阅读全文",
+        "fetched_at": "2026-03-22T07:00:14.166526"
+      }
+    ]
+  },
+  {
     "id": "2026-03-21_1774047775",
     "date": "2026-03-21",
     "poster": "./assets/news/news_2026-03-21_1774047775.png",
@@ -3746,63 +3853,5 @@
         "link": "https://www.ithome.com/0/918/325.htm"
       }
     ]
-  },
-  {
-    "id": "2026-02-02_1769987821",
-    "date": "2026-02-02",
-    "poster": "./assets/news/news_2026-02-02_1769987821_custom.webp",
-    "items": [
-      {
-        "title": "1. 新一代小米SU7量产在即 (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/307.htm"
-      },
-      {
-        "title": "2. 苹果CarPlay Ultra下半年落地 (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/326.htm"
-      },
-      {
-        "title": "3. 比亚迪蝉联新能源销冠 (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/323.htm"
-      },
-      {
-        "title": "4. 特斯拉Robotaxi战略揭秘 (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/249.htm"
-      },
-      {
-        "title": "5. 优必选开源机器人Thinker大脑 (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/299.htm"
-      },
-      {
-        "title": "6. 印尼解除Grok AI封禁 (via CnBeta)",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548142.htm"
-      },
-      {
-        "title": "7. 小米YU7车外语音需声纹 (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/308.htm"
-      },
-      {
-        "title": "8. SpaceX拟建百万卫星网络 (via CnBeta)",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548062.htm"
-      },
-      {
-        "title": "9. 蔚来1月交付同比增96% (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/258.htm"
-      },
-      {
-        "title": "10. 苹果探索翻盖折叠iPhone (via IT之家)",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/918/325.htm"
-      }
-    ],
-    "title": "今日·前沿 - 2026.02.02 (Updated)"
   }
 ]
