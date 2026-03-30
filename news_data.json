@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-03-31_1774912226",
+    "date": "2026-03-31",
+    "poster": "./assets/news/news_2026-03-31_1774912226.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/03/30/toyotas-brand-with-chinese-technology-prowess-the-bz7-secures-3100-orders-in-first-hour-after-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Toyota’s brand with Chinese technology prowess, the bZ7 secures 3,100 orders in first hour after launch",
+        "link": "https://carnewschina.com/2026/03/30/toyotas-brand-with-chinese-technology-prowess-the-bz7-secures-3100-orders-in-first-hour-after-launch/",
+        "published": "Mon, 30 Mar 2026 01:32:04 +0000",
+        "summary_raw": "Toyota bZ7, powered by Chinese tech, sells 3,100 units in 60 minutes after launch. The post Toyota’s brand with Chinese technology prowess, the bZ7 secures 3,100 orders in first hour after launch appeared first on CarNewsChina.com .",
+        "full_content": "Toyota bZ7, powered by Chinese tech, sells 3,100 units in 60 minutes after launch. The post Toyota’s brand with Chinese technology prowess, the bZ7 secures 3,100 orders in first hour after launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-31T07:00:23.211825"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/30/top-china-ev-academician-solid-state-batteries-may-need-5-10-years-to-reach-1-market-share/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Top China EV academician: solid-state batteries may need 5–10 years to reach 1% market share",
+        "link": "https://carnewschina.com/2026/03/30/top-china-ev-academician-solid-state-batteries-may-need-5-10-years-to-reach-1-market-share/",
+        "published": "Mon, 30 Mar 2026 02:22:42 +0000",
+        "summary_raw": "Solid-state EV batteries gain momentum, but scaling remains a multi-year process, according to industry experts. The post Top China EV academician: solid-state batteries may need 5–10 years to reach 1% market share appeared first on CarNewsChina.com .",
+        "full_content": "Solid-state EV batteries gain momentum, but scaling remains a multi-year process, according to industry experts. The post Top China EV academician: solid-state batteries may need 5–10 years to reach 1% market share appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-31T07:00:23.211689"
+      },
+      {
+        "id": "https://carnewschina.com/2026/03/30/byd-song-ultra-ev-gets-15-orders-per-store-in-china-72-hours-after-the-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "BYD Song Ultra EV gets 15 orders per store in China 72 hours after the launch",
+        "link": "https://carnewschina.com/2026/03/30/byd-song-ultra-ev-gets-15-orders-per-store-in-china-72-hours-after-the-launch/",
+        "published": "Mon, 30 Mar 2026 04:40:55 +0000",
+        "summary_raw": "The BYD Song Ultra EV electric SUV gets 15 orders per store in China 72 hours after the launch. It caused the internal competition. The post BYD Song Ultra EV gets 15 orders per store in China 72 hours after the launch appeared first on CarNewsChina.com .",
+        "full_content": "The BYD Song Ultra EV electric SUV gets 15 orders per store in China 72 hours after the launch. It caused the internal competition. The post BYD Song Ultra EV gets 15 orders per store in China 72 hours after the launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-03-31T07:00:23.211584"
+      },
+      {
+        "id": "https://www.ithome.com/0/934/209.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "华为余承东谈移动卫星通信新突破，称其正逐步成为智能设备的标配",
+        "link": "https://www.ithome.com/0/934/209.htm",
+        "published": "Mon, 30 Mar 2026 10:20:15 GMT",
+        "summary_raw": "IT之家 3 月 30 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，谈及了华为在移动卫星通信的新突破，并解答了“卫星通信是否只能用来应急？”这一问题。 余承东介绍称，现有的移动网络仅覆盖了不到全球 20% 的区域，而卫星通信可以解决其余偏远地区的网络连接问题， 是构建全球无死角网络连接的关键 。 余承东表示，如今，移动卫星通信已经能够搭载在千元机和智能手表上， 正逐步成为智能设备的标配 。 关于华为在移动卫星通信的新突破，余承东表示，高轨道卫星传输信息的通道非常窄，传输难度很大，一段 10 秒的语音，数据量大概 156KB，要想通过卫星传输就要压缩到 0.73KB 左右。 而传统算法压缩能力有限，可能丢失重要信息。 为此，华为引入了 AI 编解码技术 。AI 编解码可以在传输时提取核心特征，把需要传输的信息压缩成简洁而精准的表达，这样直接就能用卫星通信进行传输。 接收端的 AI 解码器再基于前期训练总结的规律智能补全细节，极致压缩的同时，还能更大程度地还原信息。另外，卫星通信传输信息的距离非常远，相比于蜂窝通信网络，相差上万倍。 余承东表示，华为...",
+        "full_content": "IT之家 3 月 30 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，谈及了华为在移动卫星通信的新突破，并解答了“卫星通信是否只能用来应急？”这一问题。 余承东介绍称，现有的移动网络仅覆盖了不到全球 20% 的区域，而卫星通信可以解决其余偏远地区的网络连接问题， 是构建全球无死角网络连接的关键 。 余承东表示，如今，移动卫星通信已经能够搭载在千元机和智能手表上， 正逐步成为智能设备的标配 。 关于华为在移动卫星通信的新突破，余承东表示，高轨道卫星传输信息的通道非常窄，传输难度很大，一段 10 秒的语音，数据量大概 156KB，要想通过卫星传输就要压缩到 0.73KB 左右。 而传统算法压缩能力有限，可能丢失重要信息。 为此，华为引入了 AI 编解码技术 。AI 编解码可以在传输时提取核心特征，把需要传输的信息压缩成简洁而精准的表达，这样直接就能用卫星通信进行传输。 接收端的 AI 解码器再基于前期训练总结的规律智能补全细节，极致压缩的同时，还能更大程度地还原信息。另外，卫星通信传输信息的距离非常远，相比于蜂窝通信网络，相差上万倍。 余承东表示，华为 WATCH Ultimate 2 智能手表是业界首款支持用卫星通信发送语音消息的（大众智能）手表。华为把手表的金属中框变成了一套迷你环隙天线系统， 让每种信号都有专属通道，再通过算法自动切换通信模式 ，既增加了卫星通信天线，还提升了整体通信性能。 IT之家注意到，余承东还透露， 未来卫星通信还会和地面网络配合，覆盖更多的设备和区域 ，让用户随时随地都能收到消息。",
+        "fetched_at": "2026-03-31T07:00:01.525499"
+      },
+      {
+        "id": "https://www.ithome.com/0/934/210.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "vivo 推出 Y500s 手机：骁龙 4 Gen 2、可选 8/12GB RAM，1799 元起",
+        "link": "https://www.ithome.com/0/934/210.htm",
+        "published": "Mon, 30 Mar 2026 10:27:28 GMT",
+        "summary_raw": "IT之家 3 月 30 日消息，vivo 现已在官网上架 Y500s 手机，该机主打 7200mAh 电池、IP69 级防护，定价为 1799 元起，IT之家整理价格如下： 8GB RAM + 256GB 存储空间：1799 元 12GB RAM + 256GB 存储空间：2099 元 8GB RAM + 512GB 存储空间：2099 元 该机可选曜石黑、星河银、凤迎金三种配色，整体重量 219g，手机正面配备一块 6.75 英寸 1570x720 分辨率 120Hz IPS LCD 面板，匹配 8MP 自拍摄像头。手机使用塑胶中框及复合板材，搭载 50MP 主摄。 该机搭载高通骁龙 4 Gen 2 处理器，匹配 8/12GB LPDDR5X RAM 和 256/512GB UFS 3.1 存储，手机内置 7200mAh 电池，支持 44W 有线充电。",
+        "full_content": "IT之家 3 月 30 日消息，vivo 现已在官网上架 Y500s 手机，该机主打 7200mAh 电池、IP69 级防护，定价为 1799 元起，IT之家整理价格如下： 8GB RAM + 256GB 存储空间：1799 元 12GB RAM + 256GB 存储空间：2099 元 8GB RAM + 512GB 存储空间：2099 元 该机可选曜石黑、星河银、凤迎金三种配色，整体重量 219g，手机正面配备一块 6.75 英寸 1570x720 分辨率 120Hz IPS LCD 面板，匹配 8MP 自拍摄像头。手机使用塑胶中框及复合板材，搭载 50MP 主摄。 该机搭载高通骁龙 4 Gen 2 处理器，匹配 8/12GB LPDDR5X RAM 和 256/512GB UFS 3.1 存储，手机内置 7200mAh 电池，支持 44W 有线充电。",
+        "fetched_at": "2026-03-31T07:00:01.525060"
+      },
+      {
+        "id": "https://www.ithome.com/0/934/212.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "米哈游推出原神「雷霆侘寂！」八重神子印象电蚊拍：高压强电 + 紫光诱蚊，售价 69 元",
+        "link": "https://www.ithome.com/0/934/212.htm",
+        "published": "Mon, 30 Mar 2026 10:35:45 GMT",
+        "summary_raw": "IT之家 3 月 30 日消息，米哈游原神旗舰店近日推出一款新品 ——「雷霆侘寂！」八重神子印象电蚊拍， 定价 69 元 （目前预售，6 月初到仓）。 天猫 【原神官方】「雷霆侘寂！」八重神子印象电蚊拍 Genshin 69 元 直达链接 据介绍，米哈游「雷霆侘寂！」八重神子印象电蚊拍采用点击式灭蚊，内置 800mAh 电池（USB 快充）， 支持 3000V 直流电压 ，可手持或立式放置使用。 这款电蚊拍采用三层电网设计， 双面外层防护网无电流，号称“身上有蚊也能拍” ，中层特别定制樱花纹样。除了高压强电外，八重神子印象电蚊拍还支持紫光诱蚊。 「雷霆侘寂！」八重神子印象电蚊拍拥有双重开关，手动灭蚊时需开启功能开关，再按住强电按钮方可开启工作模式，避免误触。 电蚊拍还内置智能 IC 芯片，满电可自动断电 。 IT之家附米哈游「雷霆侘寂！」八重神子印象电蚊商品信息如下： 天猫 【原神官方】「雷霆侘寂！」八重神子印象电蚊拍 Genshin 69 元 直达链接 2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取： 点此查看 。 数码补贴： 点此领...",
+        "full_content": "IT之家 3 月 30 日消息，米哈游原神旗舰店近日推出一款新品 ——「雷霆侘寂！」八重神子印象电蚊拍， 定价 69 元 （目前预售，6 月初到仓）。 天猫 【原神官方】「雷霆侘寂！」八重神子印象电蚊拍 Genshin 69 元 直达链接 据介绍，米哈游「雷霆侘寂！」八重神子印象电蚊拍采用点击式灭蚊，内置 800mAh 电池（USB 快充）， 支持 3000V 直流电压 ，可手持或立式放置使用。 这款电蚊拍采用三层电网设计， 双面外层防护网无电流，号称“身上有蚊也能拍” ，中层特别定制樱花纹样。除了高压强电外，八重神子印象电蚊拍还支持紫光诱蚊。 「雷霆侘寂！」八重神子印象电蚊拍拥有双重开关，手动灭蚊时需开启功能开关，再按住强电按钮方可开启工作模式，避免误触。 电蚊拍还内置智能 IC 芯片，满电可自动断电 。 IT之家附米哈游「雷霆侘寂！」八重神子印象电蚊商品信息如下： 天猫 【原神官方】「雷霆侘寂！」八重神子印象电蚊拍 Genshin 69 元 直达链接 2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取： 点此查看 。 数码补贴： 点此领券 手机 / 平板 / 3C 数码支持 8.5 折政府补贴，不超过 6000 元的产品至高立减 500 元。 家电补贴： 点此领券 6 类家电支持 8.5 折政府补贴，单品至高补贴 1500 元。",
+        "fetched_at": "2026-03-31T07:00:01.524818"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1555606.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "DeepSeek突发大规模服务中断 约12小时仍未完成修复",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1555606.htm",
+        "published": "Mon, 30 Mar 2026 03:34:58 GMT",
+        "summary_raw": "2026年3月29日晚至30日凌晨，DeepSeek突发大规模服务中断，网页端和App反复提示“服务器繁忙”“请检查网络后重试”等提醒，导致用户无法登录、对话中断及内容丢失，“DeepSeek崩了”很快登上热搜。 阅读全文",
+        "full_content": "2026年3月29日晚至30日凌晨，DeepSeek突发大规模服务中断，网页端和App反复提示“服务器繁忙”“请检查网络后重试”等提醒，导致用户无法登录、对话中断及内容丢失，“DeepSeek崩了”很快登上热搜。 阅读全文",
+        "fetched_at": "2026-03-31T07:00:16.816843"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1555608.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "新能源营运车正集中进入电池衰减高发期 司机排队加装电池或增程器\"续命\"",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1555608.htm",
+        "published": "Mon, 30 Mar 2026 03:40:17 GMT",
+        "summary_raw": "据报道，我国新能源营运车正集中进入电池衰减高发期，高强度运营让车辆3至4年电池衰减可达30%至40%，部分车辆电池健康度跌破60%，续航大幅缩水。 为维持运营，大量网约车、配送车司机选择私自加装电池或增程器， 灰色改装市场快速扩张，这些非法改装车辆被专家直指为道路上的“移动炸弹”。 阅读全文",
+        "full_content": "据报道，我国新能源营运车正集中进入电池衰减高发期，高强度运营让车辆3至4年电池衰减可达30%至40%，部分车辆电池健康度跌破60%，续航大幅缩水。 为维持运营，大量网约车、配送车司机选择私自加装电池或增程器， 灰色改装市场快速扩张，这些非法改装车辆被专家直指为道路上的“移动炸弹”。 阅读全文",
+        "fetched_at": "2026-03-31T07:00:16.816762"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/science/1555610.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "韩国团队研发出一款可穿透地层的无线组网技术",
+        "link": "https://www.cnbeta.com.tw/articles/science/1555610.htm",
+        "published": "Mon, 30 Mar 2026 03:44:19 GMT",
+        "summary_raw": "近日，韩国电子通信研究院（ETRI）的研究团队在地下无线通信领域取得突破性进展， 研发出一款可穿透地层的类“Wi-Fi”无线组网技术，实现了地表下100米深度的稳定通信。相关研究成果已正式发表于IEEEXplore期刊。 阅读全文",
+        "full_content": "近日，韩国电子通信研究院（ETRI）的研究团队在地下无线通信领域取得突破性进展， 研发出一款可穿透地层的类“Wi-Fi”无线组网技术，实现了地表下100米深度的稳定通信。相关研究成果已正式发表于IEEEXplore期刊。 阅读全文",
+        "fetched_at": "2026-03-31T07:00:16.816655"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/03/393244.html",
+        "source": "量子位 (QbitAI)",
+        "title": "60%用户还在乱养虾！9位大神亮招：有人多赚一笔钱，有人多睡1小时｜量子位沙龙",
+        "link": "https://www.qbitai.com/2026/03/393244.html",
+        "published": "Mon, 30 Mar 2026 03:49:08 +0000",
+        "summary_raw": "最野生最新鲜的实战方案奉上",
+        "full_content": "最野生最新鲜的实战方案奉上",
+        "fetched_at": "2026-03-31T07:00:07.594675"
+      }
+    ]
+  },
+  {
     "id": "2026-03-30_1774830312",
     "date": "2026-03-30",
     "poster": "./assets/news/news_2026-03-30_1774830312.png",
@@ -4094,63 +4201,6 @@
         "title": "马斯克：SpaceX将成最大太空数据中心",
         "source": "CnBeta",
         "link": "https://www.cnbeta.com.tw/articles/tech/1548820.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-08_1770512259",
-    "date": "2026-02-08",
-    "poster": "./assets/news/news_2026-02-08_1770512259.webp",
-    "items": [
-      {
-        "title": "吉利将用福特欧洲工厂",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/04/geely-will-use-ford-factory-in-europe-to-produce-vehicles-in-the-region/"
-      },
-      {
-        "title": "蜂巢能源首创电池火电分离",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/04/svolt-claimed-battery-achieved-fire-and-electricity-separation-for-the-first-time-fire-never-reaches-passenger-compartment/"
-      },
-      {
-        "title": "小鹏GX旗舰增程车曝光",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/xpeng-gx-flagship-erev-crossover-broke-covers-in-china-resembling-range-rover/"
-      },
-      {
-        "title": "追觅发布星云汽车品牌",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/dreame-unveils-star-motor-ev-brand-with-three-suvs-ceo-predicts-teslas-exit-in-20-years/"
-      },
-      {
-        "title": "长安宁德首款钠离子车",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/changan-and-catl-unveil-worlds-first-mass-produced-sodium-ion-passenger-ev/"
-      },
-      {
-        "title": "阿维塔06T搭载华为雷达",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/avatr-06t-station-wagon-with-huaweis-new-gen-lidar-official-images-revealed/"
-      },
-      {
-        "title": "零跑2026冲刺百万销量",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/leapmotor-aims-to-break-1-million-units-sales-in-2026-coo-shared/"
-      },
-      {
-        "title": "蔚来迎首个季度盈利",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/nio-to-achieve-historic-first-quarterly-profit-in-11-years/"
-      },
-      {
-        "title": "中国汽车全球份额创新高",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/05/china-accounted-for-35-6-of-the-global-automotive-market-in-2025-a-new-record-high/"
-      },
-      {
-        "title": "特斯拉Model Y事故引关注",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1548630.htm"
       }
     ]
   }
