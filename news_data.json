@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-04-08_1775608423",
+    "date": "2026-04-08",
+    "poster": "./assets/news/news_2026-04-08_1775608423.png",
+    "items": [
+      {
+        "title": "Geely’s global model Galaxy A7 EV with 550 km range had its official images revealed",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/04/07/geelys-global-model-galaxy-a7-ev-with-550-km-range-had-its-official-images-revealed/"
+      },
+      {
+        "title": "Geely Galaxy M9 large SUV praised by Edmunds will get a new variant in China this month",
+        "source": "CarNewsChina (China EV & Auto)",
+        "link": "https://carnewschina.com/2026/04/07/geely-galaxy-m9-large-suv-praised-by-edmunds-will-get-a-new-variant-in-china-this-month/"
+      },
+      {
+        "title": "海康威视回应300多人被带走：谣言，不存在此类情况",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1556894.htm"
+      },
+      {
+        "title": "ASML股价因美国国会计划进一步限制对华出口而下跌4.7%",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1556896.htm"
+      },
+      {
+        "title": "霍尼韦尔入局 为五角大楼研发军用电动飞机",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1556898.htm"
+      },
+      {
+        "title": "360doc个人图书馆5月1日停止服务 此前曾无偿转让",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1556900.htm"
+      },
+      {
+        "title": "携程集团启动“无理由事假”管理实验：员工额外获得每年累计最多45天额度",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1556902.htm"
+      },
+      {
+        "title": "《海贼王》真人版第三季官宣 聚焦阿拉巴斯坦之战",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/movie/1556904.htm"
+      },
+      {
+        "title": "分析师称《堡垒之夜》撑不住了 Epic已走向缓慢衰败",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/game/1556906.htm"
+      },
+      {
+        "title": "玩家的RTX 4090被烧毁 猫咪竟然是第一个发现",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1556908.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-04-08_1775607899",
     "date": "2026-04-08",
     "poster": "./assets/news/news_2026-04-08_1775607899.png",
@@ -4194,63 +4251,6 @@
         "title": "脑虎科技脑机接口新突破",
         "source": "IT之家",
         "link": "https://www.ithome.com/0/921/506.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-12_1770853587",
-    "date": "2026-02-12",
-    "poster": "./assets/news/news_2026-02-12_1770853587.webp",
-    "items": [
-      {
-        "title": "小米SU7一代停产 4月迎改款",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/over-380000-units-sold-xiaomi-discontinues-first-gen-su7-as-new-model-approaches/"
-      },
-      {
-        "title": "比亚迪霸榜 1000km续航独占",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/byd-leads-chinas-ev-range-rankings-as-only-brand-with-1000-km-models/"
-      },
-      {
-        "title": "中国固态电池标准 7月发布",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/11/china-to-release-solid-state-battery-standard-in-july-2026/"
-      },
-      {
-        "title": "字节跳动自研芯片 三星代工",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549438.htm"
-      },
-      {
-        "title": "马斯克画饼 月球建AI卫星厂",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549412.htm"
-      },
-      {
-        "title": "南航C919首航 执飞京湘线",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/197.htm"
-      },
-      {
-        "title": "智谱GLM-5发布 编程能力强",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/216.htm"
-      },
-      {
-        "title": "本田连亏四季 重估电车战略",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/209.htm"
-      },
-      {
-        "title": "苹果F1电影 确认制作续集",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/229.htm"
-      },
-      {
-        "title": "英特尔Nova Lake 芯片面积曝",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/213.htm"
       }
     ]
   }
