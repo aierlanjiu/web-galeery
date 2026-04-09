@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-04-10_1775775727",
+    "date": "2026-04-10",
+    "poster": "./assets/news/news_2026-04-10_1775775727.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/04/09/volkswagen-reveals-the-id-aura-t6-electric-suv-with-xpeng-tech-on-board/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Volkswagen reveals the ID. Aura T6 electric SUV with Xpeng tech on board",
+        "link": "https://carnewschina.com/2026/04/09/volkswagen-reveals-the-id-aura-t6-electric-suv-with-xpeng-tech-on-board/",
+        "published": "Thu, 09 Apr 2026 04:16:57 +0000",
+        "summary_raw": "Volkswagen China reveals the new ID. Aura T6 EV SUV with Xpeng tech on board. It is a mid-size crossover with the CEA electronic architecture. The post Volkswagen reveals the ID. Aura T6 electric SUV with Xpeng tech on board appeared first on CarNewsChina.com .",
+        "full_content": "Volkswagen China reveals the new ID. Aura T6 EV SUV with Xpeng tech on board. It is a mid-size crossover with the CEA electronic architecture. The post Volkswagen reveals the ID. Aura T6 electric SUV with Xpeng tech on board appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-10T07:00:11.721842"
+      },
+      {
+        "id": "https://carnewschina.com/2026/04/09/denza-z9-gt-with-flash-charging-and-1036-km-range-launches-in-europe-starting-from-115000-euro/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "Denza Z9 GT with flash charging and 1036 km range launches in Europe starting from 115,000 euros",
+        "link": "https://carnewschina.com/2026/04/09/denza-z9-gt-with-flash-charging-and-1036-km-range-launches-in-europe-starting-from-115000-euro/",
+        "published": "Thu, 09 Apr 2026 04:35:48 +0000",
+        "summary_raw": "Denza Z9 GT flash charging editon, which is world's longest-range BEV, launches in Europe with 115,000 euro starting price. The post Denza Z9 GT with flash charging and 1036 km range launches in Europe starting from 115,000 euros appeared first on CarNewsChina.com .",
+        "full_content": "Denza Z9 GT flash charging editon, which is world's longest-range BEV, launches in Europe with 115,000 euro starting price. The post Denza Z9 GT with flash charging and 1036 km range launches in Europe starting from 115,000 euros appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-10T07:00:11.721704"
+      },
+      {
+        "id": "https://carnewschina.com/2026/04/09/new-avatr-12-launches-0-100-km-h-in-2-71-seconds-starting-from-42600-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "New Avatr 12 launches: 0-100 km/h in 2.71 seconds, starting from 42,600 USD",
+        "link": "https://carnewschina.com/2026/04/09/new-avatr-12-launches-0-100-km-h-in-2-71-seconds-starting-from-42600-usd/",
+        "published": "Thu, 09 Apr 2026 07:19:57 +0000",
+        "summary_raw": "Avatr 12 launches from 42,600 USD - tri-motor version hits 100 km/h in 2.71 seconds. The post New Avatr 12 launches: 0-100 km/h in 2.71 seconds, starting from 42,600 USD appeared first on CarNewsChina.com .",
+        "full_content": "Avatr 12 launches from 42,600 USD - tri-motor version hits 100 km/h in 2.71 seconds. The post New Avatr 12 launches: 0-100 km/h in 2.71 seconds, starting from 42,600 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-10T07:00:11.721555"
+      },
+      {
+        "id": "https://www.ithome.com/0/937/518.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "英特尔 \"Grand Ridge\" 处理器已推出：Intel 4 制程，至高 24 核",
+        "link": "https://www.ithome.com/0/937/518.htm",
+        "published": "Thu, 09 Apr 2026 10:35:50 GMT",
+        "summary_raw": "IT之家 4 月 9 日消息，根据英特尔官网更新，其在今年第 1 季度正式公开发行了代号 \"Grand Ridge\" 的凌动 Atom P69x2 系列处理器。这些产品专为满足 5G 要求严苛的吞吐量、功耗、环境和延迟需求而设计。 Atom P69x2 系列采用 Intel 4 光刻，配备 8~24 个能效核，每核心对应 1MB L2 高速缓存，基本频率可达 2.6GHz，TDP 区间为 50~86W。 这些处理器采用 FCBGA2147 插槽；配备双通道 DDR5-5600 内存（支持 ECC）；提供 16 条处理器直出 PCIe 通道并可利用 PCH 再扩展出 13 条 PCIe 通道； 集成至高 20 个以太网口 ，支持到 50G 速率；此外还有 4 个 USB 5Gbps 端口、4 个 USB 480Mbps 端口、2 个 SATA 端口。 IT之家注意到，早期爆料中 \"Grand Ridge\" 处理器基于 \"Gracemont\" 微架构，即与 \"Alder Lake-N\" 等同源。 目前暂不清楚 Atom P69x2 系列的具体微架构是否有调整变化 。",
+        "full_content": "IT之家 4 月 9 日消息，根据英特尔官网更新，其在今年第 1 季度正式公开发行了代号 \"Grand Ridge\" 的凌动 Atom P69x2 系列处理器。这些产品专为满足 5G 要求严苛的吞吐量、功耗、环境和延迟需求而设计。 Atom P69x2 系列采用 Intel 4 光刻，配备 8~24 个能效核，每核心对应 1MB L2 高速缓存，基本频率可达 2.6GHz，TDP 区间为 50~86W。 这些处理器采用 FCBGA2147 插槽；配备双通道 DDR5-5600 内存（支持 ECC）；提供 16 条处理器直出 PCIe 通道并可利用 PCH 再扩展出 13 条 PCIe 通道； 集成至高 20 个以太网口 ，支持到 50G 速率；此外还有 4 个 USB 5Gbps 端口、4 个 USB 480Mbps 端口、2 个 SATA 端口。 IT之家注意到，早期爆料中 \"Grand Ridge\" 处理器基于 \"Gracemont\" 微架构，即与 \"Alder Lake-N\" 等同源。 目前暂不清楚 Atom P69x2 系列的具体微架构是否有调整变化 。",
+        "fetched_at": "2026-04-10T07:00:01.635202"
+      },
+      {
+        "id": "https://www.ithome.com/0/937/519.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "比亚迪腾势 Z9 轿车完成申报：车长超 5 米，可选三电机版本",
+        "link": "https://www.ithome.com/0/937/519.htm",
+        "published": "Thu, 09 Apr 2026 10:36:56 GMT",
+        "summary_raw": "IT之家 4 月 9 日消息，工信部今日公布了最新的第 406 批《道路机动车辆生产企业及产品公告》，其中出现了腾势 Z9 纯电轿车的身影。 IT之家汇总主要信息如下： 长 5090mm 宽 1980mm 高 1490mm 轴距 3025mm 整备质量：2397/2438kg、2588kg 最高车速：250km/h、270 km/h 轮胎：245/45R20/HL275/40R20 额定载客数：5 座 电机：郑州比亚迪汽车有限公司生产的 TZ226QYD，峰值功率 370kW，额定功率 185kW 高配版本采用 TZ226QYA / TZ226XYB / TZ226XYB 三电机（前后后），功率 270/310/310kW 新车还搭载了比亚迪磷酸铁锂电池，储能装置单体由合肥比亚迪实业有限公司生产，储能装置总成由汕尾弗迪电池有限公司生产。 新车标配全景天幕，可选电动尾翼、不同外后视镜、不同门把手、轮辋、不同颜色卡钳",
+        "full_content": "IT之家 4 月 9 日消息，工信部今日公布了最新的第 406 批《道路机动车辆生产企业及产品公告》，其中出现了腾势 Z9 纯电轿车的身影。 IT之家汇总主要信息如下： 长 5090mm 宽 1980mm 高 1490mm 轴距 3025mm 整备质量：2397/2438kg、2588kg 最高车速：250km/h、270 km/h 轮胎：245/45R20/HL275/40R20 额定载客数：5 座 电机：郑州比亚迪汽车有限公司生产的 TZ226QYD，峰值功率 370kW，额定功率 185kW 高配版本采用 TZ226QYA / TZ226XYB / TZ226XYB 三电机（前后后），功率 270/310/310kW 新车还搭载了比亚迪磷酸铁锂电池，储能装置单体由合肥比亚迪实业有限公司生产，储能装置总成由汕尾弗迪电池有限公司生产。 新车标配全景天幕，可选电动尾翼、不同外后视镜、不同门把手、轮辋、不同颜色卡钳",
+        "fetched_at": "2026-04-10T07:00:01.635042"
+      },
+      {
+        "id": "https://www.ithome.com/0/937/520.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "上线仅三周，末日生存网游《THE CUBE, SAVE US》停服",
+        "link": "https://www.ithome.com/0/937/520.htm",
+        "published": "Thu, 09 Apr 2026 10:40:56 GMT",
+        "summary_raw": "IT之家 4 月 9 日消息，韩国游戏开发商 XLGAMES 昨晚宣布，旗下以末世为背景的撤离网游《THE CUBE, SAVE US》将于 5 月 8 日结束服务，所有正常购买的商品将自动进行全额退款处理，这意味本作运营时间仅约三周。 IT之家注意到，本作最初于 3 月 18 日在 Steam 平台上线，目前游戏好评率仅 33%“多半差评”，大部分差评主要是批判本作内容乏味，且“迅速关停”。 不过实际上还有玩家为本作打出好评，称“服务商没办法处理外挂问题，自己员工看录像来手动管理，因为信用卡黑金退款问题导致亏损，自己咽了下去，没有热度与收入来源无奈关服，还要把玩家充值的钱全部退款”，认为开发商在运营角度较为良心。 当然，从市场表现来看，该作由于宣发不佳，加上玩法与内容缺乏创新，因此游戏最高日活也仅达 5177 人，近期已下滑至两三百人左右。 参考IT之家先前报道，近年来开服即收官的服务型游戏屡见不鲜，例如此前报道的《巅峰守卫》在 TGA 中作为“压轴好戏”登场，然而 仅仅开服 45 天就停服 。然而依然有大量厂商信奉实时服务型游戏吸金主义，炮制出了一代又一代的罐头性速亡类作品，最终导...",
+        "full_content": "IT之家 4 月 9 日消息，韩国游戏开发商 XLGAMES 昨晚宣布，旗下以末世为背景的撤离网游《THE CUBE, SAVE US》将于 5 月 8 日结束服务，所有正常购买的商品将自动进行全额退款处理，这意味本作运营时间仅约三周。 IT之家注意到，本作最初于 3 月 18 日在 Steam 平台上线，目前游戏好评率仅 33%“多半差评”，大部分差评主要是批判本作内容乏味，且“迅速关停”。 不过实际上还有玩家为本作打出好评，称“服务商没办法处理外挂问题，自己员工看录像来手动管理，因为信用卡黑金退款问题导致亏损，自己咽了下去，没有热度与收入来源无奈关服，还要把玩家充值的钱全部退款”，认为开发商在运营角度较为良心。 当然，从市场表现来看，该作由于宣发不佳，加上玩法与内容缺乏创新，因此游戏最高日活也仅达 5177 人，近期已下滑至两三百人左右。 参考IT之家先前报道，近年来开服即收官的服务型游戏屡见不鲜，例如此前报道的《巅峰守卫》在 TGA 中作为“压轴好戏”登场，然而 仅仅开服 45 天就停服 。然而依然有大量厂商信奉实时服务型游戏吸金主义，炮制出了一代又一代的罐头性速亡类作品，最终导致厂商和玩家本身都受到严重损失。 游戏图赏：",
+        "fetched_at": "2026-04-10T07:00:01.634566"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1557112.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "霍尔木兹海峡已再次关闭",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1557112.htm",
+        "published": "Thu, 09 Apr 2026 03:17:03 GMT",
+        "summary_raw": "当地时间8日，霍尔木兹海峡已再次关闭。据海上交通追踪系统数据显示，原本驶向霍尔木兹海峡出口处的油轮“AUROURA”号，在阿曼穆桑代姆半岛海岸附近突然改变航向，在完成180度掉头后返回波斯湾深处。 阅读全文",
+        "full_content": "当地时间8日，霍尔木兹海峡已再次关闭。据海上交通追踪系统数据显示，原本驶向霍尔木兹海峡出口处的油轮“AUROURA”号，在阿曼穆桑代姆半岛海岸附近突然改变航向，在完成180度掉头后返回波斯湾深处。 阅读全文",
+        "fetched_at": "2026-04-10T07:00:10.214217"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1557114.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "OpenAI对阵Anthropic 营收之争对二者IPO意味着什么？",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1557114.htm",
+        "published": "Thu, 09 Apr 2026 03:28:30 GMT",
+        "summary_raw": "三大巨型IPO的上市时间已逐渐明朗，而对于那些希望通过其他人工智能企业上市实现资金变现的投资者而言，今年市场可能没有足够的投资需求来承接所有新股。太空探索技术公司（SpaceX）将率先启动上市流程，最早于6月开启路演。OpenAI与Anthropic预计紧随其后，于下半年登陆资本市场。 阅读全文",
+        "full_content": "三大巨型IPO的上市时间已逐渐明朗，而对于那些希望通过其他人工智能企业上市实现资金变现的投资者而言，今年市场可能没有足够的投资需求来承接所有新股。太空探索技术公司（SpaceX）将率先启动上市流程，最早于6月开启路演。OpenAI与Anthropic预计紧随其后，于下半年登陆资本市场。 阅读全文",
+        "fetched_at": "2026-04-10T07:00:10.214142"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1557116.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "星巴克拓展咖啡以外业务 进军能量饮料领域",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1557116.htm",
+        "published": "Thu, 09 Apr 2026 03:31:27 GMT",
+        "summary_raw": "星巴克正顺应能量饮料趋势，推出名为“Energy Refreshers”的新系列饮品，为其核心菜单增添了更强的咖啡因冲击力。这些饮品于4月7日上市，由咖啡师新鲜制作，咖啡因含量约为公司标准Refreshers的2到3倍，并添加了B族维生素。它们提供草莓巴西莓、芒果火龙果等熟悉口味，以及一款新的芒果草莓选项，并可选择用水、柠檬水或椰奶进行定制。 阅读全文",
+        "full_content": "星巴克正顺应能量饮料趋势，推出名为“Energy Refreshers”的新系列饮品，为其核心菜单增添了更强的咖啡因冲击力。这些饮品于4月7日上市，由咖啡师新鲜制作，咖啡因含量约为公司标准Refreshers的2到3倍，并添加了B族维生素。它们提供草莓巴西莓、芒果火龙果等熟悉口味，以及一款新的芒果草莓选项，并可选择用水、柠檬水或椰奶进行定制。 阅读全文",
+        "fetched_at": "2026-04-10T07:00:10.214059"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/04/398020.html",
+        "source": "量子位 (QbitAI)",
+        "title": "Meta亿元天团首个大模型交卷！余家辉宋飏Jason Wei耗时九个月，一雪Llama前耻",
+        "link": "https://www.qbitai.com/2026/04/398020.html",
+        "published": "Thu, 09 Apr 2026 01:49:48 +0000",
+        "summary_raw": "主打原生多模态",
+        "full_content": "主打原生多模态",
+        "fetched_at": "2026-04-10T07:00:06.093845"
+      }
+    ]
+  },
+  {
     "id": "2026-04-09_1775689331",
     "date": "2026-04-09",
     "poster": "./assets/news/news_2026-04-09_1775689331.png",
