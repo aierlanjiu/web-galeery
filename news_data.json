@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-04-14_1776121309",
+    "date": "2026-04-14",
+    "poster": "./assets/news/news_2026-04-14_1776121309.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/04/13/chery-jlr-freelander-suv-hits-production-validation-after-extreme-testing/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞捷豹路虎神行者SUV完成极端测试",
+        "link": "https://carnewschina.com/2026/04/13/chery-jlr-freelander-suv-hits-production-validation-after-extreme-testing/",
+        "published": "Mon, 13 Apr 2026 09:23:25 +0000",
+        "summary_raw": "Freelander’s first SUV advances toward launch after cold-weather testing, marking progress in the Chery–JLR joint venture strategy. The post Chery–JLR Freelander SUV hits production validation after extreme testing appeared first on CarNewsChina.com .",
+        "full_content": "Freelander’s first SUV advances toward launch after cold-weather testing, marking progress in the Chery–JLR joint venture strategy. The post Chery–JLR Freelander SUV hits production validation after extreme testing appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-14T07:00:09.425789"
+      },
+      {
+        "id": "https://carnewschina.com/2026/04/13/chery-fulwin-t9l-with-combined-range-of-2000-km-launches-from-18800-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞风云T9L续航2000公里起售价1.88万美元",
+        "link": "https://carnewschina.com/2026/04/13/chery-fulwin-t9l-with-combined-range-of-2000-km-launches-from-18800-usd/",
+        "published": "Mon, 13 Apr 2026 13:13:10 +0000",
+        "summary_raw": "New Chery Fulwin T9L launches with up to 2,000 km combined range. The post Chery Fulwin T9L with combined range of 2,000 km launches from 18,800 USD appeared first on CarNewsChina.com .",
+        "full_content": "New Chery Fulwin T9L launches with up to 2,000 km combined range. The post Chery Fulwin T9L with combined range of 2,000 km launches from 18,800 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-14T07:00:09.425614"
+      },
+      {
+        "id": "https://carnewschina.com/2026/04/13/chery-begins-online-sales-of-humanoid-robot-with-a-0-7-kwh-battery-at-41400-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "奇瑞人形机器人开售：2.8度电、4.14万美元",
+        "link": "https://carnewschina.com/2026/04/13/chery-begins-online-sales-of-humanoid-robot-with-a-0-7-kwh-battery-at-41400-usd/",
+        "published": "Mon, 13 Apr 2026 13:42:05 +0000",
+        "summary_raw": "Chery launches online sales of humanoid robot at 41,400 USD. The post Chery begins online sales of humanoid robot with a 0.7 kWh battery at 41,400 USD appeared first on CarNewsChina.com .",
+        "full_content": "Chery launches online sales of humanoid robot at 41,400 USD. The post Chery begins online sales of humanoid robot with a 0.7 kWh battery at 41,400 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-14T07:00:09.425447"
+      },
+      {
+        "id": "https://www.ithome.com/0/938/677.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "三星电子2nm良率约55%：难竞标大代工单",
+        "link": "https://www.ithome.com/0/938/677.htm",
+        "published": "Mon, 13 Apr 2026 09:51:56 GMT",
+        "summary_raw": "IT之家 4 月 13 日消息，韩媒《釜山日报》当地时间今日报道称，尽管三星电子的 2nm 工艺制程良率当前达到了 55% 上下，但该水平不仅落后于台积电约一成，另一方面也没有达到竞争重要 Fabless 企业代工订单所需的水平。 IT之家注： 媒体报道通常仅提到良率而未给出对应的芯片面积，这导致良率数据的价值与可比性不足。 举个较极端的例子，在 100mm² 的芯片（移动端 SoC 级）上取得 90% 良率的难度远小于在 600mm² 芯片（旗舰 AI XPU 级）上实现同等良率。 业界人士指出，如果再考虑性能分级和后端封测流程的损失， 以最终成品计三星电子的 2nm 良率将只剩下 40% 。这意味着该 节点当前仍未成熟 ，无法稳定交付，且实际价格竞争力也相对不足，仅有个别成本敏感的小型企业会选择尝试。",
+        "full_content": "IT之家 4 月 13 日消息，韩媒《釜山日报》当地时间今日报道称，尽管三星电子的 2nm 工艺制程良率当前达到了 55% 上下，但该水平不仅落后于台积电约一成，另一方面也没有达到竞争重要 Fabless 企业代工订单所需的水平。 IT之家注： 媒体报道通常仅提到良率而未给出对应的芯片面积，这导致良率数据的价值与可比性不足。 举个较极端的例子，在 100mm² 的芯片（移动端 SoC 级）上取得 90% 良率的难度远小于在 600mm² 芯片（旗舰 AI XPU 级）上实现同等良率。 业界人士指出，如果再考虑性能分级和后端封测流程的损失， 以最终成品计三星电子的 2nm 良率将只剩下 40% 。这意味着该 节点当前仍未成熟 ，无法稳定交付，且实际价格竞争力也相对不足，仅有个别成本敏感的小型企业会选择尝试。",
+        "fetched_at": "2026-04-14T07:00:01.228568"
+      },
+      {
+        "id": "https://www.ithome.com/0/938/678.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "深光影像18mm半画幅镜头曝光：适配索尼E/尼康Z",
+        "link": "https://www.ithome.com/0/938/678.htm",
+        "published": "Mon, 13 Apr 2026 09:55:12 GMT",
+        "summary_raw": "IT之家 4 月 13 日消息，据科技媒体 PhotoRumors 昨天报道，深光影像 18mm 半画幅镜头的首批泄露图片现已曝光。 IT之家从曝光图片中了解到，这款镜头采用银色配色，整体较为扁平，看起来非常像饼干镜头，机身上带有对焦环， 顶部则拥有“18”字样 ，不过目前不清楚其光学结构、光圈大小、最近对焦距离等细节。 同时，这款镜头适配索尼 E / 尼康 Z 卡口，从镜头结构来看， 这款产品应该支持自动对焦 ，不过 E/Z 卡口的款式略有不同。",
+        "full_content": "IT之家 4 月 13 日消息，据科技媒体 PhotoRumors 昨天报道，深光影像 18mm 半画幅镜头的首批泄露图片现已曝光。 IT之家从曝光图片中了解到，这款镜头采用银色配色，整体较为扁平，看起来非常像饼干镜头，机身上带有对焦环， 顶部则拥有“18”字样 ，不过目前不清楚其光学结构、光圈大小、最近对焦距离等细节。 同时，这款镜头适配索尼 E / 尼康 Z 卡口，从镜头结构来看， 这款产品应该支持自动对焦 ，不过 E/Z 卡口的款式略有不同。",
+        "fetched_at": "2026-04-14T07:00:01.228357"
+      },
+      {
+        "id": "https://www.ithome.com/0/938/679.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "深蓝L06增程版官宣：配法拉利同款悬架",
+        "link": "https://www.ithome.com/0/938/679.htm",
+        "published": "Mon, 13 Apr 2026 09:55:42 GMT",
+        "summary_raw": "IT之家 4 月 13 日消息，今日，在国民好车 2.0 战略合作签约仪式上， 京东宣布与深蓝汽车达成深度合作 ，将推出深蓝 L06 增程版，京东将提供新车的独家销售以及数字化购车等服务。 IT之家注意到，深蓝汽车官方刚刚发文，深蓝 L06 增程版正式官宣“发车”（开启盲订 / 试驾）。新车号称“黄金比例后驱轿跑”，自动尾翼随速多档升降； 将搭载 300 万法拉利同款磁流变悬架 ，宣称“过坎如熨烫”。 另外，深蓝 L06 增程版还将搭载 3 纳米车规级座舱芯片， 支持行业首个四图融合车道级导航 ；拥有 245km 纯电续航、1505km 综合续航，馈电油耗约 3.46L/100km。 作为参考， 深蓝 L06 纯电版于去年 11 月上市 ，售价区间为 13.49 万元至 15.69 万元，限时惊喜价 13.29 万元至 15.49 万元。 在售的深蓝 L06 长宽高为 4830*1905*1480mm，轴距 2900mm。底盘方面，深蓝 L06 标配后五连杆悬架，前后均采用独立悬架。首发 3nm 制程联发科天玑座舱 S1 Ultra，中控配备 15.6 英寸向日葵屏，可灵活转向主驾或副...",
+        "full_content": "IT之家 4 月 13 日消息，今日，在国民好车 2.0 战略合作签约仪式上， 京东宣布与深蓝汽车达成深度合作 ，将推出深蓝 L06 增程版，京东将提供新车的独家销售以及数字化购车等服务。 IT之家注意到，深蓝汽车官方刚刚发文，深蓝 L06 增程版正式官宣“发车”（开启盲订 / 试驾）。新车号称“黄金比例后驱轿跑”，自动尾翼随速多档升降； 将搭载 300 万法拉利同款磁流变悬架 ，宣称“过坎如熨烫”。 另外，深蓝 L06 增程版还将搭载 3 纳米车规级座舱芯片， 支持行业首个四图融合车道级导航 ；拥有 245km 纯电续航、1505km 综合续航，馈电油耗约 3.46L/100km。 作为参考， 深蓝 L06 纯电版于去年 11 月上市 ，售价区间为 13.49 万元至 15.69 万元，限时惊喜价 13.29 万元至 15.49 万元。 在售的深蓝 L06 长宽高为 4830*1905*1480mm，轴距 2900mm。底盘方面，深蓝 L06 标配后五连杆悬架，前后均采用独立悬架。首发 3nm 制程联发科天玑座舱 S1 Ultra，中控配备 15.6 英寸向日葵屏，可灵活转向主驾或副驾位置，纯电续航里程为 560km 和 670km。 辅助驾驶方面，在售深蓝 L06 提供高速 / 城市领航辅助驾驶、智能泊车辅助、遥控泊车、记忆泊车等 90 项驾驶辅助功能。",
+        "fetched_at": "2026-04-14T07:00:01.228179"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1557658.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "CPU-Z被黑调查：卡巴斯基称多用户感染木马",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1557658.htm",
+        "published": "Mon, 13 Apr 2026 04:05:43 GMT",
+        "summary_raw": "上周知名硬件开发商 CPUID 网站遭到黑客攻击，黑客替换 CPU-Z 和 HWMonitor 等多款硬件监控软件的下载链接，当用户运行黑客投放的恶意版本时就会感染远程访问木马。平心而论，CPU-Z 等软件虽然非常知名，但 CPUID 团队并非大公司所以也没有能力进行详细安全调查，所以详细情况还是得看其他安全公司发布的报告，比如卡巴斯基。 阅读全文",
+        "full_content": "上周知名硬件开发商 CPUID 网站遭到黑客攻击，黑客替换 CPU-Z 和 HWMonitor 等多款硬件监控软件的下载链接，当用户运行黑客投放的恶意版本时就会感染远程访问木马。平心而论，CPU-Z 等软件虽然非常知名，但 CPUID 团队并非大公司所以也没有能力进行详细安全调查，所以详细情况还是得看其他安全公司发布的报告，比如卡巴斯基。 阅读全文",
+        "fetched_at": "2026-04-14T07:00:08.319210"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1557660.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "GitHub暂停Copilot Pro免费试用及Opus模型",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1557660.htm",
+        "published": "Mon, 13 Apr 2026 04:07:16 GMT",
+        "summary_raw": "据 GitHub 发布的产品公告，该公司发现 GitHub Copilot 免费试用系统被滥用的情况显著增加，为保护合规开发者的平台体验和完整性，从 2026 年 4 月 10 日起 GitHub 暂停提供 Copilot Pro 免费试用机制。 阅读全文",
+        "full_content": "据 GitHub 发布的产品公告，该公司发现 GitHub Copilot 免费试用系统被滥用的情况显著增加，为保护合规开发者的平台体验和完整性，从 2026 年 4 月 10 日起 GitHub 暂停提供 Copilot Pro 免费试用机制。 阅读全文",
+        "fetched_at": "2026-04-14T07:00:08.319132"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1557662.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "MiniMax开源M2.7模型但禁商用引发争议",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1557662.htm",
+        "published": "Mon, 13 Apr 2026 04:09:09 GMT",
+        "summary_raw": "人工智能公司 MiniMax 日前宣布开源其最新人工智能模型 M2.7，但这次模型开源却在开源社区引起极大的争议，原因是 MiniMax 采用的开源许可证并非标准的开源许可证，因此这都不能说是开源。 阅读全文",
+        "full_content": "人工智能公司 MiniMax 日前宣布开源其最新人工智能模型 M2.7，但这次模型开源却在开源社区引起极大的争议，原因是 MiniMax 采用的开源许可证并非标准的开源许可证，因此这都不能说是开源。 阅读全文",
+        "fetched_at": "2026-04-14T07:00:08.319046"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/04/400350.html",
+        "source": "量子位 (QbitAI)",
+        "title": "巴菲特芒格被炼成Agent并开源",
+        "link": "https://www.qbitai.com/2026/04/400350.html",
+        "published": "Mon, 13 Apr 2026 05:21:46 +0000",
+        "summary_raw": "让小散有了「大师模型」。",
+        "full_content": "让小散有了「大师模型」。",
+        "fetched_at": "2026-04-14T07:00:04.448015"
+      }
+    ]
+  },
+  {
     "id": "2026-04-13_1776034912",
     "date": "2026-04-13",
     "poster": "./assets/news/news_2026-04-13_1776034912.png",
@@ -4444,63 +4551,6 @@
         "title": "全新路虎揽胜星脉曝光：溜背造型全面电动",
         "source": "IT之家",
         "link": "https://www.ithome.com/0/921/912.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-14_1771028026",
-    "date": "2026-02-14",
-    "poster": "./assets/news/news_2026-02-14_1771028026.webp",
-    "items": [
-      {
-        "title": "小米汽车交付破60万台，2026目标55万",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/13/xiaomi-hits-600000-deliveries-in-22-months-sets-550000-unit-2026-target/"
-      },
-      {
-        "title": "特斯拉上海招聘智驾测试，赛车手优先",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/741.htm"
-      },
-      {
-        "title": "DeepSeek内测1M长文本，API保持V3.2",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3681692303158914?f=rss"
-      },
-      {
-        "title": "奥迪E7X量产版曝光，续航751公里",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549778.htm"
-      },
-      {
-        "title": "Waymo部署第六代智驾系统，吉利造车",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1549742.htm"
-      },
-      {
-        "title": "蚂蚁开源万亿参数思考模型Ring-2.5",
-        "source": "雷锋网",
-        "link": "https://www.leiphone.com/category/industrynews/t3CiJyrkzQTfru1E.html"
-      },
-      {
-        "title": "加拿大发布3D打印底盘概念车Vector",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/722.htm"
-      },
-      {
-        "title": "尊界S800夺得1月豪华轿车销量冠军",
-        "source": "CarNewsChina",
-        "link": "https://carnewschina.com/2026/02/13/maextro-s800-is-the-bestselling-luxury-sedan-of-january-2026-in-china/"
-      },
-      {
-        "title": "三星抢跑HBM4量产，英伟达放宽要求",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/737.htm"
-      },
-      {
-        "title": "工信部拟禁止半幅方向盘，新国标报批",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/824.htm"
       }
     ]
   }
