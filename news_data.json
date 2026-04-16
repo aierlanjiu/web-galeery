@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-04-17_1776380825",
+    "date": "2026-04-17",
+    "poster": "./assets/news/news_2026-04-17_1776380825.png",
+    "items": [
+      {
+        "id": "https://carnewschina.com/2026/04/16/gwm-haval-names-flagship-suv-great-wall-h10-with-5299-mm-length-180-km-ev-range/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "哈弗旗舰SUV H10车长5.3米",
+        "link": "https://carnewschina.com/2026/04/16/gwm-haval-names-flagship-suv-great-wall-h10-with-5299-mm-length-180-km-ev-range/",
+        "published": "Wed, 15 Apr 2026 23:18:21 +0000",
+        "summary_raw": "New Haval H10 SUV revealed with dual PHEV options, large dimensions, and advanced driver assistance hardware including roof-mounted LiDAR. The post GWM Haval names flagship SUV Great Wall H10 with 5299 mm length, 180 km EV range appeared first on CarNewsChina.com .",
+        "full_content": "New Haval H10 SUV revealed with dual PHEV options, large dimensions, and advanced driver assistance hardware including roof-mounted LiDAR. The post GWM Haval names flagship SUV Great Wall H10 with 5299 mm length, 180 km EV range appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-17T07:02:38.918752"
+      },
+      {
+        "id": "https://carnewschina.com/2026/04/16/xpeng-gx-with-steer-by-wire-pre-orders-open-at-58000-usd/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小鹏线控转向GX预售价5.8万美元",
+        "link": "https://carnewschina.com/2026/04/16/xpeng-gx-with-steer-by-wire-pre-orders-open-at-58000-usd/",
+        "published": "Thu, 16 Apr 2026 01:22:35 +0000",
+        "summary_raw": "Xpeng GX opens pre-orders at 58,000 USD. The post Xpeng GX with steer-by-wire pre-orders open at 58,000 USD appeared first on CarNewsChina.com .",
+        "full_content": "Xpeng GX opens pre-orders at 58,000 USD. The post Xpeng GX with steer-by-wire pre-orders open at 58,000 USD appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-17T07:02:38.918626"
+      },
+      {
+        "id": "https://carnewschina.com/2026/04/16/byd-unveils-new-sealion-05-with-ev-and-dm-i-variants-ahead-of-april-20-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "比亚迪海豹05推出EV和DM-i版",
+        "link": "https://carnewschina.com/2026/04/16/byd-unveils-new-sealion-05-with-ev-and-dm-i-variants-ahead-of-april-20-launch/",
+        "published": "Thu, 16 Apr 2026 04:23:48 +0000",
+        "summary_raw": "BYD unveils new Sealion 05 official photos ahead of April 20 launch. The post BYD unveils new Sealion 05 with EV and DM-i variants ahead of April 20 launch appeared first on CarNewsChina.com .",
+        "full_content": "BYD unveils new Sealion 05 official photos ahead of April 20 launch. The post BYD unveils new Sealion 05 with EV and DM-i variants ahead of April 20 launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-04-17T07:02:38.918459"
+      },
+      {
+        "id": "https://www.ithome.com/0/940/032.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "工程师开源低成本相控阵雷达",
+        "link": "https://www.ithome.com/0/940/032.htm",
+        "published": "Thu, 16 Apr 2026 10:56:26 GMT",
+        "summary_raw": "IT之家 4 月 16 日消息，据 Tom's Hardware 报道，摩洛哥电子工程师纳夫法尔・莫蒂（Nawfal Motii）推出了一款开源雷达系统 Aeris‑10，此举可能会让众多大厂感到不安。据称，其性能可媲美售价 25 万美元（IT之家注：现汇率约合 170.8 万元人民币）的商用雷达。 Aeris‑10 有两个版本： 10N Nexus 版：探测距离 3 公里，采用 8×16 贴片天线阵列； 10E Extended 扩展版：凭借 32×16 缝隙波导阵列，探测距离可达 20 公里。 莫蒂将整个项目完整发布在了 GitHub 上，包含所有必需的原理图、PCB 版图、元器件清单、固件，以及带图形界面（GUI）的控制与监控软件。 Aeris‑10 采用 XCA7A50T 现场可编程门阵列（FPGA）作为核心运算单元，负责快速傅里叶变换（FFT）运算，同时支持动目标显示（MTI）、基于多普勒效应的运动目标测速，以及恒虚警率（CFAR）抗干扰检测。 系统的核心控制单元则采用 STM32F746xx 单片机，负责协调频率合成器、ADC、DAC、GPS、气压计、步进电机与散热系统。 ...",
+        "full_content": "IT之家 4 月 16 日消息，据 Tom's Hardware 报道，摩洛哥电子工程师纳夫法尔・莫蒂（Nawfal Motii）推出了一款开源雷达系统 Aeris‑10，此举可能会让众多大厂感到不安。据称，其性能可媲美售价 25 万美元（IT之家注：现汇率约合 170.8 万元人民币）的商用雷达。 Aeris‑10 有两个版本： 10N Nexus 版：探测距离 3 公里，采用 8×16 贴片天线阵列； 10E Extended 扩展版：凭借 32×16 缝隙波导阵列，探测距离可达 20 公里。 莫蒂将整个项目完整发布在了 GitHub 上，包含所有必需的原理图、PCB 版图、元器件清单、固件，以及带图形界面（GUI）的控制与监控软件。 Aeris‑10 采用 XCA7A50T 现场可编程门阵列（FPGA）作为核心运算单元，负责快速傅里叶变换（FFT）运算，同时支持动目标显示（MTI）、基于多普勒效应的运动目标测速，以及恒虚警率（CFAR）抗干扰检测。 系统的核心控制单元则采用 STM32F746xx 单片机，负责协调频率合成器、ADC、DAC、GPS、气压计、步进电机与散热系统。 该雷达的核心亮点在于，其配备真正的相控阵系统，以及可进行 ±45° 俯仰 / 方位角调整。在如今电子元器件价格波动剧烈的背景下，项目的粗略物料成本为： 10N 版：约 5000 美元（现汇率约合 34162 元人民币） 10E 版：约 7200 美元（现汇率约合 49194 元人民币） 即便如此，与市售商用设备相比仍堪称“白菜价”：商用相控阵雷达普遍在 12 万～20 万美元，远程型号价格更高。 莫蒂表示，军用二手雷达虽只需 1 万～5 万美元，但都是几十年前的老旧技术，几乎没有备件。对小团队来说，自制雷达难度也极大，仅测试设备就可能耗资 5 万美元。他自嘲是“一个在摩洛哥工作室里拿着电烙铁、沉迷技术的人”，并决心解决这一痛点。 任何人都可以访问该项目的 GitHub 页面自制雷达，但并非人人都具备所需的电子与机械制作能力。为此，莫蒂已与 Crowd Supply 平台达成合作，计划 2026 年第三季度正式发售。该平台并非普通众筹网站，只接受已完成设计、拥有功能原型的项目，拒收约 90% 的提交方案，并宣称从未出现过诈骗案例。 值得注意的是，该项目最初采用 MIT 开源协议，后因该协议无法保护硬件实体，改为 CERN‑OHL‑PT 开源硬件协议。如果你打算自行制作，请注意：雷达工作频段在绝大多数国家和地区都受到严格管制。 参考资料： https://github.com/NawfalMotii79/PLFM_RADAR",
+        "fetched_at": "2026-04-17T07:02:31.510295"
+      },
+      {
+        "id": "https://www.ithome.com/0/940/030.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "中际旭创一季度净利57.34亿",
+        "link": "https://www.ithome.com/0/940/030.htm",
+        "published": "Thu, 16 Apr 2026 10:51:14 GMT",
+        "summary_raw": "IT之家 4 月 16 日消息，中际旭创今日发布 2026 年一季度报告： 营业总收入 ： 194.96 亿元，同比增长 192.12% 归母净利润 ： 57.34 亿元，同比增长 262.28% 扣非净利润 ： 57.17 亿元，同比增长 264.56% 经营现金流 ： 33.68 亿元，同比增长 55.58% 基本每股收益 ： 5.18 元 / 股，同比增长 259.72% 稀释每股收益 ： 5.14 元 / 股，同比增长 259.44% 加权平均净资产收益率 ： 17.54%，同比增长 9.60% 🤖 AI 解读 中际旭创 2026 年第一季度实现 营业收入 194.96 亿元 ，同比增长 192.12%，主要得益于终端客户对算力基础设施的强劲投入，公司产品出货持续增长。归属于上市公司股东的净利润为 57.34 亿元 ，同比增长 262.28%；归属于上市公司股东的扣除非经常性损益的净利润为 57.17 亿元 ，同比增长 264.56%。 经营活动产生的现金流量净额为 33.68 亿元 ，同比增长 55.58%；基本每股收益为 5.18 元 / 股 ，同比增长 259.72%；加...",
+        "full_content": "IT之家 4 月 16 日消息，中际旭创今日发布 2026 年一季度报告： 营业总收入 ： 194.96 亿元，同比增长 192.12% 归母净利润 ： 57.34 亿元，同比增长 262.28% 扣非净利润 ： 57.17 亿元，同比增长 264.56% 经营现金流 ： 33.68 亿元，同比增长 55.58% 基本每股收益 ： 5.18 元 / 股，同比增长 259.72% 稀释每股收益 ： 5.14 元 / 股，同比增长 259.44% 加权平均净资产收益率 ： 17.54%，同比增长 9.60% 🤖 AI 解读 中际旭创 2026 年第一季度实现 营业收入 194.96 亿元 ，同比增长 192.12%，主要得益于终端客户对算力基础设施的强劲投入，公司产品出货持续增长。归属于上市公司股东的净利润为 57.34 亿元 ，同比增长 262.28%；归属于上市公司股东的扣除非经常性损益的净利润为 57.17 亿元 ，同比增长 264.56%。 经营活动产生的现金流量净额为 33.68 亿元 ，同比增长 55.58%；基本每股收益为 5.18 元 / 股 ，同比增长 259.72%；加权平均净资产收益率为 17.54%，较上年同期提升 9.60 个百分点。 资产负债表显示，截至 2026 年 3 月末，公司总资产达到 565.81 亿元 ，较上年末增长 24.93%；归属于上市公司股东的所有者权益为 355.87 亿元 ，较上年末增长 19.56%。多项资产负债项目同比变动明显，主要系销售收入增长、产能扩张投入增加带来的相应变化。 参考 中际旭创 2026 年一季度原文 风险提示：本文内容由 AI 自动分析生成，仅供参考，不代表IT之家观点。如有出入请以证监会指定上市公司信息披露平台为准。本文内容不构成投资建议，如有投资者据此操作，风险自担，IT之家对此不承担任何责任。",
+        "fetched_at": "2026-04-17T07:02:31.509819"
+      },
+      {
+        "id": "https://www.ithome.com/0/940/033.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "玩家拼凑《GTA6》罪恶城地图",
+        "link": "https://www.ithome.com/0/940/033.htm",
+        "published": "Thu, 16 Apr 2026 10:57:27 GMT",
+        "summary_raw": "IT之家 4 月 16 日消息，自 2022 年《GTA 6》泄露事件以来，爱好者群体便根据各种泄露影音及官方后续预告片等内容一步步接近还原出《GTA6》的完整地图全貌。 如今，Reddit 玩家社区宣布相应地图取得了重大进展，对比 2022 年泄露的《GTA6》地图概览与如今版本，差异可谓令人惊叹。当初游戏首次泄露时，玩家对全新版本的罪恶城几乎一无所知，而现在已有了相当丰富的了解，IT之家附地图地址（ 点此访问 ）。 ▲ 现版本 ▲ 2022 年绘制的最初版本 不过，目前相应地图北部还是空白，部分玩家认为地图北部很有可能还隐藏了能够充分探索的小镇，不过也有可能是 DLC 开放的地图区域。",
+        "full_content": "IT之家 4 月 16 日消息，自 2022 年《GTA 6》泄露事件以来，爱好者群体便根据各种泄露影音及官方后续预告片等内容一步步接近还原出《GTA6》的完整地图全貌。 如今，Reddit 玩家社区宣布相应地图取得了重大进展，对比 2022 年泄露的《GTA6》地图概览与如今版本，差异可谓令人惊叹。当初游戏首次泄露时，玩家对全新版本的罪恶城几乎一无所知，而现在已有了相当丰富的了解，IT之家附地图地址（ 点此访问 ）。 ▲ 现版本 ▲ 2022 年绘制的最初版本 不过，目前相应地图北部还是空白，部分玩家认为地图北部很有可能还隐藏了能够充分探索的小镇，不过也有可能是 DLC 开放的地图区域。",
+        "fetched_at": "2026-04-17T07:02:31.509033"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1558250.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "腾讯开源混元世界模型2.0",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1558250.htm",
+        "published": "Thu, 16 Apr 2026 03:35:03 GMT",
+        "summary_raw": "今日，腾讯正式发布并开源混元3D世界模型2.0（ HY-World 2.0）。据介绍，HY-World 2.0是一个多模态世界模型，能够理解文字、图片、视频等不同类型输入，自动生成、重建和模拟 3D 世界，同时支持多格式3D资产（Mesh/3DGS/点云等）导出，可以与现有的游戏工作流无缝对接，用于快速生成游戏地图和关卡原型。 阅读全文",
+        "full_content": "今日，腾讯正式发布并开源混元3D世界模型2.0（ HY-World 2.0）。据介绍，HY-World 2.0是一个多模态世界模型，能够理解文字、图片、视频等不同类型输入，自动生成、重建和模拟 3D 世界，同时支持多格式3D资产（Mesh/3DGS/点云等）导出，可以与现有的游戏工作流无缝对接，用于快速生成游戏地图和关卡原型。 阅读全文",
+        "fetched_at": "2026-04-17T07:02:37.215910"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1558252.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "IMF总裁警告油价长期高位风险",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1558252.htm",
+        "published": "Thu, 16 Apr 2026 03:38:41 GMT",
+        "summary_raw": "在全球地缘政治紧张局势持续升温、市场高度关注中东局势外溢影响的背景下，国际货币基金组织（IMF）在2026年春季会议期间释放出一系列重要信号。2026年4月15日，国际货币基金组织（IMF）总裁格奥尔基耶娃新闻发布会上表示，基金一直密切关注中东局势的最新进展。中东局势扰乱供应链，推高了物价，给世界各地的的经济造成了巨大损失。 阅读全文",
+        "full_content": "在全球地缘政治紧张局势持续升温、市场高度关注中东局势外溢影响的背景下，国际货币基金组织（IMF）在2026年春季会议期间释放出一系列重要信号。2026年4月15日，国际货币基金组织（IMF）总裁格奥尔基耶娃新闻发布会上表示，基金一直密切关注中东局势的最新进展。中东局势扰乱供应链，推高了物价，给世界各地的的经济造成了巨大损失。 阅读全文",
+        "fetched_at": "2026-04-17T07:02:37.215831"
+      },
+      {
+        "id": "https://www.cnbeta.com.tw/articles/tech/1558254.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "马斯克要求供应商加速Terafab",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1558254.htm",
+        "published": "Thu, 16 Apr 2026 03:39:28 GMT",
+        "summary_raw": "据报道，埃隆·马斯克的团队已就其 Terafab 项目与芯片行业供应商取得联系，寻求芯片制造设备的报价和交货时间。Terafab团队已联系了包括应用材料、东京电子和三星电子在内的多家公司，并邀请英特尔加入该计划。 阅读全文",
+        "full_content": "据报道，埃隆·马斯克的团队已就其 Terafab 项目与芯片行业供应商取得联系，寻求芯片制造设备的报价和交货时间。Terafab团队已联系了包括应用材料、东京电子和三星电子在内的多家公司，并邀请英特尔加入该计划。 阅读全文",
+        "fetched_at": "2026-04-17T07:02:37.215749"
+      },
+      {
+        "id": "https://www.qbitai.com/2026/04/401682.html",
+        "source": "量子位 (QbitAI)",
+        "title": "荣耀YOYO Claw技术降低养虾成本",
+        "link": "https://www.qbitai.com/2026/04/401682.html",
+        "published": "Thu, 16 Apr 2026 04:53:31 +0000",
+        "summary_raw": "省下50%Tokens，打破养虾高成本困境",
+        "full_content": "省下50%Tokens，打破养虾高成本困境",
+        "fetched_at": "2026-04-17T07:02:32.745981"
+      }
+    ]
+  },
+  {
     "id": "2026-04-16_1776294112",
     "date": "2026-04-16",
     "poster": "./assets/news/news_2026-04-16_1776294112.png",
@@ -4594,63 +4701,6 @@
         "title": "工信部新国标严查汽车隐藏式门把手",
         "source": "CnBeta",
         "link": "https://www.cnbeta.com.tw/articles/tech/1550122.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-02-16_1771201086",
-    "date": "2026-02-16",
-    "poster": "./assets/news/news_2026-02-16_1771201086.webp",
-    "items": [
-      {
-        "title": "问界M9再登春晚",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/048.htm"
-      },
-      {
-        "title": "宝马M3雷霆版停产",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/029.htm"
-      },
-      {
-        "title": "右舵版阿维塔07抵泰",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/027.htm"
-      },
-      {
-        "title": "特斯拉适配CarPlay",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/034.htm"
-      },
-      {
-        "title": "FSD美国转订阅制",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/020.htm"
-      },
-      {
-        "title": "新国标拟增实体键",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/921/989.htm"
-      },
-      {
-        "title": "OpenClaw创始人入OpenAI",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/044.htm"
-      },
-      {
-        "title": "龙芯跑通OpenClaw",
-        "source": "CnBeta",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1550064.htm"
-      },
-      {
-        "title": "Grok 4.20下周发布",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/007.htm"
-      },
-      {
-        "title": "长三角直升机航线",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/922/040.htm"
       }
     ]
   }
