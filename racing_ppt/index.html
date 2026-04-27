@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>赛车史三大赛事 · 雪沐江南视觉实验室</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-base:#f1efea; --bg-rgb:241,239,234; --bg-tint:#e8e5de;
+    --ink-base:#0a0a0b; --ink-rgb:10,10,11; --ink-tint:#18181a;
+    --accent:#c44536; --accent-rgb:196,69,54;
+    --surface:rgba(255,255,255,.7); --bg-texture:none;
+    --shadow-preset:0 12px 40px -16px rgba(0,0,0,.15);
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+    --serif-en:"Playfair Display","Source Serif 4",Georgia,serif;
+    --serif-zh:"Noto Serif SC",source-han-serif-sc,serif;
+    --sans-zh:"Noto Sans SC",source-han-sans-sc,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;overflow:hidden;background:var(--ink-base);color:var(--bg-base);font-family:var(--sans-zh);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+
+  #deck{position:fixed;inset:0;display:flex;flex-wrap:nowrap;transition:transform .9s cubic-bezier(.77,0,.175,1);z-index:10;will-change:transform}
+  body.recording #deck{transition:none !important}
+  .slide{width:100vw;height:100vh;flex:0 0 100vw;position:relative;padding:6vh 6vw 10vh 6vw;display:flex;flex-direction:column;overflow:hidden}
+  .slide.light{color:var(--ink-base)}
+  .slide.dark{color:var(--bg-base)}
+
+  /* === 背景叠加层 === */
+  .slide::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
+  .slide.light::before{background:rgba(var(--bg-rgb),.82)}
+  .slide.dark::before{background:rgba(var(--ink-rgb),.88)}
+  /* hero 页用更强的叠加层确保文字可读 */
+  .slide.hero.light::before{background:rgba(var(--bg-rgb),.45)}
+  .slide.hero.dark::before{background:rgba(var(--ink-rgb),.35)}
+  .slide.hero::after{content:"";position:absolute;inset:0;z-index:1}
+  .slide.hero.light::after{background:linear-gradient(180deg,rgba(var(--bg-rgb),.5) 0%,rgba(var(--bg-rgb),0) 18%,rgba(var(--bg-rgb),0) 78%,rgba(var(--bg-rgb),.5) 100%)}
+  .slide.hero.dark::after{background:linear-gradient(180deg,rgba(var(--ink-rgb),.5) 0%,rgba(var(--ink-rgb),0) 18%,rgba(var(--ink-rgb),0) 78%,rgba(var(--ink-rgb),.5) 100%)}
+
+  /* === 幻灯片背景图（模糊处理） === */
+  .slide-bg{position:absolute;inset:0;z-index:0;object-fit:cover;width:100%;height:100%;opacity:.35}
+  .slide.hero.light .slide-bg{opacity:.55;filter:blur(12px) brightness(0.85);transform:scale(1.1)}
+  .slide.hero.dark .slide-bg{opacity:.45;filter:blur(12px) brightness(0.6);transform:scale(1.1)}
+
+  /* ==================== 文字入场动画系统 ==================== */
+  /* 默认隐藏动画元素 */
+  .anim{opacity:0;transform:translateY(30px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+  .anim-fade{opacity:0;transition:opacity .8s ease}
+  .anim-l{opacity:0;transform:translateX(-40px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+  .anim-r{opacity:0;transform:translateX(40px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+  .anim-scale{opacity:0;transform:scale(.92);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1)}
+  .anim-num{opacity:0;transform:translateY(20px) scale(.9);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1)}
+
+  /* slide active 时触发所有动画 */
+  .slide.active .anim{opacity:1;transform:translateY(0)}
+  .slide.active .anim-fade{opacity:1}
+  .slide.active .anim-l{opacity:1;transform:translateX(0)}
+  .slide.active .anim-r{opacity:1;transform:translateX(0)}
+  .slide.active .anim-scale{opacity:1;transform:scale(1)}
+  .slide.active .anim-num{opacity:1;transform:translateY(0) scale(1)}
+
+  /* 错峰延迟 */
+  .d1{transition-delay:0s}
+  .d2{transition-delay:.12s}
+  .d3{transition-delay:.24s}
+  .d4{transition-delay:.36s}
+  .d5{transition-delay:.48s}
+  .d6{transition-delay:.6s}
+  .d7{transition-delay:.72s}
+  .d8{transition-delay:.84s}
+
+  .chrome{display:flex;justify-content:space-between;align-items:flex-start;font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.7;position:relative;z-index:20}
+  .chrome .left,.chrome .right{display:flex;gap:2.4em;align-items:center}
+  .chrome .sep{width:40px;height:1px;background:currentColor;opacity:.4}
+  .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.55;position:relative;z-index:20}
+  .foot .title{font-family:var(--serif-zh);font-weight:400;letter-spacing:.05em;text-transform:none;opacity:.75;font-size:13px}
+
+  .tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;padding:6px 14px;border:1px solid currentColor;opacity:.85}
+  .rule{width:100%;height:1px;background:currentColor;opacity:.25;margin:3vh 0}
+
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.3em;text-transform:uppercase;opacity:.6;margin-bottom:2.6vh;position:relative;z-index:20}
+  .display{font-family:var(--serif-en);font-weight:700;font-size:11vw;line-height:.92;letter-spacing:-.025em;position:relative;z-index:20}
+  .display-zh{font-family:var(--serif-zh);font-weight:700;font-size:7.8vw;line-height:1.04;letter-spacing:-.005em;position:relative;z-index:20}
+  .h1-zh{font-family:var(--serif-zh);font-weight:700;font-size:4.6vw;line-height:1.12;letter-spacing:-.005em;position:relative;z-index:20}
+  .h2-zh{font-family:var(--serif-zh);font-weight:600;font-size:3.2vw;line-height:1.2;position:relative;z-index:20}
+  .h3-zh{font-family:var(--serif-zh);font-weight:500;font-size:1.9vw;line-height:1.35;position:relative;z-index:20}
+  .body-zh{font-family:var(--sans-zh);font-weight:400;font-size:max(15px,1.22vw);line-height:1.75;opacity:.82;letter-spacing:.01em;position:relative;z-index:20}
+  .lead{font-family:var(--serif-zh);font-weight:400;font-size:1.9vw;line-height:1.4;opacity:.85;position:relative;z-index:20}
+  .meta{font-family:var(--mono);font-size:max(11px,.88vw);letter-spacing:.16em;text-transform:uppercase;opacity:.6;position:relative;z-index:20}
+
+  .col{display:flex;flex-direction:column;gap:2.4vh;position:relative;z-index:20}
+  .row{display:flex;align-items:center;gap:3vw;position:relative;z-index:20}
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:5vw;flex:1;align-content:center;position:relative;z-index:20}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:4vw;flex:1;align-items:center;position:relative;z-index:20}
+  .fill{flex:1}
+  .center{align-items:center;justify-content:center;text-align:center}
+  .bottom-left{position:absolute;left:6vw;bottom:9vh;max-width:50vw;z-index:20}
+
+  .frame-img{overflow:hidden;position:relative;background:rgba(0,0,0,.04);width:100%;border-radius:4px;box-shadow:var(--shadow-preset)}
+  .slide.dark .frame-img{background:rgba(255,255,255,.04)}
+  .frame-img > img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+  figure.frame-img{margin:0;display:flex;flex-direction:column;min-width:0}
+
+  .stat-row{display:flex;gap:6vw;flex-wrap:wrap}
+  .stat{display:flex;flex-direction:column;gap:1vh;align-items:flex-start}
+  .stat .n{font-family:var(--serif-en);font-weight:800;font-size:7vw;line-height:.88;letter-spacing:-.03em;font-feature-settings:"tnum"}
+  .stat .l{font-family:var(--sans-zh);font-size:max(13px,1.05vw);opacity:.7;margin-top:1vh;font-weight:400;line-height:1.5}
+
+  .callout{padding:3vh 2.4vw;border-left:3px solid currentColor;font-family:var(--serif-zh);font-size:max(15px,1.2vw);line-height:1.55;opacity:.92}
+  .slide.light .callout{background:rgba(var(--ink-rgb),.05)}
+  .slide.dark .callout{background:rgba(var(--bg-rgb),.06)}
+
+  #counter{position:fixed;bottom:3vh;right:3vw;font-family:var(--mono);font-size:12px;letter-spacing:.2em;z-index:100;opacity:.4;pointer-events:none}
+
+  /* 录制模式进度条 */
+  #rec-bar{display:none;position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:200;transition:width .1s linear}
+  body.recording #rec-bar{display:block}
+</style>
+</head>
+<body>
+<div id="rec-bar"></div>
+<div id="deck">
+
+<!-- ===== SLIDE 1: COVER (hero dark) ===== -->
+<div class="slide dark hero center">
+  <div class="kicker anim d1">XUEMU LAB · RACING HISTORY</div>
+  <div class="display-zh anim d2">赛车史<br>三大赛事</div>
+  <div class="anim-fade d3" style="font-family:var(--serif-en);font-style:italic;font-size:2.2vw;opacity:.7;margin-top:2vh;">Three Races That Defined Motorsport</div>
+  <div class="rule anim-scale d4" style="width:120px;margin:4vh auto 3vh;"></div>
+  <div class="meta anim d5">1966 LE MANS &nbsp;·&nbsp; 1976 FUJI &nbsp;·&nbsp; 1985 SAN REMO</div>
+  <div class="foot"><span class="title">雪沐江南 · 视觉实验室</span><span>01 / 09</span></div>
+</div>
+
+<!-- ===== SLIDE 2: LE MANS HERO (背景模糊) ===== -->
+<div class="slide light hero">
+  <img class="slide-bg" src="images/lemans_1966.png" alt="Le Mans 1966">
+  <div class="chrome"><span class="left">LE MANS 1966<span class="sep"></span>24 HOURS</span><span class="right">02 / 09</span></div>
+  <div class="fill center" style="position:relative;z-index:20">
+    <div class="h1-zh anim d1">GT40 复仇工程</div>
+    <div class="lead anim-fade d2" style="margin-top:2vh;max-width:60vw;text-align:center;">Ford GT40 Mk II · 7.0L FE V8 · 1-2-3 横扫勒芒</div>
+    <div class="stat-row" style="justify-content:center;margin-top:4vh;">
+      <div class="stat anim-num d3"><div class="n">342</div><div class="l">极速 km/h</div></div>
+      <div class="stat anim-num d4"><div class="n">490</div><div class="l">马力输出</div></div>
+      <div class="stat anim-num d5"><div class="n">1-2-3</div><div class="l">包揽前三</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="title">工业蓝图 · 工程档案</span><span>1966</span></div>
+</div>
+
+<!-- ===== SLIDE 3: LE MANS DETAIL ===== -->
+<div class="slide light">
+  <div class="chrome"><span class="left">深度解构<span class="sep"></span>LE MANS</span><span class="right">03 / 09</span></div>
+  <div class="h3-zh anim d1" style="margin-top:3vh;">1966 勒芒24小时 — 福特的复仇</div>
+  <div class="rule anim-scale d2"></div>
+  <div class="grid-2">
+    <div class="col">
+      <div class="body-zh anim-l d2"><strong>背景：</strong>恩佐·法拉利在收购谈判最后一刻反悔，激怒了亨利·福特二世。福特投入相当于今天10亿美元的预算，誓要在勒芒击败法拉利。</div>
+      <div class="body-zh anim-l d3"><strong>技术核心：</strong>7.0L FE V8发动机源自NASCAR，490马力推动GT40在Mulsanne直道达到342km/h。Kelsey-Hayes双卡钳盘式刹车应对直道末端的极限制动。</div>
+      <div class="body-zh anim-l d4"><strong>战术执行：</strong>三台GT40 Mk II在最后阶段编队巡航，以1-2-3名同步冲线，终结了法拉利的六连冠王朝。</div>
+      <div class="callout anim d5">"v_max = 342km/h，24小时满负荷运转无机械故障——不是靠运气，是靠计算尺和风洞。"</div>
+    </div>
+    <div class="frame-img anim-r d3" style="aspect-ratio:3/4;max-height:60vh;">
+      <img src="images/lemans_1966.png" alt="Le Mans 1966 Card">
+    </div>
+  </div>
+  <div class="foot"><span class="title">工程的胜利</span><span>FORD GT40</span></div>
+</div>
+
+<!-- ===== SLIDE 4: FUJI HERO (背景模糊) ===== -->
+<div class="slide light hero">
+  <img class="slide-bg" src="images/fuji_1976.png" alt="Fuji 1976">
+  <div class="chrome"><span class="left">FUJI 1976<span class="sep"></span>JAPANESE GP</span><span class="right">04 / 09</span></div>
+  <div class="fill center" style="position:relative;z-index:20">
+    <div class="h1-zh anim d1">雨中的冠军</div>
+    <div class="lead anim-fade d2" style="margin-top:2vh;max-width:60vw;text-align:center;">McLaren M23 · Ferrari 312T2 · Hunt 69 vs Lauda 68</div>
+    <div class="stat-row" style="justify-content:center;margin-top:4vh;">
+      <div class="stat anim-num d3"><div class="n">6w</div><div class="l">Lauda 伤后重返</div></div>
+      <div class="stat anim-num d4"><div class="n">1pt</div><div class="l">冠军分差</div></div>
+      <div class="stat anim-num d5"><div class="n">800°C</div><div class="l">纽堡事故火温</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="title">赛道纪实 · Pit Lane</span><span>1976</span></div>
+</div>
+
+<!-- ===== SLIDE 5: FUJI DETAIL ===== -->
+<div class="slide light">
+  <div class="chrome"><span class="left">深度解构<span class="sep"></span>FUJI</span><span class="right">05 / 09</span></div>
+  <div class="h3-zh anim d1" style="margin-top:3vh;">1976 日本GP（富士）— 人性的抉择</div>
+  <div class="rule anim-scale d2"></div>
+  <div class="grid-2">
+    <div class="col">
+      <div class="body-zh anim-l d2"><strong>纽博格林事故：</strong>8月1日，Niki Lauda在纽北被困于800°C火海中超过50秒，面部和肺部严重烧伤，接受了临终祈祷。仅6周后，他回到赛场。</div>
+      <div class="body-zh anim-l d3"><strong>富士暴雨：</strong>10月24日，富士赛道被季风雨淹没。Lauda的烧伤皮肤无法承受雨水冲击，眼睑仍不能正常闭合。大多数车手认为不该比赛。</div>
+      <div class="body-zh anim-l d4"><strong>第二圈退赛：</strong>Lauda主动驶入维修区熄灭引擎——"我的生命比世界冠军更重要。"Hunt以第三名完赛，以69比68的1分之差夺冠。</div>
+      <div class="callout anim d5">"这不是一场关于速度的冠军，这是一场关于勇气的冠军——两个男人，用不同的方式，都赢了。"</div>
+    </div>
+    <div class="frame-img anim-r d3" style="aspect-ratio:3/4;max-height:60vh;">
+      <img src="images/fuji_1976.png" alt="Fuji 1976 Card">
+    </div>
+  </div>
+  <div class="foot"><span class="title">人性的胜利</span><span>HUNT vs LAUDA</span></div>
+</div>
+
+<!-- ===== SLIDE 6: SAN REMO HERO (背景模糊) ===== -->
+<div class="slide light hero">
+  <img class="slide-bg" src="images/sanremo_1985.png" alt="San Remo 1985">
+  <div class="chrome"><span class="left">SAN REMO 1985<span class="sep"></span>WRC</span><span class="right">06 / 09</span></div>
+  <div class="fill center" style="position:relative;z-index:20">
+    <div class="h1-zh anim d1">双增压革命</div>
+    <div class="lead anim-fade d2" style="margin-top:2vh;max-width:60vw;text-align:center;">Lancia Delta S4 · Group B 巅峰 · 2.3秒破百</div>
+    <div class="stat-row" style="justify-content:center;margin-top:4vh;">
+      <div class="stat anim-num d3"><div class="n">480</div><div class="l">马力输出</div></div>
+      <div class="stat anim-num d4"><div class="n">2.3s</div><div class="l">0-100km/h</div></div>
+      <div class="stat anim-num d5"><div class="n">65kg</div><div class="l">车架重量</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="title">极净实验室 · 标本展陈</span><span>1985</span></div>
+</div>
+
+<!-- ===== SLIDE 7: SAN REMO DETAIL ===== -->
+<div class="slide light">
+  <div class="chrome"><span class="left">深度解构<span class="sep"></span>SAN REMO</span><span class="right">07 / 09</span></div>
+  <div class="h3-zh anim d1" style="margin-top:3vh;">1985 圣雷莫拉力赛 — Group B 的技术极限</div>
+  <div class="rule anim-scale d2"></div>
+  <div class="grid-2">
+    <div class="col">
+      <div class="body-zh anim-l d2"><strong>双增压系统：</strong>机械增压在4000rpm以下消除涡轮迟滞，KKK涡轮在4000rpm以上接管，总功率480马力。双系统无缝衔接，输出曲线无扭矩低谷。</div>
+      <div class="body-zh anim-l d3"><strong>空间管阵车架：</strong>铬钼钢管手工TIG焊接的三角桁架结构，仅重65kg，扭转刚度达到F1赛车水平的70%。一台车架需300工时手工打造。</div>
+      <div class="body-zh anim-l d4"><strong>碳纤维-凯夫拉车身：</strong>仅重45kg，碳纤维提供刚度，凯夫拉防碎石击穿。车身与车架用航空级环氧树脂粘合——在1985年这是航天科技下放。</div>
+      <div class="callout anim d5">"P_total = P_supercharger + P_turbocharger = 480hp @ 8000rpm——Group B不是在算马力，是在算物理极限。"</div>
+    </div>
+    <div class="frame-img anim-r d3" style="aspect-ratio:3/4;max-height:60vh;">
+      <img src="images/sanremo_1985.png" alt="San Remo 1985 Card">
+    </div>
+  </div>
+  <div class="foot"><span class="title">想象的胜利</span><span>LANCIA DELTA S4</span></div>
+</div>
+
+<!-- ===== SLIDE 8: COMPARISON (dark) ===== -->
+<div class="slide dark">
+  <div class="chrome"><span class="left">对比<span class="sep"></span>COMPARISON</span><span class="right">08 / 09</span></div>
+  <div class="h2-zh anim d1" style="margin-top:2vh;">三种胜利，三种维度</div>
+  <div class="rule anim-scale d2"></div>
+  <div class="grid-2">
+    <div class="col">
+      <div class="stat anim-l d2" style="margin-bottom:4vh;"><div class="n" style="font-size:4vw;">工程</div><div class="l" style="font-size:1.4vw;margin-top:1vh;">1966 勒芒 — 福特用计算尺和风洞证明：系统的力量可以战胜传统。</div></div>
+      <div class="stat anim-l d3" style="margin-bottom:4vh;"><div class="n" style="font-size:4vw;">人性</div><div class="l" style="font-size:1.4vw;margin-top:1vh;">1976 富士 — Lauda 证明了放弃比坚持更需要勇气。生命高于一切。</div></div>
+      <div class="stat anim-l d4"><div class="n" style="font-size:4vw;">想象</div><div class="l" style="font-size:1.4vw;margin-top:1vh;">1985 圣雷莫 — Lancia 证明了技术没有天花板，只有想象力才是边界。</div></div>
+    </div>
+    <div class="col" style="gap:3vh;">
+      <div class="row anim-r d3"><span style="font-family:var(--mono);font-size:10px;letter-spacing:.3em;">LE MANS</span><div style="flex:1;height:2px;background:var(--accent);margin:0 1.5vw;"></div><span style="font-family:var(--serif-en);font-size:2vw;font-weight:700;">342km/h</span></div>
+      <div class="row anim-r d4"><span style="font-family:var(--mono);font-size:10px;letter-spacing:.3em;">FUJI</span><div style="flex:1;height:2px;background:var(--accent);margin:0 1.5vw;"></div><span style="font-family:var(--serif-en);font-size:2vw;font-weight:700;">69 vs 68</span></div>
+      <div class="row anim-r d5"><span style="font-family:var(--mono);font-size:10px;letter-spacing:.3em;">SAN REMO</span><div style="flex:1;height:2px;background:var(--accent);margin:0 1.5vw;"></div><span style="font-family:var(--serif-en);font-size:2vw;font-weight:700;">480hp</span></div>
+      <div class="callout anim d6" style="margin-top:2vh;">"赛车从来不只是关于速度。它关于工程、关于勇气、关于想象力的边界。"</div>
+    </div>
+  </div>
+  <div class="foot"><span class="title">三种胜利</span><span>ENGINEERING · COURAGE · IMAGINATION</span></div>
+</div>
+
+<!-- ===== SLIDE 9: CLOSING (hero dark) ===== -->
+<div class="slide dark hero center">
+  <div class="kicker anim d1">雪沐江南 · 视觉实验室</div>
+  <div class="display-zh anim d2">In the noise,<br>signal is king.</div>
+  <div class="anim-fade d4" style="font-family:var(--serif-zh);font-size:2vw;opacity:.6;margin-top:3vh;">1966 勒芒 · 1976 富士 · 1985 圣雷莫</div>
+  <div class="rule anim-scale d5" style="width:80px;margin:4vh auto;"></div>
+  <div class="meta anim d6">赛车科普卡片系列 · Codex 图像生成 · xuemu-ppt 视觉引擎</div>
+  <div class="foot" style="justify-content:center;"><span class="title">art.zedpapa.top</span></div>
+</div>
+
+</div>
+
+<div id="counter">1 / 9</div>
+
+<script>
+(function(){
+  var deck = document.getElementById('deck');
+  var counter = document.getElementById('counter');
+  var recBar = document.getElementById('rec-bar');
+  var slides = deck.querySelectorAll('.slide');
+  var total = slides.length;
+  var idx = 0;
+  var isRecording = window.location.search.indexOf('record') > -1;
+
+  if (isRecording) {
+    document.body.classList.add('recording');
+    // 录制参数：每页停留时间
+    var SLIDE_DURATION = 5000;   // hero页文字动画完需要 ~2s 阅读
+    var DETAIL_DURATION = 7000;  // 内容页文字更多
+    var currentTimer = null;
+
+    function isHeroSlide(n) {
+      return slides[n] && slides[n].classList.contains('hero');
+    }
+
+    function getDuration(n) {
+      return isHeroSlide(n) ? SLIDE_DURATION : DETAIL_DURATION;
+    }
+
+    function scheduleNext() {
+      if (currentTimer) clearTimeout(currentTimer);
+      if (idx >= total - 1) {
+        // 最后一页停 3 秒后结束
+        currentTimer = setTimeout(function(){
+          document.title = 'DONE_RECORDING';
+        }, 3000);
+        return;
+      }
+      var dur = getDuration(idx);
+      // 更新进度条
+      var startTime = Date.now();
+      var tick = setInterval(function(){
+        var elapsed = Date.now() - startTime;
+        var pct = Math.min(100, (elapsed / dur) * 100);
+        recBar.style.width = pct + '%';
+        if (pct >= 100) clearInterval(tick);
+      }, 50);
+
+      currentTimer = setTimeout(function(){
+        clearInterval(tick);
+        recBar.style.width = '0%';
+        go(idx + 1);
+        scheduleNext();
+      }, dur);
+    }
+  }
+
+  function go(n){
+    var prev = idx;
+    idx = Math.max(0, Math.min(total - 1, n));
+    if (idx === prev) return;
+
+    // 移除旧页 active
+    slides[prev].classList.remove('active');
+    // 新页先移除 active（重置动画），然后 force reflow 再加
+    slides[idx].classList.remove('active');
+
+    deck.style.transform = 'translateX(' + (-idx * 100) + 'vw)';
+    counter.textContent = (idx + 1) + ' / ' + total;
+
+    // 强制 reflow 后触发动画
+    void slides[idx].offsetWidth;
+    slides[idx].classList.add('active');
+  }
+
+  // 初始化第一页动画
+  slides[0].classList.add('active');
+
+  document.addEventListener('keydown', function(e){
+    if (isRecording) return; // 录制模式禁用键盘
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+      e.preventDefault();
+      go(idx + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      go(idx - 1);
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      go(0);
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      go(total - 1);
+    }
+  });
+
+  var touchStartX = 0;
+  document.addEventListener('touchstart', function(e){
+    if (isRecording) return;
+    touchStartX = e.touches[0].clientX;
+  });
+  document.addEventListener('touchend', function(e){
+    if (isRecording) return;
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    if (dx < -50) go(idx + 1);
+    if (dx > 50) go(idx - 1);
+  });
+
+  go(0);
+
+  // 录制模式自动播放
+  if (isRecording) {
+    setTimeout(function(){
+      document.title = 'RECORDING_STARTED';
+      scheduleNext();
+    }, 1500); // 首页给 1.5s 初始停留
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+<title>Claude Code × DeepSeek V4 Pro · Opening</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100vw;height:100vh;overflow:hidden;background:#0a1628}
+#stage{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 45%,#0d2240 0%,#0a1628 70%)}
+#title{font-family:'Noto Serif SC',serif;font-weight:700;font-size:2.2vw;letter-spacing:.05em;color:rgba(224,240,255,.9);margin-bottom:1vh;opacity:0;transform:translateY(-1vh)}
+#sub{font-family:'IBM Plex Mono',monospace;font-size:.75vw;letter-spacing:.28em;text-transform:uppercase;color:rgba(0,212,255,.5);margin-bottom:2.4vh;opacity:0;transform:translateY(-1vh)}
+.show{animation:fadeDown .6s cubic-bezier(.16,1,.3,1) both}
+@keyframes fadeDown{0%{opacity:0;transform:translateY(-2vh)}100%{opacity:1;transform:translateY(0)}}
+#gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);gap:1.4vh 1.4vw;width:82vw;height:68vh}
+#gallery.off{opacity:0;transition:opacity .4s ease}
+.card{position:relative;border-radius:6px;overflow:hidden;background:rgba(255,255,255,.03);border:1px solid rgba(0,212,255,.1);opacity:0;transform:scale(.88) translateY(3vh)}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.card .lbl{position:absolute;bottom:0;left:0;right:0;padding:.5vh .4vw;background:linear-gradient(transparent,rgba(10,22,40,.85));font-family:'IBM Plex Mono',monospace;font-size:7px;letter-spacing:.14em;text-transform:uppercase;color:rgba(0,212,255,.55)}
+.card.in{animation:cardIn .45s cubic-bezier(.16,1,.3,1) both}
+@keyframes cardIn{0%{opacity:0;transform:scale(.86) translateY(4vh)}100%{opacity:1;transform:scale(1) translateY(0)}}
+#bridge{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 45%,#0d2240 0%,#0a1628 70%);gap:2vh}
+#bridge.on{display:flex}
+#bridge-row{display:flex;gap:4vw;align-items:flex-start}
+.b-card{width:22vw;border-radius:8px;overflow:hidden;background:rgba(255,255,255,.02);border:1px solid rgba(0,212,255,.12);box-shadow:0 16px 40px -12px rgba(0,0,0,.4);opacity:0;transform:translateY(5vh)}
+.b-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.b-card .b-cap{padding:1vh .8vw;font-family:'Noto Serif SC',serif;font-size:.8vw;text-align:center;color:rgba(224,240,255,.7);background:rgba(10,22,40,.5)}
+.b-card.in{animation:bridgeIn .5s cubic-bezier(.16,1,.3,1) both}
+@keyframes bridgeIn{0%{opacity:0;transform:translateY(5vh)}100%{opacity:1;transform:translateY(0)}}
+#bridge-title{font-family:'Noto Serif SC',serif;font-weight:600;font-size:1.8vw;letter-spacing:.04em;color:rgba(224,240,255,.8);opacity:0}
+#bridge-title.show{animation:fadeDown .5s .1s cubic-bezier(.16,1,.3,1) both}
+#stage.fade-out{opacity:0;transition:opacity .5s ease}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="title">Claude Code × DeepSeek V4 Pro 1M</div>
+  <div id="sub">上手指导书 · 12页</div>
+  <div id="gallery"></div>
+  <div id="bridge">
+    <div id="bridge-title">三重视角</div>
+    <div id="bridge-row">
+      <div class="b-card" id="b0"><img src=""><div class="b-cap"></div></div>
+      <div class="b-card" id="b1"><img src=""><div class="b-cap"></div></div>
+      <div class="b-card" id="b2"><img src=""><div class="b-cap"></div></div>
+    </div>
+  </div>
+</div>
+<script>
+const TOTAL=12;
+const gallery=document.getElementById('gallery');
+const cards=[];
+for(let i=1;i<=TOTAL;i++){
+  const div=document.createElement('div');div.className='card';
+  const n=String(i).padStart(2,'0');
+  div.innerHTML=`<img src="images/gallery/slide-${n}.png"><span class="lbl">Page ${n}</span>`;
+  gallery.appendChild(div);cards.push(div);
+}
+document.getElementById('b0').querySelector('img').src='images/gallery/slide-01.png';
+document.getElementById('b0').querySelector('.b-cap').textContent='封面 · 上手指导书';
+document.getElementById('b1').querySelector('img').src='images/gallery/slide-06.png';
+document.getElementById('b1').querySelector('.b-cap').textContent='核心 · 1M上下文';
+document.getElementById('b2').querySelector('img').src='images/gallery/slide-12.png';
+document.getElementById('b2').querySelector('.b-cap').textContent='收束 · 开始使用';
+
+// Ripple entrance
+const COLS=4,ROWS=3,cx=1.5,cy=1;
+const dists=cards.map((_,i)=>{const col=i%COLS,row=Math.floor(i/COLS);return Math.sqrt((col-cx)**2+(row-cy)**2)});
+const maxD=Math.max(...dists);
+cards.forEach((card,i)=>{setTimeout(()=>card.classList.add('in'),60+(dists[i]/maxD)*650)});
+setTimeout(()=>document.getElementById('title').classList.add('show'),400);
+setTimeout(()=>document.getElementById('sub').classList.add('show'),650);
+
+// Switch to bridge
+setTimeout(()=>{
+  document.getElementById('gallery').classList.add('off');
+  document.getElementById('bridge').classList.add('on');
+  document.getElementById('bridge-title').classList.add('show');
+  ['b0','b1','b2'].forEach((id,i)=>setTimeout(()=>document.getElementById(id).classList.add('in'),120+i*160));
+},2400);
+
+// Fade out
+setTimeout(()=>document.getElementById('stage').classList.add('fade-out'),4200);
+
+window.__xuemuTotalDuration=4.8;
+setTimeout(()=>{window.__ready=true},200);
+setTimeout(()=>{window.__done=true},4800);
+</script>
+</body>
+</html>

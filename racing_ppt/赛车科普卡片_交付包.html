@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  @page { margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .cover {
+    background: #1a1a1a;
+    color: #fff;
+    min-height: 270mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40mm 20mm;
+    position: relative;
+    page-break-after: always;
+  }
+  .cover::before {
+    content: "";
+    position: absolute;
+    top: -120px; right: -120px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, #c0392b22 0%, transparent 70%);
+    transform: rotate(-30deg);
+  }
+  .cover h1 {
+    font-family: "Noto Serif SC", "STSong", serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .cover .sub {
+    font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+    font-size: 18px;
+    opacity: .7;
+    letter-spacing: .2em;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .cover .brand {
+    font-family: "Noto Serif SC", "STSong", serif;
+    font-size: 13px;
+    opacity: .5;
+    position: absolute;
+    bottom: 30mm;
+    letter-spacing: .1em;
+  }
+
+  .content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20mm 15mm;
+  }
+  h1 {
+    font-family: "Noto Serif SC", "STSong", serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 32px 0 16px;
+  }
+  h2 {
+    font-family: "Noto Serif SC", "STSong", serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 28px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  h3 {
+    font-family: "Noto Serif SC", "STSong", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #c0392b;
+    margin: 24px 0 10px;
+  }
+  h4 {
+    font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c0392b;
+    margin: 18px 0 6px;
+  }
+  p {
+    margin: 8px 0;
+    color: #555555;
+  }
+  strong { color: #1a1a1a; }
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 28px 0;
+  }
+  blockquote {
+    border-left: 3px solid #c0392b;
+    background: rgba(192,57,43,0.06);
+    padding: 12px 18px;
+    margin: 14px 0;
+    font-style: italic;
+  }
+  blockquote p { margin: 4px 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 20px;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 8px 12px;
+    font-weight: 700;
+    text-align: left;
+  }
+  td {
+    padding: 7px 12px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #555555;
+  }
+  tr:nth-child(even) td {
+    background: rgba(0,0,0,0.03);
+  }
+
+  .footer {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20mm 15mm;
+    page-break-before: always;
+    font-size: 13px;
+  }
+  .footer .tier {
+    margin: 10px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .footer .tier .price {
+    font-family: "Noto Serif SC", "STSong", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #c0392b;
+  }
+  .footer .closing {
+    margin-top: 30px;
+    font-style: italic;
+    opacity: .6;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>赛车科普卡片<br>AI 生成系统</h1>
+  <div class="sub">RACING SCIENCE CARD · DELIVERY PACKAGE</div>
+  <div class="brand">雪沐视觉实验室 · Xuemu Lab</div>
+</div>
+
+<div class="content">
+<h1>赛车科普卡片生成系统 · 交付手册</h1>
+<br>
+<blockquote>
+<p>🎁 **【行动暗号】** 回复「赛车卡片」获取三套Codex提示词模板 + 生成脚本 + 赛车史三大赛事完整案例</p>
+</blockquote>
+<br>
+<hr>
+<br>
+<h2>👋 欢迎接入</h2>
+<br>
+<p>恭喜你获得了这套<strong>赛车科普卡片AI生成系统</strong>的完整交付包。</p>
+<br>
+<p>这不是一套"提示词集合"——这是一条<strong>从赛车主题到社交媒体配图的全自动生产线</strong>。三套视觉风格（工业蓝图/赛道纪实/极净实验室）覆盖了赛车科普的全部场景：技术解析、赛事叙事、科技展示。</p>
+<br>
+<p>本交付包包含：</p>
+<p>- 3 套 Codex 元提示词（含占位变量，可无限套用）</p>
+<p>- 3 场赛车史最著名赛事的完整生成案例</p>
+<p>- Codex 批量出图脚本</p>
+<p>- 已生成的 3 张 1024×1536 高清 PNG 示例卡</p>
+<br>
+<hr>
+<br>
+<h2>📦 交付清单</h2>
+<br>
+<table>
+<tr><th>资产</th><th>类型</th><th>说明</th></tr>
+<tr><td>工业蓝图元提示词</td><td>Codex 提示词模板</td><td>深蓝晒图纸风格，适合技术/机械/原理主题</td></tr>
+<tr><td>赛道纪实元提示词</td><td>Codex 提示词模板</td><td>手写便签风格，适合赛事/人物/故事主题</td></tr>
+<tr><td>极净实验室元提示词</td><td>Codex 提示词模板</td><td>无菌展柜风格，适合科技/材料/未来主题</td></tr>
+<tr><td>赛车史三大赛事完整提示词</td><td>示例</td><td>1966勒芒/1976富士/1985圣雷莫 完整推理+提示词</td></tr>
+<tr><td>批量出图脚本 gen_cards.py</td><td>Python 脚本</td><td>读 prompts.json 批量调 Codex gpt-image-2</td></tr>
+<tr><td>已生成示例图 ×3</td><td>PNG (1024×1536)</td><td>可直接用于公众号/小红书/社交媒体</td></tr>
+</table>
+<br>
+<hr>
+<br>
+<h2>💡 核心价值（Hormozi 价值方程式）</h2>
+<br>
+<p><strong>Dream Outcome（梦想结果）：</strong> 输入一个赛车主题，10分钟拿到一张专业级科普卡片配图，直接可发社交媒体</p>
+<br>
+<p><strong>Perceived Likelihood（可信度）：</strong></p>
+<p>- 案例1：1966 勒芒 GT40 → 工业蓝图风格，2.8MB 高清 PNG</p>
+<p>- 案例2：1976 富士 Hunt vs Lauda → 赛道纪实风格，3.2MB 高清 PNG</p>
+<p>- 案例3：1985 圣雷莫 Delta S4 → 极净实验室风格，2.4MB 高清 PNG</p>
+<p>- 三套元提示词覆盖 98 张赛车科普卡片的实战验证</p>
+<br>
+<p><strong>Time Delay（极速交付）：</strong></p>
+<p>- Day 1：安装 Codex + Hermes 环境（15分钟）</p>
+<p>- Day 1：填入主题变量生成提示词（5分钟）</p>
+<p>- Day 1：运行 gen_cards.py 出图（2分钟/张）</p>
+<p>- 总计：30 分钟内从零到第一张卡片</p>
+<br>
+<p><strong>Effort & Sacrifice（无痛执行）：</strong></p>
+<p>- 你仅需：提供一个赛车主题（如"涡轮增压原理"）</p>
+<p>- 系统自动：匹配最佳风格 → 推理提示词 → 生成图像</p>
+<p>- 降低门槛：不需要设计能力、不需要 Midjourney 订阅、不需要 API Key</p>
+<br>
+<hr>
+<br>
+<h2>🛠️ 深度硬核拆解</h2>
+<br>
+
+<img src="images/lemans_1966.png" style="width:100%;border-radius:10px;margin:28px 0;box-shadow:0 4px 16px rgba(0,0,0,0.12);display:block;" />
+<h3>1. 为什么选择 Codex 而不是 Midjourney</h3>
+<br>
+<p>Midjourney 的中文渲染一直是痛点——中文文字经常出现乱码、幽灵字、镜像文字。Codex 使用的 gpt-image-2 模型在中文文字渲染上有显著优势，适合需要精确中文排版的科普卡片场景。</p>
+<br>
+<p>更重要的是，Codex 不需要详细的版式指令。Midjourney 提示词通常需要 2000-3000 字的精确布局描述（每个 Section 的位置、字号、颜色等），而 Codex 会自动推断版式——你只需要描述视觉氛围和核心内容，模型会自行完成合理的排版。</p>
+<br>
+
+<img src="images/fuji_1976.png" style="width:100%;border-radius:10px;margin:28px 0;box-shadow:0 4px 16px rgba(0,0,0,0.12);display:block;" />
+<h3>2. 三种风格的差异化设计逻辑</h3>
+<br>
+<p><strong>工业蓝图</strong> 的视觉 DNA 来自氰版晒图工艺（Cyanotype）——19 世纪工程制图的标准输出格式。深蓝底+白线的配色具有天然的"技术档案"气质，适合解构机械结构和技术参数。福特 GT40 的 7.0L V8 发动机在这种风格下，每一根进气歧管都像一张精密图纸上的标注线。</p>
+<br>
+<p><strong>赛道纪实</strong> 走的是人文纪实摄影路线——暖色钨丝灯、手写便签、拍立得照片、油渍晕染。这种风格的核心卖点是"真实感"：它不像一张电脑制作的图表，更像从赛车工程师口袋里掏出来的赛道笔记。Lauda vs Hunt 的富士雨战在这种风格下，雨水晕染的墨迹本身就是叙事元素。</p>
+<br>
+<p><strong>极净实验室</strong> 是最反直觉的设计——用无菌、冷静的展陈方式来呈现最疯狂的赛车技术。Lancia Delta S4 的 480 马力双增压发动机被放在亚克力展柜里，像博物馆的标本。这种"冷感"反而放大了 Group B 时代的疯狂——秩序包裹着混沌。</p>
+<br>
+
+<img src="images/sanremo_1985.png" style="width:100%;border-radius:10px;margin:28px 0;box-shadow:0 4px 16px rgba(0,0,0,0.12);display:block;" />
+<h3>3. Codex OAuth 免 Key 方案的技术原理</h3>
+<br>
+<p>Codex.app 将 ChatGPT 的 OAuth token 存储在 macOS Keychain 中。Hermes agent 通过 `security` CLI 读取该 token，然后以 Bearer token 的形式调用 `chatgpt.com/backend-api/codex` 端点。这意味着：</p>
+<br>
+<p>- 不需要 OpenAI API Key（零额外成本）</p>
+<p>- 使用你的 ChatGPT 订阅配额（Plus/Pro/Team）</p>
+<p>- 日配额与你的订阅等级挂钩（Pro ≈ 200张/天）</p>
+<p>- Token 自动续期，无需手动刷新</p>
+<br>
+<h3>4. 提示词工程的核心原则</h3>
+<br>
+<p>这套技能的成功率取决于三个关键因素：</p>
+<br>
+<p><strong>a) 视觉氛围 > 精确指令。</strong> Codex 不是 Midjourney——给它"一张深蓝色晒图纸，透写台冷白底光"比"在左上角 20px 处放置一个白色文本框"有效 10 倍。</p>
+<br>
+<p><strong>b) 情感温度决定视觉温度。</strong> 工业蓝图是"冷感理性"，赛道纪实是"炙热人文"，极净实验室是"无菌未来"。这三个温度锚点比任何色彩 hex 值都重要。</p>
+<br>
+<p><strong>c) 一个视觉锚点 > 十段文字描述。</strong> 每张卡片的核心是一个高精度 3D 零部件渲染——GT40 的 V8 发动机、Lauda 的方向盘、Delta S4 的双增压系统。这个锚点决定了整张卡片的视觉重心。</p>
+<br>
+<hr>
+<br>
+<h2>📝 三套元提示词模板</h2>
+<br>
+<p>以下是可以直接使用的 Codex 提示词。将 `{卡片标题}` `{英文副标题}` 等占位变量替换为你的赛车主题即可出图。</p>
+<br>
+<h3>风格 A：工业蓝图</h3>
+<br>
+<pre><code>你是一本赛车工程档案的制图师。请为"{卡片标题}"设计一张垂直科普卡片。
+
+画面是一张深蓝色氰版蓝图(Cyanotype Blueprint)铺满全幅，纸上布满极细的白色网格线与工程标注。透写台冷白底光使蓝图上的白墨线条微微发光。
+
+顶部标题"{卡片标题}"用中文工程手写体以白墨书写。英文副标题"{英文副标题}"字号较小。
+一个{视觉锚点}的3D半线框半实体渲染悬浮在蓝图上空，投射锐利阴影。
+
+核心机制(4个白色工程图标+标注)：{核心机制4点}
+
+工程公式：{关键公式}
+工程标准：Ref: {工程标准}
+
+深度解构(4段中文+3D零件渲染)：
+1. {零件1}——{解说1}
+2. {零件2}——{解说2}
+3. {零件3}——{解说3}
+4. {零件4}——{解说4}
+
+底部：{验证图表描述}
+
+色彩：蓝图底(#0a1f3d) + 纯白线条 + 工程黄(#ffd700)高亮关键数据。比例：3:4竖版。
+要求无文字错误、无镜像文字、无中文乱码。</code></pre>
+<br>
+<p><strong>适用主题：</strong> 涡轮增压原理、悬挂几何、刹车热衰减、空气动力学套件、发动机结构</p>
+<br>
+<h3>风格 B：赛道纪实</h3>
+<br>
+<pre><code>你是一位跟拍赛车围场多年的纪实摄影师。请为"{卡片标题}"设计一张垂直科普卡片。
+
+画面采用纪实摄影风格，模拟在Pit Lane或维修车间里抓拍的瞬间。
+背景虚化——隐约可见维修区环境，暖色钨丝灯照明。
+
+前景焦点是一张微微卷边、带有折痕和油渍的米黄色技术便签，用图钉固定在工具箱表面。
+卡片顶部"{卡片标题}"用粗黑马克笔手写，笔触有力。英文副标题"{英文副标题}"用细笔书写。
+
+视觉锚点：{视觉锚点}实物放在卡片旁边，与卡片内容产生物理互动。
+
+核心机制(4个手绘简笔图标+手写标注)：{核心机制4点}
+
+工程公式(手写)：{关键公式}
+工程标准：Ref: {工程标准}
+
+深度解构(4段手写中文+拍立得风格小照片)：
+1. ——{解说1}
+2. ——{解说2}
+3. ——{解说3}
+4. ——{解说4}
+
+底部：手绘{验证图表描述}
+
+色彩：米黄便签纸(#f5f0e1) + 炭黑马克笔墨(#1a1a1a) + 机油棕(#4a3020) + 红色记号笔(#d4342c) + 背景钨丝暖光(#e8c05a)。比例：3:4竖版。
+要求无文字错误、无镜像文字、无中文乱码。</code></pre>
+<br>
+<p><strong>适用主题：</strong> 赛道走线策略、轮胎选择决策、天气应变、车手体能、赛事回顾</p>
+<br>
+<h3>风格 C：极净实验室</h3>
+<br>
+<pre><code>你是一位在顶级赛车工程实验室工作的科学可视化专家。请为"{卡片标题}"设计一张垂直科普卡片。
+
+画面模拟半导体级洁净室中的技术标本展示柜——纯白无菌环境。
+背景纯白无缝展柜背板(#f8f9fa)，极淡灰色十字激光定位线。
+
+主体展板：深灰色金属拉丝面板，悬浮在白色空间中，边缘有极窄冷白光发光轮廓线。
+顶部"{卡片标题}"以激光蚀刻效果呈现，无衬线极简体。英文副标题"{英文副标题}"较小字号。
+
+视觉锚点：{视觉锚点}的高精度3D渲染标本放置在透明亚克力底座上，悬浮于面板前方。冷光高光打在金属表面。
+
+核心机制(4个白色发光OLED图标+无衬线标注)：{核心机制4点}
+
+工程公式：{关键公式}
+工程标准：Ref: {工程标准}
+
+深度解构(4段灯箱字中文+亚克力框内3D小展品)：
+1. {零件1}——{解说1}
+2. {零件2}——{解说2}
+3. {零件3}——{解说3}
+4. {零件4}——{解说4}
+
+底部：全息投影风格的{验证图表描述}
+
+色彩：纯白底(#f8f9fa) + 太空灰面板(#2d2e33) + 冷白光(#e8eaed) + 蓝激光(#4fc3f7)点缀。比例：3:4竖版。
+要求无文字错误、无镜像文字、无中文乱码。</code></pre>
+<br>
+<p><strong>适用主题：</strong> 电池热管理、电机效率图谱、碳纤维单体壳、电控系统架构、材料科学</p>
+<br>
+<h3>风格选择速查</h3>
+<br>
+<table>
+<tr><th>如果主题是...</th><th>选风格</th><th>因为...</th></tr>
+<tr><td>技术原理/机械构造</td><td>A 工业蓝图</td><td>蓝图天然适合解构工程结构</td></tr>
+<tr><td>赛事故事/人物/历史</td><td>B 赛道纪实</td><td>纪实感让历史事件更动人</td></tr>
+<tr><td>尖端科技/材料/未来概念</td><td>C 极净实验室</td><td>冷感反衬技术的极限张力</td></tr>
+</table>
+<br>
+<hr>
+<br>
+<h2>🖼️ 图文并茂</h2>
+<br>
+<p>本交付包含三张已生成的高清赛车科普卡片：</p>
+<br>
+<p>1. <strong>lemans_1966.png</strong>（2.8 MB）— 工业蓝图风格 · 1966 勒芒 GT40 复仇工程</p>
+<p>2. <strong>fuji_1976.png</strong>（3.2 MB）— 赛道纪实风格 · 1976 富士 Hunt vs Lauda 1分之差</p>
+<p>3. <strong>sanremo_1985.png</strong>（2.4 MB）— 极净实验室风格 · 1985 圣雷莫 Delta S4 双增压</p>
+<br>
+<p>GitHub 技能仓库：[racing-science-card-skill](https://github.com/aierlanjiu/racing-science-card-skill)</p>
+<p>安装方法：`git clone https://github.com/aierlanjiu/racing-science-card-skill.git ~/.codex/skills/racing-science-card`</p>
+<br>
+<hr>
+<br>
+<h2>阶梯定价</h2>
+<br>
+<p>🟢 <strong>单期破冰 · 1.9 元</strong> → 解锁三套 Codex 元提示词模板（可直接填入主题使用）</p>
+<br>
+<p>🟡 <strong>进阶变现桥梁 · 129 元</strong> → 获取《赛车科普卡片·百图解码全书》+ 批量生成脚本 + 98 张示例 Prompt 库</p>
+<br>
+<p>🔴 <strong>高阶圈层入局 · 699 元</strong> → 「雪沐实验室·高阶玩家社群」全站终身源码库 + Codex 无 Key 方案 + 社媒发布管线</p>
+<br>
+<hr>
+<br>
+<p>*In the noise, signal is king.* — 雪沐视觉实验室 · Xuemu Lab</p>
+<p>*art.zedpapa.top*</p>
+<br>
+</div>
+
+<div class="footer">
+  <h3 style="color:#fff;font-family:"Noto Serif SC", "STSong", serif;">阶梯定价</h3>
+  <div class="tier">
+    <span class="price">1.9 元</span> · 单期破冰
+    <br>解锁三套 Codex 元提示词模板，填入你的赛车主题即可出图
+  </div>
+  <div class="tier">
+    <span class="price">129 元</span> · 进阶变现桥梁
+    <br>获取《赛车科普卡片·百图解码全书》+ 批量生成脚本 + 98 张示例 Prompt 库
+  </div>
+  <div class="tier">
+    <span class="price">699 元</span> · 高阶圈层入局
+    <br>「雪沐实验室·高阶玩家社群」全站终身源码库 + Codex 无 Key 方案定制
+  </div>
+  <p style="margin-top:20px;opacity:.7;">GitHub: github.com/your-org/racing-science-card-skill</p>
+  <p class="closing">In the noise, signal is king. — 雪沐视觉实验室 · Xuemu Lab<br>art.zedpapa.top</p>
+</div>
+
+</body>
+</html>

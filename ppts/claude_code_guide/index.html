@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Code × DeepSeek V4 Pro 1M · 上手指导书</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* ============ 风格主题（当前：CFD水晶）============
+       切换风格：从 assets/styles/<style>.css 复制对应的 :root 块替换此处
+    */
+    --bg-base:#0a1628;        --bg-rgb:10,22,40;
+    --bg-tint:#0d2240;
+    --ink-base:#e0f0ff;       --ink-rgb:224,240,255;
+    --ink-tint:#a0c8e8;
+    --accent:#00d4ff;          --accent-rgb:0,212,255;
+    --surface:rgba(255,255,255,.05);
+    --bg-texture:none;
+    --shadow-preset:0 0 30px rgba(0,212,255,.15);
+
+    /* ============ 字体（跨风格固定）============ */
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+    --serif-en:"Playfair Display","Source Serif 4",Georgia,serif;
+    --serif-zh:"Noto Serif SC",source-han-serif-sc,serif;
+    --sans-zh:"Noto Sans SC",source-han-sans-sc,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;overflow:hidden;background:var(--ink-base);color:var(--bg-base);font-family:var(--sans-zh);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+
+  /* ============ WebGL 双背景 ============ */
+  canvas.bg{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;display:block;transition:opacity 1.2s ease}
+  canvas#bg-light{opacity:0}
+  canvas#bg-dark{opacity:1}
+  body.light-bg canvas#bg-light{opacity:1}
+  body.light-bg canvas#bg-dark{opacity:0}
+
+  /* ============ Deck 容器 + 翻页 ============ */
+  #deck{position:fixed;inset:0;width:10000vw;height:100vh;display:flex;flex-wrap:nowrap;transition:transform .9s cubic-bezier(.77,0,.175,1);z-index:10;will-change:transform}
+  body.recording #deck{transition:none !important}
+  .slide{width:100vw;height:100vh;flex:0 0 100vw;position:relative;padding:6vh 6vw 10vh 6vw;display:flex;flex-direction:column;overflow:hidden}
+  .slide.light{color:var(--ink-base)}
+  .slide.dark{color:var(--bg-base)}
+
+  .slide::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;transition:background .7s ease}
+  .slide.light::before{background:rgba(var(--bg-rgb),.78);backdrop-filter:blur(3px)}
+  .slide.dark::before{background:rgba(var(--ink-rgb),.78);backdrop-filter:blur(3px)}
+  .slide.hero.light::before{background:rgba(var(--bg-rgb),.16);backdrop-filter:none}
+  .slide.hero.dark::before{background:rgba(var(--ink-rgb),.12);backdrop-filter:none}
+  .slide.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none}
+  .slide.hero.light::after{background:linear-gradient(180deg,rgba(var(--bg-rgb),.28) 0%,rgba(var(--bg-rgb),0) 14%,rgba(var(--bg-rgb),0) 86%,rgba(var(--bg-rgb),.28) 100%)}
+  .slide.hero.dark::after{background:linear-gradient(180deg,rgba(var(--ink-rgb),.32) 0%,rgba(var(--ink-rgb),0) 14%,rgba(var(--ink-rgb),0) 86%,rgba(var(--ink-rgb),.32) 100%)}
+  .slide.hero.dark.visual-hero{color:var(--ink-base)}
+  .slide.hero.dark.visual-hero::before{background:rgba(var(--bg-rgb),.56);backdrop-filter:none}
+  .slide.hero.dark.visual-hero::after{background:linear-gradient(180deg,rgba(var(--bg-rgb),.62) 0%,rgba(var(--bg-rgb),.18) 30%,rgba(var(--bg-rgb),.10) 70%,rgba(var(--bg-rgb),.62) 100%)}
+
+  /* ============ Magazine chrome + foot ============ */
+  .chrome{display:flex;justify-content:space-between;align-items:flex-start;font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.7}
+  .chrome .left,.chrome .right{display:flex;gap:2.4em;align-items:center}
+  .chrome .sep{width:40px;height:1px;background:currentColor;opacity:.4}
+  .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.55}
+  .foot .title{font-family:var(--serif-zh);font-weight:400;letter-spacing:.05em;text-transform:none;opacity:.75;font-size:13px}
+
+  .tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;padding:6px 14px;border:1px solid currentColor;opacity:.85}
+  .rule{width:100%;height:1px;background:currentColor;opacity:.25;margin:3vh 0}
+
+  /* ============ 字体规则 ============ */
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.3em;text-transform:uppercase;opacity:.6;margin-bottom:2.6vh}
+  .display{font-family:var(--serif-en);font-weight:700;font-size:11vw;line-height:.92;letter-spacing:-.025em}
+  .display-zh{font-family:var(--serif-zh);font-weight:700;font-size:7.8vw;line-height:1.04;letter-spacing:-.005em}
+  .h1-zh{font-family:var(--serif-zh);font-weight:700;font-size:4.6vw;line-height:1.12;letter-spacing:-.005em}
+  .h2-zh{font-family:var(--serif-zh);font-weight:600;font-size:3.2vw;line-height:1.2;letter-spacing:0}
+  .h3-zh{font-family:var(--serif-zh);font-weight:500;font-size:1.9vw;line-height:1.35}
+  .body-zh{font-family:var(--sans-zh);font-weight:400;font-size:max(15px,1.22vw);line-height:1.75;opacity:.82;letter-spacing:.01em}
+  .body-serif{font-family:var(--serif-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.65;opacity:.88}
+  .lead{font-family:var(--serif-zh);font-weight:400;font-size:1.9vw;line-height:1.4;opacity:.85}
+  .meta{font-family:var(--mono);font-size:max(11px,.88vw);letter-spacing:.16em;text-transform:uppercase;opacity:.6}
+  code{font-family:var(--mono);font-size:.68em;letter-spacing:.02em;padding:.08em .28em;border:1px solid rgba(127,127,127,.25);border-radius:3px;background:rgba(127,127,127,.08)}
+  .big-num{font-family:var(--serif-en);font-weight:800;font-size:10vw;line-height:.85;letter-spacing:-.03em;font-feature-settings:"tnum"}
+  .mid-num{font-family:var(--serif-en);font-weight:700;font-size:5.5vw;line-height:.88;letter-spacing:-.02em;font-feature-settings:"tnum"}
+  .ghost{font-family:var(--serif-en);font-weight:900;font-size:34vw;line-height:.8;opacity:.06;letter-spacing:-.04em;position:absolute;font-feature-settings:"tnum"}
+  em{font-style:italic;font-family:var(--serif-en)}
+  .en{font-family:var(--serif-en);font-style:italic;font-weight:500}
+
+  /* ============ 布局工具 ============ */
+  .col{display:flex;flex-direction:column;gap:2.4vh}
+  .row{display:flex;align-items:center;gap:3vw}
+  .grid-6{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:4vw 6vw;flex:1;align-content:center;padding:2vh 0}
+  .grid-4{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,1fr);gap:4vh 6vw;flex:1;align-content:center}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:4vw;flex:1;align-content:center}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:4vw;flex:1;align-items:center}
+  .fill{flex:1}
+  .center{align-items:center;justify-content:center;text-align:center}
+  .bottom-left{position:absolute;left:6vw;bottom:9vh;max-width:50vw}
+  .bottom-right{position:absolute;right:6vw;bottom:9vh;max-width:50vw;text-align:right}
+  .top-right{position:absolute;right:6vw;top:6vh;text-align:right}
+
+  /* ============ Stat ============ */
+  .stat{display:flex;flex-direction:column;gap:1vh;align-items:flex-start}
+  .stat .n{font-family:var(--serif-en);font-weight:800;font-size:8vw;line-height:.88;letter-spacing:-.03em;font-feature-settings:"tnum"}
+  .stat .l{font-family:var(--sans-zh);font-size:max(13px,1.05vw);opacity:.7;margin-top:1vh;font-weight:400;line-height:1.5}
+  .stat .m{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;opacity:.5;margin-bottom:.2vh}
+
+  /* ============ Callout ============ */
+  .callout{padding:3vh 2.4vw;border-left:3px solid currentColor;position:relative;font-family:var(--serif-zh);font-size:max(15px,1.2vw);line-height:1.55;opacity:.92}
+  .slide.light .callout{background:rgba(var(--ink-rgb),.05)}
+  .slide.dark .callout{background:rgba(var(--bg-rgb),.06)}
+  .callout .cite,.callout-src{display:block;margin-top:1.6vh;font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.6}
+
+  /* ============ Icons ============ */
+  .ico{width:1em;height:1em;display:inline-block;vertical-align:-.12em;stroke:currentColor;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+
+  /* ============ 图片 ============ */
+  .img-slot{border:1.5px dashed rgba(127,127,127,.4);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1vh;padding:2vh 2vw;font-family:var(--mono);font-size:10px;letter-spacing:.28em;text-transform:uppercase;opacity:.55;position:relative;aspect-ratio:16/9;width:100%;max-height:56vh;margin-inline:auto;box-sizing:border-box}
+  .img-slot::before{content:"";position:absolute;inset:8px;border:1px solid currentColor;opacity:.2}
+  .img-slot .plus{font-size:2vw;font-weight:300;opacity:.5;letter-spacing:0}
+  .img-slot .label{position:relative;z-index:2;text-align:center}
+  .frame-img{overflow:hidden;position:relative;background:rgba(0,0,0,.04);box-sizing:border-box;width:100%;border-radius:4px}
+  .slide.dark .frame-img{background:rgba(255,255,255,.04)}
+  .frame-img > img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+  .frame-cap{display:flex;justify-content:space-between;align-items:baseline;gap:1vw;margin-top:.8vh;font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;opacity:.72}
+  figure.frame-img{margin:0;display:flex;flex-direction:column;min-width:0}
+  .img-cap{display:block;margin-top:.8vh;font-family:var(--mono);font-size:max(10px,.8vw);letter-spacing:.22em;text-transform:uppercase;opacity:.6}
+
+  /* ============ Layouts API ============ */
+  .frame{flex:1;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+  .frame.grid-2-7-5,.frame.grid-2-6-6,.frame.grid-2-8-4,.frame.grid-3-3,.frame.grid-6{display:grid}
+  .h-hero{font-family:var(--serif-zh);font-weight:900;font-size:10vw;line-height:.96;letter-spacing:-.02em}
+  .h-xl{font-family:var(--serif-zh);font-weight:700;font-size:6.2vw;line-height:1.08;letter-spacing:-.01em}
+  .h-sub{font-family:var(--serif-zh);font-weight:500;font-size:3.1vw;line-height:1.25;letter-spacing:0;opacity:.7}
+  .h-md{font-family:var(--serif-zh);font-weight:600;font-size:2.3vw;line-height:1.3}
+  .meta-row{display:flex;gap:1.2em;align-items:baseline;flex-wrap:wrap;font-family:var(--mono);font-size:max(12px,.92vw);letter-spacing:.16em;text-transform:uppercase;opacity:.6}
+
+  .stat-card{display:flex;flex-direction:column;gap:.8vh;align-items:flex-start;padding-top:1.6vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.3)}
+  .stat-card .stat-label{font-family:var(--mono);font-size:max(10px,.78vw);letter-spacing:.24em;text-transform:uppercase;opacity:.55}
+  .stat-card .stat-nb{font-family:var(--serif-en);font-weight:800;font-size:5.8vw;line-height:.9;letter-spacing:-.03em;font-feature-settings:"tnum";margin-top:.4vh}
+  .stat-card .stat-nb .stat-unit{font-family:var(--serif-zh);font-weight:500;font-size:.38em;letter-spacing:0;opacity:.72;margin-left:.14em}
+  .stat-card .stat-note{font-family:var(--sans-zh);font-weight:400;font-size:max(13px,1.05vw);line-height:1.5;opacity:.72;margin-top:.6vh}
+  .grid-4 .stat-card .stat-nb{font-size:5vw}
+  .grid-3 .stat-card .stat-nb{font-size:6.8vw}
+
+  .pipeline-section{margin-top:4.4vh;padding-top:2.8vh;border-top:1px dashed rgba(127,127,127,.32)}
+  .pipeline-section:first-of-type{border-top:0;padding-top:0;margin-top:3vh}
+  .pipeline-label{font-family:var(--mono);font-size:max(11px,.85vw);letter-spacing:.24em;text-transform:uppercase;opacity:.62;margin-bottom:2.2vh}
+  .pipeline{display:grid;grid-template-columns:repeat(5,1fr);gap:1.2vw}
+  .pipeline[data-cols="3"]{grid-template-columns:repeat(3,1fr)}
+  .pipeline[data-cols="4"]{grid-template-columns:repeat(4,1fr)}
+  .step{display:flex;flex-direction:column;gap:.8vh;padding-top:1.4vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.35)}
+  .step-nb{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.15vw;opacity:.45}
+  .step-title{font-family:var(--sans-zh);font-weight:700;font-size:1.55vw;letter-spacing:.01em;line-height:1.2}
+  .step-desc{font-family:var(--sans-zh);font-weight:400;font-size:max(12px,.95vw);line-height:1.45;opacity:.72}
+
+  .grid-2-7-5{display:grid;grid-template-columns:7fr 5fr;gap:3vw 4vh;align-items:start}
+  .grid-2-6-6{display:grid;grid-template-columns:1fr 1fr;gap:3vw 4vh;align-items:start}
+  .grid-2-8-4{display:grid;grid-template-columns:8fr 4fr;gap:3vw 4vh;align-items:start}
+  .grid-3-3{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:minmax(0,1fr);gap:2.4vh 2vw}
+
+  .hi{position:relative;display:inline}
+  .slide.dark .hi::after{content:"";position:absolute;left:-.1em;right:-.1em;bottom:-.05em;height:.28em;background:rgba(var(--bg-rgb),.15);z-index:-1}
+  .slide.light .hi::after{content:"";position:absolute;left:-.1em;right:-.1em;bottom:-.05em;height:.28em;background:rgba(var(--ink-rgb),.08);z-index:-1}
+
+  /* ============ xuemu 入场动画（支持嵌套正文 + 录制重播）============ */
+  @keyframes fadeUp{0%{opacity:0;transform:translateY(3vh);filter:blur(2px)}100%{opacity:1;transform:translateY(0);filter:blur(0)}}
+  @keyframes scaleIn{0%{opacity:0;transform:scale(.94);filter:blur(2px)}100%{opacity:1;transform:scale(1);filter:blur(0)}}
+  @keyframes textReveal{0%{clip-path:inset(0 100% 0 0);opacity:.25}100%{clip-path:inset(0 0 0 0);opacity:1}}
+  @keyframes codeRise{0%{opacity:0;transform:translateY(2vh);filter:blur(1.5px)}100%{opacity:1;transform:translateY(0);filter:blur(0)}}
+  @keyframes mediaIn{0%{opacity:0;transform:translateX(2vw) scale(.985);filter:blur(2px)}100%{opacity:1;transform:translateX(0) scale(1);filter:blur(0)}}
+  @keyframes glowPulse{0%,100%{text-shadow:0 0 36px rgba(var(--accent-rgb),.12)}50%{text-shadow:0 0 72px rgba(var(--accent-rgb),.34)}}
+
+  .slide.active .frame :where(.kicker,.h-sub,.h-md,.meta-row,blockquote,.callout,.pipeline-section){animation:fadeUp .62s cubic-bezier(.16,1,.3,1) both}
+  .slide.active .frame :where(.h-hero){animation:scaleIn .82s cubic-bezier(.16,1,.3,1) both, glowPulse 3s 1s ease-in-out infinite}
+  .slide.active .frame :where(.h-xl){animation:fadeUp .72s cubic-bezier(.16,1,.3,1) both}
+  .slide.active .frame :where(.lead,p:not(.step-desc):not(.stat-note)){animation:textReveal .76s .12s cubic-bezier(.16,1,.3,1) both}
+  .slide.active .frame :where(pre){animation:codeRise .64s .28s cubic-bezier(.16,1,.3,1) both}
+  .slide.active .frame :where(.frame-img){animation:mediaIn .78s .34s cubic-bezier(.16,1,.3,1) both}
+
+  .slide.active .frame > :nth-child(1){animation-delay:0s}
+  .slide.active .frame > :nth-child(2){animation-delay:.08s}
+  .slide.active .frame > :nth-child(3){animation-delay:.16s}
+  .slide.active .frame > :nth-child(4){animation-delay:.24s}
+  .slide.active .frame > :nth-child(5){animation-delay:.32s}
+  .slide.active .stat-card{animation:fadeUp .55s cubic-bezier(.16,1,.3,1) both}
+  .slide.active .stat-card:nth-child(1){animation-delay:.08s}
+  .slide.active .stat-card:nth-child(2){animation-delay:.15s}
+  .slide.active .stat-card:nth-child(3){animation-delay:.22s}
+  .slide.active .stat-card:nth-child(4){animation-delay:.29s}
+  .slide.active .stat-card:nth-child(5){animation-delay:.36s}
+  .slide.active .stat-card:nth-child(6){animation-delay:.43s}
+  .slide.active .step{animation:fadeUp .5s cubic-bezier(.16,1,.3,1) both}
+  .slide.active .step:nth-child(1){animation-delay:.08s}
+  .slide.active .step:nth-child(2){animation-delay:.16s}
+  .slide.active .step:nth-child(3){animation-delay:.24s}
+  .slide.active .step:nth-child(4){animation-delay:.32s}
+  .slide.active .step:nth-child(5){animation-delay:.40s}
+
+  /* ============ 导航 ============ */
+  #nav{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:30;display:flex;gap:10px;padding:8px 14px;border-radius:999px;background:rgba(0,0,0,.18);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+  #nav .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:all .3s ease;border:0;padding:0}
+  #nav .dot:hover{background:rgba(255,255,255,.5);transform:scale(1.15)}
+  #nav .dot.active{background:rgba(255,255,255,.95);width:22px;border-radius:999px}
+  body.light-bg #nav{background:rgba(255,255,255,.25)}
+  body.light-bg #nav .dot{background:rgba(var(--ink-rgb),.25)}
+  body.light-bg #nav .dot.active{background:rgba(var(--ink-rgb),.9)}
+  #hint{position:fixed;bottom:3vh;right:3vw;z-index:30;font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;opacity:.4;mix-blend-mode:difference;color:#aaa}
+
+  /* ============ 首页光环 + 尾页收束特效 ============ */
+  .slide.visual-hero::before{z-index:0}
+  .slide.visual-hero .h-hero{text-shadow:0 0 80px rgba(var(--accent-rgb),.3)}
+  .slide:last-of-type .frame > :last-child{animation:fadeUp .8s .3s cubic-bezier(.16,1,.3,1) both}
+
+  @media (max-width:900px){
+    .display{font-size:16vw}.display-zh{font-size:12vw}.h1-zh{font-size:7vw}
+    .h-hero{font-size:14vw}.h-xl{font-size:9vw}
+    .pipeline{grid-template-columns:repeat(2,1fr)}
+    .grid-2-7-5,.grid-2-6-6,.grid-2-8-4{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<canvas id="bg-dark" class="bg"></canvas>
+<canvas id="bg-light" class="bg"></canvas>
+<div id="hint" class="no-record">← → 翻页 · ESC 索引</div>
+
+<div id="deck">
+
+<!-- ================================================================
+     SLIDES 插入区 · 在此处填充所有 <section class="slide ..."> 页面
+     每页模板参考 references/layouts.md
+     ================================================================ -->
+
+<section class="slide hero dark visual-hero" data-theme="dark" data-animate="hero" data-duration="5">
+  <img src="images/01-hero-cockpit.png" alt="Claude Code DeepSeek setup cockpit" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; z-index:-2; opacity:.68">
+  <div class="chrome"><div>Xuemu Guide · Claude Code</div><div>01 / 12</div></div>
+  <div class="frame" style="display:grid; gap:3vh; align-content:center; min-height:80vh; max-width:62vw">
+    <div class="kicker">Install · Model · Skill</div>
+    <h1 class="h-hero" style="font-size:7.4vw; line-height:1.02">装成生产线</h1>
+    <h2 class="h-sub">Claude Code 接入 DeepSeek V4 Pro 1M，并安装 xuemu-ppt 技能</h2>
+    <p class="lead" style="max-width:52vw">看完这份指导书，你应该能把终端 AI 变成日常工作、内容生产、项目维护和 PPT 输出的一条可复用流水线。</p>
+    <div class="meta-row"><span>2026-04-26</span><span>·</span><span>codex made</span></div>
+  </div>
+  <div class="foot"><div>DeepSeek V4 Pro 1M · Max Effort</div><div>— Start —</div></div>
+</section>
+
+<section class="slide light" data-theme="light" data-animate="cascade" data-duration="5.5">
+  <div class="chrome"><div>价值 · Why</div><div>02 / 12</div></div>
+  <div class="frame" style="padding-top:6vh">
+    <div class="kicker">先给结论</div>
+    <h2 class="h-xl">不是换模型</h2>
+    <p class="lead" style="margin-bottom:5vh; max-width:70vw">真正的升级，是把大上下文、强推理和可复用技能绑成一套工作系统。</p>
+    <div class="grid-6" style="margin-top:4vh">
+      <div class="stat-card">
+        <div class="stat-label">Context</div>
+        <div class="stat-nb">1M</div>
+        <div class="stat-note">整本项目文档、历史决策、素材库能一起进场。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Effort</div>
+        <div class="stat-nb">max</div>
+        <div class="stat-note">用于架构、迁移、复杂写作和高风险决策。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Model</div>
+        <div class="stat-nb">V4</div>
+        <div class="stat-note">DeepSeek 官方 V4 Preview 已开放 API。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Skill</div>
+        <div class="stat-nb">1</div>
+        <div class="stat-note">把 PPT 制作流程封装成可重复调用能力。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Loop</div>
+        <div class="stat-nb">6</div>
+        <div class="stat-note">安装、接入、固定、验证、装技能、生产。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">ROI</div>
+        <div class="stat-nb">+</div>
+        <div class="stat-note">少折腾一次环境，多交付一次成品。</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><div>目标不是炫技，是可交付</div><div>Why</div></div>
+</section>
+
+<section class="slide dark" data-animate="pipeline" data-duration="6" data-theme="dark">
+  <div class="chrome"><div>架构 · Stack</div><div>03 / 12</div></div>
+  <div class="frame" style="padding-top:6vh">
+    <div class="kicker">四层就够</div>
+    <h2 class="h-xl">四层结构</h2>
+    <div class="pipeline-section">
+      <div class="pipeline-label">从终端到交付物</div>
+      <div class="pipeline" data-cols="4">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-title"><i data-lucide="terminal" class="ico"></i> Claude Code</div>
+          <div class="step-desc">终端里的执行层：读文件、改代码、跑命令、验证结果。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-title"><i data-lucide="route" class="ico"></i> Anthropic Endpoint</div>
+          <div class="step-desc">DeepSeek 官方兼容 Anthropic API，Claude Code 可直接指向它。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-title"><i data-lucide="brain" class="ico"></i> V4 Pro 1M</div>
+          <div class="step-desc">用长上下文承接复杂资料，用 max effort 处理关键任务。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-title"><i data-lucide="presentation" class="ico"></i> xuemu-ppt</div>
+          <div class="step-desc">把演示文稿生产变成技能，不再每次从空白页开始。</div>
+        </div>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:5vh; max-width:72vw">这套栈的核心不是“更会聊天”，而是让 AI 知道你的项目、能动手、能验证、能把结果包装成可传播资产。<div class="callout-src">Operating Stack</div></div>
+  </div>
+  <div class="foot"><div>Claude Code · DeepSeek · Skill</div><div>Stack</div></div>
+</section>
+
+<section class="slide light" data-animate="directional" data-duration="5" data-theme="light">
+  <div class="chrome"><div>事实 · Official</div><div>04 / 12</div></div>
+  <div class="frame grid-2-7-5" style="padding-top:6vh">
+    <div style="display:flex; flex-direction:column; justify-content:space-between; gap:3vh">
+      <div>
+        <div class="kicker">先校准边界</div>
+        <h2 class="h-xl">官方边界</h2>
+        <p class="lead" style="margin-top:3vh">截至 2026-04-26，DeepSeek 官方已经给出 Claude Code 接入 V4 Pro 1M 与 max effort 的环境变量写法。</p>
+      </div>
+      <div class="callout">不要再用第三方转接猜模型名。教程里优先走官方 <code>https://api.deepseek.com/anthropic</code>。<div class="callout-src">DeepSeek Anthropic API</div></div>
+    </div>
+    <div class="grid-4" style="gap:2.4vh 2vw">
+      <div class="stat-card">
+        <div class="stat-label">Release</div>
+        <div class="stat-nb">04.24</div>
+        <div class="stat-note">DeepSeek V4 Preview Release，API 当日可用。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Model ID</div>
+        <div class="stat-nb" style="font-size:3.5vw">pro</div>
+        <div class="stat-note">Claude Code 配置使用 <code>deepseek-v4-pro[1m]</code>。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Base URL</div>
+        <div class="stat-nb" style="font-size:3.5vw">api</div>
+        <div class="stat-note"><code>https://api.deepseek.com/anthropic</code>。</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Effort</div>
+        <div class="stat-nb">max</div>
+        <div class="stat-note">最深推理，适合重任务；日常任务先评估成本。</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><div>Sources: DeepSeek Docs · Claude Code Docs</div><div>Official</div></div>
+</section>
+
+<section class="slide hero light" data-animate="hero" data-duration="4" data-theme="light">
+  <div class="chrome"><div>第一步 · Install</div><div>05 / 12</div></div>
+  <div class="frame" style="display:grid; gap:4vh; align-content:center; min-height:80vh">
+    <div class="kicker">Step 1</div>
+    <h1 class="h-hero" style="font-size:7vw">先装工具</h1>
+    <p class="lead" style="max-width:58vw">官方推荐 Native Install；DeepSeek 集成文档同时给出 npm 安装方式。你只要保证 <code>claude --version</code> 能出版本号。</p>
+    <pre style="font-family:var(--mono); font-size:max(11px,.92vw); line-height:1.55; white-space:pre-wrap; word-break:break-word; padding:2.4vh 2vw; border:1px solid rgba(var(--ink-rgb),.18); background:rgba(var(--ink-rgb),.05); border-radius:4px; max-width:70vw"># macOS / Linux / WSL
+curl -fsSL https://claude.ai/install.sh | bash
+
+# 或使用 npm
+npm install -g @anthropic-ai/claude-code
+
+# 验证
+claude --version</pre>
+  </div>
+  <div class="foot"><div>Node.js 18+ · Windows 需 Git for Windows</div><div>Install</div></div>
+</section>
+
+<section class="slide dark" data-animate="directional" data-duration="5" data-theme="dark">
+  <div class="chrome"><div>第二步 · Model</div><div>06 / 12</div></div>
+  <div class="frame grid-2-7-5" style="padding-top:6vh">
+    <div style="display:flex; flex-direction:column; gap:2.8vh">
+      <div>
+        <div class="kicker">Step 2</div>
+        <h2 class="h-xl">接上模型</h2>
+        <p class="lead" style="margin-top:2vh">这组环境变量来自 DeepSeek 官方 Claude Code 集成页；zsh 下建议给带方括号的模型名加引号。</p>
+      </div>
+      <pre style="font-family:var(--mono); font-size:max(10px,.72vw); line-height:1.45; white-space:pre-wrap; word-break:break-word; padding:2vh 1.5vw; border:1px solid rgba(var(--bg-rgb),.16); background:rgba(var(--bg-rgb),.06); border-radius:4px">export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export ANTHROPIC_AUTH_TOKEN=&lt;your DeepSeek API Key&gt;
+export ANTHROPIC_MODEL='deepseek-v4-pro[1m]'
+export ANTHROPIC_DEFAULT_OPUS_MODEL='deepseek-v4-pro[1m]'
+export ANTHROPIC_DEFAULT_SONNET_MODEL='deepseek-v4-pro[1m]'
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash
+export CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash
+export CLAUDE_CODE_EFFORT_LEVEL=max</pre>
+    </div>
+    <figure class="frame-img" style="aspect-ratio:16/10; max-height:56vh">
+      <img src="images/04-setup-pipeline.png" alt="Six stage DeepSeek Claude Code setup pipeline">
+    </figure>
+  </div>
+  <div class="foot"><div>ENV · 1M Context · Max Effort</div><div>Model</div></div>
+</section>
+
+<section class="slide light" data-animate="cascade" data-duration="5.5" data-theme="light">
+  <div class="chrome"><div>第三步 · Persist</div><div>07 / 12</div></div>
+  <div class="frame" style="padding-top:6vh">
+    <div class="kicker">别每次重配</div>
+    <h2 class="h-xl">永久配置</h2>
+    <p class="lead" style="max-width:68vw; margin-top:2vh">把非敏感变量放进 shell 配置；API Key 尽量放系统钥匙串或本机私密文件，永远不要写入项目仓库。</p>
+    <div class="grid-2-6-6" style="margin-top:4vh">
+      <pre style="font-family:var(--mono); font-size:max(10px,.78vw); line-height:1.48; white-space:pre-wrap; word-break:break-word; padding:2vh 1.5vw; border:1px solid rgba(var(--ink-rgb),.18); background:rgba(var(--ink-rgb),.05); border-radius:4px"># macOS Keychain 保存一次
+security add-generic-password \
+  -a "$USER" \
+  -s deepseek-api-key \
+  -w "粘贴你的 DeepSeek Key"
+
+# ~/.zshrc 中读取
+export ANTHROPIC_AUTH_TOKEN="$(security find-generic-password -a "$USER" -s deepseek-api-key -w)"</pre>
+      <div style="display:flex; flex-direction:column; gap:2vh">
+        <div class="stat-card">
+          <div class="stat-label">Verify</div>
+          <div class="stat-nb" style="font-size:4vw">/status</div>
+          <div class="stat-note">进入项目目录运行 <code>claude</code>，用 <code>/status</code> 看模型与配置来源。</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Fallback</div>
+          <div class="stat-nb" style="font-size:4vw">flash</div>
+          <div class="stat-note">子任务和轻任务可交给 <code>deepseek-v4-flash</code>，节省时间与费用。</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Rule</div>
+          <div class="stat-nb" style="font-size:4vw">safe</div>
+          <div class="stat-note">Key 不进 Git，不发截图，不写进 README，不交给无关脚本。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><div>Secrets stay local</div><div>Persist</div></div>
+</section>
+
+<section class="slide dark" data-animate="directional" data-duration="5" data-theme="dark">
+  <div class="chrome"><div>第四步 · Skill</div><div>08 / 12</div></div>
+  <div class="frame" style="padding-top:6vh">
+    <div class="kicker">把 PPT 生产封装起来</div>
+    <h2 class="h-xl">安装技能</h2>
+    <p class="lead" style="max-width:72vw; margin-top:2vh"><code>xuemu-ppt</code> 已上传到 GitHub。Claude Code 用 <code>~/.claude/skills/</code>；Codex 用 <code>~/.codex/skills/</code> 或 skill-installer。</p>
+    <div class="grid-2-6-6" style="margin-top:4vh">
+      <div>
+        <div class="pipeline-label">Claude Code</div>
+        <pre style="font-family:var(--mono); font-size:max(10px,.8vw); line-height:1.5; white-space:pre-wrap; word-break:break-word; padding:2vh 1.5vw; border:1px solid rgba(var(--bg-rgb),.16); background:rgba(var(--bg-rgb),.06); border-radius:4px">mkdir -p "$HOME/.claude/skills"
+git clone https://github.com/aierlanjiu/xuemu-ppt.git \
+  "$HOME/.claude/skills/xuemu-ppt"</pre>
+      </div>
+      <div>
+        <div class="pipeline-label">Codex</div>
+        <pre style="font-family:var(--mono); font-size:max(10px,.8vw); line-height:1.5; white-space:pre-wrap; word-break:break-word; padding:2vh 1.5vw; border:1px solid rgba(var(--bg-rgb),.16); background:rgba(var(--bg-rgb),.06); border-radius:4px">python "$HOME/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
+  --repo aierlanjiu/xuemu-ppt \
+  --path .</pre>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:4vh">触发方式很简单：<code>$xuemu-ppt 帮我做一份某主题的工业风 HTML PPT</code>。如果想做视频版，再要求输出 MP4。<div class="callout-src">GitHub: aierlanjiu/xuemu-ppt</div></div>
+  </div>
+  <div class="foot"><div>https://github.com/aierlanjiu/xuemu-ppt</div><div>Skill</div></div>
+</section>
+
+<section class="slide hero dark visual-hero" data-theme="dark" data-animate="hero" data-duration="4.5">
+  <img src="images/09-life-work-map.png" alt="AI operating system for life and work" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; z-index:-2; opacity:.62">
+  <div class="chrome"><div>应用 · Use Cases</div><div>09 / 12</div></div>
+  <div class="frame" style="display:grid; gap:4vh; align-content:center; min-height:80vh; max-width:58vw">
+    <div class="kicker">1M context is a workspace</div>
+    <h1 class="h-hero" style="font-size:7.2vw">生活工作</h1>
+    <p class="lead" style="max-width:52vw">把它当作“会执行的第二工作台”：不是问答，而是让它读你的上下文、拆任务、改文件、跑验证、沉淀成资产。</p>
+  </div>
+  <div class="foot"><div>Project · Content · Finance · Automation · Slides</div><div>Use Cases</div></div>
+</section>
+
+<section class="slide light" data-animate="cascade" data-duration="5.5" data-theme="light">
+  <div class="chrome"><div>方法 · Playbook</div><div>10 / 12</div></div>
+  <div class="frame" style="padding-top:6vh">
+    <div class="kicker">越强越要有纪律</div>
+    <h2 class="h-xl">使用纪律</h2>
+    <div class="pipeline-section">
+      <div class="pipeline-label">日常工作法</div>
+      <div class="pipeline">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-title">先给目标</div>
+          <div class="step-desc">说清楚交付物、受众、验收标准，不要只说“帮我看看”。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-title">喂共享记忆</div>
+          <div class="step-desc">让它读取 <code>progress.md</code>、记忆、README、设计规范。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-title">复杂任务开 plan</div>
+          <div class="step-desc">架构、迁移、长文、PPT 先拆路径与风险，再执行。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-title">执行要验证</div>
+          <div class="step-desc">跑测试、看截图、查文件存在，不接受口头成功。</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">05</div>
+          <div class="step-title">沉淀为技能</div>
+          <div class="step-desc">重复三次以上的工作，写成 Skill 或脚本。</div>
+        </div>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:5vh"><code>max</code> 不是永远打开的魔法按钮。官方也提醒它适合高难任务，但可能过度思考；日常轻任务用普通 effort 或 flash 更划算。<div class="callout-src">Claude Code Model Config</div></div>
+  </div>
+  <div class="foot"><div>High context needs stronger operating rules</div><div>Playbook</div></div>
+</section>
+
+<section class="slide dark" data-theme="dark" data-animate="cascade" data-duration="5">
+  <div class="chrome"><div>速查 · Commands</div><div>11 / 12</div></div>
+  <div class="frame" style="padding-top:5vh">
+    <div class="kicker">复制这一页就能跑</div>
+    <h2 class="h-xl">一页命令</h2>
+    <div class="grid-2-6-6" style="margin-top:3vh">
+      <pre style="font-family:var(--mono); font-size:max(9px,.68vw); line-height:1.42; white-space:pre-wrap; word-break:break-word; padding:1.8vh 1.3vw; border:1px solid rgba(var(--bg-rgb),.16); background:rgba(var(--bg-rgb),.06); border-radius:4px"># 1. Install
+curl -fsSL https://claude.ai/install.sh | bash
+claude --version
+
+# 2. DeepSeek official Anthropic endpoint
+export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export ANTHROPIC_AUTH_TOKEN=&lt;your DeepSeek API Key&gt;
+export ANTHROPIC_MODEL='deepseek-v4-pro[1m]'
+export ANTHROPIC_DEFAULT_OPUS_MODEL='deepseek-v4-pro[1m]'
+export ANTHROPIC_DEFAULT_SONNET_MODEL='deepseek-v4-pro[1m]'
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash
+export CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash
+export CLAUDE_CODE_EFFORT_LEVEL=max</pre>
+      <pre style="font-family:var(--mono); font-size:max(9px,.68vw); line-height:1.42; white-space:pre-wrap; word-break:break-word; padding:1.8vh 1.3vw; border:1px solid rgba(var(--bg-rgb),.16); background:rgba(var(--bg-rgb),.06); border-radius:4px"># 3. Start in a project
+cd /path/to/my-project
+claude
+
+# 4. Check inside Claude Code
+/status
+/model
+
+# 5. Install xuemu-ppt skill for Claude Code
+mkdir -p "$HOME/.claude/skills"
+git clone https://github.com/aierlanjiu/xuemu-ppt.git \
+  "$HOME/.claude/skills/xuemu-ppt"
+
+# 6. Trigger
+$xuemu-ppt 做一份某主题的 CFD 水晶风 PPT</pre>
+    </div>
+  </div>
+  <div class="foot"><div>把 API Key 替换成你自己的，不要提交到 Git</div><div>Commands</div></div>
+</section>
+
+<section class="slide hero light" data-theme="light" data-animate="hero" data-duration="5">
+  <div class="chrome"><div>收束 · Formula</div><div>12 / 12</div></div>
+  <div class="frame" style="display:grid; gap:5vh; align-content:center; min-height:80vh">
+    <div class="kicker">Final Formula</div>
+    <h1 class="h-hero" style="font-size:7.2vw">开始生产</h1>
+    <p class="lead" style="max-width:62vw">长上下文负责记住全局，max effort 负责啃硬骨头，Skill 负责把经验复用。三件事合在一起，才是你真正的个人生产线。</p>
+    <div class="meta-row"><span>1M Context</span><span>+</span><span>Max Effort</span><span>+</span><span>Reusable Skill</span></div>
+    <div class="callout" style="max-width:72vw">下一次不要从“我该怎么做”开始，直接从“这是目标、这些资料、按技能流程交付”开始。<div class="callout-src">Operating Prompt</div></div>
+  </div>
+  <div class="foot"><div>Guide complete</div><div>— 2026 —</div></div>
+</section>
+
+</div>
+
+<div id="nav" class="no-record"></div>
+
+<script>
+/* =============== WebGL 双背景 =============== */
+const VS=`attribute vec2 position;void main(){gl_Position=vec4(position,0.0,1.0);}`;
+const FS_DARK=`precision highp float;
+uniform vec2 u_resolution;uniform float u_time;uniform vec2 u_mouse;
+vec3 palette(float t,vec3 a,vec3 b,vec3 c,vec3 d){return a+b*cos(6.28318*(c*t+d));}
+void main(){
+  vec2 uv=gl_FragCoord.xy/u_resolution.xy, p=uv*2.0-1.0;
+  p.x*=u_resolution.x/u_resolution.y;
+  vec2 m=u_mouse*2.0-1.0;m.x*=u_resolution.x/u_resolution.y;
+  float md=length(p-m),mr=sin(md*15.0-u_time*4.0)*exp(-md*3.0);p+=mr*.08;
+  vec2 p0=p;
+  for(float i=1.0;i<4.0;i++){p.x+=.1/i*sin(i*3.0*p.y+u_time*.4)+.05;p.y+=.1/i*cos(i*2.0*p.x+u_time*.3)-.05;}
+  float r=length(p),ang=atan(p.y,p.x);
+  vec3 a=vec3(.12,.12,.13),b=vec3(.03,.04,.05),c=vec3(1,1,1),d=vec3(.1,.2,.4);
+  vec3 col=palette(r*1.5+p0.x*.5+u_time*.1,a,b,c,d);
+  float disp=sin(r*25.0-u_time*1.5+ang*2.0)*.5+.5;col+=vec3(disp*.015,disp*.01,disp*.02);
+  col+=pow(sin(p.x*4.0+p.y*3.0+u_time)*.5+.5,8.0)*.08;
+  col=mix(vec3(.05,.05,.06),col,.85);gl_FragColor=vec4(col,1.0);
+}`;
+const FS_LIGHT=`precision highp float;
+uniform vec2 u_resolution;uniform float u_time;uniform vec2 u_mouse;
+float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+float noise(vec2 p){vec2 i=floor(p),f=fract(p);return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x),f.y);}
+float fbm(vec2 p){float v=0.0,a=.5;mat2 m=mat2(.80,.60,-.60,.80);for(int i=0;i<5;i++){v+=a*noise(p);p=m*p*2.02;a*=.5;}return v;}
+void main(){
+  vec2 uv=gl_FragCoord.xy/u_resolution.xy,p=uv;p.x*=u_resolution.x/u_resolution.y;
+  vec2 m=u_mouse;m.x*=u_resolution.x/u_resolution.y, md=p-m;float dl=length(md);
+  p+=normalize(md+vec2(.0001))*exp(-dl*5.0)*.03;
+  vec2 q=vec2(fbm(p*1.8+u_time*.07),fbm(p*1.8+vec2(5.2,1.3)+u_time*.06));
+  vec2 r=vec2(fbm(p*2.0+q*1.3+vec2(1.7,9.2)+u_time*.05),fbm(p*2.0+q*1.3+vec2(8.3,2.8)+u_time*.04));
+  float f=fbm(p*2.2+r*1.5);
+  vec3 col=mix(vec3(.86,.85,.84),vec3(.955,.945,.925),f);
+  float ph=r.x*2.2+u_time*.35;
+  col+=vec3(.78,.62,.92)*sin(ph)*.055+vec3(.55,.72,.95)*sin(ph*.8+2.0)*.05;
+  col+=smoothstep(.48,.92,f)*.06;gl_FragColor=vec4(col,1.0);
+}`;
+
+const mouse={x:.5,y:.5};
+addEventListener('mousemove',e=>{mouse.x=e.clientX/innerWidth;mouse.y=e.clientY/innerHeight});
+
+function bootGL(canvasId,fsSrc){
+  const canvas=document.getElementById(canvasId);
+  const gl=canvas.getContext('webgl',{alpha:false,antialias:true});
+  if(!gl)return ()=>false;
+  const mk=(t,s)=>{const sh=gl.createShader(t);gl.shaderSource(sh,s);gl.compileShader(sh);return gl.getShaderParameter(sh,gl.COMPILE_STATUS)?sh:null};
+  const vs=mk(gl.VERTEX_SHADER,VS),fs=mk(gl.FRAGMENT_SHADER,fsSrc);
+  if(!vs||!fs)return ()=>false;
+  const prog=gl.createProgram();
+  gl.attachShader(prog,vs);
+  gl.attachShader(prog,fs);
+  gl.linkProgram(prog);
+  if(!gl.getProgramParameter(prog,gl.LINK_STATUS))return ()=>false;
+  gl.useProgram(prog);
+  const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
+  const pos=gl.getAttribLocation(prog,'position');gl.enableVertexAttribArray(pos);gl.vertexAttribPointer(pos,2,gl.FLOAT,false,0,0);
+  const lRes=gl.getUniformLocation(prog,'u_resolution'),lT=gl.getUniformLocation(prog,'u_time'),lM=gl.getUniformLocation(prog,'u_mouse');
+  const resize=()=>{
+    const d=Math.min(window.devicePixelRatio||1,2);
+    const capW=window.__recording?1920:innerWidth*d, capH=window.__recording?1080:innerHeight*d;
+    canvas.width=capW;canvas.height=capH;gl.viewport(0,0,canvas.width,canvas.height);
+  };
+  addEventListener('resize',resize);resize();
+  return(tSec)=>{gl.uniform2f(lRes,canvas.width,canvas.height);gl.uniform1f(lT,tSec);gl.uniform2f(lM,mouse.x,1-mouse.y);gl.drawArrays(gl.TRIANGLES,0,6);return true};
+}
+const drawDark=bootGL('bg-dark',FS_DARK),drawLight=bootGL('bg-light',FS_LIGHT);
+const t0=Date.now();
+(function loop(){const t=(Date.now()-t0)/1000;drawDark(t);drawLight(t);if(!window.__recording)requestAnimationFrame(loop)})();
+
+// =============== 导航 ===============
+const deck=document.getElementById('deck');
+const slides=deck.querySelectorAll('.slide');
+const nav=document.getElementById('nav');
+let idx=0,total=slides.length,lock=false;
+deck.style.width=(total*100)+'vw';
+slides.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='dot';b.dataset.i=i;
+  b.setAttribute('aria-label','Page '+(i+1));b.onclick=()=>go(i);nav.appendChild(b);
+});
+function activateSlide(n){
+  slides.forEach(s=>s.classList.remove('active'));
+  const el=slides[n];
+  if(!el)return;
+  void el.offsetWidth;
+  el.classList.add('active');
+  replaySlideIntro(n, window.__recording ? 80 : 180);
+}
+function replaySlideIntro(n, baseDelay=0){
+  const slide=slides[n];
+  if(!slide)return;
+  const selector=[
+    '.frame .kicker',
+    '.frame .h-hero',
+    '.frame .h-xl',
+    '.frame .h-sub',
+    '.frame .h-md',
+    '.frame .lead',
+    '.frame p:not(.step-desc):not(.stat-note)',
+    '.frame pre',
+    '.frame .stat-card',
+    '.frame .step',
+    '.frame .callout',
+    '.frame .pipeline-section',
+    '.frame .frame-img',
+    '.frame blockquote',
+    '.frame .meta-row'
+  ].join(',');
+  const items=[...slide.querySelectorAll(selector)];
+  items.forEach((el,j)=>{
+    el.getAnimations().forEach(anim=>anim.cancel());
+    const delay=baseDelay+j*72;
+    let frames=[{opacity:0,transform:'translateY(22px)',filter:'blur(2px)'},{opacity:1,transform:'translateY(0)',filter:'blur(0)'}];
+    let duration=560;
+    if(el.matches('.h-hero')){
+      frames=[{opacity:0,transform:'scale(.94)',filter:'blur(3px)'},{opacity:1,transform:'scale(1)',filter:'blur(0)'}];
+      duration=820;
+    }else if(el.matches('.lead,p:not(.step-desc):not(.stat-note)')){
+      frames=[{opacity:.18,clipPath:'inset(0 100% 0 0)'},{opacity:1,clipPath:'inset(0 0 0 0)'}];
+      duration=760;
+    }else if(el.matches('pre')){
+      frames=[{opacity:0,transform:'translateY(18px)',filter:'blur(1.5px)'},{opacity:1,transform:'translateY(0)',filter:'blur(0)'}];
+      duration=640;
+    }else if(el.matches('.frame-img')){
+      frames=[{opacity:0,transform:'translateX(28px) scale(.985)',filter:'blur(2px)'},{opacity:1,transform:'translateX(0) scale(1)',filter:'blur(0)'}];
+      duration=780;
+    }
+    el.animate(frames,{duration,delay,easing:'cubic-bezier(.16,1,.3,1)',fill:'both'});
+  });
+}
+function go(n){
+  if(lock)return;
+  idx=Math.max(0,Math.min(total-1,n));
+  deck.style.transform=`translateX(${-idx*100}vw)`;
+  nav.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
+  const el=slides[idx],th=el.dataset.theme||(el.classList.contains('light')?'light':(el.classList.contains('dark')?'dark':'dark'));
+  document.body.classList.toggle('light-bg',th==='light');
+  activateSlide(idx);
+  if(window.__playSlide) setTimeout(()=>window.__playSlide(idx),450);
+  lock=true;setTimeout(()=>lock=false,700);
+}
+
+// ESC 索引
+let overviewOn=false;
+const ov=document.createElement('div');
+ov.id='overview';
+ov.style.cssText='position:fixed;inset:0;z-index:100;background:rgba(var(--ink-rgb),.92);backdrop-filter:blur(12px);display:none;overflow-y:auto;padding:4vh 4vw';
+document.body.appendChild(ov);
+function buildOverview(){
+  ov.innerHTML='';
+  const grid=document.createElement('div');
+  grid.style.cssText='display:grid;grid-template-columns:repeat(4,1fr);gap:2vh 1.6vw;max-width:90vw;margin:0 auto';
+  slides.forEach((s,i)=>{
+    const card=document.createElement('div');
+    card.style.cssText='cursor:pointer;border-radius:6px;overflow:hidden;border:2px solid '+(i===idx?'rgba(var(--bg-rgb),.8)':'rgba(var(--bg-rgb),.15)')+';transition:border-color .2s';
+    const wrap=document.createElement('div');
+    wrap.style.cssText='width:100%;aspect-ratio:16/9;overflow:hidden;position:relative;pointer-events:none;background:'+(s.classList.contains('light')?'var(--bg-base)':'var(--ink-base)');
+    const clone=s.cloneNode(true);clone.style.cssText='width:100vw;height:100vh;transform:scale('+(1/4.5)+');transform-origin:top left;position:absolute;top:0;left:0;pointer-events:none';
+    wrap.appendChild(clone);card.appendChild(wrap);
+    const label=document.createElement('div');
+    label.style.cssText='padding:6px 10px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--bg-base);opacity:.7';
+    label.textContent=(i+1)+' / '+total;card.appendChild(label);
+    card.onclick=()=>{toggleOverview();go(i)};grid.appendChild(card);
+  });ov.appendChild(grid);
+}
+function toggleOverview(){overviewOn=!overviewOn;if(overviewOn){buildOverview();ov.style.display='block'}else{ov.style.display='none'}}
+addEventListener('keydown',e=>{
+  if(e.key==='Escape'){e.preventDefault();toggleOverview();return}
+  if(overviewOn)return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' ')go(idx+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(idx-1);
+  if(e.key==='Home')go(0);if(e.key==='End')go(total-1);
+});
+let wheelTO=null,wheelAcc=0;
+addEventListener('wheel',e=>{wheelAcc+=e.deltaY+e.deltaX;if(Math.abs(wheelAcc)>50){go(idx+(wheelAcc>0?1:-1));wheelAcc=0};clearTimeout(wheelTO);wheelTO=setTimeout(()=>wheelAcc=0,150)},{passive:true});
+let tx=0,ty=0;
+addEventListener('touchstart',e=>{tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))go(idx+(dx<0?1:-1))},{passive:true});
+
+// =============== xuemu 入场动画 + 录制模式 ===============
+if(window.__recording){
+  document.body.classList.add('recording');
+  deck.style.transition='none';
+  let recIdx=0,recTimer=null,stopped=false;
+  const durations=[]; slides.forEach(s=>{const d=parseFloat(s.dataset.duration);durations.push(d>0?d:4.5)});
+  window.__xuemuTotalDuration=durations.reduce((a,b)=>a+b,0);
+
+  function waitForDeckAssets(){
+    const images=[...document.images].map(img=>{
+      if(img.decode)return img.decode().catch(()=>{});
+      if(img.complete)return Promise.resolve();
+      return new Promise(resolve=>{img.onload=resolve;img.onerror=resolve});
+    });
+    const fonts=document.fonts&&document.fonts.ready?document.fonts.ready.catch(()=>{}):Promise.resolve();
+    const ready=Promise.all([...images,fonts]);
+    const cap=new Promise(resolve=>setTimeout(resolve,4000));
+    return Promise.race([ready,cap]);
+  }
+
+  // JS-driven entrance animation for current slide
+  function animSlide(i){
+    activateSlide(i);
+    if(window.__playSlide) setTimeout(()=>window.__playSlide(i),120);
+  }
+
+  function recGo(n){
+    idx=Math.max(0,Math.min(total-1,n));
+    deck.style.transform=`translateX(${-idx*100}vw)`;
+    nav.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
+    const el=slides[idx],th=el.dataset.theme||(el.classList.contains('light')?'light':(el.classList.contains('dark')?'dark':'dark'));
+    document.body.classList.toggle('light-bg',th==='light');
+    animSlide(idx);
+  }
+
+  function recAdvance(){
+    if(stopped)return;
+    if(recIdx>=total-1){stopped=true;window.__done=true;return}
+    recIdx++;recGo(recIdx);
+    console.log('recAdvance→'+recIdx+' dur='+durations[recIdx]);
+    recTimer=setTimeout(recAdvance,durations[recIdx]*1000);
+  }
+
+  // Initial: show slide 0 with animation, then start advancing
+  recGo(0);
+  waitForDeckAssets().then(()=>{
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      window.__ready=true;
+      recTimer=setTimeout(recAdvance,durations[0]*1000);
+    }));
+  });
+}else{
+  requestAnimationFrame(()=>go(0));
+}
+</script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons()</script>
+</body>
+</html>
