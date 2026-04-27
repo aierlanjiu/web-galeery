@@ -3169,5 +3169,656 @@
         "title": "换挡逻辑",
         "prompt": "[ANALYSIS LOG]\nConcept: 换挡逻辑\nTarget AR: Vertical (3:4)\nVerified Standard: GB/T 38146.1-2019\nCore Physics: P = T * n / 9550\nLayout Strategy: Single Column Stack\nChart Geometry: A 2D Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled 'Vehicle Speed', Y-axis explicitly labeled 'Throttle Opening'. Multiple stepped linear upward-sloping curves in white and red chalk representing gear shift schedules\nChart Labels: X: Speed, Y: Throttle\nVerification Checkpoints: 强动力, 低油耗, 高平顺\n\n/imagine prompt: A high-precision engineering education visualization of \"换挡逻辑\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate or Green, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square. The entire composition features a red seal reading \"雪沐江南\". At the very top of the layout, the title \"换挡逻辑\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"GEARSHIFT LOGIC & TCU ALGORITHM\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of a translucent glowing Transmission Control Unit (TCU) microchip hovering over a complex metallic valve body floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\". Below the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a foot pressing a pedal icon labeled \"油门开度\" in handwritten Chinese, a speedometer dial icon labeled \"车速信号\", a microchip with circuit lines icon labeled \"控制算法\", and a meshing gears icon labeled \"执行机构\". In the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"V_shift = f(α, RPM)\", a parameter limit reading \"Threshold < 10ms\", and a standard reference reading \"Ref: GB/T 38146.1-2019\". In the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\". Below this line, the layout uses a single column stack of small hyper-realistic real-metal 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a macro 3D render of a multi-layer circuit board TCU with chalk text \"1. 变速箱控制单元：作为整个系统的核心大脑，实时接收并处理车辆传感器信号，计算最佳换挡时机\", a macro 3D render of an electro-hydraulic solenoid valve with chalk text \"2. 电磁滑阀机构：接收TCU电信号，将数字指令转化为精确的液压控制力，驱动离合器或制动器动作\", a macro 3D render of a hall-effect speed sensor with chalk text \"3. 霍尔转速传感器：实时监测变速箱输入轴与输出轴转速，为换挡点计算和滑移率控制提供高精度数据\", and a macro 3D render of an electronic accelerator pedal with chalk text \"4. 电子加速踏板：直接反映驾驶员的动力需求意图，其开度变化率决定了变速箱是维持挡位还是触发降挡\". At the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of a 2D Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled 'Vehicle Speed', Y-axis explicitly labeled 'Throttle Opening'. Multiple stepped linear upward-sloping curves in white and red chalk representing gear shift schedules with explicit text \"X: Speed, Y: Throttle\" next to the diagram axes. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 强动力 √\", \"2. 低油耗 √\", and \"3. 高平顺 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
         "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/换挡逻辑/visual.webp"
+    },
+    {
+        "id": 454,
+        "category": "底盘操控",
+        "title": "image27",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image27",
+        "image_path": "./assets/image27.webp"
+    },
+    {
+        "id": 455,
+        "category": "底盘操控",
+        "title": "promo_seats",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 promo_seats",
+        "image_path": "./assets/promo_seats.webp"
+    },
+    {
+        "id": 456,
+        "category": "底盘操控",
+        "title": "image31",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image31",
+        "image_path": "./assets/image31.webp"
+    },
+    {
+        "id": 457,
+        "category": "底盘操控",
+        "title": "red_envelope_case3",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 red_envelope_case3",
+        "image_path": "./assets/red_envelope_case3.webp"
+    },
+    {
+        "id": 458,
+        "category": "底盘操控",
+        "title": "_防_尘_套_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _防_尘_套_",
+        "image_path": "./assets/_防_尘_套_.webp"
+    },
+    {
+        "id": 459,
+        "category": "底盘操控",
+        "title": "image5",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image5",
+        "image_path": "./assets/image5.webp"
+    },
+    {
+        "id": 460,
+        "category": "底盘操控",
+        "title": "_拉_杆_式_悬_挂_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _拉_杆_式_悬_挂_",
+        "image_path": "./assets/_拉_杆_式_悬_挂_.webp"
+    },
+    {
+        "id": 461,
+        "category": "底盘操控",
+        "title": "image11",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image11",
+        "image_path": "./assets/image11.webp"
+    },
+    {
+        "id": 462,
+        "category": "底盘操控",
+        "title": "image9",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image9",
+        "image_path": "./assets/image9.webp"
+    },
+    {
+        "id": 463,
+        "category": "底盘操控",
+        "title": "_叶_片_弹_簧_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _叶_片_弹_簧_",
+        "image_path": "./assets/_叶_片_弹_簧_.webp"
+    },
+    {
+        "id": 464,
+        "category": "底盘操控",
+        "title": "image8",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image8",
+        "image_path": "./assets/image8.webp"
+    },
+    {
+        "id": 465,
+        "category": "底盘操控",
+        "title": "_悬_挂_硬_件_与_几_何_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _悬_挂_硬_件_与_几_何_",
+        "image_path": "./assets/_悬_挂_硬_件_与_几_何_.webp"
+    },
+    {
+        "id": 466,
+        "category": "底盘操控",
+        "title": "_聚_氨_酯_缓_冲_块_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _聚_氨_酯_缓_冲_块_",
+        "image_path": "./assets/_聚_氨_酯_缓_冲_块_.webp"
+    },
+    {
+        "id": 467,
+        "category": "底盘操控",
+        "title": "image10",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image10",
+        "image_path": "./assets/image10.webp"
+    },
+    {
+        "id": 468,
+        "category": "底盘操控",
+        "title": "_井_字_架_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _井_字_架_",
+        "image_path": "./assets/_井_字_架_.webp"
+    },
+    {
+        "id": 469,
+        "category": "底盘操控",
+        "title": "image4",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image4",
+        "image_path": "./assets/image4.webp"
+    },
+    {
+        "id": 470,
+        "category": "底盘操控",
+        "title": "_阀_片_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _阀_片_",
+        "image_path": "./assets/_阀_片_.webp"
+    },
+    {
+        "id": 471,
+        "category": "底盘操控",
+        "title": "asset_999",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 asset_999",
+        "image_path": "./assets/asset_999.webp"
+    },
+    {
+        "id": 472,
+        "category": "底盘操控",
+        "title": "_阻_尼_孔_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _阻_尼_孔_",
+        "image_path": "./assets/_阻_尼_孔_.webp"
+    },
+    {
+        "id": 473,
+        "category": "底盘操控",
+        "title": "red_envelope_case2",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 red_envelope_case2",
+        "image_path": "./assets/red_envelope_case2.webp"
+    },
+    {
+        "id": 474,
+        "category": "底盘操控",
+        "title": "image30",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image30",
+        "image_path": "./assets/image30.webp"
+    },
+    {
+        "id": 475,
+        "category": "底盘操控",
+        "title": "image26",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image26",
+        "image_path": "./assets/image26.webp"
+    },
+    {
+        "id": 476,
+        "category": "底盘操控",
+        "title": "promo_seats_update",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 promo_seats_update",
+        "image_path": "./assets/promo_seats_update.webp"
+    },
+    {
+        "id": 477,
+        "category": "底盘操控",
+        "title": "_活_塞_杆_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _活_塞_杆_",
+        "image_path": "./assets/_活_塞_杆_.webp"
+    },
+    {
+        "id": 478,
+        "category": "底盘操控",
+        "title": "image17",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image17",
+        "image_path": "./assets/image17.webp"
+    },
+    {
+        "id": 479,
+        "category": "底盘操控",
+        "title": "image21",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image21",
+        "image_path": "./assets/image21.webp"
+    },
+    {
+        "id": 480,
+        "category": "底盘操控",
+        "title": "_塔_顶_胶_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _塔_顶_胶_",
+        "image_path": "./assets/_塔_顶_胶_.webp"
+    },
+    {
+        "id": 481,
+        "category": "底盘操控",
+        "title": "image37",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image37",
+        "image_path": "./assets/image37.webp"
+    },
+    {
+        "id": 482,
+        "category": "底盘操控",
+        "title": "_防_倾_杆_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _防_倾_杆_",
+        "image_path": "./assets/_防_倾_杆_.webp"
+    },
+    {
+        "id": 483,
+        "category": "底盘操控",
+        "title": "image3",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image3",
+        "image_path": "./assets/image3.webp"
+    },
+    {
+        "id": 484,
+        "category": "底盘操控",
+        "title": "image2",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image2",
+        "image_path": "./assets/image2.webp"
+    },
+    {
+        "id": 485,
+        "category": "底盘操控",
+        "title": "image36",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image36",
+        "image_path": "./assets/image36.webp"
+    },
+    {
+        "id": 486,
+        "category": "底盘操控",
+        "title": "image20",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image20",
+        "image_path": "./assets/image20.webp"
+    },
+    {
+        "id": 487,
+        "category": "底盘操控",
+        "title": "image16",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image16",
+        "image_path": "./assets/image16.webp"
+    },
+    {
+        "id": 488,
+        "category": "底盘操控",
+        "title": "asset_1002",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 asset_1002",
+        "image_path": "./assets/asset_1002.webp"
+    },
+    {
+        "id": 489,
+        "category": "底盘操控",
+        "title": "_底_盘_加_强_件_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _底_盘_加_强_件_",
+        "image_path": "./assets/_底_盘_加_强_件_.webp"
+    },
+    {
+        "id": 490,
+        "category": "底盘操控",
+        "title": "_绞_牙_避_震_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _绞_牙_避_震_",
+        "image_path": "./assets/_绞_牙_避_震_.webp"
+    },
+    {
+        "id": 491,
+        "category": "底盘操控",
+        "title": "image15",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image15",
+        "image_path": "./assets/image15.webp"
+    },
+    {
+        "id": 492,
+        "category": "底盘操控",
+        "title": "asset_1001",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 asset_1001",
+        "image_path": "./assets/asset_1001.webp"
+    },
+    {
+        "id": 493,
+        "category": "底盘操控",
+        "title": "_副_车_架_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _副_车_架_",
+        "image_path": "./assets/_副_车_架_.webp"
+    },
+    {
+        "id": 494,
+        "category": "底盘操控",
+        "title": "image1",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image1",
+        "image_path": "./assets/image1.webp"
+    },
+    {
+        "id": 495,
+        "category": "底盘操控",
+        "title": "red_envelope_cover",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 red_envelope_cover",
+        "image_path": "./assets/red_envelope_cover.webp"
+    },
+    {
+        "id": 496,
+        "category": "底盘操控",
+        "title": "image19",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image19",
+        "image_path": "./assets/image19.webp"
+    },
+    {
+        "id": 497,
+        "category": "底盘操控",
+        "title": "_液_压_止_形_块_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _液_压_止_形_块_",
+        "image_path": "./assets/_液_压_止_形_块_.webp"
+    },
+    {
+        "id": 498,
+        "category": "底盘操控",
+        "title": "image35",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image35",
+        "image_path": "./assets/image35.webp"
+    },
+    {
+        "id": 499,
+        "category": "底盘操控",
+        "title": "_单_筒_减_震_器_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _单_筒_减_震_器_",
+        "image_path": "./assets/_单_筒_减_震_器_.webp"
+    },
+    {
+        "id": 500,
+        "category": "底盘操控",
+        "title": "image23",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image23",
+        "image_path": "./assets/image23.webp"
+    },
+    {
+        "id": 501,
+        "category": "底盘操控",
+        "title": "image22",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image22",
+        "image_path": "./assets/image22.webp"
+    },
+    {
+        "id": 502,
+        "category": "底盘操控",
+        "title": "image34",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image34",
+        "image_path": "./assets/image34.webp"
+    },
+    {
+        "id": 503,
+        "category": "底盘操控",
+        "title": "image18",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image18",
+        "image_path": "./assets/image18.webp"
+    },
+    {
+        "id": 504,
+        "category": "底盘操控",
+        "title": "_复_合_材_料_板_簧_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _复_合_材_料_板_簧_",
+        "image_path": "./assets/_复_合_材_料_板_簧_.webp"
+    },
+    {
+        "id": 505,
+        "category": "底盘操控",
+        "title": "_双_筒_减_震_器_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _双_筒_减_震_器_",
+        "image_path": "./assets/_双_筒_减_震_器_.webp"
+    },
+    {
+        "id": 506,
+        "category": "底盘操控",
+        "title": "_主_动_防_倾_杆_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _主_动_防_倾_杆_",
+        "image_path": "./assets/_主_动_防_倾_杆_.webp"
+    },
+    {
+        "id": 507,
+        "category": "底盘操控",
+        "title": "image38",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image38",
+        "image_path": "./assets/image38.webp"
+    },
+    {
+        "id": 508,
+        "category": "底盘操控",
+        "title": "asset_1000",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 asset_1000",
+        "image_path": "./assets/asset_1000.webp"
+    },
+    {
+        "id": 509,
+        "category": "底盘操控",
+        "title": "image14",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image14",
+        "image_path": "./assets/image14.webp"
+    },
+    {
+        "id": 510,
+        "category": "底盘操控",
+        "title": "image7",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image7",
+        "image_path": "./assets/image7.webp"
+    },
+    {
+        "id": 511,
+        "category": "底盘操控",
+        "title": "red_envelope_case1",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 red_envelope_case1",
+        "image_path": "./assets/red_envelope_case1.webp"
+    },
+    {
+        "id": 512,
+        "category": "底盘操控",
+        "title": "image33",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image33",
+        "image_path": "./assets/image33.webp"
+    },
+    {
+        "id": 513,
+        "category": "底盘操控",
+        "title": "image25",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image25",
+        "image_path": "./assets/image25.webp"
+    },
+    {
+        "id": 514,
+        "category": "底盘操控",
+        "title": "image13",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image13",
+        "image_path": "./assets/image13.webp"
+    },
+    {
+        "id": 515,
+        "category": "底盘操控",
+        "title": "_顶_吧_（_平_衡_杆_）_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _顶_吧_（_平_衡_杆_）_",
+        "image_path": "./assets/_顶_吧_（_平_衡_杆_）_.webp"
+    },
+    {
+        "id": 516,
+        "category": "底盘操控",
+        "title": "image29",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image29",
+        "image_path": "./assets/image29.webp"
+    },
+    {
+        "id": 517,
+        "category": "底盘操控",
+        "title": "image28",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image28",
+        "image_path": "./assets/image28.webp"
+    },
+    {
+        "id": 518,
+        "category": "底盘操控",
+        "title": "image12",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image12",
+        "image_path": "./assets/image12.webp"
+    },
+    {
+        "id": 519,
+        "category": "底盘操控",
+        "title": "image24",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image24",
+        "image_path": "./assets/image24.webp"
+    },
+    {
+        "id": 520,
+        "category": "底盘操控",
+        "title": "image32",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image32",
+        "image_path": "./assets/image32.webp"
+    },
+    {
+        "id": 521,
+        "category": "底盘操控",
+        "title": "_氮_气_避_震_",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 _氮_气_避_震_",
+        "image_path": "./assets/_氮_气_避_震_.webp"
+    },
+    {
+        "id": 522,
+        "category": "底盘操控",
+        "title": "image6",
+        "prompt": "VISUAL ARCHITECT - 【底盘操控】: 内部档案 image6",
+        "image_path": "./assets/image6.webp"
+    },
+    {
+        "id": 523,
+        "category": "赛车竞技",
+        "title": "poster_1772430145",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"蔚来新ET5\". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] 1. GLOBAL SETTINGS [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, \"Kinfolk\" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal \"雪沐江南\" 2. HEADER SECTION [Top Area]: Title: \"蔚来新ET5\" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. Subtitle: \"NIO ET5 SMART ELECTRIC SEDAN\" in smaller, thinner chalk handwriting. Visual Anchor: A Hyper-realistic 3D Render of High-performance Dual-Motor All-Wheel Drive System floating slightly in front, casting soft shadow. Decor: Minimalist technical drafting border, incorporating a \"雪沐江南\" (Xuemu) proprietary engineering stamp/seal in white chalk. 3. SECTION 1 - CORE THEMES (Schematics) [Upper Area]: Header: Hand-drawn line with text \"核心机制 (MECHANISM)\". Style: White Chalk Schematics (Simplified Physics Icons).",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/蔚来新ET5/poster_1772430145.webp"
+    },
+    {
+        "id": 524,
+        "category": "赛车竞技",
+        "title": "poster_1772407955",
+        "prompt": "/imagine prompt: A high-quality Vertical industrial design magazine spread, featuring \"阿维塔12\". [VERSION: TITANIUM paper-textured background 9.1] // --- 1. GLOBAL SETTINGS (THE paper-textured background AESTHETIC) --- [Style]: High-end Editorial Photography, Mixed Reality (2D paper-textured background vs 3D Metal), \"Kinfolk\" meets \"Braun Design\". [Background]: Full-Frame High-texture Matte Art paper-textured background (Off-White/Cream) filling the entire image. NO desktop, NO table surface visible. The paper-textured background IS the background. [Lighting]: Hard Sunlight (Warm White) casting sharp, defined shadows of the 3D components onto the paper-textured background. [Color Palette]: Charcoal Grey (Main Text) + Prussian Blue (Technical Data) + Silver/Chrome (3D Parts). [Perspective]: Top-down flat lay (90°) , zoomed in to fill the frame with the paper-textured background content. // --- 2. HEADER SECTION (The Title Block) --- [Top Area]: - Title: \"阿维塔12\" in massive Bold Sans-Serif (Helvetica/DIN), Deep Black Ink. - Subtitle: \"AVATR 12 GRAN COUPE\" in elegant Serif font (Prussian Blue). - Visual Anchor: A Hyper-realistic 3D Render of a sleek Huawei 96-line LiDAR module sitting physically ON the paper-textured background, casting a hard shadow over the title. - Decor: \"Figure 1.0\" label, Barcode sticker, Red Seal \"雪沐江南\", fine cross-hair lines printed on paper-textured background. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Icons) --- [Upper Area]: - Header: Minimalist line divider with text \"核心机制 (CORE MECHANISM)\". - Style: Fine-line Technical Illustrations (Blueprint Style) printed on the paper-textured background. - Content: 1. [Ink Sketch of Smart Cockpit] Label: \"鸿蒙智舱\" 2. [Ink Sketch of Autonomous Driving] Label: \"高阶智驾\" 3. [Ink Sketch of Battery Pack] Label: \"宁德电池\" 4. [Ink Sketch of Electronic Mirror] Label: \"电子后视\" 5. [Ink Sketch of Cabin Interior] Label: \"茧式座舱\" // --- 4. SECTION 2 - AXIOMS (The Data Blocks) --- [Middle Area]: - Header: Minimalist line divider with text \"工程定律 (AXIOMS)\". - Layout: Vertical Stack. - Style: \"Post-it\" style highlighted blocks or shaded grey areas on the paper-textured background. - Block 1: Typography Math \"Fd=0.5pv^2CdA\" - Block 2: Data Highlight \"阈值 < 0.21 Cd\" - Block 3: Standard Stamp \"执行标准 GB 38031\" (Look like a red/blue approval stamp). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) --- [Main Content Area]: - Header: Minimalist line divider with text \"深度解构 (DECONSTRUCTION)\". - Layout: SINGLE COLUMN STACK (Magazine Column). - Logic: Small 3D Part Renders (floating) + Typeset Text. MUST USE CHINESE CHARACTERS. Text must be large, crisp, and legible. NO blurry small text. - Text Strategy: Strictly use CHINESE natural sentences. * Item 1: [Real Component DriveONE Motor] + \"1. 华为双电机：前交流异步与后永磁同步电机组合，释放澎湃动力\" * Item 2: [Real Component CATL Battery] + \"2. 宁德时代电池：定制化下沉式结构设计，兼顾低趴造型与乘坐空间\" * Item 3: [Real Component LiDAR] + \"3. 隐藏式激光雷达：三颗分布于车身四周，实现全向高精度感知辅助驾驶\" * Item 4: [Real Component Electronic Mirror] + \"4. 电子外后视镜：超高分辨率防眩光屏幕，极端环境依然提供清晰视野\" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]: - Header: Minimalist line divider with text \"可视验证 (VERIFICATION)\". - Content: * Left: A geometric graphic showing a neat 2D Cartesian line graph with a precise parabolic curve drawn in thin straight pencil lines in minimalist hand-drawn pencil style. Explicitly write the text \"Aero, Drag\" next to the diagram nodes. * Right: A high-contrast graphic block showing a precise aerodynamic wind-tunnel flow diagram printed in Prussian Blue ink with translucent tracing paper overlays showing vehicle silhouette cross-sections. * Footer: \"雪沐江南 · VISUAL ARCHITECT\" in small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/阿维塔12/poster_1772407955.webp"
+    },
+    {
+        "id": 525,
+        "category": "赛车竞技",
+        "title": "poster_1772495940",
+        "prompt": "/imagine prompt: A high-impact vertical industrial design spread, featuring \"巴音布鲁克\". [VERSION: HOLO-FLUX v10.0] Style: Acid Graphics, Cyber-Industrial, Y2K Futurism, High-fidelity Product Photography. Background: Full-Frame Holographic Silver Foil Paper (Iridescent Texture). The paper surface reflects a prismatic rainbow spectrum (Pink/Cyan/Silver) under the light. Lighting: High-Contrast Studio Strobe. Sharp, hard shadows. The light creates Spectral Dispersion rainbow flares on the holographic paper. Color Palette: Metallic Silver Background + Deep Black Text + Acid Green (#CCFF00) or Electric Purple Highlights. Perspective: Strict 90° Top-down Flat Lay. Zero distortion, perfect alignment. Top Area: Title: \"巴音布鲁克\" in massive Heavy Bold Industrial Sans-Serif, printed in Reflective Chrome Ink. Subtitle: \"BAYANBULAK RALLY PROTOCOL\" in pixelated monospace font (Acid Green). Visual Anchor: A Chrome-Plated 3D Render of a highly reinforced Rally Car Chassis with integrated FIA-spec roll cage sitting on the holographic paper. It reflects the iridescent background. Decor: FIG 10.0, QR Code Stamp, Caution Tape Graphics, Glitch artifact details. Upper Area: Header: Thick black bar with inverted text \"核心机制 (CORE MECHANISM)\". Style: Vector Wireframe Graphics (Neon Green lines) printed directly onto the silver paper. Content: 1. Wireframe Mountain Elevation Profile Icon Label: \"海拔落差 (ELEVATION DROP)\". 2. Wireframe Zig-Zag Arrow Icon Label: \"魔鬼弯道 (DEVIL CURVES)\". 3. Wireframe Gravel Texture Icon Label: \"砂石路面 (GRAVEL SURFACE)\". 4. Wireframe Cloud with Drop Icon Label: \"绝壁云端 (CLIFF EDGE)\". Middle Area: Header: Thick black bar with inverted text \"工程定律 (AXIOMS)\". Layout: Vertical Stack. Style: Error Message aesthetic blocks. Black boxes with Acid Green text. Block 1: Typography Math \"R_index = (V² / Radius) / μ_friction\". Block 2: Data Highlight \"SUCCESS RATE < 50%\" (in LED Dot Matrix font). Block 3: Standard Stamp \"GB-FIA-STD-253\" (stamped in Neon Red ink). Main Content Area: Header: Thick black bar with inverted text \"深度解构 (DECONSTRUCTION)\". Layout: SINGLE COLUMN STACK. Logic: Chrome 3D Parts + High-Contrast Typography. Text must be pure black on silver for maximum readability. Item 1: Chrome 3D Long-travel Suspension Assembly + \"1. 长行程悬架系统：吸收高速砂石跳跃冲击，确保轮胎时刻抓地，维持失控边缘的循迹性。\" Item 2: Chrome 3D Anti-Lag System (ALS) Turbocharger + \"2. ALS偏时点火系统：在低速弯角或收油时维持涡轮转速，提供零延迟的动力响应。\" Item 3: Chrome 3D Sequential Gearbox with Shifter + \"3. 序列式波箱：在毫秒级完成换挡，确保持续的动力输出以对抗高海拔阻力。\" Item 4: Chrome 3D Aggressive Gravel Rally Tire + \"4. 专用砂石轮胎：强化胎侧与激进花纹设计，在多变碎石路面上切割出最大侧向抓地力。\" Bottom Area: Header: Thick black bar with inverted text \"可视验证 (VERIFICATION)\". Content: Left: A minimalist geometric graphic showing a geometric 2D diagram made of right-angled Acid Green lines resembling a simplified elevation profile with 5 circular nodes connected by zig-zagging circuit lines. Explicitly write the text \"ELEV, NODES\" next to the diagram nodes. Right: A high-contrast graphic block showing a rectangular block with a magenta-to-cyan color gradient representing a visual stress test heatmap on a rally tire tread pattern. Footer: \"雪沐江南 · VISUAL ARCHITECT\" in Barcode/Data-strip format. --ar 3:4 --stylize 500 --v 6.1 --no low resolution, wooden table, organic textures, soft lighting, warm tones, vintage paper, rustic style, messy, cluttered, distorted faces, floating unconnected arrows, unlabelled graph axes, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/巴音布鲁克/poster_1772495940.webp"
+    },
+    {
+        "id": 526,
+        "category": "赛车竞技",
+        "title": "poster_1772408181",
+        "prompt": "/imagine prompt: A high-impact Vertical industrial design spread, featuring \"领克Z20\". [VERSION: DIMENSION BREAKER v10.1] // --- 1. GLOBAL SETTINGS (THE BREAKTHROUGH AESTHETIC) --- [Style]: Hyper-realistic Industrial Photography, Trompe-l'œil (Optical Illusion), \"Torn Paper\" Collage, High-Fidelity Rendering. [Background]: Double-Layered Composition. - Top Layer: Pristine White Technical Paper (Matte), but physically torn, crushed, or peeled back in the center. - Bottom Layer (The Reveal): Dark Carbon Fiber texture, Blueprints, or Brushed Metal surface visible through the tears. [Lighting]: Dramatic Volumetric Lighting. Hard shadows cast by the torn paper edges and the 3D components. High contrast between the bright white paper and the dark mechanical void. [Color Palette]: Matte White (Surface) + Industrial Orange/Red (Warning Accents) + Deep Gunmetal (Machinery). [Perspective]: Strict 90° Top-down Flat Lay. The depth is conveyed through shadows and layering, not camera angle. // --- 2. HEADER SECTION (The Impact Zone) --- [Top Area]: - Title: \"领克Z20\" in massive Bold Stencil Font (Military Style). The text appears partially printed on the paper and partially floating. - Subtitle: \"LYNK & CO Z20 GRAN COUPE\" in monospace font. - Visual Anchor: A Heavyweight 3D Render of the high-performance SEA platform-based electric motor unit with its casing. - Interaction: The motor is NOT just sitting on the paper. It appears to be breaking through the paper from underneath, OR sitting so heavily that the paper is wrinkled and depressed around it. - Decor: Scorch marks, oil smudges, \"DANGER\" tag, torn paper edges casting shadows. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Surface) --- [Upper Area]: - Header: Minimalist divider \"核心机制 (CORE MECHANISM)\". - Style: Pencil Sketch / Engineering Draft printed on the untorn sections of the white paper. - Content: 1. [Sketch of Aerodynamic Profile] Label: \"空气动力\" 2. [Sketch of Performance Battery Pack] Label: \"能量密度\" 3. [Sketch of Electric Powertrain] Label: \"电驱性能\" 4. [Sketch of Smart Cockpit] Label: \"车机互联\" // --- 4. SECTION 2 - AXIOMS (The Hidden Truth) --- [Middle Area]: - Header: Minimalist divider \"工程定律 (AXIOMS)\". - Location: Located inside a \"Torn Window\" or on a darker patch of the layout. - Style: Backlit LCD effect or White text on Dark Background (representing the data inside the machine). - Block 1: Typography Math \"P = √3 * V * I * cosφ * η\" - Block 2: Data Highlight \"LIMIT > 218 hp\" - Block 3: Standard Stamp \"GB-T 18488\" (Stamped like a metal engraving). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) --- [Main Content Area]: - Header: Minimalist divider \"深度解构 (DECONSTRUCTION)\". // *** ADAPTIVE LAYOUT SWITCH *** // IF VERTICAL (3:4, 2:3): - Layout: SINGLE COLUMN STACK. - Logic: Exploded View Parts floating above the paper. - Text Strategy: Strictly use CHINESE natural sentences. * Item 1: [Real Component Performance Motor] + \"1. 高性能电机：搭载大功率永磁同步电机，提供瞬时扭矩，赋予卓越加速性能与运动操控感\" * Item 2: [Real Component SEA Platform Architecture] + \"2. SEA浩瀚架构：基于纯电架构开发，灵活拓展，优化底盘布局，提升整车操控极限\" * Item 3: [Real Component Thermal Management System] + \"3. 热管理系统：高效液冷系统，确保电池与电机在赛道极端负载下依然维持最佳工作温度\" * Item 4: [Real Component Sport Tuned Suspension] + \"4. 运动悬架调校：精心调校的前麦弗逊后多连杆悬架，提升侧向支撑，带来精准指向\" // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]: - Header: Minimalist divider \"可视验证 (VERIFICATION)\". - Content: * Left: A minimalist geometric graphic showing a thick black marker drawing of an X-Y axis graph with a solid parabolic curve drawn directly on the paper with a thick black marker. Explicitly write the text \"POWER, RPM\" next to the diagram nodes. * Right: A high-contrast graphic block showing a high-fidelity X-Ray cross-section render of a high-performance brake caliper and disc assembly, showing the internal ventilation channels and friction material. * Footer: \"雪沐江南 · VISUAL ARCHITECT\" in small industrial type. --ar 3:4 --stylize 400 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/领克Z20/poster_1772408181.webp"
+    },
+    {
+        "id": 527,
+        "category": "赛车竞技",
+        "title": "poster_1772435295",
+        "prompt": "[ANALYSIS LOG]\nConcept: 林臻东 (Concept from \"Pegasus\" movie, symbolizing elite, well-funded, data-driven rally performance)\nTarget AR: Vertical (3:4)\nVerified Standard: FIA Appendix J (Article 254) - Regulations for Production Cars (Group N) / Touring Cars (Group A), relevant to professional rally prep.\nCore Physics: Friction Ellipse Model (Combines F\nx\n\t​\n\n longitudinal and F\ny\n\t​\n\n lateral forces based on F\nz\n\t​\n\n load and μ friction coefficient).\nLayout Strategy: Single Column Stack (3:4).\nChart Geometry: An X-Y Cartesian coordinate graph drawn in chalk, showing a semi-circle (Friction Ellipse boundary) in the upper quadrant.\nChart Labels: \"X: 侧向G力\", \"Y: 纵向G力\"\nVerification Checkpoints: 数据化, 模块化, 零失误\n\n/imagine prompt: A high-precision engineering education visualization of \"林臻东 竞速系统\". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, \"Kinfolk\" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper resting elegantly on edge. [Decor]: Red Seal \"雪沐江南\" // --- 2. HEADER SECTION --- [Top Area]: - Title: \"林臻东 竞速系统\" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. - Subtitle: \"LIN ZHENDONG ELITE RALLY ENGINEERING\" in smaller, thinner chalk handwriting. - Visual Anchor: A Hyper-realistic 3D Render of a Sequential Rally Gearbox with Telemetry Sensors and Wiring floating slightly in front, casting soft shadow. - Decor: Minimalist technical drafting border, incorporating a \"雪沐江南\" (Xuemu) proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: - Header: Hand-drawn line with text \"核心机制 (MECHANISM)\". - Style: White Chalk Schematics (Simplified Physics Icons). - Content: 1. [Icon: Laptop with stylized network waves and bar chart] + Label: \"数据解构\" (Handwritten Chinese) 2. [Icon: Professional rally suspension coilover with force vectors] + Label: \"极限悬挂\" (Handwritten Chinese) 3. [Icon: Simplified diagram of a Sequential Gear shifter mechanism] + Label: \"瞬时换挡\" (Handwritten Chinese) 4. [Icon: Reinforced chassis structure with 'X' braces] + Label: \"强化车身\" (Handwritten Chinese) // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: - Header: Hand-drawn line with text \"工程定律 (AXIOMS)\". - Style: Minimalist Equation Blocks drawn in fine chalk. - Block 1: Hand-written Math Formula \"[ (\\frac{Fx}{Fz \\cdot \\mu x})^2 + (\\frac{Fy}{Fz \\cdot \\mu y})^2 \\leq 1 ]\" (Friction Ellipse) - Block 2: Parameter Limit \"轮胎利用率 < 98.5%\" - Block 3: Standard Ref \"Ref: FIA App J Art.254\" // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: - Header: Hand-drawn line with text \"深度解构 (DECONSTRUCTION)\". // *** ADAPTIVE LAYOUT LOGIC *** // VERTICAL (3:4): - Layout: SINGLE COLUMN STACK. - Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. - Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. * Item 1: [Macro 3D Render of Professional Rally Dampers with remote reservoirs] + Chalk Text: \"1. 高性能减震器：集成数据采集模块，实时监控阻尼特性，实现针对不同赛段路面的毫米级精准调校。\" * Item 2: [Macro 3D Render of a full carbon fiber air intake and filter box] + Chalk Text: \"2. 轻量化进气：采用碳纤维材质，优化进气流场动力学，确保发动机在极端拉力环境下的最大充气效率。\" * Item 3: [Macro 3D Render of a professional racing ECU in a magnesium case] + Chalk Text: \"3. 顶级赛事ECU：双核处理架构，支持上百路传感器输入，通过高精算法实现瞬时牵引力控制与防滞后系统管理。\" * Item 4: [Macro 3D Render of forged racing wheels and high-friction brake setup] + Chalk Text: \"4. 制动与簧下：锻造铝合金轮毂配合通风刹车盘与六活塞卡钳，极致减重，提供卓越的制动性能与响应速度。\" // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: - Header: Hand-drawn line with text \"可视验证 (VERIFICATION)\". - Content: * Left: A minimalist chalk drawing of a 2D Cartesian coordinate graph drawn in white chalk. A perfect circle is drawn in the center, representing the boundary. A dot is marked near the edge of the circle with an arrow pointing outward. Explicitly write the text \"[ X: 侧向G力 Y: 纵向G力 ]\" next to the diagram axes. Keep lines clean and logical. * Right: Explicit Handwritten Checklist: - Text \"1. 数据化验证 √\" (Ensure explicit Chinese text rendering) - Text \"2. 模块化构建 √\" (Ensure explicit Chinese text rendering) - Text \"3. 零失误执行 √\" (Ensure explicit Chinese text rendering) * Footer: \"雪沐江南 · VISUAL ARCHITECT\" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/林臻东/poster_1772435295.webp"
+    },
+    {
+        "id": 528,
+        "category": "赛车竞技",
+        "title": "poster_1772495629",
+        "prompt": "[ANALYSIS LOG]\nConcept: 现代i20 N\nTarget AR: Vertical (3:4)\nVerified Standard: GB/T 18297 (内燃机性能试验方法)\nLayout Strategy: Single Column Stack\nChart Geometry (Left): A minimalist hexagonal radar chart made of glowing acid green laser lines.\nChart Labels: G-FORCE, CORNERING\nChart Visual (Right): A high-contrast rectangular graphic block displaying a frequency spectrum heatmap shifting from purple to acid green to magenta.\n\n[THE MIDJOURNEY PROMPT]\n\n/imagine prompt: A high-impact vertical industrial design spread, featuring \"现代i20 N\". [VERSION: HOLO-FLUX v10.0] Style: Acid Graphics, Cyber-Industrial, Y2K Futurism, High-fidelity Product Photography. Background: Full-Frame Holographic Silver Foil Paper (Iridescent Texture). The paper surface reflects a prismatic rainbow spectrum (Pink/Cyan/Silver) under the light. Lighting: High-Contrast Studio Strobe. Sharp, hard shadows. The light creates Spectral Dispersion rainbow flares on the holographic paper. Color Palette: Metallic Silver Background + Deep Black Text + Acid Green (#CCFF00) Highlights. Perspective: Strict 90° Top-down Flat Lay. Zero distortion, perfect alignment. Top Area: Title: \"现代i20 N\" in massive Heavy Bold Industrial Sans-Serif, printed in Reflective Chrome Ink. Subtitle: \"WRC INSPIRED PERFORMANCE\" in monospace font (Acid Green). Visual Anchor: A Chrome-Plated 3D Render of 1.6 T-GDi Gamma II Engine sitting on the holographic paper. It reflects the iridescent background. Decor: FIG 10.0, QR Code Stamp, Caution Tape Graphics, Glitch artifact details. Upper Area: Header: Thick black bar with inverted text \"核心机制 (CORE MECHANISM)\". Style: Vector Wireframe Graphics (Neon Green lines) printed directly onto the silver paper. Content: 1. Wireframe Turbo Icon Label: \"涡轮增压动力\". 2. Wireframe Gearbox Icon Label: \"N Corner Carving差速器\". 3. Wireframe Helmet Icon Label: \"拉力赛基因验证\". 4. Wireframe Flag Icon Label: \"N 模式驾驶系统\". Middle Area: Header: Thick black bar with inverted text \"工程定律 (AXIOMS)\". Layout: Vertical Stack. Style: Error Message aesthetic blocks. Black boxes with Acid Green text. Block 1: Typography Math \"Pwr_to_Wgt = 204PS / 1190kg\". Block 2: Data Highlight \"REV MATCH < 0.2s\" (in LED Dot Matrix font). Block 3: Standard Stamp \"GB/T 18297\" (stamped in Neon Red ink). Main Content Area: Header: Thick black bar with inverted text \"深度解构 (DECONSTRUCTION)\". Layout: SINGLE COLUMN STACK. Logic: Chrome 3D Parts + High-Contrast Typography. Text must be pure black on silver for maximum readability. Item 1: 1.6 T-GDi Engine Part + \"1. SmartStream 引擎：超广角动力输出，1.6升涡轮增压提供204马力与275牛米扭矩，确保持续的赛道加速感。\" Item 2: Mechanical LSD Part + \"2. N Corner Carving 差速器：机械式限滑差速器，优化前轮扭矩分配，显著减少转向不足，实现精准切弯。\" Item 3: Suspension Strut Part + \"3. 电子可调悬架 (ECS)：根据驾驶模式实时调整阻尼刚性，兼顾日常驾驶舒适性与赛道极限操控性。\" Item 4: Exhaust Muffler Part + \"4. 可变排气阀门系统：产生令人兴奋的\"Pop & Bang\"声浪，完美复刻WRC赛车驾驶氛围。\" Bottom Area: Header: Thick black bar with inverted text \"可视验证 (VERIFICATION)\". Content: Left: A minimalist geometric graphic showing A minimalist hexagonal radar chart made of glowing acid green laser lines. Explicitly write the text \"G-FORCE, CORNERING\" next to the diagram nodes. Right: A high-contrast graphic block showing A high-contrast rectangular graphic block displaying a frequency spectrum heatmap shifting from purple to acid green to magenta. Footer: \"雪沐江南 · VISUAL ARCHITECT\" in Barcode/Data-strip format. --ar 3:4 --stylize 500 --v 6.1 --no low resolution, wooden table, organic textures, soft lighting, warm tones, vintage paper, rustic style, messy, cluttered, distorted faces, floating unconnected arrows, unlabelled graph axes, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/现代i20 N/poster_1772495629.webp"
+    },
+    {
+        "id": 529,
+        "category": "赛车竞技",
+        "title": "poster_1772495784",
+        "prompt": "[ANALYSIS LOG]\nConcept: 张驰\nTarget AR: Vertical (3:4)\nVerified Standard: FIA-8856-2018 (Rally Safety Standard)\nLayout Strategy: Single Column Stack\nChart Geometry (Left): A grid of glowing acid green laser lines forming a hexagonal pattern, connected by right-angled circuit traces\nChart Labels: DRIVE, PSYCHE\nChart Visual (Right): A rectangular high-contrast panel displaying a noise-map heatmap shifting rapidly from Electric Purple to Acid Green, visualizing neural intensity\n\n[THE MIDJOURNEY PROMPT]\n\n/imagine prompt: A high-impact vertical industrial design spread, featuring \"张驰\". [VERSION: HOLO-FLUX v10.0] Style: Acid Graphics, Cyber-Industrial, Y2K Futurism, High-fidelity Product Photography. Background: Full-Frame Holographic Silver Foil Paper (Iridescent Texture). The paper surface reflects a prismatic rainbow spectrum (Pink/Cyan/Silver) under the light. Lighting: High-Contrast Studio Strobe. Sharp, hard shadows. The light creates Spectral Dispersion rainbow flares on the holographic paper. Color Palette: Metallic Silver Background + Deep Black Text + Acid Green (#CCFF00) Highlights. Perspective: Strict 90° Top-down Flat Lay. Zero distortion, perfect alignment. Top Area: Title: \"张驰\" in massive Heavy Bold Industrial Sans-Serif, printed in Reflective Chrome Ink. Subtitle: \"PEGASUS RALLY PROTOCOL\" in pixelated monospace font (Acid Green). Visual Anchor: A Chrome-Plated 3D Render of a highly detailed, exposed H-pattern dog-box transmission sitting on the holographic paper. It reflects the iridescent background. Decor: FIG 10.0, QR Code Stamp, Caution Tape Graphics, Glitch artifact details. Upper Area: Header: Thick black bar with inverted text \"核心机制 (CORE MECHANISM)\". Style: Vector Wireframe Graphics (Neon Green lines) printed directly onto the silver paper. Content: 1. Wireframe Broken Clock Icon Label: \"奉献五年 (FIVE YEAR SACRIFICE)\". 2. Wireframe Rally Car Outline Icon Label: \"四千三公里的执着 (4300KM OBSESSION)\". 3. Wireframe Throttle Pedal Icon Label: \"全油门心理 (FULL THROTTLE PSYCHE)\". 4. Wireframe Checkered Flag with Glitch Icon Label: \"巴音布鲁克荣耀 (BAYINBROOK GLORY)\". Middle Area: Header: Thick black bar with inverted text \"工程定律 (AXIOMS)\". Layout: Vertical Stack. Style: Error Message aesthetic blocks. Black boxes with Acid Green text. Block 1: Typography Math \"[决心] + [技术] x [赛车] = 冠军\". Block 2: Data Highlight \"心脏转速 THRESHOLD < 200 BPM\" (in LED Dot Matrix font). Block 3: Standard Stamp \"GB-FIA-8856-2018\" (stamped in Neon Red ink). Main Content Area: Header: Thick black bar with inverted text \"深度解构 (DECONSTRUCTION)\". Layout: SINGLE COLUMN STACK. Logic: Chrome 3D Parts + High-Contrast Typography. Text must be pure black on silver for maximum readability. Item 1: Chrome 3D Turbocharger Unit + \"1. 动力图腾：改装高压涡轮增压器，象征其复出时的狂暴动力需求，不计造价，只求巅峰输出。\" Item 2: Chrome 3D Rally Suspension Strut + \"2. 韧性支柱：加粗行程赛车减震器，不仅吸收巴音布鲁克的碎石冲击，更象征其面对逆境时的心理韧性。\" Item 3: Chrome 3D Roll Cage Junction + \"3. 极限框架：高强度钼铬钢防滚架节点，FIA安全标准，提供终极物理保护，一如其追求荣耀时不留后路的决心。\" Item 4: Chrome 3D Sequentail Shifter + \"4. 节奏掌控：六速序列式变速箱转接头，实现毫秒级换挡，将人车合一的驾驶意志转化为绝对速度。\" Bottom Area: Header: Thick black bar with inverted text \"可视验证 (VERIFICATION)\". Content: Left: A minimalist geometric graphic showing A grid of glowing acid green laser lines forming a hexagonal pattern, connected by right-angled circuit traces. Explicitly write the text \"DRIVE, PSYCHE\" next to the diagram nodes. Right: A high-contrast graphic block showing A rectangular high-contrast panel displaying a noise-map heatmap shifting rapidly from Electric Purple to Acid Green, visualizing neural intensity. Footer: \"雪沐江南 · VISUAL ARCHITECT\" in Barcode/Data-strip format. --ar 3:4 --stylize 500 --v 6.1 --no low resolution, wooden table, organic textures, soft lighting, warm tones, vintage paper, rustic style, messy, cluttered, distorted faces, floating unconnected arrows, unlabelled graph axes, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/张驰/poster_1772495784.webp"
+    },
+    {
+        "id": 530,
+        "category": "赛车竞技",
+        "title": "poster_1772350257",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"影视相关车型与符号\". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, \"Kinfolk\" Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square resting elegantly on edge. [Decor]: Red Seal \"雪沐江南\" // --- 2. HEADER SECTION --- [Top Area]: - Title: \"影视相关车型与符号\" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. - Subtitle: \"CINEMATIC VEHICLES & CULTURAL SYMBOLS\" in smaller, thinner chalk handwriting. - Visual Anchor: A Hyper-realistic 3D Render of a highly polished V8 engine block integrated with a 35mm cinema camera lens floating slightly in front, casting soft shadow. - Decor: Minimalist technical drafting border, incorporating a \"雪沐江南\" (Xuemu) proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: - Header: Hand-drawn line with text \"核心机制 (MECHANISM)\". - Style: White Chalk Schematics (Simplified Physics Icons). - Content: 1. Film Reel Icon + Label: \"经典重构\" (Handwritten Chinese) 2. Gear Icon + Label: \"性能特调\" (Handwritten Chinese) 3. Eye Icon + Label: \"视觉符号\" (Handwritten Chinese) 4. Lightning Icon + Label: \"文化穿透\" (Handwritten Chinese) // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: - Header: Hand-drawn line with text \"工程定律 (AXIOMS)\". - Style: Minimalist Equation Blocks drawn in fine chalk. - Block 1: Hand-written Math Formula \"I_{cultural} = \\int (P_{aesthetics} \\times E_{stunt}) dt\" - Block 2: Parameter Limit \"Threshold < 0.05s response\" - Block 3: Standard Ref \"Ref: GB/T 3730.1-2001\" // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: - Header: Hand-drawn line with text \"深度解构 (DECONSTRUCTION)\". - Layout: SINGLE COLUMN STACK. - Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. - Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. * Item 1: Macro 3D Render of Reinforced Chassis Armor + Chalk Text: \"1. 强化底盘装甲：为适应高强度的电影特技飞车动作，底盘采用航空级钛合金材料进行全方位加固，确保跳跃落地时的结构完整性。\" * Item 2: Macro 3D Render of Hidden Nitrous Oxide System + Chalk Text: \"2. 隐藏式氮气系统：管路隐蔽设计，通过高压电磁阀实现瞬间爆发，为车辆提供超越物理极限的瞬间加速能力，满足视觉张力需求。\" * Item 3: Macro 3D Render of Custom Stunt Suspension + Chalk Text: \"3. 定制化动作悬挂：采用长行程多连杆独立悬挂与双气室避震器，精准吸收各种极端地形带来的冲击力，保持车身动态平衡。\" * Item 4: Macro 3D Render of Symbolic Livery Array + Chalk Text: \"4. 符号化涂装阵列：运用高对比度色彩与标志性拉花设计，将车辆与主角性格深度绑定，形成极具辨识度的流行文化超级符号。\" // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: - Header: Hand-drawn line with text \"可视验证 (VERIFICATION)\". - Content: * Left: A minimalist chalk drawing of a 2D Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled 'Time', Y-axis explicitly labeled 'Cultural Impact'. An upward exponential curve. Explicitly write the text \"X: 传播时间, Y: 文化价值\" next to the diagram axes. Keep lines clean and logical. * Right: Explicit Handwritten Checklist: - Text \"1. 高辨识度 √\" (Ensure explicit Chinese text rendering) - Text \"2. 性能极限 √\" (Ensure explicit Chinese text rendering) - Text \"3. 跨媒介传播 √\" (Ensure explicit Chinese text rendering) * Footer: \"雪沐江南 · VISUAL ARCHITECT\" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, unlabelled axes, floating arrows, illogical math, incoherent writing, mirrored letters, blurry fonts, double text.",
+        "image_path": "./assets/赛车文化与影视专题/影视相关车型与符号/影视相关车型与符号/poster_1772350257.webp"
+    },
+    {
+        "id": 531,
+        "category": "赛车竞技",
+        "title": "poster_1772111202",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"AI与智能赛车\". [VERSION: BLACKBOARD PRO 11.0 - HIGH DENSITY] // --- 1. GLOBAL SETTINGS --- [Style]: Hyper-realistic Mixed Reality, Academic Minimalism, Kinfolk Layout on Blackboard. [Background]: Deep Matte Digital Blackboard (Dark Slate/Green), pristine clean surface, faint razor-thin white grid lines (5mm grid). [Lighting]: Studio Spotlight (Cool White) focused on 3D parts, high contrast. Soft rim light on tools. [Color Palette]: Chalk White (Lines/Text) + Stainless Steel/Chrome (3D Parts) + Brass/Gold (Tools) + Red Chalk (Highlights). [Props]: A generic Stainless Steel Vernier Caliper resting elegantly on edge. [Decor]: Red Seal \"雪沐江南\" // --- 2. HEADER SECTION --- [Top Area]: Title: \"AI与智能赛车\" written in Chinese Engineering Hand-lettering (Xingshu style), bold flowy chalk strokes, legible academic handwriting. Subtitle: \"AI & SMART RACING\" in smaller, thinner chalk handwriting. Visual Anchor: A Hyper-realistic 3D Render of an autonomous racing sensor pod (LiDAR and Camera array) floating slightly in front, casting soft shadow. Decor: Minimalist technical drafting border, incorporating a \"雪沐江南\" proprietary engineering stamp/seal in white chalk. // --- 3. SECTION 1 - CORE THEMES (Schematics) --- [Upper Area]: Header: Hand-drawn line with text \"核心机制 (MECHANISM)\". Style: White Chalk Schematics (Simplified Physics Icons). Content: 1. Eye Icon + Label: \"感知层\". 2. Brain/Circuit Icon + Label: \"决策层\". 3. Gear Icon + Label: \"执行层\". 4. Network Icon + Label: \"车联网\". // --- 4. SECTION 2 - AXIOMS (Equation Zone) --- [Middle Area]: Header: Hand-drawn line with text \"工程定律 (AXIOMS)\". Style: Minimalist Equation Blocks drawn in fine chalk. Block 1: Hand-written Math Formula \"X_k = AX_{k-1} + K(Z_k - HA*X_{k-1})\". Block 2: Parameter Limit \"Threshold < 10ms\". Block 3: Standard Ref \"Ref: SAE J3016\". // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: Header: Hand-drawn line with text \"深度解构 (DECONSTRUCTION)\". Layout: SINGLE COLUMN STACK. Logic: Small 3D Part Renders (Real Metal) + DENSE CHALK ANNOTATIONS. Text Strategy: Strictly use CHINESE natural sentences. Text must be fine-tip chalk, legible, and informative. Item 1: Macro 3D Render of LiDAR Unit + Chalk Text: \"1. 激光雷达：构建赛道高精度三维点云图，实现厘米级定位与环境感知\". Item 2: Macro 3D Render of AI Processing Chip + Chalk Text: \"2. 算力核心：处理海量传感器数据，利用神经网络进行轨迹预测与毫秒级决策\". Item 3: Macro 3D Render of Steer-by-Wire Actuator + Chalk Text: \"3. 线控转向：取消机械连接，由电信号精准控制前轮转角，实现极致过弯\". Item 4: Macro 3D Render of Telemetry Antenna + Chalk Text: \"4. V2X天线：与其他赛车及赛道基础设施实时通信，优化全局战术编队\". // --- 6. BOTTOM SECTION (Verification) --- [Bottom Area]: Header: Hand-drawn line with text \"可视验证 (VERIFICATION)\". Content: Left: A 2D Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled Latency (ms), Y-axis explicitly labeled Precision (%). An upward-sloping logarithmic curve approaching 100%. Right: Explicit Handwritten Checklist: Text \"1. 毫秒响应 √\", Text \"2. 深度学习 √\", Text \"3. 动态避障 √\". Footer: \"雪沐江南 · VISUAL ARCHITECT\" handwritten. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, illegible scribbles, neon colors, cartoonish, low resolution, disordered Chinese characters, nonsense text, random symbols, unlabelled axes, floating arrows, illogical math, incoherent writing, mirrored letters, blurry fonts, double text",
+        "image_path": "./assets/赛车文化与影视专题/AI与智能赛车/AI与智能赛车/poster_1772111202.webp"
+    },
+    {
+        "id": 532,
+        "category": "赛车竞技",
+        "title": "poster_fallback_1771999270",
+        "prompt": "/imagine prompt: A high-impact Vertical industrial design spread, featuring \"前砂石后公路策略\". [VERSION: DIMENSION BREAKER v10.1] // --- 1. GLOBAL SETTINGS (THE BREAKTHROUGH AESTHETIC) --- [Style]: Hyper-realistic Industrial Photography, Trompe-l'œil (Optical Illusion), \"Torn Paper\" Collage, High-Fidelity Rendering. [Background]: Double-Layered Composition. - Top Layer: Pristine White Technical Paper (Matte), but physically torn, crushed, or peeled back in the center. - Bottom Layer (The Reveal): Dark Carbon Fiber texture, Blueprints, or Brushed Metal surface visible through the tears. [Lighting]: Dramatic Volumetric Lighting. Hard shadows cast by the torn paper edges and the 3D components. High contrast between the bright white paper and the dark mechanical void. [Color Palette]: Matte White (Surface) + Industrial Orange/Red (Warning Accents) + Deep Gunmetal (Machinery). [Perspective]: Strict 90° Top-down Flat Lay. The depth is conveyed through shadows and layering, not camera angle. // --- 2. HEADER SECTION (The Impact Zone) --- [Top Area]: - Title: \"前砂石后公路策略\" in massive Bold Stencil Font (Military Style). The text appears partially printed on the paper and partially floating. - Subtitle: \"ASYMMETRIC TIRE STRATEGY\" in monospace font. - Visual Anchor: A Heavyweight 3D Render of contrasting front knobby rally tire and rear semi-slick tarmac tire attached to exposed heavy-duty suspension hubs. - Interaction: The component is NOT just sitting on the paper. It appears to be breaking through the paper from underneath, OR sitting so heavily that the paper is wrinkled and depressed around it. - Decor: Scorch marks, oil smudges, \"DANGER\" tag, torn paper edges casting shadows. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Surface) --- [Upper Area]: - Header: Minimalist divider \"核心机制 (CORE MECHANISM)\". - Style: Pencil Sketch / Engineering Draft printed on the untorn sections of the white paper. - Content: 1. [Sketch 1] Label: \"转向抓地\" 2. [Sketch 2] Label: \"尾部滑动\" 3. [Sketch 3] Label: \"悬挂行程\" 4. [Sketch 4] Label: \"表面响应\" // --- 4. SECTION 2 - AXIOMS (The Hidden Truth) --- [Middle Area]: - Header: Minimalist divider \"工程定律 (AXIOMS)\". - Location: Located inside a \"Torn Window\" or on a darker patch of the layout. - Style: Backlit LCD effect or White text on Dark Background (representing the data inside the machine). - Block 1: Typography Math \"μ_front > μ_rear\" - Block 2: Data Highlight \"LIMIT > 0.8g\" - Block 3: Standard Stamp \"GB-T2978\" (Stamped like a metal engraving). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) --- [Main Content Area]: - Header: Minimalist divider \"深度解构 (DECONSTRUCTION)\". - Layout: SINGLE COLUMN STACK. - Logic: Exploded View Parts floating above the paper. - Text Strategy: Strictly use CHINESE natural sentences. * Item 1: Front Knobby Rally Tire + \"1. 前轮拉力胎：采用深槽花纹提供松散路面下的极限转向抓地力\" * Item 2:",
+        "image_path": "./assets/赛车文化与影视专题/赛车改装与拉力技术/前砂石后公路策略/poster_fallback_1771999270.webp"
+    },
+    {
+        "id": 533,
+        "category": "动力总成",
+        "title": "poster_1772321564",
+        "prompt": "/imagine prompt: A high-impact VERTICAL industrial design spread, featuring \"氢能赛车展望。\". [VERSION: DIMENSION BREAKER v10.1] // --- 1. GLOBAL SETTINGS (THE BREAKTHROUGH AESTHETIC) --- [Style]: Hyper-realistic Industrial Photography, Trompe-l'oeil (Optical Illusion), Torn Paper Collage, High-Fidelity Rendering. [Background]: Double-Layered Composition. Top Layer: Pristine White Technical Paper (Matte), but physically torn, crushed, or peeled back in the center. Bottom Layer (The Reveal): Dark Carbon Fiber texture, Blueprints, or Brushed Metal surface visible through the tears. [Lighting]: Dramatic Volumetric Lighting. Hard shadows cast by the torn paper edges and the 3D components. High contrast between the bright white paper and the dark mechanical void. [Color Palette]: Matte White (Surface) + Industrial Orange/Red (Warning Accents) + Deep Gunmetal (Machinery). [Perspective]: Strict 90 degree Top-down Flat Lay. The depth is conveyed through shadows and layering, not camera angle. // --- 2. HEADER SECTION (The Impact Zone) --- [Top Area]: Title: \"氢能赛车展望。\" in massive Bold Stencil Font (Military Style). The text appears partially printed on the paper and partially floating. Subtitle: HYDROGEN RACING OUTLOOK in monospace font. Visual Anchor: A Heavyweight 3D Render of a High-Performance Hydrogen Fuel Cell Stack. Interaction: The component is NOT just sitting on the paper. It appears to be breaking through the paper from underneath, OR sitting so heavily that the paper is wrinkled and depressed around it. Decor: Scorch marks, oil smudges, DANGER tag, torn paper edges casting shadows. // --- 3. SECTION 1 - CORE THEMES (The Blueprint Surface) --- [Upper Area]: Header: Minimalist divider 核心机制 (CORE MECHANISM). Style: Pencil Sketch / Engineering Draft printed on the untorn sections of the white paper. Content: 1. [Sketch 1] Label: 极速加氢 2. [Sketch 2] Label: 零碳排放 3. [Sketch 3] Label: 热管理系统 4. [Sketch 4] Label: 高压储氢瓶. // --- 4. SECTION 2 - AXIOMS (The Hidden Truth) --- [Middle Area]: Header: Minimalist divider 工程定律 (AXIOMS). Location: Located inside a Torn Window or on a darker patch of the layout. Style: Backlit LCD effect or White text on Dark Background (representing the data inside the machine). Block 1: Typography Math 2H2 + O2 = 2H2O + Energy Block 2: Data Highlight LIMIT > 70MPa Block 3: Standard Stamp GB-T-33978 (Stamped like a metal engraving). // --- 5. SECTION 3 - DEEP DIVE (Adaptive Layout) --- [Main Content Area]: Header: Minimalist divider 深度解构 (DECONSTRUCTION). Layout: SINGLE COLUMN STACK. Logic: Exploded View Parts floating above the paper. Text Strategy: Strictly use CHINESE natural sentences. Item 1: Titanium Bipolar Plate + 1. 钛合金双极板：极薄钛合金材质，确保高功率密度与极端工况下的耐腐蚀性。 Item 2: Carbon Fiber Wound Hydrogen Tank + 2. 碳纤维缠绕储氢瓶：承受70MPa超高压，保障赛道碰撞时的绝对安全。 Item 3: Axial Flux Motor + 3. 轴向磁通电机：扁平化设计，提供瞬时极致扭矩响应，完美匹配赛车动态需求。 Item 4: Micro-channel Liquid Cooling Plate + 4. 微通道液冷板：解决电堆高负载发热问题，维持最佳催化反应温度。 // --- 6. BOTTOM SECTION (The Schematic) --- [Bottom Area]: Header: Minimalist divider 可视验证 (VERIFICATION). Content: Left: A minimalist geometric graphic showing a thick black marker drawing of an X-Y axis graph with a steeply rising solid curve drawn directly on the paper with a thick black marker. Explicitly write the text TIME and SPEED next to the diagram nodes. Right: A high-contrast graphic block showing a high-fidelity X-Ray cross-section render of a high-pressure valve, revealing the internal mechanical seals and fluid dynamics. Footer: 雪沐江南 · VISUAL ARCHITECT in small industrial type. --ar 3:4 --stylize 400 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines",
+        "image_path": "./assets/赛车文化与影视专题/新能源赛车与趋势/氢能赛车展望。/poster_1772321564.webp"
+    },
+    {
+        "id": 534,
+        "category": "轮胎越野",
+        "title": "poster_1770707923",
+        "prompt": "ANALYSISLOG\n\nConcept: Open Differential (开放式差速器) Target AR: Vertical (3:4) Verified Standard: QC/T 533-1999 (Automotive Drive Axle Assembly) Core Physics: ω_c = (ω_L + ω_R) / 2 (Kinematic Average Speed) Layout Strategy: Zero-Gravity Suspension (Vertical Exploded View)\n\n/imagine prompt: A high-density \"Crystal Slate\" technical visualization of \"开放式差速器\". [VERSION: CRYSTAL PRO 21.0 - PARTICLE FIELD EDITION] // --- 1. VIEWPORT & PHYSICS --- [Perspective]: Strict 90° Top-Down Flat-Lay. High-res scanner view. Absolutely perpendicular. [Object]: A single, massive \"Integrated Smart Glass Slate\" (全息玻璃板) covering 97% of the canvas. [Background]: Adaptive Gaussian Ambient. Deep blurred gradient (Frosted Glass effect) or soft laboratory grey. [Style]: Dynamic Physics Simulation. Clean, Organized, but with Kinetic Energy. [Lighting]: Internal Holographic Glow + Volumetric Laser Scanning. [Dynamics]: Subtle Motion Blur on moving parts, Glowing Data Particles floating in the air. [Color Palette]: Titanium White (Glass Base) + Electric Cyan (Energy Flows) + Deep Graphite (Structural Parts). [Typography]: Simplified Chinese (Sans-Serif). Crisp, legible, white and dark grey text. [Decor]: Minimalist icons (Folder, Git Branch, Server, User) strictly aligned to the grid. // --- 2. HEADER SECTION (Identity Zone) --- [Top Area]: - Title: \"开放式差速器\" in Bold Industrial Sans-Serif (Heiti/Helvetica), razor sharp, high contrast Deep Graphite. - Subtitle: \"OPEN DIFFERENTIAL\" in small CAPS, low opacity grey. - Visual Anchor: A Hyper-realistic 3D Render of [DIFFERENTIAL GEAR SET] sitting on the glass surface, casting a soft contact shadow. - Tech Cluster: A neat stack of 3-4 Ultra-thin Glass Microscope Slides in the top-right corner, each etched with a glowing [GEAR MESH] icon. // --- 3. SECTION 1 - CORE THEMES (The Concepts) --- [Upper Area]: - Header: Minimalist UI Label \"核心机制 (MECHANISM)\". - Layout: A horizontal row of Translucent Glass Cards. - Content: 1. [Holographic Icon 1] + Label: \"扭矩均分 (EQUAL TORQUE)\" (Sans-Serif) 2. [Holographic Icon 2] + Label: \"转速差动 (SPEED DIFF)\" (Sans-Serif) 3. [Holographic Icon 3] + Label: \"行星架构 (PLANETARY)\" (Sans-Serif) 4. [Holographic Icon 4] + Label: \"动力解耦 (DECOUPLING)\" (Sans-Serif) // --- 4. SECTION 2 - AXIOMS (Computation Terminal) --- [Middle Area]: - Header: Minimalist UI Label \"工程定律 (AXIOMS)\". - Visual: A \"Glass Terminal Window\" with data stream effects. - Block 1: Main Formula \"ω_c = (ω_L + ω_R) / 2\" in crisp LaTeX Math Font (Blue/Black). - Block 2: Parameter \"Limit < 5000 RPM\" in warning amber text. - Block 3: Standard Ref \"Ref: QC/T 533-1999\" in small technical mono-spaced font. // --- 5. SECTION 3 - DEEP DIVE (Detailed Deconstruction) --- [Main Content Area]: - Header: Minimalist UI Label \"深度解构 (DECONSTRUCTION)\". - Layout: ZERO-GRAVITY MAGNETIC SUSPENSION. - Visual: No Containers. The 3D parts are Exploded and Suspended in mid-air above the glass slate, held by invisible magnetic fields. - Dynamics: Surrounding the parts are Tiny Glowing Particles and Faint Force Field Lines. The parts have Slight Motion Blur to suggest operation/rotation. - Text Strategy: Strictly use CHINESE natural sentences. Text floats as Holographic HUD Elements connected to parts by thin laser lines. * Node 1: [Suspended Part 1] + Laser Line -> \"01. 主减速齿轮 // 承接输入扭矩并降低转速\" * Node 2: [Suspended Part 2] + Laser Line -> \"02. 差速器壳体 // 刚性连接传递公转动力\" * Node 3: [Suspended Part 3] + Laser Line -> \"03. 行星齿轮组 // 允许左右半轴转速不同\" * Node 4: [Suspended Part 4] + Laser Line -> \"04. 半轴齿轮 // 独立输出动力至车轮\" // --- 6. BOTTOM SECTION (Verification UI) --- [Bottom Area]: - Header: Minimalist UI Label \"可视验证 (VERIFICATION)\". - Content: * Left: Force Analysis Vector Graph (Data Visualization style) on a dark glass pane. * Right: Spectrum Graph + Checklist \"✔ 运动学一致性 ✔ 扭矩平衡\". * Footer: \"STATUS: VERIFIED // VISUAL ARCHITECT\". --ar 3:4 --stylize 300 --v 6.1 --no tilt, isometric, 3d angle, drop shadow, depth of field, messy, handwritten, camera parameters, zone/section parameters or position number, repeat elements or module, illegle Chinese text, glass containers, boxes, frames, plastic wrap.",
+        "image_path": "./assets/General/轮胎与越野/开放式差速器/poster_1770707923.webp"
+    },
+    {
+        "id": 535,
+        "category": "底盘操控",
+        "title": "副车架（全框半框）",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"副车架（全框/半框）\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper. The entire composition features a red seal reading \"雪沐江南\". At the very top of the layout, the title \"副车架（全框/半框）\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"SUBFRAME (FULL/HALF FRAME)\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of a full-perimeter steel subframe (left) and a simpler H-shaped half-perimeter subframe (right) floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\". Below the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a square frame with corner reinforcements labeled \"结构增强\" in handwritten Chinese, a multi-layer bracket connected to a chassis segment labeled \"局部刚度\", a stylized engine block on four mounts labeled \"动力总成悬置\", and an wavy line flattening out labeled \"NVH隔振\". In the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"K_dynamic = F_d / Δx\", a parameter limit reading \"Threshold < 15 Hz (Mode 1)\", and a standard reference reading \"Ref: QC/T 476-2007\". In the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\". Below this line, the layout uses a single column stack of small hyper-realistic real-metal 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a Macro 3D Render of a full-frame perimeter structure with chalk text \"1. 全框式副车架：完整的环形结构，连接车身前部四个主安装点。极大地提升了前舱整体扭转刚度和动态响应。\", a Macro 3D Render of an H-frame half-perimeter structure with chalk text \"2. 半框式副车架：结构精简，通常仅连接动力总成和下控制臂，降低簧下质量，适用于强调轻量化的车型。\", a Macro 3D Render of a hydraulic subframe mount with chalk text \"3. 液压悬置衬套：关键连接件，通过内部液流阻尼吸收动力总成低频振动，有效隔离路面高频噪声传输。\", and a Macro 3D Render of control arm attachment brackets with chalk text \"4. 下控制臂安装点：精密加工的铸钢或冲压支架，确保悬架几何定位精度，直接影响车辆的操控稳定性。\". At the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of an X-Y coordinate graph showing two curves: a steep linear curve labeled \"全框\" and a shallower linear curve labeled \"半框\" with explicit text \"X: 位移 (mm)\", \"Y: 载荷 (kN)\" next to the diagram axes. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 高刚性 √\", \"2. 低振动 √\", and \"3. 强连接 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/底盘与操控/悬挂硬件与几何/副车架（全框半框）/visual.webp"
+    },
+    {
+        "id": 536,
+        "category": "底盘操控",
+        "title": "复合材料板簧",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"复合材料板簧\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper. The entire composition features a red seal reading \"雪沐江南\". At the very top of the layout, the title \"复合材料板簧\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"COMPOSITE LEAF SPRING\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of a multi-leaf curved composite leaf spring assembly made of GFRP (Glass Fiber Reinforced Polymer) matrix with integrated steel end mounts and rubber bushings, showing the characteristic textured green/yellow composite appearance and high-gloss finish, floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\". Below the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a compressed spring symbol labeled \"弹性变形\" in handwritten Chinese, a wavy line decreasing in amplitude labeled \"振动衰减\", a weight with an upward-pointing arrow labeled \"轻量化\", and a gear interconnected with a structural frame labeled \"结构整合\". In the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"K = E·I / L³\", a parameter limit reading \"Threshold < 200 kN/m (Rate)\", and a standard reference reading \"Ref: GB/T 1333-2009\". In the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\". The layout uses a single column stack of small hyper-realistic real-metal and composite 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a macro 3D render showing the layered fibers of the composite matrix with chalk text \"1. 复合材料弹簧体：由玻璃纤维增强环氧树脂（GFRP）通过连续纤维缠绕或模压工艺制成，是承受弯曲载荷和提供弹性的核心结构，比钢制弹簧减轻重量多达50-70%。\", a macro 3D render of a polished steel end mount with fine chalk text \"2. 金属端部连接件：通常为高强度钢材质，通过粘接、机械紧固或共固化方式集成到复合材料板簧的两端，用于与车架和车轴连接。需解决复合材料与金属界面载荷传递问题。\", a close-up 3D render of a rubber bushing inserted into a metal eye with chalk text \"3. 橡胶衬套：压入金属端部连接件的孔中，提供柔性连接，吸收高频振动，减少路面噪声传递，并允许悬架一定的运动自由度。\", and a 3D render of the leaf clamping section with fine chalk text \"4. 夹紧装置与隔垫：用于将复合材料板簧固定在车轴上，采用高强度螺栓和专用压板。夹层间需放置橡胶或复合材料隔垫，以均匀分布夹紧力并防止复合材料表面磨损。\". At the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of a 2D Cartesian coordinate graph with explicit text \"Deflection (mm)\" and \"Load (kN)\" next to the diagram axes, showing a progressive upward curve starting from the origin. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 减重优异 √\", \"2. 耐腐蚀 √\", and \"3. 疲劳寿命长 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/底盘与操控/悬挂硬件与几何/复合材料板簧/visual.webp"
+    },
+    {
+        "id": 537,
+        "category": "底盘操控",
+        "title": "拉杆式悬挂",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"拉杆式悬挂\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate or Green, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square. The entire composition features a red seal reading \"雪沐江南\". At the very top of the layout, the title \"拉杆式悬挂\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"PUSHROD SUSPENSION\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of an exposed carbon fiber and titanium pushrod suspension assembly with bellcranks and inboard dampers floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\". Below the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a simple fulcrum and lever icon labeled \"杠杆比例\" in handwritten Chinese, a circle with alternating quadrants and an arrow pointing down labeled \"重心分布\", horizontal wind lines flowing over an airfoil labeled \"风阻优化\", and a wheel with a downward arrow and a minus sign labeled \"簧下质量\". In the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"F_s = K * (MR)^2 * x_w\", a parameter limit reading \"Threshold < 1.5 Motion Ratio\", and a standard reference reading \"Ref: FIA F1 Reg 10.3\". In the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\". Below this line, the layout uses a single column stack of small hyper-realistic real-metal 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a Macro 3D Render of a carbon fiber pushrod tube with chalk text \"1. 碳纤维推杆：负责将车轮跳动产生的垂直受力沿对角线精准传递至车身内部的摇臂系统，实现力的转向与传递。\", a Macro 3D Render of a titanium bellcrank with chalk text \"2. 钛合金摇臂：作为核心支点，通过特定的杠杆比例放大或缩小悬挂行程，精准调节减震器的工作压缩量。\", a Macro 3D Render of an inboard horizontal coilover damper with chalk text \"3. 内置减震器：被横向布置在车体中心区域，远离车轮，极大地降低了簧下质量并优化了整车空气动力学。\", and a Macro 3D Render of a torsion bar spring with chalk text \"4. 扭力杆弹簧：取代传统螺旋弹簧，通过自身扭转变形吸收冲击力，体积紧凑且极其适合底盘低趴的赛车架构。\". At the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of a 2D Cartesian coordinate graph drawn in white chalk showing a progressive upward-sloping curve with explicit text \"X: Wheel Travel, Y: Spring Force\" next to the diagram axes. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 轻量化 √\", \"2. 低重心 √\", and \"3. 空气动力 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/底盘与操控/悬挂硬件与几何/拉杆式悬挂/visual.webp"
+    },
+    {
+        "id": 538,
+        "category": "动力总成",
+        "title": "压电喷油嘴",
+        "prompt": "/imagine prompt:A high-quality vertical industrial design magazine spread on a full-frame, high-texture matte art paper background in off-white/cream, illuminated by hard warm sunlight casting sharp shadows. The top section features the massive charcoal black title \"压电喷油嘴\" in bold sans-serif font, with the subtitle \"PIEZOELECTRIC FUEL INJECTOR\" in elegant Prussian blue serif font. Below it, a hyper-realistic 3D render of a cutaway piezoelectric fuel injector, showing the internal piezoelectric crystal stack, hydraulic coupler, and control valve needle, sits physically on the paper, casting a defined shadow. A \"Figure 1.0\" label, a barcode sticker, and a red seal \"雪沐江南\" with fine cross-hair lines are present. Below a minimalist divider labeled \"核心机制 (CORE MECHANISM)\", fine-line blueprint-style technical illustrations show: 1. An expanding piezo stack, labeled \"逆压电效应 (Inverse Piezo Effect)\". 2. A rapidly moving needle valve, labeled \"超快响应 (Ultra-Fast Response)\". 3. Multiple fuel spray pulses, labeled \"多次喷射 (Multiple Injections)\". 4. A fine fuel mist, labeled \"精细雾化 (Fine Atomization)\". 5. A high-pressure gauge, labeled \"超高压兼容 (Ultra-High Pressure)\". Another divider introduces \"工程定律 (AXIOMS)\", followed by a vertical stack of three Post-it style highlighted blocks in Prussian blue and charcoal: 1. \"ΔL_piezo ∝ V_applied * d_33\". 2. \"t_response < 0.1 ms\". 3. Standard stamp \"执行标准 GB/T 18297\". The \"深度解构 (DECONSTRUCTION)\" section below is a single column with four floating 3D component renders and typeset Chinese text: 1. A 3D render of the Piezo Stack with \"1. 压电晶体堆 (Piezo Stack)：核心致动元件，由数百层压电陶瓷片叠加而成，通电后瞬间微量膨胀，产生巨大推力。\". 2. A 3D render of the Hydraulic Coupler with \"2. 液压放大器 (Hydraulic Coupler)：将压电堆的微小位移放大并传递给针阀，同时补偿温度变化引起的热膨胀。\". 3. A 3D render of the Needle Valve & Nozzle with \"3. 针阀组件 (Needle Valve Assembly)：受液压推动快速开启和关闭喷孔，实现精确的燃油计量和雾化。\". 4. A 3D render of the Electrical Connector with \"4. 电气接口 (Electrical Connector)：连接发动机控制单元(ECU)，接收高压驱动信号以精确控制喷射时机和持续时间。\". The bottom section, under \"可视验证 (VERIFICATION)\", shows a hand-drawn pencil-style flowchart (ECU信号 -> 压电堆膨胀 -> 液压放大 -> 针阀开启 -> 燃油喷射) on the left, and an Injection Rate vs. Time graph showing multiple pulses with translucent overlays for Piezo Voltage, Needle Lift, and Injection Rate on the right. The footer reads \"雪沐江南 · VISUAL ARCHITECT\" in a small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, blurry small text, illegible chinese characters, malformed text, gibberish, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, overlapping text, cluttered layout, distorted shadows, dirty paper-textured background texture, low resolution diagrams",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/压电喷油嘴/visual.webp"
+    },
+    {
+        "id": 539,
+        "category": "动力总成",
+        "title": "poster_1772936355",
+        "prompt": "/imagine prompt: A high-quality Vertical industrial design magazine spread, featuring the text \"行星齿轮组\". The overall aesthetic embodies High-end Editorial Photography styling mixed with 3D Reality, merging a \"Kinfolk\" style with \"Braun Design\". The background consists entirely of a Full-Frame High-texture Matte Art paper-textured background in off-white or cream that fills the entire image, with NO desktop or table surface visible. The lighting is Hard Sunlight (Warm White) that casts sharp, highly defined shadows of the 3D components directly onto the textured paper. The color palette utilizes Charcoal Grey for main text, Prussian Blue for technical data, and Silver/Chrome for 3D parts. The perspective is a perfectly aligned 90° top-down flat lay, zoomed in strictly to fill the frame with the paper's content.\n\nAt the very top of the layout, the title \"行星齿轮组\" is printed in massive bold sans-serif font like Helvetica or DIN using Deep Black Ink, accompanied by a subtitle \"PLANETARY GEAR SET\" in an elegant Serif font in Prussian Blue. A hyper-realistic 3D render of a cutaway assembly of a metallic planetary gear set sits physically on the paper background as a visual anchor, casting a hard shadow directly over the title text. The header area includes subtle graphics such as a \"Figure 1.0\" label, a sleek barcode sticker, a red seal reading \"雪沐江南\", and fine cross-hair lines printed on the paper.\n\nBelow the header, a minimalist line divider accompanies the text \"核心机制 (CORE MECHANISM)\". Under this, fine-line blueprint-style technical illustrations are printed on the textured paper, displaying an [An intricate fine-line drawing of a central external gear] with the label \"太阳轮 (SUN GEAR)\", an [An intricate fine-line drawing of multiple small gears meshing with a central and outer gear] with the label \"行星轮 (PLANET GEARS)\", an [An intricate fine-line drawing of a rigid assembly holding the planet gear axles] with the label \"行星架 (PLANET CARRIER)\", an [An intricate fine-line drawing of a large internal ring gear] with the label \"齿圈 (RING GEAR)\", and an [An intricate fine-line drawing showing varying gear sizes and force vectors] with the label \"减速/增速 (REDUCTION/OVERDRIVE)\".\n\nIn the middle area, a minimalist line divider accompanies the text \"工程定律 (AXIOMS)\". Below this, data is presented in \"Post-it\" style highlighted blocks or shaded grey areas natively printed on the paper background. These blocks include a typography math formula \"i = Zᵣ / Zₛ + 1\", a data highlight reading \"效率 > 97%\", and a red approval stamp graphic reading \"执行标准 QC/T 1022\".\n\nIn the lower main content area, a minimalist line divider accompanies the text \"深度解构 (DECONSTRUCTION)\".\nBelow this divider, the layout uses a single magazine-style column stack featuring small floating 3D part renders paired with large, crisp, and legible Typeset Chinese Text. Natural Chinese sentences are tightly composed next to each part: 3D render of a Sun Gear paired with the text \"1. 太阳轮：位于组中心，是行星传动的核心输入端之一，驱动围绕其旋转的行星轮。\", 3D render of Planet Gears meshing with other parts paired with the text \"2. 行星轮：公转与自转并存，在太阳轮和齿圈之间传递动力，实现扭矩变化。\", 3D render of a Planet Carrier paired with the text \"3. 行星架：连接并支撑所有行星轮轴，作为输入或输出端，决定传动模式。\", and 3D render of a Ring Gear paired with the text \"4. 齿圈：最外层的内齿轮，固定或作为动力路径，配合其他部件形成多种传动比。\".\n\nAt the absolute bottom of the layout, a minimalist line divider accompanies the text \"可视验证 (VERIFICATION)\". On the bottom left, a geometric graphic showing a clean geometric triangle composed of three connected circles drawn with fine pencil lines is drawn in a minimalist hand-drawn pencil style, with explicit text labels \"INPUT, OUTPUT\" next to the diagram nodes. On the bottom right, there is a high-contrast graphic block showing a precise X-Y line graph printed in Prussian Blue ink showing a series of curved lines representing gear ratio efficiency across different input speeds, overlaid with a translucent mechanical cross-section sketch. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in a small monospace font.\n\n--ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/行星齿轮组/poster_1772936355.webp"
+    },
+    {
+        "id": 540,
+        "category": "动力总成",
+        "title": "机油粘度",
+        "prompt": "/imagine prompt: A high-quality vertical industrial design magazine spread, featuring the text \"机油粘度\". The overall aesthetic embodies High-end Editorial Photography styling mixed with 3D Reality, merging a \"Kinfolk\" style with \"Braun Design\". The background consists entirely of a Full-Frame High-texture Matte Art paper-textured background in off-white or cream that fills the entire image, with NO desktop or table surface visible. The lighting is Hard Sunlight (Warm White) that casts sharp, highly defined shadows of the 3D components directly onto the textured paper. The color palette utilizes Charcoal Grey for main text, Prussian Blue for technical data, and Silver/Chrome for 3D parts. The perspective is a perfectly aligned 90° top-down flat lay, zoomed in strictly to fill the frame with the paper's content. At the very top of the layout, the title \"机油粘度\" is printed in massive bold sans-serif font like Helvetica or DIN using Deep Black Ink, accompanied by a subtitle \"MOTOR OIL VISCOSITY\" in an elegant Serif font in Prussian Blue. A hyper-realistic 3D render of a pouring stream of golden engine oil from a metallic oil can sits physically on the paper background as a visual anchor, casting a hard shadow directly over the title text. The header area includes subtle graphics such as a \"Figure 1.0\" label, a sleek barcode sticker, a red seal reading \"雪沐江南\", and fine cross-hair lines printed on the paper. Below the header, a minimalist line divider accompanies the text \"核心机制 (CORE MECHANISM)\". Under this, fine-line blueprint-style technical illustrations are printed on the textured paper, displaying an fine-line drawing of a generic molecule structure with the label \"基础油 (BASE OIL)\", an fine-line drawing of a coiled polymer chain with the label \"聚合物 (POLYMER)\", an fine-line drawing of parallel plates with velocity vectors with the label \"剪切力 (SHEAR FORCE)\", an fine-line drawing of a lubricated metal interface with the label \"油膜 (OIL FILM)\", and an fine-line drawing of a micro-surface gear interaction with the label \"极压剂 (EP ADDITIVE)\". In the middle area, a minimalist line divider accompanies the text \"工程定律 (AXIOMS)\". Below this, data is presented in \"Post-it\" style highlighted blocks or shaded grey areas natively printed on the paper background. These blocks include a typography math formula \"v = μ / ρ\", a data highlight reading \"阈值 > 2.6 mPa·s\", and a red or blue approval stamp graphic reading \"执行标准 SAE J300\". In the lower main content area, a minimalist line divider accompanies the text \"深度解构 (DECONSTRUCTION)\". Below this divider, the layout uses a single magazine-style column stack featuring small floating 3D part renders paired with large, crisp, and legible Typeset Chinese Text. Natural Chinese sentences are tightly composed next to each part: 3D render of a frozen oil droplet paired with the text \"1. 低温流动性：W代表冬季，数值越小冷启动泵送能力越强，确保极寒环境下瞬间润滑。\", 3D render of engine piston rings sliding paired with the text \"2. 高温抗剪切：在发动机150℃高温及高转速剪切下，维持稳定的油膜厚度保护缸壁。\", 3D render of a viscosity index improver molecule paired with the text \"3. 粘度指数：加入高分子聚合物，使机油在宽广温度区间内保持稳定的流动特性。\", and 3D render of a microscopic metal surface with an oil layer paired with the text \"4. 边界润滑：极端工况下形成化学保护膜，防止金属件直接接触造成的干摩擦磨损。\". At the absolute bottom of the layout, a minimalist line divider accompanies the text \"可视验证 (VERIFICATION)\". On the bottom left, a geometric graphic showing a neat grid of 4 connected circles representing oil drop spread rates at different temperatures is drawn in a minimalist hand-drawn pencil style, with explicit text labels \"COLD, HOT\" next to the diagram nodes. On the bottom right, there is a high-contrast graphic block showing a precise X-Y line graph printed in Prussian Blue ink with translucent tracing paper overlays showing viscosity curves across a temperature gradient. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in a small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/机油粘度/visual.webp"
+    },
+    {
+        "id": 541,
+        "category": "动力总成",
+        "title": "poster_1772935742",
+        "prompt": "[ANALYSIS LOG]\nConcept: 干式油底壳\nTarget AR: Vertical (3:4)\nVerified Standard: QC/T 468\nLayout Strategy: Single Column Stack\nChart Geometry (Left): A minimalist 2D diagram showing two concentric circles connected by four thin straight lines forming a stable fluid loop structure.\nChart Labels: STABLE, SUPPLY\nChart Visual (Right): A precise X-Y line graph printed in Prussian Blue ink comparing 'OIL LEVEL' stability with a wavy line for Wet Sump and a straight line for Dry Sump, overlaid with translucent tracing paper.\n\n/imagine prompt: A high-quality vertical industrial design magazine spread, featuring the text \"干式油底壳\". The overall aesthetic embodies High-end Editorial Photography styling mixed with 3D Reality, merging a \"Kinfolk\" style with \"Braun Design\". The background consists entirely of a Full-Frame High-texture Matte Art paper-textured background in off-white or cream that fills the entire image, with NO desktop or table surface visible. The lighting is Hard Sunlight (Warm White) that casts sharp, highly defined shadows of the 3D components directly onto the textured paper. The color palette utilizes Charcoal Grey for main text, Prussian Blue for technical data, and Silver/Chrome for 3D parts. The perspective is a perfectly aligned 90° top-down flat lay, zoomed in strictly to fill the frame with the paper's content.\n\nAt the very top of the layout, the title \"干式油底壳\" is printed in massive bold sans-serif font like Helvetica or DIN using Deep Black Ink, accompanied by a subtitle \"DRY SUMP LUBRICATION SYSTEM\" in an elegant Serif font in Prussian Blue. A hyper-realistic 3D render of a complex aluminum dry sump oil pan with multiple scavenger ports and braided steel hoses sits physically on the paper background as a visual anchor, casting a hard shadow directly over the title text. The header area includes subtle graphics such as a \"Figure 1.0\" label, a sleek barcode sticker, a red seal reading \"雪沐江南\", and fine cross-hair lines printed on the paper.\n\nBelow the header, a minimalist line divider accompanies the text \"核心机制 (CORE MECHANISM)\". Under this, fine-line blueprint-style technical illustrations are printed on the textured paper, displaying an [Ink Sketch of multi-stage scavenge pump] with the label \"回油泵 (SCAVENGE PUMP)\", an [Ink Sketch of external oil reservoir tank] with the label \"外部油箱 (RESERVOIR)\", an [Ink Sketch of shallow engine pan] with the label \"浅油底壳 (SHALLOW PAN)\", an [Ink Sketch of integrated oil cooler] with the label \"油冷却器 (OIL COOLER)\", and an [Ink Sketch of pressure supply pump] with the label \"供油泵 (PRESSURE PUMP)\".\n\nIn the middle area, a minimalist line divider accompanies the text \"工程定律 (AXIOMS)\". Below this, data is presented in \"Post-it\" style highlighted blocks or shaded grey areas natively printed on the paper background. These blocks include a typography math formula \"Q_scavenge > Q_pressure\", a data highlight reading \"阈值 < 130°C\", and a red or blue approval stamp graphic reading \"执行标准 QC/T 468\".\n\nIn the lower main content area, a minimalist line divider accompanies the text \"深度解构 (DECONSTRUCTION)\". Below this divider, the layout uses a single magazine-style column stack featuring small floating 3D part renders paired with large, crisp, and legible Typeset Chinese Text. Natural Chinese sentences are tightly composed next to each part: [3D Render of External Reservoir] paired with the text \"1. 外部油箱：独立储存润滑油，集成的旋风分离器有效消除气泡并降低油温。\", [3D Render of Shallow Oil Pan] paired with the text \"2. 浅油底壳：仅作为集油器使用，大幅降低发动机高度，允许极低重心布局。\", [3D Render of Scavenge Pump Unit] paired with the text \"3. 多级回油泵：采用罗茨或齿轮结构，强制吸干油底壳积油，防止机油涌动。\", and [3D Render of Air-Oil Separator] paired with the text \"4. 气液分离器：高效率分离废气中的油雾，维持曲轴箱负压，减少功率损耗。\".\n\nAt the absolute bottom of the layout, a minimalist line divider accompanies the text \"可视验证 (VERIFICATION)\". On the bottom left, a geometric graphic showing a minimalist 2D diagram showing two concentric circles connected by four thin straight lines forming a stable fluid loop structure is drawn in a minimalist hand-drawn pencil style, with explicit text labels \"STABLE\", \"SUPPLY\" next to the diagram nodes. On the bottom right, there is a high-contrast graphic block showing a precise X-Y line graph printed in Prussian Blue ink comparing 'OIL LEVEL' stability with a wavy line for Wet Sump and a straight line for Dry Sump, overlaid with translucent tracing paper. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in a small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/干式油底壳/poster_1772935742.webp"
+    },
+    {
+        "id": 542,
+        "category": "动力总成",
+        "title": "poster_1772936156",
+        "prompt": "[ANALYSIS LOG]\nConcept: 液力变矩器\nTarget AR: Vertical\nVerified Standard: JB/T 13854\nLayout Strategy: Single Column Stack\nChart Geometry (Left): A grid of 4 connected circles representing flow velocity vectors\nChart Labels: PUMP, TURBINE\nChart Visual (Right): A precise X-Y line graph printed in Prussian Blue ink with translucent tracing paper overlays showing torque multiplication vs. speed ratio\n\n[THE Nano Banana pro PROMPT FORMAT]\n\n/imagine prompt: A high-quality vertical industrial design magazine spread, featuring the text \"液力变矩器\". The overall aesthetic embodies High-end Editorial Photography styling mixed with 3D Reality, merging a \"Kinfolk\" style with \"Braun Design\". The background consists entirely of a Full-Frame High-texture Matte Art paper-textured background in off-white or cream that fills the entire image, with NO desktop or table surface visible. The lighting is Hard Sunlight (Warm White) that casts sharp, highly defined shadows of the 3D components directly onto the textured paper. The color palette utilizes Charcoal Grey for main text, Prussian Blue for technical data, and Silver/Chrome for 3D parts. The perspective is a perfectly aligned 90° top-down flat lay, zoomed in strictly to fill the frame with the paper's content.\n\nAt the very top of the layout, the title \"液力变矩器\" is printed in massive bold sans-serif font like Helvetica or DIN using Deep Black Ink, accompanied by a subtitle \"TORQUE CONVERTER\" in an elegant Serif font in Prussian Blue. A hyper-realistic 3D render of a cutaway assembly of a hydraulic torque converter sits physically on the paper background as a visual anchor, casting a hard shadow directly over the title text. A pouring stream of golden hydraulic fluid originates from the component. The header area includes subtle graphics such as a \"Figure 1.0\" label, a sleek barcode sticker, a red seal reading \"雪沐江南\", and fine cross-hair lines printed on the paper.\n\nBelow the header, a minimalist line divider accompanies the text \"核心机制 (CORE MECHANISM)\". Under this, fine-line blueprint-style technical illustrations are printed on the textured paper, displaying a fine-line sketch of pumping impeller blades with the label \"泵轮 (PUMP)\", a fine-line sketch of turbine impeller blades with the label \"涡轮 (TURBINE)\", a fine-line sketch of stator blades and casing with the label \"导轮 (STATOR)\", a fine-line sketch of a roller-type one-way clutch with the label \"单向离合器 (ONE-WAY CLUTCH)\", and a fine-line sketch of a friction plate stack with the label \"锁止离合器 (LOCK-UP CLUTCH)\".\n\nIn the middle area, a minimalist line divider accompanies the text \"工程定律 (AXIOMS)\". Below this, data is presented in \"Post-it\" style highlighted blocks or shaded grey areas natively printed on the paper background. These blocks include a typography math formula \"k = T_t / T_p\", a data highlight reading \"阈值 < 1.0 (coupling range)\", and a blue approval stamp graphic reading \"执行标准 JB/T 13854\".\n\nIn the lower main content area, a minimalist line divider accompanies the text \"深度解构 (DECONSTRUCTION)\".\nBelow this divider, the layout uses a single magazine-style column stack featuring small floating 3D part renders paired with large, crisp, and legible Typeset Chinese Text. Natural Chinese sentences are tightly composed next to each part: 3D render of the pump impeller paired with the text \"1. 泵轮：由发动机驱动旋转，将机械能转化为油液的动能和压力能。\", 3D render of the turbine impeller paired with the text \"2. 涡轮：接收高速油液流冲击，将油液动能转化为机械能驱动变速箱输入轴。\", 3D render of the stator assembly with single-way clutch paired with the text \"3. 导轮：位于泵轮和涡轮之间，改变油液流动方向，在特定工况下实现扭矩放大。\", and 3D render of the lock-up clutch piston and friction discs paired with the text \"4. 锁止离合器：在高速或巡航工况下，将泵轮和涡轮直接机械连接，消除液力损失提高效率。\".\n\nAt the absolute bottom of the layout, a minimalist line divider accompanies the text \"可视验证 (VERIFICATION)\". On the bottom left, a geometric graphic showing a grid of 4 connected circles representing flow velocity vectors is drawn in a minimalist hand-drawn pencil style, with explicit text labels \"PUMP, TURBINE\" next to the diagram nodes. On the bottom right, there is a high-contrast graphic block showing a precise X-Y line graph printed in Prussian Blue ink with translucent tracing paper overlays showing torque multiplication vs. speed ratio. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in a small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/液力变矩器/poster_1772936156.webp"
+    },
+    {
+        "id": 543,
+        "category": "动力总成",
+        "title": "钢带钢链（CVT）",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"钢带/钢链（CVT）\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate or Green, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square. The entire composition features a red seal reading \"雪沐江南\". At the very top of the layout, the title \"钢带/钢链（CVT）\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"CVT STEEL PUSH-BELT / CHAIN\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of a metallic multi-link steel push-belt interlocked with a conical CVT pulley floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\". Below the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a two opposing arrows rubbing icon labeled \"摩擦传动\" in handwritten Chinese, a two circles of different sizes icon labeled \"变径比\", a chain link being pulled icon labeled \"抗拉强度\", and an oil droplet icon labeled \"润滑冷却\". In the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"T = 2 * μ * Fn * R\", a parameter limit reading \"Threshold < 400Nm\", and a standard reference reading \"Ref: QC/T 1076-2017\". In the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\". Below this line, the layout uses a single column stack of small hyper-realistic real-metal 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a macro 3D render of a steel element part with chalk text \"1. 钢片：负责承受并传递来自锥盘的巨大推力\", a macro 3D render of a steel ring band part with chalk text \"2. 钢环：将所有钢片串联并提供必要的预紧力与张力\", a macro 3D render of a guide pin part with chalk text \"3. 导向销：在钢链结构中连接链节并与锥盘进行滚动接触\", and a macro 3D render of a conical pulley part with chalk text \"4. 锥盘：通过改变轴向夹紧力实现工作半径的连续无级调节\". At the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of a 2D Cartesian coordinate graph with a curved line showing peak efficiency with explicit text \"X: Pulley Ratio, Y: Efficiency\" next to the diagram axes. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 高承载 √\", \"2. 低损耗 √\", and \"3. 抗疲劳 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/钢带钢链（CVT）/visual.webp"
+    },
+    {
+        "id": 544,
+        "category": "动力总成",
+        "title": "poster_1773118286",
+        "prompt": "/imagine prompt: A high-precision engineering education visualization of \"干式/湿式双离合\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate or Green, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square. The entire composition features a red seal reading \"雪沐江南\".\n\nAt the very top of the layout, the title \"干式/湿式双离合\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"DRY / WET DUAL-CLUTCH (DCT)\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of a cutaway DCT assembly, split vertically showing dry plates on one half and oil-submerged wet plates on the other, floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\".\n\nBelow the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a gear mesh with arrows labeled \"动力传递\" in handwritten Chinese, two plates pressing with friction dots labeled \"摩擦离合\", a stopwatch with an arrow labeled \"换挡响应\", and a fan with wavy lines labeled \"散热冷却\".\n\nIn the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"T = n * μ * Fn * R\", a parameter limit reading \"Threshold < 250°C (Dry) / 160°C (Wet)\", and a standard reference reading \"Ref: QC/T 1022-2015\".\n\nIn the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\".\nBelow this line, the layout uses a single column stack of small hyper-realistic real-metal 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a macro 3D render of a dry friction plate with chalk text \"1. 干式离合器片：通过摩擦片直接接触传递动力，依靠空气对流散热，传动效率高但热负荷有限。\", a macro 3D render of a wet multi-plate pack with chalk text \"2. 湿式多片离合器：浸泡在变速箱油中，依靠油液循环带走热量，具有极高的热容量和耐久性。\", a macro 3D render of a concentric hydraulic actuator with chalk text \"3. 电控液压执行机构：精确控制两组离合器的分离与结合，实现毫秒级快速换挡响应。\", and a macro 3D render of a dual-mass flywheel assembly with chalk text \"4. 双质量飞轮：有效吸收发动机扭转振动，优化动力传递平顺性并保护变速箱。\", and a [Macro 3D Render of Part 4] with chalk text \"4. [PART NAME CN]：[Detailed Function Description in CN without length limit]\".\n\nAt the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of an X-Y Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled 'Time'. Y-axis explicitly labeled 'Temperature'. Two separate curves are drawn: one steep, high curve in red chalk labeled '干式' (Dry) with a high peak, and one flatter, lower curve in white chalk labeled '湿式' (Wet) with a lower peak. with explicit text \"X: Time, Y: Temperature\" next to the diagram axes. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 高效率 √\", \"2. 快响应 √\", and \"3. 散热优 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/干式湿式双离合/poster_1773118286.webp"
+    },
+    {
+        "id": 545,
+        "category": "动力总成",
+        "title": "poster_1773118764",
+        "prompt": "[ANALYSIS LOG]\nConcept: 换挡逻辑\nTarget AR: Vertical (3:4)\nVerified Standard: GB/T 38146.1-2019\nCore Physics: P = T * n / 9550\nLayout Strategy: Single Column Stack\nChart Geometry: A 2D Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled 'Vehicle Speed', Y-axis explicitly labeled 'Throttle Opening'. Multiple stepped linear upward-sloping curves in white and red chalk representing gear shift schedules\nChart Labels: X: Speed, Y: Throttle\nVerification Checkpoints: 强动力, 低油耗, 高平顺\n\n/imagine prompt: A high-precision engineering education visualization of \"换挡逻辑\". The overall aesthetic combines Hyper-realistic Mixed Reality, Academic Minimalism, and a \"Kinfolk\" Layout on a Blackboard. The background is a pristinely clean Deep Matte Digital Blackboard in Dark Slate or Green, featuring faint, razor-thin white grid lines spaced exactly 5mm apart. The lighting uses a cool white Studio Spotlight focused on the 3D parts for high contrast, with a soft rim light on any tools. The color palette consists of Chalk White for lines and text, Stainless Steel or Chrome for the 3D parts, Brass or Gold for tools, and Red Chalk for highlights. Propped elegantly on its edge on the board is a generic Stainless Steel Vernier Caliper or Transparent Acrylic Set Square. The entire composition features a red seal reading \"雪沐江南\". At the very top of the layout, the title \"换挡逻辑\" is written in bold, flowy Chinese Engineering Hand-lettering (Xingshu style) using bright chalk, accompanied by a subtitle \"GEARSHIFT LOGIC & TCU ALGORITHM\" in smaller, thinner chalk handwriting. As a visual anchor, a hyper-realistic 3D render of a translucent glowing Transmission Control Unit (TCU) microchip hovering over a complex metallic valve body floats slightly in front of the board, casting a soft shadow. The header area includes a minimalist technical drafting border incorporating a white chalk proprietary engineering stamp for \"雪沐江南\". Below the header, the upper area features a hand-drawn white chalk line with the text \"核心机制 (MECHANISM)\". Beneath this, there are white chalk schematics in the form of simplified physics icons: a foot pressing a pedal icon labeled \"油门开度\" in handwritten Chinese, a speedometer dial icon labeled \"车速信号\", a microchip with circuit lines icon labeled \"控制算法\", and a meshing gears icon labeled \"执行机构\". In the middle area, a hand-drawn chalk line underlines the text \"工程定律 (AXIOMS)\". Below this, minimalist equation blocks are drawn in fine chalk, including a hand-written math formula \"V_shift = f(α, RPM)\", a parameter limit reading \"Threshold < 10ms\", and a standard reference reading \"Ref: GB/T 38146.1-2019\". In the lower main content area, a hand-drawn chalk line underlines the text \"深度解构 (DECONSTRUCTION)\". Below this line, the layout uses a single column stack of small hyper-realistic real-metal 3D part renders accompanied by dense, legible, fine-tip chalk annotations in natural Chinese sentences. It features: a macro 3D render of a multi-layer circuit board TCU with chalk text \"1. 变速箱控制单元：作为整个系统的核心大脑，实时接收并处理车辆传感器信号，计算最佳换挡时机\", a macro 3D render of an electro-hydraulic solenoid valve with chalk text \"2. 电磁滑阀机构：接收TCU电信号，将数字指令转化为精确的液压控制力，驱动离合器或制动器动作\", a macro 3D render of a hall-effect speed sensor with chalk text \"3. 霍尔转速传感器：实时监测变速箱输入轴与输出轴转速，为换挡点计算和滑移率控制提供高精度数据\", and a macro 3D render of an electronic accelerator pedal with chalk text \"4. 电子加速踏板：直接反映驾驶员的动力需求意图，其开度变化率决定了变速箱是维持挡位还是触发降挡\". At the absolute bottom of the layout, a hand-drawn chalk line underlines the text \"可视验证 (VERIFICATION)\". On the bottom left, there is a clean, minimalist chalk drawing of a 2D Cartesian coordinate graph drawn in white chalk. X-axis explicitly labeled 'Vehicle Speed', Y-axis explicitly labeled 'Throttle Opening'. Multiple stepped linear upward-sloping curves in white and red chalk representing gear shift schedules with explicit text \"X: Speed, Y: Throttle\" next to the diagram axes. On the bottom right, there is an explicit handwritten checklist in chalk: \"1. 强动力 √\", \"2. 低油耗 √\", and \"3. 高平顺 √\", ensuring explicit Chinese text rendering. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in handwritten chalk font. --ar 3:4 --stylize 400 --v 6.1 --no paper texture, crumpled paper, messy eraser marks, clouds of chalk dust, neon colors, cartoonish, low resolution, unlabelled axes, floating arrows, illogical math, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/换挡逻辑/poster_1773118764.webp"
+    },
+    {
+        "id": 546,
+        "category": "动力总成",
+        "title": "锻造曲轴",
+        "prompt": "/imagine prompt: A high-quality vertical industrial design magazine spread, featuring the text \"锻造曲轴\". The overall aesthetic embodies High-end Editorial Photography styling mixed with 3D Reality, merging a \"Kinfolk\" style with \"Braun Design\". The background consists entirely of a Full-Frame High-texture Matte Art paper-textured background in off-white or cream that fills the entire image, with NO desktop or table surface visible. The lighting is Hard Sunlight (Warm White) that casts sharp, highly defined shadows of the 3D components directly onto the textured paper. The color palette utilizes Charcoal Grey for main text, Prussian Blue for technical data, and Silver/Chrome for 3D parts. The perspective is a perfectly aligned 90° top-down flat lay, zoomed in strictly to fill the frame with the paper's content. At the very top of the layout, the title \"锻造曲轴\" is printed in massive bold sans-serif font like Helvetica or DIN using Deep Black Ink, accompanied by a subtitle \"FORGED CRANKSHAFT\" in an elegant Serif font in Prussian Blue. A hyper-realistic 3D render of a forged steel engine crankshaft with counterweights and polished journals sits physically on the paper background as a visual anchor, casting a hard shadow directly over the title text. The header area includes subtle graphics such as a \"Figure 1.0\" label, a sleek barcode sticker, a red seal reading \"雪沐江南\", and fine cross-hair lines printed on the paper. Below the header, a minimalist line divider accompanies the text \"核心机制 (CORE MECHANISM)\". Under this, fine-line blueprint-style technical illustrations are printed on the textured paper, displaying an fine-line drawing of a main journal with the label \"主轴颈 (MAIN JOURNAL)\", an fine-line drawing of a crankpin with the label \"连杆轴颈 (CRANKPIN)\", an fine-line drawing of a counterweight with the label \"平衡块 (COUNTERWEIGHT)\", an fine-line drawing of an oil passage with the label \"油道 (OIL PASSAGE)\", and an fine-line drawing of a flange with the label \"法兰盘 (FLANGE)\". In the middle area, a minimalist line divider accompanies the text \"工程定律 (AXIOMS)\". Below this, data is presented in \"Post-it\" style highlighted blocks or shaded grey areas natively printed on the paper background. These blocks include a typography math formula \"τ = T*r/J\", a data highlight reading \"阈值 < 800 MPa\", and a red or blue approval stamp graphic reading \"执行标准 GB/T 23339\". In the lower main content area, a minimalist line divider accompanies the text \"深度解构 (DECONSTRUCTION)\". Below this divider, the layout uses a single magazine-style column stack featuring small floating 3D part renders paired with large, crisp, and legible Typeset Chinese Text. Natural Chinese sentences are tightly composed next to each part: polished steel main journal paired with the text \"1. 主轴颈：承受气体压力和往复惯性力，为曲轴提供主要支撑基准。\", induction hardened crankpin paired with the text \"2. 连杆轴颈：连接活塞连杆组，将直线运动转化为旋转动力输出。\", forged counterweight lobe paired with the text \"3. 平衡块：精确配重设计，有效抵消旋转惯性力，减少引擎震动。\", and drilled internal oil gallery paired with the text \"4. 润滑油道：内部精密加工通道，确保高转速下轴瓦的流体动力润滑。\". At the absolute bottom of the layout, a minimalist line divider accompanies the text \"可视验证 (VERIFICATION)\". On the bottom left, a geometric graphic showing A neat grid of 3 square boxes connected by thin straight pencil lines is drawn in a minimalist hand-drawn pencil style, with explicit text labels \"LIMIT, RPM\" next to the diagram nodes. On the bottom right, there is a high-contrast graphic block showing A precise X-Y line graph printed in Prussian Blue ink with translucent tracing paper overlays showing mechanical cross-sections. Finally, the absolute bottom footer reads \"雪沐江南 · VISUAL ARCHITECT\" in a small monospace font. --ar 3:4 --stylize 350 --v 6.1 --no camera interface, camera settings text, watermark, signature, date stamp, bottom ui, neon lights, glowing edges, dark background, black paper-textured background, cyberpunk, messy sketches, distorted shadows, dirty paper-textured background texture, low resolution diagrams, floating unconnected arrows, unlabelled graph axes, illogical math, random flowchart lines, gibberish, illegible, malformed text, overlapping text, typo, broken fonts, distorted letters, cluttered layout, messy characters, double printing, random symbols, incoherent writing, repeat text and dual themes",
+        "image_path": "./assets/能源与动力总成/内燃机与传动（含混动基础）/锻造曲轴/visual.webp"
     }
 ]
