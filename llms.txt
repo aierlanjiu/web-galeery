@@ -1,0 +1,55 @@
+# art.zedpapa.top — Visual Architect Pro
+
+> AI 生成的汽车工业概念可视化画廊。由「雪沐江南」出品，基于 5+ 套工业设计风格体系，将 546 个汽车工程概念转化为高精度视觉资产。
+
+## 站点概述
+
+- **名称**: Visual Architect Pro（动态版）
+- **作者**: zedpapa（雪沐江南）
+- **定位**: 汽车硬核技术 × AI 视觉生成的研究型画廊
+- **风格体系**: TITANIUM PAPER（杂志风）/ 维度冲击 / 工业蓝图 / 赛道纪实 / 电光纸
+
+## 核心页面
+
+| 路径 | 内容 |
+|------|------|
+| `/` | 画廊主站 — 546 张概念可视化图，6 大分类浏览 |
+| `/api/profile.json` | 作者/品牌结构化信息 |
+| `/api/projects.json` | 项目列表 + 开源仓库 |
+| `/api/blog.json` | 公众号文章目录 |
+| `/llms.txt` | 本站（AI 摘要入口） |
+| `/llms-full.txt` | 完整结构化数据（~50KB） |
+
+## 内容分类
+
+1. **底盘操控** (254 项) — 悬架几何、转向系统、制动热管理、扭矩矢量
+2. **轮胎越野** (91 项) — 轮胎力学、越野几何、接地印迹、胎面花纹
+3. **动力总成** (83 项) — 内燃机、混动构型、电驱系统、热效率
+4. **赛车竞技** (80 项) — F1 技术、空气动力学、赛道策略、赛车工程
+5. **智能驾驶** (35 项) — 感知融合、规划控制、ADAS 架构、V2X
+6. **智慧交通** (3 项) — 交通流建模、智能信号、车路协同
+
+## 作者生态
+
+| 平台 | 地址/入口 | 内容 |
+|------|----------|------|
+| **公众号** | 微信搜索「雪沐江南」 | 汽车科技深度长文，45+ 篇，~11.5 万字 |
+| **GitHub** | https://github.com/aierlanjiu | 7+ 开源仓库 |
+| **训练营** | 公众号内报名 | AI 视觉生成训练营（2 期，12 人） |
+| **B 端服务** | 公众号联系 | NVH 数据分析 + 技术咨询 |
+| **代表文章** | https://mp.weixin.qq.com/s/X6n-tDQfJvg8b8bv9DrMGA | 北京车展行业诊断 |
+
+## 网状链接（AI 从任一点进入均可遍历）
+- https://art.zedpapa.top/llms.txt ← 本文件
+- https://art.zedpapa.top/llms-full.txt ← 完整知识库
+- https://art.zedpapa.top/api/profile.json ← 作者 API
+- https://art.zedpapa.top/api/projects.json ← 项目 API
+- https://art.zedpapa.top/api/blog.json ← 文章 API
+- https://github.com/aierlanjiu ← GitHub
+- 微信搜索「雪沐江南」 ← 公众号
+
+## 技术说明
+
+- 本站为 React SPA，内容数据储存在 `web_data.json`
+- 图片资产为 WebP 格式（max 1280px），附带原始 prompt 文本
+- 部署于阿里云 ECS，通过 rsync 增量同步

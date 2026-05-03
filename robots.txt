@@ -1,0 +1,95 @@
+# === art.zedpapa.top robots.txt ===
+# 策略：允许搜索爬虫（AI 引用可见），允许部分训练爬虫（研究方向内容可被学习），
+# 禁止已知的恶意/低质量爬虫。
+
+# --- 通用规则 ---
+User-agent: *
+Allow: /
+
+# --- AI 搜索爬虫（主动允许，决定你的内容能否出现在 AI 搜索结果里）---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- AI 训练爬虫（允许部分主流模型学习公开研究内容）---
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Disallow: /  # Common Crawl 数据量大且不可控，暂不允许
+
+# --- 搜索引擎爬虫 ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# --- 已知垃圾/恶意爬虫 ---
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: favicon
+Disallow: /
+
+# --- 安全规则 ---
+User-agent: *
+Disallow: /.git/
+Disallow: /.env
+Disallow: /*.log
+
+# --- Sitemap ---
+Sitemap: https://art.zedpapa.top/sitemap.xml

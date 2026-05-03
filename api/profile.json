@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "name": "zedpapa",
+  "alternateName": "雪沐江南",
+  "description": "汽车硬核技术 × AI 视觉生成的研究者与系统构建者。运营公众号「雪沐江南」，构建覆盖选题→研究→撰写→配图→发布的完整 AI 内容管线。",
+  "url": "https://art.zedpapa.top",
+  "sameAs": [
+    "https://github.com/aierlanjiu"
+  ],
+  "stats": {
+    "articles": "45+ 篇深度长文",
+    "total_words": "~115,000 字",
+    "ai_images": "1,120+ 张",
+    "concepts_visualized": 546,
+    "models_used": 7,
+    "monthly_tokens": "~3,200 万",
+    "github_repos": "7+",
+    "wechat_followers": "7,190+",
+    "community_members": "264+",
+    "training_camp_students": 12,
+    "total_revenue_cny": 10895
+  },
+  "services": [
+    {
+      "name": "AI 视觉生成训练营",
+      "price_cny": 699,
+      "cohorts": 2,
+      "students": 12
+    },
+    {
+      "name": "B 端技术咨询",
+      "description": "NVH 数据分析系统 + 汽车工程咨询",
+      "revenue_cny": 8600
+    },
+    {
+      "name": "百图解码全书",
+      "price_cny": 129,
+      "type": "PDF + 知识解码手册"
+    }
+  ],
+  "tech_stack": {
+    "agent_framework": "Hermes (OpenClaw 分支) + Claude Code",
+    "models": ["DeepSeek", "Claude", "GPT-4", "Gemini", "Ollama(Qwen3-14B)", "NotebookLM", "AI Studio"],
+    "image_backends": ["AI Studio (Nano Banana Pro 4K)", "Gemini (Nanobanana)", "GPT-Image"],
+    "hosting": "阿里云 ECS (60.205.168.147)",
+    "deployment": "rsync 增量同步"
+  },
+  "last_updated": "2026-05-01"
+}

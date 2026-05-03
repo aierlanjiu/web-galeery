@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "name": "Visual Architect Pro",
+      "url": "https://art.zedpapa.top",
+      "description": "AI 生成的汽车工业概念可视化画廊。546 个概念，6 大分类，5+ 套视觉风格体系。",
+      "type": "Web Application",
+      "tech": ["React", "Tailwind CSS", "Framer Motion"],
+      "stats": {
+        "concepts": 546,
+        "categories": 6,
+        "visual_styles": 5,
+        "student_works": 11
+      }
+    },
+    {
+      "name": "HYPER-TASK-HUB",
+      "url": "https://github.com/aierlanjiu/HYPER-TASK-HUB",
+      "description": "多 Agent 任务编排中枢，智能分配 + 动态技能加载",
+      "type": "Open Source",
+      "language": "Python"
+    },
+    {
+      "name": "racing-science-card-skill",
+      "url": "https://github.com/aierlanjiu/racing-science-card-skill",
+      "description": "赛车科普卡片 AI 生成技能，三套差异化提示词模板",
+      "type": "Open Source",
+      "language": "Python"
+    },
+    {
+      "name": "gongzhonghao-peitu-fabu",
+      "url": "https://github.com/aierlanjiu/gongzhonghao-peitu-fabu",
+      "description": "公众号图文自动发布管线",
+      "type": "Open Source",
+      "language": "Python"
+    },
+    {
+      "name": "xuemu-ppt",
+      "url": "https://github.com/aierlanjiu/xuemu-ppt",
+      "description": "PPT 自动化生成技能 — 5 套汽车工业视觉风格（杂志风/黑板报/维度冲击/CFD水晶/电光纸），HTML 交互版 + MP4 视频版双输出",
+      "type": "Open Source",
+      "language": "HTML"
+    },
+    {
+      "name": "skill-prompt-generator",
+      "url": "https://github.com/aierlanjiu/skill-prompt-generator",
+      "description": "AI Prompt 生成系统 + 自动学习 + 版本控制",
+      "type": "Open Source",
+      "language": "Python"
+    },
+    {
+      "name": "cinematic-vision-engine",
+      "url": "https://github.com/aierlanjiu/cinematic-vision-engine",
+      "description": "AI 电影海报生成器（8K）",
+      "type": "Open Source",
+      "language": "TypeScript"
+    },
+    {
+      "name": "Vibration-Test-Data-Summary",
+      "url": "https://github.com/aierlanjiu/Vibration-Test-Data-Summary",
+      "description": "汽车 NVH 振动测试数据统计分析",
+      "type": "Open Source",
+      "language": "Python"
+    }
+  ],
+  "last_updated": "2026-05-01"
+}
