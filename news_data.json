@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-05-04_1777861468",
+    "date": "2026-05-04",
+    "poster": "./assets/news/news_2026-05-04_1777861468.png",
+    "items": [
+      {
+        "title": "半自主探测机器人：无需等待人类指令，可大幅提升火星探测效率",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/222.htm"
+      },
+      {
+        "title": "窄体机变身空中豪宅：宝马联手汉莎推出 The BOW 飞机内饰概念",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/219.htm"
+      },
+      {
+        "title": "掺入微生物：新型可自毁塑料问世，环保材料新突破",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/224.htm"
+      },
+      {
+        "title": "台积电重启龙潭晶圆厂：投资达 6000 亿新台币，先进制程扩张",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/223.htm"
+      },
+      {
+        "title": "新加坡航空部署星链 Wi-Fi：明年起将在部分飞机上提供高速互联",
+        "source": "36氪",
+        "link": "https://www.baidu.com/s?wd=新加坡航空部署星链 Wi-Fi：明年起将在部分飞机上提供高速互联"
+      },
+      {
+        "title": "三星电子任命新视觉显示业务负责人：战略调整应对市场挑战",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3794309684255751?f=rss"
+      },
+      {
+        "title": "游戏驿站提出近560亿美元收购eBay：游戏零售巨头跨界电商",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3794262182993161?f=rss"
+      },
+      {
+        "title": "英伟达提前终止部分 Jetson 产品供应：LPDDR4 内存短缺成主因",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/199.htm"
+      },
+      {
+        "title": "传小米新 SU7 锁单突破 7 万：智能电动汽车市场持续火爆",
+        "source": "极客公园",
+        "link": "https://www.baidu.com/s?wd=传小米新 SU7 锁单突破 7 万：智能电动汽车市场持续火爆"
+      },
+      {
+        "title": "恒生科技指数涨3%升破5000点：科技板块强势反弹",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3794323081026816?f=rss"
+      }
+    ]
+  },
+  {
     "id": "2026-05-04_1777860839",
     "date": "2026-05-04",
     "poster": "./assets/news/news_2026-05-04_1777860839.png",
@@ -5089,113 +5146,6 @@
         "summary_raw": "The BYD Atto 3's Blade Battery showed no fire risk after being caught in a close-range ballistic missile explosion. The post BYD Atto 3 endures Jerusalem rocket attack, five survive, three injured appeared first on CarNewsChina.com .",
         "full_content": "The BYD Atto 3's Blade Battery showed no fire risk after being caught in a close-range ballistic missile explosion. The post BYD Atto 3 endures Jerusalem rocket attack, five survive, three injured appeared first on CarNewsChina.com .",
         "fetched_at": "2026-03-04T07:00:27.394929"
-      }
-    ]
-  },
-  {
-    "id": "2026-03-03_1772492578",
-    "date": "2026-03-03",
-    "poster": "./assets/news/news_2026-03-03_1772492578.webp",
-    "items": [
-      {
-        "id": "https://carnewschina.com/2026/03/02/byd-feb-nev-sales-plummet-41-domestically-hit-by-chinese-holidays/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "比亚迪2月内销因春节大跌41%",
-        "link": "https://carnewschina.com/2026/03/02/byd-feb-nev-sales-plummet-41-domestically-hit-by-chinese-holidays/",
-        "published": "Sun, 01 Mar 2026 23:11:49 +0000",
-        "summary_raw": "BYD's passenger vehicle sales reached 187,782 units in February, down roughly 41% year-on-year. The post BYD Feb NEV sales plummet 41% domestically, hit by Chinese holidays appeared first on CarNewsChina.com .",
-        "full_content": "BYD's passenger vehicle sales reached 187,782 units in February, down roughly 41% year-on-year. The post BYD Feb NEV sales plummet 41% domestically, hit by Chinese holidays appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.862327"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/xiaomi-scores-first-court-win-in-su7-ultra-hood-saga/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "小米赢得SU7 Ultra机盖争议首胜",
-        "link": "https://carnewschina.com/2026/03/02/xiaomi-scores-first-court-win-in-su7-ultra-hood-saga/",
-        "published": "Mon, 02 Mar 2026 03:39:54 +0000",
-        "summary_raw": "Xiaomi successfully defended its 5,810 USD hood option, with the court ruling out deliberate intent to mislead. The post Xiaomi scores first court win in SU7 Ultra hood saga appeared first on CarNewsChina.com .",
-        "full_content": "Xiaomi successfully defended its 5,810 USD hood option, with the court ruling out deliberate intent to mislead. The post Xiaomi scores first court win in SU7 Ultra hood saga appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.862176"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/arcfoxs-new-alpha-s5-starts-pre-sales-with-erev-options/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "极狐阿尔法S5开启预售，新增增程版",
-        "link": "https://carnewschina.com/2026/03/02/arcfoxs-new-alpha-s5-starts-pre-sales-with-erev-options/",
-        "published": "Mon, 02 Mar 2026 04:52:50 +0000",
-        "summary_raw": "Arcfox Alpha S5 pre-sale launched, starting from around 17,000 USD. The post Arcfox’s new Alpha S5 starts pre-sales with EREV options appeared first on CarNewsChina.com .",
-        "full_content": "Arcfox Alpha S5 pre-sale launched, starting from around 17,000 USD. The post Arcfox’s new Alpha S5 starts pre-sales with EREV options appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.862023"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/huawei-will-put-worlds-highest-line-count-mass-produced-lidar-on-its-updated-maextro-s800-and-aito-m9/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "华为尊界S800及问界M9将搭载最高线数激光雷达",
-        "link": "https://carnewschina.com/2026/03/02/huawei-will-put-worlds-highest-line-count-mass-produced-lidar-on-its-updated-maextro-s800-and-aito-m9/",
-        "published": "Mon, 02 Mar 2026 04:56:02 +0000",
-        "summary_raw": "The detail specifications will be revealed at the HIMA Technology Renewal Launch Conference on March 4th in China. The post Huawei will put world’s highest line-count mass-produced lidar on its updated Maextro S800 and Aito M9 appeared first on CarNewsChina.com .",
-        "full_content": "The detail specifications will be revealed at the HIMA Technology Renewal Launch Conference on March 4th in China. The post Huawei will put world’s highest line-count mass-produced lidar on its updated Maextro S800 and Aito M9 appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.861860"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/byds-denza-z9-gt-set-for-march-5-debut-1140-hp-awd-spotted-at-1500-kw-station/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "腾势Z9 GT将于3月5日上市，支持1500kW快充",
-        "link": "https://carnewschina.com/2026/03/02/byds-denza-z9-gt-set-for-march-5-debut-1140-hp-awd-spotted-at-1500-kw-station/",
-        "published": "Mon, 02 Mar 2026 04:58:15 +0000",
-        "summary_raw": "The updated Denza Z9 GT AWD now delivers 1,140 hp, a significant jump from the original 952 hp launch specification. The post BYD’s Denza Z9 GT set for March 5 debut, 1,140 hp AWD and 1,500 kW charging trials sighted appeared first on CarNewsChina.com .",
-        "full_content": "The updated Denza Z9 GT AWD now delivers 1,140 hp, a significant jump from the original 952 hp launch specification. The post BYD’s Denza Z9 GT set for March 5 debut, 1,140 hp AWD and 1,500 kW charging trials sighted appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.861656"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/chery-released-tiggo-7l-suv-official-images-in-china/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "奇瑞瑞虎7L SUV官方图正式发布",
-        "link": "https://carnewschina.com/2026/03/02/chery-released-tiggo-7l-suv-official-images-in-china/",
-        "published": "Mon, 02 Mar 2026 05:51:26 +0000",
-        "summary_raw": "The Tiggo 7L was reportedly exported to Russia, but Chery now plans to also sell the model in China, and seemingly with an updated design. The post Chery released Tiggo 7L SUV official images in China appeared first on CarNewsChina.com .",
-        "full_content": "The Tiggo 7L was reportedly exported to Russia, but Chery now plans to also sell the model in China, and seemingly with an updated design. The post Chery released Tiggo 7L SUV official images in China appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.861491"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/chery-qq3-ev-to-enter-china-on-march-10-to-rival-local-bestseller-geely-ex2/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "奇瑞QQ3 EV将于3月10日上市，对标吉利EX2",
-        "link": "https://carnewschina.com/2026/03/02/chery-qq3-ev-to-enter-china-on-march-10-to-rival-local-bestseller-geely-ex2/",
-        "published": "Mon, 02 Mar 2026 05:54:43 +0000",
-        "summary_raw": "The Chery QQ3 EV four-door hatchback will enter the Chinese market on March 10. It will rival China’s bestselling car of 2025 – the Geely EX2. The post Chery QQ3 EV to enter China on March 10 to rival local bestseller Geely EX2 appeared first on CarNewsChina.com .",
-        "full_content": "The Chery QQ3 EV four-door hatchback will enter the Chinese market on March 10. It will rival China’s bestselling car of 2025 – the Geely EX2. The post Chery QQ3 EV to enter China on March 10 to rival local bestseller Geely EX2 appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.861344"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/volkswagen-backed-gotion-locks-in-2gwh-solid-state-line-design-eyes-2026-ev-debut/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "国轩高科2GWh固态电池产线落地，2026年上车",
-        "link": "https://carnewschina.com/2026/03/02/volkswagen-backed-gotion-locks-in-2gwh-solid-state-line-design-eyes-2026-ev-debut/",
-        "published": "Mon, 02 Mar 2026 06:12:34 +0000",
-        "summary_raw": "Partnering with Volkswagen, Gotion aims to deploy all-solid-state batteries in high-end models, offering a 1,000 km driving range. The post Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut appeared first on CarNewsChina.com .",
-        "full_content": "Partnering with Volkswagen, Gotion aims to deploy all-solid-state batteries in high-end models, offering a 1,000 km driving range. The post Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.861182"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/02/updated-xpeng-x9-ev-minivan-launched-in-china-with-rear-wheel-steering-and-2250-tops/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "新款小鹏X9上市：标配后轮转向，算力2250 TOPS",
-        "link": "https://carnewschina.com/2026/03/02/updated-xpeng-x9-ev-minivan-launched-in-china-with-rear-wheel-steering-and-2250-tops/",
-        "published": "Mon, 02 Mar 2026 10:23:51 +0000",
-        "summary_raw": "The updated Xpeng X9 EV minivan was launched in China with a price range of 45,170 – 53,920 USD. It boasts rear-wheel steering and 2,250 TOPS. The post Updated Xpeng X9 EV minivan launched in China with rear-wheel steering and 2,250 TOPS appeared first on CarNewsChina.com .",
-        "full_content": "The updated Xpeng X9 EV minivan was launched in China with a price range of 45,170 – 53,920 USD. It boasts rear-wheel steering and 2,250 TOPS. The post Updated Xpeng X9 EV minivan launched in China with rear-wheel steering and 2,250 TOPS appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-03T07:00:12.860999"
-      },
-      {
-        "id": "https://www.qbitai.com/2026/03/382971.html",
-        "source": "量子位 (QbitAI)",
-        "title": "商汤办公小浣熊推出“可编辑”AI PPT",
-        "link": "https://www.qbitai.com/2026/03/382971.html",
-        "published": "Mon, 02 Mar 2026 04:05:15 +0000",
-        "summary_raw": "每一页都由用户掌控，才是真正好用的AI PPT",
-        "full_content": "每一页都由用户掌控，才是真正好用的AI PPT",
-        "fetched_at": "2026-03-03T07:00:04.747822"
       }
     ]
   }
