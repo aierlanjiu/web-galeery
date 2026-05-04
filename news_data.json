@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-05-04_1777860839",
+    "date": "2026-05-04",
+    "poster": "./assets/news/news_2026-05-04_1777860839.png",
+    "items": [
+      {
+        "title": "星链航空Wi-Fi：新加坡航空明年起将在部分飞机上部署星链Wi-Fi",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3794337428151559?f=rss"
+      },
+      {
+        "title": "半自主火星探测：无需等待人类指令，半自主探测机器人可大幅提升火星探测效率",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/222.htm"
+      },
+      {
+        "title": "窄体机空中豪宅：宝马联手汉莎推出The BOW飞机内饰概念",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/219.htm"
+      },
+      {
+        "title": "小米SU7锁单突破7万：传小米新SU7锁单突破7万；微信输入法测「隔空发图」功能；豆包二代AI手机上半年发布",
+        "source": "极客公园",
+        "link": "http://www.geekpark.net/news/363701"
+      },
+      {
+        "title": "英伟达Jetson供应终止：曝英伟达提前终止部分Jetson产品供应，LPDDR4内存短缺成主因",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/199.htm"
+      },
+      {
+        "title": "游戏驿站收购eBay：游戏驿站提出近560亿美元收购eBay",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3794262182993161?f=rss"
+      },
+      {
+        "title": "三星视觉显示换帅：三星电子任命新的视觉显示业务负责人",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3794309684255751?f=rss"
+      },
+      {
+        "title": "小米充电宝新低：299→228元：小米5000mAh金沙江充电宝多重补贴新低，兼容iPhone 17系列",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/217.htm"
+      },
+      {
+        "title": "小米REDMI 17系列：小米REDMI 17系列手机现身IMEI数据库，瞄准入门级市场",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/218.htm"
+      },
+      {
+        "title": "美联航客机事故：美联航一客机降落时撞上路灯杆和卡车，联邦航空管理局展开调查",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/946/204.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-05-04_1777849838",
     "date": "2026-05-04",
     "poster": "./assets/news/news_2026-05-04_1777849838.png",
@@ -5139,113 +5196,6 @@
         "summary_raw": "每一页都由用户掌控，才是真正好用的AI PPT",
         "full_content": "每一页都由用户掌控，才是真正好用的AI PPT",
         "fetched_at": "2026-03-03T07:00:04.747822"
-      }
-    ]
-  },
-  {
-    "id": "2026-03-02_1772406357",
-    "date": "2026-03-02",
-    "poster": "./assets/news/news_2026-03-02_1772406357.webp",
-    "items": [
-      {
-        "id": "https://carnewschina.com/2026/03/01/byd-spotted-testing-1500-kw-flash-charge-in-china-nearly-triple-tesla-v4-power/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "比亚迪实测1500kW闪充，功率近特斯拉V4三倍",
-        "link": "https://carnewschina.com/2026/03/01/byd-spotted-testing-1500-kw-flash-charge-in-china-nearly-triple-tesla-v4-power/",
-        "published": "Sun, 01 Mar 2026 02:38:10 +0000",
-        "summary_raw": "BYD megawatt charging hardware observed during internal testing near its Shenzhen headquarters. The post BYD spotted testing 1500 kW Flash Charge in China, nearly triple Tesla V4 power appeared first on CarNewsChina.com .",
-        "full_content": "BYD megawatt charging hardware observed during internal testing near its Shenzhen headquarters. The post BYD spotted testing 1500 kW Flash Charge in China, nearly triple Tesla V4 power appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-02T07:03:11.512372"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/01/volkswagens-first-flagship-erev-suv-in-china-id-era-9x-interior-unveiled-ahead-of-launch/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "大众首款旗舰增程SUV ID. Era 9X内饰曝光",
-        "link": "https://carnewschina.com/2026/03/01/volkswagens-first-flagship-erev-suv-in-china-id-era-9x-interior-unveiled-ahead-of-launch/",
-        "published": "Sun, 01 Mar 2026 03:53:19 +0000",
-        "summary_raw": "Once launched, the ID. Era 9X will become SAIC-Volkswagen’s largest model, and compete directly with other “9-series” flagship models such as the Zeekr 9X, Li Auto L9, and IM LS9. The post Volkswagen’s first flagship EREV SUV in China, ID. Era 9X interior unveiled ahead of launch appeared first on CarNewsChina.com .",
-        "full_content": "Once launched, the ID. Era 9X will become SAIC-Volkswagen’s largest model, and compete directly with other “9-series” flagship models such as the Zeekr 9X, Li Auto L9, and IM LS9. The post Volkswagen’s first flagship EREV SUV in China, ID. Era 9X interior unveiled ahead of launch appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-02T07:03:11.512237"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/01/hidden-flagship-gwm-chairman-drops-suv-teaser-with-tank-700-like-profile/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "长城董事长曝旗舰SUV预告，神似坦克700",
-        "link": "https://carnewschina.com/2026/03/01/hidden-flagship-gwm-chairman-drops-suv-teaser-with-tank-700-like-profile/",
-        "published": "Sun, 01 Mar 2026 04:47:25 +0000",
-        "summary_raw": "GWM releases video of new covered flagship SUV, revealing front profile and cultural design cues without confirming model or specs. The post Hidden flagship: GWM Chairman drops SUV teaser with Tank 700‑like profile appeared first on CarNewsChina.com .",
-        "full_content": "GWM releases video of new covered flagship SUV, revealing front profile and cultural design cues without confirming model or specs. The post Hidden flagship: GWM Chairman drops SUV teaser with Tank 700‑like profile appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-02T07:03:11.512056"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/01/byd-released-seal-07-ev-official-images-ahead-of-launch-range/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "比亚迪海豹07 EV官图发布，续航及上市在即",
-        "link": "https://carnewschina.com/2026/03/01/byd-released-seal-07-ev-official-images-ahead-of-launch-range/",
-        "published": "Sun, 01 Mar 2026 15:35:12 +0000",
-        "summary_raw": "The Seal 07 EV is built based on the e-platform 3.0 Evo and boasts a 705 km range. Its official launch is expected to be in March. The post BYD released Seal 07 EV official images ahead of launch range appeared first on CarNewsChina.com .",
-        "full_content": "The Seal 07 EV is built based on the e-platform 3.0 Evo and boasts a 705 km range. Its official launch is expected to be in March. The post BYD released Seal 07 EV official images ahead of launch range appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-02T07:03:11.511878"
-      },
-      {
-        "id": "https://carnewschina.com/2026/03/01/leapmotor-reclaimed-top-spot-from-hima-xpeng-is-last-among-major-nev-startup-players-feb-2026-sales/",
-        "source": "CarNewsChina (China EV & Auto)",
-        "title": "2月销量：零跑反超鸿蒙智行夺冠，小鹏垫底",
-        "link": "https://carnewschina.com/2026/03/01/leapmotor-reclaimed-top-spot-from-hima-xpeng-is-last-among-major-nev-startup-players-feb-2026-sales/",
-        "published": "Sun, 01 Mar 2026 17:29:35 +0000",
-        "summary_raw": "Leapmotor reclaimed the top spot from Huawei's HIMA with 28,067 vehicles sold in February's slow season. Xpeng ranked last among the major NEV startup players. The post Leapmotor reclaimed top spot from HIMA, Xpeng is last among major NEV startup players, Feb 2026 sales appeared first on CarNewsChina.com .",
-        "full_content": "Leapmotor reclaimed the top spot from Huawei's HIMA with 28,067 vehicles sold in February's slow season. Xpeng ranked last among the major NEV startup players. The post Leapmotor reclaimed top spot from HIMA, Xpeng is last among major NEV startup players, Feb 2026 sales appeared first on CarNewsChina.com .",
-        "fetched_at": "2026-03-02T07:03:11.511673"
-      },
-      {
-        "id": "https://www.cnbeta.com.tw/articles/tech/1551454.htm",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "title": "瑞芯微就MPP开源合规致歉，正与FFmpeg沟通",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1551454.htm",
-        "published": "Fri, 27 Feb 2026 05:23:56 GMT",
-        "summary_raw": "2月27日，瑞芯微发布关于 MPP 开源合规事件的通告称，近期，公司开源媒体框架软件MPP因部分代码开源许可证条款合规问题，导致其 GitHub 仓库被暂时冻结。在此，向开源社区、所有受影响的合作伙伴、开发者致歉。 阅读全文",
-        "full_content": "2月27日，瑞芯微发布关于 MPP 开源合规事件的通告称，近期，公司开源媒体框架软件MPP因部分代码开源许可证条款合规问题，导致其 GitHub 仓库被暂时冻结。在此，向开源社区、所有受影响的合作伙伴、开发者致歉。 阅读全文",
-        "fetched_at": "2026-03-02T07:03:09.918406"
-      },
-      {
-        "id": "https://www.cnbeta.com.tw/articles/music/1551456.htm",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "title": "王力宏现身比亚迪饭局，外界猜测或将代言",
-        "link": "https://www.cnbeta.com.tw/articles/music/1551456.htm",
-        "published": "Fri, 27 Feb 2026 05:25:32 GMT",
-        "summary_raw": "2月27日下午消息，网传信息显示，王力宏近日现身比亚迪高层饭局，比亚迪执行副总裁李柯、比亚迪品牌及公关处总经理李云飞等高管陪同。 阅读全文",
-        "full_content": "2月27日下午消息，网传信息显示，王力宏近日现身比亚迪高层饭局，比亚迪执行副总裁李柯、比亚迪品牌及公关处总经理李云飞等高管陪同。 阅读全文",
-        "fetched_at": "2026-03-02T07:03:09.918329"
-      },
-      {
-        "id": "https://www.cnbeta.com.tw/articles/tech/1551458.htm",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "title": "Xcode 26.3正式支持Claude/Codex AI助手",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1551458.htm",
-        "published": "Fri, 27 Feb 2026 05:27:08 GMT",
-        "summary_raw": "经过数周的测试，苹果现在终于发布 Xcode 26.3 正式版，此次更新的最大亮点就是正式支持智能体编码 (Agentic Coding)，让开发者可以在 Xcode 里直接调用 Anthropic Claude Agent 和 OpenAI Codex 来创建应用程序。 阅读全文",
-        "full_content": "经过数周的测试，苹果现在终于发布 Xcode 26.3 正式版，此次更新的最大亮点就是正式支持智能体编码 (Agentic Coding)，让开发者可以在 Xcode 里直接调用 Anthropic Claude Agent 和 OpenAI Codex 来创建应用程序。 阅读全文",
-        "fetched_at": "2026-03-02T07:03:09.918239"
-      },
-      {
-        "id": "https://www.cnbeta.com.tw/articles/movie/1551460.htm",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "title": "Twitch强制观看广告：非活跃窗口将自动暂停",
-        "link": "https://www.cnbeta.com.tw/articles/movie/1551460.htm",
-        "published": "Fri, 27 Feb 2026 05:27:50 GMT",
-        "summary_raw": "日前有网友吐槽亚马逊旗下直播平台 Twitch 离谱的广告方案，亚马逊要求用户在观看 Twitch 广告时不能离开视线，当然亚马逊本身不能检测用户是否盯着屏幕，所以折中方案是禁止用户将广告切换到后台。 阅读全文",
-        "full_content": "日前有网友吐槽亚马逊旗下直播平台 Twitch 离谱的广告方案，亚马逊要求用户在观看 Twitch 广告时不能离开视线，当然亚马逊本身不能检测用户是否盯着屏幕，所以折中方案是禁止用户将广告切换到后台。 阅读全文",
-        "fetched_at": "2026-03-02T07:03:09.918161"
-      },
-      {
-        "id": "https://www.cnbeta.com.tw/articles/tech/1551462.htm",
-        "source": "CnBeta (TW Mirror - Accessible)",
-        "title": "5000星开源维护者可领半年Claude Max订阅",
-        "link": "https://www.cnbeta.com.tw/articles/tech/1551462.htm",
-        "published": "Fri, 27 Feb 2026 05:28:55 GMT",
-        "summary_raw": "日前 Claude Code 团队宣布面向开源社区提供优惠活动，项目达到 5000 星星的开源项目主要维护者或核心成员可以免费领取 6 个月的 Claude Max 20x 订阅权限，在订阅期限内可以免费使用 Claude Max 附带的各种权限。 阅读全文",
-        "full_content": "日前 Claude Code 团队宣布面向开源社区提供优惠活动，项目达到 5000 星星的开源项目主要维护者或核心成员可以免费领取 6 个月的 Claude Max 20x 订阅权限，在订阅期限内可以免费使用 Claude Max 附带的各种权限。 阅读全文",
-        "fetched_at": "2026-03-02T07:03:09.918084"
       }
     ]
   }
