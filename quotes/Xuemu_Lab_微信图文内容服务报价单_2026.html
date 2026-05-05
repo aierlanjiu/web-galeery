@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuemu_Lab 微信图文内容服务报价单 2026</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Serif+SC:wght@500;700;900&display=swap');
+
+        :root {
+            --ink: #161311;
+            --paper: #f4efe7;
+            --panel: rgba(255, 255, 255, 0.84);
+            --line: rgba(22, 19, 17, 0.12);
+            --muted: #6f655e;
+            --accent: #b5532d;
+            --accent-soft: rgba(181, 83, 45, 0.14);
+            --shadow: 0 24px 60px rgba(33, 23, 19, 0.14);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Manrope", "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at top left, rgba(181, 83, 45, 0.18), transparent 28%),
+                radial-gradient(circle at top right, rgba(38, 67, 58, 0.14), transparent 26%),
+                linear-gradient(180deg, #ece5da 0%, #f7f2ea 34%, #ebe3d8 100%);
+            padding: 32px;
+        }
+
+        .sheet {
+            width: min(1120px, 100%);
+            margin: 0 auto;
+            background:
+                linear-gradient(180deg, rgba(255,255,255,0.74), rgba(255,255,255,0.88)),
+                repeating-linear-gradient(
+                    90deg,
+                    rgba(22, 19, 17, 0.02) 0,
+                    rgba(22, 19, 17, 0.02) 1px,
+                    transparent 1px,
+                    transparent 24px
+                );
+            border: 1px solid rgba(22, 19, 17, 0.08);
+            border-radius: 28px;
+            padding: 34px;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(6px);
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1.35fr 0.9fr;
+            gap: 22px;
+            margin-bottom: 22px;
+        }
+
+        .hero-main,
+        .hero-side,
+        .card,
+        .block {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+        }
+
+        .hero-main {
+            padding: 28px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-main::after {
+            content: "";
+            position: absolute;
+            inset: auto -60px -60px auto;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(181, 83, 45, 0.16), transparent 68%);
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: var(--accent-soft);
+        }
+
+        h1 {
+            margin: 16px 0 12px;
+            font-family: "Noto Serif SC", serif;
+            font-size: clamp(32px, 4vw, 48px);
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+
+        .subhead {
+            max-width: 760px;
+            font-size: 16px;
+            line-height: 1.75;
+            color: var(--muted);
+            margin: 0;
+        }
+
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .pill {
+            padding: 10px 14px;
+            border-radius: 999px;
+            border: 1px solid var(--line);
+            font-size: 13px;
+            color: #3d3530;
+            background: rgba(255,255,255,0.72);
+        }
+
+        .hero-side {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 18px;
+        }
+
+        .brand {
+            display: flex;
+            justify-content: space-between;
+            gap: 14px;
+            align-items: flex-start;
+        }
+
+        .brand-name {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .brand-meta {
+            color: var(--muted);
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        .principle {
+            display: grid;
+            gap: 10px;
+        }
+
+        .principle-title {
+            font-size: 12px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-weight: 700;
+        }
+
+        .principle strong {
+            font-size: 18px;
+            line-height: 1.55;
+        }
+
+        .section-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 16px;
+            margin: 28px 0 14px;
+        }
+
+        .section-title h2 {
+            margin: 0;
+            font-family: "Noto Serif SC", serif;
+            font-size: 24px;
+        }
+
+        .section-title p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            padding: 22px 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-height: 340px;
+        }
+
+        .card.recommended {
+            border: 1px solid rgba(181, 83, 45, 0.3);
+            background: linear-gradient(180deg, rgba(181, 83, 45, 0.10), rgba(255,255,255,0.9));
+        }
+
+        .tag {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--accent);
+            border-radius: 999px;
+            padding: 6px 10px;
+        }
+
+        .tier {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .price {
+            margin: 12px 0 8px;
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+        .price span {
+            font-size: 13px;
+            color: var(--muted);
+            font-weight: 600;
+            margin-left: 4px;
+        }
+
+        .summary {
+            color: #3f3732;
+            font-size: 14px;
+            line-height: 1.7;
+            min-height: 74px;
+        }
+
+        .feature-list {
+            padding: 0;
+            margin: 6px 0 0;
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+
+        .feature-list li {
+            padding-left: 16px;
+            position: relative;
+            color: #463e39;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .feature-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.65em;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .grid-two {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .block {
+            padding: 22px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--line);
+            font-size: 13px;
+            vertical-align: top;
+        }
+
+        th {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .block h3 {
+            margin: 0 0 14px;
+            font-size: 17px;
+        }
+
+        .mini-list {
+            margin: 0;
+            padding-left: 18px;
+            color: #453d38;
+            line-height: 1.8;
+            font-size: 13px;
+        }
+
+        .note {
+            color: var(--muted);
+            font-size: 12px;
+            line-height: 1.8;
+            margin-top: 12px;
+        }
+
+        .footer {
+            margin-top: 18px;
+            padding-top: 16px;
+            border-top: 1px solid var(--line);
+            display: flex;
+            justify-content: space-between;
+            gap: 18px;
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        @media (max-width: 980px) {
+            body {
+                padding: 16px;
+            }
+
+            .sheet {
+                padding: 18px;
+                border-radius: 22px;
+            }
+
+            .hero,
+            .cards,
+            .grid-two,
+            .footer {
+                grid-template-columns: 1fr;
+                display: grid;
+            }
+
+            .footer {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+
+            .sheet {
+                width: 210mm;
+                min-height: 297mm;
+                border-radius: 0;
+                box-shadow: none;
+                border: none;
+                padding: 14mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="sheet">
+        <section class="hero">
+            <div class="hero-main">
+                <div class="eyebrow">Xuemu_Lab 2026 Quote Sheet</div>
+                <h1>微信图文内容服务报价单</h1>
+                <p class="subhead">
+                    适用于品牌方、公关代理、产业客户的公众号内容合作。
+                    我们交付的不是“字数代写”，而是选题判断、结构策划、观点表达与品牌语气稳定性。
+                </p>
+                <div class="pill-row">
+                    <div class="pill">适用场景：品牌传播 / 项目发布 / 行业观点 / 专题深稿</div>
+                    <div class="pill">交付标准：可发、可改、可对外代表品牌</div>
+                    <div class="pill">合作方式：单篇 / 系列 / 月度顾问</div>
+                </div>
+            </div>
+
+            <aside class="hero-side">
+                <div class="brand">
+                    <div>
+                        <div class="brand-name">Xuemu_Lab</div>
+                        <div class="brand-meta">
+                            雪沐江南视觉实验室<br>
+                            Content Strategy × Narrative Packaging
+                        </div>
+                    </div>
+                    <div class="brand-meta">
+                        报价版本：2026.04<br>
+                        有效期：30 天
+                    </div>
+                </div>
+
+                <div class="principle">
+                    <div class="principle-title">Positioning</div>
+                    <strong>先做议题和表达架构，再做正文输出。报价锚点基于传播价值，而不是字数成本。</strong>
+                </div>
+            </aside>
+        </section>
+
+        <div class="section-title">
+            <h2>服务层级</h2>
+            <p>默认交付包含正文成稿、微信排版与微信公众号头条发布；如需深度研究或加急，见下方说明。</p>
+        </div>
+
+        <section class="cards">
+            <article class="card">
+                <div class="tier">Standard</div>
+                <div class="price">¥3,000<span>/篇</span></div>
+                <p class="summary">适合常规品牌传播稿、活动预热稿、项目节点稿，要求表达稳、上线快。</p>
+                <ul class="feature-list">
+                    <li>Brief 拆解与单一主线提炼</li>
+                    <li>标题 3 选 1 + 导语包装</li>
+                    <li>正文撰写，建议 1500-2500 字</li>
+                    <li>包含 1 轮集中修改</li>
+                    <li>标准周期 3 个工作日</li>
+                </ul>
+            </article>
+
+            <article class="card recommended">
+                <div class="tag">Recommended</div>
+                <div class="tier">Strategic</div>
+                <div class="price">¥5,000<span>/篇</span></div>
+                <p class="summary">适合需要行业深度、观点立场或对外背书的公众号头条，是当前主推合作形态。</p>
+                <ul class="feature-list">
+                    <li>包含标准版全部内容</li>
+                    <li>补充资料梳理与角度重构</li>
+                    <li>标题矩阵 + 结构大纲双轨交付</li>
+                    <li>正文撰写，建议 2500-4000 字</li>
+                    <li>包含 2 轮集中修改，周期 5 个工作日</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <div class="tier">Series</div>
+                <div class="price">¥13,500<span>/3篇起</span></div>
+                <p class="summary">适合连续 campaign 或季度传播节奏，统一调性、降低单篇沟通成本。</p>
+                <ul class="feature-list">
+                    <li>平均 ¥4,500 / 篇</li>
+                    <li>统一选题方向与语气基线</li>
+                    <li>支持跨篇章叙事衔接</li>
+                    <li>适合品牌专题、系列专栏、项目跟进</li>
+                    <li>按整包排期，不拆零优先</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <div class="tier">Retainer</div>
+                <div class="price">¥12,800<span>/月</span></div>
+                <p class="summary">适合希望把内容策略外包给 Xuemu_Lab 的客户，用于长期公众号栏目和月度节点统筹。</p>
+                <ul class="feature-list">
+                    <li>每月 1 次选题会 + 节奏建议</li>
+                    <li>2 篇深度策划稿或等值工作量</li>
+                    <li>日常文字方向咨询与修改建议</li>
+                    <li>适合 PR 公司长期代运营协作</li>
+                    <li>建议按月或按季度签约</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="grid-two">
+            <div class="block">
+                <h3>交付边界与默认配置</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>模块</th>
+                            <th>默认包含</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>正文文稿</td>
+                            <td>包含</td>
+                            <td>按公众号阅读习惯组织段落、标题、小标题与结尾 CTA。</td>
+                        </tr>
+                        <tr>
+                            <td>标题包装</td>
+                            <td>包含</td>
+                            <td>标准稿 3 版，深稿含标题矩阵与更强传播导向。</td>
+                        </tr>
+                        <tr>
+                            <td>资料研究</td>
+                            <td>按档位</td>
+                            <td>标准稿以客户 Brief 为主，深稿会补充公开资料与观点组织。</td>
+                        </tr>
+                        <tr>
+                            <td>微信排版</td>
+                            <td>附赠</td>
+                            <td>按微信公众号阅读习惯完成头条成稿排版，作为本次合作附赠服务。</td>
+                        </tr>
+                        <tr>
+                            <td>发布形式</td>
+                            <td>包含</td>
+                            <td>默认按微信公众号头条发布标准组织标题、导语、正文结构与结尾 CTA。</td>
+                        </tr>
+                        <tr>
+                            <td>头图 / 配图策略</td>
+                            <td>默认不含</td>
+                            <td>可额外提供封面文案、配图方向或 AI 提示词方案。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="block">
+                <h3>可选加项</h3>
+                <ul class="mini-list">
+                    <li>头图文案与配图方向：¥800 / 篇</li>
+                    <li>资料深挖或采访提纲：¥1,200 / 次</li>
+                    <li>48 小时加急：总价 +30%</li>
+                    <li>超过约定修改轮次：¥500 / 轮</li>
+                </ul>
+                <p class="note">
+                    注：若客户提供的是零散素材而非成熟 Brief，通常建议直接进入“深度策划稿”档位，避免标准稿被强行做成深稿工作量。
+                </p>
+            </div>
+        </section>
+
+        <section class="grid-two">
+            <div class="block">
+                <h3>合作说明</h3>
+                <ul class="mini-list">
+                    <li>付款方式：确认合作后预付 50%，交稿确认后结清尾款。</li>
+                    <li>报价有效期：本报价单自出具之日起 30 天内有效。</li>
+                    <li>本报价为不含税价格；如需开票，税费另计。</li>
+                    <li>交付形式：默认交付可发布成稿，并附赠微信排版版本。</li>
+                    <li>版权说明：客户结清尾款后获得稿件约定范围内使用权，Xuemu_Lab 保留匿名展示案例权。</li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <h3>适用说明</h3>
+                <ul class="mini-list">
+                    <li>适用于品牌传播稿、项目发布稿、行业观点稿与专题头条内容。</li>
+                    <li>如项目涉及多方审稿、技术资料较重或传播节点明确，建议优先选择深度策划稿。</li>
+                    <li>如存在季度传播节奏或连续 campaign，建议采用系列合作或月度顾问方式。</li>
+                    <li>具体交付边界可根据实际 brief 再做细化确认。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section style="margin-top: 16px;">
+            <div class="block" style="text-align: center; padding: 28px 22px; background: linear-gradient(135deg, rgba(181,83,45,0.08), rgba(38,67,58,0.06)); border: 1px solid rgba(181,83,45,0.18);">
+                <p style="margin: 0; font-size: 16px; font-weight: 700; color: var(--accent);">
+                    合作咨询：微信 oaoa5yt &nbsp;|&nbsp; 邮件 xuemujiangnan@gmail.com
+                </p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div>Xuemu_Lab · 微信图文内容服务报价单 · 2026 Professional Edition</div>
+            <div>关键词：内容策略 / 叙事包装 / 品牌表达 / 公众号深稿</div>
+        </footer>
+    </main>
+</body>
+</html>

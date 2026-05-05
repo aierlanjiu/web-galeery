@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuemu_Lab 视觉设计服务报价单 2026</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Serif+SC:wght@500;700;900&display=swap');
+
+        :root {
+            --ink: #161311;
+            --paper: #f4efe7;
+            --panel: rgba(255, 255, 255, 0.84);
+            --line: rgba(22, 19, 17, 0.12);
+            --muted: #6f655e;
+            --accent: #b5532d;
+            --accent-soft: rgba(181, 83, 45, 0.14);
+            --shadow: 0 24px 60px rgba(33, 23, 19, 0.14);
+            --deep: #1e3a2f;
+            --deep-soft: rgba(30, 58, 47, 0.10);
+            --tech: #2c5282;
+            --tech-soft: rgba(44, 82, 130, 0.10);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: "Manrope", "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at 20% 0%, rgba(44, 82, 130, 0.12), transparent 32%),
+                radial-gradient(circle at 80% 10%, rgba(181, 83, 45, 0.16), transparent 28%),
+                radial-gradient(circle at 50% 60%, rgba(30, 58, 47, 0.08), transparent 30%),
+                linear-gradient(180deg, #eae4db 0%, #f6f1ea 34%, #ebe3d8 100%);
+            padding: 32px;
+        }
+
+        .sheet {
+            width: min(1120px, 100%);
+            margin: 0 auto;
+            background:
+                linear-gradient(180deg, rgba(255,255,255,0.74), rgba(255,255,255,0.88)),
+                repeating-linear-gradient(
+                    90deg,
+                    rgba(22, 19, 17, 0.02) 0,
+                    rgba(22, 19, 17, 0.02) 1px,
+                    transparent 1px,
+                    transparent 24px
+                );
+            border: 1px solid rgba(22, 19, 17, 0.08);
+            border-radius: 28px;
+            padding: 34px;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(6px);
+        }
+
+        /* Hero */
+        .hero {
+            display: grid;
+            grid-template-columns: 1.35fr 0.9fr;
+            gap: 22px;
+            margin-bottom: 22px;
+        }
+
+        .hero-main,
+        .hero-side,
+        .card,
+        .block {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+        }
+
+        .hero-main {
+            padding: 28px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-main::after {
+            content: "";
+            position: absolute;
+            inset: auto -60px -60px auto;
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(44, 82, 130, 0.14), transparent 68%);
+        }
+
+        .hero-main::before {
+            content: "";
+            position: absolute;
+            inset: -40px auto auto -40px;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(181, 83, 45, 0.10), transparent 66%);
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--tech);
+            background: var(--tech-soft);
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            margin: 16px 0 12px;
+            font-family: "Noto Serif SC", serif;
+            font-size: clamp(32px, 4vw, 48px);
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .subhead {
+            max-width: 760px;
+            font-size: 16px;
+            line-height: 1.75;
+            color: var(--muted);
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pill {
+            padding: 10px 14px;
+            border-radius: 999px;
+            border: 1px solid var(--line);
+            font-size: 13px;
+            color: #3d3530;
+            background: rgba(255,255,255,0.72);
+        }
+
+        .hero-side {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 18px;
+        }
+
+        .brand {
+            display: flex;
+            justify-content: space-between;
+            gap: 14px;
+            align-items: flex-start;
+        }
+
+        .brand-name {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .brand-meta {
+            color: var(--muted);
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        .principle {
+            display: grid;
+            gap: 10px;
+        }
+
+        .principle-title {
+            font-size: 12px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-weight: 700;
+        }
+
+        .principle strong {
+            font-size: 18px;
+            line-height: 1.55;
+        }
+
+        /* Section */
+        .section-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 16px;
+            margin: 28px 0 14px;
+        }
+
+        .section-title h2 {
+            margin: 0;
+            font-family: "Noto Serif SC", serif;
+            font-size: 24px;
+        }
+
+        .section-title p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        /* Cards */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            padding: 22px 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-height: 370px;
+        }
+
+        .card.recommended {
+            border: 1px solid rgba(44, 82, 130, 0.35);
+            background: linear-gradient(180deg, rgba(44, 82, 130, 0.09), rgba(255,255,255,0.9));
+            box-shadow: 0 8px 36px rgba(44, 82, 130, 0.08);
+        }
+
+        .tag {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--tech);
+            border-radius: 999px;
+            padding: 6px 10px;
+        }
+
+        .tier {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .price {
+            margin: 12px 0 8px;
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+        .price span {
+            font-size: 13px;
+            color: var(--muted);
+            font-weight: 600;
+            margin-left: 4px;
+        }
+
+        .summary {
+            color: #3f3732;
+            font-size: 14px;
+            line-height: 1.7;
+            min-height: 78px;
+        }
+
+        .feature-list {
+            padding: 0;
+            margin: 6px 0 0;
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+
+        .feature-list li {
+            padding-left: 16px;
+            position: relative;
+            color: #463e39;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .feature-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.65em;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--tech);
+        }
+
+        /* Grid */
+        .grid-two {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .block {
+            padding: 22px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--line);
+            font-size: 13px;
+            vertical-align: top;
+        }
+
+        th {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .block h3 {
+            margin: 0 0 14px;
+            font-size: 17px;
+        }
+
+        .mini-list {
+            margin: 0;
+            padding-left: 18px;
+            color: #453d38;
+            line-height: 1.8;
+            font-size: 13px;
+        }
+
+        .note {
+            color: var(--muted);
+            font-size: 12px;
+            line-height: 1.8;
+            margin-top: 12px;
+        }
+
+        /* Capability spectrum */
+        .spectrum {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+            margin-bottom: 0;
+        }
+
+        .spec-card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 20px 18px;
+        }
+
+        .spec-card h3 {
+            margin: 0 0 10px;
+            font-size: 16px;
+            font-family: "Noto Serif SC", serif;
+        }
+
+        .spec-card p {
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.7;
+            color: #463e39;
+        }
+
+        .spec-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            margin-top: 18px;
+            padding-top: 16px;
+            border-top: 1px solid var(--line);
+            display: flex;
+            justify-content: space-between;
+            gap: 18px;
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        @media (max-width: 980px) {
+            body { padding: 16px; }
+            .sheet { padding: 18px; border-radius: 22px; }
+            .hero, .cards, .grid-two, .spectrum, .footer { grid-template-columns: 1fr; display: grid; }
+            .footer { display: flex; flex-direction: column; }
+        }
+
+        @media print {
+            body { background: #fff; padding: 0; }
+            .sheet {
+                width: 210mm; min-height: 297mm;
+                border-radius: 0; box-shadow: none; border: none; padding: 14mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="sheet">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-main">
+                <div class="eyebrow">Xuemu_Lab 2026 Visual Quote</div>
+                <h1>视觉设计服务报价单</h1>
+                <p class="subhead">
+                    适用于品牌方、车企市场部、公关代理与产业客户的 AI 视觉内容合作。
+                    我们交付的不是"漂亮图片"，而是具备传播势能、品牌辨识度与技术可信度的视觉资产。
+                </p>
+                <div class="pill-row">
+                    <div class="pill">核心能力：AI 概念拆解 / 技术图解 / 视觉叙事 / 图包策划</div>
+                    <div class="pill">交付标准：商用级分辨率 / 品牌调性一致 / 可迭代</div>
+                    <div class="pill">合作方式：单张 / 套图 / 视觉系统 / 月度顾问</div>
+                </div>
+            </div>
+
+            <aside class="hero-side">
+                <div class="brand">
+                    <div>
+                        <div class="brand-name">Xuemu_Lab</div>
+                        <div class="brand-meta">
+                            雪沐江南视觉实验室<br>
+                            AI Visual System × Narrative Design
+                        </div>
+                    </div>
+                    <div class="brand-meta">
+                        报价版本：2026.04<br>
+                        有效期：30 天
+                    </div>
+                </div>
+                <div class="principle">
+                    <div class="principle-title">Positioning</div>
+                    <strong>先做视觉策略和表达语言，再做画面输出。报价锚点是传播价值和品牌资产，不是图片数量。</strong>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Visual capability overview -->
+        <div class="section-title">
+            <h2>核心能力图谱</h2>
+            <p>Xuemu_Lab 的视觉方法论覆盖从单张到系统的全链路</p>
+        </div>
+
+        <section class="spectrum">
+            <div class="spec-card">
+                <div class="spec-icon">&#9670;</div>
+                <h3>技术概念可视化</h3>
+                <p>将复杂的技术原理（三电系统、智能驾驶、底盘架构）转化为高审美、易传播的视觉图解。让受众"一眼看懂"。</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9632;</div>
+                <h3>品牌视觉系统</h3>
+                <p>为品牌建立统一的 AI 视觉语言：色彩体系、构图范式、材质质感。确保跨媒介输出的一致性。</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9679;</div>
+                <h3>社交图包策划</h3>
+                <p>围绕 campaign 或产品节点，策划具备传播基因的成套视觉素材（朋友圈、公众号、短视频封面）。</p>
+            </div>
+        </section>
+
+        <!-- Pricing tiers -->
+        <!-- Material input pricing rule -->
+        <div style="margin: 28px 0 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="block" style="background: rgba(30,58,47,0.06); border: 1px solid rgba(30,58,47,0.16);">
+                <h3 style="color: var(--deep);">✓ 规整化资料输入 — 享 8 折</h3>
+                <p style="margin: 0; font-size: 13px; line-height: 1.8; color: #3d3530;">
+                    客户提供结构清晰的 Brief、品牌手册、参考素材，材料完整可即用的，<strong>整体报价 8 折</strong>。省下的沟通与研究成本直接回馈给你。
+                </p>
+            </div>
+            <div class="block" style="background: rgba(181,83,45,0.04); border: 1px solid rgba(181,83,45,0.12);">
+                <h3 style="color: var(--accent);">✗ 零散/无结构化资料 — 原价</h3>
+                <p style="margin: 0; font-size: 13px; line-height: 1.8; color: #3d3530;">
+                    无成熟 Brief、材料零散、大量无格式原始资料需我方梳理的，<strong>按标准原价执行</strong>。信息整理与方向提炼属于额外工作量。
+                </p>
+            </div>
+        </div>
+
+        <div class="section-title">
+            <h2>服务层级</h2>
+            <p>默认交付包含商用级高清成图与 1 轮精修；以下为<strong>原价</strong>，规整化资料输入享 8 折。</p>
+        </div>
+
+        <section class="cards">
+            <!-- Standard -->
+            <article class="card">
+                <div class="tier">Standard</div>
+                <div class="price">¥1,500<span>/张起</span></div>
+                <p class="summary">适合单次传播需求：公众号头图、技术图解、社交媒体主视觉。标准流程，快速交付。</p>
+                <ul class="feature-list">
+                    <li>Brief 拆解与视觉方向确认</li>
+                    <li>3 版构图方案，选 1 深化</li>
+                    <li>AI 生成 + 后期精修</li>
+                    <li>交付 2K/4K 商用分辨率</li>
+                    <li>包含 1 轮集中修改</li>
+                    <li>标准周期 3 个工作日</li>
+                </ul>
+            </article>
+
+            <!-- Recommended: Professional -->
+            <article class="card recommended">
+                <div class="tag">Recommended</div>
+                <div class="tier">Professional</div>
+                <div class="price">¥6,800<span>/套起</span></div>
+                <p class="summary">适合 campaign 或产品发布节点。统一视觉语言，成套输出，是当前主推合作形态。</p>
+                <ul class="feature-list">
+                    <li>5-8 张统一调性成图</li>
+                    <li>含视觉策略与调性定义文档</li>
+                    <li>多尺寸适配（公众号 / 朋友圈 / 视频封面）</li>
+                    <li>配色体系 + 质感风格确立</li>
+                    <li>包含 2 轮集中修改</li>
+                    <li>标准周期 7 个工作日</li>
+                </ul>
+            </article>
+
+            <!-- Enterprise -->
+            <article class="card">
+                <div class="tier">Enterprise</div>
+                <div class="price">¥12,800<span>/项目起</span></div>
+                <p class="summary">适合品牌视觉系统搭建或产品深度图解项目。从策略到交付，全链路定制。</p>
+                <ul class="feature-list">
+                    <li>视觉语言系统设计（含规范文档）</li>
+                    <li>10-15 张核心视觉资产</li>
+                    <li>AI 提示词工程体系交付</li>
+                    <li>品牌专属视觉素材库</li>
+                    <li>包含 3 轮迭代，周期按项目排期</li>
+                    <li>附赠视觉方向顾问咨询 2 次</li>
+                </ul>
+            </article>
+
+            <!-- Retainer -->
+            <article class="card">
+                <div class="tier">Retainer</div>
+                <div class="price">¥15,800<span>/月</span></div>
+                <p class="summary">适合希望把视觉内容持续外包给 Xuemu_Lab 的品牌方或 PR 公司。月度统筹，稳定输出。</p>
+                <ul class="feature-list">
+                    <li>每月 1 次视觉策略会</li>
+                    <li>8-10 张品牌视觉内容产出</li>
+                    <li>1 套完整视觉 campaign 策划</li>
+                    <li>日常视觉方向咨询</li>
+                    <li>紧急需求绿色通道</li>
+                    <li>建议按季度签约，享有 9 折</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Delivery boundaries -->
+        <section class="grid-two">
+            <div class="block">
+                <h3>交付边界与默认配置</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>模块</th>
+                            <th>默认包含</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>视觉策略</td>
+                            <td>按档位</td>
+                            <td>标准版以客户 Brief 为主；专业版及以上提供策略文档与调性定义。</td>
+                        </tr>
+                        <tr>
+                            <td>AI 图像生成</td>
+                            <td>包含</td>
+                            <td>基于自研提示词工程体系，确保画质与风格可控、可复现。</td>
+                        </tr>
+                        <tr>
+                            <td>后期精修</td>
+                            <td>包含</td>
+                            <td>色彩校正、细节修复、质感统一，达到商用发布标准。</td>
+                        </tr>
+                        <tr>
+                            <td>多尺寸适配</td>
+                            <td>按档位</td>
+                            <td>标准版 1 尺寸；专业版及以上含公众号 / 朋友圈 / 视频封面等多尺寸。</td>
+                        </tr>
+                        <tr>
+                            <td>提示词资产</td>
+                            <td>Enterprise 专享</td>
+                            <td>交付项目所用 AI 提示词工程文件，客户可在此基础上自行迭代。</td>
+                        </tr>
+                        <tr>
+                            <td>商用授权</td>
+                            <td>包含</td>
+                            <td>结清尾款后，客户获得约定范围内的商业使用权。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="block">
+                <h3>可选加项</h3>
+                <ul class="mini-list">
+                    <li>额外精修轮次：¥600 / 张 / 轮</li>
+                    <li>加急交付（72h 内）：总价 +40%</li>
+                    <li>动态视频版本（短视频 / GIF）：¥2,000 / 条起</li>
+                    <li>AI 提示词工程交付：¥1,800 / 套（非 Enterprise 档）</li>
+                    <li>专属视觉风格探索：¥2,500 / 方向</li>
+                </ul>
+                <p class="note">
+                    注：材料规整程度直接影响定价与交付效率。建议合作前先做一次 15 分钟免费材料评估，明确档位与适用折扣。若客户提供的 Brief 较零散或需要 Xuemu_Lab 主导创意方向，建议直接进入 Professional 或 Enterprise 档位。
+                </p>
+            </div>
+        </section>
+
+        <!-- Trust & Credibility — Hormozi Perceived Likelihood -->
+        <div class="section-title">
+            <h2>为什么选择 Xuemu_Lab</h2>
+            <p>你的信任建立在可验证的交付记录上，不是承诺上</p>
+        </div>
+
+        <section class="spectrum">
+            <div class="spec-card">
+                <div class="spec-icon">&#9733;</div>
+                <h3>已验证的交付记录</h3>
+                <p>已为汽车品牌、零部件供应商、科技公司交付 50+ 套商业视觉资产。从概念拆解图到品牌视觉系统，每个项目都是一次信任投票。</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9883;</div>
+                <h3>自研提示词工程体系</h3>
+                <p>2000+ 经过生产验证的 AI 提示词工程库。不是"随机抽卡"，而是参数可控、风格可复现的工业级视觉生产管线。</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">&#9878;</div>
+                <h3>策略先行的方法论</h3>
+                <p>每个项目从"这个视觉要解决什么传播问题"开始，而非"这个画面好不好看"。我们交付的是传播资产，不是壁纸。</p>
+            </div>
+        </section>
+
+        <!-- Price anchoring — Hormozi contrast pricing -->
+        <section class="grid-two" style="margin-top: 16px;">
+            <div class="block">
+                <h3>价格对比：AI 视觉 vs 传统设计</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>维度</th>
+                            <th>传统设计公司</th>
+                            <th style="color: var(--tech);">Xuemu_Lab</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>单张技术图解</td>
+                            <td>¥5,000-15,000</td>
+                            <td style="color: var(--tech); font-weight: 700;">¥1,500 起</td>
+                        </tr>
+                        <tr>
+                            <td>Campaign 视觉套图</td>
+                            <td>¥20,000-50,000</td>
+                            <td style="color: var(--tech); font-weight: 700;">¥6,800 起</td>
+                        </tr>
+                        <tr>
+                            <td>品牌视觉系统</td>
+                            <td>¥50,000-150,000</td>
+                            <td style="color: var(--tech); font-weight: 700;">¥12,800 起</td>
+                        </tr>
+                        <tr>
+                            <td>交付周期</td>
+                            <td>2-4 周</td>
+                            <td style="color: var(--tech); font-weight: 700;">3-7 天</td>
+                        </tr>
+                        <tr>
+                            <td>修改轮次</td>
+                            <td>通常 2 轮收费</td>
+                            <td style="color: var(--tech); font-weight: 700;">1-3 轮含在报价内</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="note">
+                    我们的成本优势来自 AI 生产管线，不是质量妥协。同等品质下，你省下的是传统设计公司的层层外包溢价。
+                </p>
+            </div>
+            <div class="block">
+                <h3>交付节奏：从付款到成图</h3>
+                <ul class="mini-list">
+                    <li><strong>Day 1</strong>：收到 Brief → 视觉策略确认 → 3 版构图方案发出</li>
+                    <li><strong>Day 2</strong>：客户选定方向 → AI 生成 + 后期精修 → 初稿交付</li>
+                    <li><strong>Day 3</strong>：收集反馈 → 精修轮次 → 终稿交付（标准版完结）</li>
+                    <li><strong>Day 5-7</strong>：套图扩展 + 多尺寸适配（专业版及以上）</li>
+                    <li><strong>付款后即时</strong>：视觉策略问卷 + 参考灵感板（降低沟通成本）</li>
+                </ul>
+                <h3 style="margin-top: 20px;">满意度保障</h3>
+                <ul class="mini-list">
+                    <li>终稿不满意，可退款 50%（已产生的策略与生成成本由我方承担）</li>
+                    <li>所有档位含 1-3 轮修改，超出部分明码标价，无隐性收费</li>
+                    <li>Enterprise 档位支持按里程碑付款（3:4:3），降低项目风险</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Urgency + CTA -->
+        <section style="margin-top: 16px;">
+            <div class="block" style="text-align: center; padding: 28px 22px; background: linear-gradient(135deg, rgba(44,82,130,0.08), rgba(30,58,47,0.06)); border: 1px solid rgba(44,82,130,0.18);">
+                <p style="margin: 0 0 12px; font-family: 'Noto Serif SC', serif; font-size: 20px; font-weight: 700;">
+                    每月承接上限：3 个新项目
+                </p>
+                <p style="margin: 0 0 18px; color: var(--muted); font-size: 14px; line-height: 1.8;">
+                    Xuemu_Lab 坚持主理人全程深度参与，不转包、不分发。当前产能限制是为了保证每个项目的策略深度与视觉质量。<br>
+                    报价有效期 30 天，过期后价格可能根据产能与需求调整。
+                </p>
+                <p style="margin: 0; font-size: 16px; font-weight: 700; color: var(--tech);">
+                    合作咨询：微信 oaoa5yt &nbsp;|&nbsp; 邮件 xuemujiangnan@gmail.com
+                </p>
+            </div>
+        </section>
+
+        <!-- Cooperation & scope -->
+        <section class="grid-two">
+            <div class="block">
+                <h3>合作说明</h3>
+                <ul class="mini-list">
+                    <li>付款方式：确认合作后预付 50%，交稿确认后结清尾款。</li>
+                    <li>报价有效期：本报价单自出具之日起 30 天内有效。</li>
+                    <li>本报价为不含税价格；如需开票，税费另计。</li>
+                    <li>交付形式：高清 PNG/JPG + 源文件（按档位约定）。</li>
+                    <li>版权说明：客户结清尾款后获得约定范围内的商业使用权，Xuemu_Lab 保留匿名展示案例权与底层提示词知识产权。</li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <h3>适用场景</h3>
+                <ul class="mini-list">
+                    <li>汽车品牌 / 零部件供应商的技术传播视觉物料。</li>
+                    <li>科技公司的产品概念图、技术架构图解、发布会视觉素材。</li>
+                    <li>公关代理的客户 campaign 成套视觉内容。</li>
+                    <li>产业媒体的深度图解配图与专题视觉包装。</li>
+                    <li>如需涉及 UI/UX 界面设计或 3D 渲染动画，请单独询价。</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div>Xuemu_Lab · 视觉设计服务报价单 · 2026 Professional Edition</div>
+            <div>关键词：AI 视觉 / 技术图解 / 概念可视化 / 品牌视觉系统 / 社交图包</div>
+        </footer>
+    </main>
+</body>
+</html>

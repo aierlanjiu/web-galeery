@@ -397,5 +397,222 @@
     "unfollows": 1,
     "net_growth": 24,
     "total_followers": 7190
+  },
+  {
+    "date": "2026-04-04",
+    "new_followers": 29,
+    "unfollows": 0,
+    "net_growth": 29,
+    "total_followers": 8770
+  },
+  {
+    "date": "2026-04-05",
+    "new_followers": 36,
+    "unfollows": 2,
+    "net_growth": 34,
+    "total_followers": 8804
+  },
+  {
+    "date": "2026-04-06",
+    "new_followers": 14,
+    "unfollows": 1,
+    "net_growth": 13,
+    "total_followers": 8817
+  },
+  {
+    "date": "2026-04-07",
+    "new_followers": 1,
+    "unfollows": 1,
+    "net_growth": 0,
+    "total_followers": 8817
+  },
+  {
+    "date": "2026-04-08",
+    "new_followers": 2,
+    "unfollows": 2,
+    "net_growth": 0,
+    "total_followers": 8817
+  },
+  {
+    "date": "2026-04-09",
+    "new_followers": 1,
+    "unfollows": 1,
+    "net_growth": 0,
+    "total_followers": 8817
+  },
+  {
+    "date": "2026-04-10",
+    "new_followers": 1,
+    "unfollows": 0,
+    "net_growth": 1,
+    "total_followers": 8818
+  },
+  {
+    "date": "2026-04-11",
+    "new_followers": 0,
+    "unfollows": 0,
+    "net_growth": 0,
+    "total_followers": 8818
+  },
+  {
+    "date": "2026-04-12",
+    "new_followers": 5,
+    "unfollows": 2,
+    "net_growth": 3,
+    "total_followers": 8821
+  },
+  {
+    "date": "2026-04-13",
+    "new_followers": 2,
+    "unfollows": 0,
+    "net_growth": 2,
+    "total_followers": 8823
+  },
+  {
+    "date": "2026-04-14",
+    "new_followers": 2,
+    "unfollows": 0,
+    "net_growth": 2,
+    "total_followers": 8825
+  },
+  {
+    "date": "2026-04-15",
+    "new_followers": 1,
+    "unfollows": 0,
+    "net_growth": 1,
+    "total_followers": 8826
+  },
+  {
+    "date": "2026-04-16",
+    "new_followers": 3,
+    "unfollows": 2,
+    "net_growth": 1,
+    "total_followers": 8827
+  },
+  {
+    "date": "2026-04-17",
+    "new_followers": 0,
+    "unfollows": 1,
+    "net_growth": -1,
+    "total_followers": 8826
+  },
+  {
+    "date": "2026-04-18",
+    "new_followers": 2,
+    "unfollows": 1,
+    "net_growth": 1,
+    "total_followers": 8827
+  },
+  {
+    "date": "2026-04-19",
+    "new_followers": 0,
+    "unfollows": 1,
+    "net_growth": -1,
+    "total_followers": 8826
+  },
+  {
+    "date": "2026-04-20",
+    "new_followers": 3,
+    "unfollows": 4,
+    "net_growth": -1,
+    "total_followers": 8825
+  },
+  {
+    "date": "2026-04-21",
+    "new_followers": 5,
+    "unfollows": 0,
+    "net_growth": 5,
+    "total_followers": 8830
+  },
+  {
+    "date": "2026-04-22",
+    "new_followers": 3,
+    "unfollows": 2,
+    "net_growth": 1,
+    "total_followers": 8831
+  },
+  {
+    "date": "2026-04-23",
+    "new_followers": 2,
+    "unfollows": 2,
+    "net_growth": 0,
+    "total_followers": 8831
+  },
+  {
+    "date": "2026-04-24",
+    "new_followers": 11,
+    "unfollows": 2,
+    "net_growth": 9,
+    "total_followers": 8840
+  },
+  {
+    "date": "2026-04-25",
+    "new_followers": 6,
+    "unfollows": 2,
+    "net_growth": 4,
+    "total_followers": 8844
+  },
+  {
+    "date": "2026-04-26",
+    "new_followers": 8,
+    "unfollows": 1,
+    "net_growth": 7,
+    "total_followers": 8851
+  },
+  {
+    "date": "2026-04-27",
+    "new_followers": 10,
+    "unfollows": 2,
+    "net_growth": 8,
+    "total_followers": 8859
+  },
+  {
+    "date": "2026-04-28",
+    "new_followers": 7,
+    "unfollows": 1,
+    "net_growth": 6,
+    "total_followers": 8865
+  },
+  {
+    "date": "2026-04-29",
+    "new_followers": 8,
+    "unfollows": 1,
+    "net_growth": 7,
+    "total_followers": 8872
+  },
+  {
+    "date": "2026-04-30",
+    "new_followers": 4,
+    "unfollows": 0,
+    "net_growth": 4,
+    "total_followers": 8876
+  },
+  {
+    "date": "2026-05-01",
+    "new_followers": 2,
+    "unfollows": 0,
+    "net_growth": 2,
+    "total_followers": 8878
+  },
+  {
+    "date": "2026-05-02",
+    "new_followers": 2,
+    "unfollows": 3,
+    "net_growth": -1,
+    "total_followers": 8877
+  },
+  {
+    "date": "2026-05-03",
+    "new_followers": 1,
+    "unfollows": 0,
+    "net_growth": 1,
+    "total_followers": 8878
+  },
+  {
+    "date": "2026-05-04",
+    "new_followers": 2,
+    "unfollows": 0,
+    "net_growth": 2,
+    "total_followers": 8880
   }
 ]
