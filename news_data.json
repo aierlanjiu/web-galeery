@@ -1,115 +1,108 @@
 [
   {
-    "id": "2026-05-04_1777861468",
-    "date": "2026-05-04",
-    "poster": "./assets/news/news_2026-05-04_1777861468.png",
+    "id": "2026-05-05_1777954187",
+    "date": "2026-05-05",
+    "poster": "./assets/news/news_2026-05-05_1777954187.png",
     "items": [
       {
-        "title": "半自主探测机器人：无需等待人类指令，可大幅提升火星探测效率",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/222.htm"
+        "id": "https://carnewschina.com/2026/05/04/beijing-auto-show-2026-draws-1-28-million-visitors-181-debuts-and-71-concept-cars/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "北京车展2026：128万观众",
+        "link": "https://carnewschina.com/2026/05/04/beijing-auto-show-2026-draws-1-28-million-visitors-181-debuts-and-71-concept-cars/",
+        "published": "Mon, 04 May 2026 03:44:28 +0000",
+        "summary_raw": "Beijing Auto Show 2026 set global records in scale and attendance, featuring 181 debuts and strong international participation. The post Beijing Auto Show 2026 draws 1.28 million visitors, 181 debuts and 71 concept cars appeared first on CarNewsChina.com .",
+        "full_content": "Beijing Auto Show 2026 set global records in scale and attendance, featuring 181 debuts and strong international participation. The post Beijing Auto Show 2026 draws 1.28 million visitors, 181 debuts and 71 concept cars appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-05-05T07:00:32.551155"
       },
       {
-        "title": "窄体机变身空中豪宅：宝马联手汉莎推出 The BOW 飞机内饰概念",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/219.htm"
+        "id": "https://carnewschina.com/2026/05/04/xiaomi-yu7-gt-crossovers-with-990-hp-piling-up-at-the-factory-ahead-of-launch/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "小米YU7 GT：990马力新车待发",
+        "link": "https://carnewschina.com/2026/05/04/xiaomi-yu7-gt-crossovers-with-990-hp-piling-up-at-the-factory-ahead-of-launch/",
+        "published": "Mon, 04 May 2026 03:51:30 +0000",
+        "summary_raw": "The Xiaomi YU7 GT crossovers with a peak power of 990 hp are piling up at the factory ahead of the official debut scheduled for this month. The post Xiaomi YU7 GT crossovers with 990 hp piling up at the factory ahead of launch appeared first on CarNewsChina.com .",
+        "full_content": "The Xiaomi YU7 GT crossovers with a peak power of 990 hp are piling up at the factory ahead of the official debut scheduled for this month. The post Xiaomi YU7 GT crossovers with 990 hp piling up at the factory ahead of launch appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-05-05T07:00:32.550994"
       },
       {
-        "title": "掺入微生物：新型可自毁塑料问世，环保材料新突破",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/224.htm"
+        "id": "https://carnewschina.com/2026/05/04/chinas-full-size-suv-wave-expands-in-2026-starting-at-22000-usd-with-baas-entry-point/",
+        "source": "CarNewsChina (China EV & Auto)",
+        "title": "中国全尺寸SUV潮：2.2万美元起",
+        "link": "https://carnewschina.com/2026/05/04/chinas-full-size-suv-wave-expands-in-2026-starting-at-22000-usd-with-baas-entry-point/",
+        "published": "Mon, 04 May 2026 08:16:55 +0000",
+        "summary_raw": "Multiple SUVs launch in China after Beijing Auto Show, with BEV, PHEV, and EREV models across pricing tiers. The post China’s full-size SUV wave expands in 2026, starting at 22,000 USD with BaaS entry point appeared first on CarNewsChina.com .",
+        "full_content": "Multiple SUVs launch in China after Beijing Auto Show, with BEV, PHEV, and EREV models across pricing tiers. The post China’s full-size SUV wave expands in 2026, starting at 22,000 USD with BaaS entry point appeared first on CarNewsChina.com .",
+        "fetched_at": "2026-05-05T07:00:32.550820"
       },
       {
-        "title": "台积电重启龙潭晶圆厂：投资达 6000 亿新台币，先进制程扩张",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/223.htm"
+        "id": "https://www.ithome.com/0/946/258.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "三星AI家电：冰箱管食材清单",
+        "link": "https://www.ithome.com/0/946/258.htm",
+        "published": "Mon, 04 May 2026 07:39:40 GMT",
+        "summary_raw": "IT之家 5 月 4 日消息，据《商业内幕》5 月 3 日报道，三星正将冰箱变成 AI“私人采购员”。三星新一代 AI 家电将获得一批新功能： 识别用户声音、自动更新购物清单，以及记录冰箱里的食材 。 三星希望把过去只出现在电影里的智能家居场景带进现实，让用户可以直接和家电对话。 今年推出的新款三星家电中，部分功能可以识别冰箱内的食物， 根据现有食材推荐菜谱，并把缺少的食材自动加入 Instacart 购物清单 。 三星消费电子业务执行副总裁迈克尔 · 麦克德莫特告诉《商业内幕》，这项技术名为 Vision AI，可以自动记录冰箱里的物品，减少用户手动管理食材库存的麻烦。 升级后的冰箱还可以借助大模型识别具体商品，并把识别结果显示在手机配套应用中。用户外出采购时，可以 直接查看家里还剩哪些东西 。 三星 AI 冰箱 Bespoke AI Family Hub 的相关软件更新，最早在今年 CES 消费电子展上亮相，多项 AI 功能由谷歌 Gemini 支持。 不过，这些功能对应的产品价格并不低。三星 AI 冰箱起售价为 2799 美元（IT之家注：现汇率约合 19133 元人民币），智能...",
+        "full_content": "IT之家 5 月 4 日消息，据《商业内幕》5 月 3 日报道，三星正将冰箱变成 AI“私人采购员”。三星新一代 AI 家电将获得一批新功能： 识别用户声音、自动更新购物清单，以及记录冰箱里的食材 。 三星希望把过去只出现在电影里的智能家居场景带进现实，让用户可以直接和家电对话。 今年推出的新款三星家电中，部分功能可以识别冰箱内的食物， 根据现有食材推荐菜谱，并把缺少的食材自动加入 Instacart 购物清单 。 三星消费电子业务执行副总裁迈克尔 · 麦克德莫特告诉《商业内幕》，这项技术名为 Vision AI，可以自动记录冰箱里的物品，减少用户手动管理食材库存的麻烦。 升级后的冰箱还可以借助大模型识别具体商品，并把识别结果显示在手机配套应用中。用户外出采购时，可以 直接查看家里还剩哪些东西 。 三星 AI 冰箱 Bespoke AI Family Hub 的相关软件更新，最早在今年 CES 消费电子展上亮相，多项 AI 功能由谷歌 Gemini 支持。 不过，这些功能对应的产品价格并不低。三星 AI 冰箱起售价为 2799 美元（IT之家注：现汇率约合 19133 元人民币），智能炉灶起售价为 1349 美元（现汇率约合 9221 元人民币）。此外，升级后的食物识别能力等更高级的 AI 功能，计划在 5 月推送。 三星 AI 烤箱也配备摄像头，可以识别放入烤箱的菜品，并推荐烹饪时间。对美食博主来说，烤箱还能 录制烹饪过程视频 ，方便近距离展示食物变化。 三星还在把自家虚拟助手 Bixby 融入家电。麦克德莫特表示，三星希望让 Bixby 成为更个性化的家庭助手，能够识别不同用户，并提供匹配个人需求的体验 。 例如，Voice ID 可以根据说话者身份，定制对应的日历和提醒事项。 麦克德莫特表示，三星的目标是让技术退到幕后，在不增加操作负担的情况下，让用户的日常生活更轻松。",
+        "fetched_at": "2026-05-05T07:00:01.846467"
       },
       {
-        "title": "新加坡航空部署星链 Wi-Fi：明年起将在部分飞机上提供高速互联",
-        "source": "36氪",
-        "link": "https://www.baidu.com/s?wd=新加坡航空部署星链 Wi-Fi：明年起将在部分飞机上提供高速互联"
+        "id": "https://www.ithome.com/0/946/259.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "消息：REDMI K100系列将涨价",
+        "link": "https://www.ithome.com/0/946/259.htm",
+        "published": "Mon, 04 May 2026 07:47:00 GMT",
+        "summary_raw": "IT之家 5 月 4 日消息，博主 @数码闲聊站 在回应用户评论时透露小米 REDMI K100 系列手机将迎来涨价，不过预计“比竞品涨得少”。 此前消息显示，小米 REDMI K100 Pro Max 手机内部型号为 Q11X，将继续增强音质 + 马达，测试 2 亿像素主摄 +5000 万像素潜望长焦，海外有望作为 POCO F9 Ultra 发布。 价格方面，现款小米 REDMI K90 Pro Max 手机上市价格 3999 元起（ 涨价后 4199 元起 ）， REDMI K90 Max 上市价格 2999 元起， REDMI K90 标准版上市价格 2599 元起，IT之家随附参数信息如下：",
+        "full_content": "IT之家 5 月 4 日消息，博主 @数码闲聊站 在回应用户评论时透露小米 REDMI K100 系列手机将迎来涨价，不过预计“比竞品涨得少”。 此前消息显示，小米 REDMI K100 Pro Max 手机内部型号为 Q11X，将继续增强音质 + 马达，测试 2 亿像素主摄 +5000 万像素潜望长焦，海外有望作为 POCO F9 Ultra 发布。 价格方面，现款小米 REDMI K90 Pro Max 手机上市价格 3999 元起（ 涨价后 4199 元起 ）， REDMI K90 Max 上市价格 2999 元起， REDMI K90 标准版上市价格 2599 元起，IT之家随附参数信息如下：",
+        "fetched_at": "2026-05-05T07:00:01.846138"
       },
       {
-        "title": "三星电子任命新视觉显示业务负责人：战略调整应对市场挑战",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3794309684255751?f=rss"
+        "id": "https://www.ithome.com/0/946/260.htm",
+        "source": "IT之家 (ITHome)",
+        "title": "YouTube网页版Bug：吃7GB内存",
+        "link": "https://www.ithome.com/0/946/260.htm",
+        "published": "Mon, 04 May 2026 07:54:15 GMT",
+        "summary_raw": "IT之家 5 月 4 日消息，据科技媒体 Tom's Hardware 今天报道，YouTube 网页版最近出现严重 Bug，可导致浏览器播放视频时卡顿、冻结，并消耗大量内存和 CPU 占用。 IT之家在此援引 Tom's Hardware，大量 Firefox、Brave 和 Edge 浏览器用户最近报告，观看 YouTube 视频时出现严重卡顿、标签页无响应及系统卡顿现象。部分用户甚至表示，光 YouTube 一个标签页就能吃掉 7GB 以上内存。 最初，人们认为这种问题与 YouTube 增强封杀广告拦截器或浏览器更新有关，因为问题最早出现在 Firefox。但随后 Brave 和 Edge 用户也报告类似 Bug，使得外界将目光更多地投向 YouTube 本身。 Mozilla Bugzilla 开源漏洞跟踪系统显示，这个问题的主要原因出自 YouTube 前端逻辑改变， 视频播放器下方的点赞、点踩、分享等按钮是罪魁祸首 。 具体来说，YouTube 网页界面会不断检查所有按钮是否有足够水平空间。如果控件溢出，系统会隐藏一个按钮以释放空间。然而隐藏按钮又会改变容器宽度，立即引发...",
+        "full_content": "IT之家 5 月 4 日消息，据科技媒体 Tom's Hardware 今天报道，YouTube 网页版最近出现严重 Bug，可导致浏览器播放视频时卡顿、冻结，并消耗大量内存和 CPU 占用。 IT之家在此援引 Tom's Hardware，大量 Firefox、Brave 和 Edge 浏览器用户最近报告，观看 YouTube 视频时出现严重卡顿、标签页无响应及系统卡顿现象。部分用户甚至表示，光 YouTube 一个标签页就能吃掉 7GB 以上内存。 最初，人们认为这种问题与 YouTube 增强封杀广告拦截器或浏览器更新有关，因为问题最早出现在 Firefox。但随后 Brave 和 Edge 用户也报告类似 Bug，使得外界将目光更多地投向 YouTube 本身。 Mozilla Bugzilla 开源漏洞跟踪系统显示，这个问题的主要原因出自 YouTube 前端逻辑改变， 视频播放器下方的点赞、点踩、分享等按钮是罪魁祸首 。 具体来说，YouTube 网页界面会不断检查所有按钮是否有足够水平空间。如果控件溢出，系统会隐藏一个按钮以释放空间。然而隐藏按钮又会改变容器宽度，立即引发新的溢出问题。 从原理讲，一开始按钮因空间不足消失，但 YouTube 这时会认为空间足够，于是又让按钮重新出现。 随后就在显示、隐藏之间不断高速循环 。 虽然这种小 Bug 对外观的影响不大， 但现代浏览器会在界面元素尺寸或位置改变时 ， 会不断重新计算布局 。按钮隐藏和显示的高速循环会触发每秒几千次重复计算，浏览器就陷入了“重排循环”。 这种循环会迫使浏览器不断重算布局几何布局、重绘界面元素并更新渲染状态， 使 CPU、内存占用飙升 。有 Reddit 用户表示，YouTube 甚至能把 CPU 几乎吃满，导致整个浏览器几乎无响应。 目前 Mozilla 仍在调查问题，暂时还没有较好的解决方案。谷歌和 YouTube 也尚未回应。",
+        "fetched_at": "2026-05-05T07:00:01.845852"
       },
       {
-        "title": "游戏驿站提出近560亿美元收购eBay：游戏零售巨头跨界电商",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3794262182993161?f=rss"
+        "id": "https://www.cnbeta.com.tw/articles/tech/1561164.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "53号德比斯退赛：张雪回应机械故障",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1561164.htm",
+        "published": "Sun, 03 May 2026 16:33:32 GMT",
+        "summary_raw": "今晚，世界超级摩托车锦标赛（WSBK）匈牙利站迎来了第二回合正赛。 令人遗憾的是，中国摩托车制造商张雪机车的53号法国车手瓦伦丁·德比斯在开赛不久退赛。 阅读全文",
+        "full_content": "今晚，世界超级摩托车锦标赛（WSBK）匈牙利站迎来了第二回合正赛。 令人遗憾的是，中国摩托车制造商张雪机车的53号法国车手瓦伦丁·德比斯在开赛不久退赛。 阅读全文",
+        "fetched_at": "2026-05-04T07:00:08.848268"
       },
       {
-        "title": "英伟达提前终止部分 Jetson 产品供应：LPDDR4 内存短缺成主因",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/199.htm"
+        "id": "https://www.cnbeta.com.tw/articles/tech/1561166.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "苹果研发投入破纪录：单季增34%",
+        "link": "https://www.cnbeta.com.tw/articles/tech/1561166.htm",
+        "published": "Sun, 03 May 2026 16:34:51 GMT",
+        "summary_raw": "据9to5mac报道，苹果正式发布2026财年第二季度财务报告。 财报显示，公司营收实现两位数同比增长，同时研发投入迎来历史性突破，单季度研发费用创下新高。资金重点向人工智能技术研发倾斜，以全力追赶行业AI发展节奏。 阅读全文",
+        "full_content": "据9to5mac报道，苹果正式发布2026财年第二季度财务报告。 财报显示，公司营收实现两位数同比增长，同时研发投入迎来历史性突破，单季度研发费用创下新高。资金重点向人工智能技术研发倾斜，以全力追赶行业AI发展节奏。 阅读全文",
+        "fetched_at": "2026-05-04T07:00:08.848153"
       },
       {
-        "title": "传小米新 SU7 锁单突破 7 万：智能电动汽车市场持续火爆",
-        "source": "极客公园",
-        "link": "https://www.baidu.com/s?wd=传小米新 SU7 锁单突破 7 万：智能电动汽车市场持续火爆"
+        "id": "https://www.cnbeta.com.tw/articles/game/1561168.htm",
+        "source": "CnBeta (TW Mirror - Accessible)",
+        "title": "Steam Machine或支持HDMI 2.1",
+        "link": "https://www.cnbeta.com.tw/articles/game/1561168.htm",
+        "published": "Sun, 03 May 2026 16:35:02 GMT",
+        "summary_raw": "玩家可能还记得，AMD此前一直尝试推动HDMI Forum（HDMI标准制定机构）批准在Linux上开源支持HDMI 2.1 ，但遭到了强烈拒绝。然而，如今情况似乎有所不同。 阅读全文",
+        "full_content": "玩家可能还记得，AMD此前一直尝试推动HDMI Forum（HDMI标准制定机构）批准在Linux上开源支持HDMI 2.1 ，但遭到了强烈拒绝。然而，如今情况似乎有所不同。 阅读全文",
+        "fetched_at": "2026-05-04T07:00:08.848034"
       },
       {
-        "title": "恒生科技指数涨3%升破5000点：科技板块强势反弹",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3794323081026816?f=rss"
-      }
-    ]
-  },
-  {
-    "id": "2026-05-04_1777860839",
-    "date": "2026-05-04",
-    "poster": "./assets/news/news_2026-05-04_1777860839.png",
-    "items": [
-      {
-        "title": "星链航空Wi-Fi：新加坡航空明年起将在部分飞机上部署星链Wi-Fi",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3794337428151559?f=rss"
-      },
-      {
-        "title": "半自主火星探测：无需等待人类指令，半自主探测机器人可大幅提升火星探测效率",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/222.htm"
-      },
-      {
-        "title": "窄体机空中豪宅：宝马联手汉莎推出The BOW飞机内饰概念",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/219.htm"
-      },
-      {
-        "title": "小米SU7锁单突破7万：传小米新SU7锁单突破7万；微信输入法测「隔空发图」功能；豆包二代AI手机上半年发布",
-        "source": "极客公园",
-        "link": "http://www.geekpark.net/news/363701"
-      },
-      {
-        "title": "英伟达Jetson供应终止：曝英伟达提前终止部分Jetson产品供应，LPDDR4内存短缺成主因",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/199.htm"
-      },
-      {
-        "title": "游戏驿站收购eBay：游戏驿站提出近560亿美元收购eBay",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3794262182993161?f=rss"
-      },
-      {
-        "title": "三星视觉显示换帅：三星电子任命新的视觉显示业务负责人",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3794309684255751?f=rss"
-      },
-      {
-        "title": "小米充电宝新低：299→228元：小米5000mAh金沙江充电宝多重补贴新低，兼容iPhone 17系列",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/217.htm"
-      },
-      {
-        "title": "小米REDMI 17系列：小米REDMI 17系列手机现身IMEI数据库，瞄准入门级市场",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/218.htm"
-      },
-      {
-        "title": "美联航客机事故：美联航一客机降落时撞上路灯杆和卡车，联邦航空管理局展开调查",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/946/204.htm"
+        "id": "https://www.qbitai.com/2026/05/412914.html",
+        "source": "量子位 (QbitAI)",
+        "title": "DeepSeek版Claude Code：GitHub 2.3k星",
+        "link": "https://www.qbitai.com/2026/05/412914.html",
+        "published": "Mon, 04 May 2026 06:09:16 +0000",
+        "summary_raw": "专门针对DeepSeek优化",
+        "full_content": "专门针对DeepSeek优化",
+        "fetched_at": "2026-05-05T07:00:13.796340"
       }
     ]
   },

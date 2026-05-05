@@ -2,8 +2,28 @@
 <html lang="zh-CN">
 
 <head>
-    <script defer src="https://cloud.umami.is/script.js"
-        data-website-id="4c8af0ff-2c1f-44b7-8be6-e10b40863459"></script>
+    <script>
+        (function () {
+            function loadUmami() {
+                window.setTimeout(function () {
+                    var script = document.createElement('script');
+                    script.src = 'https://cloud.umami.is/script.js';
+                    script.async = true;
+                    script.setAttribute('data-website-id', '4c8af0ff-2c1f-44b7-8be6-e10b40863459');
+                    script.onerror = function () {
+                        if (script.parentNode) script.parentNode.removeChild(script);
+                    };
+                    document.head.appendChild(script);
+                }, 1200);
+            }
+
+            if (document.readyState === 'complete') {
+                loadUmami();
+            } else {
+                window.addEventListener('load', loadUmami);
+            }
+        })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="AI 生成的汽车工业概念可视化画廊。546 个汽车工程概念转化为高精度视觉资产，5+ 套工业设计风格体系。">
@@ -65,20 +85,20 @@
     </script>
 
     <!-- React & ReactDOM -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="./vendor/react.production.min.js"></script>
+    <script crossorigin src="./vendor/react-dom.production.min.js"></script>
 
     <!-- Babel -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./vendor/babel.min.js"></script>
 
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./vendor/tailwindcss-3.4.17.js"></script>
 
     <!-- Framer Motion -->
-    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    <script src="./vendor/framer-motion.js"></script>
 
     <!-- Vanilla Tilt -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="./vendor/vanilla-tilt.min.js"></script>
 
     <!-- Google Fonts -->
     <link
