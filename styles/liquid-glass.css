@@ -584,3 +584,1446 @@ body::selection {
   .ui-liquid-card::before,
   .ui-liquid-card::after { transition: none !important; }
 }
+
+/* F1-inspired liquid metal homepage. Content remains Xuemu Lab / web gallery. */
+.racing-page-shell {
+  background:
+    radial-gradient(circle at 16% 10%, rgba(225, 6, 0, 0.12), transparent 28rem),
+    radial-gradient(circle at 86% 6%, rgba(255, 255, 255, 0.09), transparent 34rem),
+    linear-gradient(145deg, #030508 0%, #090d13 45%, #111722 100%) !important;
+}
+
+.racing-page-shell .liquid-stage {
+  background:
+    radial-gradient(circle at 17% 10%, rgba(225, 6, 0, 0.18), transparent 31rem),
+    radial-gradient(circle at 80% 18%, rgba(255, 255, 255, 0.10), transparent 34rem),
+    linear-gradient(135deg, #020407, #090d13 52%, #111821) !important;
+}
+
+.racing-page-shell .liquid-bg-img,
+[data-theme="light"] .racing-page-shell .liquid-bg-img {
+  opacity: 0.2 !important;
+  filter: brightness(0.34) saturate(0.72) contrast(1.18) blur(1px) !important;
+}
+
+.racing-page-shell .liquid-metal-overlay,
+[data-theme="light"] .racing-page-shell .liquid-metal-overlay {
+  opacity: 0.52 !important;
+  background:
+    linear-gradient(115deg, transparent 8%, rgba(255,255,255,0.10) 32%, transparent 58%),
+    radial-gradient(ellipse at 28% 22%, rgba(255,255,255,0.10), transparent 48%),
+    radial-gradient(ellipse at 72% 68%, rgba(225,6,0,0.18), transparent 42%) !important;
+}
+
+.racing-home {
+  --race-red: #e10600;
+  --race-red-soft: rgba(225, 6, 0, 0.34);
+  --race-card: rgba(10, 14, 20, 0.56);
+  --race-card-strong: rgba(14, 18, 24, 0.66);
+  --race-line: rgba(235, 241, 250, 0.26);
+  --race-line-strong: rgba(255, 255, 255, 0.52);
+  --race-text: #f4f7fb;
+  --race-muted: rgba(235, 241, 250, 0.62);
+  position: relative;
+  min-height: 100vh;
+  padding: 24px clamp(16px, 2.4vw, 42px) 34px;
+  color: var(--race-text);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.racing-home::before,
+.racing-home::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.racing-home::before {
+  background:
+    linear-gradient(100deg, transparent 0 18%, rgba(255, 255, 255, 0.09) 28%, transparent 40%),
+    linear-gradient(96deg, transparent 0 54%, rgba(225, 6, 0, 0.48) 60%, rgba(255, 255, 255, 0.22) 62%, transparent 70%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.045) 0 1px, transparent 1px 46px);
+  background-size: 180% 100%, 220% 100%, 100% 100%;
+  animation: racingLightTrail 20s linear infinite;
+  opacity: 0.8;
+}
+
+.racing-home::after {
+  background:
+    radial-gradient(ellipse at 48% 38%, transparent 34%, rgba(0, 0, 0, 0.64) 100%),
+    linear-gradient(180deg, rgba(255,255,255,0.04), transparent 16%, rgba(0,0,0,0.38));
+}
+
+.racing-nav {
+  position: sticky;
+  top: 22px;
+  z-index: 70;
+  display: grid;
+  grid-template-columns: 170px minmax(240px, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  width: min(100%, 1840px);
+  min-height: 66px;
+  margin: 0 auto 24px;
+  padding: 0 22px;
+  border: 1px solid rgba(230, 238, 250, 0.36);
+  border-radius: 999px;
+  background:
+    linear-gradient(120deg, rgba(255,255,255,0.13), rgba(255,255,255,0.025) 34%, rgba(255,255,255,0.08)),
+    rgba(8, 11, 15, 0.58);
+  box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.48),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(22px) saturate(1.3);
+  -webkit-backdrop-filter: blur(22px) saturate(1.3);
+  overflow: hidden;
+}
+
+.racing-nav::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 18%, rgba(255,255,255,0.16) 38%, transparent 55%);
+  opacity: 0.36;
+}
+
+.racing-brand {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 66px;
+  padding-left: 24px;
+  color: var(--race-text);
+  text-decoration: none;
+}
+
+.racing-brand::before {
+  content: "";
+  position: absolute;
+  inset: 0 12px 0 -22px;
+  transform: skewX(-28deg);
+  border-right: 1px solid rgba(255,255,255,0.20);
+  background: linear-gradient(120deg, rgba(255,255,255,0.08), rgba(255,255,255,0.015));
+}
+
+.brand-track,
+.brand-slice {
+  position: relative;
+  display: block;
+  transform: skewX(-26deg);
+}
+
+.brand-track {
+  width: 46px;
+  height: 14px;
+  border-top: 1px solid rgba(255,255,255,0.25);
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.brand-slice {
+  width: 38px;
+  height: 18px;
+  margin-left: -10px;
+  background: linear-gradient(135deg, #ff342d, #8f0502);
+  box-shadow: 0 0 18px rgba(225, 6, 0, 0.44);
+}
+
+.racing-nav-links {
+  display: flex;
+  justify-content: center;
+  gap: clamp(24px, 5.4vw, 88px);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.racing-nav-links a {
+  position: relative;
+  padding: 24px 0 20px;
+  color: rgba(244, 247, 251, 0.78);
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.racing-nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  border-radius: 99px;
+  background: var(--race-red);
+  transform: translateX(-50%);
+  transition: width 180ms ease;
+}
+
+.racing-nav-links a:hover,
+.racing-nav-links a.active {
+  color: #ff2b2b;
+}
+
+.racing-nav-links a:hover::after,
+.racing-nav-links a.active::after {
+  width: 36px;
+}
+
+.racing-nav-status {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  z-index: 2;
+  color: rgba(244, 247, 251, 0.88);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.racing-nav-status .theme-toggle {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255,255,255,0.14);
+  color: rgba(244,247,251,0.78);
+  background: rgba(255,255,255,0.04);
+}
+
+.live-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 99px;
+  background: #ff1f1f;
+  box-shadow: 0 0 18px rgba(225, 6, 0, 0.85);
+}
+
+.nav-divider {
+  width: 1px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.menu-button {
+  display: grid;
+  gap: 4px;
+  width: 28px;
+  text-decoration: none;
+}
+
+.menu-button span {
+  display: block;
+  height: 2px;
+  border-radius: 99px;
+  background: rgba(244, 247, 251, 0.88);
+}
+
+.racing-dashboard {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: minmax(218px, 24vh) minmax(218px, 24vh) minmax(230px, 25vh);
+  gap: clamp(14px, 1.5vw, 22px);
+  width: min(100%, 1780px);
+  margin: 0 auto;
+  perspective: 1200px;
+}
+
+.racing-card-motion {
+  min-width: 0;
+}
+
+.racing-glass-card {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(235, 241, 250, 0.30);
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.14), transparent 19%, rgba(255,255,255,0.055) 54%, rgba(255,255,255,0.12)),
+    radial-gradient(circle at 14% 0%, rgba(255,255,255,0.18), transparent 34%),
+    radial-gradient(circle at 92% 100%, rgba(225, 6, 0, 0.20), transparent 34%),
+    var(--race-card);
+  box-shadow:
+    0 28px 80px rgba(0, 0, 0, 0.46),
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 0 46px rgba(255, 255, 255, 0.045);
+  backdrop-filter: blur(20px) saturate(1.3);
+  -webkit-backdrop-filter: blur(20px) saturate(1.3);
+  transform: perspective(1100px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) translateY(0);
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease, background 220ms ease;
+}
+
+.racing-glass-card::before,
+.racing-glass-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.racing-glass-card::before {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.22), transparent 18%),
+    linear-gradient(112deg, transparent 0 36%, rgba(255,255,255,0.16) 47%, transparent 58%);
+  opacity: 0.48;
+  mix-blend-mode: screen;
+}
+
+.racing-glass-card::after {
+  inset: -1px;
+  background:
+    linear-gradient(90deg, rgba(225, 6, 0, 0.68), transparent 20% 78%, rgba(255,255,255,0.42)),
+    radial-gradient(circle at 96% 18%, rgba(225, 6, 0, 0.45), transparent 28%);
+  opacity: 0.18;
+}
+
+.racing-glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.50);
+  box-shadow:
+    0 34px 90px rgba(0, 0, 0, 0.52),
+    0 0 44px rgba(225, 6, 0, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.68),
+    inset 0 0 52px rgba(255, 255, 255, 0.06);
+  transform: perspective(1100px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) translateY(-4px);
+}
+
+.hero-panel-card {
+  grid-column: span 8;
+  grid-row: span 2;
+}
+
+.aero-card,
+.race-data-card {
+  grid-column: span 4;
+}
+
+.performance-card,
+.lap-card,
+.engine-card {
+  grid-column: span 4;
+}
+
+.hero-panel {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  height: 100%;
+  padding: clamp(28px, 4vw, 54px);
+}
+
+.hero-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(100deg, rgba(0,0,0,0.72), rgba(0,0,0,0.20) 54%, rgba(0,0,0,0.02)),
+    radial-gradient(circle at 73% 62%, rgba(225, 6, 0, 0.26), transparent 34%);
+  pointer-events: none;
+}
+
+.hero-copy,
+.hero-hud,
+.hero-stat-strip {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-copy {
+  max-width: 560px;
+  z-index: 4;
+}
+
+.hero-hud {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.racing-kicker,
+.racing-card-kicker {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: rgba(244, 247, 251, 0.82);
+  font: 700 12px/1 "JetBrains Mono", monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.racing-kicker span {
+  width: 10px;
+  height: 10px;
+  transform: skewX(-28deg);
+  border-radius: 2px;
+  background: var(--race-red);
+  box-shadow: 0 0 18px rgba(225, 6, 0, 0.62);
+}
+
+.hero-copy h1 {
+  margin: 24px 0 8px;
+  color: #f8fbff;
+  font-family: "Oswald", "Noto Sans SC", sans-serif;
+  font-size: clamp(54px, 5vw, 82px);
+  line-height: 0.98;
+  letter-spacing: 0;
+  word-break: keep-all;
+  text-shadow: 0 20px 70px rgba(255, 255, 255, 0.12);
+}
+
+.hero-copy h2 {
+  margin: 0 0 18px;
+  color: rgba(248, 251, 255, 0.93);
+  font-size: clamp(24px, 2.2vw, 36px);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.hero-copy p {
+  max-width: 500px;
+  margin: 0;
+  color: rgba(235, 241, 250, 0.64);
+  line-height: 1.72;
+  font-size: 15px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.racing-primary-btn,
+.racing-secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 126px;
+  height: 54px;
+  padding: 0 24px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.racing-primary-btn {
+  background: linear-gradient(135deg, #ff2a2a, #970501);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 18px 40px rgba(225, 6, 0, 0.28);
+}
+
+.racing-secondary-btn {
+  background: rgba(255, 255, 255, 0.055);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(16px);
+}
+
+.racing-primary-btn:hover,
+.racing-secondary-btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.40);
+}
+
+.hero-pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  color: rgba(235, 241, 250, 0.72);
+  font-family: "JetBrains Mono", monospace;
+}
+
+.hero-pagination strong {
+  color: #ff2b2b;
+  font-size: 22px;
+}
+
+.hero-pagination span {
+  font-size: 13px;
+}
+
+.hero-pagination i {
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.hero-pagination i:first-of-type {
+  background: var(--race-red);
+}
+
+.hero-hud {
+  min-width: 0;
+}
+
+.track-map {
+  position: absolute;
+  top: 22px;
+  right: 44px;
+  width: min(30%, 300px);
+  min-width: 210px;
+  filter: drop-shadow(0 0 18px rgba(255,255,255,0.12));
+}
+
+.track-map.compact {
+  position: relative;
+  top: auto;
+  right: auto;
+  width: 148px;
+  min-width: 0;
+  margin-top: 10px;
+}
+
+.track-shadow,
+.track-line,
+.track-sector {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.track-shadow {
+  stroke: rgba(0,0,0,0.55);
+  stroke-width: 11;
+}
+
+.track-line {
+  stroke: rgba(240, 246, 255, 0.82);
+  stroke-width: 3;
+  stroke-dasharray: 680;
+  stroke-dashoffset: 680;
+  animation: trackDraw 2.2s ease forwards 0.55s;
+}
+
+.track-sector {
+  stroke: #ff2424;
+  stroke-width: 5;
+  stroke-dasharray: 140;
+  stroke-dashoffset: 140;
+  animation: trackDraw 1.5s ease forwards 1.45s;
+}
+
+.sector-readout {
+  position: absolute;
+  top: 130px;
+  right: 72px;
+  min-width: 120px;
+  padding: 12px 14px;
+  border-left: 1px solid rgba(255,255,255,0.18);
+  background: rgba(0,0,0,0.36);
+  backdrop-filter: blur(14px);
+}
+
+.sector-readout span {
+  display: block;
+  color: rgba(244,247,251,0.82);
+  font: 700 14px/1.1 "JetBrains Mono", monospace;
+}
+
+.sector-readout strong {
+  display: block;
+  margin-top: 6px;
+  color: #ff2929;
+  font: 800 23px/1 "JetBrains Mono", monospace;
+}
+
+.racing-car-visual {
+  position: absolute;
+  right: -18px;
+  bottom: 36px;
+  width: min(66%, 720px);
+  aspect-ratio: 680 / 260;
+}
+
+.racing-car-visual img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+  filter: drop-shadow(0 24px 36px rgba(0,0,0,0.62));
+}
+
+.speed-ribbon {
+  position: absolute;
+  left: -12%;
+  right: 0;
+  height: 3px;
+  border-radius: 99px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.55), rgba(225,6,0,0.95), transparent);
+  transform: skewY(-9deg);
+  animation: speedSweep 4.8s linear infinite;
+}
+
+.ribbon-one {
+  top: 36%;
+}
+
+.ribbon-two {
+  top: 62%;
+  animation-delay: -2.2s;
+  opacity: 0.7;
+}
+
+.hero-stat-strip {
+  position: absolute;
+  left: clamp(24px, 4vw, 54px);
+  right: clamp(24px, 4vw, 54px);
+  bottom: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 760px;
+}
+
+.hero-stat-strip div,
+.hero-stat-strip button {
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.045);
+  color: var(--race-text);
+  text-align: left;
+}
+
+.hero-stat-strip button {
+  cursor: pointer;
+}
+
+.hero-stat-strip span {
+  display: block;
+  color: rgba(235,241,250,0.46);
+  font: 700 9px/1.1 "JetBrains Mono", monospace;
+  letter-spacing: 0.12em;
+}
+
+.hero-stat-strip strong,
+.hero-stat-strip .racing-number {
+  display: block;
+  margin-top: 5px;
+  color: #fff;
+  font: 800 20px/1 "JetBrains Mono", monospace;
+}
+
+.racing-number {
+  font-variant-numeric: tabular-nums;
+}
+
+.aero-card .racing-glass-card,
+.race-data-card .racing-glass-card,
+.performance-card .racing-glass-card,
+.lap-card .racing-glass-card,
+.engine-card .racing-glass-card {
+  padding: 26px 28px;
+}
+
+.racing-card-kicker {
+  color: rgba(235,241,250,0.60);
+  font-size: 11px;
+}
+
+.aero-card h3,
+.race-data-card h3,
+.performance-card h3,
+.lap-card h3,
+.engine-card h3 {
+  margin: 10px 0 20px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.aero-card h3,
+.race-data-card h3 {
+  margin-bottom: 14px;
+}
+
+.prompt-flow-img {
+  position: absolute;
+  top: 16px;
+  right: -10px;
+  width: min(58%, 330px);
+  height: auto;
+  opacity: 0.88;
+  filter: drop-shadow(0 18px 30px rgba(0,0,0,0.46));
+}
+
+.card-label {
+  margin: 30px 0 8px;
+  color: rgba(235,241,250,0.66);
+  font: 700 12px/1.5 "Noto Sans SC", sans-serif;
+}
+
+.aero-card .card-label {
+  margin-top: 18px;
+}
+
+.metric-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.metric-row .racing-number {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.aero-card .metric-row .racing-number {
+  font-size: 42px;
+}
+
+.metric-row small,
+.engine-metrics small {
+  color: rgba(235,241,250,0.72);
+  font-size: 13px;
+}
+
+.trend {
+  margin-top: 12px;
+  color: #ff2929;
+  font: 700 13px/1 "JetBrains Mono", monospace;
+}
+
+.card-split,
+.engine-content,
+.lap-layout,
+.performance-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+}
+
+.race-data-card .card-split {
+  grid-template-columns: minmax(170px, 0.9fr) minmax(170px, 1fr);
+}
+
+.track-name {
+  color: rgba(235,241,250,0.66);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.track-name span,
+.race-data-side span,
+.engine-metrics span {
+  color: rgba(235,241,250,0.44);
+  font: 700 10px/1.2 "JetBrains Mono", monospace;
+}
+
+.race-data-side {
+  min-width: 0;
+  max-width: 220px;
+  padding-left: 24px;
+  border-left: 1px solid rgba(255,255,255,0.12);
+}
+
+.race-data-side p {
+  margin: 0 0 6px;
+  color: rgba(235,241,250,0.70);
+  line-height: 1.3;
+}
+
+.race-data-side strong {
+  display: block;
+  margin: 0 0 12px;
+  color: #ff2929;
+  font: 800 28px/1 "JetBrains Mono", monospace;
+}
+
+.race-data-side div {
+  color: #fff;
+  font: 800 22px/1.25 "JetBrains Mono", monospace;
+}
+
+.race-data-side small {
+  color: #fff;
+  font: 800 15px/1.3 "Noto Sans SC", sans-serif;
+}
+
+.race-data-side button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  color: rgba(244,247,251,0.78);
+  font: 700 11px/1 "Noto Sans SC", sans-serif;
+  cursor: pointer;
+}
+
+.gauge {
+  position: relative;
+  width: 136px;
+  height: 136px;
+}
+
+.gauge svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.gauge-bg,
+.gauge-red,
+.gauge-inner {
+  fill: none;
+  stroke-width: 9;
+}
+
+.gauge-bg {
+  stroke: rgba(255,255,255,0.16);
+}
+
+.gauge-red {
+  stroke: #e10600;
+  stroke-dasharray: 289;
+  stroke-dashoffset: 38;
+  animation: gaugeIn 1.5s ease both 0.4s;
+}
+
+.gauge-inner {
+  stroke: rgba(255,255,255,0.24);
+  stroke-width: 2;
+}
+
+.gauge div {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.gauge strong {
+  display: block;
+  color: #fff;
+  font: 800 44px/1 "JetBrains Mono", monospace;
+}
+
+.gauge span {
+  color: rgba(235,241,250,0.58);
+  font: 700 13px/1 "JetBrains Mono", monospace;
+}
+
+.bars {
+  display: grid;
+  align-content: center;
+  gap: 15px;
+  min-width: 0;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 76px minmax(74px, 1fr) 28px;
+  align-items: center;
+  gap: 10px;
+  color: rgba(235,241,250,0.76);
+  font-size: 13px;
+}
+
+.bar-row i {
+  height: 4px;
+  border-radius: 99px;
+  background: rgba(255,255,255,0.14);
+  overflow: hidden;
+}
+
+.bar-row b {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #7a0301, #ff2727, #fff);
+  animation: barGrow 1.2s ease both;
+}
+
+.bar-row strong {
+  color: #fff;
+  font: 800 13px/1 "JetBrains Mono", monospace;
+}
+
+.lap-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.chart-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(235,241,250,0.68);
+  font: 700 11px/1 "JetBrains Mono", monospace;
+}
+
+.chart-legend span {
+  width: 16px;
+  height: 2px;
+  background: rgba(255,255,255,0.60);
+}
+
+.chart-legend .red {
+  background: #ff2929;
+}
+
+.lap-layout {
+  grid-template-columns: minmax(0, 1fr) 152px;
+  align-items: end;
+}
+
+.lap-chart {
+  width: 100%;
+  height: 220px;
+}
+
+.grid-line {
+  stroke: rgba(255,255,255,0.12);
+  stroke-width: 1;
+}
+
+.grid-line.dash {
+  stroke-dasharray: 3 8;
+}
+
+.sector-text {
+  fill: rgba(235,241,250,0.55);
+  font: 700 12px "JetBrains Mono", monospace;
+}
+
+.lap-ref,
+.lap-line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.lap-ref {
+  stroke: rgba(255,255,255,0.70);
+  stroke-width: 3;
+}
+
+.lap-line {
+  stroke: #ff2727;
+  stroke-width: 4;
+  filter: drop-shadow(0 0 10px rgba(225,6,0,0.56));
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  animation: chartDraw 2.3s ease forwards 0.75s;
+}
+
+.sector-list {
+  display: grid;
+  gap: 8px;
+}
+
+.sector-list div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.sector-list span {
+  color: rgba(235,241,250,0.64);
+  font: 700 12px/1 "JetBrains Mono", monospace;
+}
+
+.sector-list strong {
+  color: #fff;
+  font: 800 12px/1 "JetBrains Mono", monospace;
+}
+
+.sector-list em {
+  grid-column: 2;
+  color: #25df59;
+  font: normal 700 12px/1 "JetBrains Mono", monospace;
+}
+
+.sector-list .loss {
+  color: #ff2929;
+}
+
+.engine-block {
+  position: relative;
+  width: 210px;
+  height: 126px;
+  margin-top: 26px;
+  transform: perspective(320px) rotateX(58deg) rotateZ(-18deg);
+}
+
+.service-core-img {
+  width: min(100%, 260px);
+  height: auto;
+  margin-top: 10px;
+  opacity: 0.9;
+  filter: drop-shadow(0 18px 34px rgba(0,0,0,0.44));
+}
+
+.engine-block i {
+  position: absolute;
+  border: 1px solid rgba(255,255,255,0.22);
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.28), rgba(10,14,20,0.92));
+  box-shadow: 0 18px 28px rgba(0,0,0,0.32), inset 0 1px 0 rgba(255,255,255,0.28);
+}
+
+.engine-block i:nth-child(1) {
+  inset: 22px 28px 28px 22px;
+}
+
+.engine-block i:nth-child(2) {
+  width: 74px;
+  height: 38px;
+  left: 16px;
+  top: 8px;
+}
+
+.engine-block i:nth-child(3) {
+  width: 82px;
+  height: 44px;
+  right: 14px;
+  top: 18px;
+}
+
+.engine-block i:nth-child(4) {
+  width: 130px;
+  height: 14px;
+  left: 42px;
+  top: 74px;
+  background: linear-gradient(90deg, rgba(225,6,0,0.9), rgba(255,255,255,0.70), rgba(225,6,0,0.7));
+}
+
+.engine-metrics {
+  min-width: 180px;
+  padding-left: 24px;
+  border-left: 1px solid rgba(255,255,255,0.12);
+}
+
+.engine-metrics p {
+  margin: 0;
+  padding: 0 0 18px;
+  color: rgba(235,241,250,0.68);
+  line-height: 1.45;
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.engine-metrics p + p {
+  padding-top: 18px;
+}
+
+.engine-metrics strong {
+  display: block;
+  margin-top: 8px;
+  color: #fff;
+  font: 800 27px/1 "JetBrains Mono", monospace;
+}
+
+.feature-dock,
+.racing-entry-dock {
+  width: min(100%, 1780px);
+  margin: 20px auto 0;
+  border: 1px solid rgba(235, 241, 250, 0.28);
+  border-radius: 20px;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.025)),
+    rgba(10,14,20,0.54);
+  backdrop-filter: blur(20px) saturate(1.3);
+  -webkit-backdrop-filter: blur(20px) saturate(1.3);
+  box-shadow: 0 22px 70px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.45);
+}
+
+.feature-dock {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.feature-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 10px 16px;
+  align-items: center;
+  min-height: 70px;
+  padding: 18px 26px;
+  color: rgba(244,247,251,0.82);
+  text-decoration: none;
+  border-right: 1px solid rgba(255,255,255,0.12);
+  overflow: hidden;
+}
+
+.feature-item:last-child {
+  border-right: 0;
+}
+
+.feature-item svg {
+  grid-row: span 2;
+  width: 32px;
+  height: 32px;
+  fill: none;
+  stroke: rgba(235,241,250,0.74);
+  stroke-width: 1.5;
+  transition: stroke 180ms ease, filter 180ms ease;
+}
+
+.feature-item span {
+  font-weight: 800;
+  line-height: 1;
+}
+
+.feature-item small {
+  color: rgba(235,241,250,0.48);
+  font: 700 10px/1 "JetBrains Mono", monospace;
+}
+
+.feature-item i {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  height: 2px;
+  background: var(--race-red);
+  transform: translateX(-110%);
+  transition: transform 230ms ease var(--delay, 0ms);
+}
+
+.feature-item:hover {
+  background: rgba(255,255,255,0.045);
+}
+
+.feature-item:hover svg {
+  stroke: #ff2929;
+  filter: drop-shadow(0 0 10px rgba(225,6,0,0.55));
+}
+
+.feature-item:hover i {
+  transform: translateX(0);
+}
+
+.racing-entry-dock {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.entry-pill {
+  display: block;
+  padding: 18px 22px;
+  color: rgba(244,247,251,0.82);
+  text-decoration: none;
+  background: rgba(255,255,255,0.018);
+  transition: background 180ms ease;
+}
+
+.entry-pill:hover {
+  background: rgba(225,6,0,0.10);
+}
+
+.entry-pill span {
+  display: block;
+  font-weight: 800;
+}
+
+.entry-pill small {
+  display: block;
+  margin-top: 6px;
+  color: rgba(235,241,250,0.48);
+  font: 700 10px/1.35 "JetBrains Mono", monospace;
+}
+
+.innovation-zone,
+.gallery-zone {
+  position: relative;
+  padding-top: 92px;
+}
+
+.gallery-intro {
+  margin-bottom: 26px;
+  text-align: left;
+}
+
+.gallery-intro span {
+  display: block;
+  color: #ff2929;
+  font: 800 11px/1 "JetBrains Mono", monospace;
+  letter-spacing: 0.22em;
+}
+
+.gallery-intro h2 {
+  margin: 12px 0 8px;
+  color: #fff;
+  font-size: clamp(30px, 3.2vw, 48px);
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.gallery-intro p {
+  max-width: 760px;
+  margin: 0;
+  color: rgba(235,241,250,0.62);
+  line-height: 1.8;
+}
+
+@keyframes racingLightTrail {
+  0% { background-position: 120% 0, 180% 0, 0 0; }
+  100% { background-position: -80% 0, -120% 0, 0 0; }
+}
+
+@keyframes trackDraw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes chartDraw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes speedSweep {
+  0% { transform: translateX(-30%) skewY(-9deg); opacity: 0; }
+  18% { opacity: 1; }
+  100% { transform: translateX(36%) skewY(-9deg); opacity: 0; }
+}
+
+@keyframes gaugeIn {
+  from { stroke-dashoffset: 289; }
+}
+
+@keyframes barGrow {
+  from { width: 0; }
+}
+
+@media (max-width: 1199px) {
+  .racing-nav {
+    grid-template-columns: 120px 1fr;
+    border-radius: 28px;
+  }
+
+  .racing-nav-status {
+    grid-column: 1 / -1;
+    justify-content: center;
+    padding-bottom: 12px;
+  }
+
+  .racing-dashboard {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .hero-panel-card,
+  .aero-card,
+  .race-data-card,
+  .performance-card,
+  .lap-card,
+  .engine-card {
+    grid-column: span 6;
+    grid-row: auto;
+  }
+
+  .hero-panel {
+    grid-template-columns: 1fr;
+    min-height: 620px;
+  }
+
+  .racing-car-visual {
+    width: min(88%, 720px);
+  }
+
+  .feature-dock {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .racing-entry-dock {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .racing-home {
+    padding: 14px 12px 24px;
+  }
+
+  .racing-home::before {
+    opacity: 0.38;
+    animation-duration: 34s;
+  }
+
+  .racing-nav {
+    position: relative;
+    top: auto;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    min-height: auto;
+    margin-bottom: 18px;
+    padding: 10px 12px 14px;
+    border-radius: 22px;
+  }
+
+  .racing-brand {
+    justify-content: center;
+    min-height: 38px;
+    padding-left: 0;
+  }
+
+  .racing-brand::before {
+    display: none;
+  }
+
+  .racing-nav-links {
+    gap: 22px;
+    font-size: 13px;
+  }
+
+  .racing-nav-links a {
+    padding: 10px 0 8px;
+  }
+
+  .racing-nav-status {
+    gap: 10px;
+    overflow-x: auto;
+    padding: 4px 0 0;
+    font-size: 12px;
+  }
+
+  .nav-divider {
+    height: 18px;
+  }
+
+  .racing-dashboard {
+    display: block;
+  }
+
+  .racing-card-motion {
+    margin-bottom: 14px;
+  }
+
+  .racing-glass-card {
+    border-radius: 20px;
+    transform: none !important;
+  }
+
+  .hero-panel {
+    display: block;
+    min-height: 640px;
+    padding: 28px 20px;
+  }
+
+  .hero-copy h1 {
+    margin-top: 24px;
+    font-size: 39px;
+  }
+
+  .hero-copy h2 {
+    font-size: 22px;
+  }
+
+  .hero-actions {
+    gap: 8px;
+  }
+
+  .racing-primary-btn,
+  .racing-secondary-btn {
+    min-width: 0;
+    height: 46px;
+    padding: 0 14px;
+    font-size: 13px;
+  }
+
+  .track-map {
+    top: 318px;
+    right: 14px;
+    width: 180px;
+    min-width: 0;
+  }
+
+  .hero-hud > .track-map,
+  .sector-readout {
+    display: none;
+  }
+
+  .racing-car-visual {
+    right: -8px;
+    bottom: 196px;
+    width: 96%;
+  }
+
+  .hero-stat-strip {
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    grid-template-columns: 1fr;
+  }
+
+  .aero-card .racing-glass-card,
+  .race-data-card .racing-glass-card,
+  .performance-card .racing-glass-card,
+  .lap-card .racing-glass-card,
+  .engine-card .racing-glass-card {
+    padding: 22px 18px;
+  }
+
+  .card-split,
+  .engine-content,
+  .lap-layout,
+  .performance-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .race-data-side,
+  .engine-metrics {
+    min-width: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .gauge {
+    margin: 0 auto;
+  }
+
+  .bars {
+    min-width: 0;
+  }
+
+  .lap-header {
+    display: block;
+  }
+
+  .chart-legend {
+    margin-bottom: 10px;
+  }
+
+  .lap-chart {
+    height: 170px;
+  }
+
+  .feature-dock,
+  .racing-entry-dock {
+    grid-template-columns: 1fr;
+    margin-top: 14px;
+  }
+
+  .feature-item {
+    min-height: 70px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+  }
+
+  .innovation-zone,
+  .gallery-zone {
+    padding-top: 52px;
+  }
+}

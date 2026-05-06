@@ -173,6 +173,321 @@
             </motion.header>
         );
 
+        const useCountUp = (target, decimals = 0, duration = 1400) => {
+            const [value, setValue] = useState(0);
+            useEffect(() => {
+                let raf = 0;
+                let startTime = 0;
+                const animate = (timestamp) => {
+                    if (!startTime) startTime = timestamp;
+                    const progress = Math.min((timestamp - startTime) / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    setValue(target * eased);
+                    if (progress < 1) raf = requestAnimationFrame(animate);
+                };
+                raf = requestAnimationFrame(animate);
+                return () => cancelAnimationFrame(raf);
+            }, [target, duration]);
+            return value.toFixed(decimals);
+        };
+
+        const CountUpMetric = ({ target, decimals = 0, suffix = "", prefix = "", className = "" }) => {
+            const value = useCountUp(target, decimals);
+            return <span className={`racing-number ${className}`}>{prefix}{value}{suffix}</span>;
+        };
+
+        const TiltGlassCard = ({ children, className = "", delay = 0, id }) => {
+            const [tilt, setTilt] = useState({ x: "0deg", y: "0deg" });
+            const handleMove = (event) => {
+                if (window.innerWidth < 900) return;
+                const rect = event.currentTarget.getBoundingClientRect();
+                const px = (event.clientX - rect.left) / rect.width;
+                const py = (event.clientY - rect.top) / rect.height;
+                setTilt({
+                    x: `${(0.5 - py) * 5.5}deg`,
+                    y: `${(px - 0.5) * 7.5}deg`,
+                });
+            };
+            return (
+                <motion.div
+                    id={id}
+                    className={`racing-card-motion ${className}`}
+                    initial={{ opacity: 0, y: 26, filter: "blur(8px)" }}
+                    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                    transition={{ duration: 0.72, delay, ease: [0.22, 1, 0.36, 1] }}
+                >
+                    <div
+                        className="racing-glass-card"
+                        style={{ "--tilt-x": tilt.x, "--tilt-y": tilt.y }}
+                        onMouseMove={handleMove}
+                        onMouseLeave={() => setTilt({ x: "0deg", y: "0deg" })}
+                    >
+                        {children}
+                    </div>
+                </motion.div>
+            );
+        };
+
+        const GlassNav = ({ theme, toggleTheme }) => (
+            <motion.nav
+                className="racing-nav"
+                initial={{ opacity: 0, y: -24 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            >
+                <a className="racing-brand" href="#top" aria-label="返回首页">
+                    <span className="brand-track"></span>
+                    <span className="brand-slice"></span>
+                </a>
+                <div className="racing-nav-links" aria-label="首页导航">
+                    <a className="active" href="#top">首页</a>
+                    <a href="#gallery">图谱</a>
+                    <a href="news.html">资讯</a>
+                    <a href="#pricing">服务</a>
+                </div>
+                <div className="racing-nav-status">
+                    <span className="live-dot"></span>
+                    <span>LIVE</span>
+                    <span className="nav-divider"></span>
+                    <span>26°C</span>
+                    <span className="nav-divider"></span>
+                    <span><strong>CN</strong> / EN</span>
+                    <ThemeToggle theme={theme} onToggle={toggleTheme}/>
+                    <a className="menu-button" href="#gallery" aria-label="打开画廊入口"><span></span><span></span><span></span></a>
+                </div>
+            </motion.nav>
+        );
+
+        const TrackMap = ({ compact = false }) => (
+            <img className={compact ? "track-map compact" : "track-map"} src="./images/home-route-map.png" alt="内容生产链路" loading="eager"/>
+        );
+
+        const RacingCarVisual = () => (
+            <div className="racing-car-visual" aria-label="汽车视觉速度主视觉">
+                <div className="speed-ribbon ribbon-one"></div>
+                <div className="speed-ribbon ribbon-two"></div>
+                <img src="./images/home-liquid-racer.png" alt="液态金属汽车视觉资产" loading="eager"/>
+            </div>
+        );
+
+        const HeroPanel = ({ totalCount, wechatData, onOpenData }) => (
+            <TiltGlassCard className="hero-panel-card" delay={0.1}>
+                <div className="hero-panel">
+                    <div className="hero-copy">
+                        <div className="racing-kicker"><span></span>雪沐江南 / VISUAL GARAGE</div>
+                        <h1>把汽车黑科技看懂</h1>
+                        <h2>AI视觉图谱 × 每日硬核汽车情报</h2>
+                        <p>用一张图拆透底盘、电驱、智能化与工程美学。关注雪沐江南，少看参数堆料，多看真正的技术逻辑。</p>
+                        <div className="hero-actions">
+                            <a href="#gallery" className="racing-primary-btn">看技术图谱</a>
+                            <a href="news.html" className="racing-secondary-btn">读今日情报</a>
+                            <a href="#pricing" className="racing-secondary-btn">商业合作</a>
+                        </div>
+                    </div>
+                    <div className="hero-hud">
+                        <TrackMap />
+                        <div className="sector-readout">
+                            <span>VISUAL ROUTE</span>
+                            <strong>Decode</strong>
+                        </div>
+                        <RacingCarVisual />
+                    </div>
+                    <div className="hero-stat-strip">
+                        <div><span>VISUAL ASSETS</span><CountUpMetric target={Number(totalCount) || 0}/></div>
+                        <div><span>SUBSCRIBERS</span><CountUpMetric target={Number(wechatData?.total_followers) || 0}/></div>
+                        <button type="button" onClick={onOpenData}><span>DATA PANEL</span><strong>OPEN</strong></button>
+                    </div>
+                </div>
+            </TiltGlassCard>
+        );
+
+        const AeroCard = () => (
+            <TiltGlassCard className="aero-card" delay={0.2}>
+                <div className="racing-card-kicker">PROMPT FACTORY</div>
+                <h3>视觉协议工厂</h3>
+                <img className="prompt-flow-img" src="./images/home-prompt-flow.png" alt="提示词视觉协议层" loading="eager"/>
+                <p className="card-label">可复用结构 / REUSABLE SYSTEM</p>
+                <div className="metric-row"><CountUpMetric target={98.6} decimals={1}/><small>%</small></div>
+                <div className="trend up">提示词资产持续沉淀</div>
+            </TiltGlassCard>
+        );
+
+        const RaceDataCard = ({ totalCount, onOpenData }) => (
+            <TiltGlassCard className="race-data-card" delay={0.26} id="race-data">
+                <div className="card-split">
+                    <div>
+                        <div className="racing-card-kicker">TOPIC RADAR</div>
+                        <h3>选题雷达</h3>
+                        <p className="track-name">资讯筛选 / 技术拆解 / 视觉表达<br/><span>CONTENT PIPELINE</span></p>
+                        <TrackMap compact />
+                    </div>
+                    <div className="race-data-side">
+                        <p>图谱资产<br/><span>GALLERY ASSETS</span></p>
+                        <strong><CountUpMetric target={Number(totalCount) || 0}/></strong>
+                        <p>订阅价值<br/><span>WHY FOLLOW</span></p>
+                        <div><small>看懂趋势<br/>复用图谱</small></div>
+                        <button type="button" onClick={onOpenData}>打开增长看板</button>
+                    </div>
+                </div>
+            </TiltGlassCard>
+        );
+
+        const PerformanceGauge = () => {
+            const score = useCountUp(87, 0, 1500);
+            return (
+                <TiltGlassCard className="performance-card" delay={0.32}>
+                    <div className="racing-card-kicker">ACCOUNT FLYWHEEL</div>
+                    <h3>账号飞轮</h3>
+                    <div className="performance-layout">
+                        <div className="gauge" style={{ "--score": 87 }}>
+                            <svg viewBox="0 0 120 120">
+                                <circle cx="60" cy="60" r="46" className="gauge-bg"/>
+                                <circle cx="60" cy="60" r="46" className="gauge-red"/>
+                                <circle cx="60" cy="60" r="34" className="gauge-inner"/>
+                            </svg>
+                            <div><strong>{score}</strong><span>/100</span></div>
+                        </div>
+                        <div className="bars">
+                            {[
+                                ["图谱覆盖", 92],
+                                ["提示词复用", 85],
+                                ["训练营转化", 88],
+                                ["商务交付", 83],
+                            ].map(([label, value]) => (
+                                <div className="bar-row" key={label}><span>{label}</span><i><b style={{ width: `${value}%` }}></b></i><strong>{value}</strong></div>
+                            ))}
+                        </div>
+                    </div>
+                </TiltGlassCard>
+            );
+        };
+
+        const LapChart = ({ growthData = [] }) => {
+            const rows = growthData.slice(-14);
+            const values = rows.map((item) => Number(item.net_growth) || 0);
+            const maxAbs = Math.max(4, ...values.map((value) => Math.abs(value)));
+            const points = rows.length > 1
+                ? rows.map((item, index) => {
+                    const x = 26 + (index / (rows.length - 1)) * 492;
+                    const y = 126 - ((Number(item.net_growth) || 0) / maxAbs) * 76;
+                    return `${x.toFixed(1)},${y.toFixed(1)}`;
+                }).join(" ")
+                : "26,126 518,126";
+            const recentNet = growthData.reduce((total, item) => total + (Number(item.net_growth) || 0), 0);
+            const latest = growthData[growthData.length - 1];
+            const latestNet = latest ? Number(latest.net_growth) || 0 : 0;
+            return (
+            <TiltGlassCard className="lap-card" delay={0.38}>
+                <div className="lap-header">
+                    <div><div className="racing-card-kicker">SUBSCRIPTION GROWTH</div><h3>订阅增长</h3></div>
+                    <div className="chart-legend"><span className="red"></span>净增<span></span>零线</div>
+                </div>
+                <div className="lap-layout">
+                    <svg className="lap-chart" viewBox="0 0 560 240" role="img" aria-label="订阅增长折线图">
+                        {[50, 88, 126, 164, 202].map(y => <line key={y} x1="24" y1={y} x2="530" y2={y} className="grid-line"/>)}
+                        <line x1="24" y1="126" x2="530" y2="126" className="grid-line zero"/>
+                        {rows.map((item, index) => {
+                            const x = rows.length > 1 ? 26 + (index / (rows.length - 1)) * 492 : 26;
+                            return index % 4 === 0 ? <text key={item.date} x={x - 10} y="226" className="sector-text">{item.date.slice(5)}</text> : null;
+                        })}
+                        <polyline className="lap-line" points={points}/>
+                    </svg>
+                    <div className="sector-list">
+                        <div><span>当前订阅</span><strong>{latest ? latest.total_followers : "..."}</strong><em>{latest ? latest.date.slice(5) : ""}</em></div>
+                        <div><span>最新净增</span><strong>{latestNet > 0 ? "+" : ""}{latestNet}</strong><em className={latestNet < 0 ? "loss" : ""}>day</em></div>
+                        <div><span>31日净增</span><strong>{recentNet > 0 ? "+" : ""}{recentNet}</strong><em>trend</em></div>
+                        <div><span>看板</span><strong>OPEN</strong><em className="loss">click data</em></div>
+                    </div>
+                </div>
+            </TiltGlassCard>
+            );
+        };
+
+        const EngineCard = ({ wechatData }) => (
+            <TiltGlassCard className="engine-card" delay={0.44}>
+                <div className="engine-content">
+                    <div>
+                        <div className="racing-card-kicker">SERVICE SYSTEM</div>
+                        <h3>商业转化</h3>
+                        <img className="service-core-img" src="./images/home-service-core.png" alt="服务转化模块" loading="lazy"/>
+                    </div>
+                    <div className="engine-metrics">
+                        <p>训练营人数<br/><span>BOOTCAMP</span><strong><CountUpMetric target={12}/><small> 人</small></strong></p>
+                        <p>社区订阅<br/><span>FOLLOWERS</span><strong><CountUpMetric target={Number(wechatData?.total_followers) || 0}/></strong></p>
+                        <p>B端变现<br/><span>B2B REVENUE</span><strong><CountUpMetric target={8600}/><small> CNY</small></strong></p>
+                    </div>
+                </div>
+            </TiltGlassCard>
+        );
+
+        const FeatureDock = () => {
+            const features = [
+                ["创作工具", "CREATION"],
+                ["知识资源", "KNOWLEDGE"],
+                ["演示中心", "DEMOS"],
+                ["关注博主", "CREATORS"],
+                ["服务报价", "SERVICE"],
+            ];
+            return (
+                <motion.div className="feature-dock" initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.52, ease: [0.22, 1, 0.36, 1] }}>
+                    {features.map(([title, sub], index) => (
+                        <a href={title === "服务报价" ? "#pricing" : "#innovation"} className="feature-item" key={title}>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V7l8-3 8 3v11l-8 3-8-3Z"/><path d="M8 9h8M8 13h8M12 5v14"/></svg>
+                            <span>{title}</span>
+                            <small>{sub}</small>
+                            <i style={{ "--delay": `${index * 80}ms` }}></i>
+                        </a>
+                    ))}
+                </motion.div>
+            );
+        };
+
+        const EntryDock = ({ latestNews, totalCount }) => (
+            <motion.div className="racing-entry-dock" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.6 }}>
+                {[
+                    ["作品画廊", `${Number(totalCount) || 0}+ 工业视觉资产`, "#gallery"],
+                    ["每日资讯", latestNews ? `${latestNews.date} 前沿信号` : "自动化资讯流", "news.html"],
+                    ["学员作品", "训练营成果展示", "student_showcase.html"],
+                    ["服务报价", "高客单价交付入口", "./quotes/Xuemu_Lab_视觉设计服务报价单_2026.html"],
+                ].map(([title, desc, href]) => (
+                    <a key={title} href={href} className="entry-pill">
+                        <span>{title}</span>
+                        <small>{desc}</small>
+                    </a>
+                ))}
+            </motion.div>
+        );
+
+        const RacingHomePage = ({ totalCount, latestNews, wechatData, growthData, theme, toggleTheme, onOpenData }) => (
+            <section id="top" className="racing-home">
+                <GlassNav theme={theme} toggleTheme={toggleTheme}/>
+                <div id="technical" className="racing-dashboard">
+                    <HeroPanel totalCount={totalCount} wechatData={wechatData} onOpenData={onOpenData}/>
+                    <AeroCard />
+                    <RaceDataCard totalCount={totalCount} onOpenData={onOpenData}/>
+                    <PerformanceGauge />
+                    <LapChart growthData={growthData}/>
+                    <EngineCard wechatData={wechatData}/>
+                </div>
+                <FeatureDock />
+                <EntryDock latestNews={latestNews} totalCount={totalCount}/>
+            </section>
+        );
+
+        const GalleryIntro = ({ totalCount }) => (
+            <motion.div
+                className="gallery-intro max-w-7xl mx-auto px-4 md:px-5"
+                initial={{ opacity: 0, y: 18 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+            >
+                <span>VISUAL GARAGE</span>
+                <h2>画廊作为独立内容舱保留</h2>
+                <p>首页首屏已切换为液态玻璃内容驾驶舱，原有 {totalCount} 个汽车概念视觉资产、提示词复制、筛选和编辑入口仍在这里完整可用。</p>
+            </motion.div>
+        );
+
         const CoCreationModal = ({ isOpen, onClose }) => {
             const [wechatCopied, setWechatCopied] = useState(false);
             if (!isOpen) return null;
@@ -436,7 +751,7 @@
             ];
 
             return (
-                <section className="max-w-7xl mx-auto px-4 md:px-5 mt-24 mb-16">
+                <section id="pricing" className="max-w-7xl mx-auto px-4 md:px-5 mt-24 mb-16">
                     <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-center mb-12">
                         <span className="font-mono text-[10px] text-va-mercury uppercase tracking-[0.3em]">服务报价 // SERVICE PRICING</span>
                         <h2 className="font-display text-3xl md:text-4xl text-white mt-3 tracking-tight">选择适合你的合作方案</h2>
@@ -516,6 +831,7 @@
             const [editingPrompt, setEditingPrompt] = useState(''); const [isCoCreationOpen, setIsCoCreationOpen] = useState(false);
             const [isDataOpen, setIsDataOpen] = useState(false); const [latestNews, setLatestNews] = useState(null);
             const [wechatData, setWechatData] = useState(null); const [visibleCount, setVisibleCount] = useState(12);
+            const [growthPreview, setGrowthPreview] = useState([]);
 
             useEffect(() => applyTheme(theme), [theme]);
             const toggleTheme = () => {
@@ -532,6 +848,7 @@
                 loadJson('./web_data.json', true).then(jd=>{setData(jd);setFilteredData(jd);setCategories([...new Set(jd.map(i=>i.category))].filter(Boolean).sort());setLoading(false);}).catch(e=>{console.error(e);setLoading(false);});
                 loadJson('./news_data.json').then(nd=>{if(nd&&nd.length>0)setLatestNews(nd[0]);}).catch(console.error);
                 loadJson('./wechat_data.json', true).then(setWechatData).catch(console.error);
+                loadJson('./user_growth.json', true).then(d=>setGrowthPreview(Array.isArray(d) ? d.slice(-31) : [])).catch(console.error);
                 return () => window.removeEventListener('resize', cm);
             }, []);
 
@@ -539,7 +856,7 @@
 
             return (
                 <div className={`${theme === "dark" ? 'dark' : ''}`}>
-                    <div className="min-h-screen flex flex-col relative transition-colors duration-700 bg-va-base text-va-ink overflow-hidden">
+                    <div className="racing-page-shell min-h-screen flex flex-col relative transition-colors duration-700 bg-va-base text-va-ink overflow-hidden">
 
                         <div className="liquid-stage">
                             <div className="liquid-bg-img" style={{ backgroundImage: `url('./images/${theme === "dark" ? 'bg-night' : 'bg-day'}.png')` }}></div>
@@ -551,36 +868,42 @@
                         <div className="va-vignette fixed inset-0 pointer-events-none z-[1]" style={{ background: 'radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(8,12,20,0.35) 100%)' }}></div>
 
                         <div className="relative z-10">
-                            <Header totalCount={data.length.toString().padStart(2,'0')} theme={theme} toggleTheme={toggleTheme} latestNews={latestNews} wechatData={wechatData} onOpenData={()=>setIsDataOpen(true)}/>
+                            <RacingHomePage totalCount={data.length.toString().padStart(2,'0')} latestNews={latestNews} wechatData={wechatData} growthData={growthPreview} theme={theme} toggleTheme={toggleTheme} onOpenData={()=>setIsDataOpen(true)}/>
                             <CoCreationWidget onOpen={()=>setIsCoCreationOpen(true)}/>
                             <AnimatePresence>{isCoCreationOpen && <CoCreationModal isOpen={isCoCreationOpen} onClose={()=>setIsCoCreationOpen(false)}/>}</AnimatePresence>
                             <AnimatePresence>{isDataOpen && <DataDashboard isOpen={isDataOpen} onClose={()=>setIsDataOpen(false)}/>}</AnimatePresence>
 
-                            <Toolbox/>
-                            <FilterBar activeFilter={filter} setFilter={setFilter} categories={categories}/>
+                            <section id="innovation" className="innovation-zone">
+                                <Toolbox/>
+                            </section>
 
-                            <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
-                                {loading ? (
-                                    <div className="flex justify-center items-center h-64 font-mono text-va-mercury/55">数据流加载中 (INITIALIZING)...</div>
-                                ) : (
-                                    <>
-                                        <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-                                            <AnimatePresence mode="popLayout">
-                                                {filteredData.slice(0, visibleCount).map((item, index) => (
-                                                    <Card key={`${item.title}-${index}`} item={item} index={index} isMobile={isMobile} onEdit={openEditor}/>
-                                                ))}
-                                            </AnimatePresence>
-                                        </div>
-                                        {visibleCount < filteredData.length && (
-                                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex justify-center mt-12 mb-8">
-                                                <button onClick={()=>setVisibleCount(p=>p+12)} className="group relative px-8 py-3 glass rounded-full font-mono text-xs font-bold text-white/60 tracking-widest hover:bg-white/10 hover:text-white transition-all duration-300 shadow-lg hover:scale-105 border-white/10">
-                                                    <span className="flex items-center gap-2">加载更多 // LOAD MORE [{filteredData.length - visibleCount}]<svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg></span>
-                                                </button>
-                                            </motion.div>
-                                        )}
-                                    </>
-                                )}
-                            </main>
+                            <section id="gallery" className="gallery-zone">
+                                <GalleryIntro totalCount={data.length.toString().padStart(2,'0')}/>
+                                <FilterBar activeFilter={filter} setFilter={setFilter} categories={categories}/>
+
+                                <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
+                                    {loading ? (
+                                        <div className="flex justify-center items-center h-64 font-mono text-va-mercury/55">数据流加载中 (INITIALIZING)...</div>
+                                    ) : (
+                                        <>
+                                            <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+                                                <AnimatePresence mode="popLayout">
+                                                    {filteredData.slice(0, visibleCount).map((item, index) => (
+                                                        <Card key={`${item.title}-${index}`} item={item} index={index} isMobile={isMobile} onEdit={openEditor}/>
+                                                    ))}
+                                                </AnimatePresence>
+                                            </div>
+                                            {visibleCount < filteredData.length && (
+                                                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex justify-center mt-12 mb-8">
+                                                    <button onClick={()=>setVisibleCount(p=>p+12)} className="group relative px-8 py-3 glass rounded-full font-mono text-xs font-bold text-white/60 tracking-widest hover:bg-white/10 hover:text-white transition-all duration-300 shadow-lg hover:scale-105 border-white/10">
+                                                        <span className="flex items-center gap-2">加载更多 // LOAD MORE [{filteredData.length - visibleCount}]<svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg></span>
+                                                    </button>
+                                                </motion.div>
+                                            )}
+                                        </>
+                                    )}
+                                </main>
+                            </section>
 
                             <AnimatePresence>{editorOpen && <PromptEditor isOpen={editorOpen} onClose={()=>setEditorOpen(false)} initialPrompt={editingPrompt} onSave={(np)=>{navigator.clipboard.writeText(np);setEditorOpen(false);}}/>}</AnimatePresence>
 
