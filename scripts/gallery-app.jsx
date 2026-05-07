@@ -24,6 +24,38 @@
             return response.json();
         }
 
+        const WEATHER_FALLBACK = { latitude: 31.2304, longitude: 121.4737, label: "SH" };
+
+        const useWeatherTemperature = () => {
+            const [weather, setWeather] = useState({ temperature: null, label: "SYNC" });
+
+            useEffect(() => {
+                let cancelled = false;
+                const fetchTemperature = async ({ latitude, longitude, label }) => {
+                    try {
+                        const endpoint = `https://api.open-meteo.com/v1/forecast?latitude=${latitude.toFixed(4)}&longitude=${longitude.toFixed(4)}&current=temperature_2m&timezone=auto`;
+                        const response = await fetch(endpoint, { cache: "no-store" });
+                        if (!response.ok) throw new Error(`weather ${response.status}`);
+                        const payload = await response.json();
+                        const temperature = Number(payload?.current?.temperature_2m);
+                        if (!Number.isFinite(temperature)) throw new Error("weather temperature missing");
+                        if (!cancelled) setWeather({ temperature: Math.round(temperature), label });
+                    } catch (error) {
+                        if (!cancelled && label !== WEATHER_FALLBACK.label) {
+                            fetchTemperature(WEATHER_FALLBACK);
+                        } else if (!cancelled) {
+                            console.warn("weather unavailable", error);
+                            setWeather({ temperature: null, label: "LIVE" });
+                        }
+                    }
+                };
+                fetchTemperature(WEATHER_FALLBACK);
+                return () => { cancelled = true; };
+            }, []);
+
+            return weather;
+        };
+
         const ThemeToggle = ({ theme, onToggle }) => (
             <button className="theme-toggle glass-chip" onClick={onToggle} type="button" aria-label={theme === "dark" ? "切换浅色模式" : "切换深色模式"}>
                 {theme === "dark" ? <SvgIcon name="sun" className="w-4 h-4"/> : <SvgIcon name="moon" className="w-4 h-4"/>}
@@ -228,35 +260,38 @@
             );
         };
 
-        const GlassNav = ({ theme, toggleTheme }) => (
-            <motion.nav
-                className="racing-nav"
-                initial={{ opacity: 0, y: -24 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            >
-                <a className="racing-brand" href="#top" aria-label="返回首页">
-                    <span className="brand-track"></span>
-                    <span className="brand-slice"></span>
-                </a>
-                <div className="racing-nav-links" aria-label="首页导航">
-                    <a className="active" href="#top">首页</a>
-                    <a href="#gallery">图谱</a>
-                    <a href="news.html">资讯</a>
-                    <a href="#pricing">服务</a>
-                </div>
-                <div className="racing-nav-status">
-                    <span className="live-dot"></span>
-                    <span>LIVE</span>
-                    <span className="nav-divider"></span>
-                    <span>26°C</span>
-                    <span className="nav-divider"></span>
-                    <span><strong>CN</strong> / EN</span>
-                    <ThemeToggle theme={theme} onToggle={toggleTheme}/>
-                    <a className="menu-button" href="#gallery" aria-label="打开画廊入口"><span></span><span></span><span></span></a>
-                </div>
-            </motion.nav>
-        );
+        const GlassNav = ({ theme, toggleTheme }) => {
+            const weather = useWeatherTemperature();
+            return (
+                <motion.nav
+                    className="racing-nav"
+                    initial={{ opacity: 0, y: -24 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                >
+                    <a className="racing-brand" href="#top" aria-label="返回首页">
+                        <span className="brand-track"></span>
+                        <span className="brand-slice"></span>
+                    </a>
+                    <div className="racing-nav-links" aria-label="首页导航">
+                        <a className="active" href="#top">首页</a>
+                        <a href="#gallery">图谱</a>
+                        <a href="news.html">资讯</a>
+                        <a href="#pricing">服务</a>
+                    </div>
+                    <div className="racing-nav-status">
+                        <span className="live-dot"></span>
+                        <span>LIVE</span>
+                        <span className="nav-divider"></span>
+                        <span className="weather-readout" title={`实时天气 ${weather.label}`}>{weather.temperature === null ? "--°C" : `${weather.temperature}°C`}</span>
+                        <span className="nav-divider"></span>
+                        <span><strong>CN</strong> / EN</span>
+                        <ThemeToggle theme={theme} onToggle={toggleTheme}/>
+                        <a className="menu-button" href="#gallery" aria-label="打开画廊入口"><span></span><span></span><span></span></a>
+                    </div>
+                </motion.nav>
+            );
+        };
 
         const TrackMap = ({ compact = false }) => (
             <img className={compact ? "track-map compact" : "track-map"} src="./images/home-route-map.png" alt="内容生产链路" loading="eager"/>
@@ -420,24 +455,101 @@
             </TiltGlassCard>
         );
 
-        const FeatureDock = () => {
-            const features = [
-                ["创作工具", "CREATION"],
-                ["知识资源", "KNOWLEDGE"],
-                ["演示中心", "DEMOS"],
-                ["关注博主", "CREATORS"],
-                ["服务报价", "SERVICE"],
-            ];
+        const DockModuleIcon = ({ id }) => {
+            const icons = {
+                creation: <><path d="M13.5 2.8 5.6 13.2h5.1l-1 8 8.7-11.4h-5.2l.3-7Z"/><path d="M4.3 16.6h6.1M13.7 7.2h5.8"/></>,
+                knowledge: <><path d="M5 5.8c3.1-1.4 5.2-.8 7 1v12.4c-1.8-1.6-4-2.2-7-.9V5.8Z"/><path d="M19 5.8c-3.1-1.4-5.2-.8-7 1v12.4c1.8-1.6 4-2.2 7-.9V5.8Z"/><path d="M8 9.2h2.2M8 12.2h2.2M14 9.2h2.2"/></>,
+                demos: <><path d="M4.5 5.5h15v9.8h-15z"/><path d="M8.2 19h7.6M12 15.3V19"/><path d="m9.2 9.1 2.2 2.1 3.6-4.1"/></>,
+                creators: <><circle cx="12" cy="12" r="2.2"/><path d="M4.7 17.7c1.9-2.1 4.4-3.2 7.3-3.2s5.4 1.1 7.3 3.2"/><path d="M6.3 6.5 17.7 17.9M17.7 6.5 6.3 17.9"/></>,
+                service: <><path d="M5.2 15.8V8.2L12 4.4l6.8 3.8v7.6L12 19.6l-6.8-3.8Z"/><path d="M8.1 12h7.8"/><path d="M12 8.1v7.8"/><circle cx="12" cy="12" r="4.1"/></>,
+            };
             return (
-                <motion.div className="feature-dock" initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.52, ease: [0.22, 1, 0.36, 1] }}>
-                    {features.map(([title, sub], index) => (
-                        <a href={title === "服务报价" ? "#pricing" : "#innovation"} className="feature-item" key={title}>
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V7l8-3 8 3v11l-8 3-8-3Z"/><path d="M8 9h8M8 13h8M12 5v14"/></svg>
-                            <span>{title}</span>
-                            <small>{sub}</small>
-                            <i style={{ "--delay": `${index * 80}ms` }}></i>
-                        </a>
-                    ))}
+                <span className={`feature-symbol ${id}`} aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                        {icons[id] || icons.creation}
+                    </svg>
+                </span>
+            );
+        };
+
+        const FeatureDock = () => {
+            const [activeModule, setActiveModule] = useState("creation");
+            const modules = [
+                { id: "creation", title: "创作工具", sub: "CREATION", tools: [
+                    { name: "Flowith", desc: "Flux生图/领积分", url: "https://flowith.net?inv=T03FW0ULWRZQ1GZ3" },
+                    { name: "Refly.ai", desc: "邀请码: HBX11Z", url: "https://refly.ai" },
+                    { name: "纳米AI", desc: "邀请码: 962RKZ", url: "https://www.n.cn/tools/aiagent/chat/9365deb7d82c455b8e2b94045a50ae08" },
+                    { name: "YOUMIND", desc: "注册领200积分", url: "https://youmind.com/invite/YRC54C" },
+                    { name: "AI Studio", desc: "Google API", url: "https://aistudio.google.com/" },
+                    { name: "Gemini", desc: "Google AI助手", url: "https://gemini.google.com" },
+                ]},
+                { id: "knowledge", title: "知识资源", sub: "KNOWLEDGE", tools: [
+                    { name: "香蕉库", desc: "提示词大全", url: "https://aiart.pics/" },
+                    { name: "香蕉库Pro", desc: "OpenNana", url: "https://opennana.com/awesome-prompt-gallery" },
+                    { name: "Youmind库", desc: "香蕉提示词", url: "https://youmind.com/zh-CN/nano-banana-pro-prompts" },
+                    { name: "乔木文档", desc: "AI知识库", url: "https://xiangyangqiaomu.feishu.cn/wiki/Ud2sw5LDViXKNokhH5fcaMzinOe?table=tblHZoTYED9b7Mgl&view=vewGCaGk8C" },
+                ]},
+                { id: "demos", title: "演示中心", sub: "DEMOS", tools: [
+                    { name: "计算美学实验室", desc: "底层逻辑验证", url: "./demo_computational_aesthetics" },
+                    { name: "每日资讯看板", desc: "自动化资讯流", url: "./news.html" },
+                    { name: "学员作品集", desc: "特训营成果展示", url: "./student_showcase.html" },
+                    { name: "工作室介绍", desc: "品牌杂志风PPT", url: "./ppts/studio_intro/" },
+                    { name: "Claude Code指南", desc: "DeepSeek V4 Pro 1M", url: "./ppts/claude_code_guide/" },
+                    { name: "赛车科普卡片", desc: "赛车史三大赛事", url: "./ppts/racing_cards/" },
+                ]},
+                { id: "creators", title: "关注博主", sub: "CREATORS", tools: [
+                    { name: "Berry", desc: "AI博主", url: "https://x.com/berryxia" },
+                    { name: "Servas", desc: "AI博主", url: "https://x.com/servasyy_ai" },
+                    { name: "TTMouse", desc: "AI博主", url: "https://x.com/ttmouse" },
+                    { name: "Xiaojie", desc: "AI博主", url: "https://x.com/xiaojietongxue" },
+                    { name: "Lufzz", desc: "AI博主", url: "https://x.com/LufzzLiz" },
+                    { name: "Emily", desc: "AI笔记", url: "https://x.com/IamEmily2050" },
+                ]},
+                { id: "service", title: "服务报价", sub: "SERVICE", tools: [
+                    { name: "训练营报价", desc: "AI视觉生成训练营", url: "./quotes/Xuemu_Lab_AI视觉训练营服务报价页_2026.html" },
+                    { name: "视觉设计报价", desc: "商用级图包", url: "./quotes/Xuemu_Lab_视觉设计服务报价单_2026.html" },
+                    { name: "图文内容报价", desc: "公众号内容合作", url: "./quotes/Xuemu_Lab_微信图文内容服务报价单_2026.html" },
+                    { name: "合作方案区", desc: "查看三档服务", url: "#pricing" },
+                ]},
+            ];
+            const active = modules.find((module) => module.id === activeModule) || modules[0];
+            const linkProps = (url) => url.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {};
+            return (
+                <motion.div id="innovation" className="feature-dock" initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, delay: 0.52, ease: [0.22, 1, 0.36, 1] }}>
+                    <div className="feature-module-row" role="tablist" aria-label="工具箱模块">
+                        {modules.map((module, index) => (
+                            <button
+                                type="button"
+                                role="tab"
+                                aria-selected={active.id === module.id}
+                                className={`feature-item ${active.id === module.id ? "active" : ""}`}
+                                key={module.id}
+                                onClick={() => setActiveModule(module.id)}
+                                onFocus={() => setActiveModule(module.id)}
+                            >
+                                <DockModuleIcon id={module.id}/>
+                                <span className="feature-title">{module.title}</span>
+                                <small>{module.sub}</small>
+                                <i style={{ "--delay": `${index * 80}ms` }}></i>
+                            </button>
+                        ))}
+                    </div>
+                    <div className="feature-tool-panel" role="tabpanel" aria-label={`${active.title}工具`}>
+                        <div className="feature-tool-head">
+                            <span>{active.title}</span>
+                            <small>{active.sub} MODULE</small>
+                        </div>
+                        <AnimatePresence mode="wait">
+                            <motion.div key={active.id} className="feature-tool-strip" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: 0.18 }}>
+                                {active.tools.map((tool) => (
+                                    <a key={tool.name} className="feature-tool-link" href={tool.url} {...linkProps(tool.url)}>
+                                        <span className="tool-mark" aria-hidden="true">{tool.name.slice(0, 1)}</span>
+                                        <span><strong>{tool.name}</strong><small>{tool.desc}</small></span>
+                                    </a>
+                                ))}
+                            </motion.div>
+                        </AnimatePresence>
+                    </div>
                 </motion.div>
             );
         };
@@ -448,7 +560,7 @@
                     ["作品画廊", `${Number(totalCount) || 0}+ 工业视觉资产`, "#gallery"],
                     ["每日资讯", latestNews ? `${latestNews.date} 前沿信号` : "自动化资讯流", "news.html"],
                     ["学员作品", "训练营成果展示", "student_showcase.html"],
-                    ["服务报价", "高客单价交付入口", "./quotes/Xuemu_Lab_视觉设计服务报价单_2026.html"],
+                    ["服务报价", "高客单价交付入口", "#pricing"],
                 ].map(([title, desc, href]) => (
                     <a key={title} href={href} className="entry-pill">
                         <span>{title}</span>
@@ -474,7 +586,7 @@
             </section>
         );
 
-        const GalleryIntro = ({ totalCount }) => (
+        const GalleryIntro = () => (
             <motion.div
                 className="gallery-intro max-w-7xl mx-auto px-4 md:px-5"
                 initial={{ opacity: 0, y: 18 }}
@@ -482,9 +594,7 @@
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
             >
-                <span>VISUAL GARAGE</span>
-                <h2>画廊作为独立内容舱保留</h2>
-                <p>首页首屏已切换为液态玻璃内容驾驶舱，原有 {totalCount} 个汽车概念视觉资产、提示词复制、筛选和编辑入口仍在这里完整可用。</p>
+                <h2>视觉图谱画廊</h2>
             </motion.div>
         );
 
@@ -493,8 +603,8 @@
             if (!isOpen) return null;
             const handleCopyWechat = () => { navigator.clipboard.writeText('oaoa5yt'); setWechatCopied(true); setTimeout(() => setWechatCopied(false), 2000); };
             return (
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-[110] flex items-center justify-center p-4 md:p-8 bg-black/80 backdrop-blur-md">
-                    <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="glass-shell w-full max-w-[1400px] h-[85vh] rounded-3xl overflow-hidden flex flex-col md:flex-row shadow-2xl border-white/14">
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="co-creation-overlay fixed inset-0 z-[110] flex items-center justify-center p-4 md:p-8 bg-black/80 backdrop-blur-md">
+                    <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="co-creation-modal glass-shell w-full max-w-[1400px] h-[85vh] rounded-3xl overflow-hidden flex flex-col md:flex-row shadow-2xl border-white/14">
                         <div className="md:w-[30%] p-10 text-white flex flex-col justify-between relative overflow-hidden bg-white/[0.02]">
                             <div className="absolute inset-0 bg-gradient-to-b from-white/[0.03] to-white/[0.01] pointer-events-none"></div>
                             <div className="relative z-10">
@@ -506,7 +616,7 @@
                                     <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 bg-va-mercury rounded-full"></span>Target: 300 Hardcore Creators</p>
                                 </div>
                             </div>
-                            <div className="relative z-10 glass p-5 rounded-2xl border-white/10 mt-auto">
+                            <div className="co-creation-support-card relative z-10 glass p-5 rounded-2xl border-white/10 mt-auto">
                                 <p className="font-mono text-[10px] text-va-rose mb-3 uppercase tracking-widest">Support the Creator</p>
                                 <div className="flex items-center gap-4"><img src="./images/coffe.jpg" alt="Coffee" className="w-16 h-16 rounded-xl shadow-lg border border-white/10"/><div><p className="font-bold text-sm leading-tight text-white">赞赏与支持</p><p className="text-[10px] text-white/30 font-mono mt-0.5">SUPPORT VIA QR</p></div></div>
                             </div>
@@ -547,11 +657,13 @@
         };
 
         const CoCreationWidget = ({ onOpen }) => (
-            <motion.div initial={{ x: -50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} whileHover={{ x: 8 }} className="fixed left-0 top-1/2 -translate-y-1/2 z-50 hidden md:block">
-                <button onClick={onOpen} className="glass-shell py-7 px-3 rounded-r-2xl border-y border-r border-white/12 shadow-xl flex flex-col items-center gap-5 group transition-all hover:bg-white/10">
-                    <span className="font-display text-lg tracking-[0.3em] [writing-mode:vertical-lr] font-bold text-white/65 group-hover:text-white transition-colors">CO-CREATION</span>
-                    <div className="w-1 h-10 bg-va-mercury group-hover:h-14 transition-all rounded-full"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-va-mercury group-hover:rotate-12 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5S19.832 5.477 21 6.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            <motion.div initial={{ x: -48, opacity: 0 }} animate={{ x: 0, opacity: 1 }} whileHover={{ x: 6 }} className="co-creation-widget">
+                <button onClick={onOpen} className="co-creation-tab" type="button" aria-label="打开图书共创项目">
+                    <span className="co-creation-glyph" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M5 5.8c3.2-1.5 5.4-.8 7 1.2v12.2c-1.8-1.6-4-2.1-7-.8V5.8Z"/><path d="M19 5.8c-3.2-1.5-5.4-.8-7 1.2v12.2c1.8-1.6 4-2.1 7-.8V5.8Z"/><path d="M12 7v12.2"/></svg>
+                    </span>
+                    <span className="co-creation-label">图书共创</span>
+                    <span className="co-creation-sub">BOOK LAB</span>
                 </button>
             </motion.div>
         );
@@ -592,63 +704,6 @@
                 </div>
             </motion.div>
         );
-
-        const Toolbox = () => {
-            const [activeTab, setActiveTab] = useState('creation');
-            const categories = {
-                creation: { label:"创作工具", icon:<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>, items:[
-                    {name:"Flowith",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M2 12h4l3-9 6 18 3-9h4"/></svg>,url:"https://flowith.net?inv=T03FW0ULWRZQ1GZ3",desc:"Flux生图/领积分"},
-                    {name:"Refly.ai",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>,url:"https://refly.ai",desc:"邀请码: HBX11Z"},
-                    {name:"纳米AI",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/></svg>,url:"https://www.n.cn/tools/aiagent/chat/9365deb7d82c455b8e2b94045a50ae08",desc:"邀请码: 962RKZ"},
-                    {name:"YOUMIND",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>,url:"https://youmind.com/invite/YRC54C",desc:"注册领200积分"},
-                    {name:"AI Studio",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M9 3h6v3H9zM10 14v4M14 14v4M5 6h14l-2 14H7L5 6z"/></svg>,url:"https://aistudio.google.com/",desc:"Google API"},
-                    {name:"Gemini",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>,url:"https://Gemini.google.com",desc:"Google AI助手"},
-                ]},
-                knowledge: { label:"知识资源", icon:<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 7H20v14H6.5A2.5 2.5 0 014 18.5v-14z"/></svg>, items:[
-                    {name:"香蕉库",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6"/><path d="M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></svg>,url:"https://aiart.pics/",desc:"提示词大全"},
-                    {name:"香蕉库Pro",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6"/><path d="M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/><path d="M12 3v18"/></svg>,url:"https://opennana.com/awesome-prompt-gallery",desc:"OpenNana"},
-                    {name:"Youmind库",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>,url:"https://youmind.com/zh-CN/nano-banana-pro-prompts",desc:"香蕉提示词"},
-                    {name:"乔木文档",icon:<svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>,url:"https://xiangyangqiaomu.feishu.cn/wiki/Ud2sw5LDViXKNokhH5fcaMzinOe?table=tblHZoTYED9b7Mgl&view=vewGCaGk8C",desc:"AI知识库"},
-                ]},
-                demos: { label:"演示中心", icon:<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>, items:[
-                    {name:"计算美学实验室",icon:<SvgIcon name="lab"/>,url:"./demo_computational_aesthetics",desc:"底层逻辑验证"},
-                    {name:"每日资讯看板",icon:<SvgIcon name="signal"/>,url:"./news.html",desc:"自动化资讯流"},
-                    {name:"学员作品集",icon:<SvgIcon name="art"/>,url:"./student_showcase.html",desc:"特训营成果展示"},
-                    {name:"工作室介绍",icon:<SvgIcon name="building"/>,url:"./ppts/studio_intro/",desc:"雪沐江南 · 品牌杂志风PPT",badge:"PPT"},
-                    {name:"Claude Code指南",icon:<SvgIcon name="keyboard"/>,url:"./ppts/claude_code_guide/",desc:"DeepSeek V4 Pro 1M 上手指导",badge:"PPT"},
-                    {name:"赛车科普卡片",icon:<SvgIcon name="racing"/>,url:"./ppts/racing_cards/",desc:"赛车史三大赛事科普",badge:"PPT"},
-                ]},
-                influencers: { label:"关注博主", icon:<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4l11.733 16h2.534L7.733 4H4z"/><path d="M4 20l7.768-10.4"/><path d="M18.267 4L12 12.8"/></svg>, items:[
-                    {name:"Berry",icon:<SvgIcon name="signal"/>,url:"https://x.com/berryxia",desc:"AI博主"},{name:"Servas",icon:<SvgIcon name="signal"/>,url:"https://x.com/servasyy_ai",desc:"AI博主"},{name:"TTMouse",icon:<SvgIcon name="signal"/>,url:"https://x.com/ttmouse",desc:"AI博主"},{name:"Xiaojie",icon:<SvgIcon name="signal"/>,url:"https://x.com/xiaojietongxue",desc:"AI博主"},{name:"Lufzz",icon:<SvgIcon name="signal"/>,url:"https://x.com/LufzzLiz",desc:"AI博主"},{name:"Josh",icon:<SvgIcon name="signal"/>,url:"https://x.com/joshesye",desc:"AI博主"},{name:"Emily",icon:<SvgIcon name="signal"/>,url:"https://x.com/IamEmily2050",desc:"AI博主"},{name:"AYi",icon:<SvgIcon name="signal"/>,url:"https://x.com/AYi_AInotes",desc:"AI笔记"},
-                ]}
-            };
-            const currentItems = categories[activeTab].items;
-            return (
-                <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1, duration: 0.4 }} className="max-w-7xl mx-auto px-4 md:px-5 mb-8">
-                    <div className="glass-card rounded-2xl p-4 flex flex-col gap-4 transition-all duration-300 shadow-xl">
-                        <div className="flex flex-wrap items-center gap-2 border-b border-white/10 pb-2">
-                            <div className="flex items-center gap-2 px-2 text-white/30 mr-2">
-                                <svg className="w-4 h-4 text-va-mercury" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <span className="font-mono text-xs tracking-widest hidden md:block">工具箱 // TOOLBOX</span>
-                            </div>
-                            {Object.entries(categories).map(([key,cat])=>(
-                                <button key={key} onClick={()=>setActiveTab(key)} className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-300 flex items-center gap-2 ${activeTab===key?'bg-white/12 text-va-mercury border border-white/18':'text-white/40 hover:text-white/70 hover:bg-white/5 border border-transparent'}`}><span>{cat.icon}</span><span>{cat.label}</span></button>
-                            ))}
-                        </div>
-                        <div className="flex flex-wrap justify-center md:justify-start gap-2.5 w-full min-h-[72px]">
-                            <AnimatePresence mode="wait">
-                                {currentItems.map(tool=>(
-                                    <motion.a key={tool.name} layout initial={{opacity:0,scale:0.95}} animate={{opacity:1,scale:1}} exit={{opacity:0,scale:0.95}} transition={{duration:0.2}} href={tool.url} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 px-4 py-2.5 glass-chip rounded-xl border-white/8 transition-all hover:bg-white/8 hover:border-white/20 flex-shrink-0">
-                                        <span className="text-lg text-white/55 group-hover:text-white transition-colors">{tool.icon}</span>
-                                        <div className="flex flex-col"><span className="text-xs font-bold text-white/80 leading-tight flex items-center gap-1.5">{tool.name}{tool.badge&&<span className="text-[8px] font-mono text-va-mercury border border-va-mercury/30 rounded px-1 py-px leading-none">{tool.badge}</span>}</span><span className="text-[10px] text-white/30 font-mono scale-95 origin-left">{tool.desc}</span></div>
-                                    </motion.a>
-                                ))}
-                            </AnimatePresence>
-                        </div>
-                    </div>
-                </motion.div>
-            );
-        };
 
         // --- Gallery Card with scroll-triggered pop-in ---
         const Card = ({ item, index, isMobile, onEdit }) => {
@@ -820,7 +875,22 @@
 
         const CoffeeButton = () => {
             const [showQR, setShowQR] = useState(false);
-            return (<div className="fixed bottom-8 right-8 z-50 flex flex-col items-end"><AnimatePresence>{showQR&&(<motion.div initial={{opacity:0,scale:0.8,y:10}} animate={{opacity:1,scale:1,y:0}} exit={{opacity:0,scale:0.8,y:10}} className="mb-4 glass-shell p-2 rounded-2xl shadow-xl border-white/14"><img src="./images/coffe.jpg" alt="Coffee" className="w-44 h-auto rounded-xl"/><div className="text-center mt-2 pb-1 text-xs font-mono text-white/50">谢谢你的支持</div></motion.div>)}</AnimatePresence><motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} onClick={()=>setShowQR(!showQR)} className="glass-shell p-3.5 rounded-full shadow-lg border-white/14 hover:bg-white/10 transition-all flex items-center gap-2 group"><SvgIcon name="coffee" className="w-5 h-5"/><span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 font-bold text-xs whitespace-nowrap text-white/65">请作者喝咖啡</span></motion.button></div>);
+            return (
+                <div className="coffee-widget">
+                    <AnimatePresence>
+                        {showQR&&(
+                            <motion.div initial={{opacity:0,scale:0.86,y:12}} animate={{opacity:1,scale:1,y:0}} exit={{opacity:0,scale:0.86,y:12}} className="coffee-panel">
+                                <img src="./images/coffe.jpg" alt="Coffee" />
+                                <div>谢谢你的支持</div>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+                    <motion.button whileHover={{scale:1.04}} whileTap={{scale:0.96}} onClick={()=>setShowQR(!showQR)} className="coffee-button" type="button" aria-label="请作者喝咖啡">
+                        <span className="coffee-button-icon"><SvgIcon name="coffee" className="w-5 h-5"/></span>
+                        <span>赞赏支持</span>
+                    </motion.button>
+                </div>
+            );
         };
 
         const App = () => {
@@ -873,12 +943,8 @@
                             <AnimatePresence>{isCoCreationOpen && <CoCreationModal isOpen={isCoCreationOpen} onClose={()=>setIsCoCreationOpen(false)}/>}</AnimatePresence>
                             <AnimatePresence>{isDataOpen && <DataDashboard isOpen={isDataOpen} onClose={()=>setIsDataOpen(false)}/>}</AnimatePresence>
 
-                            <section id="innovation" className="innovation-zone">
-                                <Toolbox/>
-                            </section>
-
                             <section id="gallery" className="gallery-zone">
-                                <GalleryIntro totalCount={data.length.toString().padStart(2,'0')}/>
+                                <GalleryIntro/>
                                 <FilterBar activeFilter={filter} setFilter={setFilter} categories={categories}/>
 
                                 <main className="flex-grow max-w-7xl mx-auto px-4 md:px-5 w-full">
