@@ -447,9 +447,9 @@
                         <img className="service-core-img" src="./images/home-service-core.png" alt="服务转化模块" loading="lazy"/>
                     </div>
                     <div className="engine-metrics">
-                        <p>训练营人数<br/><span>BOOTCAMP</span><strong><CountUpMetric target={12}/><small> 人</small></strong></p>
+                        <p>训练营人数<br/><span>BOOTCAMP</span><strong><CountUpMetric target={15}/><small> 人</small></strong></p>
                         <p>社区订阅<br/><span>FOLLOWERS</span><strong><CountUpMetric target={Number(wechatData?.total_followers) || 0}/></strong></p>
-                        <p>B端变现<br/><span>B2B REVENUE</span><strong><CountUpMetric target={8600}/><small> CNY</small></strong></p>
+                        <p>B端变现<br/><span>B2B REVENUE</span><strong><CountUpMetric target={12500}/><small> CNY</small></strong></p>
                     </div>
                 </div>
             </TiltGlassCard>
