@@ -491,7 +491,6 @@
                 ]},
                 { id: "demos", title: "演示中心", sub: "DEMOS", tools: [
                     { name: "B2B 变现仪表盘", desc: "财务实时看板", url: "./b2b.html" },
-                    { name: "计算美学实验室", desc: "底层逻辑验证", url: "./demo_computational_aesthetics" },
                     { name: "每日资讯看板", desc: "自动化资讯流", url: "./news.html" },
                     { name: "学员作品集", desc: "特训营成果展示", url: "./student_showcase.html" },
                     { name: "工作室介绍", desc: "品牌杂志风PPT", url: "./ppts/studio_intro/" },

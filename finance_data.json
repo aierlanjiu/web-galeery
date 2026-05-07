@@ -11,7 +11,7 @@
       "label": "训练营收入",
       "items": [
         {"stage": "一期", "detail": "4名学员 × ¥399", "amount": 1596},
-        {"stage": "二期", "detail": "2名学员 × ¥699", "actual": 1398, "net": 699, "note": "分老贾一半"},
+        {"stage": "二期", "detail": "2名学员 × ¥699", "actual": 1398, "net": 699, "note": "合伙人支出"},
         {"stage": "三期", "detail": "6名学员 × ¥399", "amount": 2394},
         {"stage": "高阶", "detail": "3名学员 × ¥699", "amount": 2097}
       ],
@@ -20,7 +20,7 @@
     "b2b": {
       "label": "B2B 商业交付",
       "items": [
-        {"client": "洪董", "detail": "视觉外包服务", "actual": 8600, "net": 4500, "note": "分老贾 ¥4,100"},
+        {"client": "洪董", "detail": "视觉外包服务", "actual": 8600, "net": 4500, "note": "合伙人支出"},
         {"client": "华为智擎", "detail": "品牌发布 - 已收定金", "amount": 3900, "note": "5张底盘总成与子零部件图"}
       ],
       "subtotal": 8400
