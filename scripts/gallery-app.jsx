@@ -490,6 +490,7 @@
                     { name: "乔木文档", desc: "AI知识库", url: "https://xiangyangqiaomu.feishu.cn/wiki/Ud2sw5LDViXKNokhH5fcaMzinOe?table=tblHZoTYED9b7Mgl&view=vewGCaGk8C" },
                 ]},
                 { id: "demos", title: "演示中心", sub: "DEMOS", tools: [
+                    { name: "B2B 变现仪表盘", desc: "财务实时看板", url: "./b2b.html" },
                     { name: "计算美学实验室", desc: "底层逻辑验证", url: "./demo_computational_aesthetics" },
                     { name: "每日资讯看板", desc: "自动化资讯流", url: "./news.html" },
                     { name: "学员作品集", desc: "特训营成果展示", url: "./student_showcase.html" },

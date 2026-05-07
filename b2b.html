@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>B2B 变现 · Art-Tech Swarm Financial Dashboard</title>
+    <script src="./vendor/tailwindcss-3.4.17.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'va-base': '#0b1018', 'va-surface': '#111a26', 'va-card': '#162232',
+                        'va-border': '#1e2d42', 'va-ink': '#eef2f6', 'va-muted': '#708498',
+                        'va-accent': '#5b9cf5', 'va-profit': '#3ecf8e', 'va-warn': '#f59e0b',
+                    },
+                    fontFamily: {
+                        display: ['Barlow Condensed', 'Noto Sans SC', 'sans-serif'],
+                        ui: ['Rajdhani', 'Noto Sans SC', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                        body: ['Noto Sans SC', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./styles/liquid-glass.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --glass-border: rgba(91, 156, 245, 0.12);
+            --glass-glow: rgba(91, 156, 245, 0.06);
+            --glass-highlight: rgba(255, 255, 255, 0.03);
+        }
+        body { background: var(--va-base); color: var(--va-ink); font-family: 'Rajdhani', 'Noto Sans SC', sans-serif; }
+        .glass-panel {
+            background: linear-gradient(135deg, rgba(17, 26, 38, 0.9) 0%, rgba(22, 34, 50, 0.7) 100%);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 var(--glass-highlight);
+        }
+        .glass-chip {
+            background: rgba(91, 156, 245, 0.08);
+            border: 1px solid rgba(91, 156, 245, 0.2);
+            border-radius: 8px;
+            padding: 4px 12px;
+            font-size: 0.8125rem;
+            color: var(--va-muted);
+        }
+        .kpi-value {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+        .kpi-label {
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.7rem;
+            color: var(--va-muted);
+        }
+        .gradient-line {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--va-accent), transparent);
+            opacity: 0.3;
+        }
+        .bar-fill {
+            height: 6px;
+            border-radius: 3px;
+            background: linear-gradient(90deg, var(--va-accent), #7cb8ff);
+            transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .funnel-step {
+            position: relative;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, rgba(17,26,38,0.8), rgba(22,34,50,0.5));
+            border-left: 3px solid var(--va-accent);
+            border-radius: 0 12px 12px 0;
+            transition: transform 0.2s ease;
+        }
+        .funnel-step:hover { transform: translateX(4px); }
+        .table-row { border-bottom: 1px solid rgba(30,45,66,0.5); }
+        .table-row:last-child { border-bottom: none; }
+        .profit-badge {
+            background: linear-gradient(135deg, rgba(62,207,142,0.15), rgba(62,207,142,0.05));
+            border: 1px solid rgba(62,207,142,0.3);
+            color: var(--va-profit);
+            border-radius: 6px;
+            padding: 2px 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        .nav-back {
+            display: inline-flex; align-items: center; gap: 6px;
+            color: var(--va-muted); text-decoration: none; font-size: 0.8125rem;
+            transition: color 0.2s;
+        }
+        .nav-back:hover { color: var(--va-accent); }
+        .nav-back svg { width: 16px; height: 16px; }
+    </style>
+</head>
+<body class="min-h-screen font-ui antialiased">
+
+<div class="max-w-6xl mx-auto px-4 md:px-5 py-8">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-8">
+        <a href="./index.html" class="nav-back">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            返回首页
+        </a>
+        <span class="glass-chip">Updated 2026-05-07</span>
+    </div>
+
+    <div class="mb-10">
+        <h1 class="text-4xl md:text-5xl font-display font-extrabold tracking-tight mb-2">
+            B2B <span style="background:linear-gradient(135deg,var(--va-accent),#7cb8ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">变现仪表盘</span>
+        </h1>
+        <p class="text-va-muted text-sm uppercase tracking-widest">Art-Tech Swarm · Financial Command Center</p>
+    </div>
+
+    <!-- KPI Cards -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10" id="kpi-grid"></div>
+
+    <!-- Revenue & Expenses -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-8" id="breakdown-grid"></div>
+
+    <!-- Funnel + Students -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-8" id="funnel-grid"></div>
+
+    <!-- Full Revenue Detail Table -->
+    <div class="glass-panel p-6 mb-8" id="detail-table"></div>
+
+    <!-- Footer -->
+    <div class="gradient-line mb-4"></div>
+    <p class="text-va-muted text-xs text-center">
+        Data source: <code class="text-va-accent/70">financial_ledger.md</code> · Synced via Finance Agent (Ledger - codex) · Art-Tech Swarm © 2026
+    </p>
+</div>
+
+<script>
+(async function() {
+    const resp = await fetch('./finance_data.json');
+    const data = await resp.json();
+    const { summary, revenue, expenses, funnel, students } = data;
+
+    // ── KPI Cards ──
+    const kpis = [
+        { label: '总营收', value: '¥' + summary.total_revenue.toLocaleString(), sub: 'Net Revenue', color: 'va-accent' },
+        { label: '总支出', value: '¥' + summary.total_expenses.toLocaleString(), sub: 'Total Cost', color: 'va-warn' },
+        { label: '净盈余', value: '¥' + summary.net_surplus.toLocaleString(), sub: 'Net Surplus', color: 'va-profit' },
+        { label: '利润率', value: summary.profit_margin + '%', sub: 'Profit Margin', color: 'va-profit' },
+    ];
+    document.getElementById('kpi-grid').innerHTML = kpis.map(k => `
+        <div class="glass-panel p-5 text-center">
+            <div class="kpi-label mb-1">${k.label}</div>
+            <div class="kpi-value text-3xl md:text-4xl" style="color:var(--${k.color})">${k.value}</div>
+            <div class="text-va-muted text-xs mt-1">${k.sub}</div>
+        </div>
+    `).join('');
+
+    // ── Revenue Breakdown ──
+    const revCategories = Object.values(revenue);
+    const maxRev = Math.max(...revCategories.map(c => c.subtotal));
+    const revHTML = `
+        <div class="glass-panel p-6">
+            <h3 class="font-display text-xl font-bold mb-4 tracking-tight">收入构成</h3>
+            ${revCategories.map(c => `
+                <div class="mb-3">
+                    <div class="flex justify-between text-sm mb-1">
+                        <span>${c.label}</span>
+                        <span class="font-mono text-va-accent">¥${c.subtotal.toLocaleString()}</span>
+                    </div>
+                    <div class="w-full bg-va-border rounded-full h-[6px]">
+                        <div class="bar-fill" style="width:${(c.subtotal / maxRev * 100).toFixed(0)}%"></div>
+                    </div>
+                </div>
+            `).join('')}
+            <div class="gradient-line my-3"></div>
+            <div class="flex justify-between text-sm font-bold">
+                <span>总收入</span><span class="font-mono" style="color:var(--va-accent)">¥${summary.total_revenue.toLocaleString()}</span>
+            </div>
+        </div>`;
+
+    // ── Expense Breakdown ──
+    const expHTML = `
+        <div class="glass-panel p-6">
+            <h3 class="font-display text-xl font-bold mb-4 tracking-tight">支出明细</h3>
+            ${Object.values(expenses).map(cat => `
+                <div class="mb-4">
+                    <div class="kpi-label mb-2">${cat.label} · ¥${cat.subtotal.toLocaleString()}</div>
+                    ${cat.items.map(e => `
+                        <div class="flex justify-between text-sm py-1.5 table-row">
+                            <span class="text-va-muted">${e.detail}</span>
+                            <span class="font-mono">¥${e.amount.toLocaleString()}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `).join('')}
+            <div class="gradient-line my-3"></div>
+            <div class="flex justify-between text-sm font-bold">
+                <span>总支出</span><span class="font-mono" style="color:var(--va-warn)">¥${summary.total_expenses.toLocaleString()}</span>
+            </div>
+        </div>`;
+
+    document.getElementById('breakdown-grid').innerHTML = revHTML + expHTML;
+
+    // ── Monetization Funnel ──
+    const funnelHTML = `
+        <div class="glass-panel p-6">
+            <h3 class="font-display text-xl font-bold mb-4 tracking-tight">变现漏斗</h3>
+            <div class="space-y-3">
+                ${funnel.tiers.map((t, i) => `
+                    <div class="funnel-step" style="margin-left:${i * 12}px; opacity:${1 - i * 0.08}">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-lg">¥${t.price}</span>
+                                <span class="text-va-muted text-sm ml-2">${t.name}</span>
+                            </div>
+                            <span class="glass-chip">${t.conversion || (t.students ? t.students + ' 学员' : '')}</span>
+                        </div>
+                        <div class="text-va-muted text-xs mt-1">${t.product}</div>
+                    </div>
+                `).join('')}
+            </div>
+        </div>`;
+
+    // ── Student Stats ──
+    const stuHTML = `
+        <div class="glass-panel p-6">
+            <h3 class="font-display text-xl font-bold mb-4 tracking-tight">学员统计</h3>
+            <div class="text-center mb-4">
+                <div class="kpi-value text-5xl" style="color:var(--va-accent)">${students.total}</div>
+                <div class="kpi-label">累计学员</div>
+            </div>
+            <div class="space-y-2">
+                ${students.by_tier.map(t => `
+                    <div class="flex justify-between items-center py-2 table-row">
+                        <span>${t.tier}</span>
+                        <span class="font-mono font-bold">${t.count} 人</span>
+                    </div>
+                `).join('')}
+            </div>
+            <div class="gradient-line my-3"></div>
+            <div class="text-xs text-va-muted">
+                训练营总收入：<span class="font-mono" style="color:var(--va-profit)">¥${revenue.training.subtotal.toLocaleString()}</span>
+            </div>
+        </div>`;
+
+    document.getElementById('funnel-grid').innerHTML = funnelHTML + stuHTML;
+
+    // ── Full Detail Table ──
+    const allRevenueItems = [];
+    Object.values(revenue).forEach(cat => {
+        cat.items.forEach(item => allRevenueItems.push({...item, category: cat.label}));
+    });
+    const detailHTML = `
+        <h3 class="font-display text-xl font-bold mb-4 tracking-tight">收入明细全览</h3>
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="text-va-muted text-left text-xs uppercase tracking-wider">
+                        <th class="pb-3 pr-4">类别</th><th class="pb-3 pr-4">详情</th><th class="pb-3 pr-4 text-right">金额</th><th class="pb-3 text-right">备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${allRevenueItems.map(item => `
+                        <tr class="table-row">
+                            <td class="py-2 pr-4"><span class="glass-chip">${item.category}</span></td>
+                            <td class="py-2 pr-4">${item.detail || item.client || '-'}</td>
+                            <td class="py-2 pr-4 text-right font-mono">¥${(item.net || item.amount).toLocaleString()}</td>
+                            <td class="py-2 text-right text-va-muted text-xs">${item.note || '-'}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        </div>
+        <div class="gradient-line my-4"></div>
+        <div class="flex justify-end gap-6 text-sm">
+            <span class="text-va-muted">总营收</span>
+            <span class="font-mono font-bold" style="color:var(--va-accent)">¥${summary.total_revenue.toLocaleString()}</span>
+            <span class="profit-badge">净利 ¥${summary.net_surplus.toLocaleString()}</span>
+        </div>`;
+    document.getElementById('detail-table').innerHTML = detailHTML;
+})();
+</script>
+</body>
+</html>

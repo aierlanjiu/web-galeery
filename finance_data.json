@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-05-07",
+  "summary": {
+    "total_revenue": 19286,
+    "total_expenses": 6245,
+    "net_surplus": 13041,
+    "profit_margin": 67.6
+  },
+  "revenue": {
+    "training": {
+      "label": "训练营收入",
+      "items": [
+        {"stage": "一期", "detail": "4名学员 × ¥399", "amount": 1596},
+        {"stage": "二期", "detail": "2名学员 × ¥699", "actual": 1398, "net": 699, "note": "分老贾一半"},
+        {"stage": "三期", "detail": "6名学员 × ¥399", "amount": 2394},
+        {"stage": "高阶", "detail": "3名学员 × ¥699", "amount": 2097}
+      ],
+      "subtotal": 6786
+    },
+    "b2b": {
+      "label": "B2B 商业交付",
+      "items": [
+        {"client": "洪董", "detail": "视觉外包服务", "actual": 8600, "net": 4500, "note": "分老贾 ¥4,100"},
+        {"client": "华为智擎", "detail": "品牌发布 - 已收定金", "amount": 3900, "note": "5张底盘总成与子零部件图"}
+      ],
+      "subtotal": 8400
+    },
+    "early": {
+      "label": "前期碎片化变现",
+      "items": [
+        {"detail": "提示词销售", "amount": 399},
+        {"detail": "打赏与赞助", "amount": 487, "note": "微信336 + 咖啡151"},
+        {"detail": "PPT 业务", "amount": 642},
+        {"detail": "零散视觉单", "amount": 189}
+      ],
+      "subtotal": 1717
+    },
+    "adjustment": {
+      "label": "历史补录",
+      "items": [
+        {"detail": "历史净收入补录", "amount": 2383, "note": "对齐项目核心背景"}
+      ],
+      "subtotal": 2383
+    }
+  },
+  "expenses": {
+    "hardware": {
+      "label": "硬件资产",
+      "items": [
+        {"detail": "Mac mini", "amount": 5700}
+      ],
+      "subtotal": 5700
+    },
+    "api": {
+      "label": "API 服务费",
+      "items": [
+        {"detail": "Gemini Subscription", "amount": 175},
+        {"detail": "Claude Code API", "amount": 50},
+        {"detail": "Codex (gpt-image-2)", "amount": 60},
+        {"detail": "Token 费用", "amount": 60, "note": "30×2"},
+        {"detail": "DeepSeek V4", "amount": 200}
+      ],
+      "subtotal": 545
+    }
+  },
+  "funnel": {
+    "label": "变现漏斗",
+    "tiers": [
+      {"price": 1.9, "name": "破冰引流", "product": "三套 Codex 提示词模板", "conversion": "3-5%"},
+      {"price": 129, "name": "进阶课程", "product": "百图解码全书 + 批量脚本", "conversion": "1-2%"},
+      {"price": 399, "name": "训练营", "product": "AI 视觉生成训练营", "students": 10},
+      {"price": 699, "name": "高阶社群", "product": "终身源码库 + 直播答疑", "students": 5}
+    ]
+  },
+  "students": {
+    "total": 15,
+    "by_tier": [
+      {"tier": "训练营 ¥399", "count": 10},
+      {"tier": "高阶 ¥699", "count": 5}
+    ]
+  }
+}
